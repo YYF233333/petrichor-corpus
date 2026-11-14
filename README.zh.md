@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-本仓库收存 [Petrichor](https://github.com/YYF233333/Petrichor) 设计的依据。Petrichor 是 GDScript 的静态类型后继语言。能由真实代码回答的设计问题，先在真实的 Godot 4 项目上调查。这里的每份调查是一篇报告，加上复现它的脚本和结果。[决策索引](decisions.zh.md)从规范的每条规则通往它的依据，也可反向查找。
+本仓库收存 [Petrichor](https://github.com/YYF233333/Petrichor) 设计的依据。Petrichor 是一门面向 Godot 4 的静态类型脚本语言，沿用 GDScript 的写法。能由真实代码回答的设计问题，先在真实的 Godot 4 项目上调查。这里的每份调查是一篇报告，加上复现它的脚本和结果。[决策索引](decisions.zh.md)从规范的每条规则通往它的依据，也可反向查找。
 
 ## 调查
 

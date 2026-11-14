@@ -2,7 +2,7 @@
 
 [中文](README.zh.md)
 
-This repository holds the evidence behind the design of [Petrichor](https://github.com/YYF233333/Petrichor), a statically typed successor to GDScript. When real code can answer a design question, Petrichor surveys real Godot 4 projects first. Each survey here is a write-up plus the scripts and results that reproduce it. The [decision index](decisions.md) leads from each spec rule to its evidence and back.
+This repository holds the evidence behind the design of [Petrichor](https://github.com/YYF233333/Petrichor), a statically typed scripting language for Godot 4 that keeps GDScript's syntax. When real code can answer a design question, Petrichor surveys real Godot 4 projects first. Each survey here is a write-up plus the scripts and results that reproduce it. The [decision index](decisions.md) leads from each spec rule to its evidence and back.
 
 ## Surveys
 
