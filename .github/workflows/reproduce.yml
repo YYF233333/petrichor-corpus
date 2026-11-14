@@ -1,0 +1,22 @@
+name: reproduce
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/cache@v4
+        with:
+          path: corpus/v1
+          key: corpus-${{ hashFiles('corpus/v1.json') }}
+      - run: python fetch.py v1
+      - run: curl -sSfL --create-dirs -o inputs/extension_api-4-7.json https://raw.githubusercontent.com/godotengine/godot-cpp/8070599885b6df675fcad033dd032ce44be2b850/gdextension/extension_api-4-7.json
+      - run: python reproduce.py
