@@ -35,6 +35,7 @@ Requirements: Python 3.11 with the standard library only, and git. `README.md` g
   - State the conclusion as a proportion of the sample.
   - The full readings already made on corpus v1 stay as they are.
 - On a new corpus version, rerun every number in full. Read code again only where a number moves close to the threshold of the decision it backs.
+- Surveys count at most 20,000 first-party lines per repository, drawn by file with the fixed seed recorded in the manifest.
 - Survey scripts read the corpus manifest, so old scripts run on any corpus version unchanged. `gdcorpus.REPOS` reads `corpus/v1.json`, or the manifest named by the `CORPUS_MANIFEST` environment variable.
 - A script moves to a shared parsing layer only when it must change anyway. New surveys use the shared layer once it exists.
 

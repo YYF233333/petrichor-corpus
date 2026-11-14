@@ -23,13 +23,18 @@ The write-ups are in Chinese. Each ends with the commands that reproduce it.
 
 ## Corpus
 
-`corpus/v1.json` pins 20 Godot 4 repositories at fixed commits. Each has a group: game, plugin, demos or tool. Fetch it with Python 3.11 and git:
+`corpus/v1.json` pins 20 Godot 4 repositories at fixed commits. Each has a group: game, plugin, demos or tool.
+
+`corpus/v2.json` pins 200 Godot 4 repositories and keeps all 20 from v1 (`Ring` has weight `reference`). It records group, license, stars, creation date, authorship, weight and excluded generated paths. Surveys count at most 20,000 first-party lines per repository, using seed `20261115` from the manifest. See [`selection/selection.md`](selection/selection.md) for the selection rules and counts.
+
+Fetch a corpus version with Python 3.11 and git:
 
 ```
-python fetch.py
+python fetch.py       # fetches v1
+python fetch.py v2    # fetches v2
 ```
 
-The clones are shallow, blobless and sparse. They hold only `.gd`, `.tscn`, `.tres` and other text files. They go to `corpus/v1/`, which git ignores.
+The clones are shallow, blobless and sparse. They hold only `.gd`, `.tscn`, `.tres` and other text files. They go to `corpus/v1/` or `corpus/v2/`, which git ignores.
 
 ## Rerunning
 

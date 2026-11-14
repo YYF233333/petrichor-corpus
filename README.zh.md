@@ -23,13 +23,18 @@
 
 ## 语料
 
-`corpus/v1.json` 把 20 个 Godot 4 仓库固定在各自的提交上。每个仓库属于一组：game、plugin、demos 或 tool。用 Python 3.11 和 git 拉取：
+`corpus/v1.json` 把 20 个 Godot 4 仓库固定在各自的提交上。每个仓库属于一组：game、plugin、demos 或 tool。
+
+`corpus/v2.json` 固定了 200 个 Godot 4 仓库，保留 v1 的全部 20 个仓库（`Ring` 权重为 `reference`）。清单记录分组、许可证、星数、创建日期、作者归属、权重和排除的生成路径。每仓库最多计 20,000 行第一方代码，按清单中的种子 `20261115` 抽取。选取规则与统计见 [`selection/selection.md`](selection/selection.md)。
+
+用 Python 3.11 和 git 拉取语料：
 
 ```
-python fetch.py
+python fetch.py       # 拉取 v1
+python fetch.py v2    # 拉取 v2
 ```
 
-克隆是浅克隆，不取历史文件内容，只检出部分文件。检出的只有 `.gd`、`.tscn`、`.tres` 等文本文件。克隆放在 `corpus/v1/`，git 忽略这个目录。
+克隆是浅克隆，不取历史文件内容，只检出部分文件。检出的只有 `.gd`、`.tscn`、`.tres` 等文本文件。克隆放在 `corpus/v1/` 或 `corpus/v2/`，git 忽略这些目录。
 
 ## 重跑
 
