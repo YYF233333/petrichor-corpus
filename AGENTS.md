@@ -4,7 +4,7 @@ This file is the whole context an agent needs to work here. Links point to backg
 
 ## Project
 
-petrichor-corpus holds the evidence behind the design of [Petrichor](https://github.com/YYF233333/Petrichor), a statically typed successor to GDScript. Petrichor's [spec](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) is the source of truth for the rules. This repository answers design questions with real Godot 4 code and records the answers.
+petrichor-corpus holds the evidence behind the design of [Petrichor](https://github.com/YYF233333/Petrichor), a statically typed scripting language for Godot 4 that keeps GDScript's syntax. Petrichor's [spec](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) is the source of truth for the rules. This repository answers design questions with real Godot 4 code and records the answers.
 
 - `corpus/vN.json`: corpus manifest version N. It lists the sparse-checkout patterns and, per repository, `name`, `url`, `commit` and `group`.
 - `fetch.py`: `python fetch.py vN` clones manifest N into `corpus/vN/`, which git ignores.
