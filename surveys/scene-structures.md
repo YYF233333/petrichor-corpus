@@ -1,6 +1,6 @@
 # 调查：一个脚本会见到几种场景结构
 
-**2026-10-23** · 关联：[语言规范](../language-spec.zh.md) §7.1–§7.3
+**2026-10-23** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §7.1–§7.3
 
 `$X`、`%X` 和 `get_node("…")` 的静态类型，可以取自挂载脚本的场景（以场景为准），也可以取自脚本中的声明。以场景为准要干净，前提是一个脚本只见到一种场景结构，或者它见到的各种结构对它用到的每个路径给出同一个类型。本文检验这个前提：在 20 个仓库中按引擎的规则合成每个文本场景的完整节点树，统计每个脚本见到几种结构，再在每种结构中解析它的每一处字面路径。
 
@@ -336,7 +336,7 @@ tps-demo：`door/door.gd:6`；`door/door.tscn:13, 25`
 - **有些路径的答案不在挂载场景里。** 经外层场景解析的 `%名称`（游戏 1 处，插件与工具 2 处）、运行时添加的节点、导入模型的内部（游戏 14 处）。
 - **挂载场景子树之外的访问很常见。** 游戏中 `/root/…` 130 处、`get_parent()` 166 处、`owner.` 29 处、`..` 10 处，222 个脚本调用 `add_child`。
 
-依据这些数据所作的决定见[语言规范](../language-spec.zh.md) §7.1–§7.3。规范采用做法 A：模板场景缺少的节点按场景的使用方式检查，可选节点用 `get_node_or_null` 表达，运行时添加的节点不按路径定型（§7.2）；`/root/X` 改用有类型的 autoload 全局名，父节点和 owner 用 `@parent(T)`、`@owner(T)` 声明（§7.3）。
+依据这些数据所作的决定见[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §7.1–§7.3。规范采用做法 A：模板场景缺少的节点按场景的使用方式检查，可选节点用 `get_node_or_null` 表达，运行时添加的节点不按路径定型（§7.2）；`/root/X` 改用有类型的 autoload 全局名，父节点和 owner 用 `@parent(T)`、`@owner(T)` 声明（§7.3）。
 
 ## 局限
 
@@ -352,18 +352,18 @@ tps-demo：`door/door.gd:6`；`door/door.tscn:13, 25`
 
 ## 复现
 
-脚本在 [`scene-structures/`](scene-structures/) 目录，只用 Python 3 标准库（在 Python 3.11 上运行过），克隆需要 git。`fetch_corpus.py` 列出全部仓库和提交，并以稀疏、浅克隆取回；`analyze.py` 合成场景树、解析路径，写出 `repos.json`、`scripts.csv`、`uses.csv`、`contexts.csv`；`report.py` 输出各仓库表和各组统计（`report.txt`）以及游戏组中见到 ≥2 种结构的脚本清单（`multi_games.txt`）；`summarize.py` 输出机制、用途等汇总（`summary.txt`），用途标签取自 `purpose_labels.csv`；`classes.json` 是原生类的继承关系，可用 `build_classes.py` 从 Godot 源码重新生成（只读类参考 XML，不构建引擎）；`test_fixture.py` 用 `fixture_corpus/` 中的合成项目自检，加 `--write` 时先重新生成这个项目；`check_tokens.py`、`check_tokens2.py` 是分词器的抽查工具。[`results/`](scene-structures/results/) 中是本文所用的 `report.txt`、`summary.txt`、`multi_games.txt` 和 `repos.json`。
+脚本在 [`scene-structures/`](scene-structures/) 目录，只用 Python 3 标准库（在 Python 3.11 上运行过），克隆需要 git。仓库根目录的 `fetch.py` 按语料清单 `corpus/v1.json` 以稀疏、浅克隆取回全部仓库；`analyze.py` 合成场景树、解析路径，写出 `repos.json`、`scripts.csv`、`uses.csv`、`contexts.csv`；`report.py` 输出各仓库表和各组统计（`report.txt`）以及游戏组中见到 ≥2 种结构的脚本清单（`multi_games.txt`）；`summarize.py` 输出机制、用途等汇总（`summary.txt`），用途标签取自 `purpose_labels.csv`；`classes.json` 是原生类的继承关系，可用 `build_classes.py` 从 Godot 源码重新生成（只读类参考 XML，不构建引擎）；`test_fixture.py` 用 `fixture_corpus/` 中的合成项目自检，加 `--write` 时先重新生成这个项目；`check_tokens.py`、`check_tokens2.py` 是分词器的抽查工具。[`results/`](scene-structures/results/) 中是本文所用的 `report.txt`、`summary.txt`、`multi_games.txt` 和 `repos.json`。
 
 ```
-python docs/surveys/scene-structures/fetch_corpus.py corpus        # 20 个仓库，固定提交
-python docs/surveys/scene-structures/analyze.py corpus out         # out/repos.json、scripts.csv、uses.csv、contexts.csv
-python docs/surveys/scene-structures/report.py corpus out          # out/report.txt、out/multi_games.txt
-python docs/surveys/scene-structures/summarize.py out              # out/summary.txt
-python docs/surveys/scene-structures/test_fixture.py               # 输出 fixture OK
+python fetch.py    # 20 个仓库，固定提交
+python surveys/scene-structures/analyze.py corpus/v1 out         # out/repos.json、scripts.csv、uses.csv、contexts.csv
+python surveys/scene-structures/report.py corpus/v1 out          # out/report.txt、out/multi_games.txt
+python surveys/scene-structures/summarize.py out              # out/summary.txt
+python surveys/scene-structures/test_fixture.py               # 输出 fixture OK
 # 可选
-python docs/surveys/scene-structures/build_classes.py <Godot 源码目录>   # 在提交 469659e 上重新生成 classes.json
-python docs/surveys/scene-structures/check_tokens.py corpus out          # 分词器与正则的计数对照
-python docs/surveys/scene-structures/check_tokens2.py corpus Pixelorama  # 列出两者不一致的行
+python surveys/scene-structures/build_classes.py <Godot 源码目录>   # 在提交 469659e 上重新生成 classes.json
+python surveys/scene-structures/check_tokens.py corpus/v1 out          # 分词器与正则的计数对照
+python surveys/scene-structures/check_tokens2.py corpus/v1 Pixelorama  # 列出两者不一致的行
 ```
 
 在 Windows 上用 Python 3.11 重跑，`out/` 中的四个对应文件与 `results/` 逐字节相同；换用不同的 `PYTHONHASHSEED`，全部输出也不变。

@@ -2,7 +2,7 @@
 ext_resources, and a script, when it compiles, its preloads and its base script.
 
 Usage: python preload_cycles.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
 
 Edges start at first-party .tscn, .tres and .gd files: each ext_resource of a scene or a resource (a script, a
 subscene or an exported resource), each preload() of a script with a literal path, and a script's base script (extends

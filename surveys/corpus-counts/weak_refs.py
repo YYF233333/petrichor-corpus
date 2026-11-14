@@ -1,7 +1,7 @@
 """Weak references in first-party GDScript: calls to `weakref(...)`, the name `WeakRef` and calls to `.get_ref()`.
 
 Usage: python weak_refs.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
 
 Token-based (gdcorpus tokenizer), so strings and comments are skipped. `weakref(` counts without a `.` before it,
 `get_ref(` only with one. Every use is listed with its repository group, and read.

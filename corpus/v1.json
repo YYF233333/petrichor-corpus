@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "sparse": ["*.gd", "*.tscn", "*.tres", "*.scn", "*.uid", "*.cs", "project.godot", "plugin.cfg", "/LICENSE*", "/COPYING*", "/license*"],
+  "repos": [
+    {"name": "beehave", "url": "https://github.com/bitbrain/beehave.git", "commit": "fe589153fa780a3f88989578ceb5f539afffb7c2", "group": "plugin"},
+    {"name": "gdUnit4", "url": "https://github.com/MikeSchulze/gdUnit4.git", "commit": "9bc1a450682c9c0d337e1b8977535f0a710385e1", "group": "plugin"},
+    {"name": "godot_dialogue_manager", "url": "https://github.com/nathanhoad/godot_dialogue_manager.git", "commit": "7a72dcf64cfec8673d398606f2991d4cf81f2d11", "group": "plugin"},
+    {"name": "godot-demo-projects", "url": "https://github.com/godotengine/godot-demo-projects.git", "commit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1", "group": "demos"},
+    {"name": "Godot-Game-Template", "url": "https://github.com/Maaack/Godot-Game-Template.git", "commit": "6849d6c352dafe8ed54b5fa4f4b9774adfca31c8", "group": "plugin"},
+    {"name": "godot-open-rpg", "url": "https://github.com/gdquest-demos/godot-open-rpg.git", "commit": "d59f2f71bc046ac53239a4e590861269e7100a36", "group": "game"},
+    {"name": "godot-statecharts", "url": "https://github.com/derkork/godot-statecharts.git", "commit": "76d226a3efac66a72aea825382b320c94808f409", "group": "plugin"},
+    {"name": "phantom-camera", "url": "https://github.com/ramokz/phantom-camera.git", "commit": "21d3762492e2dc51b448f55438b89b3c19349f96", "group": "plugin"},
+    {"name": "Pixelorama", "url": "https://github.com/Orama-Interactive/Pixelorama.git", "commit": "38a8b03eafc56a2815c42ff53ef3f61db7cf432b", "group": "tool"},
+    {"name": "Starter-Kit-3D-Platformer", "url": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer.git", "commit": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0", "group": "game"},
+    {"name": "Starter-Kit-City-Builder", "url": "https://github.com/KenneyNL/Starter-Kit-City-Builder.git", "commit": "4535092b740b378b700efd9df9e27a631815b84a", "group": "game"},
+    {"name": "Starter-Kit-FPS", "url": "https://github.com/KenneyNL/Starter-Kit-FPS.git", "commit": "185fd2326d74a5cf858cffc616f87cf9696f9cc0", "group": "game"},
+    {"name": "Starter-Kit-Racing", "url": "https://github.com/KenneyNL/Starter-Kit-Racing.git", "commit": "2f2e5f2646dda89cb21d4e8539bab60c6e955dc8", "group": "game"},
+    {"name": "tps-demo", "url": "https://github.com/godotengine/tps-demo.git", "commit": "a82f15448e9b015440d3bbdf5e10801b260c4e9f", "group": "game"},
+    {"name": "godot-open-rts", "url": "https://github.com/lampe-games/godot-open-rts.git", "commit": "a628ad3bb6a9a903587a181a7ee3300dbf735e81", "group": "game"},
+    {"name": "tanks-of-freedom-ii", "url": "https://github.com/P1X-in/tanks-of-freedom-ii.git", "commit": "dbe629ea05691599dde4fd65ab9a13b78a4ccfe1", "group": "game"},
+    {"name": "deck_builder_tutorial", "url": "https://github.com/guladam/deck_builder_tutorial.git", "commit": "91b408bc660e9b7389892dd4242a4d76e5bc9e77", "group": "game"},
+    {"name": "godot-tiny-mmo", "url": "https://github.com/SlayHorizon/godot-tiny-mmo.git", "commit": "f4ed04f20963c3285117e58b1149fa1117658d3c", "group": "game"},
+    {"name": "godot_open_star_fighter", "url": "https://github.com/teeeece/godot_open_star_fighter.git", "commit": "6e7be5c1371b91fb9dbd7f3c8c67f8cfc967580c", "group": "game"},
+    {"name": "Ring", "url": "https://github.com/YYF233333/Ring.git", "commit": "0ec41610f25d83917e6410451ad6d796a948c766", "group": "game"}
+  ]
+}

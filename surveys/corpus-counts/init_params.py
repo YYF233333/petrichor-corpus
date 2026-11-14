@@ -1,7 +1,7 @@
 """`_init` with parameters in first-party GDScript, by native ancestor, and how those classes are constructed.
 
 Usage: python init_params.py CORPUS_DIR EXTENSION_API_JSON
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json (engine class hierarchy)
 
 Token-based (gdcorpus tokenizer). Only a file's own `func _init` (at column 0) counts; inner classes do not. The native

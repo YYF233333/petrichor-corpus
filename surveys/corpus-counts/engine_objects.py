@@ -1,7 +1,7 @@
 """Uses of the engine APIs through which objects pass, in first-party GDScript, by name (spec §10.2).
 
 Usage: python engine_objects.py CORPUS_DIR EXTENSION_API_JSON
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json
 
 Token-based (gdcorpus tokenizer), with no type resolution, so each name counts for every engine class declaring it.

@@ -2,7 +2,7 @@
 many first-party GDScript files of the corpus use each.
 
 Usage: python gdscript_builtins.py CORPUS_DIR [--samples N]
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
     --samples N: also print the first N locations of each name, for reading
 
 The names are those of modules/gdscript/gdscript_tokenizer.cpp:540-546 and

@@ -1,0 +1,5 @@
+/corpus/*/
+/inputs/
+/work/
+/out/
+__pycache__/

@@ -1,7 +1,7 @@
 """Calls to the engine APIs that return null on failure with an error read afterwards, in first-party GDScript.
 
 Usage: python null_failures.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
 
 Token-based (gdcorpus tokenizer, which splits `:=` and `==` into single characters). A call is `Class.method(`.
 Within the call's line and the next 3 lines, a call is counted as:

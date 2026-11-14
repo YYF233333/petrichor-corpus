@@ -4,7 +4,7 @@ String, is not counted. Each construct was found among the compiler's diagnostic
 confirmed by compiling a snippet of a few lines with the headless build (--petrichor-build).
 
 Usage: python remaining3.py CORPUS_DIR EXTENSION_API_JSON [--samples N]
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json, for the engine's classes
     --samples N: also print the first N locations of each construct, for reading
 

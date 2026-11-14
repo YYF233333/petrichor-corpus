@@ -1,6 +1,6 @@
 # 调查：引擎按名字访问的成员
 
-**2026-11-08** · 关联：[语言规范](../language-spec.zh.md) §4.2、§7.7、§10.4、§10.5；[成员使用调查](member-visibility.md)（语料相同）
+**2026-11-08** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §4.2、§7.7、§10.4、§10.5；[成员使用调查](member-visibility.md)（语料相同）
 
 ## 问题
 
@@ -110,6 +110,6 @@ Godot 在许多地方按名字查找成员，本语言要在其上建立静态�
 ## 复现
 
 ```
-python docs/surveys/cross-branch-duplication/gdcorpus.py corpus
-python docs/surveys/by-name-access/names.py corpus thirdparty/godot-cpp/gdextension/extension_api-4-7.json > docs/surveys/by-name-access/results/names.txt
+python fetch.py
+python surveys/by-name-access/names.py corpus/v1 inputs/extension_api-4-7.json > surveys/by-name-access/results/names.txt
 ```

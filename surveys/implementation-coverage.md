@@ -1,6 +1,6 @@
 # 调查：真实代码用到而实现尚不支持的写法
 
-**2026-11-01** · 关联：[语言规范](../language-spec.zh.md)、[实现架构](../architecture.md)
+**2026-11-01** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md)、[实现架构](https://github.com/YYF233333/Petrichor/blob/main/docs/architecture.md)
 
 ## 问题
 
@@ -203,7 +203,7 @@
 | `Array[T](a)`、`Dictionary[K, V](d)` | | 0 | 0 | 0 | 0 |
 
 - 两种作为值的写法几乎都在 gdUnit4 中。用到 `class_name` 作为值的 45 个文件中它占 43 个，用到引擎类作为值的 20 个中占 18 个。它们多是测试把类传给 `mock()` 和 `is_instanceof()`。
-- 引擎类作为值还没有设计。规范只把存在变量中的引擎类记为 `is_instance_of()` 的已知限制（§2.6）。[设计说明](../design-notes.md)把它留给类作为值一并设计。
+- 引擎类作为值还没有设计。规范只把存在变量中的引擎类记为 `is_instance_of()` 的已知限制（§2.6）。[设计说明](https://github.com/YYF233333/Petrichor/blob/main/docs/design-notes.md)把它留给类作为值一并设计。
 - `class_name` 作为值则是实现的缺口：内部类和 preload 的常量已能作为值，它却被报为未声明的名字。
 - 游戏仓库中最常见的是 lambda 的参数，26 个文件中 20 个在 godot-open-rts。规范的标准库让 `map`、`filter`、`sort` 等接受带类型的 lambda（§3.8）。有期望类型时，lambda 的参数取自它（§4.6）。实现还没给出这个期望类型，所以迁移时要写出参数的类型。
 - 绝对路径的 `$` 有 3 个文件在 Ring 中，如 `$/root/Main`，另一个是 gdUnit4 的测试。
@@ -224,10 +224,10 @@
 ## 复现
 
 ```
-python docs/surveys/cross-branch-duplication/gdcorpus.py corpus
-python docs/surveys/implementation-coverage/coverage.py corpus thirdparty/godot-cpp/gdextension/extension_api-4-7.json > docs/surveys/implementation-coverage/results/coverage.txt
-python docs/surveys/implementation-coverage/remaining.py corpus thirdparty/godot-cpp/gdextension/extension_api-4-7.json > docs/surveys/implementation-coverage/results/remaining.txt
-python docs/surveys/implementation-coverage/remaining2.py corpus thirdparty/godot-cpp/gdextension/extension_api-4-7.json > docs/surveys/implementation-coverage/results/remaining2.txt
-python docs/surveys/implementation-coverage/gdscript_builtins.py corpus > docs/surveys/implementation-coverage/results/gdscript_builtins.txt
-python docs/surveys/implementation-coverage/remaining3.py corpus thirdparty/godot-cpp/gdextension/extension_api-4-7.json > docs/surveys/implementation-coverage/results/remaining3.txt
+python fetch.py
+python surveys/implementation-coverage/coverage.py corpus/v1 inputs/extension_api-4-7.json > surveys/implementation-coverage/results/coverage.txt
+python surveys/implementation-coverage/remaining.py corpus/v1 inputs/extension_api-4-7.json > surveys/implementation-coverage/results/remaining.txt
+python surveys/implementation-coverage/remaining2.py corpus/v1 inputs/extension_api-4-7.json > surveys/implementation-coverage/results/remaining2.txt
+python surveys/implementation-coverage/gdscript_builtins.py corpus/v1 > surveys/implementation-coverage/results/gdscript_builtins.txt
+python surveys/implementation-coverage/remaining3.py corpus/v1 inputs/extension_api-4-7.json > surveys/implementation-coverage/results/remaining3.txt
 ```

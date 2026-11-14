@@ -1,8 +1,8 @@
 """Scene-structure survey: how many structures does each GDScript see, and do its literal node paths
 resolve to the same type in all of them?
 
-Usage: python analyze.py CORPUS OUT [name ...]      (after fetch_corpus.py)
-Reads CORPUS/<name> for every repository in fetch_corpus.REPOS (or only the names given) and the
+Usage: python analyze.py CORPUS OUT [name ...]      (after fetch.py at the repository root)
+Reads CORPUS/<name> for every repository in the corpus manifest (or only the names given) and the
 native class hierarchy in classes.json next to this script.
 Writes OUT/repos.json, OUT/scripts.csv, OUT/uses.csv and OUT/contexts.csv.
 Python 3 stdlib only.
@@ -15,9 +15,9 @@ import os
 import re
 import sys
 
-from fetch_corpus import REPOS
-
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", "cross-branch-duplication"))
+from gdcorpus import REPOS  # noqa: E402
 ALL = "*"
 
 # addons/<name>/ directories that are first-party for the repo (everything else under addons/ is vendored).

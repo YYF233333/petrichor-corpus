@@ -1,6 +1,6 @@
 # 调查：真实的 Godot 4 项目如何使用属性的 getter
 
-**2026-10-22** · 关联：[语言规范](../language-spec.zh.md) §4.4、§6.1、§6.5
+**2026-10-22** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §4.4、§6.1、§6.5
 
 本文调查真实的 Godot 4 代码如何使用属性访问器，用来回答规范 v0.1（git 标签 `spec-v0.1`）的一个设计问题：是否把属性分成存储属性和计算属性。做法是先在真实代码上统计所关心的写法出现得有多频繁，再看各个候选设计会对这些代码产生什么影响。v0.1 采用了下文的设计 B；现行规范沿用 GDScript 的访问器，即设计 A（§4.4），并让就绪前的 setter 自动挂起（§6.5）。结论依赖于已经改变的规则时，文中会注明。
 
@@ -360,7 +360,7 @@ git clone https://github.com/godotengine/godot-demo-projects
 git -C godot-demo-projects checkout b761b4c
 # 对其余仓库重复以上两步，提交见“语料”一节的表格
 cd ..
-python docs/surveys/property-accessors/extract.py corpus           # 输出各仓库统计，写入 corpus/properties.json 和 corpus/corpus.json
-python docs/surveys/property-accessors/dump.py corpus > dump.txt   # 每个第一方候选及其访问器
-python docs/surveys/property-accessors/count.py corpus             # 本文所有统计数字
+python surveys/property-accessors/extract.py corpus           # 输出各仓库统计，写入 corpus/properties.json 和 corpus/corpus.json
+python surveys/property-accessors/dump.py corpus > dump.txt   # 每个第一方候选及其访问器
+python surveys/property-accessors/count.py corpus             # 本文所有统计数字
 ```

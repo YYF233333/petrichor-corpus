@@ -1,7 +1,7 @@
 """Count first-party lines that register a node on an autoload member: `Autoload.member = self`.
 
 Usage: python autoload_self.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (the 20 repositories)
+    CORPUS_DIR: fetched with fetch.py at the repository root (the 20 repositories)
 """
 import collections
 import os

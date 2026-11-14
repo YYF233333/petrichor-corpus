@@ -1,7 +1,7 @@
 """One-off token counts over the 20-repository corpus, used as evidence by individual rules of the specification.
 
 Usage: python counts.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
 
 Counts, in first-party .gd files (blank and comment lines excluded from the line total):
   - the `null` literal, split into comparisons (`== null`, `!= null`) and other uses;

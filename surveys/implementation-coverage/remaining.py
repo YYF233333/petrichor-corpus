@@ -2,7 +2,7 @@
 that the implementation still does not support, once every construct of coverage.py is.
 
 Usage: python remaining.py CORPUS_DIR EXTENSION_API_JSON [--samples N]
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json, for the engine's classes, their
         constants and the methods that return Variant
     --samples N: also print the first N locations of each construct, for reading

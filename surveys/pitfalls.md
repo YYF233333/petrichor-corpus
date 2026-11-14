@@ -1,6 +1,6 @@
 # 调查：Godot 4 脚本的暗坑清单
 
-**2026-10-23** · 引擎：Godot 提交 `469659e` · 关联：[语言规范](../language-spec.zh.md)
+**2026-10-23** · 引擎：Godot 提交 `469659e` · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md)
 
 本文整理写 Godot 4 脚本时会踩到的暗坑，分引擎与 GDScript、C#（.NET）桥接两组，共 80 条，并逐条判断：一门新的静态类型脚本语言及其工具链能否消除它，靠什么消除，修复是否需要只对引擎模块开放、不对 GDExtension 开放的 C++ 接口。清单本身在 [`pitfalls/catalog.md`](pitfalls/catalog.md)，数据在 `pitfalls/catalog.tsv`；本文说明它的来源和做法，并汇总结果。文中的修复类别都是推断，不是决定；规范按编号引用条目，引用处列在文末。
 
@@ -183,7 +183,7 @@
 `build.py` 只需要 Python 3 标准库：
 
 ```
-python docs/surveys/pitfalls/build.py out    # 写出 out/catalog.tsv 和 out/catalog.md，并打印统计
+python surveys/pitfalls/build.py out    # 写出 out/catalog.tsv 和 out/catalog.md，并打印统计
 ```
 
 不带参数时写回脚本所在的目录。这样生成的两个文件与目录中的文件逐字节相同。
@@ -201,14 +201,14 @@ python docs/surveys/pitfalls/build.py out    # 写出 out/catalog.tsv 和 out/ca
 | `freq.ps1` | Stack Overflow 的问题总数和 forum.godotengine.org 的主题数 |
 
 ```
-pwsh docs/surveys/pitfalls/helpers/dump.ps1 godotengine/godot topic:gdscript godot_gdscript.tsv
-pwsh docs/surveys/pitfalls/helpers/dump.ps1 godotengine/godot-proposals topic:gdscript proposals_gdscript.tsv
-pwsh docs/surveys/pitfalls/helpers/gq.ps1 'repo:godotengine/godot "previously freed" in:title'
-pwsh docs/surveys/pitfalls/helpers/iss.ps1 godotengine/godot 21789
+pwsh surveys/pitfalls/helpers/dump.ps1 godotengine/godot topic:gdscript godot_gdscript.tsv
+pwsh surveys/pitfalls/helpers/dump.ps1 godotengine/godot-proposals topic:gdscript proposals_gdscript.tsv
+pwsh surveys/pitfalls/helpers/gq.ps1 'repo:godotengine/godot "previously freed" in:title'
+pwsh surveys/pitfalls/helpers/iss.ps1 godotengine/godot 21789
 ```
 
 转储文件较大，而且只反映读取当天的状态，没有收入仓库。研究者阅读文档时用的文档源文件副本另有许可，也没有收入；目录中的文档引文都给出了页面地址。引擎事实可以检出 Godot 提交 `469659e` 后按 `path:line` 核对。
 
 ## 在规范中的引用
 
-[语言规范](../language-spec.zh.md)引用了以下条目：G-07 和 G-08（§3.3），G-02（§6.2），G-03 和 G-05（§6.4），G-04（§6.3），G-09（§6.6），G-10（§6.7），G-11（§9.7），G-12 和 G-13（§9.5），G-19、G-20 和 G-34（§7.6），C-17（§11.2）。
+[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md)引用了以下条目：G-07 和 G-08（§3.3），G-02（§6.2），G-03 和 G-05（§6.4），G-04（§6.3），G-09（§6.6），G-10（§6.7），G-11（§9.7），G-12 和 G-13（§9.5），G-19、G-20 和 G-34（§7.6），C-17（§11.2）。

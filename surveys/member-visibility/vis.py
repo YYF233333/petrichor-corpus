@@ -1,7 +1,7 @@
 """Where script members are used: only in their own file, also in subclasses, or in other scripts.
 
 Usage: python vis.py CORPUS_DIR API_JSON
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
     API_JSON:   written by ../cross-branch-duplication/build_api.py
 
 Members are top-level `func`, `var`, `signal` and `const` declarations (static ones included) in first-party

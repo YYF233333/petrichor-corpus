@@ -1,6 +1,6 @@
 # 调查：脚本成员在哪里被使用
 
-**2026-10-24** · 关联：[语言规范](../language-spec.zh.md) §2.4、§4.2
+**2026-10-24** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §2.4、§4.2
 
 ## 问题
 
@@ -66,7 +66,7 @@
 `api.json` 的生成方法见[跨分支重复调查](cross-branch-duplication.md)。
 
 ```
-python docs/surveys/cross-branch-duplication/gdcorpus.py corpus
-python docs/surveys/cross-branch-duplication/build_api.py ../godot work/api.json   # Godot 检出在 469659e
-python docs/surveys/member-visibility/vis.py corpus work/api.json > docs/surveys/member-visibility/results/vis.txt
+python fetch.py
+python surveys/cross-branch-duplication/build_api.py ../godot work/api.json   # Godot 检出在 469659e
+python surveys/member-visibility/vis.py corpus/v1 work/api.json > surveys/member-visibility/results/vis.txt
 ```

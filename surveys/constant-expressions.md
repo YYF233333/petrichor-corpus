@@ -1,6 +1,6 @@
 # 调查：常量表达式
 
-**2026-11-01** · 关联：[语言规范](../language-spec.zh.md) §4.5
+**2026-11-01** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §4.5
 
 ## 问题
 
@@ -83,6 +83,6 @@ GDScript 借引擎在编译期求出常量的值，本语言的编译器不依�
 ## 复现
 
 ```
-python docs/surveys/cross-branch-duplication/gdcorpus.py corpus
-python docs/surveys/constant-expressions/constants.py corpus thirdparty/godot-cpp/gdextension/extension_api-4-7.json > docs/surveys/constant-expressions/results/constants.txt
+python fetch.py
+python surveys/constant-expressions/constants.py corpus/v1 inputs/extension_api-4-7.json > surveys/constant-expressions/results/constants.txt
 ```

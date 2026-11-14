@@ -2,7 +2,7 @@
 
 Usage: python inner_classes.py CORPUS_DIR EXTENSION_API_JSON [--samples N]
        python inner_classes.py --selftest
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json (engine class hierarchy and members)
 
 Token-based (gdcorpus tokenizer), no type resolution: an inner class is `class` first on a logical line (after

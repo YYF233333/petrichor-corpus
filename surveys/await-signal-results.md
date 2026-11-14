@@ -1,6 +1,6 @@
 # 调查：等待多参数信号的结果有多常被使用
 
-**2026-10-22** · 关联：[语言规范](../language-spec.zh.md) §9.6
+**2026-10-22** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §9.6
 
 本文是一次小规模的实证调查，对象是规范 v0.1（git 标签 `spec-v0.1`）中一个尚未确定的选择：await 一个有多个参数的信号，得到的是什么。做法是先在真实代码上统计这种情况出现的频率，再逐条比较各个候选规则在这些代码上分别会产生什么结果。现行规范采用了规则 A：多参数信号的 await 只能作为语句（§9.6）。
 
@@ -234,8 +234,8 @@ git clone https://github.com/godotengine/godot-demo-projects
 git -C godot-demo-projects checkout b761b4c
 # 对其余仓库重复以上两步，提交见“语料”一节的表格
 cd ..
-python docs/surveys/await-signal-results/extract.py corpus ../godot          # 输出表格，写入 corpus/awaits.json 和 corpus/connects.json
-python docs/surveys/await-signal-results/dump.py corpus used-signals > used.txt   # 结果被使用的信号 await 及其上下文
+python surveys/await-signal-results/extract.py corpus ../godot          # 输出表格，写入 corpus/awaits.json 和 corpus/connects.json
+python surveys/await-signal-results/dump.py corpus used-signals > used.txt   # 结果被使用的信号 await 及其上下文
 ```
 
 `dump.py` 还接受 `all`、`signals`、`used`、`multi`、`unknown`、`byname`、`nonsignal` 和 `manual`。只检出 `.gd` 文件的稀疏检出得到的统计相同，因为文件不存在时，脚本会从 git 树中读取 `project.godot` 的位置。

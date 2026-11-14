@@ -1,7 +1,7 @@
 """Assignments to a character of a String (`s[i] = c`) in first-party GDScript.
 
 Usage: python string_index.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
 
 Token-based (gdcorpus tokenizer, which splits `:=` and `==` into single characters). A name is a String when the
 file declares it as `name: String`, `var name := "..."` or `var name = "..."`, anywhere in the file. An assignment is

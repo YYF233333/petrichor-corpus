@@ -1,7 +1,7 @@
 """How many first-party GDScript files of the corpus use a construct that the implementation does not support yet.
 
 Usage: python coverage.py CORPUS_DIR EXTENSION_API_JSON [--samples N]
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json, for the static methods of
         engine classes and built-in types
     --samples N: also print the first N locations of each construct, for reading

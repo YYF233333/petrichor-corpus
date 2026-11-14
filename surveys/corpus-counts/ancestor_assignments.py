@@ -1,7 +1,7 @@
 """Assignments from a node's script to script members of the nodes below it, by scene ownership.
 
 Usage: python ancestor_assignments.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
 
 Evidence for members that must be assigned, which an ancestor may assign in its `_ready()`. The question is
 how often the assigned node lies inside an instanced sub-scene rather than in the ancestor's own scene.

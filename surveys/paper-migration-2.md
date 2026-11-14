@@ -1,8 +1,8 @@
 # 调查：按设计决定纸面迁移两个真实项目
 
-**2026-10-25** · 关联：设计决定（提交 `a099ad4`）、[语言规范](../language-spec.zh.md)、[第一次纸面迁移](paper-migration.md)
+**2026-10-25** · 关联：设计决定（提交 `a099ad4`）、[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md)、[第一次纸面迁移](paper-migration.md)
 
-[第一次纸面迁移](paper-migration.md)评估的是规范 v0.1。项目随后重新设计，新的规则先记录为一组设计决定，再据此写成现行的[语言规范](../language-spec.zh.md)（v0.2 草案）。本文按提交 `a099ad4` 时的设计决定（当时在 `docs/decisions.md`）重新迁移同一批代码，再推演五个维护场景。目的有三个：测量迁移成本；看各项规则合在一起时哪里有摩擦；找出当时的设计决定还没有写到、迁移时只能假定的地方。这些假定现在都已写入规范，见“迁移时的假定”；迁移暴露的问题和规范的处理见“迁移暴露的问题”。文中的章节号（§）指现行规范。改写没有编译器检查，所以仍称纸面迁移。
+[第一次纸面迁移](paper-migration.md)评估的是规范 v0.1。项目随后重新设计，新的规则先记录为一组设计决定，再据此写成现行的[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md)（v0.2 草案）。本文按提交 `a099ad4` 时的设计决定（当时在 `docs/decisions.md`）重新迁移同一批代码，再推演五个维护场景。目的有三个：测量迁移成本；看各项规则合在一起时哪里有摩擦；找出当时的设计决定还没有写到、迁移时只能假定的地方。这些假定现在都已写入规范，见“迁移时的假定”；迁移暴露的问题和规范的处理见“迁移暴露的问题”。文中的章节号（§）指现行规范。改写没有编译器检查，所以仍称纸面迁移。
 
 ## 素材
 
@@ -138,7 +138,7 @@ Ring 的 Brick 和 Enemy 各有 2 到 5 个子类，基类有 17 个成员只是
 ```
 git clone https://github.com/KenneyNL/Starter-Kit-FPS fps && git -C fps checkout 185fd23
 git clone https://github.com/YYF233333/Ring ring && git -C ring checkout 0ec4161
-python docs/surveys/paper-migration-2/stats.py fps ring
-python docs/surveys/cross-branch-duplication/gdcorpus.py corpus
-python docs/surveys/paper-migration-2/autoload_self.py corpus
+python surveys/paper-migration-2/stats.py fps ring
+python fetch.py
+python surveys/paper-migration-2/autoload_self.py corpus/v1
 ```

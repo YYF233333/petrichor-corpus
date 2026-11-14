@@ -2,7 +2,7 @@
 script (`Global.LayerTypes`).
 
 Usage: python autoload_types.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
 
 Token-based (gdcorpus tokenizer). An autoload is an entry of `[autoload]` in the project.godot of the file's project,
 with a res:// or uid:// path; a scene autoload stands for the script of its root node. A type is a name after

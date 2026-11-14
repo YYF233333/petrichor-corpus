@@ -8,7 +8,7 @@ import re
 import sys
 
 import analyze as A
-from fetch_corpus import REPOS
+from analyze import REPOS
 
 if len(sys.argv) < 3:
     sys.exit(__doc__)

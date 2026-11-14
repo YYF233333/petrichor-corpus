@@ -1,7 +1,7 @@
 """How first-party GDScript in the corpus uses `const`. Lexical (token-level) survey.
 
 Usage: python constants.py CORPUS_DIR EXTENSION_API_JSON
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json
 
 Per `const` declaration: where it is declared, its type annotation, the form of its initializer and what

@@ -1,7 +1,7 @@
 """Layout habits of the corpus, as evidence for the formatter's rules (specification §13.2).
 
 Usage: python layout.py CORPUS_DIR
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR: fetched with fetch.py at the repository root
 
 Counts, in first-party .gd files (a tab is 4 columns, the editor's default indent size):
   - files indented with tabs, with spaces, with both, and without indentation;

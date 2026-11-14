@@ -3,7 +3,7 @@ class of this language (spec §11.3): static method calls, and enums, constants 
 expressions. Also the reads of constants and enum values that it can make, and calls through autoload instances.
 
 Usage: python class_level_access.py CORPUS_DIR EXTENSION_API_JSON
-    CORPUS_DIR: fetched with ../cross-branch-duplication/gdcorpus.py (first-party rules and groups from there)
+    CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json (engine class hierarchy)
 
 Token-based (gdcorpus tokenizer). `X.m` counts when X, outside a member access, names another file: a class_name of

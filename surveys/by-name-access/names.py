@@ -1,7 +1,7 @@
 """Where Godot looks members up by name, and which script members it would need to find.
 
 Usage: python names.py CORPUS_DIR EXTENSION_API_JSON
-    CORPUS_DIR:          fetched with ../cross-branch-duplication/gdcorpus.py
+    CORPUS_DIR:          fetched with fetch.py at the repository root
     EXTENSION_API_JSON:  thirdparty/godot-cpp/gdextension/extension_api-4-7.json (Godot 4.7.2, ed1daf0)
 
 Channels, in first-party files only (gdcorpus.py's rules):

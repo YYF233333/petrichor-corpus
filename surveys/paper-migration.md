@@ -2,7 +2,7 @@
 
 **2026-10-22** · 关联：规范 v0.1（提交 `7d3e718`，git 标签 `spec-v0.1`）、[第二次纸面迁移](paper-migration-2.md)
 
-本文评估的是早期的规范 v0.1。项目随后重新设计，现行设计是[语言规范](../language-spec.zh.md)（v0.2 草案），按它重做的评估见[第二次纸面迁移](paper-migration-2.md)。除各表的“现行规范”一列外，文中的章节号（§）都指 v0.1。
+本文评估的是早期的规范 v0.1。项目随后重新设计，现行设计是[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md)（v0.2 草案），按它重做的评估见[第二次纸面迁移](paper-migration-2.md)。除各表的“现行规范”一列外，文中的章节号（§）都指 v0.1。
 
 此前的调查各回答规范中的一个具体选择。本文测量整份规范落到真实代码上的代价：把两个项目的 GDScript 逐行改写成符合 v0.1 的代码，记下每一处额外工作；再在 14 个仓库的语料上统计其中几类写法的频率，检验这两个项目是否有代表性。改写没有编译器检查，所以称为纸面迁移。文中的修正约定、候选和假定是迁移时采用或计数的，当时不是 v0.1 的规则；它们在现行规范中的去向见各表的“现行规范”一列。
 
@@ -274,7 +274,7 @@ func dialogue(str: String):
 ```
 git clone https://github.com/KenneyNL/Starter-Kit-FPS fps && git -C fps checkout 185fd23
 git clone https://github.com/YYF233333/Ring ring && git -C ring checkout 0ec4161
-python docs/surveys/paper-migration/stats.py fps ring
+python surveys/paper-migration/stats.py fps ring
 # 语料：按属性访问器调查“复现”一节克隆 14 个仓库到 corpus/
-python docs/surveys/paper-migration/idioms.py corpus Ring-breakout=ring/breakout/scenes
+python surveys/paper-migration/idioms.py corpus Ring-breakout=ring/breakout/scenes
 ```

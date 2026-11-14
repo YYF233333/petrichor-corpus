@@ -1,6 +1,6 @@
 # 调查：原生基类不同的脚本之间的重复代码
 
-**2026-10-23** · 关联：[语言规范](../language-spec.zh.md) §3.9、§4.1；[场景结构调查](scene-structures.md)（语料相同）
+**2026-10-23** · 关联：[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §3.9、§4.1；[场景结构调查](scene-structures.md)（语料相同）
 
 Godot 的脚本只能继承一个原生类。两个原生类不同的对象需要同样的行为时，例如一个 StaticBody2D 和一个 CharacterBody2D，它们无法共用一个脚本基类，代码只能复制、放进子节点或改写成别的形式。本文在 20 个仓库上测量这种限制造成的重复有多常见、重复的是什么，并逐组判断哪种机制能消除它。数字都由脚本算出；机制归类是阅读代码后的判断，文中单独标出。
 
@@ -375,7 +375,7 @@ func _gather_player_sides(map_data):
 - **显式的跨类型调用很少。** 游戏的 2,081 个消费点中只有 55 处，一半以上的消费点接收者没有类型。
 - **组合已经被用来跨分支共用代码**，游戏中有 11 个这样的组件。Ring 同时用了组合和复制。
 
-依据这些数据所作的决定见[语言规范](../language-spec.zh.md) §3.9、§4.1：带状态的共同基类用 `@abstract`，不同引擎基类的类共有的能力用接口，第一版没有带状态的 mixin。规范中接口的默认方法可以通过接口属性读写状态，范围比本文的标签 (a) 宽。
+依据这些数据所作的决定见[语言规范](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md) §3.9、§4.1：带状态的共同基类用 `@abstract`，不同引擎基类的类共有的能力用接口，第一版没有带状态的 mixin。规范中接口的默认方法可以通过接口属性读写状态，范围比本文的标签 (a) 宽。
 
 接口的默认方法此后移到第一版之后（规范 §14.2）。
 
@@ -391,20 +391,20 @@ func _gather_player_sides(map_data):
 
 ## 复现
 
-脚本放在 [`cross-branch-duplication/`](cross-branch-duplication/) 目录，只需要 Python 3（标准库，在 3.11 上运行）和 git。`gdcorpus.py` 列出语料和第一方规则，并能拉取语料；`build_api.py` 从 Godot 类参考 XML 提取引擎类的成员和继承关系；`dup.py` 做克隆检测、共同能力和变通写法的统计；`components.py` 统计组件；`make_labels.py` 保存阅读所得的标签，并把它们与检测结果对应起来，生成 `labels.csv`；`report.py` 汇总出 `report.txt`，本文的统计数字都在其中或由其中的数字算出；`ring_check.py` 做 Ring 的核对。godot-tiny-mmo 的界面片段组见重新生成的 `groups_near.csv`。
+脚本放在 [`cross-branch-duplication/`](cross-branch-duplication/) 目录，只需要 Python 3（标准库，在 3.11 上运行）和 git。`gdcorpus.py` 读取语料清单，定义第一方规则；`build_api.py` 从 Godot 类参考 XML 提取引擎类的成员和继承关系；`dup.py` 做克隆检测、共同能力和变通写法的统计；`components.py` 统计组件；`make_labels.py` 保存阅读所得的标签，并把它们与检测结果对应起来，生成 `labels.csv`；`report.py` 汇总出 `report.txt`，本文的统计数字都在其中或由其中的数字算出；`ring_check.py` 做 Ring 的核对。godot-tiny-mmo 的界面片段组见重新生成的 `groups_near.csv`。
 
 `api.json` 约 770 KB，不随附，由 `build_api.py` 从 Godot 提交 `469659e` 的检出生成。随附的结果在 `out/`（K = 5：`report.txt`、`summary.json`、`workarounds.json`、`components.csv`、`components_summary.json`、`ring_check.txt`）、`out_k3/report.txt` 和 `out_k8/report.txt` 中。逐区域和逐组的 CSV、代码片段等大文件由脚本重新生成。
 
 ```
-python docs/surveys/cross-branch-duplication/gdcorpus.py corpus     # 20 个固定提交的浅克隆，只检出 .gd、.tscn 等文本文件
-python docs/surveys/cross-branch-duplication/build_api.py ../godot work/api.json   # Godot 检出在 469659e
-python docs/surveys/cross-branch-duplication/dup.py --corpus corpus --api work/api.json --out work/out
-python docs/surveys/cross-branch-duplication/components.py --corpus corpus --api work/api.json --out work/out
-python docs/surveys/cross-branch-duplication/make_labels.py work/out --labels work/labels.csv   # 应与随附的 labels.csv 相同
-python docs/surveys/cross-branch-duplication/report.py work/out    # 写出 work/out/report.txt
-python docs/surveys/cross-branch-duplication/dup.py --corpus corpus --api work/api.json --out work/out_k3 --k 3
-python docs/surveys/cross-branch-duplication/report.py work/out_k3
-python docs/surveys/cross-branch-duplication/dup.py --corpus corpus --api work/api.json --out work/out_k8 --k 8
-python docs/surveys/cross-branch-duplication/report.py work/out_k8
-python docs/surveys/cross-branch-duplication/ring_check.py --corpus corpus --api work/api.json work/out work/out_k3 work/out_k8
+python fetch.py    # 20 个固定提交的浅克隆，只检出 .gd、.tscn 等文本文件
+python surveys/cross-branch-duplication/build_api.py ../godot work/api.json   # Godot 检出在 469659e
+python surveys/cross-branch-duplication/dup.py --corpus corpus/v1 --api work/api.json --out work/out
+python surveys/cross-branch-duplication/components.py --corpus corpus/v1 --api work/api.json --out work/out
+python surveys/cross-branch-duplication/make_labels.py work/out --labels work/labels.csv   # 应与随附的 labels.csv 相同
+python surveys/cross-branch-duplication/report.py work/out    # 写出 work/out/report.txt
+python surveys/cross-branch-duplication/dup.py --corpus corpus/v1 --api work/api.json --out work/out_k3 --k 3
+python surveys/cross-branch-duplication/report.py work/out_k3
+python surveys/cross-branch-duplication/dup.py --corpus corpus/v1 --api work/api.json --out work/out_k8 --k 8
+python surveys/cross-branch-duplication/report.py work/out_k8
+python surveys/cross-branch-duplication/ring_check.py --corpus corpus/v1 --api work/api.json work/out work/out_k3 work/out_k8
 ```
