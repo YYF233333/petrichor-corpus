@@ -1,0 +1,16 @@
+repo                         commit    files   lines | first-party: lines props | test: lines props | vendored: lines props | duplicate: lines props
+beehave                      fe58915     322   35193 |              4469    23 |              4097     0 |             26627    18 |                 0     0
+gdUnit4                      9bc1a45     482   54133 |             27406    18 |             26727     3 |                 0     0 |                 0     0
+godot-demo-projects          b761b4c     461   30819 |             30819    39 |                 0     0 |                 0     0 |                 0     0
+Godot-Game-Template          6849d6c     125    8553 |              5128    28 |                 0     0 |              2269    12 |              1156     1
+godot-open-rpg               d59f2f7     342   40662 |              5422    59 |                 0     0 |             35240    79 |                 0     0
+godot-statecharts            76d226a     141   18768 |              4635    16 |              2217     0 |             11916    35 |                 0     0
+godot_dialogue_manager       7a72dcf      79   14619 |             12434    29 |              2185     0 |                 0     0 |                 0     0
+phantom-camera               21d3762      36   10410 |             10410   181 |                 0     0 |                 0     0 |                 0     0
+Pixelorama                   38a8b03     249   60025 |             54782   194 |                 0     0 |              5243    22 |                 0     0
+Starter-Kit-3D-Platformer    3fa8a04       9     378 |               378     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-City-Builder     4535092       6     311 |               311     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-FPS              185fd23       7     451 |               451     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-Racing           2f2e5f2       3     258 |               258     0 |                 0     0 |                 0     0 |                 0     0
+tps-demo                     a82f154      15    1619 |              1619     2 |                 0     0 |                 0     0 |                 0     0
+total properties with accessors: 759 {'first-party': 589, 'test': 3, 'vendored': 166, 'duplicate': 1}

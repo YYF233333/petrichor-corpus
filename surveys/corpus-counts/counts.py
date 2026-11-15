@@ -47,6 +47,7 @@ Counts, in first-party .gd files (blank and comment lines excluded from the line
     names, after `.` or elsewhere, with locations for reading.
 """
 import collections
+import json
 import os
 import sys
 
@@ -413,7 +414,7 @@ def doc_comments(src, ts, c, where):
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) not in (2, 4) or (len(sys.argv) == 4 and sys.argv[2] != "--metrics"):
         sys.exit(__doc__)
     c = collections.Counter()
     by_repo = collections.defaultdict(collections.Counter)
@@ -421,7 +422,9 @@ def main():
     tested_at = []
     freeing_at = collections.defaultdict(list)
     assert_calls = collections.Counter()
+    metrics = {}
     for name, _, _, group in G.REPOS:
+        before = c.copy()
         repo = G.Repo(sys.argv[1], name, group)
         repo_files = []
         for f in repo.files:
@@ -602,6 +605,11 @@ def main():
             casts = []
             enum_uses(ts, enums, classes, c, casts)
             freeing_at["cast to an enum with as"] += [f"{name}/{f}:{cast}" for cast in casts]
+        metrics[name] = dict(c - before)
+    if len(sys.argv) == 4:
+        with open(sys.argv[3], "w", encoding="utf-8", newline="\n") as fh:
+            json.dump({"repos": metrics, "sites": freeing_at}, fh, indent=1, sort_keys=True)
+            fh.write("\n")
     null = c["null_compare"] + c["null_other"]
     print(f"code lines: {c['lines']}")
     print(f"null: {null} ({null * 1000 / c['lines']:.1f} per 1,000 lines); "

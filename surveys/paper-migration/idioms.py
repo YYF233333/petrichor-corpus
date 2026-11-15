@@ -15,6 +15,7 @@ sys.dont_write_bytecode = True
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "property-accessors"))
 from extract import clean_lines, logical_lines  # noqa: E402
 from scope import scope_of  # noqa: E402
+import gdcorpus as G  # noqa: E402
 
 VARIANT_MATH = "abs|ceil|clamp|floor|lerp|max|min|round|sign|snapped|wrap"
 NODE_PATH = r"(?<![\w)\]\"'])[$%](?:\"[^\"]*\"|'[^']*'|[\w/.]*\w(?![\w/]))"
@@ -80,14 +81,20 @@ def scan(path):
 
 def collect(name, root, use_scope):
     total, loc = dict.fromkeys(KEYS, 0), 0
+    access = G.Repo(os.path.dirname(root), name, G.REPO_METADATA[name]["group"]) if use_scope else None
     for dp, dn, fn in os.walk(root):
         dn[:] = sorted(d for d in dn if d != ".git")
         for f in sorted(fn):
             if not f.endswith(".gd"):
                 continue
             p = os.path.join(dp, f)
-            if use_scope and scope_of(name, os.path.relpath(p, root).replace("\\", "/")) != "first-party":
-                continue
+            rel = os.path.relpath(p, root).replace("\\", "/")
+            if use_scope:
+                if G.MANIFEST_DATA.get("version") == 1:
+                    if scope_of(name, rel) != "first-party":
+                        continue
+                elif not access.first_party(rel):
+                    continue
             n, c = scan(p)
             loc += n
             for k in KEYS:
@@ -98,7 +105,7 @@ def collect(name, root, use_scope):
 def main():
     corpus = sys.argv[1]
     repos = [collect(r, os.path.join(corpus, r), True)
-             for r in sorted(os.listdir(corpus)) if os.path.isdir(os.path.join(corpus, r))]
+             for r in sorted(row[0] for row in G.survey_repos(legacy=True))]
     extra = [collect(*arg.split("=", 1), False) for arg in sys.argv[2:]]
 
     head = "| | lines | " + " | ".join(KEYS) + " |\n|---|" + "---:|" * (len(KEYS) + 1)
@@ -113,8 +120,8 @@ def main():
 
     print("\n## per 1,000 lines\n" + head)
     rate("corpus", repos)
-    rate("games and demos", [g for g in repos if g[0] in GAMES])
-    rate("plugins and tools", [g for g in repos if g[0] not in GAMES])
+    rate("games and demos", [g for g in repos if (g[0] in GAMES if G.MANIFEST_DATA.get("version") == 1 else G.REPO_METADATA[g[0]]["group"] in ("game", "demo", "demos"))])
+    rate("plugins and tools", [g for g in repos if (g[0] not in GAMES if G.MANIFEST_DATA.get("version") == 1 else G.REPO_METADATA[g[0]]["group"] in ("plugin", "tool"))])
     for g in extra:
         rate(g[0], [g])
     big = [g for g in repos if g[1] >= 1000]

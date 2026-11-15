@@ -5,27 +5,27 @@ K = 3 non-trivial logical lines per window. X = exact, N = near (locals+literals
 repo                       grp    commit     LLOC  dupX  cbX cbX/k  cbN cbN/k  cbL  gX  gN prX frcX   snX   scX  top native pairs (exact groups)
 beehave                    plugin fe58915    5169  2267   24   4.6   24   4.6   54   1   1   2   24   386   530  GraphEdit/VBoxContainer x1
 gdUnit4                    plugin 9bc1a45   26384  3677    6   0.2   22   0.8   64   1   3   1    0     6   575  Control/Node x1
-godot_dialogue_manager     plugin 7a72dcf    7377   499   76  10.3   82  11.1  233   5   5   4   18    24     0  Area2D/Area3D x2, CodeEdit/Control x1, Button/HBoxContainer x1
-godot-demo-projects        demos  b761b4c   16776  1029  120   7.2  128   7.6  184   7   8   5  100   243     6  CharacterBody2D/RigidBody2D x2, CanvasItem/Node x2, Node/Node2D x1
-Godot-Game-Template        plugin 6849d6c    5878  2122  224  38.1  246  41.9  581  12  14  14  224   926   648  Container/Tree x9, Label/Node x1, AcceptDialog/Label x1
-godot-open-rpg             games  d59f2f7    2190   176    6   2.7    0   0.0   80   1   0   1    6    22   118  Marker2D/Path2D x1
-godot-statecharts          plugin 76d226a    3377   684   12   3.6   12   3.6   51   2   2   2   12     6    73  Control/Node x1, CharacterBody2D/StaticBody2D x1
-phantom-camera             plugin 21d3762    5394  1194  918 170.2  959 177.8 1584  50  51   9  694    52    18  Node2D/Node3D x48, Node/Node2D x3, Node/Node3D x2
+godot_dialogue_manager     plugin 7a72dcf    8079   541   76   9.4   82  10.1  233   5   5   4   18    24     0  Area2D/Area3D x2, Button/HBoxContainer x1, CodeEdit/Control x1
+godot-demo-projects        demos  b761b4c   16776  1029  120   7.2  128   7.6  184   7   8   5  100   243     6  CanvasItem/Node x2, CharacterBody2D/RigidBody2D x2, CharacterBody3D/Node3D x1
+Godot-Game-Template        plugin 6849d6c    5878  2122  224  38.1  246  41.9  581  12  14  14  224   926   648  Container/Tree x9, AcceptDialog/Label x1, AcceptDialog/Node x1
+godot-open-rpg             games  d59f2f7    2198   176    6   2.7    0   0.0   80   1   0   1    6    22   118  Marker2D/Path2D x1
+godot-statecharts          plugin 76d226a    3377   684   12   3.6   12   3.6   51   2   2   2   12     6    73  CharacterBody2D/StaticBody2D x1, Control/Node x1
+phantom-camera             plugin 21d3762    5446  1194  918 168.6  959 176.1 1584  50  51   9  694    52    18  Node2D/Node3D x48, Node/Node2D x3, Node/Node3D x2
 Pixelorama                 plugin 38a8b03   35226  4804  700  19.9  846  24.0 2195  59  75  93  476   605  1748  AcceptDialog/Panel x13, Button/Panel x6, ConfirmationDialog/Node x4
-Starter-Kit-3D-Platformer  games  3fa8a04     178     0    0   0.0    0   0.0    6   0   0   0    0     0     0  
-Starter-Kit-City-Builder   games  4535092     159    10    0   0.0    0   0.0    0   0   0   0    0     0     0  
-Starter-Kit-FPS            games  185fd23     234     0    0   0.0    0   0.0    0   0   0   0    0     0     0  
-Starter-Kit-Racing         games  2f2e5f2     123     0    0   0.0    0   0.0    0   0   0   0    0     0     0  
-tps-demo                   games  a82f154    1046    32    0   0.0    0   0.0   14   0   0   0    0    18     0  
+Starter-Kit-3D-Platformer  games  3fa8a04     178     0    0   0.0    0   0.0    6   0   0   0    0     0     0
+Starter-Kit-City-Builder   games  4535092     159    10    0   0.0    0   0.0    0   0   0   0    0     0     0
+Starter-Kit-FPS            games  185fd23     234     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Starter-Kit-Racing         games  2f2e5f2     123     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+tps-demo                   games  a82f154    1046    32    0   0.0    0   0.0   14   0   0   0    0    18     0
 godot-open-rts             games  a628ad3    3716   300   14   3.8   22   5.9  351   1   2   1   14   170    81  Node3D/Panel x1
-tanks-of-freedom-ii        games  dbe629e   15359  4553  114   7.4  181  11.8 1912  10  18  14   38  1809  2366  Control/Node3D x4, Control/Node2D x4, Node2D/Node3D x1
-deck_builder_tutorial      games  91b408b    2679   292   60  22.4   64  23.9  289   6   6   6    0    26   206  Area2D/Node2D x2, CenterContainer/Control x1, Control/VBoxContainer x1
-godot-tiny-mmo             games  f4ed04f   28891  3130  400  13.8 1452  50.3 2748  32  48  48  116   490  1358  Control/VBoxContainer x10, Area2D/Control x4, Area2D/CharacterBody2D x4
-godot_open_star_fighter    games  6e7be5c    1242    60    0   0.0    6   4.8   22   0   1   0    0    14    30  
+tanks-of-freedom-ii        games  dbe629e   15359  4553  114   7.4  181  11.8 1912  10  18  14   38  1809  2366  Control/Node2D x4, Control/Node3D x4, Control/Node x1
+deck_builder_tutorial      games  91b408b    2679   292   60  22.4   64  23.9  289   6   6   6    0    26   206  Area2D/Node2D x2, CenterContainer/Control x1, ColorRect/Control x1
+godot-tiny-mmo             games  f4ed04f   28891  3130  400  13.8 1452  50.3 2748  32  48  48  116   490  1358  Control/VBoxContainer x10, Area2D/CharacterBody2D x4, Area2D/Control x4
+godot_open_star_fighter    games  6e7be5c    1242    60    0   0.0    6   4.8   22   0   1   0    0    14    30
 Ring                       games  0ec4161    1804   192  120  66.5  126  69.8  211   9   9  10  117    22    46  CharacterBody2D/StaticBody2D x8, CharacterBody2D/Node x1
 
 == Totals by group: lines (all copies) / lines whose only clone category is this one / unit pairs with >=1 clone
--- games: LLOC 57621, units 1260, dup lines X 8745 (152/k), N 12891 (224/k), L 22328 (387/k)
+-- games: LLOC 57629, units 1260, dup lines X 8745 (152/k), N 12891 (224/k), L 22328 (387/k)
    category                linX   exX  linN   exN  linL popPairs  prX  prN  prL prX/1k prN/1k   gX
    cross_branch             714   451  1851   732  5633    36232   80  288 1262   2.21   7.95   59
    cross_forced             291   186   623   304  1952        0   33   82  358   0.00   0.00    0
@@ -51,7 +51,7 @@ Ring                       games  0ec4161    1804   192  120  66.5  126  69.8  2
    unresolved                 0     0     0     0     0        0    0    0    0   0.00   0.00    0
    cross-branch lines by kind (exact): export=4, member=12, lifecycle=8, per_frame=62, handler=26, method=8; of which contain .connect: 2
    cross-branch lines by kind (near): export=4, member=12, lifecycle=8, per_frame=70, handler=26, method=8; of which contain .connect: 2
--- plugins/tools: LLOC 88805, units 1258, dup lines X 15247 (172/k), N 20210 (228/k), L 31769 (358/k)
+-- plugins/tools: LLOC 89559, units 1261, dup lines X 15289 (171/k), N 20530 (229/k), L 32283 (360/k)
    category                linX   exX  linN   exN  linL popPairs  prX  prN  prL prX/1k prN/1k   gX
    cross_branch            1960  1534  2191  1610  4762    20290  125  148  619   6.16   7.29  130
    cross_forced            1448  1103  1579  1133  3336        0   76   86  327   0.00   0.00    0
@@ -59,8 +59,8 @@ Ring                       games  0ec4161    1804   192  120  66.5  126  69.8  2
    same_native_unrelated   2005  1814  2196  1914  3158     2356   60   64  151  25.47  27.16  111
    same_chain              3592  3423  3855  3645  5065     1973  421  551  805 213.38 279.27  143
    non_node                 912   765  1325  1020  3332    50427   58  106  531   1.15   2.10    0
-   tool_test               2149  1580  2956  1606  5073   140968  362  771 1105   2.57   5.47    0
-   intra_unit              5890  4922 10082  8099 19348        0  206  303  479   0.00   0.00    0
+   tool_test               2155  1586  3137  1642  5449   141211  363  794 1137   2.57   5.62    0
+   intra_unit              5926  4958 10366  8238 19774        0  207  308  486   0.00   0.00    0
    unresolved                 0     0     0     0     0       51    0    0    0   0.00   0.00    0
    cross-branch lines by kind (exact): export=54, signal=12, member=282, lifecycle=64, per_frame=72, input=6, handler=172, method=1219, other_virtual=77, class_other=2; of which contain .connect: 6
    cross-branch lines by kind (near): export=54, signal=12, member=276, lifecycle=72, per_frame=72, input=8, handler=218, method=1361, other_virtual=116, class_other=2; of which contain .connect: 6
@@ -96,9 +96,9 @@ demo projects with first-party code: 132; with any clone (near): 53; with cross-
 -- games: node units 752; pairs declaring a common name 681, of which a consumed name 568, >=2 consumed names 59; (project,name) 181, consumed 143
    consumer sites by mechanism: untyped_other=1126, typed_script=488, static_or_autoload_class=143, typed_engine_or_other=118, typed_inferred=77, autoload_or_class=37, string_get=20, group_then_call=18, is_A_check=14, owner_or_parent=13, is_A_or_B=11, has_method_guard=7, string_has_method=6, string_call_deferred=2, node_path=1; total 2081
 -- demos: node units 411; pairs declaring a common name 21, of which a consumed name 19, >=2 consumed names 1; (project,name) 12, consumed 9
-   consumer sites by mechanism: untyped_other=5, typed_script=5, typed_engine_or_other=4, typed_inferred=3, is_A_check=1, node_path=1, string_has_method=1, has_method_guard=1; total 21
+   consumer sites by mechanism: typed_script=5, untyped_other=5, typed_engine_or_other=4, typed_inferred=3, has_method_guard=1, is_A_check=1, node_path=1, string_has_method=1; total 21
 -- plugins/tools: node units 446; pairs declaring a common name 312, of which a consumed name 232, >=2 consumed names 40; (project,name) 234, consumed 118
-   consumer sites by mechanism: typed_inferred=373, untyped_other=289, typed_engine_or_other=227, typed_script=224, autoload_or_class=114, is_A_check=62, is_A_or_B=35, static_or_autoload_class=21, string_has_method=12, has_method_guard=12, string_get=11, node_path=7; total 1387
+   consumer sites by mechanism: typed_inferred=373, untyped_other=289, typed_engine_or_other=227, typed_script=224, autoload_or_class=114, is_A_check=62, is_A_or_B=35, static_or_autoload_class=21, has_method_guard=12, string_has_method=12, string_get=11, node_path=7; total 1387
    games explicit cross-type sites by repo: group_then_call: godot-open-rts 18; owner_or_parent: Ring 13; is_A_or_B: godot-tiny-mmo 7, deck_builder_tutorial 4; has_method_guard: Starter-Kit-FPS 3, godot-tiny-mmo 2, godot_open_star_fighter 2; string_has_method: Starter-Kit-FPS 2, godot-tiny-mmo 2, godot_open_star_fighter 2
    games shared names with most consumer sites: tanks-of-freedom-ii:model 146, tanks-of-freedom-ii:map 137, godot-tiny-mmo:current 126, tanks-of-freedom-ii:side 101, godot-tiny-mmo:world_server 100, tanks-of-freedom-ii:clear 90
    demos explicit cross-type sites by repo: has_method_guard: godot-demo-projects 1; string_has_method: godot-demo-projects 1

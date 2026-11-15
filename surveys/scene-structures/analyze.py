@@ -17,6 +17,7 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "cross-branch-duplication"))
+import gdcorpus as G
 from gdcorpus import REPOS  # noqa: E402
 ALL = "*"
 
@@ -520,59 +521,10 @@ class Project:
         return None
 
 
-class Repo:
+class Repo(G.Repo):
     def __init__(self, name, group, corpus):
-        self.name, self.group = name, group
-        self.dir = os.path.join(corpus, name)
-        self.files = []
-        for dp, dns, fns in os.walk(self.dir):
-            dns[:] = sorted(d for d in dns if d != ".git" and d != ".godot")  # sorted: same order on every OS
-            for f in sorted(fns):
-                self.files.append(os.path.relpath(os.path.join(dp, f), self.dir).replace("\\", "/"))
-        self.fileset = set(self.files)
-        roots = sorted({os.path.dirname(f) for f in self.files if os.path.basename(f) == "project.godot"}, key=len, reverse=True)
-        if "" not in roots:
-            roots.append("")
-        self.roots = roots
-        self.projects = {r: Project(self, r, []) for r in roots}
-        self.uid = {}
-        for f in self.files:
-            if f.endswith(".uid"):
-                try:
-                    u = open(os.path.join(self.dir, f), encoding="utf-8", errors="replace").read().strip()
-                    self.uid[u] = f[:-4]
-                except OSError:
-                    pass
-        self.commit = None
-        try:
-            self.commit = open(os.path.join(self.dir, ".git", "HEAD")).read().strip()
-        except OSError:
-            pass
-
-    def project_of(self, rel):
-        for r in self.roots:
-            if r == "" or rel == r or rel.startswith(r + "/"):
-                return self.projects[r]
-        return self.projects[""]
-
-    def first_party(self, rel):
-        proj = self.project_of(rel)
-        sub = rel[len(proj.root) + 1:] if proj.root else rel
-        parts = sub.split("/")
-        if "addons" in parts:
-            k = parts.index("addons")
-            if k + 1 < len(parts) - 1:
-                name = parts[k + 1]
-                fp = FIRST_PARTY_ADDONS.get(self.name, set())
-                return fp == ALL or name in fp
-        return True
-
-    def read(self, rel):
-        p = os.path.abspath(os.path.join(self.dir, rel))
-        if os.name == "nt" and not p.startswith("\\\\?\\"):
-            p = "\\\\?\\" + p  # long paths
-        with open(p, encoding="utf-8", errors="replace") as fh:
-            return fh.read()
+        super().__init__(corpus, name, group)
+        self.projects = {r: Project(self, r, []) for r in self.roots}
 
 
 def analyze_repo(repo_name, group, corpus):

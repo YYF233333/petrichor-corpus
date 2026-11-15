@@ -23,7 +23,7 @@ lines = []
 
 
 def p(*a):
-    lines.append(" ".join(str(x) for x in a))
+    lines.append(" ".join(str(x) for x in a).rstrip())
 
 
 def rd(path):
@@ -46,7 +46,7 @@ for r in S["repos"]:
     ex, nr, lo = r["exact"], r["near"], r["loose"]
     cbx = ex["lines"].get("cross_branch", 0)
     cbn = nr["lines"].get("cross_branch", 0)
-    pairs = list(ex.get("cross_native_pairs", {}).items())[:3]
+    pairs = sorted(ex.get("cross_native_pairs", {}).items(), key=lambda x: (-x[1], x[0]))[:3]
     p(f"{r['repo'][:26]:26s} {g[:6]:6s} {r['commit'][:7]:8s} {r['lloc']:6d} {ex['lines'].get('any', 0):5d} {cbx:4d} {1000 * cbx / max(1, r['lloc']):5.1f} "
       f"{cbn:4d} {1000 * cbn / max(1, r['lloc']):5.1f} {lo['lines'].get('cross_branch', 0):4d} {ex['groups']['cross_branch']:3d} {nr['groups']['cross_branch']:3d} "
       f"{ex.get('pairs_with_clones', {}).get('cross_branch', 0):3d} {ex['lines'].get('cross_forced', 0):4d} "

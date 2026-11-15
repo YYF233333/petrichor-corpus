@@ -8,15 +8,29 @@ The corpus list comes from the manifest named by CORPUS_MANIFEST, by default cor
 fetch.py at the repository root clones it.
 """
 import collections
+import fnmatch
 import json
 import os
+import random
 import re
 import sys
 
 MANIFEST = os.environ.get("CORPUS_MANIFEST") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "corpus", "v1.json")
 with open(MANIFEST, encoding="utf-8") as _fh:
-    # name, url, commit, group
-    REPOS = [(r["name"], r["url"], r["commit"], r["group"]) for r in json.load(_fh)["repos"]]
+    MANIFEST_DATA = json.load(_fh)
+REPO_METADATA = {r["name"]: r for r in MANIFEST_DATA["repos"]}
+REPOS = [(r["name"], r["url"], r["commit"], r["group"]) for r in MANIFEST_DATA["repos"]
+         if (r.get("weight") != "reference" or os.environ.get("CORPUS_INCLUDE_REFERENCE") == "1")
+         and (not os.environ.get("CORPUS_AUTHORSHIP") or r.get("authorship") == os.environ["CORPUS_AUTHORSHIP"])]
+LEGACY_REPOS = {"godot-demo-projects", "godot-open-rpg", "Starter-Kit-3D-Platformer",
+                "Starter-Kit-City-Builder", "Starter-Kit-FPS", "Starter-Kit-Racing", "tps-demo",
+                "Pixelorama", "phantom-camera", "godot_dialogue_manager", "beehave",
+                "godot-statecharts", "gdUnit4", "Godot-Game-Template"}
+
+
+def survey_repos(legacy=False):
+    """Keep the original 14-repository input of the two early surveys on v1."""
+    return [r for r in REPOS if not legacy or MANIFEST_DATA.get("version") != 1 or r[0] in LEGACY_REPOS]
 
 ALL = "*"
 # addons/<name>/ directories that are first-party for the repo (everything else under addons/ is vendored).
@@ -264,6 +278,19 @@ class Repo:
             roots.append("")
         self.roots = roots
         self.projects = {r: Project(self, r) for r in roots}
+        self.metadata = REPO_METADATA.get(name, {})
+        self._sample = None
+        cap = MANIFEST_DATA.get("line_cap")
+        if cap is not None:
+            candidates = [f for f in self.files if f.endswith(".gd") and self.source_first_party(f)]
+            random.Random(MANIFEST_DATA["line_cap_seed"]).shuffle(candidates)
+            selected, used = set(), 0
+            for f in candidates:
+                size = len(self.read(f).splitlines())
+                if used + size <= cap:
+                    selected.add(f)
+                    used += size
+            self._sample = selected
         self.uid = {}
         for f in self.files:
             if f.endswith(".uid"):
@@ -280,7 +307,11 @@ class Repo:
                 return self.projects[r]
         return self.projects[""]
 
-    def first_party(self, rel):
+    def source_first_party(self, rel):
+        """Ownership before file sampling; excluded/generated paths never count."""
+        if any(fnmatch.fnmatchcase(rel, pat) or rel.startswith(pat.rstrip("/") + "/")
+               for pat in self.metadata.get("exclude", ())):
+            return False
         proj = self.project_of(rel)
         sub = rel[len(proj.root) + 1:] if proj.root else rel
         parts = sub.split("/")
@@ -288,9 +319,13 @@ class Repo:
             k = parts.index("addons")
             if k + 1 < len(parts) - 1:
                 name = parts[k + 1]
-                fp = FIRST_PARTY_ADDONS.get(self.name, set())
+                fp = self.metadata.get("first_party_addons", FIRST_PARTY_ADDONS.get(self.name, set()))
                 return fp == ALL or name in fp
         return True
+
+    def first_party(self, rel):
+        return self.source_first_party(rel) and (
+            not rel.endswith(".gd") or self._sample is None or rel in self._sample)
 
     def read(self, rel):
         p = os.path.abspath(os.path.join(self.dir, rel))

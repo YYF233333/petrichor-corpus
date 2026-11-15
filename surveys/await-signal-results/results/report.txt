@@ -1,0 +1,84 @@
+## Corpus
+
+| repo | commit | .gd files | lines | first-party lines | of which tests | awaits | first-party awaits | of which tests |
+|---|---|---|---|---|---|---|---|---|
+| beehave | fe58915 | 322 | 35,193 | 8,566 | 4,097 | 240 | 28 | 28 |
+| gdUnit4 | 9bc1a45 | 482 | 54,133 | 54,133 | 26,727 | 586 | 586 | 375 |
+| godot-demo-projects | b761b4c | 461 | 30,819 | 30,819 | 0 | 171 | 171 | 0 |
+| Godot-Game-Template | 6849d6c | 125 | 8,553 | 8,553 | 0 | 51 | 51 | 0 |
+| godot-open-rpg | d59f2f7 | 342 | 40,662 | 5,422 | 0 | 236 | 111 | 0 |
+| godot-statecharts | 76d226a | 141 | 18,768 | 6,852 | 2,217 | 87 | 70 | 70 |
+| godot_dialogue_manager | 7a72dcf | 79 | 14,619 | 14,619 | 2,185 | 240 | 240 | 152 |
+| phantom-camera | 21d3762 | 36 | 10,410 | 10,410 | 0 | 7 | 7 | 0 |
+| Pixelorama | 38a8b03 | 249 | 60,025 | 56,024 | 0 | 92 | 83 | 0 |
+| Starter-Kit-3D-Platformer | 3fa8a04 | 9 | 378 | 378 | 0 | 1 | 1 | 0 |
+| Starter-Kit-City-Builder | 4535092 | 6 | 311 | 311 | 0 | 0 | 0 | 0 |
+| Starter-Kit-FPS | 185fd23 | 7 | 451 | 451 | 0 | 0 | 0 | 0 |
+| Starter-Kit-Racing | 2f2e5f2 | 3 | 258 | 258 | 0 | 0 | 0 | 0 |
+| tps-demo | a82f154 | 15 | 1,619 | 1,619 | 0 | 8 | 8 | 0 |
+| Total |  | 2,277 | 276,199 | 198,415 | 35,226 | 1,719 | 1,356 | 625 |
+
+`await` tokens in source: 1,858; in code (not comments or strings): 1,719
+
+## Awaits per 1,000 lines
+
+| scope | awaits | lines | per 1,000 lines |
+|---|---|---|---|
+| all | 1719 | 276,199 | 6.22 |
+| first-party | 1356 | 198,415 | 6.83 |
+| first-party, no tests | 731 | 163,189 | 4.48 |
+
+## Operand kinds
+
+| operand | all | first-party | first-party, no tests |
+|---|---|---|---|
+| signal, engine class | 508 | 361 | 331 |
+| signal, user-declared | 82 | 58 | 54 |
+| signal, by name only | 21 | 8 | 8 |
+| Signal value returned by a call | 15 | 15 | 0 |
+| signal declared outside the corpus | 6 | 5 | 5 |
+| coroutine call | 1025 | 876 | 308 |
+| other call | 59 | 31 | 24 |
+| other | 3 | 2 | 1 |
+| total | 1719 | 1356 | 731 |
+
+## Signal awaits by arity and use
+
+| arity | all: statement / used | first-party: statement / used | first-party, no tests: statement / used |
+|---|---|---|---|
+| 0 | 590 / 2 | 415 / 1 | 366 / 1 |
+| 1 | 19 / 18 | 17 / 12 | 17 / 12 |
+| 2+ | 0 / 1 | 0 / 1 | 0 / 1 |
+| unknown | 2 / 0 | 1 / 0 | 1 / 0 |
+| total | 611 / 21 | 433 / 14 | 384 / 14 |
+
+## How results are used (all scopes)
+
+- signal, arity 0: return 2
+- signal, arity 1: var initializer 8, return 8, assignment 2
+- signal, arity 2+: var initializer 1
+- signal, arity unknown: 
+- coroutine calls (376 of 1025 used): var initializer 148, assignment 107, return 43, grouped 34, argument 30, compound assignment 8, condition (not) 2, condition (if) 2, condition (elif) 1, condition (or) 1
+
+## Awaits of signals with 2+ parameters
+
+| site | category | signal | arity | use | note |
+|---|---|---|---|---|---|
+| godot_dialogue_manager/addons/dialogue_manager/dialogue_manager.gd:1956 | first-party | DialogueManager.Resolved (C#) | 2 | var initializer | C# [Signal] ResolvedEventHandler(double id, Variant value), addons/dialogue_manager/DialogueManager.cs:78; receiver typed RefCounted; reads result[0] (request id) and returns result[1] |
+
+## Signal awaits of unknown arity
+
+| site | category | signal | use | note |
+|---|---|---|---|---|
+| beehave/addons/gdUnit4/src/dotnet/GdUnit4CSharpApiLoader.gd:99 | vendored | ExecutionCompleted (C#) | statement | vendored copy of gdUnit4 |
+| gdUnit4/addons/gdUnit4/src/dotnet/GdUnit4CSharpApiLoader.gd:90 | first-party | ExecutionCompleted (C#) | statement | signal of the gdUnit4 .NET API, declared outside the corpus; untyped receiver |
+
+## Context: signal arity at connect sites and declarations (first-party)
+
+| arity | `.connect()` sites | of which outside tests | GDScript signal declarations | engine signals (class reference) |
+|---|---|---|---|---|
+| 0 | 542 | 530 | 254 | 246 |
+| 1 | 397 | 384 | 198 | 194 |
+| 2+ | 94 | 87 | 64 | 78 |
+| unknown | 60 | 60 | 0 | 0 |
+

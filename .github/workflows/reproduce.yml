@@ -18,5 +18,13 @@ jobs:
           path: corpus/v1
           key: corpus-${{ hashFiles('corpus/v1.json') }}
       - run: python fetch.py v1
+      - uses: actions/checkout@v4
+        with:
+          repository: godotengine/godot
+          ref: 469659e0617345149cd1eaec2e643d61d130aa6a
+          path: inputs/godot-docs
+          sparse-checkout: doc/classes
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
       - run: curl -sSfL --create-dirs -o inputs/extension_api-4-7.json https://raw.githubusercontent.com/godotengine/godot-cpp/8070599885b6df675fcad033dd032ce44be2b850/gdextension/extension_api-4-7.json
       - run: python reproduce.py

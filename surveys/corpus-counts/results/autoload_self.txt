@@ -1,0 +1,7 @@
+godot-tiny-mmo/source/client/local_player/local_player.gd:56  ClientState.local_player = self
+Ring/breakout/scenes/balls/balls.gd:9  BreakoutManager.balls = self
+Ring/breakout/scenes/breakout/breakout.gd:14  BreakoutManager.breakout = self
+Ring/breakout/scenes/consumables/base/Consumables.gd:17  BreakoutManager.consumables = self
+Ring/breakout/scenes/paddles/paddle.gd:76  BreakoutManager.paddle = self
+Ring/breakout/scenes/skills/base/skill.gd:30  BreakoutManager.skill = self
+total 6: Ring 5, godot-tiny-mmo 1

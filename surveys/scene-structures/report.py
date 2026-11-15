@@ -53,7 +53,7 @@ P("")
 
 
 def group_of(g):
-    return {"game": "games", "demos": "demos"}.get(g, "plugins/tools")
+    return {"game": "games", "demos": "demos", "demo": "demos"}.get(g, "plugins/tools")
 
 
 for grp in ("games", "demos", "plugins/tools"):

@@ -15,6 +15,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "work", "reproduce")
 CORPUS = "corpus/v1"
 API = "inputs/extension_api-4-7.json"
+GODOT = os.environ.get("GODOT_REFERENCE", "inputs/godot-docs")
 
 # survey: [(script and arguments, stdout file or None, [(produced file, committed file)])]
 # Paths are relative to the repository root; {out} is the survey's directory under work/reproduce/.
@@ -26,6 +27,8 @@ STEPS = {
         ("constant-expressions/constants.py", [CORPUS, API], "constants.txt", [("constants.txt", "constant-expressions/results/constants.txt")]),
     ],
     "corpus-counts": [
+        ("corpus-counts/counts.py", [CORPUS], "counts.txt", [("counts.txt", "corpus-counts/results/counts.txt")]),
+        ("paper-migration-2/autoload_self.py", [CORPUS], "autoload_self.txt", [("autoload_self.txt", "corpus-counts/results/autoload_self.txt")]),
         ("corpus-counts/inner_classes.py", [CORPUS, API, "--samples", "0"], "inner_classes.txt", [("inner_classes.txt", "corpus-counts/results/inner_classes.txt")]),
         ("corpus-counts/layout.py", [CORPUS], "layout.txt", [("layout.txt", "corpus-counts/results/layout.txt")]),
         ("corpus-counts/ancestor_assignments.py", [CORPUS], "ancestor_assignments.txt", [("ancestor_assignments.txt", "corpus-counts/results/ancestor_assignments.txt")]),
@@ -37,6 +40,31 @@ STEPS = {
         ("corpus-counts/weak_refs.py", [CORPUS], "weak_refs.txt", [("weak_refs.txt", "corpus-counts/results/weak_refs.txt")]),
         ("corpus-counts/autoload_types.py", [CORPUS], "autoload_types.txt", [("autoload_types.txt", "corpus-counts/results/autoload_types.txt")]),
         ("corpus-counts/engine_objects.py", [CORPUS, API], "engine_objects.txt", [("engine_objects.txt", "corpus-counts/results/engine_objects.txt")]),
+    ],
+    "member-visibility": [
+        ("cross-branch-duplication/build_api.py", [GODOT, "{out}/api.json"], None, []),
+        ("member-visibility/vis.py", [CORPUS, "{out}/api.json"], "vis.txt", [("vis.txt", "member-visibility/results/vis.txt")]),
+    ],
+    "cross-branch-duplication": [
+        ("cross-branch-duplication/build_api.py", [GODOT, "{out}/api.json"], None, []),
+        ("cross-branch-duplication/dup.py", ["--corpus", CORPUS, "--api", "{out}/api.json", "--out", "{out}"], None,
+         [("summary.json", "cross-branch-duplication/out/summary.json"), ("workarounds.json", "cross-branch-duplication/out/workarounds.json")]),
+        ("cross-branch-duplication/components.py", ["--corpus", CORPUS, "--api", "{out}/api.json", "--out", "{out}"], None,
+         [("components.csv", "cross-branch-duplication/out/components.csv"), ("components_summary.json", "cross-branch-duplication/out/components_summary.json")]),
+        ("cross-branch-duplication/report.py", ["{out}"], None, [("report.txt", "cross-branch-duplication/out/report.txt")]),
+        ("cross-branch-duplication/dup.py", ["--corpus", CORPUS, "--api", "{out}/api.json", "--out", "{out}/k3", "--k", "3"], None, []),
+        ("cross-branch-duplication/report.py", ["{out}/k3"], None, [("k3/report.txt", "cross-branch-duplication/out_k3/report.txt")]),
+        ("cross-branch-duplication/dup.py", ["--corpus", CORPUS, "--api", "{out}/api.json", "--out", "{out}/k8", "--k", "8"], None, []),
+        ("cross-branch-duplication/report.py", ["{out}/k8"], None, [("k8/report.txt", "cross-branch-duplication/out_k8/report.txt")]),
+        ("cross-branch-duplication/ring_check.py", ["--corpus", CORPUS, "--api", "{out}/api.json", "{out}", "{out}/k3", "{out}/k8"], "ring_check.txt",
+         [("ring_check.txt", "cross-branch-duplication/out/ring_check.txt")]),
+    ],
+    "await-signal-results": [
+        ("await-signal-results/extract.py", [CORPUS, GODOT, "{out}"], "report.txt", [("report.txt", "await-signal-results/results/report.txt")]),
+    ],
+    "property-accessors": [
+        ("property-accessors/extract.py", [CORPUS, "{out}"], "extraction.txt", [("extraction.txt", "property-accessors/results/extraction.txt")]),
+        ("property-accessors/count.py", ["{out}"], "report.txt", [("report.txt", "property-accessors/results/report.txt")]),
     ],
     "implementation-coverage": [
         ("implementation-coverage/coverage.py", [CORPUS, API], "coverage.txt", [("coverage.txt", "implementation-coverage/results/coverage.txt")]),
@@ -63,7 +91,10 @@ def read(path):
 
 def main():
     want = sys.argv[1:] or list(STEPS)
-    env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    env = dict(os.environ, PYTHONIOENCODING="utf-8", PYTHONHASHSEED="0",
+               CORPUS_MANIFEST=os.path.join(ROOT, "corpus", "v1.json"))
+    env.pop("CORPUS_AUTHORSHIP", None)
+    env.pop("CORPUS_INCLUDE_REFERENCE", None)
     failed = []
     for survey in want:
         out = os.path.join(OUT, survey)
@@ -78,7 +109,9 @@ def main():
                 failed.append(f"{script}: exit {r.returncode}")
                 continue
             for produced, committed in compare:
-                if read(os.path.join(out, produced)) != read(os.path.join(ROOT, "surveys", committed)):
+                if not os.path.isfile(os.path.join(ROOT, "surveys", committed)):
+                    failed.append(f"{committed}: missing committed result")
+                elif read(os.path.join(out, produced)) != read(os.path.join(ROOT, "surveys", committed)):
                     failed.append(f"{committed}: differs from {os.path.relpath(os.path.join(out, produced), ROOT)}")
     for f in failed:
         print("DIFFERS", f)

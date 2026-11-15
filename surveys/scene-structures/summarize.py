@@ -18,7 +18,7 @@ repos = json.load(open(os.path.join(OUT, "repos.json"), encoding="utf-8"))
 ctxs = list(csv.DictReader(open(os.path.join(OUT, "contexts.csv"), encoding="utf-8")))
 labels = {(r["repo"], r["script"]): r["purpose"] for r in csv.DictReader(open(os.path.join(HERE, "purpose_labels.csv"), encoding="utf-8"))}
 I = int
-G = {"game": "games", "demos": "demos"}
+G = {"game": "games", "demos": "demos", "demo": "demos"}
 L = []
 P = L.append
 

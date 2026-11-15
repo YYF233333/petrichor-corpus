@@ -28,7 +28,7 @@ NATIVE_PARENT = A.NATIVE_PARENT
 KEYWORDS = A.KEYWORDS | {"get", "set", "match", "when", "lambda"}
 API_NAMES = set()
 ENGINE_METHODS = set()
-GROUP_OF = {"game": "games", "demos": "demos", "plugin": "plugins/tools", "tool": "plugins/tools"}
+GROUP_OF = {"game": "games", "demos": "demos", "demo": "demos", "plugin": "plugins/tools", "tool": "plugins/tools"}
 
 
 def init(api_path):
@@ -1014,9 +1014,9 @@ def write_outputs(summary, unit_rows, region_rows, group_rows, snippets, cap_row
     wcsv("capability_names.csv", cap_rows)
     wcsv("consumers.csv", consumer_rows)
     with open(os.path.join(OUT, "workarounds.json"), "w", encoding="utf-8", newline="\n") as fh:
-        json.dump(workarounds, fh, indent=1)
+        json.dump(workarounds, fh, indent=1, sort_keys=True)
     with open(os.path.join(OUT, "summary.json"), "w", encoding="utf-8", newline="\n") as fh:
-        json.dump(summary, fh, indent=1)
+        json.dump(summary, fh, indent=1, sort_keys=True)
 
 
 if __name__ == "__main__":

@@ -18,6 +18,9 @@ import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(HERE, "..", "cross-branch-duplication"))
+import engine_reference
+import gdcorpus as G
 
 # Vendored addons, written by authors other than the repository's own, are not first-party code
 # (prefixes relative to the repository root). An addon that is the repository's own product, such as
@@ -200,27 +203,7 @@ def indent_width(line):
 # ---------------------------------------------------------------- engine class reference
 
 def load_engine(godot):
-    files = [os.path.join(godot, 'doc', 'classes', f) for f in os.listdir(os.path.join(godot, 'doc', 'classes'))]
-    for top in ('modules', 'platform'):
-        for dirpath, _, filenames in os.walk(os.path.join(godot, top)):
-            if os.path.basename(dirpath) == 'doc_classes':
-                files += [os.path.join(dirpath, f) for f in filenames]
-    classes = {}
-    for path in files:
-        if not path.endswith('.xml'):
-            continue
-        root = ET.parse(path).getroot()
-        if root.tag != 'class':
-            continue
-        cls = dict(inherits=root.get('inherits'), signals={}, methods={}, members={})
-        for sig in root.iter('signal'):
-            cls['signals'][sig.get('name')] = len(sig.findall('param'))
-        for meth in root.iter('method'):
-            ret = meth.find('return')
-            cls['methods'][meth.get('name')] = ret.get('type') if ret is not None else 'void'
-        for mem in root.iter('member'):
-            cls['members'][mem.get('name')] = mem.get('type')
-        classes[root.get('name')] = cls
+    classes = engine_reference.load(godot)
     singletons = dict(classes['@GlobalScope']['members'])
     by_name = defaultdict(set)
     for cname, cls in classes.items():
@@ -828,12 +811,15 @@ def arity_bucket(a):
 
 
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) not in (3, 4):
         print(__doc__)
         sys.exit(1)
     root, godot = sys.argv[1], sys.argv[2]
+    output = sys.argv[3] if len(sys.argv) == 4 else root
+    os.makedirs(output, exist_ok=True)
     engine = load_engine(godot)
-    repos = sorted((d for d in os.listdir(root) if os.path.isdir(os.path.join(root, d, '.git'))), key=str.lower)
+    repos = sorted((r[0] for r in G.survey_repos(legacy=True)), key=str.lower)
+    access = {name: G.Repo(root, name, G.REPO_METADATA[name]['group']) for name in repos}
     files = []
     for repo in repos:
         for dirpath, dirnames, filenames in os.walk(os.path.join(root, repo)):
@@ -855,6 +841,8 @@ def main():
     context = dict(connects=[], declared=[])
     for f in files:
         cat = category(f.repo, f.rel)
+        if G.MANIFEST_DATA.get('version') != 1:
+            cat = ('test' if any(part in ('test', 'tests') for part in f.rel.split('/')) else 'first-party') if access[f.repo].first_party(f.rel) else 'vendored'
         st = stats[f.repo]
         st['files'] += 1
         st['lines'] += f.nlines
@@ -881,9 +869,9 @@ def main():
             st['awaits ' + cat] += 1
     for k in sorted(set(manual) - used_keys):
         print('warning: classification.json entry matches no await:', k, file=sys.stderr)
-    with open(os.path.join(root, 'awaits.json'), 'w', encoding='utf-8') as fh:
+    with open(os.path.join(output, 'awaits.json'), 'w', encoding='utf-8') as fh:
         json.dump(records, fh, indent=1)
-    with open(os.path.join(root, 'connects.json'), 'w', encoding='utf-8') as fh:
+    with open(os.path.join(output, 'connects.json'), 'w', encoding='utf-8') as fh:
         json.dump(context['connects'], fh, indent=1)
     context['engine'] = [a for cls in engine[0].values() for a in cls['signals'].values()]
     commits = {r: commit_of(os.path.join(root, r)) for r in repos}

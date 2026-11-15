@@ -2,7 +2,7 @@
 |---|---|---|---|---|---|---|---|
 | beehave | plugin | 5702 | 64 | 7 | 249 | 513 | 1 |
 | gdUnit4 | plugin | 36656 | 770 | 106 | 2528 | 1300 | 45 |
-| godot_dialogue_manager | plugin | 10028 | 279 | 1 | 525 | 261 | 109 |
+| godot_dialogue_manager | plugin | 10028 | 271 | 1 | 533 | 261 | 109 |
 | godot-demo-projects | demos | 19986 | 175 | 15 | 1307 | 1266 | 559 |
 | Godot-Game-Template | plugin | 6762 | 101 | 20 | 657 | 692 | 154 |
 | godot-open-rpg | game | 2734 | 108 | 13 | 216 | 134 | 6 |
@@ -21,18 +21,18 @@
 | godot_open_star_fighter | game | 1471 | 68 | 12 | 203 | 56 | 26 |
 | Ring | game | 2160 | 94 | 8 | 241 | 163 | 15 |
 
-all: 203720 code lines; external 4597, subclass_only 354, internal 13471, ambiguous 9429, scene_conn 1961
-  classified 18422; external 25.0% of classified, 22.6 per 1k lines; subclass_only 354 = 7.2% of members used outside their file (85 overridden, 269 only called or read)
+all: 203720 code lines; external 4589, subclass_only 354, internal 13479, ambiguous 9429, scene_conn 1961
+  classified 18422; external 24.9% of classified, 22.5 per 1k lines; subclass_only 354 = 7.2% of members used outside their file (85 overridden, 269 only called or read)
 
 games: 70646 code lines; external 2129, subclass_only 124, internal 5614, ambiguous 3714, scene_conn 400
   classified 7867; external 27.1% of classified, 30.1 per 1k lines; subclass_only 124 = 5.5% of members used outside their file (48 overridden, 76 only called or read)
-func: external 2518, subclass_only 232, internal 6430, ambiguous 3824, scene_conn 1961
-var: external 1332, subclass_only 107, internal 5136, ambiguous 4526, scene_conn 0
+func: external 2513, subclass_only 232, internal 6435, ambiguous 3824, scene_conn 1961
+var: external 1330, subclass_only 107, internal 5138, ambiguous 4526, scene_conn 0
 signal: external 338, subclass_only 5, internal 119, ambiguous 283, scene_conn 0
-const: external 409, subclass_only 10, internal 1786, ambiguous 796, scene_conn 0
+const: external 408, subclass_only 10, internal 1787, ambiguous 796, scene_conn 0
 members of scripts that have subclasses: external 690, subclass_only 354, internal 640, ambiguous 990, scene_conn 54
 names starting with '_': external 156, subclass_only 144, internal 5166, ambiguous 2294, scene_conn 1894
-external vars: written from other scripts 528, only read 804
+external vars: written from other scripts 528, only read 802
 
 subclass_only members:
   beehave/addons/beehave/nodes/beehave_node.gd:48 func _safe_tick

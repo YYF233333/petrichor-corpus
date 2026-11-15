@@ -16,7 +16,7 @@ import os
 import gdcorpus as A
 from gdcorpus import REPOS
 
-GROUP_OF = {"game": "games", "demos": "demos", "plugin": "plugins/tools", "tool": "plugins/tools"}
+GROUP_OF = {"game": "games", "demos": "demos", "demo": "demos", "plugin": "plugins/tools", "tool": "plugins/tools"}
 
 
 def anc(a, b):

@@ -24,6 +24,8 @@ import os
 import re
 import subprocess
 import sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "cross-branch-duplication"))
+import gdcorpus as G
 
 sys.dont_write_bytecode = True
 from scope import scope_of  # noqa: E402
@@ -558,17 +560,19 @@ def commit_of(path):
 
 
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) not in (2, 3):
         print(__doc__)
         sys.exit(1)
     root = sys.argv[1]
-    repos = sorted((d for d in os.listdir(root) if os.path.isdir(os.path.join(root, d, '.git'))),
-                   key=str.lower)
+    output = sys.argv[2] if len(sys.argv) == 3 else root
+    os.makedirs(output, exist_ok=True)
+    repos = sorted((r[0] for r in G.survey_repos(legacy=True)), key=str.lower)
     out = []
     corpus = {}
     print(f'{"repo":28} {"commit":8} {"files":>6} {"lines":>7} | ' +
           ' | '.join(f'{s}: lines props' for s in ('first-party', 'test', 'vendored', 'duplicate')))
     for repo in repos:
+        access = G.Repo(root, repo, G.REPO_METADATA[repo]["group"])
         stats = {s: [0, 0, 0] for s in ('first-party', 'test', 'vendored', 'duplicate')}
         setget_count = 0
         for dirpath, dirnames, filenames in os.walk(os.path.join(root, repo)):
@@ -580,6 +584,8 @@ def main():
                 rel = os.path.relpath(path, os.path.join(root, repo)).replace('\\', '/')
                 found, n, warnings, setget = scan(path)
                 sc = scope_of(repo, rel)
+                if G.MANIFEST_DATA.get('version') != 1:
+                    sc = ('test' if any(part in ('test', 'tests') for part in rel.split('/')) else 'first-party') if access.first_party(rel) else 'vendored'
                 stats[sc][0] += 1
                 stats[sc][1] += n
                 stats[sc][2] += len(found)
@@ -599,9 +605,9 @@ def main():
                             **{s: dict(files=v[0], lines=v[1], properties=v[2]) for s, v in stats.items()})
         print(f'{repo:28} {commit:8} {files:6} {lines:7} | ' +
               ' | '.join(f'{v[1]:>17} {v[2]:>5}' for v in stats.values()))
-    with open(os.path.join(root, 'properties.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(output, 'properties.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=1)
-    with open(os.path.join(root, 'corpus.json'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(output, 'corpus.json'), 'w', encoding='utf-8') as f:
         json.dump(corpus, f, indent=1)
     print('total properties with accessors:', len(out),
           {s: sum(1 for o in out if o['scope'] == s) for s in ('first-party', 'test', 'vendored', 'duplicate')})

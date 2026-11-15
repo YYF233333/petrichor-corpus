@@ -7,6 +7,7 @@ Usage: python ring_check.py --corpus CORPUS_DIR --api API_JSON OUT_DIR [OUT_DIR 
 """
 import argparse
 import csv
+import json
 import os
 import re
 
@@ -43,6 +44,9 @@ print(f"brick lines with an identical line anywhere in enemy.gd (bag overlap): {
 nontriv = [ll for ll in dup.logical_lines(open(BRICK, encoding='utf-8').read()) if not dup.is_trivial(ll)]
 print(f"brick.gd non-trivial logical lines (this survey's LLOC): {len(nontriv)}")
 for d in args.outs:
+    with open(os.path.join(d, "summary.json"), encoding="utf-8") as fh:
+        window = json.load(fh)["K"]
+    label = "out" if window == 5 else f"out_k{window}"
     for mode in ("exact", "near"):
         p = os.path.join(d, f"regions_{mode}.csv")
         if not os.path.exists(p):
@@ -54,5 +58,5 @@ for d in args.outs:
             side = "a" if r["a"].endswith("brick.gd") else "b"
             lo, hi = map(int, r[f"{side}_lines"].split("-"))
             covered |= {ll.line for ll in nontriv if lo <= ll.line <= hi}
-        print(f"{os.path.basename(os.path.normpath(d))} {mode}: {len(rows)} regions; brick non-trivial logical lines inside a clone with enemy.gd: "
+        print(f"{label} {mode}: {len(rows)} regions; brick non-trivial logical lines inside a clone with enemy.gd: "
               f"{len(covered)}/{len(nontriv)} ({', '.join(r['a_lines'] + '~' + r['b_lines'] for r in rows)}); category {sorted({r['category'] for r in rows})}")

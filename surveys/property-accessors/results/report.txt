@@ -1,0 +1,183 @@
+## Corpus
+
+| repo | commit | .gd files | lines | first-party lines | test lines | properties |
+|---|---|---|---|---|---|---|
+| godot-demo-projects | b761b4c | 461 | 30,819 | 30,819 | - | 39 |
+| godot-open-rpg | d59f2f7 | 342 | 40,662 | 5,422 | - | 59 |
+| Starter-Kit-3D-Platformer | 3fa8a04 | 9 | 378 | 378 | - | 0 |
+| Starter-Kit-City-Builder | 4535092 | 6 | 311 | 311 | - | 0 |
+| Starter-Kit-FPS | 185fd23 | 7 | 451 | 451 | - | 0 |
+| Starter-Kit-Racing | 2f2e5f2 | 3 | 258 | 258 | - | 0 |
+| tps-demo | a82f154 | 15 | 1,619 | 1,619 | - | 2 |
+| Pixelorama | 38a8b03 | 249 | 60,025 | 54,782 | - | 194 |
+| phantom-camera | 21d3762 | 36 | 10,410 | 10,410 | - | 181 |
+| godot_dialogue_manager | 7a72dcf | 79 | 14,619 | 12,434 | 2,185 | 29 |
+| beehave | fe58915 | 322 | 35,193 | 4,469 | 4,097 | 23 |
+| godot-statecharts | 76d226a | 141 | 18,768 | 4,635 | 2,217 | 16 |
+| gdUnit4 | 9bc1a45 | 482 | 54,133 | 27,406 | 26,727 | 18 |
+| Godot-Game-Template | 6849d6c | 125 | 8,553 | 5,128 | - | 28 |
+| Total |  | 2277 | 276,199 | 158,522 | 35,226 | 589 |
+
+excluded lines: vendored 81295 duplicate 1156 | properties in vendored code 166 duplicate 1
+Godot 3 setget occurrences: 0
+
+## Overall (first-party, no tests)
+
+properties with accessors: 589 (3.72 per 1,000 lines)
+shape: {'setter': 338, '+getter': 32, 'setter+getter': 219}
+exported: 318 | static: 7 | @onready: 0 | with initializer: 448
+form: {'inline': 425, 'named': 164}
+
+## Getters by category
+
+| category | getters | exported | with setter | per 1,000 lines |
+|---|---|---|---|---|
+| a | 196 | 155 | 191 | 1.24 |
+| b | 15 | 1 | 2 | 0.09 |
+| c | 40 | 4 | 26 | 0.25 |
+| all | 251 | 160 | 219 | 1.58 |
+
+mechanical test "the getter mentions its own field" agrees with the manual a/b vs c decision for 56 of 56 non-trivial getters
+category a written non-trivially: ['phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:475']
+category a by form: named 128 inline 68
+category a by repo: {'beehave': 1, 'gdUnit4': 11, 'godot-demo-projects': 1, 'godot-statecharts': 1, 'godot_dialogue_manager': 28, 'phantom-camera': 153, 'Pixelorama': 1}
+
+## Category b (every case)
+
+- beehave/addons/beehave/nodes/beehave_tree.gd:51 `blackboard` (exported): falls back to an internal Blackboard, creating it and adding it as a child on first read [side effect: add_child during any read, including engine reads (save, duplicate, inspector)]
+- gdUnit4/addons/gdUnit4/src/core/attributes/TestCaseAttribute.gd:19 `timeout`: lazy default: replaces the DEFAULT_TIMEOUT sentinel with the project setting on first read (writes the field)
+- gdUnit4/addons/gdUnit4/src/core/execution/GdUnitExecutionContext.gd:12 `error_monitor`: delegates to the parent context if there is one; otherwise lazily creates its own monitor
+- gdUnit4/addons/gdUnit4/src/core/execution/GdUnitExecutionContext.gd:19 `test_suite`: returns the parent context's value if there is a parent, otherwise its own field
+- gdUnit4/addons/gdUnit4/src/core/execution/GdUnitExecutionContext.gd:24 `test_case`: returns its own field, falling back to the parent context's value when null
+- Pixelorama/src/Main.gd:16 `splash_dialog`: lazy: instantiates the dialog scene and adds it as a child on first read [side effect: add_child during any read, including the remote inspector]
+- Pixelorama/src/Autoload/DrawingAlgos.gd:11 `clean_edge_shader`: lazy: loads a shader on first read
+- Pixelorama/src/Autoload/DrawingAlgos.gd:16 `omniscale_shader`: lazy: loads a shader on first read
+- Pixelorama/src/Autoload/DrawingAlgos.gd:21 `clean_edge_shader_premul_alpha`: lazy: duplicates another lazily loaded shader and patches its code on first read
+- Pixelorama/src/Autoload/DrawingAlgos.gd:29 `omniscale_shader_premul_alpha`: lazy: duplicates another lazily loaded shader and patches its code on first read
+- Pixelorama/src/Autoload/DrawingAlgos.gd:37 `rotxel_shader`: lazy: loads a shader on first read
+- Pixelorama/src/Autoload/DrawingAlgos.gd:42 `nn_shader`: lazy: loads a shader on first read
+- Pixelorama/src/Palette/PalettePanel.gd:14 `create_palette_dialog`: lazy: instantiates the dialog, connects its signals and adds it as a child on first read [side effect: add_child during any read, including the remote inspector]
+- Pixelorama/src/Palette/PalettePanel.gd:21 `edit_palette_dialog`: lazy: instantiates the dialog, connects its signals and adds it as a child on first read [side effect: add_child during any read, including the remote inspector]
+- Pixelorama/src/UI/Recorder/Recorder.gd:31 `_path_dialog`: lazy: constructs and configures a FileDialog and adds it as a child on first read [side effect: add_child during any read, including the remote inspector]
+
+## Category c
+
+by kind: {'derived': 8, 'proxy': 22, 'view': 10}
+with setter: 26 | setter writes own field: ['phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:811', 'Pixelorama/src/UI/Timeline/LayerButton.gd:22']
+exported: ['godot-demo-projects/audio/rhythm_game/game_state/conductor.gd:7', 'godot-demo-projects/misc/2.5d/addons/node25d/node_25d.gd:13', 'phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:435', 'phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:528']
+with initializer (storage never read): ['godot-demo-projects/audio/rhythm_game/game_state/conductor.gd:7', 'godot-statecharts/addons/godot_state_charts/transition.gd:52', 'godot_dialogue_manager/addons/dialogue_manager/nodes/dialogue_label/dialogue_label.gd:55', 'phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:435', 'phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:528', 'Pixelorama/src/Classes/Layers/AudioLayer.gd:14', 'Pixelorama/src/UI/TilesPanel.gd:22', 'Pixelorama/src/UI/Timeline/LayerButton.gd:22']
+by repo: {'beehave': 2, 'gdUnit4': 3, 'godot-demo-projects': 2, 'godot-statecharts': 4, 'godot_dialogue_manager': 1, 'phantom-camera': 22, 'Pixelorama': 6}
+- beehave/addons/beehave/debug/new_graph_node.gd:37 `layout_size` [derived] read-only: derived: size.y or size.x depending on the layout
+- beehave/addons/beehave/debug/old_graph_node.gd:31 `layout_size` [derived] read-only: derived: size.y or size.x depending on the layout
+- gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:41 `report_path` [derived] read-only: derived: formats a path from other members
+- gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:45 `current_report_history_index` [derived] read-only: derived: scans the report directory on every read
+- gdUnit4/addons/gdUnit4/src/ui/menu/GdUnitContextMenuItem.gd:21 `icon` [derived] read-only: derived: looks up the icon for command_id through a singleton
+- godot-demo-projects/audio/rhythm_game/game_state/conductor.gd:7 `is_paused` [proxy] (exported) setter: proxy to player.stream_paused in both directions; the field is never used
+- godot-demo-projects/misc/2.5d/addons/node25d/node_25d.gd:13 `spatial_position` [proxy] (exported) setter: proxy to the first child's position in both directions
+- godot-statecharts/addons/godot_state_charts/state_chart_state.gd:39 `active` [view] read-only: read-only view of the private _state_active
+- godot-statecharts/addons/godot_state_charts/transition.gd:52 `delay_seconds` [view] setter: converts the string field delay_in_seconds; the setter writes that field
+- godot-statecharts/addons/godot_state_charts/transition.gd:75 `has_event` [derived] read-only: derived from event
+- godot-statecharts/addons/godot_state_charts/utilities/debugger_history.gd:9 `dirty` [view] read-only: read-only view of the private _dirty
+- godot_dialogue_manager/addons/dialogue_manager/nodes/dialogue_label/dialogue_label.gd:55 `is_typing` [view] setter: derived from _is_typing and _is_awaiting_mutation; the setter writes _is_typing and emits
+- phantom-camera/addons/phantom_camera/scripts/managers/phantom_camera_manager.gd:54 `phantom_camera_hosts` [view] read-only: read-only view of a private list
+- phantom-camera/addons/phantom_camera/scripts/managers/phantom_camera_manager.gd:58 `phantom_camera_2ds` [view] read-only: read-only view of a private list
+- phantom-camera/addons/phantom_camera/scripts/managers/phantom_camera_manager.gd:62 `phantom_camera_3ds` [view] read-only: read-only view of a private list
+- phantom-camera/addons/phantom_camera/scripts/managers/phantom_camera_manager.gd:66 `phantom_camera_tween_directors` [view] read-only: read-only view of a private list
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:435 `draw_limits` [view] (exported) setter: proxy to the static var _draw_limits; the setter writes it and redraws in the editor
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:575 `tween_duration` [proxy] setter: proxy to a field of tween_resource, with a default when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:578 `tween_transition` [proxy] setter: proxy to a field of tween_resource, with a default when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:581 `tween_ease` [proxy] setter: proxy to a field of tween_resource, with a default when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:528 `spring_length` [view] (exported) setter: alias of the exported follow_distance; the setter writes follow_distance and updates the shape cast
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:792 `tween_duration` [proxy] setter: proxy to a field of tween_resource, with a default when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:799 `tween_transition` [proxy] setter: proxy to a field of tween_resource, with a default when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:806 `tween_ease` [proxy] setter: proxy to a field of tween_resource, with a default when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:811 `keep_aspect` [proxy] setter: proxy to camera_3d_resource.keep_aspect, but the setter writes the unused own field, not the resource
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:816 `cull_mask` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:821 `h_offset` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:826 `v_offset` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:831 `projection` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:836 `fov` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:841 `size` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:846 `frustum_offset` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:851 `far` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:856 `near` [proxy] setter: proxy to a field of camera_3d_resource, null when there is none; the setter forwards
+- Pixelorama/src/Autoload/ExtensionsApi.gd:253 `tabs_visible` [proxy] setter: proxy to a container found with find_child, in both directions
+- Pixelorama/src/Autoload/ExtensionsApi.gd:670 `current_project` [proxy] setter: proxy to Global.current_project; the setter switches the current tab
+- Pixelorama/src/Classes/Layers/AudioLayer.gd:14 `playback_position` [derived] read-only: derived from playback_frame and the project frame rate
+- Pixelorama/src/UI/TilesPanel.gd:22 `selected_tile_index` [derived] setter: derived: picks a random tile from selected_tiles on every read; the setter writes selected_tiles
+- Pixelorama/src/UI/Canvas/ReferenceImages.gd:13 `index` [proxy] read-only: read-only proxy to Global.current_project.reference_index
+- Pixelorama/src/UI/Timeline/LayerButton.gd:22 `button_pressed` [proxy] setter: proxy to the @onready main_button; the setter writes both the own field and main_button
+
+## Getters that can fail or act when read early
+
+- beehave/addons/beehave/nodes/beehave_tree.gd:51 [b] (exported): side effect: add_child during any read, including engine reads (save, duplicate, inspector)
+- godot-demo-projects/audio/rhythm_game/game_state/conductor.gd:7 [c] (exported): guarded by `if player`; reads the exported node reference `player`
+- godot-demo-projects/misc/2.5d/addons/node25d/node_25d.gd:13 [c] (exported): reads get_child(0); fails when the node has no children yet
+- Pixelorama/src/Main.gd:16 [b]: side effect: add_child during any read, including the remote inspector
+- Pixelorama/src/Autoload/ExtensionsApi.gd:253 [c]: find_child; fails if the UI does not exist yet
+- Pixelorama/src/Palette/PalettePanel.gd:14 [b]: side effect: add_child during any read, including the remote inspector
+- Pixelorama/src/Palette/PalettePanel.gd:21 [b]: side effect: add_child during any read, including the remote inspector
+- Pixelorama/src/UI/Recorder/Recorder.gd:31 [b]: side effect: add_child during any read, including the remote inspector
+- Pixelorama/src/UI/Timeline/LayerButton.gd:22 [c]: reads an @onready member; fails before _ready
+
+## Setters
+
+| properties | n | plain | effect | validate | proxy | exported |
+|---|---|---|---|---|---|---|
+| setter only | 338 | 4 | 299 | 31 | 4 | 158 |
+| setter and getter | 219 | 45 | 119 | 31 | 24 | 160 |
+| all setters | 557 | 49 | 418 | 62 | 28 | 318 |
+
+setter-only proxies: [('godot-demo-projects/networking/websocket_chat/websocket/WebSocketServer.gd:14', 'never stores the value; reads always return false, so the check at line 95 never refuses connections'), ('godot-open-rpg/src/field/field_camera.gd:10', 'never stores the value; reads always return null, so _on_viewport_resized always returns early'), ('phantom-camera/addons/phantom_camera/scripts/gizmos/phantom_camera_3d_gizmo_plugin.gd:9', 'write-only alias: stores into _gizmo_name; reads return the unused field'), ('Pixelorama/src/UI/PerspectiveEditor/PointCollapseContainer.gd:3', 'forwards to the child $Label and never stores; reads return the default')]
+setter-only by export: {True: 158, False: 180}
+setters containing await (coroutine setters, not allowed by spec §4.4): 30, exported 16; awaiting `ready`: 25; by repo {'godot-open-rpg': 20, 'godot_dialogue_manager': 1, 'phantom-camera': 3, 'Pixelorama': 6}
+getters containing await: 0
+
+## Setter runs before _ready (exported setters)
+
+exported properties with a setter: 318 | reaching a child node, @onready member or member assigned in _ready (reviewed): 113
+verdicts: {'guarded': 61, 'tolerant': 3, 'not-at-load': 2, 'no-node-access': 5, 'unguarded': 42}
+- unguarded: Pixelorama/src/UI/Nodes/Sliders/BasisSliders.gd: 6 (value, min_value, max_value, step, allow_greater, allow_lesser)
+- unguarded: Pixelorama/src/UI/Nodes/Sliders/ValueSliderV2.gd: 16 (editable, value, min_value, max_value, step, allow_greater, allow_lesser, show_ratio, grid_columns, slider_min_size, snap_step, snap_by_default, prefix_x, prefix_y, suffix_x, suffix_y)
+- unguarded: Pixelorama/src/UI/Nodes/Sliders/ValueSliderV3.gd: 18 (editable, value, min_value, max_value, step, allow_greater, allow_lesser, show_ratio, grid_columns, slider_min_size, snap_step, snap_by_default, prefix_x, prefix_y, prefix_z, suffix_x, suffix_y, suffix_z)
+- unguarded: Pixelorama/src/UI/PerspectiveEditor/PointCollapseContainer.gd: 1 (point_text)
+- unguarded: tps-demo/player/player.gd: 1 (player_id)
+- tolerant: beehave/addons/beehave/nodes/composites/randomized_composite.gd:20 `use_weights`: get_children() is empty before the children exist; the value is not applied to them
+- not-at-load: beehave/examples/random_tree_example/RandomTree.gd:6 `randomize_tree`: inspector button: the setter stores false, so true is never saved
+- tolerant: godot-demo-projects/3d/ik/addons/sade/ik_fabrik.gd:45 `bones_in_chain`: has_node() is false before the children exist, so the setter creates new bone nodes
+- not-at-load: godot-demo-projects/xr/openxr_spectator_view/main.gd:4 `tracked_camera`: Node-typed export: the engine assigns it after all nodes of the scene exist
+- no-node-access: Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/list_option_control.gd:10 `option_values`: the member assigned in _ready is plain data, not a node
+- no-node-access: Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/option_control.gd:41 `option_section`: the member assigned in _ready is plain data, not a node
+- tolerant: Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/option_control.gd:57 `editable`: get_children() is empty before the children exist; the value is not applied to them
+- no-node-access: phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_2d.gd:269 `follow_offset`: the member assigned in _ready is plain data, not a node
+- no-node-access: phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:167 `follow_mode`: the member assigned in _ready is plain data, not a node
+- no-node-access: phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd:361 `follow_offset`: the member assigned in _ready is plain data, not a node
+guards used: {'null-check': 16, 'other': 6, 'ready-check': 39}
+reaching an @onready member: 20 {'guarded': 20}
+reaching a child node ($, %, get_node, get_child...): 71 {'guarded': 24, 'tolerant': 3, 'not-at-load': 2, 'unguarded': 42}
+non-exported setters reaching such members (not reviewed for guards): 79
+properties re-assigned to themselves in _ready (`x = x`): 13 {'godot-demo-projects': 2, 'Godot-Game-Template': 11}
+
+## Named accessors overridden in a subclass
+
+named setters: 163; overridden in a first-party subclass: 5 [('godot-demo-projects/2d/role_playing_game/combat/combatants/combatant.gd:9', 'set_active', ['2d/role_playing_game/combat/combatants/opponent.gd']), ('Godot-Game-Template/addons/maaacks_game_template/extras/scripts/level_manager.gd:40', 'set_current_level_path', ['addons/maaacks_game_template/examples/scripts/level_and_state_manager.gd']), ('Godot-Game-Template/addons/maaacks_game_template/extras/scripts/level_manager.gd:41', 'set_checkpoint_level_path', ['addons/maaacks_game_template/examples/scripts/level_and_state_manager.gd']), ('godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:10', 'set_is_active', ['src/field/gamepieces/controllers/path_loop_ai_controller.gd']), ('godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:15', 'move_along_path', ['src/field/gamepieces/controllers/player_controller.gd'])]
+named getters: 145; overridden in a first-party subclass: 0 []
+
+## Per repository
+
+| repo | properties | per 1,000 lines | setter only | a | b | c | exported |
+|---|---|---|---|---|---|---|---|
+| godot-demo-projects | 39 | 1.27 | 36 | 1 | 0 | 2 | 27 |
+| godot-open-rpg | 59 | 10.88 | 59 | 0 | 0 | 0 | 30 |
+| tps-demo | 2 | 1.24 | 2 | 0 | 0 | 0 | 2 |
+| Pixelorama | 194 | 3.54 | 177 | 1 | 10 | 6 | 49 |
+| phantom-camera | 181 | 17.39 | 6 | 153 | 0 | 22 | 154 |
+| godot_dialogue_manager | 29 | 2.33 | 0 | 28 | 0 | 1 | 4 |
+| beehave | 23 | 5.15 | 19 | 1 | 1 | 2 | 17 |
+| godot-statecharts | 16 | 3.45 | 11 | 1 | 0 | 4 | 9 |
+| gdUnit4 | 18 | 0.66 | 0 | 11 | 4 | 3 | 0 |
+| Godot-Game-Template | 28 | 5.46 | 28 | 0 | 0 | 0 | 26 |
+
+## Tests
+
+test properties: 3 [('gdUnit4/addons/gdUnit4/test/asserts/GdUnitSignalAssertImplTest.gd:304', None, 'effect'), ('gdUnit4/addons/gdUnit4/test/mocker/resources/ClassWithParameterGetterSetter.gd:5', 'a', 'plain'), ('gdUnit4/addons/gdUnit4/test/resources/issues/gd-166/issue.gd:5', 'a', 'effect')]

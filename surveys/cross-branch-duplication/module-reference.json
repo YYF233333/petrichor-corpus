@@ -1,0 +1,6010 @@
+{
+ "classes": {
+  "@GDScript": {
+   "constants": [
+    "INF",
+    "NAN",
+    "PI",
+    "TAU"
+   ],
+   "inherits": null,
+   "members": {},
+   "methods": {
+    "Color8": "Color",
+    "assert": "void",
+    "char": "String",
+    "convert": "Variant",
+    "dict_to_inst": "Object",
+    "get_stack": "Array",
+    "inst_to_dict": "Dictionary",
+    "is_instance_of": "bool",
+    "len": "int",
+    "load": "Resource",
+    "ord": "int",
+    "preload": "Resource",
+    "print_debug": "void",
+    "print_stack": "void",
+    "range": "Array",
+    "type_exists": "bool"
+   },
+   "signals": {}
+  },
+  "AudioStreamInteractive": {
+   "constants": [
+    "AUTO_ADVANCE_DISABLED",
+    "AUTO_ADVANCE_ENABLED",
+    "AUTO_ADVANCE_RETURN_TO_HOLD",
+    "AutoAdvanceMode",
+    "CLIP_ANY",
+    "FADE_AUTOMATIC",
+    "FADE_CROSS",
+    "FADE_DISABLED",
+    "FADE_IN",
+    "FADE_OUT",
+    "FadeMode",
+    "TRANSITION_FROM_TIME_END",
+    "TRANSITION_FROM_TIME_IMMEDIATE",
+    "TRANSITION_FROM_TIME_NEXT_BAR",
+    "TRANSITION_FROM_TIME_NEXT_BEAT",
+    "TRANSITION_TO_TIME_PREVIOUS_POSITION",
+    "TRANSITION_TO_TIME_SAME_POSITION",
+    "TRANSITION_TO_TIME_START",
+    "TransitionFromTime",
+    "TransitionToTime"
+   ],
+   "inherits": "AudioStream",
+   "members": {
+    "clip_count": "int",
+    "initial_clip": "int"
+   },
+   "methods": {
+    "add_transition": "void",
+    "erase_transition": "void",
+    "get_clip_auto_advance": "int",
+    "get_clip_auto_advance_next_clip": "int",
+    "get_clip_name": "StringName",
+    "get_clip_stream": "AudioStream",
+    "get_transition_fade_beats": "float",
+    "get_transition_fade_mode": "int",
+    "get_transition_filler_clip": "int",
+    "get_transition_from_time": "int",
+    "get_transition_list": "PackedInt32Array",
+    "get_transition_to_time": "int",
+    "has_transition": "bool",
+    "is_transition_holding_previous": "bool",
+    "is_transition_using_filler_clip": "bool",
+    "set_clip_auto_advance": "void",
+    "set_clip_auto_advance_next_clip": "void",
+    "set_clip_name": "void",
+    "set_clip_stream": "void"
+   },
+   "signals": {}
+  },
+  "AudioStreamMP3": {
+   "constants": [],
+   "inherits": "AudioStream",
+   "members": {
+    "bar_beats": "int",
+    "beat_count": "int",
+    "bpm": "float",
+    "data": "PackedByteArray",
+    "loop": "bool",
+    "loop_offset": "float"
+   },
+   "methods": {
+    "load_from_buffer": "AudioStreamMP3",
+    "load_from_file": "AudioStreamMP3"
+   },
+   "signals": {}
+  },
+  "AudioStreamOggVorbis": {
+   "constants": [],
+   "inherits": "AudioStream",
+   "members": {
+    "bar_beats": "int",
+    "beat_count": "int",
+    "bpm": "float",
+    "loop": "bool",
+    "loop_offset": "float",
+    "packet_sequence": "OggPacketSequence",
+    "tags": "Dictionary"
+   },
+   "methods": {
+    "load_from_buffer": "AudioStreamOggVorbis",
+    "load_from_file": "AudioStreamOggVorbis"
+   },
+   "signals": {}
+  },
+  "AudioStreamPlaybackInteractive": {
+   "constants": [],
+   "inherits": "AudioStreamPlayback",
+   "members": {},
+   "methods": {
+    "get_current_clip_index": "int",
+    "switch_to_clip": "void",
+    "switch_to_clip_by_name": "void"
+   },
+   "signals": {}
+  },
+  "AudioStreamPlaybackOggVorbis": {
+   "constants": [],
+   "inherits": "AudioStreamPlaybackResampled",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "AudioStreamPlaybackPlaylist": {
+   "constants": [],
+   "inherits": "AudioStreamPlayback",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "AudioStreamPlaybackSynchronized": {
+   "constants": [],
+   "inherits": "AudioStreamPlayback",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "AudioStreamPlaylist": {
+   "constants": [
+    "MAX_STREAMS"
+   ],
+   "inherits": "AudioStream",
+   "members": {
+    "fade_time": "float",
+    "loop": "bool",
+    "shuffle": "bool",
+    "stream_count": "int"
+   },
+   "methods": {
+    "get_bpm": "float",
+    "get_list_stream": "AudioStream",
+    "set_list_stream": "void"
+   },
+   "signals": {}
+  },
+  "AudioStreamSynchronized": {
+   "constants": [
+    "MAX_STREAMS"
+   ],
+   "inherits": "AudioStream",
+   "members": {
+    "stream_count": "int"
+   },
+   "methods": {
+    "get_sync_stream": "AudioStream",
+    "get_sync_stream_volume": "float",
+    "set_sync_stream": "void",
+    "set_sync_stream_volume": "void"
+   },
+   "signals": {}
+  },
+  "CSGBox3D": {
+   "constants": [],
+   "inherits": "CSGPrimitive3D",
+   "members": {
+    "material": "Material",
+    "size": "Vector3"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSGCombiner3D": {
+   "constants": [],
+   "inherits": "CSGShape3D",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "CSGCylinder3D": {
+   "constants": [],
+   "inherits": "CSGPrimitive3D",
+   "members": {
+    "cone": "bool",
+    "height": "float",
+    "material": "Material",
+    "radius": "float",
+    "sides": "int",
+    "smooth_faces": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSGMesh3D": {
+   "constants": [],
+   "inherits": "CSGPrimitive3D",
+   "members": {
+    "material": "Material",
+    "mesh": "Mesh"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSGPolygon3D": {
+   "constants": [
+    "MODE_DEPTH",
+    "MODE_PATH",
+    "MODE_SPIN",
+    "Mode",
+    "PATH_INTERVAL_DISTANCE",
+    "PATH_INTERVAL_SUBDIVIDE",
+    "PATH_ROTATION_PATH",
+    "PATH_ROTATION_PATH_FOLLOW",
+    "PATH_ROTATION_POLYGON",
+    "PathIntervalType",
+    "PathRotation"
+   ],
+   "inherits": "CSGPrimitive3D",
+   "members": {
+    "depth": "float",
+    "material": "Material",
+    "mode": "int",
+    "path_continuous_u": "bool",
+    "path_interval": "float",
+    "path_interval_type": "int",
+    "path_joined": "bool",
+    "path_local": "bool",
+    "path_node": "NodePath",
+    "path_rotation": "int",
+    "path_rotation_accurate": "bool",
+    "path_simplify_angle": "float",
+    "path_u_distance": "float",
+    "polygon": "PackedVector2Array",
+    "smooth_faces": "bool",
+    "spin_degrees": "float",
+    "spin_sides": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSGPrimitive3D": {
+   "constants": [],
+   "inherits": "CSGShape3D",
+   "members": {
+    "flip_faces": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSGShape3D": {
+   "constants": [
+    "OPERATION_INTERSECTION",
+    "OPERATION_SUBTRACTION",
+    "OPERATION_UNION",
+    "Operation"
+   ],
+   "inherits": "GeometryInstance3D",
+   "members": {
+    "autosmooth": "bool",
+    "calculate_tangents": "bool",
+    "collision_layer": "int",
+    "collision_mask": "int",
+    "collision_priority": "float",
+    "operation": "int",
+    "smoothing_angle": "float",
+    "snap": "float",
+    "use_collision": "bool"
+   },
+   "methods": {
+    "bake_collision_shape": "ConcavePolygonShape3D",
+    "bake_static_mesh": "ArrayMesh",
+    "get_collision_layer_value": "bool",
+    "get_collision_mask_value": "bool",
+    "get_meshes": "Array",
+    "is_root_shape": "bool",
+    "set_collision_layer_value": "void",
+    "set_collision_mask_value": "void"
+   },
+   "signals": {}
+  },
+  "CSGSphere3D": {
+   "constants": [],
+   "inherits": "CSGPrimitive3D",
+   "members": {
+    "material": "Material",
+    "radial_segments": "int",
+    "radius": "float",
+    "rings": "int",
+    "smooth_faces": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSGTorus3D": {
+   "constants": [],
+   "inherits": "CSGPrimitive3D",
+   "members": {
+    "inner_radius": "float",
+    "material": "Material",
+    "outer_radius": "float",
+    "ring_sides": "int",
+    "sides": "int",
+    "smooth_faces": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "CSharpScript": {
+   "constants": [],
+   "inherits": "Script",
+   "members": {},
+   "methods": {
+    "new": "Variant"
+   },
+   "signals": {}
+  },
+  "ENetConnection": {
+   "constants": [
+    "COMPRESS_FASTLZ",
+    "COMPRESS_NONE",
+    "COMPRESS_RANGE_CODER",
+    "COMPRESS_ZLIB",
+    "COMPRESS_ZSTD",
+    "CompressionMode",
+    "EVENT_CONNECT",
+    "EVENT_DISCONNECT",
+    "EVENT_ERROR",
+    "EVENT_NONE",
+    "EVENT_RECEIVE",
+    "EventType",
+    "HOST_TOTAL_RECEIVED_DATA",
+    "HOST_TOTAL_RECEIVED_PACKETS",
+    "HOST_TOTAL_SENT_DATA",
+    "HOST_TOTAL_SENT_PACKETS",
+    "HostStatistic"
+   ],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "bandwidth_limit": "void",
+    "broadcast": "void",
+    "channel_limit": "void",
+    "compress": "void",
+    "connect_to_host": "ENetPacketPeer",
+    "create_host": "int",
+    "create_host_bound": "int",
+    "destroy": "void",
+    "dtls_client_setup": "int",
+    "dtls_server_setup": "int",
+    "flush": "void",
+    "get_local_port": "int",
+    "get_max_channels": "int",
+    "get_peers": "ENetPacketPeer[]",
+    "pop_statistic": "float",
+    "refuse_new_connections": "void",
+    "service": "Array",
+    "socket_send": "void"
+   },
+   "signals": {}
+  },
+  "ENetMultiplayerPeer": {
+   "constants": [],
+   "inherits": "MultiplayerPeer",
+   "members": {
+    "host": "ENetConnection"
+   },
+   "methods": {
+    "add_mesh_peer": "int",
+    "create_client": "int",
+    "create_mesh": "int",
+    "create_server": "int",
+    "get_peer": "ENetPacketPeer",
+    "set_bind_ip": "void"
+   },
+   "signals": {}
+  },
+  "ENetPacketPeer": {
+   "constants": [
+    "FLAG_RELIABLE",
+    "FLAG_UNRELIABLE_FRAGMENT",
+    "FLAG_UNSEQUENCED",
+    "PACKET_LOSS_SCALE",
+    "PACKET_THROTTLE_SCALE",
+    "PEER_LAST_ROUND_TRIP_TIME",
+    "PEER_LAST_ROUND_TRIP_TIME_VARIANCE",
+    "PEER_PACKET_LOSS",
+    "PEER_PACKET_LOSS_EPOCH",
+    "PEER_PACKET_LOSS_VARIANCE",
+    "PEER_PACKET_THROTTLE",
+    "PEER_PACKET_THROTTLE_ACCELERATION",
+    "PEER_PACKET_THROTTLE_COUNTER",
+    "PEER_PACKET_THROTTLE_DECELERATION",
+    "PEER_PACKET_THROTTLE_EPOCH",
+    "PEER_PACKET_THROTTLE_INTERVAL",
+    "PEER_PACKET_THROTTLE_LIMIT",
+    "PEER_ROUND_TRIP_TIME",
+    "PEER_ROUND_TRIP_TIME_VARIANCE",
+    "PeerState",
+    "PeerStatistic",
+    "STATE_ACKNOWLEDGING_CONNECT",
+    "STATE_ACKNOWLEDGING_DISCONNECT",
+    "STATE_CONNECTED",
+    "STATE_CONNECTING",
+    "STATE_CONNECTION_PENDING",
+    "STATE_CONNECTION_SUCCEEDED",
+    "STATE_DISCONNECTED",
+    "STATE_DISCONNECTING",
+    "STATE_DISCONNECT_LATER",
+    "STATE_ZOMBIE"
+   ],
+   "inherits": "PacketPeer",
+   "members": {},
+   "methods": {
+    "get_channels": "int",
+    "get_packet_flags": "int",
+    "get_remote_address": "String",
+    "get_remote_port": "int",
+    "get_state": "int",
+    "get_statistic": "float",
+    "is_active": "bool",
+    "peer_disconnect": "void",
+    "peer_disconnect_later": "void",
+    "peer_disconnect_now": "void",
+    "ping": "void",
+    "ping_interval": "void",
+    "reset": "void",
+    "send": "int",
+    "set_timeout": "void",
+    "throttle_configure": "void"
+   },
+   "signals": {}
+  },
+  "EditorExportPlatformAndroid": {
+   "constants": [],
+   "inherits": "EditorExportPlatform",
+   "members": {
+    "architectures/arm64-v8a": "bool",
+    "architectures/armeabi-v7a": "bool",
+    "architectures/x86": "bool",
+    "architectures/x86_64": "bool",
+    "command_line/extra_args": "String",
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "gesture/swipe_to_dismiss": "bool",
+    "gradle_build/android_source_template": "String",
+    "gradle_build/compress_native_libraries": "bool",
+    "gradle_build/custom_theme_attributes": "Dictionary",
+    "gradle_build/export_format": "int",
+    "gradle_build/gradle_build_directory": "String",
+    "gradle_build/min_sdk": "String",
+    "gradle_build/minification": "bool",
+    "gradle_build/target_sdk": "String",
+    "gradle_build/use_gradle_build": "bool",
+    "graphics/opengl_debug": "bool",
+    "keystore/debug": "String",
+    "keystore/debug_password": "String",
+    "keystore/debug_user": "String",
+    "keystore/release": "String",
+    "keystore/release_password": "String",
+    "keystore/release_user": "String",
+    "launcher_icons/adaptive_background_432x432": "String",
+    "launcher_icons/adaptive_foreground_432x432": "String",
+    "launcher_icons/adaptive_monochrome_432x432": "String",
+    "launcher_icons/main_192x192": "String",
+    "package/app_category": "int",
+    "package/exclude_from_recents": "bool",
+    "package/name": "String",
+    "package/retain_data_on_uninstall": "bool",
+    "package/show_as_launcher_app": "bool",
+    "package/show_in_android_tv": "bool",
+    "package/show_in_app_library": "bool",
+    "package/signed": "bool",
+    "package/unique_name": "String",
+    "permissions/access_checkin_properties": "bool",
+    "permissions/access_coarse_location": "bool",
+    "permissions/access_fine_location": "bool",
+    "permissions/access_location_extra_commands": "bool",
+    "permissions/access_media_location": "bool",
+    "permissions/access_mock_location": "bool",
+    "permissions/access_network_state": "bool",
+    "permissions/access_surface_flinger": "bool",
+    "permissions/access_wifi_state": "bool",
+    "permissions/account_manager": "bool",
+    "permissions/add_voicemail": "bool",
+    "permissions/authenticate_accounts": "bool",
+    "permissions/battery_stats": "bool",
+    "permissions/bind_accessibility_service": "bool",
+    "permissions/bind_appwidget": "bool",
+    "permissions/bind_device_admin": "bool",
+    "permissions/bind_input_method": "bool",
+    "permissions/bind_nfc_service": "bool",
+    "permissions/bind_notification_listener_service": "bool",
+    "permissions/bind_print_service": "bool",
+    "permissions/bind_remoteviews": "bool",
+    "permissions/bind_text_service": "bool",
+    "permissions/bind_vpn_service": "bool",
+    "permissions/bind_wallpaper": "bool",
+    "permissions/bluetooth": "bool",
+    "permissions/bluetooth_admin": "bool",
+    "permissions/bluetooth_privileged": "bool",
+    "permissions/brick": "bool",
+    "permissions/broadcast_package_removed": "bool",
+    "permissions/broadcast_sms": "bool",
+    "permissions/broadcast_sticky": "bool",
+    "permissions/broadcast_wap_push": "bool",
+    "permissions/call_phone": "bool",
+    "permissions/call_privileged": "bool",
+    "permissions/camera": "bool",
+    "permissions/capture_audio_output": "bool",
+    "permissions/capture_secure_video_output": "bool",
+    "permissions/capture_video_output": "bool",
+    "permissions/change_component_enabled_state": "bool",
+    "permissions/change_configuration": "bool",
+    "permissions/change_network_state": "bool",
+    "permissions/change_wifi_multicast_state": "bool",
+    "permissions/change_wifi_state": "bool",
+    "permissions/clear_app_cache": "bool",
+    "permissions/clear_app_user_data": "bool",
+    "permissions/control_location_updates": "bool",
+    "permissions/custom_permissions": "PackedStringArray",
+    "permissions/delete_cache_files": "bool",
+    "permissions/delete_packages": "bool",
+    "permissions/device_power": "bool",
+    "permissions/diagnostic": "bool",
+    "permissions/disable_keyguard": "bool",
+    "permissions/dump": "bool",
+    "permissions/expand_status_bar": "bool",
+    "permissions/factory_test": "bool",
+    "permissions/flashlight": "bool",
+    "permissions/force_back": "bool",
+    "permissions/get_accounts": "bool",
+    "permissions/get_package_size": "bool",
+    "permissions/get_tasks": "bool",
+    "permissions/get_top_activity_info": "bool",
+    "permissions/global_search": "bool",
+    "permissions/hardware_test": "bool",
+    "permissions/inject_events": "bool",
+    "permissions/install_location_provider": "bool",
+    "permissions/install_packages": "bool",
+    "permissions/install_shortcut": "bool",
+    "permissions/internal_system_window": "bool",
+    "permissions/internet": "bool",
+    "permissions/kill_background_processes": "bool",
+    "permissions/location_hardware": "bool",
+    "permissions/manage_accounts": "bool",
+    "permissions/manage_app_tokens": "bool",
+    "permissions/manage_documents": "bool",
+    "permissions/manage_external_storage": "bool",
+    "permissions/manage_media": "bool",
+    "permissions/master_clear": "bool",
+    "permissions/media_content_control": "bool",
+    "permissions/modify_audio_settings": "bool",
+    "permissions/modify_phone_state": "bool",
+    "permissions/mount_format_filesystems": "bool",
+    "permissions/mount_unmount_filesystems": "bool",
+    "permissions/nfc": "bool",
+    "permissions/persistent_activity": "bool",
+    "permissions/post_notifications": "bool",
+    "permissions/process_outgoing_calls": "bool",
+    "permissions/read_calendar": "bool",
+    "permissions/read_call_log": "bool",
+    "permissions/read_contacts": "bool",
+    "permissions/read_external_storage": "bool",
+    "permissions/read_frame_buffer": "bool",
+    "permissions/read_history_bookmarks": "bool",
+    "permissions/read_input_state": "bool",
+    "permissions/read_logs": "bool",
+    "permissions/read_media_audio": "bool",
+    "permissions/read_media_images": "bool",
+    "permissions/read_media_video": "bool",
+    "permissions/read_media_visual_user_selected": "bool",
+    "permissions/read_phone_state": "bool",
+    "permissions/read_profile": "bool",
+    "permissions/read_sms": "bool",
+    "permissions/read_social_stream": "bool",
+    "permissions/read_sync_settings": "bool",
+    "permissions/read_sync_stats": "bool",
+    "permissions/read_user_dictionary": "bool",
+    "permissions/reboot": "bool",
+    "permissions/receive_boot_completed": "bool",
+    "permissions/receive_mms": "bool",
+    "permissions/receive_sms": "bool",
+    "permissions/receive_wap_push": "bool",
+    "permissions/record_audio": "bool",
+    "permissions/reorder_tasks": "bool",
+    "permissions/restart_packages": "bool",
+    "permissions/send_respond_via_message": "bool",
+    "permissions/send_sms": "bool",
+    "permissions/set_activity_watcher": "bool",
+    "permissions/set_alarm": "bool",
+    "permissions/set_always_finish": "bool",
+    "permissions/set_animation_scale": "bool",
+    "permissions/set_debug_app": "bool",
+    "permissions/set_orientation": "bool",
+    "permissions/set_pointer_speed": "bool",
+    "permissions/set_preferred_applications": "bool",
+    "permissions/set_process_limit": "bool",
+    "permissions/set_time": "bool",
+    "permissions/set_time_zone": "bool",
+    "permissions/set_wallpaper": "bool",
+    "permissions/set_wallpaper_hints": "bool",
+    "permissions/signal_persistent_processes": "bool",
+    "permissions/status_bar": "bool",
+    "permissions/subscribed_feeds_read": "bool",
+    "permissions/subscribed_feeds_write": "bool",
+    "permissions/system_alert_window": "bool",
+    "permissions/transmit_ir": "bool",
+    "permissions/uninstall_shortcut": "bool",
+    "permissions/update_device_stats": "bool",
+    "permissions/use_credentials": "bool",
+    "permissions/use_sip": "bool",
+    "permissions/vibrate": "bool",
+    "permissions/wake_lock": "bool",
+    "permissions/write_apn_settings": "bool",
+    "permissions/write_calendar": "bool",
+    "permissions/write_call_log": "bool",
+    "permissions/write_contacts": "bool",
+    "permissions/write_external_storage": "bool",
+    "permissions/write_gservices": "bool",
+    "permissions/write_history_bookmarks": "bool",
+    "permissions/write_profile": "bool",
+    "permissions/write_secure_settings": "bool",
+    "permissions/write_settings": "bool",
+    "permissions/write_sms": "bool",
+    "permissions/write_social_stream": "bool",
+    "permissions/write_sync_settings": "bool",
+    "permissions/write_user_dictionary": "bool",
+    "screen/background_color": "Color",
+    "screen/edge_to_edge": "bool",
+    "screen/immersive_mode": "bool",
+    "screen/support_large": "bool",
+    "screen/support_normal": "bool",
+    "screen/support_small": "bool",
+    "screen/support_xlarge": "bool",
+    "shader_baker/enabled": "bool",
+    "splash_screen/background_color": "Color",
+    "splash_screen/branding_image": "String",
+    "splash_screen/disable_godot_boot_splash": "bool",
+    "splash_screen/icon": "String",
+    "user_data_backup/allow": "bool",
+    "version/code": "int",
+    "version/name": "String",
+    "xr_features/xr_mode": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorExportPlatformIOS": {
+   "constants": [],
+   "inherits": "EditorExportPlatformAppleEmbedded",
+   "members": {
+    "application/additional_plist_content": "String",
+    "application/app_store_team_id": "String",
+    "application/bundle_identifier": "String",
+    "application/code_sign_identity_debug": "String",
+    "application/code_sign_identity_release": "String",
+    "application/delete_old_export_files_unconditionally": "bool",
+    "application/export_method_debug": "int",
+    "application/export_method_release": "int",
+    "application/export_project_only": "bool",
+    "application/icon_interpolation": "int",
+    "application/min_ios_version": "String",
+    "application/provisioning_profile_specifier_debug": "String",
+    "application/provisioning_profile_specifier_release": "String",
+    "application/provisioning_profile_uuid_debug": "String",
+    "application/provisioning_profile_uuid_release": "String",
+    "application/short_version": "String",
+    "application/signature": "String",
+    "application/targeted_device_family": "int",
+    "application/version": "String",
+    "architectures/arm64": "bool",
+    "capabilities/access_wifi": "bool",
+    "capabilities/additional": "PackedStringArray",
+    "capabilities/performance_a12": "bool",
+    "capabilities/performance_gaming_tier": "bool",
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "entitlements/additional": "String",
+    "entitlements/game_center": "bool",
+    "entitlements/increased_memory_limit": "bool",
+    "entitlements/push_notifications": "String",
+    "icons/app_store_1024x1024": "String",
+    "icons/app_store_1024x1024_dark": "String",
+    "icons/app_store_1024x1024_tinted": "String",
+    "icons/icon_1024x1024": "String",
+    "icons/icon_1024x1024_dark": "String",
+    "icons/icon_1024x1024_tinted": "String",
+    "icons/ios_128x128": "String",
+    "icons/ios_128x128_dark": "String",
+    "icons/ios_128x128_tinted": "String",
+    "icons/ios_136x136": "String",
+    "icons/ios_136x136_dark": "String",
+    "icons/ios_136x136_tinted": "String",
+    "icons/ios_192x192": "String",
+    "icons/ios_192x192_dark": "String",
+    "icons/ios_192x192_tinted": "String",
+    "icons/ipad_152x152": "String",
+    "icons/ipad_152x152_dark": "String",
+    "icons/ipad_152x152_tinted": "String",
+    "icons/ipad_167x167": "String",
+    "icons/ipad_167x167_dark": "String",
+    "icons/ipad_167x167_tinted": "String",
+    "icons/iphone_120x120": "String",
+    "icons/iphone_120x120_dark": "String",
+    "icons/iphone_120x120_tinted": "String",
+    "icons/iphone_180x180": "String",
+    "icons/iphone_180x180_dark": "String",
+    "icons/iphone_180x180_tinted": "String",
+    "icons/notification_114x114": "String",
+    "icons/notification_114x114_dark": "String",
+    "icons/notification_114x114_tinted": "String",
+    "icons/notification_40x40": "String",
+    "icons/notification_40x40_dark": "String",
+    "icons/notification_40x40_tinted": "String",
+    "icons/notification_60x60": "String",
+    "icons/notification_60x60_dark": "String",
+    "icons/notification_60x60_tinted": "String",
+    "icons/notification_76x76": "String",
+    "icons/notification_76x76_dark": "String",
+    "icons/notification_76x76_tinted": "String",
+    "icons/settings_58x58": "String",
+    "icons/settings_58x58_dark": "String",
+    "icons/settings_58x58_tinted": "String",
+    "icons/settings_87x87": "String",
+    "icons/settings_87x87_dark": "String",
+    "icons/settings_87x87_tinted": "String",
+    "icons/spotlight_120x120": "String",
+    "icons/spotlight_120x120_dark": "String",
+    "icons/spotlight_120x120_tinted": "String",
+    "icons/spotlight_80x80": "String",
+    "icons/spotlight_80x80_dark": "String",
+    "icons/spotlight_80x80_tinted": "String",
+    "modules/camera": "bool",
+    "privacy/active_keyboard_access_reasons": "int",
+    "privacy/camera_usage_description": "String",
+    "privacy/camera_usage_description_localized": "Dictionary",
+    "privacy/collected_data/advertising_data/collected": "bool",
+    "privacy/collected_data/advertising_data/collection_purposes": "int",
+    "privacy/collected_data/advertising_data/linked_to_user": "bool",
+    "privacy/collected_data/advertising_data/used_for_tracking": "bool",
+    "privacy/collected_data/audio_data/collected": "bool",
+    "privacy/collected_data/audio_data/collection_purposes": "int",
+    "privacy/collected_data/audio_data/linked_to_user": "bool",
+    "privacy/collected_data/audio_data/used_for_tracking": "bool",
+    "privacy/collected_data/browsing_history/collected": "bool",
+    "privacy/collected_data/browsing_history/collection_purposes": "int",
+    "privacy/collected_data/browsing_history/linked_to_user": "bool",
+    "privacy/collected_data/browsing_history/used_for_tracking": "bool",
+    "privacy/collected_data/coarse_location/collected": "bool",
+    "privacy/collected_data/coarse_location/collection_purposes": "int",
+    "privacy/collected_data/coarse_location/linked_to_user": "bool",
+    "privacy/collected_data/coarse_location/used_for_tracking": "bool",
+    "privacy/collected_data/contacts/collected": "bool",
+    "privacy/collected_data/contacts/collection_purposes": "int",
+    "privacy/collected_data/contacts/linked_to_user": "bool",
+    "privacy/collected_data/contacts/used_for_tracking": "bool",
+    "privacy/collected_data/crash_data/collected": "bool",
+    "privacy/collected_data/crash_data/collection_purposes": "int",
+    "privacy/collected_data/crash_data/linked_to_user": "bool",
+    "privacy/collected_data/crash_data/used_for_tracking": "bool",
+    "privacy/collected_data/credit_info/collected": "bool",
+    "privacy/collected_data/credit_info/collection_purposes": "int",
+    "privacy/collected_data/credit_info/linked_to_user": "bool",
+    "privacy/collected_data/credit_info/used_for_tracking": "bool",
+    "privacy/collected_data/customer_support/collected": "bool",
+    "privacy/collected_data/customer_support/collection_purposes": "int",
+    "privacy/collected_data/customer_support/linked_to_user": "bool",
+    "privacy/collected_data/customer_support/used_for_tracking": "bool",
+    "privacy/collected_data/device_id/collected": "bool",
+    "privacy/collected_data/device_id/collection_purposes": "int",
+    "privacy/collected_data/device_id/linked_to_user": "bool",
+    "privacy/collected_data/device_id/used_for_tracking": "bool",
+    "privacy/collected_data/email_address/collected": "bool",
+    "privacy/collected_data/email_address/collection_purposes": "int",
+    "privacy/collected_data/email_address/linked_to_user": "bool",
+    "privacy/collected_data/email_address/used_for_tracking": "bool",
+    "privacy/collected_data/emails_or_text_messages/collected": "bool",
+    "privacy/collected_data/emails_or_text_messages/collection_purposes": "int",
+    "privacy/collected_data/emails_or_text_messages/linked_to_user": "bool",
+    "privacy/collected_data/emails_or_text_messages/used_for_tracking": "bool",
+    "privacy/collected_data/environment_scanning/collected": "bool",
+    "privacy/collected_data/environment_scanning/collection_purposes": "int",
+    "privacy/collected_data/environment_scanning/linked_to_user": "bool",
+    "privacy/collected_data/environment_scanning/used_for_tracking": "bool",
+    "privacy/collected_data/fitness/collected": "bool",
+    "privacy/collected_data/fitness/collection_purposes": "int",
+    "privacy/collected_data/fitness/linked_to_user": "bool",
+    "privacy/collected_data/fitness/used_for_tracking": "bool",
+    "privacy/collected_data/gameplay_content/collected": "bool",
+    "privacy/collected_data/gameplay_content/collection_purposes": "int",
+    "privacy/collected_data/gameplay_content/linked_to_user": "bool",
+    "privacy/collected_data/gameplay_content/used_for_tracking": "bool",
+    "privacy/collected_data/hands/collected": "bool",
+    "privacy/collected_data/hands/collection_purposes": "int",
+    "privacy/collected_data/hands/linked_to_user": "bool",
+    "privacy/collected_data/hands/used_for_tracking": "bool",
+    "privacy/collected_data/head/collected": "bool",
+    "privacy/collected_data/head/collection_purposes": "int",
+    "privacy/collected_data/head/linked_to_user": "bool",
+    "privacy/collected_data/head/used_for_tracking": "bool",
+    "privacy/collected_data/health/collected": "bool",
+    "privacy/collected_data/health/collection_purposes": "int",
+    "privacy/collected_data/health/linked_to_user": "bool",
+    "privacy/collected_data/health/used_for_tracking": "bool",
+    "privacy/collected_data/name/collected": "bool",
+    "privacy/collected_data/name/collection_purposes": "int",
+    "privacy/collected_data/name/linked_to_user": "bool",
+    "privacy/collected_data/name/used_for_tracking": "bool",
+    "privacy/collected_data/other_contact_info/collected": "bool",
+    "privacy/collected_data/other_contact_info/collection_purposes": "int",
+    "privacy/collected_data/other_contact_info/linked_to_user": "bool",
+    "privacy/collected_data/other_contact_info/used_for_tracking": "bool",
+    "privacy/collected_data/other_data_types/collected": "bool",
+    "privacy/collected_data/other_data_types/collection_purposes": "int",
+    "privacy/collected_data/other_data_types/linked_to_user": "bool",
+    "privacy/collected_data/other_data_types/used_for_tracking": "bool",
+    "privacy/collected_data/other_diagnostic_data/collected": "bool",
+    "privacy/collected_data/other_diagnostic_data/collection_purposes": "int",
+    "privacy/collected_data/other_diagnostic_data/linked_to_user": "bool",
+    "privacy/collected_data/other_diagnostic_data/used_for_tracking": "bool",
+    "privacy/collected_data/other_financial_info/collected": "bool",
+    "privacy/collected_data/other_financial_info/collection_purposes": "int",
+    "privacy/collected_data/other_financial_info/linked_to_user": "bool",
+    "privacy/collected_data/other_financial_info/used_for_tracking": "bool",
+    "privacy/collected_data/other_usage_data/collected": "bool",
+    "privacy/collected_data/other_usage_data/collection_purposes": "int",
+    "privacy/collected_data/other_usage_data/linked_to_user": "bool",
+    "privacy/collected_data/other_usage_data/used_for_tracking": "bool",
+    "privacy/collected_data/other_user_content/collected": "bool",
+    "privacy/collected_data/other_user_content/collection_purposes": "int",
+    "privacy/collected_data/other_user_content/linked_to_user": "bool",
+    "privacy/collected_data/other_user_content/used_for_tracking": "bool",
+    "privacy/collected_data/payment_info/collected": "bool",
+    "privacy/collected_data/payment_info/collection_purposes": "int",
+    "privacy/collected_data/payment_info/linked_to_user": "bool",
+    "privacy/collected_data/payment_info/used_for_tracking": "bool",
+    "privacy/collected_data/performance_data/collected": "bool",
+    "privacy/collected_data/performance_data/collection_purposes": "int",
+    "privacy/collected_data/performance_data/linked_to_user": "bool",
+    "privacy/collected_data/performance_data/used_for_tracking": "bool",
+    "privacy/collected_data/phone_number/collected": "bool",
+    "privacy/collected_data/phone_number/collection_purposes": "int",
+    "privacy/collected_data/phone_number/linked_to_user": "bool",
+    "privacy/collected_data/phone_number/used_for_tracking": "bool",
+    "privacy/collected_data/photos_or_videos/collected": "bool",
+    "privacy/collected_data/photos_or_videos/collection_purposes": "int",
+    "privacy/collected_data/photos_or_videos/linked_to_user": "bool",
+    "privacy/collected_data/photos_or_videos/used_for_tracking": "bool",
+    "privacy/collected_data/physical_address/collected": "bool",
+    "privacy/collected_data/physical_address/collection_purposes": "int",
+    "privacy/collected_data/physical_address/linked_to_user": "bool",
+    "privacy/collected_data/physical_address/used_for_tracking": "bool",
+    "privacy/collected_data/precise_location/collected": "bool",
+    "privacy/collected_data/precise_location/collection_purposes": "int",
+    "privacy/collected_data/precise_location/linked_to_user": "bool",
+    "privacy/collected_data/precise_location/used_for_tracking": "bool",
+    "privacy/collected_data/product_interaction/collected": "bool",
+    "privacy/collected_data/product_interaction/collection_purposes": "int",
+    "privacy/collected_data/product_interaction/linked_to_user": "bool",
+    "privacy/collected_data/product_interaction/used_for_tracking": "bool",
+    "privacy/collected_data/purchase_history/collected": "bool",
+    "privacy/collected_data/purchase_history/collection_purposes": "int",
+    "privacy/collected_data/purchase_history/linked_to_user": "bool",
+    "privacy/collected_data/purchase_history/used_for_tracking": "bool",
+    "privacy/collected_data/search_history/collected": "bool",
+    "privacy/collected_data/search_history/collection_purposes": "int",
+    "privacy/collected_data/search_history/linked_to_user": "bool",
+    "privacy/collected_data/search_history/used_for_tracking": "bool",
+    "privacy/collected_data/sensitive_info/collected": "bool",
+    "privacy/collected_data/sensitive_info/collection_purposes": "int",
+    "privacy/collected_data/sensitive_info/linked_to_user": "bool",
+    "privacy/collected_data/sensitive_info/used_for_tracking": "bool",
+    "privacy/collected_data/user_id/collected": "bool",
+    "privacy/collected_data/user_id/collection_purposes": "int",
+    "privacy/collected_data/user_id/linked_to_user": "bool",
+    "privacy/collected_data/user_id/used_for_tracking": "bool",
+    "privacy/disk_space_access_reasons": "int",
+    "privacy/file_timestamp_access_reasons": "int",
+    "privacy/microphone_usage_description": "String",
+    "privacy/microphone_usage_description_localized": "Dictionary",
+    "privacy/photolibrary_usage_description": "String",
+    "privacy/photolibrary_usage_description_localized": "Dictionary",
+    "privacy/system_boot_time_access_reasons": "int",
+    "privacy/tracking_domains": "PackedStringArray",
+    "privacy/tracking_enabled": "bool",
+    "privacy/user_defaults_access_reasons": "int",
+    "shader_baker/enabled": "bool",
+    "storyboard/custom_bg_color": "Color",
+    "storyboard/custom_image@2x": "String",
+    "storyboard/custom_image@3x": "String",
+    "storyboard/image_scale_mode": "int",
+    "storyboard/use_custom_bg_color": "bool",
+    "user_data/accessible_from_files_app": "bool",
+    "user_data/accessible_from_itunes_sharing": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorExportPlatformLinuxBSD": {
+   "constants": [],
+   "inherits": "EditorExportPlatformPC",
+   "members": {
+    "binary_format/architecture": "String",
+    "binary_format/embed_pck": "bool",
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "debug/export_console_wrapper": "int",
+    "debug/export_debug_symbols": "int",
+    "shader_baker/enabled": "bool",
+    "ssh_remote_deploy/cleanup_script": "String",
+    "ssh_remote_deploy/enabled": "bool",
+    "ssh_remote_deploy/extra_args_scp": "String",
+    "ssh_remote_deploy/extra_args_ssh": "String",
+    "ssh_remote_deploy/host": "String",
+    "ssh_remote_deploy/port": "String",
+    "ssh_remote_deploy/run_script": "String",
+    "texture_format/etc2_astc": "bool",
+    "texture_format/s3tc_bptc": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorExportPlatformMacOS": {
+   "constants": [],
+   "inherits": "EditorExportPlatform",
+   "members": {
+    "application/additional_plist_content": "String",
+    "application/app_category": "String",
+    "application/bundle_identifier": "String",
+    "application/copyright": "String",
+    "application/copyright_localized": "Dictionary",
+    "application/export_angle": "int",
+    "application/icon": "String",
+    "application/icon_interpolation": "int",
+    "application/liquid_glass_icon": "String",
+    "application/min_macos_version_arm64": "String",
+    "application/min_macos_version_x86_64": "String",
+    "application/short_version": "String",
+    "application/signature": "String",
+    "application/version": "String",
+    "binary_format/architecture": "String",
+    "codesign/apple_team_id": "String",
+    "codesign/certificate_file": "String",
+    "codesign/certificate_password": "String",
+    "codesign/codesign": "int",
+    "codesign/custom_options": "PackedStringArray",
+    "codesign/entitlements/additional": "String",
+    "codesign/entitlements/address_book": "bool",
+    "codesign/entitlements/allow_dyld_environment_variables": "bool",
+    "codesign/entitlements/allow_jit_code_execution": "bool",
+    "codesign/entitlements/allow_unsigned_executable_memory": "bool",
+    "codesign/entitlements/app_sandbox/device_bluetooth": "bool",
+    "codesign/entitlements/app_sandbox/device_usb": "bool",
+    "codesign/entitlements/app_sandbox/enabled": "bool",
+    "codesign/entitlements/app_sandbox/files_downloads": "int",
+    "codesign/entitlements/app_sandbox/files_movies": "int",
+    "codesign/entitlements/app_sandbox/files_music": "int",
+    "codesign/entitlements/app_sandbox/files_pictures": "int",
+    "codesign/entitlements/app_sandbox/files_user_selected": "int",
+    "codesign/entitlements/app_sandbox/helper_executables": "Array",
+    "codesign/entitlements/app_sandbox/network_client": "bool",
+    "codesign/entitlements/app_sandbox/network_server": "bool",
+    "codesign/entitlements/apple_events": "bool",
+    "codesign/entitlements/audio_input": "bool",
+    "codesign/entitlements/calendars": "bool",
+    "codesign/entitlements/camera": "bool",
+    "codesign/entitlements/custom_file": "String",
+    "codesign/entitlements/debugging": "bool",
+    "codesign/entitlements/disable_library_validation": "bool",
+    "codesign/entitlements/location": "bool",
+    "codesign/entitlements/photos_library": "bool",
+    "codesign/identity": "String",
+    "codesign/installer_identity": "String",
+    "codesign/provisioning_profile": "String",
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "debug/export_console_wrapper": "int",
+    "debug/export_debug_symbols": "int",
+    "display/high_res": "bool",
+    "export/distribution_type": "int",
+    "notarization/api_key": "String",
+    "notarization/api_key_id": "String",
+    "notarization/api_uuid": "String",
+    "notarization/apple_id_name": "String",
+    "notarization/apple_id_password": "String",
+    "notarization/notarization": "int",
+    "privacy/address_book_usage_description": "String",
+    "privacy/address_book_usage_description_localized": "Dictionary",
+    "privacy/calendar_usage_description": "String",
+    "privacy/calendar_usage_description_localized": "Dictionary",
+    "privacy/camera_usage_description": "String",
+    "privacy/camera_usage_description_localized": "Dictionary",
+    "privacy/collected_data/advertising_data/collected": "bool",
+    "privacy/collected_data/advertising_data/collection_purposes": "int",
+    "privacy/collected_data/advertising_data/linked_to_user": "bool",
+    "privacy/collected_data/advertising_data/used_for_tracking": "bool",
+    "privacy/collected_data/audio_data/collected": "bool",
+    "privacy/collected_data/audio_data/collection_purposes": "int",
+    "privacy/collected_data/audio_data/linked_to_user": "bool",
+    "privacy/collected_data/audio_data/used_for_tracking": "bool",
+    "privacy/collected_data/browsing_history/collected": "bool",
+    "privacy/collected_data/browsing_history/collection_purposes": "int",
+    "privacy/collected_data/browsing_history/linked_to_user": "bool",
+    "privacy/collected_data/browsing_history/used_for_tracking": "bool",
+    "privacy/collected_data/coarse_location/collected": "bool",
+    "privacy/collected_data/coarse_location/collection_purposes": "int",
+    "privacy/collected_data/coarse_location/linked_to_user": "bool",
+    "privacy/collected_data/coarse_location/used_for_tracking": "bool",
+    "privacy/collected_data/contacts/collected": "bool",
+    "privacy/collected_data/contacts/collection_purposes": "int",
+    "privacy/collected_data/contacts/linked_to_user": "bool",
+    "privacy/collected_data/contacts/used_for_tracking": "bool",
+    "privacy/collected_data/crash_data/collected": "bool",
+    "privacy/collected_data/crash_data/collection_purposes": "int",
+    "privacy/collected_data/crash_data/linked_to_user": "bool",
+    "privacy/collected_data/crash_data/used_for_tracking": "bool",
+    "privacy/collected_data/credit_info/collected": "bool",
+    "privacy/collected_data/credit_info/collection_purposes": "int",
+    "privacy/collected_data/credit_info/linked_to_user": "bool",
+    "privacy/collected_data/credit_info/used_for_tracking": "bool",
+    "privacy/collected_data/customer_support/collected": "bool",
+    "privacy/collected_data/customer_support/collection_purposes": "int",
+    "privacy/collected_data/customer_support/linked_to_user": "bool",
+    "privacy/collected_data/customer_support/used_for_tracking": "bool",
+    "privacy/collected_data/device_id/collected": "bool",
+    "privacy/collected_data/device_id/collection_purposes": "int",
+    "privacy/collected_data/device_id/linked_to_user": "bool",
+    "privacy/collected_data/device_id/used_for_tracking": "bool",
+    "privacy/collected_data/email_address/collected": "bool",
+    "privacy/collected_data/email_address/collection_purposes": "int",
+    "privacy/collected_data/email_address/linked_to_user": "bool",
+    "privacy/collected_data/email_address/used_for_tracking": "bool",
+    "privacy/collected_data/emails_or_text_messages/collected": "bool",
+    "privacy/collected_data/emails_or_text_messages/collection_purposes": "int",
+    "privacy/collected_data/emails_or_text_messages/linked_to_user": "bool",
+    "privacy/collected_data/emails_or_text_messages/used_for_tracking": "bool",
+    "privacy/collected_data/environment_scanning/collected": "bool",
+    "privacy/collected_data/environment_scanning/collection_purposes": "int",
+    "privacy/collected_data/environment_scanning/linked_to_user": "bool",
+    "privacy/collected_data/environment_scanning/used_for_tracking": "bool",
+    "privacy/collected_data/fitness/collected": "bool",
+    "privacy/collected_data/fitness/collection_purposes": "int",
+    "privacy/collected_data/fitness/linked_to_user": "bool",
+    "privacy/collected_data/fitness/used_for_tracking": "bool",
+    "privacy/collected_data/gameplay_content/collected": "bool",
+    "privacy/collected_data/gameplay_content/collection_purposes": "int",
+    "privacy/collected_data/gameplay_content/linked_to_user": "bool",
+    "privacy/collected_data/gameplay_content/used_for_tracking": "bool",
+    "privacy/collected_data/hands/collected": "bool",
+    "privacy/collected_data/hands/collection_purposes": "int",
+    "privacy/collected_data/hands/linked_to_user": "bool",
+    "privacy/collected_data/hands/used_for_tracking": "bool",
+    "privacy/collected_data/head/collected": "bool",
+    "privacy/collected_data/head/collection_purposes": "int",
+    "privacy/collected_data/head/linked_to_user": "bool",
+    "privacy/collected_data/head/used_for_tracking": "bool",
+    "privacy/collected_data/health/collected": "bool",
+    "privacy/collected_data/health/collection_purposes": "int",
+    "privacy/collected_data/health/linked_to_user": "bool",
+    "privacy/collected_data/health/used_for_tracking": "bool",
+    "privacy/collected_data/name/collected": "bool",
+    "privacy/collected_data/name/collection_purposes": "int",
+    "privacy/collected_data/name/linked_to_user": "bool",
+    "privacy/collected_data/name/used_for_tracking": "bool",
+    "privacy/collected_data/other_contact_info/collected": "bool",
+    "privacy/collected_data/other_contact_info/collection_purposes": "int",
+    "privacy/collected_data/other_contact_info/linked_to_user": "bool",
+    "privacy/collected_data/other_contact_info/used_for_tracking": "bool",
+    "privacy/collected_data/other_data_types/collected": "bool",
+    "privacy/collected_data/other_data_types/collection_purposes": "int",
+    "privacy/collected_data/other_data_types/linked_to_user": "bool",
+    "privacy/collected_data/other_data_types/used_for_tracking": "bool",
+    "privacy/collected_data/other_diagnostic_data/collected": "bool",
+    "privacy/collected_data/other_diagnostic_data/collection_purposes": "int",
+    "privacy/collected_data/other_diagnostic_data/linked_to_user": "bool",
+    "privacy/collected_data/other_diagnostic_data/used_for_tracking": "bool",
+    "privacy/collected_data/other_financial_info/collected": "bool",
+    "privacy/collected_data/other_financial_info/collection_purposes": "int",
+    "privacy/collected_data/other_financial_info/linked_to_user": "bool",
+    "privacy/collected_data/other_financial_info/used_for_tracking": "bool",
+    "privacy/collected_data/other_usage_data/collected": "bool",
+    "privacy/collected_data/other_usage_data/collection_purposes": "int",
+    "privacy/collected_data/other_usage_data/linked_to_user": "bool",
+    "privacy/collected_data/other_usage_data/used_for_tracking": "bool",
+    "privacy/collected_data/other_user_content/collected": "bool",
+    "privacy/collected_data/other_user_content/collection_purposes": "int",
+    "privacy/collected_data/other_user_content/linked_to_user": "bool",
+    "privacy/collected_data/other_user_content/used_for_tracking": "bool",
+    "privacy/collected_data/payment_info/collected": "bool",
+    "privacy/collected_data/payment_info/collection_purposes": "int",
+    "privacy/collected_data/payment_info/linked_to_user": "bool",
+    "privacy/collected_data/payment_info/used_for_tracking": "bool",
+    "privacy/collected_data/performance_data/collected": "bool",
+    "privacy/collected_data/performance_data/collection_purposes": "int",
+    "privacy/collected_data/performance_data/linked_to_user": "bool",
+    "privacy/collected_data/performance_data/used_for_tracking": "bool",
+    "privacy/collected_data/phone_number/collected": "bool",
+    "privacy/collected_data/phone_number/collection_purposes": "int",
+    "privacy/collected_data/phone_number/linked_to_user": "bool",
+    "privacy/collected_data/phone_number/used_for_tracking": "bool",
+    "privacy/collected_data/photos_or_videos/collected": "bool",
+    "privacy/collected_data/photos_or_videos/collection_purposes": "int",
+    "privacy/collected_data/photos_or_videos/linked_to_user": "bool",
+    "privacy/collected_data/photos_or_videos/used_for_tracking": "bool",
+    "privacy/collected_data/physical_address/collected": "bool",
+    "privacy/collected_data/physical_address/collection_purposes": "int",
+    "privacy/collected_data/physical_address/linked_to_user": "bool",
+    "privacy/collected_data/physical_address/used_for_tracking": "bool",
+    "privacy/collected_data/precise_location/collected": "bool",
+    "privacy/collected_data/precise_location/collection_purposes": "int",
+    "privacy/collected_data/precise_location/linked_to_user": "bool",
+    "privacy/collected_data/precise_location/used_for_tracking": "bool",
+    "privacy/collected_data/product_interaction/collected": "bool",
+    "privacy/collected_data/product_interaction/collection_purposes": "int",
+    "privacy/collected_data/product_interaction/linked_to_user": "bool",
+    "privacy/collected_data/product_interaction/used_for_tracking": "bool",
+    "privacy/collected_data/purchase_history/collected": "bool",
+    "privacy/collected_data/purchase_history/collection_purposes": "int",
+    "privacy/collected_data/purchase_history/linked_to_user": "bool",
+    "privacy/collected_data/purchase_history/used_for_tracking": "bool",
+    "privacy/collected_data/search_history/collected": "bool",
+    "privacy/collected_data/search_history/collection_purposes": "int",
+    "privacy/collected_data/search_history/linked_to_user": "bool",
+    "privacy/collected_data/search_history/used_for_tracking": "bool",
+    "privacy/collected_data/sensitive_info/collected": "bool",
+    "privacy/collected_data/sensitive_info/collection_purposes": "int",
+    "privacy/collected_data/sensitive_info/linked_to_user": "bool",
+    "privacy/collected_data/sensitive_info/used_for_tracking": "bool",
+    "privacy/collected_data/user_id/collected": "bool",
+    "privacy/collected_data/user_id/collection_purposes": "int",
+    "privacy/collected_data/user_id/linked_to_user": "bool",
+    "privacy/collected_data/user_id/used_for_tracking": "bool",
+    "privacy/desktop_folder_usage_description": "String",
+    "privacy/desktop_folder_usage_description_localized": "Dictionary",
+    "privacy/documents_folder_usage_description": "String",
+    "privacy/documents_folder_usage_description_localized": "Dictionary",
+    "privacy/downloads_folder_usage_description": "String",
+    "privacy/downloads_folder_usage_description_localized": "Dictionary",
+    "privacy/location_usage_description": "String",
+    "privacy/location_usage_description_localized": "Dictionary",
+    "privacy/microphone_usage_description": "String",
+    "privacy/microphone_usage_description_localized": "Dictionary",
+    "privacy/network_volumes_usage_description": "String",
+    "privacy/network_volumes_usage_description_localized": "Dictionary",
+    "privacy/photos_library_usage_description": "String",
+    "privacy/photos_library_usage_description_localized": "Dictionary",
+    "privacy/removable_volumes_usage_description": "String",
+    "privacy/removable_volumes_usage_description_localized": "Dictionary",
+    "privacy/tracking_domains": "PackedStringArray",
+    "privacy/tracking_enabled": "bool",
+    "shader_baker/enabled": "bool",
+    "ssh_remote_deploy/cleanup_script": "String",
+    "ssh_remote_deploy/enabled": "bool",
+    "ssh_remote_deploy/extra_args_scp": "String",
+    "ssh_remote_deploy/extra_args_ssh": "String",
+    "ssh_remote_deploy/host": "String",
+    "ssh_remote_deploy/port": "String",
+    "ssh_remote_deploy/run_script": "String",
+    "xcode/platform_build": "String",
+    "xcode/sdk_build": "String",
+    "xcode/sdk_name": "String",
+    "xcode/sdk_version": "String",
+    "xcode/xcode_build": "String",
+    "xcode/xcode_version": "String"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorExportPlatformVisionOS": {
+   "constants": [],
+   "inherits": "EditorExportPlatformAppleEmbedded",
+   "members": {
+    "application/additional_plist_content": "String",
+    "application/app_role": "int",
+    "application/app_store_team_id": "String",
+    "application/bundle_identifier": "String",
+    "application/code_sign_identity_debug": "String",
+    "application/code_sign_identity_release": "String",
+    "application/delete_old_export_files_unconditionally": "bool",
+    "application/export_method_debug": "int",
+    "application/export_method_release": "int",
+    "application/export_project_only": "bool",
+    "application/icon_interpolation": "int",
+    "application/immersion_style": "int",
+    "application/min_visionos_version": "String",
+    "application/provisioning_profile_specifier_debug": "String",
+    "application/provisioning_profile_specifier_release": "String",
+    "application/provisioning_profile_uuid_debug": "String",
+    "application/provisioning_profile_uuid_release": "String",
+    "application/short_version": "String",
+    "application/signature": "String",
+    "application/version": "String",
+    "architectures/arm64": "bool",
+    "capabilities/access_wifi": "bool",
+    "capabilities/additional": "PackedStringArray",
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "entitlements/additional": "String",
+    "entitlements/game_center": "bool",
+    "entitlements/increased_memory_limit": "bool",
+    "entitlements/push_notifications": "String",
+    "icons/icon_1024x1024": "String",
+    "icons/icon_1024x1024_dark": "String",
+    "icons/icon_1024x1024_tinted": "String",
+    "icons/icon_back_layer_1024x1024": "String",
+    "icons/icon_front_layer_1024x1024": "String",
+    "icons/icon_middle_layer_1024x1024": "String",
+    "modules/camera": "bool",
+    "privacy/accessory_tracking_usage_description": "String",
+    "privacy/accessory_tracking_usage_description_localized": "Dictionary",
+    "privacy/active_keyboard_access_reasons": "int",
+    "privacy/camera_usage_description": "String",
+    "privacy/camera_usage_description_localized": "Dictionary",
+    "privacy/collected_data/advertising_data/collected": "bool",
+    "privacy/collected_data/advertising_data/collection_purposes": "int",
+    "privacy/collected_data/advertising_data/linked_to_user": "bool",
+    "privacy/collected_data/advertising_data/used_for_tracking": "bool",
+    "privacy/collected_data/audio_data/collected": "bool",
+    "privacy/collected_data/audio_data/collection_purposes": "int",
+    "privacy/collected_data/audio_data/linked_to_user": "bool",
+    "privacy/collected_data/audio_data/used_for_tracking": "bool",
+    "privacy/collected_data/browsing_history/collected": "bool",
+    "privacy/collected_data/browsing_history/collection_purposes": "int",
+    "privacy/collected_data/browsing_history/linked_to_user": "bool",
+    "privacy/collected_data/browsing_history/used_for_tracking": "bool",
+    "privacy/collected_data/coarse_location/collected": "bool",
+    "privacy/collected_data/coarse_location/collection_purposes": "int",
+    "privacy/collected_data/coarse_location/linked_to_user": "bool",
+    "privacy/collected_data/coarse_location/used_for_tracking": "bool",
+    "privacy/collected_data/contacts/collected": "bool",
+    "privacy/collected_data/contacts/collection_purposes": "int",
+    "privacy/collected_data/contacts/linked_to_user": "bool",
+    "privacy/collected_data/contacts/used_for_tracking": "bool",
+    "privacy/collected_data/crash_data/collected": "bool",
+    "privacy/collected_data/crash_data/collection_purposes": "int",
+    "privacy/collected_data/crash_data/linked_to_user": "bool",
+    "privacy/collected_data/crash_data/used_for_tracking": "bool",
+    "privacy/collected_data/credit_info/collected": "bool",
+    "privacy/collected_data/credit_info/collection_purposes": "int",
+    "privacy/collected_data/credit_info/linked_to_user": "bool",
+    "privacy/collected_data/credit_info/used_for_tracking": "bool",
+    "privacy/collected_data/customer_support/collected": "bool",
+    "privacy/collected_data/customer_support/collection_purposes": "int",
+    "privacy/collected_data/customer_support/linked_to_user": "bool",
+    "privacy/collected_data/customer_support/used_for_tracking": "bool",
+    "privacy/collected_data/device_id/collected": "bool",
+    "privacy/collected_data/device_id/collection_purposes": "int",
+    "privacy/collected_data/device_id/linked_to_user": "bool",
+    "privacy/collected_data/device_id/used_for_tracking": "bool",
+    "privacy/collected_data/email_address/collected": "bool",
+    "privacy/collected_data/email_address/collection_purposes": "int",
+    "privacy/collected_data/email_address/linked_to_user": "bool",
+    "privacy/collected_data/email_address/used_for_tracking": "bool",
+    "privacy/collected_data/emails_or_text_messages/collected": "bool",
+    "privacy/collected_data/emails_or_text_messages/collection_purposes": "int",
+    "privacy/collected_data/emails_or_text_messages/linked_to_user": "bool",
+    "privacy/collected_data/emails_or_text_messages/used_for_tracking": "bool",
+    "privacy/collected_data/environment_scanning/collected": "bool",
+    "privacy/collected_data/environment_scanning/collection_purposes": "int",
+    "privacy/collected_data/environment_scanning/linked_to_user": "bool",
+    "privacy/collected_data/environment_scanning/used_for_tracking": "bool",
+    "privacy/collected_data/fitness/collected": "bool",
+    "privacy/collected_data/fitness/collection_purposes": "int",
+    "privacy/collected_data/fitness/linked_to_user": "bool",
+    "privacy/collected_data/fitness/used_for_tracking": "bool",
+    "privacy/collected_data/gameplay_content/collected": "bool",
+    "privacy/collected_data/gameplay_content/collection_purposes": "int",
+    "privacy/collected_data/gameplay_content/linked_to_user": "bool",
+    "privacy/collected_data/gameplay_content/used_for_tracking": "bool",
+    "privacy/collected_data/hands/collected": "bool",
+    "privacy/collected_data/hands/collection_purposes": "int",
+    "privacy/collected_data/hands/linked_to_user": "bool",
+    "privacy/collected_data/hands/used_for_tracking": "bool",
+    "privacy/collected_data/head/collected": "bool",
+    "privacy/collected_data/head/collection_purposes": "int",
+    "privacy/collected_data/head/linked_to_user": "bool",
+    "privacy/collected_data/head/used_for_tracking": "bool",
+    "privacy/collected_data/health/collected": "bool",
+    "privacy/collected_data/health/collection_purposes": "int",
+    "privacy/collected_data/health/linked_to_user": "bool",
+    "privacy/collected_data/health/used_for_tracking": "bool",
+    "privacy/collected_data/name/collected": "bool",
+    "privacy/collected_data/name/collection_purposes": "int",
+    "privacy/collected_data/name/linked_to_user": "bool",
+    "privacy/collected_data/name/used_for_tracking": "bool",
+    "privacy/collected_data/other_contact_info/collected": "bool",
+    "privacy/collected_data/other_contact_info/collection_purposes": "int",
+    "privacy/collected_data/other_contact_info/linked_to_user": "bool",
+    "privacy/collected_data/other_contact_info/used_for_tracking": "bool",
+    "privacy/collected_data/other_data_types/collected": "bool",
+    "privacy/collected_data/other_data_types/collection_purposes": "int",
+    "privacy/collected_data/other_data_types/linked_to_user": "bool",
+    "privacy/collected_data/other_data_types/used_for_tracking": "bool",
+    "privacy/collected_data/other_diagnostic_data/collected": "bool",
+    "privacy/collected_data/other_diagnostic_data/collection_purposes": "int",
+    "privacy/collected_data/other_diagnostic_data/linked_to_user": "bool",
+    "privacy/collected_data/other_diagnostic_data/used_for_tracking": "bool",
+    "privacy/collected_data/other_financial_info/collected": "bool",
+    "privacy/collected_data/other_financial_info/collection_purposes": "int",
+    "privacy/collected_data/other_financial_info/linked_to_user": "bool",
+    "privacy/collected_data/other_financial_info/used_for_tracking": "bool",
+    "privacy/collected_data/other_usage_data/collected": "bool",
+    "privacy/collected_data/other_usage_data/collection_purposes": "int",
+    "privacy/collected_data/other_usage_data/linked_to_user": "bool",
+    "privacy/collected_data/other_usage_data/used_for_tracking": "bool",
+    "privacy/collected_data/other_user_content/collected": "bool",
+    "privacy/collected_data/other_user_content/collection_purposes": "int",
+    "privacy/collected_data/other_user_content/linked_to_user": "bool",
+    "privacy/collected_data/other_user_content/used_for_tracking": "bool",
+    "privacy/collected_data/payment_info/collected": "bool",
+    "privacy/collected_data/payment_info/collection_purposes": "int",
+    "privacy/collected_data/payment_info/linked_to_user": "bool",
+    "privacy/collected_data/payment_info/used_for_tracking": "bool",
+    "privacy/collected_data/performance_data/collected": "bool",
+    "privacy/collected_data/performance_data/collection_purposes": "int",
+    "privacy/collected_data/performance_data/linked_to_user": "bool",
+    "privacy/collected_data/performance_data/used_for_tracking": "bool",
+    "privacy/collected_data/phone_number/collected": "bool",
+    "privacy/collected_data/phone_number/collection_purposes": "int",
+    "privacy/collected_data/phone_number/linked_to_user": "bool",
+    "privacy/collected_data/phone_number/used_for_tracking": "bool",
+    "privacy/collected_data/photos_or_videos/collected": "bool",
+    "privacy/collected_data/photos_or_videos/collection_purposes": "int",
+    "privacy/collected_data/photos_or_videos/linked_to_user": "bool",
+    "privacy/collected_data/photos_or_videos/used_for_tracking": "bool",
+    "privacy/collected_data/physical_address/collected": "bool",
+    "privacy/collected_data/physical_address/collection_purposes": "int",
+    "privacy/collected_data/physical_address/linked_to_user": "bool",
+    "privacy/collected_data/physical_address/used_for_tracking": "bool",
+    "privacy/collected_data/precise_location/collected": "bool",
+    "privacy/collected_data/precise_location/collection_purposes": "int",
+    "privacy/collected_data/precise_location/linked_to_user": "bool",
+    "privacy/collected_data/precise_location/used_for_tracking": "bool",
+    "privacy/collected_data/product_interaction/collected": "bool",
+    "privacy/collected_data/product_interaction/collection_purposes": "int",
+    "privacy/collected_data/product_interaction/linked_to_user": "bool",
+    "privacy/collected_data/product_interaction/used_for_tracking": "bool",
+    "privacy/collected_data/purchase_history/collected": "bool",
+    "privacy/collected_data/purchase_history/collection_purposes": "int",
+    "privacy/collected_data/purchase_history/linked_to_user": "bool",
+    "privacy/collected_data/purchase_history/used_for_tracking": "bool",
+    "privacy/collected_data/search_history/collected": "bool",
+    "privacy/collected_data/search_history/collection_purposes": "int",
+    "privacy/collected_data/search_history/linked_to_user": "bool",
+    "privacy/collected_data/search_history/used_for_tracking": "bool",
+    "privacy/collected_data/sensitive_info/collected": "bool",
+    "privacy/collected_data/sensitive_info/collection_purposes": "int",
+    "privacy/collected_data/sensitive_info/linked_to_user": "bool",
+    "privacy/collected_data/sensitive_info/used_for_tracking": "bool",
+    "privacy/collected_data/user_id/collected": "bool",
+    "privacy/collected_data/user_id/collection_purposes": "int",
+    "privacy/collected_data/user_id/linked_to_user": "bool",
+    "privacy/collected_data/user_id/used_for_tracking": "bool",
+    "privacy/disk_space_access_reasons": "int",
+    "privacy/file_timestamp_access_reasons": "int",
+    "privacy/hand_tracking_usage_description": "String",
+    "privacy/hand_tracking_usage_description_localized": "Dictionary",
+    "privacy/microphone_usage_description": "String",
+    "privacy/microphone_usage_description_localized": "Dictionary",
+    "privacy/photolibrary_usage_description": "String",
+    "privacy/photolibrary_usage_description_localized": "Dictionary",
+    "privacy/system_boot_time_access_reasons": "int",
+    "privacy/tracking_domains": "PackedStringArray",
+    "privacy/tracking_enabled": "bool",
+    "privacy/user_defaults_access_reasons": "int",
+    "shader_baker/enabled": "bool",
+    "user_data/accessible_from_files_app": "bool",
+    "user_data/accessible_from_itunes_sharing": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorExportPlatformWeb": {
+   "constants": [],
+   "inherits": "EditorExportPlatform",
+   "members": {
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "html/canvas_resize_policy": "int",
+    "html/custom_html_shell": "String",
+    "html/experimental_virtual_keyboard": "bool",
+    "html/export_icon": "bool",
+    "html/focus_canvas_on_start": "bool",
+    "html/head_include": "String",
+    "progressive_web_app/background_color": "Color",
+    "progressive_web_app/display": "int",
+    "progressive_web_app/enabled": "bool",
+    "progressive_web_app/ensure_cross_origin_isolation_headers": "bool",
+    "progressive_web_app/icon_144x144": "String",
+    "progressive_web_app/icon_180x180": "String",
+    "progressive_web_app/icon_512x512": "String",
+    "progressive_web_app/offline_page": "String",
+    "progressive_web_app/orientation": "int",
+    "threads/emscripten_pool_size": "int",
+    "threads/godot_pool_size": "int",
+    "variant/extensions_support": "bool",
+    "variant/thread_support": "bool",
+    "vram_texture_compression/for_desktop": "bool",
+    "vram_texture_compression/for_mobile": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorExportPlatformWindows": {
+   "constants": [],
+   "inherits": "EditorExportPlatformPC",
+   "members": {
+    "application/company_name": "String",
+    "application/console_wrapper_icon": "String",
+    "application/copyright": "String",
+    "application/d3d12_agility_sdk_multiarch": "bool",
+    "application/export_angle": "int",
+    "application/export_d3d12": "int",
+    "application/file_description": "String",
+    "application/file_version": "String",
+    "application/icon": "String",
+    "application/icon_interpolation": "int",
+    "application/modify_resources": "bool",
+    "application/product_name": "String",
+    "application/product_version": "String",
+    "application/trademarks": "String",
+    "binary_format/architecture": "String",
+    "binary_format/embed_pck": "bool",
+    "codesign/custom_options": "PackedStringArray",
+    "codesign/description": "String",
+    "codesign/digest_algorithm": "int",
+    "codesign/enable": "bool",
+    "codesign/identity": "String",
+    "codesign/identity_type": "int",
+    "codesign/password": "String",
+    "codesign/timestamp": "bool",
+    "codesign/timestamp_server_url": "String",
+    "custom_template/debug": "String",
+    "custom_template/release": "String",
+    "debug/export_console_wrapper": "int",
+    "debug/export_debug_symbols": "int",
+    "shader_baker/enabled": "bool",
+    "ssh_remote_deploy/cleanup_script": "String",
+    "ssh_remote_deploy/enabled": "bool",
+    "ssh_remote_deploy/extra_args_scp": "String",
+    "ssh_remote_deploy/extra_args_ssh": "String",
+    "ssh_remote_deploy/host": "String",
+    "ssh_remote_deploy/port": "String",
+    "ssh_remote_deploy/run_script": "String",
+    "texture_format/etc2_astc": "bool",
+    "texture_format/s3tc_bptc": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "EditorSceneFormatImporterBlend": {
+   "constants": [],
+   "inherits": "EditorSceneFormatImporter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "EditorSceneFormatImporterFBX2GLTF": {
+   "constants": [],
+   "inherits": "EditorSceneFormatImporter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "EditorSceneFormatImporterGLTF": {
+   "constants": [],
+   "inherits": "EditorSceneFormatImporter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "EditorSceneFormatImporterUFBX": {
+   "constants": [],
+   "inherits": "EditorSceneFormatImporter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "FBXDocument": {
+   "constants": [],
+   "inherits": "GLTFDocument",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "FBXState": {
+   "constants": [],
+   "inherits": "GLTFState",
+   "members": {
+    "allow_geometry_helper_nodes": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "FastNoiseLite": {
+   "constants": [
+    "CellularDistanceFunction",
+    "CellularReturnType",
+    "DISTANCE_EUCLIDEAN",
+    "DISTANCE_EUCLIDEAN_SQUARED",
+    "DISTANCE_HYBRID",
+    "DISTANCE_MANHATTAN",
+    "DOMAIN_WARP_BASIC_GRID",
+    "DOMAIN_WARP_FRACTAL_INDEPENDENT",
+    "DOMAIN_WARP_FRACTAL_NONE",
+    "DOMAIN_WARP_FRACTAL_PROGRESSIVE",
+    "DOMAIN_WARP_SIMPLEX",
+    "DOMAIN_WARP_SIMPLEX_REDUCED",
+    "DomainWarpFractalType",
+    "DomainWarpType",
+    "FRACTAL_FBM",
+    "FRACTAL_NONE",
+    "FRACTAL_PING_PONG",
+    "FRACTAL_RIDGED",
+    "FractalType",
+    "NoiseType",
+    "RETURN_CELL_VALUE",
+    "RETURN_DISTANCE",
+    "RETURN_DISTANCE2",
+    "RETURN_DISTANCE2_ADD",
+    "RETURN_DISTANCE2_DIV",
+    "RETURN_DISTANCE2_MUL",
+    "RETURN_DISTANCE2_SUB",
+    "TYPE_CELLULAR",
+    "TYPE_PERLIN",
+    "TYPE_SIMPLEX",
+    "TYPE_SIMPLEX_SMOOTH",
+    "TYPE_VALUE",
+    "TYPE_VALUE_CUBIC"
+   ],
+   "inherits": "Noise",
+   "members": {
+    "cellular_distance_function": "int",
+    "cellular_jitter": "float",
+    "cellular_return_type": "int",
+    "domain_warp_amplitude": "float",
+    "domain_warp_enabled": "bool",
+    "domain_warp_fractal_gain": "float",
+    "domain_warp_fractal_lacunarity": "float",
+    "domain_warp_fractal_octaves": "int",
+    "domain_warp_fractal_type": "int",
+    "domain_warp_frequency": "float",
+    "domain_warp_type": "int",
+    "fractal_gain": "float",
+    "fractal_lacunarity": "float",
+    "fractal_octaves": "int",
+    "fractal_ping_pong_strength": "float",
+    "fractal_type": "int",
+    "fractal_weighted_strength": "float",
+    "frequency": "float",
+    "noise_type": "int",
+    "offset": "Vector3",
+    "seed": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "GDScript": {
+   "constants": [],
+   "inherits": "Script",
+   "members": {},
+   "methods": {
+    "new": "Variant"
+   },
+   "signals": {}
+  },
+  "GDScriptLanguageProtocol": {
+   "constants": [],
+   "inherits": "JSONRPC",
+   "members": {},
+   "methods": {
+    "get_text_document": "GDScriptTextDocument",
+    "get_workspace": "GDScriptWorkspace",
+    "initialize": "Variant",
+    "initialized": "void",
+    "is_initialized": "bool",
+    "is_smart_resolve_enabled": "bool",
+    "notify_client": "void",
+    "on_client_connected": "int",
+    "on_client_disconnected": "void"
+   },
+   "signals": {}
+  },
+  "GDScriptSyntaxHighlighter": {
+   "constants": [],
+   "inherits": "EditorSyntaxHighlighter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "GDScriptTextDocument": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "completion": "Array",
+    "declaration": "Variant",
+    "definition": "Array",
+    "didChange": "void",
+    "didClose": "void",
+    "didOpen": "void",
+    "didSave": "void",
+    "documentLink": "Array",
+    "documentSymbol": "Array",
+    "hover": "Variant",
+    "nativeSymbol": "Variant",
+    "prepareRename": "Variant",
+    "references": "Array",
+    "rename": "Dictionary",
+    "resolve": "Dictionary",
+    "show_native_symbol_in_editor": "void",
+    "signatureHelp": "Variant",
+    "willSaveWaitUntil": "void"
+   },
+   "signals": {}
+  },
+  "GDScriptWorkspace": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "apply_new_signal": "void",
+    "didDeleteFiles": "void",
+    "generate_script_api": "Dictionary",
+    "get_file_path": "String",
+    "get_file_uri": "String",
+    "parse_local_script": "int",
+    "parse_script": "int",
+    "publish_diagnostics": "void"
+   },
+   "signals": {}
+  },
+  "GLTFAccessor": {
+   "constants": [
+    "COMPONENT_TYPE_DOUBLE_FLOAT",
+    "COMPONENT_TYPE_HALF_FLOAT",
+    "COMPONENT_TYPE_NONE",
+    "COMPONENT_TYPE_SIGNED_BYTE",
+    "COMPONENT_TYPE_SIGNED_INT",
+    "COMPONENT_TYPE_SIGNED_LONG",
+    "COMPONENT_TYPE_SIGNED_SHORT",
+    "COMPONENT_TYPE_SINGLE_FLOAT",
+    "COMPONENT_TYPE_UNSIGNED_BYTE",
+    "COMPONENT_TYPE_UNSIGNED_INT",
+    "COMPONENT_TYPE_UNSIGNED_LONG",
+    "COMPONENT_TYPE_UNSIGNED_SHORT",
+    "GLTFAccessorType",
+    "GLTFComponentType",
+    "TYPE_MAT2",
+    "TYPE_MAT3",
+    "TYPE_MAT4",
+    "TYPE_SCALAR",
+    "TYPE_VEC2",
+    "TYPE_VEC3",
+    "TYPE_VEC4"
+   ],
+   "inherits": "Resource",
+   "members": {
+    "accessor_type": "int",
+    "buffer_view": "int",
+    "byte_offset": "int",
+    "component_type": "int",
+    "count": "int",
+    "max": "PackedFloat64Array",
+    "min": "PackedFloat64Array",
+    "normalized": "bool",
+    "sparse_count": "int",
+    "sparse_indices_buffer_view": "int",
+    "sparse_indices_byte_offset": "int",
+    "sparse_indices_component_type": "int",
+    "sparse_values_buffer_view": "int",
+    "sparse_values_byte_offset": "int",
+    "type": "int"
+   },
+   "methods": {
+    "from_dictionary": "GLTFAccessor",
+    "to_dictionary": "Dictionary"
+   },
+   "signals": {}
+  },
+  "GLTFAnimation": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "loop": "bool",
+    "original_name": "String"
+   },
+   "methods": {
+    "get_additional_data": "Variant",
+    "set_additional_data": "void"
+   },
+   "signals": {}
+  },
+  "GLTFBufferView": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "buffer": "int",
+    "byte_length": "int",
+    "byte_offset": "int",
+    "byte_stride": "int",
+    "indices": "bool",
+    "vertex_attributes": "bool"
+   },
+   "methods": {
+    "from_dictionary": "GLTFBufferView",
+    "load_buffer_view_data": "PackedByteArray",
+    "to_dictionary": "Dictionary"
+   },
+   "signals": {}
+  },
+  "GLTFCamera": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "depth_far": "float",
+    "depth_near": "float",
+    "fov": "float",
+    "perspective": "bool",
+    "size_mag": "float"
+   },
+   "methods": {
+    "from_dictionary": "GLTFCamera",
+    "from_node": "GLTFCamera",
+    "to_dictionary": "Dictionary",
+    "to_node": "Camera3D"
+   },
+   "signals": {}
+  },
+  "GLTFDocument": {
+   "constants": [
+    "IMPORT_FLAG_DISCARD_MESHES_AND_MATERIALS",
+    "IMPORT_FLAG_FORCE_DISABLE_MESH_COMPRESSION",
+    "IMPORT_FLAG_GENERATE_TANGENT_ARRAYS",
+    "IMPORT_FLAG_USE_NAMED_SKIN_BINDS",
+    "ImportFlags",
+    "ROOT_NODE_MODE_KEEP_ROOT",
+    "ROOT_NODE_MODE_MULTI_ROOT",
+    "ROOT_NODE_MODE_SINGLE_ROOT",
+    "RootNodeMode",
+    "TEXTURE_MAP_MODE_DO_NOT_REMAP",
+    "TEXTURE_MAP_MODE_REMAP_TO_STANDARD_MATERIAL",
+    "TextureMapMode",
+    "VISIBILITY_MODE_EXCLUDE",
+    "VISIBILITY_MODE_INCLUDE_OPTIONAL",
+    "VISIBILITY_MODE_INCLUDE_REQUIRED",
+    "VisibilityMode"
+   ],
+   "inherits": "Resource",
+   "members": {
+    "fallback_image_format": "String",
+    "fallback_image_quality": "float",
+    "image_format": "String",
+    "lossy_quality": "float",
+    "root_node_mode": "int",
+    "texture_map_mode": "int",
+    "visibility_mode": "int"
+   },
+   "methods": {
+    "append_from_buffer": "int",
+    "append_from_file": "int",
+    "append_from_scene": "int",
+    "export_object_model_property": "GLTFObjectModelProperty",
+    "generate_buffer": "PackedByteArray",
+    "generate_scene": "Node",
+    "get_supported_gltf_extensions": "PackedStringArray",
+    "import_object_model_property": "GLTFObjectModelProperty",
+    "register_gltf_document_extension": "void",
+    "unregister_gltf_document_extension": "void",
+    "write_to_filesystem": "int"
+   },
+   "signals": {}
+  },
+  "GLTFDocumentExtension": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {
+    "_convert_scene_node": "void",
+    "_export_get_property_list": "Dictionary[]",
+    "_export_node": "int",
+    "_export_object_model_property": "GLTFObjectModelProperty",
+    "_export_post": "int",
+    "_export_post_convert": "int",
+    "_export_preflight": "int",
+    "_export_preserialize": "int",
+    "_generate_scene_node": "Node3D",
+    "_get_image_file_extension": "String",
+    "_get_saveable_image_formats": "PackedStringArray",
+    "_get_supported_extensions": "PackedStringArray",
+    "_import_node": "int",
+    "_import_object_model_property": "GLTFObjectModelProperty",
+    "_import_post": "int",
+    "_import_post_parse": "int",
+    "_import_pre_generate": "int",
+    "_import_preflight": "int",
+    "_parse_image_data": "int",
+    "_parse_node_extensions": "int",
+    "_parse_texture_json": "int",
+    "_save_image_at_path": "int",
+    "_serialize_image_to_bytes": "PackedByteArray",
+    "_serialize_texture_json": "int"
+   },
+   "signals": {}
+  },
+  "GLTFDocumentExtensionConvertImporterMesh": {
+   "constants": [],
+   "inherits": "GLTFDocumentExtension",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "GLTFLight": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "color": "Color",
+    "inner_cone_angle": "float",
+    "intensity": "float",
+    "light_type": "String",
+    "outer_cone_angle": "float",
+    "range": "float"
+   },
+   "methods": {
+    "from_dictionary": "GLTFLight",
+    "from_node": "GLTFLight",
+    "get_additional_data": "Variant",
+    "set_additional_data": "void",
+    "to_dictionary": "Dictionary",
+    "to_node": "Light3D"
+   },
+   "signals": {}
+  },
+  "GLTFMesh": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "blend_weights": "PackedFloat32Array",
+    "instance_materials": "Material[]",
+    "mesh": "ImporterMesh",
+    "original_name": "String"
+   },
+   "methods": {
+    "get_additional_data": "Variant",
+    "set_additional_data": "void"
+   },
+   "signals": {}
+  },
+  "GLTFNode": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "camera": "int",
+    "children": "PackedInt32Array",
+    "height": "int",
+    "light": "int",
+    "mesh": "int",
+    "original_name": "String",
+    "parent": "int",
+    "position": "Vector3",
+    "rotation": "Quaternion",
+    "scale": "Vector3",
+    "skeleton": "int",
+    "skin": "int",
+    "visible": "bool",
+    "xform": "Transform3D"
+   },
+   "methods": {
+    "append_child_index": "void",
+    "get_additional_data": "Variant",
+    "get_scene_node_path": "NodePath",
+    "set_additional_data": "void"
+   },
+   "signals": {}
+  },
+  "GLTFObjectModelProperty": {
+   "constants": [
+    "GLTFObjectModelType",
+    "GLTF_OBJECT_MODEL_TYPE_BOOL",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT2",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT2X2",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT3",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT3X3",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT4",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT4X4",
+    "GLTF_OBJECT_MODEL_TYPE_FLOAT_ARRAY",
+    "GLTF_OBJECT_MODEL_TYPE_INT",
+    "GLTF_OBJECT_MODEL_TYPE_UNKNOWN"
+   ],
+   "inherits": "RefCounted",
+   "members": {
+    "gltf_to_godot_expression": "Expression",
+    "godot_to_gltf_expression": "Expression",
+    "json_pointers": "PackedStringArray[]",
+    "node_paths": "NodePath[]",
+    "object_model_type": "int",
+    "variant_type": "int"
+   },
+   "methods": {
+    "append_node_path": "void",
+    "append_path_to_property": "void",
+    "get_accessor_type": "int",
+    "has_json_pointers": "bool",
+    "has_node_paths": "bool",
+    "set_types": "void"
+   },
+   "signals": {}
+  },
+  "GLTFPhysicsBody": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "angular_velocity": "Vector3",
+    "body_type": "String",
+    "center_of_mass": "Vector3",
+    "inertia_diagonal": "Vector3",
+    "inertia_orientation": "Quaternion",
+    "inertia_tensor": "Basis",
+    "linear_velocity": "Vector3",
+    "mass": "float"
+   },
+   "methods": {
+    "from_dictionary": "GLTFPhysicsBody",
+    "from_node": "GLTFPhysicsBody",
+    "to_dictionary": "Dictionary",
+    "to_node": "CollisionObject3D"
+   },
+   "signals": {}
+  },
+  "GLTFPhysicsShape": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "height": "float",
+    "importer_mesh": "ImporterMesh",
+    "is_trigger": "bool",
+    "mesh_index": "int",
+    "radius": "float",
+    "shape_type": "String",
+    "size": "Vector3"
+   },
+   "methods": {
+    "from_dictionary": "GLTFPhysicsShape",
+    "from_node": "GLTFPhysicsShape",
+    "from_resource": "GLTFPhysicsShape",
+    "to_dictionary": "Dictionary",
+    "to_node": "CollisionShape3D",
+    "to_resource": "Shape3D"
+   },
+   "signals": {}
+  },
+  "GLTFSkeleton": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "joints": "PackedInt32Array",
+    "roots": "PackedInt32Array"
+   },
+   "methods": {
+    "get_bone_attachment": "BoneAttachment3D",
+    "get_bone_attachment_count": "int",
+    "get_godot_bone_node": "Dictionary",
+    "get_godot_skeleton": "Skeleton3D",
+    "get_unique_names": "String[]",
+    "set_godot_bone_node": "void",
+    "set_unique_names": "void"
+   },
+   "signals": {}
+  },
+  "GLTFSkin": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "godot_skin": "Skin",
+    "joints": "PackedInt32Array",
+    "joints_original": "PackedInt32Array",
+    "non_joints": "PackedInt32Array",
+    "roots": "PackedInt32Array",
+    "skeleton": "int",
+    "skin_root": "int"
+   },
+   "methods": {
+    "get_inverse_binds": "Transform3D[]",
+    "get_joint_i_to_bone_i": "Dictionary",
+    "get_joint_i_to_name": "Dictionary",
+    "set_inverse_binds": "void",
+    "set_joint_i_to_bone_i": "void",
+    "set_joint_i_to_name": "void"
+   },
+   "signals": {}
+  },
+  "GLTFSpecGloss": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "diffuse_factor": "Color",
+    "diffuse_img": "Image",
+    "gloss_factor": "float",
+    "spec_gloss_img": "Image",
+    "specular_factor": "Color"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "GLTFState": {
+   "constants": [
+    "HANDLE_BINARY_DISCARD_TEXTURES",
+    "HANDLE_BINARY_EMBED_AS_BASISU",
+    "HANDLE_BINARY_EMBED_AS_UNCOMPRESSED",
+    "HANDLE_BINARY_EXTRACT_TEXTURES",
+    "HANDLE_BINARY_IMAGE_MODE_DISCARD_TEXTURES",
+    "HANDLE_BINARY_IMAGE_MODE_EMBED_AS_BASISU",
+    "HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED",
+    "HANDLE_BINARY_IMAGE_MODE_EXTRACT_TEXTURES",
+    "HandleBinaryImageMode"
+   ],
+   "inherits": "Resource",
+   "members": {
+    "bake_fps": "float",
+    "base_path": "String",
+    "buffers": "PackedByteArray[]",
+    "copyright": "String",
+    "create_animations": "bool",
+    "filename": "String",
+    "glb_data": "PackedByteArray",
+    "handle_binary_image_mode": "int",
+    "import_as_skeleton_bones": "bool",
+    "json": "Dictionary",
+    "major_version": "int",
+    "minor_version": "int",
+    "root_nodes": "PackedInt32Array",
+    "scene_name": "String",
+    "use_named_skin_binds": "bool"
+   },
+   "methods": {
+    "add_used_extension": "void",
+    "append_data_to_buffers": "int",
+    "append_gltf_node": "int",
+    "get_accessors": "GLTFAccessor[]",
+    "get_additional_data": "Variant",
+    "get_animation_player": "AnimationPlayer",
+    "get_animation_players_count": "int",
+    "get_animations": "GLTFAnimation[]",
+    "get_buffer_views": "GLTFBufferView[]",
+    "get_cameras": "GLTFCamera[]",
+    "get_handle_binary_image": "int",
+    "get_images": "Texture2D[]",
+    "get_lights": "GLTFLight[]",
+    "get_materials": "Material[]",
+    "get_meshes": "GLTFMesh[]",
+    "get_node_index": "int",
+    "get_nodes": "GLTFNode[]",
+    "get_scene_node": "Node",
+    "get_skeletons": "GLTFSkeleton[]",
+    "get_skins": "GLTFSkin[]",
+    "get_texture_samplers": "GLTFTextureSampler[]",
+    "get_textures": "GLTFTexture[]",
+    "get_unique_animation_names": "String[]",
+    "get_unique_names": "String[]",
+    "set_accessors": "void",
+    "set_additional_data": "void",
+    "set_animations": "void",
+    "set_buffer_views": "void",
+    "set_cameras": "void",
+    "set_handle_binary_image": "void",
+    "set_images": "void",
+    "set_lights": "void",
+    "set_materials": "void",
+    "set_meshes": "void",
+    "set_nodes": "void",
+    "set_skeletons": "void",
+    "set_skins": "void",
+    "set_texture_samplers": "void",
+    "set_textures": "void",
+    "set_unique_animation_names": "void",
+    "set_unique_names": "void"
+   },
+   "signals": {}
+  },
+  "GLTFTexture": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "sampler": "int",
+    "src_image": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "GLTFTextureSampler": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "mag_filter": "int",
+    "min_filter": "int",
+    "wrap_s": "int",
+    "wrap_t": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "GridMap": {
+   "constants": [
+    "DEBUG_VISIBILITY_MODE_DEFAULT",
+    "DEBUG_VISIBILITY_MODE_FORCE_HIDE",
+    "DEBUG_VISIBILITY_MODE_FORCE_SHOW",
+    "DebugVisibilityMode",
+    "INVALID_CELL_ITEM"
+   ],
+   "inherits": "Node3D",
+   "members": {
+    "bake_navigation": "bool",
+    "cell_center_x": "bool",
+    "cell_center_y": "bool",
+    "cell_center_z": "bool",
+    "cell_octant_size": "int",
+    "cell_scale": "float",
+    "cell_size": "Vector3",
+    "collision_layer": "int",
+    "collision_mask": "int",
+    "collision_priority": "float",
+    "collision_visibility_mode": "int",
+    "debug_octant_color": "Color",
+    "debug_show_octants": "bool",
+    "mesh_library": "MeshLibrary",
+    "physics_material": "PhysicsMaterial"
+   },
+   "methods": {
+    "clear": "void",
+    "clear_baked_meshes": "void",
+    "get_bake_mesh_instance": "RID",
+    "get_bake_meshes": "Array",
+    "get_basis_with_orthogonal_index": "Basis",
+    "get_cell_item": "int",
+    "get_cell_item_basis": "Basis",
+    "get_cell_item_orientation": "int",
+    "get_collision_layer_value": "bool",
+    "get_collision_mask_value": "bool",
+    "get_meshes": "Array",
+    "get_navigation_map": "RID",
+    "get_octant_coords_from_cell_coords": "Vector3i",
+    "get_octants_in_bounds": "Vector3i[]",
+    "get_orthogonal_index_from_basis": "int",
+    "get_used_cells": "Vector3i[]",
+    "get_used_cells_by_item": "Vector3i[]",
+    "get_used_cells_in_octant": "Vector3i[]",
+    "get_used_cells_in_octant_by_item": "Vector3i[]",
+    "get_used_octants": "Vector3i[]",
+    "get_used_octants_by_item": "Vector3i[]",
+    "get_used_octants_in_bounds": "Vector3i[]",
+    "local_to_map": "Vector3i",
+    "make_baked_meshes": "void",
+    "map_to_local": "Vector3",
+    "resource_changed": "void",
+    "set_cell_item": "void",
+    "set_collision_layer_value": "void",
+    "set_collision_mask_value": "void",
+    "set_navigation_map": "void"
+   },
+   "signals": {
+    "cell_size_changed": 1,
+    "changed": 0
+   }
+  },
+  "GridMapEditorPlugin": {
+   "constants": [],
+   "inherits": "EditorPlugin",
+   "members": {},
+   "methods": {
+    "clear_selection": "void",
+    "get_current_grid_map": "GridMap",
+    "get_selected_cells": "Array",
+    "get_selected_palette_item": "int",
+    "get_selection": "AABB",
+    "has_selection": "bool",
+    "set_selected_palette_item": "void",
+    "set_selection": "void"
+   },
+   "signals": {}
+  },
+  "MobileVRInterface": {
+   "constants": [],
+   "inherits": "XRInterface",
+   "members": {
+    "display_to_lens": "float",
+    "display_width": "float",
+    "eye_height": "float",
+    "iod": "float",
+    "k1": "float",
+    "k2": "float",
+    "offset_rect": "Rect2",
+    "oversample": "float",
+    "vrs_min_radius": "float",
+    "vrs_strength": "float",
+    "xr_play_area_mode": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "MultiplayerSpawner": {
+   "constants": [],
+   "inherits": "Node",
+   "members": {
+    "spawn_function": "Callable",
+    "spawn_limit": "int",
+    "spawn_path": "NodePath"
+   },
+   "methods": {
+    "add_spawnable_scene": "void",
+    "clear_spawnable_scenes": "void",
+    "get_spawnable_scene": "String",
+    "get_spawnable_scene_count": "int",
+    "spawn": "Node"
+   },
+   "signals": {
+    "despawned": 1,
+    "spawned": 1
+   }
+  },
+  "MultiplayerSynchronizer": {
+   "constants": [
+    "VISIBILITY_PROCESS_IDLE",
+    "VISIBILITY_PROCESS_NONE",
+    "VISIBILITY_PROCESS_PHYSICS",
+    "VisibilityUpdateMode"
+   ],
+   "inherits": "Node",
+   "members": {
+    "delta_interval": "float",
+    "public_visibility": "bool",
+    "replication_config": "SceneReplicationConfig",
+    "replication_interval": "float",
+    "root_path": "NodePath",
+    "visibility_update_mode": "int"
+   },
+   "methods": {
+    "add_visibility_filter": "void",
+    "get_visibility_for": "bool",
+    "remove_visibility_filter": "void",
+    "set_visibility_for": "void",
+    "update_visibility": "void"
+   },
+   "signals": {
+    "delta_synchronized": 0,
+    "synchronized": 0,
+    "visibility_changed": 1
+   }
+  },
+  "Noise": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {
+    "get_image": "Image",
+    "get_image_3d": "Image[]",
+    "get_noise_1d": "float",
+    "get_noise_2d": "float",
+    "get_noise_2dv": "float",
+    "get_noise_3d": "float",
+    "get_noise_3dv": "float",
+    "get_seamless_image": "Image",
+    "get_seamless_image_3d": "Image[]"
+   },
+   "signals": {}
+  },
+  "NoiseTexture2D": {
+   "constants": [],
+   "inherits": "Texture2D",
+   "members": {
+    "as_normal_map": "bool",
+    "bump_strength": "float",
+    "color_ramp": "Gradient",
+    "generate_mipmaps": "bool",
+    "height": "int",
+    "in_3d_space": "bool",
+    "invert": "bool",
+    "noise": "Noise",
+    "normalize": "bool",
+    "resource_local_to_scene": "bool",
+    "seamless": "bool",
+    "seamless_blend_skirt": "float",
+    "width": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "NoiseTexture3D": {
+   "constants": [],
+   "inherits": "Texture3D",
+   "members": {
+    "color_ramp": "Gradient",
+    "depth": "int",
+    "height": "int",
+    "invert": "bool",
+    "noise": "Noise",
+    "normalize": "bool",
+    "seamless": "bool",
+    "seamless_blend_skirt": "float",
+    "width": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OfflineMultiplayerPeer": {
+   "constants": [],
+   "inherits": "MultiplayerPeer",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OggPacketSequence": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "granule_positions": "PackedInt64Array",
+    "packet_data": "Array[]",
+    "sampling_rate": "float"
+   },
+   "methods": {
+    "get_length": "float"
+   },
+   "signals": {}
+  },
+  "OggPacketSequencePlayback": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRAPIExtension": {
+   "constants": [
+    "OPENXR_ALPHA_BLEND_MODE_SUPPORT_EMULATING",
+    "OPENXR_ALPHA_BLEND_MODE_SUPPORT_NONE",
+    "OPENXR_ALPHA_BLEND_MODE_SUPPORT_REAL",
+    "OpenXRAlphaBlendModeSupport"
+   ],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "action_get_handle": "int",
+    "begin_debug_label_region": "void",
+    "can_render": "bool",
+    "end_debug_label_region": "void",
+    "find_action": "RID",
+    "get_error_string": "String",
+    "get_hand_tracker": "int",
+    "get_instance": "int",
+    "get_instance_proc_addr": "int",
+    "get_next_frame_time": "int",
+    "get_openxr_version": "int",
+    "get_play_space": "int",
+    "get_predicted_display_time": "int",
+    "get_primary_view_count": "int",
+    "get_projection_layer": "int",
+    "get_render_state_z_far": "float",
+    "get_render_state_z_near": "float",
+    "get_session": "int",
+    "get_supported_swapchain_formats": "PackedInt64Array",
+    "get_swapchain_format_name": "String",
+    "get_system_id": "int",
+    "get_view_configuration": "int",
+    "get_view_count": "int",
+    "insert_debug_label": "void",
+    "is_environment_blend_mode_alpha_supported": "int",
+    "is_initialized": "bool",
+    "is_running": "bool",
+    "openxr_is_enabled": "bool",
+    "openxr_swapchain_acquire": "void",
+    "openxr_swapchain_create": "int",
+    "openxr_swapchain_free": "void",
+    "openxr_swapchain_get_image": "RID",
+    "openxr_swapchain_get_swapchain": "int",
+    "openxr_swapchain_release": "void",
+    "register_composition_layer_provider": "void",
+    "register_frame_info_extension": "void",
+    "register_projection_layer_extension": "void",
+    "register_projection_views_extension": "void",
+    "set_custom_play_space": "void",
+    "set_emulate_environment_blend_mode_alpha_blend": "void",
+    "set_object_name": "void",
+    "set_render_region": "void",
+    "set_velocity_depth_texture": "void",
+    "set_velocity_target_size": "void",
+    "set_velocity_texture": "void",
+    "transform_from_pose": "Transform3D",
+    "unregister_composition_layer_provider": "void",
+    "unregister_frame_info_extension": "void",
+    "unregister_projection_layer_extension": "void",
+    "unregister_projection_views_extension": "void",
+    "update_main_swapchain_size": "void",
+    "xr_result": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRAction": {
+   "constants": [
+    "ActionType",
+    "OPENXR_ACTION_BOOL",
+    "OPENXR_ACTION_FLOAT",
+    "OPENXR_ACTION_POSE",
+    "OPENXR_ACTION_VECTOR2"
+   ],
+   "inherits": "Resource",
+   "members": {
+    "action_type": "int",
+    "localized_name": "String",
+    "toplevel_paths": "PackedStringArray"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRActionBindingModifier": {
+   "constants": [],
+   "inherits": "OpenXRBindingModifier",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRActionMap": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "action_sets": "Array",
+    "interaction_profiles": "Array"
+   },
+   "methods": {
+    "add_action_set": "void",
+    "add_interaction_profile": "void",
+    "create_default_action_sets": "void",
+    "find_action_set": "OpenXRActionSet",
+    "find_interaction_profile": "OpenXRInteractionProfile",
+    "get_action_set": "OpenXRActionSet",
+    "get_action_set_count": "int",
+    "get_interaction_profile": "OpenXRInteractionProfile",
+    "get_interaction_profile_count": "int",
+    "remove_action_set": "void",
+    "remove_interaction_profile": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRActionSet": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "actions": "Array",
+    "localized_name": "String",
+    "priority": "int"
+   },
+   "methods": {
+    "add_action": "void",
+    "get_action_count": "int",
+    "remove_action": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRAnalogThresholdModifier": {
+   "constants": [],
+   "inherits": "OpenXRActionBindingModifier",
+   "members": {
+    "off_haptic": "OpenXRHapticBase",
+    "off_threshold": "float",
+    "on_haptic": "OpenXRHapticBase",
+    "on_threshold": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRAnchorTracker": {
+   "constants": [],
+   "inherits": "OpenXRSpatialEntityTracker",
+   "members": {
+    "uuid": "String"
+   },
+   "methods": {
+    "has_uuid": "bool"
+   },
+   "signals": {
+    "uuid_changed": 0
+   }
+  },
+  "OpenXRAndroidThreadSettingsExtension": {
+   "constants": [
+    "THREAD_TYPE_APPLICATION_MAIN",
+    "THREAD_TYPE_APPLICATION_WORKER",
+    "THREAD_TYPE_RENDERER_MAIN",
+    "THREAD_TYPE_RENDERER_WORKER",
+    "ThreadType"
+   ],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "set_application_thread_type": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRBindingModifier": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {
+    "_get_description": "String",
+    "_get_ip_modification": "PackedByteArray"
+   },
+   "signals": {}
+  },
+  "OpenXRBindingModifierEditor": {
+   "constants": [],
+   "inherits": "PanelContainer",
+   "members": {},
+   "methods": {
+    "get_binding_modifier": "OpenXRBindingModifier",
+    "setup": "void"
+   },
+   "signals": {
+    "binding_modifier_removed": 1
+   }
+  },
+  "OpenXRCompositionLayer": {
+   "constants": [
+    "EYE_VISIBILITY_BOTH",
+    "EYE_VISIBILITY_LEFT",
+    "EYE_VISIBILITY_RIGHT",
+    "EyeVisibility",
+    "FILTER_CUBIC",
+    "FILTER_LINEAR",
+    "FILTER_NEAREST",
+    "Filter",
+    "MIPMAP_MODE_DISABLED",
+    "MIPMAP_MODE_LINEAR",
+    "MIPMAP_MODE_NEAREST",
+    "MipmapMode",
+    "SWIZZLE_ALPHA",
+    "SWIZZLE_BLUE",
+    "SWIZZLE_GREEN",
+    "SWIZZLE_ONE",
+    "SWIZZLE_RED",
+    "SWIZZLE_ZERO",
+    "Swizzle",
+    "WRAP_CLAMP_TO_BORDER",
+    "WRAP_CLAMP_TO_EDGE",
+    "WRAP_MIRRORED_REPEAT",
+    "WRAP_MIRROR_CLAMP_TO_EDGE",
+    "WRAP_REPEAT",
+    "Wrap"
+   ],
+   "inherits": "Node3D",
+   "members": {
+    "alpha_blend": "bool",
+    "android_surface_size": "Vector2i",
+    "enable_hole_punch": "bool",
+    "eye_visibility": "int",
+    "layer_viewport": "SubViewport",
+    "protected_content": "bool",
+    "sort_order": "int",
+    "swapchain_state_alpha_swizzle": "int",
+    "swapchain_state_blue_swizzle": "int",
+    "swapchain_state_border_color": "Color",
+    "swapchain_state_green_swizzle": "int",
+    "swapchain_state_horizontal_wrap": "int",
+    "swapchain_state_mag_filter": "int",
+    "swapchain_state_max_anisotropy": "float",
+    "swapchain_state_min_filter": "int",
+    "swapchain_state_mipmap_mode": "int",
+    "swapchain_state_red_swizzle": "int",
+    "swapchain_state_vertical_wrap": "int",
+    "use_android_surface": "bool"
+   },
+   "methods": {
+    "get_android_surface": "JavaObject",
+    "intersects_ray": "Vector2",
+    "is_natively_supported": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRCompositionLayerCylinder": {
+   "constants": [],
+   "inherits": "OpenXRCompositionLayer",
+   "members": {
+    "aspect_ratio": "float",
+    "central_angle": "float",
+    "fallback_segments": "int",
+    "radius": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRCompositionLayerEquirect": {
+   "constants": [],
+   "inherits": "OpenXRCompositionLayer",
+   "members": {
+    "central_horizontal_angle": "float",
+    "fallback_segments": "int",
+    "lower_vertical_angle": "float",
+    "radius": "float",
+    "upper_vertical_angle": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRCompositionLayerQuad": {
+   "constants": [],
+   "inherits": "OpenXRCompositionLayer",
+   "members": {
+    "quad_size": "Vector2"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRDpadBindingModifier": {
+   "constants": [],
+   "inherits": "OpenXRIPBindingModifier",
+   "members": {
+    "action_set": "OpenXRActionSet",
+    "center_region": "float",
+    "input_path": "String",
+    "is_sticky": "bool",
+    "off_haptic": "OpenXRHapticBase",
+    "on_haptic": "OpenXRHapticBase",
+    "threshold": "float",
+    "threshold_released": "float",
+    "wedge_angle": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRExtensionWrapper": {
+   "constants": [],
+   "inherits": "Object",
+   "members": {},
+   "methods": {
+    "_get_camera_offsets": "Transform3D[]",
+    "_get_camera_projections": "Projection[]",
+    "_get_composition_layer": "int",
+    "_get_composition_layer_count": "int",
+    "_get_composition_layer_order": "int",
+    "_get_requested_extensions": "Dictionary",
+    "_get_suggested_tracker_names": "PackedStringArray",
+    "_get_viewport_composition_layer_extension_properties": "Dictionary[]",
+    "_get_viewport_composition_layer_extension_property_defaults": "Dictionary",
+    "_on_before_instance_created": "void",
+    "_on_event_polled": "bool",
+    "_on_instance_created": "void",
+    "_on_instance_destroyed": "void",
+    "_on_main_swapchains_created": "void",
+    "_on_post_draw_viewport": "void",
+    "_on_pre_draw_viewport": "void",
+    "_on_pre_render": "void",
+    "_on_process": "void",
+    "_on_register_metadata": "void",
+    "_on_session_created": "void",
+    "_on_session_destroyed": "void",
+    "_on_state_exiting": "void",
+    "_on_state_focused": "void",
+    "_on_state_idle": "void",
+    "_on_state_loss_pending": "void",
+    "_on_state_ready": "void",
+    "_on_state_stopping": "void",
+    "_on_state_synchronized": "void",
+    "_on_state_visible": "void",
+    "_on_sync_actions": "void",
+    "_on_viewport_composition_layer_destroyed": "void",
+    "_prepare_view_configuration": "void",
+    "_print_view_configuration_info": "void",
+    "_set_android_surface_swapchain_create_info_and_get_next_pointer": "int",
+    "_set_frame_end_info_and_get_next_pointer": "int",
+    "_set_frame_wait_info_and_get_next_pointer": "int",
+    "_set_hand_joint_locations_and_get_next_pointer": "int",
+    "_set_instance_create_info_and_get_next_pointer": "int",
+    "_set_projection_layer_and_get_next_pointer": "int",
+    "_set_projection_views_and_get_next_pointer": "int",
+    "_set_reference_space_create_info_and_get_next_pointer": "int",
+    "_set_session_create_and_get_next_pointer": "int",
+    "_set_spatial_container_create_info_and_get_next_pointer": "int",
+    "_set_spatial_container_views_locate_info_and_get_next_pointer": "int",
+    "_set_swapchain_create_info_and_get_next_pointer": "int",
+    "_set_system_properties_and_get_next_pointer": "int",
+    "_set_view_configuration_and_get_next_pointer": "int",
+    "_set_view_locate_info_and_get_next_pointer": "int",
+    "_set_viewport_composition_layer_and_get_next_pointer": "int",
+    "get_openxr_api": "OpenXRAPIExtension",
+    "register_extension_wrapper": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRExtensionWrapperExtension": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRFoveatedInsetViewport": {
+   "constants": [],
+   "inherits": "SubViewport",
+   "members": {
+    "process_priority": "int",
+    "render_target_update_mode": "int"
+   },
+   "methods": {
+    "get_xr_camera3d": "XRCamera3D",
+    "get_xr_origin3d": "XROrigin3D"
+   },
+   "signals": {}
+  },
+  "OpenXRFrameSynthesisExtension": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {
+    "enabled": "bool",
+    "relax_frame_interval": "bool"
+   },
+   "methods": {
+    "is_available": "bool",
+    "skip_next_frame": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRFutureExtension": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "cancel_future": "void",
+    "is_active": "bool",
+    "register_future": "OpenXRFutureResult"
+   },
+   "signals": {}
+  },
+  "OpenXRFutureResult": {
+   "constants": [
+    "RESULT_CANCELLED",
+    "RESULT_FINISHED",
+    "RESULT_RUNNING",
+    "ResultStatus"
+   ],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "cancel_future": "void",
+    "get_future": "int",
+    "get_result_value": "Variant",
+    "get_status": "int",
+    "set_result_value": "void"
+   },
+   "signals": {
+    "completed": 1
+   }
+  },
+  "OpenXRHand": {
+   "constants": [
+    "BONE_UPDATE_FULL",
+    "BONE_UPDATE_MAX",
+    "BONE_UPDATE_ROTATION_ONLY",
+    "BoneUpdate",
+    "HAND_LEFT",
+    "HAND_MAX",
+    "HAND_RIGHT",
+    "Hands",
+    "MOTION_RANGE_CONFORM_TO_CONTROLLER",
+    "MOTION_RANGE_MAX",
+    "MOTION_RANGE_UNOBSTRUCTED",
+    "MotionRange",
+    "SKELETON_RIG_HUMANOID",
+    "SKELETON_RIG_MAX",
+    "SKELETON_RIG_OPENXR",
+    "SkeletonRig"
+   ],
+   "inherits": "Node3D",
+   "members": {
+    "bone_update": "int",
+    "hand": "int",
+    "hand_skeleton": "NodePath",
+    "motion_range": "int",
+    "skeleton_rig": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRHapticBase": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRHapticVibration": {
+   "constants": [],
+   "inherits": "OpenXRHapticBase",
+   "members": {
+    "amplitude": "float",
+    "duration": "int",
+    "frequency": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRIPBinding": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "action": "OpenXRAction",
+    "binding_modifiers": "Array",
+    "binding_path": "String",
+    "paths": "PackedStringArray"
+   },
+   "methods": {
+    "add_path": "void",
+    "get_binding_modifier": "OpenXRActionBindingModifier",
+    "get_binding_modifier_count": "int",
+    "get_path_count": "int",
+    "has_path": "bool",
+    "remove_path": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRIPBindingModifier": {
+   "constants": [],
+   "inherits": "OpenXRBindingModifier",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRInteractionProfile": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {
+    "binding_modifiers": "Array",
+    "bindings": "Array",
+    "interaction_profile_path": "String"
+   },
+   "methods": {
+    "get_binding": "OpenXRIPBinding",
+    "get_binding_count": "int",
+    "get_binding_modifier": "OpenXRIPBindingModifier",
+    "get_binding_modifier_count": "int"
+   },
+   "signals": {}
+  },
+  "OpenXRInteractionProfileEditor": {
+   "constants": [],
+   "inherits": "OpenXRInteractionProfileEditorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "OpenXRInteractionProfileEditorBase": {
+   "constants": [],
+   "inherits": "HBoxContainer",
+   "members": {},
+   "methods": {
+    "setup": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRInteractionProfileMetadata": {
+   "constants": [],
+   "inherits": "Object",
+   "members": {},
+   "methods": {
+    "register_interaction_profile": "void",
+    "register_io_path": "void",
+    "register_path_rename": "void",
+    "register_profile_rename": "void",
+    "register_top_level_path": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRInterface": {
+   "constants": [
+    "HAND_JOINT_ANGULAR_VELOCITY_VALID",
+    "HAND_JOINT_INDEX_DISTAL",
+    "HAND_JOINT_INDEX_INTERMEDIATE",
+    "HAND_JOINT_INDEX_METACARPAL",
+    "HAND_JOINT_INDEX_PROXIMAL",
+    "HAND_JOINT_INDEX_TIP",
+    "HAND_JOINT_LINEAR_VELOCITY_VALID",
+    "HAND_JOINT_LITTLE_DISTAL",
+    "HAND_JOINT_LITTLE_INTERMEDIATE",
+    "HAND_JOINT_LITTLE_METACARPAL",
+    "HAND_JOINT_LITTLE_PROXIMAL",
+    "HAND_JOINT_LITTLE_TIP",
+    "HAND_JOINT_MAX",
+    "HAND_JOINT_MIDDLE_DISTAL",
+    "HAND_JOINT_MIDDLE_INTERMEDIATE",
+    "HAND_JOINT_MIDDLE_METACARPAL",
+    "HAND_JOINT_MIDDLE_PROXIMAL",
+    "HAND_JOINT_MIDDLE_TIP",
+    "HAND_JOINT_NONE",
+    "HAND_JOINT_ORIENTATION_TRACKED",
+    "HAND_JOINT_ORIENTATION_VALID",
+    "HAND_JOINT_PALM",
+    "HAND_JOINT_POSITION_TRACKED",
+    "HAND_JOINT_POSITION_VALID",
+    "HAND_JOINT_RING_DISTAL",
+    "HAND_JOINT_RING_INTERMEDIATE",
+    "HAND_JOINT_RING_METACARPAL",
+    "HAND_JOINT_RING_PROXIMAL",
+    "HAND_JOINT_RING_TIP",
+    "HAND_JOINT_THUMB_DISTAL",
+    "HAND_JOINT_THUMB_METACARPAL",
+    "HAND_JOINT_THUMB_PROXIMAL",
+    "HAND_JOINT_THUMB_TIP",
+    "HAND_JOINT_WRIST",
+    "HAND_LEFT",
+    "HAND_MAX",
+    "HAND_MOTION_RANGE_CONFORM_TO_CONTROLLER",
+    "HAND_MOTION_RANGE_MAX",
+    "HAND_MOTION_RANGE_UNOBSTRUCTED",
+    "HAND_RIGHT",
+    "HAND_TRACKED_SOURCE_CONTROLLER",
+    "HAND_TRACKED_SOURCE_MAX",
+    "HAND_TRACKED_SOURCE_UNKNOWN",
+    "HAND_TRACKED_SOURCE_UNOBSTRUCTED",
+    "Hand",
+    "HandJointFlags",
+    "HandJoints",
+    "HandMotionRange",
+    "HandTrackedSource",
+    "PERF_SETTINGS_LEVEL_BOOST",
+    "PERF_SETTINGS_LEVEL_POWER_SAVINGS",
+    "PERF_SETTINGS_LEVEL_SUSTAINED_HIGH",
+    "PERF_SETTINGS_LEVEL_SUSTAINED_LOW",
+    "PERF_SETTINGS_NOTIF_LEVEL_IMPAIRED",
+    "PERF_SETTINGS_NOTIF_LEVEL_NORMAL",
+    "PERF_SETTINGS_NOTIF_LEVEL_WARNING",
+    "PERF_SETTINGS_SUB_DOMAIN_COMPOSITING",
+    "PERF_SETTINGS_SUB_DOMAIN_RENDERING",
+    "PERF_SETTINGS_SUB_DOMAIN_THERMAL",
+    "PerfSettingsLevel",
+    "PerfSettingsNotificationLevel",
+    "PerfSettingsSubDomain",
+    "SESSION_STATE_EXITING",
+    "SESSION_STATE_FOCUSED",
+    "SESSION_STATE_IDLE",
+    "SESSION_STATE_LOSS_PENDING",
+    "SESSION_STATE_READY",
+    "SESSION_STATE_STOPPING",
+    "SESSION_STATE_SYNCHRONIZED",
+    "SESSION_STATE_UNKNOWN",
+    "SESSION_STATE_VISIBLE",
+    "SessionState",
+    "VIEW_CONFIGURATION_MONO",
+    "VIEW_CONFIGURATION_STEREO",
+    "VIEW_CONFIGURATION_STEREO_WITH_INSET",
+    "VIEW_CONFIGURATION_UNKNOWN",
+    "VIEW_CONFIGURATION_UNSET",
+    "ViewConfiguration"
+   ],
+   "inherits": "XRInterface",
+   "members": {
+    "display_refresh_rate": "float",
+    "foveation_dynamic": "bool",
+    "foveation_level": "int",
+    "foveation_with_subsampled_images": "bool",
+    "render_target_size_multiplier": "float",
+    "vrs_min_radius": "float",
+    "vrs_strength": "float"
+   },
+   "methods": {
+    "get_action_sets": "Array",
+    "get_active_view_configuration": "int",
+    "get_available_display_refresh_rates": "Array",
+    "get_hand_joint_angular_velocity": "Vector3",
+    "get_hand_joint_flags": "int",
+    "get_hand_joint_linear_velocity": "Vector3",
+    "get_hand_joint_position": "Vector3",
+    "get_hand_joint_radius": "float",
+    "get_hand_joint_rotation": "Quaternion",
+    "get_hand_tracking_source": "int",
+    "get_motion_range": "int",
+    "get_recommended_target_size": "Vector2",
+    "get_session_state": "int",
+    "is_action_set_active": "bool",
+    "is_eye_gaze_interaction_supported": "bool",
+    "is_foveation_supported": "bool",
+    "is_hand_interaction_supported": "bool",
+    "is_hand_tracking_supported": "bool",
+    "is_user_presence_supported": "bool",
+    "is_user_present": "bool",
+    "set_action_set_active": "void",
+    "set_cpu_level": "void",
+    "set_gpu_level": "void",
+    "set_motion_range": "void"
+   },
+   "signals": {
+    "cpu_level_changed": 3,
+    "gpu_level_changed": 3,
+    "instance_exiting": 0,
+    "pose_recentered": 0,
+    "refresh_rate_changed": 1,
+    "session_begun": 0,
+    "session_focussed": 0,
+    "session_loss_pending": 0,
+    "session_stopping": 0,
+    "session_synchronized": 0,
+    "session_visible": 0,
+    "user_presence_changed": 1
+   }
+  },
+  "OpenXRMarkerTracker": {
+   "constants": [],
+   "inherits": "OpenXRSpatialEntityTracker",
+   "members": {
+    "bounds_size": "Vector2",
+    "marker_id": "int",
+    "marker_type": "int"
+   },
+   "methods": {
+    "get_marker_data": "Variant",
+    "set_marker_data": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRPlaneTracker": {
+   "constants": [],
+   "inherits": "OpenXRSpatialEntityTracker",
+   "members": {
+    "bounds_size": "Vector2",
+    "plane_alignment": "int",
+    "plane_label": "String"
+   },
+   "methods": {
+    "clear_mesh_data": "void",
+    "get_indices": "PackedInt32Array",
+    "get_mesh": "Mesh",
+    "get_mesh_offset": "Transform3D",
+    "get_shape": "Shape3D",
+    "get_vertices": "PackedVector2Array",
+    "set_mesh_data": "void"
+   },
+   "signals": {
+    "mesh_changed": 0
+   }
+  },
+  "OpenXRRenderModel": {
+   "constants": [],
+   "inherits": "Node3D",
+   "members": {
+    "render_model": "RID"
+   },
+   "methods": {
+    "get_top_level_path": "String"
+   },
+   "signals": {
+    "render_model_top_level_path_changed": 0
+   }
+  },
+  "OpenXRRenderModelExtension": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "is_active": "bool",
+    "render_model_create": "RID",
+    "render_model_destroy": "void",
+    "render_model_get_all": "RID[]",
+    "render_model_get_animatable_node_count": "int",
+    "render_model_get_animatable_node_name": "String",
+    "render_model_get_animatable_node_transform": "Transform3D",
+    "render_model_get_confidence": "int",
+    "render_model_get_root_transform": "Transform3D",
+    "render_model_get_subaction_paths": "PackedStringArray",
+    "render_model_get_top_level_path": "String",
+    "render_model_is_animatable_node_visible": "bool",
+    "render_model_new_scene_instance": "Node3D"
+   },
+   "signals": {
+    "render_model_added": 1,
+    "render_model_removed": 1,
+    "render_model_top_level_path_changed": 1
+   }
+  },
+  "OpenXRRenderModelManager": {
+   "constants": [
+    "RENDER_MODEL_TRACKER_ANY",
+    "RENDER_MODEL_TRACKER_LEFT_HAND",
+    "RENDER_MODEL_TRACKER_NONE_SET",
+    "RENDER_MODEL_TRACKER_RIGHT_HAND",
+    "RenderModelTracker"
+   ],
+   "inherits": "Node3D",
+   "members": {
+    "make_local_to_pose": "String",
+    "tracker": "int"
+   },
+   "methods": {},
+   "signals": {
+    "render_model_added": 1,
+    "render_model_removed": 1
+   }
+  },
+  "OpenXRSpatialAnchorCapability": {
+   "constants": [
+    "PERSISTENCE_SCOPE_LOCAL_ANCHORS",
+    "PERSISTENCE_SCOPE_SYSTEM_MANAGED",
+    "PersistenceScope"
+   ],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "create_default_persistence_context": "OpenXRFutureResult",
+    "create_new_anchor": "OpenXRAnchorTracker",
+    "create_persistence_context": "OpenXRFutureResult",
+    "do_entity_update": "void",
+    "free_persistence_context": "void",
+    "get_persistence_context_handle": "int",
+    "is_persistence_scope_supported": "bool",
+    "is_spatial_anchor_supported": "bool",
+    "is_spatial_persistence_supported": "bool",
+    "persist_anchor": "OpenXRFutureResult",
+    "remove_anchor": "void",
+    "start_entity_discovery": "OpenXRFutureResult",
+    "unpersist_anchor": "OpenXRFutureResult"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationAnchor": {
+   "constants": [],
+   "inherits": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+   "members": {},
+   "methods": {
+    "get_enabled_components": "PackedInt64Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationAprilTag": {
+   "constants": [
+    "APRIL_TAG_DICT_16H5",
+    "APRIL_TAG_DICT_25H9",
+    "APRIL_TAG_DICT_36H10",
+    "APRIL_TAG_DICT_36H11",
+    "AprilTagDict"
+   ],
+   "inherits": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+   "members": {
+    "april_dict": "int"
+   },
+   "methods": {
+    "get_enabled_components": "PackedInt64Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationAruco": {
+   "constants": [
+    "ARUCO_DICT_4X4_100",
+    "ARUCO_DICT_4X4_1000",
+    "ARUCO_DICT_4X4_250",
+    "ARUCO_DICT_4X4_50",
+    "ARUCO_DICT_5X5_100",
+    "ARUCO_DICT_5X5_1000",
+    "ARUCO_DICT_5X5_250",
+    "ARUCO_DICT_5X5_50",
+    "ARUCO_DICT_6X6_100",
+    "ARUCO_DICT_6X6_1000",
+    "ARUCO_DICT_6X6_250",
+    "ARUCO_DICT_6X6_50",
+    "ARUCO_DICT_7X7_100",
+    "ARUCO_DICT_7X7_1000",
+    "ARUCO_DICT_7X7_250",
+    "ARUCO_DICT_7X7_50",
+    "ArucoDict"
+   ],
+   "inherits": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+   "members": {
+    "aruco_dict": "int"
+   },
+   "methods": {
+    "get_enabled_components": "PackedInt64Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationBaseHeader": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "_get_configuration": "int",
+    "_has_valid_configuration": "bool",
+    "get_configuration": "int",
+    "has_valid_configuration": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationMicroQrCode": {
+   "constants": [],
+   "inherits": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+   "members": {},
+   "methods": {
+    "get_enabled_components": "PackedInt64Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationPlaneTracking": {
+   "constants": [],
+   "inherits": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+   "members": {},
+   "methods": {
+    "get_enabled_components": "PackedInt64Array",
+    "supports_labels": "bool",
+    "supports_mesh_2d": "bool",
+    "supports_polygons": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialCapabilityConfigurationQrCode": {
+   "constants": [],
+   "inherits": "OpenXRSpatialCapabilityConfigurationBaseHeader",
+   "members": {},
+   "methods": {
+    "get_enabled_components": "PackedInt64Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentAnchorList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_entity_pose": "Transform3D"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentBounded2DList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_center_pose": "Transform3D",
+    "get_size": "Vector2"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentBounded3DList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_center_pose": "Transform3D",
+    "get_size": "Vector3"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentData": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "_get_component_type": "int",
+    "_get_structure_data": "int",
+    "_set_capacity": "void",
+    "get_component_type": "int",
+    "set_capacity": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentMarkerList": {
+   "constants": [
+    "MARKER_TYPE_APRIL_TAG",
+    "MARKER_TYPE_ARUCO",
+    "MARKER_TYPE_MAX",
+    "MARKER_TYPE_MICRO_QRCODE",
+    "MARKER_TYPE_QRCODE",
+    "MARKER_TYPE_UNKNOWN",
+    "MarkerType"
+   ],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_marker_data": "Variant",
+    "get_marker_id": "int",
+    "get_marker_type": "int"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentMesh2DList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_indices": "PackedInt32Array",
+    "get_transform": "Transform3D",
+    "get_vertices": "PackedVector2Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentMesh3DList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_mesh": "Mesh",
+    "get_transform": "Transform3D"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentParentList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_parent": "RID"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentPersistenceList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_persistent_state": "int",
+    "get_persistent_uuid": "String"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentPlaneAlignmentList": {
+   "constants": [
+    "PLANE_ALIGNMENT_ARBITRARY",
+    "PLANE_ALIGNMENT_HORIZONTAL_DOWNWARD",
+    "PLANE_ALIGNMENT_HORIZONTAL_UPWARD",
+    "PLANE_ALIGNMENT_VERTICAL",
+    "PlaneAlignment"
+   ],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_plane_alignment": "int"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentPlaneSemanticLabelList": {
+   "constants": [
+    "PLANE_SEMANTIC_LABEL_CEILING",
+    "PLANE_SEMANTIC_LABEL_FLOOR",
+    "PLANE_SEMANTIC_LABEL_TABLE",
+    "PLANE_SEMANTIC_LABEL_UNCATEGORIZED",
+    "PLANE_SEMANTIC_LABEL_WALL",
+    "PlaneSemanticLabel"
+   ],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_plane_semantic_label": "int"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialComponentPolygon2DList": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_transform": "Transform3D",
+    "get_vertices": "PackedVector2Array"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialContainerExtension": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "get_spatial_container_bounds": "Vector3",
+    "get_spatial_container_state": "OpenXRSpatialContainerState",
+    "get_supported_bounds_modes": "Array",
+    "is_enabled": "bool",
+    "is_spatial_container_active": "bool",
+    "request_spatial_container_bounds_mode": "bool",
+    "request_spatial_container_visible": "bool"
+   },
+   "signals": {
+    "spatial_container_bounds_changed": 4,
+    "spatial_container_bounds_mode_request_denied": 1,
+    "spatial_container_closed": 1,
+    "spatial_container_interactable_changed": 2,
+    "spatial_container_visible_changed": 2,
+    "spatial_container_visible_request_denied": 1
+   }
+  },
+  "OpenXRSpatialContainerSelfRenderingExtension": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "is_enabled": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialContainerState": {
+   "constants": [
+    "BOUNDS_MODE_BOUNDED",
+    "BOUNDS_MODE_IMMERSIVE",
+    "BoundsMode"
+   ],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "get_bounds_mode": "int",
+    "is_interactable": "bool",
+    "is_visible": "bool"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialContextPersistenceConfig": {
+   "constants": [],
+   "inherits": "OpenXRStructureBase",
+   "members": {},
+   "methods": {
+    "add_persistence_context": "void",
+    "get_persistence_contexts": "Array",
+    "remove_persistence_context": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialEntityExtension": {
+   "constants": [
+    "CAPABILITY_ANCHOR",
+    "CAPABILITY_MARKER_TRACKING_APRIL_TAG",
+    "CAPABILITY_MARKER_TRACKING_ARUCO_MARKER",
+    "CAPABILITY_MARKER_TRACKING_MICRO_QR_CODE",
+    "CAPABILITY_MARKER_TRACKING_QR_CODE",
+    "CAPABILITY_PLANE_TRACKING",
+    "COMPONENT_TYPE_ANCHOR",
+    "COMPONENT_TYPE_BOUNDED_2D",
+    "COMPONENT_TYPE_BOUNDED_3D",
+    "COMPONENT_TYPE_MARKER",
+    "COMPONENT_TYPE_MESH_2D",
+    "COMPONENT_TYPE_MESH_3D",
+    "COMPONENT_TYPE_PARENT",
+    "COMPONENT_TYPE_PERSISTENCE",
+    "COMPONENT_TYPE_PLANE_ALIGNMENT",
+    "COMPONENT_TYPE_PLANE_SEMANTIC_LABEL",
+    "COMPONENT_TYPE_POLYGON_2D",
+    "Capability",
+    "ComponentType",
+    "TRACKING_ENABLED",
+    "TRACKING_NOT_ACTIVE",
+    "TRACKING_NO_PERMISSION",
+    "TRACKING_SETTING_UP",
+    "TRACKING_SETUP_FAILED",
+    "TRACKING_UNSUPPORTED_CAPABILITY",
+    "TrackingState"
+   ],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "add_spatial_entity": "RID",
+    "create_spatial_context": "OpenXRFutureResult",
+    "discover_spatial_entities": "OpenXRFutureResult",
+    "discover_spatial_entities_with_component_data": "OpenXRFutureResult",
+    "find_spatial_entity": "RID",
+    "free_spatial_context": "void",
+    "free_spatial_entity": "void",
+    "free_spatial_snapshot": "void",
+    "get_float_buffer": "PackedFloat32Array",
+    "get_spatial_context_handle": "int",
+    "get_spatial_context_ready": "bool",
+    "get_spatial_entity_context": "RID",
+    "get_spatial_entity_id": "int",
+    "get_spatial_snapshot_context": "RID",
+    "get_spatial_snapshot_handle": "int",
+    "get_string": "String",
+    "get_uint16_buffer": "PackedInt32Array",
+    "get_uint32_buffer": "PackedInt32Array",
+    "get_uint8_buffer": "PackedByteArray",
+    "get_vector2_buffer": "PackedVector2Array",
+    "get_vector3_buffer": "PackedVector3Array",
+    "make_spatial_entity": "RID",
+    "query_snapshot": "bool",
+    "supports_capability": "bool",
+    "supports_component_type": "bool",
+    "update_spatial_entities": "RID"
+   },
+   "signals": {
+    "spatial_discovery_recommended": 1
+   }
+  },
+  "OpenXRSpatialEntityTracker": {
+   "constants": [
+    "ENTITY_TRACKING_STATE_PAUSED",
+    "ENTITY_TRACKING_STATE_STOPPED",
+    "ENTITY_TRACKING_STATE_TRACKING",
+    "EntityTrackingState"
+   ],
+   "inherits": "XRPositionalTracker",
+   "members": {
+    "entity": "RID",
+    "spatial_tracking_state": "int",
+    "type": "int"
+   },
+   "methods": {
+    "add_next": "void",
+    "get_next": "OpenXRStructureBase",
+    "get_spatial_context": "RID",
+    "remove_next": "void",
+    "set_spatial_context": "void"
+   },
+   "signals": {
+    "next_changed": 0,
+    "spatial_tracking_state_changed": 1
+   }
+  },
+  "OpenXRSpatialMarkerTrackingCapability": {
+   "constants": [
+    "MARKER_APRIL_TAG",
+    "MARKER_ARUCO",
+    "MARKER_MICRO_QR_CODE",
+    "MARKER_QR_CODE",
+    "MarkerTypeFlags"
+   ],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "do_entity_update": "void",
+    "get_built_in_tracking_state": "int",
+    "is_april_tag_supported": "bool",
+    "is_aruco_supported": "bool",
+    "is_micro_qrcode_supported": "bool",
+    "is_qrcode_supported": "bool",
+    "start_built_in_tracking": "bool",
+    "start_entity_discovery": "OpenXRFutureResult",
+    "stop_built_in_tracking": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialPlaneTrackingCapability": {
+   "constants": [],
+   "inherits": "OpenXRExtensionWrapper",
+   "members": {},
+   "methods": {
+    "get_built_in_tracking_state": "int",
+    "is_supported": "bool",
+    "start_built_in_tracking": "bool",
+    "start_entity_discovery": "OpenXRFutureResult",
+    "stop_built_in_tracking": "void"
+   },
+   "signals": {}
+  },
+  "OpenXRSpatialQueryResultData": {
+   "constants": [],
+   "inherits": "OpenXRSpatialComponentData",
+   "members": {},
+   "methods": {
+    "get_capacity": "int",
+    "get_entity_id": "int",
+    "get_entity_state": "int"
+   },
+   "signals": {}
+  },
+  "OpenXRStructureBase": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {
+    "next": "OpenXRStructureBase"
+   },
+   "methods": {
+    "_get_header": "int",
+    "get_header": "int",
+    "get_structure_type": "int"
+   },
+   "signals": {}
+  },
+  "OpenXRVisibilityMask": {
+   "constants": [],
+   "inherits": "VisualInstance3D",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "ResourceImporterMP3": {
+   "constants": [],
+   "inherits": "ResourceImporter",
+   "members": {
+    "bar_beats": "int",
+    "beat_count": "int",
+    "bpm": "float",
+    "loop": "bool",
+    "loop_offset": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "ResourceImporterOggVorbis": {
+   "constants": [],
+   "inherits": "ResourceImporter",
+   "members": {
+    "bar_beats": "int",
+    "beat_count": "int",
+    "bpm": "float",
+    "loop": "bool",
+    "loop_offset": "float"
+   },
+   "methods": {
+    "load_from_buffer": "AudioStreamOggVorbis",
+    "load_from_file": "AudioStreamOggVorbis"
+   },
+   "signals": {}
+  },
+  "SceneMultiplayer": {
+   "constants": [],
+   "inherits": "MultiplayerAPI",
+   "members": {
+    "allow_object_decoding": "bool",
+    "auth_callback": "Callable",
+    "auth_timeout": "float",
+    "max_delta_packet_size": "int",
+    "max_sync_packet_size": "int",
+    "refuse_new_connections": "bool",
+    "root_path": "NodePath",
+    "server_relay": "bool"
+   },
+   "methods": {
+    "clear": "void",
+    "complete_auth": "int",
+    "disconnect_peer": "void",
+    "get_authenticating_peers": "PackedInt32Array",
+    "send_auth": "int",
+    "send_bytes": "int"
+   },
+   "signals": {
+    "peer_authenticating": 1,
+    "peer_authentication_failed": 1,
+    "peer_packet": 2
+   }
+  },
+  "SceneReplicationConfig": {
+   "constants": [
+    "REPLICATION_MODE_ALWAYS",
+    "REPLICATION_MODE_NEVER",
+    "REPLICATION_MODE_ON_CHANGE",
+    "ReplicationMode"
+   ],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {
+    "add_property": "void",
+    "get_properties": "NodePath[]",
+    "has_property": "bool",
+    "property_get_index": "int",
+    "property_get_replication_mode": "int",
+    "property_get_spawn": "bool",
+    "property_get_sync": "bool",
+    "property_get_watch": "bool",
+    "property_set_replication_mode": "void",
+    "property_set_spawn": "void",
+    "property_set_sync": "void",
+    "property_set_watch": "void",
+    "remove_property": "void"
+   },
+   "signals": {}
+  },
+  "TextServerAdvanced": {
+   "constants": [],
+   "inherits": "TextServerExtension",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "TextServerFallback": {
+   "constants": [],
+   "inherits": "TextServerExtension",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "TileData": {
+   "constants": [],
+   "inherits": "Object",
+   "members": {
+    "flip_h": "bool",
+    "flip_v": "bool",
+    "material": "Material",
+    "modulate": "Color",
+    "probability": "float",
+    "terrain": "int",
+    "terrain_set": "int",
+    "texture_origin": "Vector2i",
+    "transpose": "bool",
+    "y_sort_origin": "int",
+    "z_index": "int"
+   },
+   "methods": {
+    "add_collision_polygon": "void",
+    "add_occluder_polygon": "void",
+    "get_collision_polygon_one_way_margin": "float",
+    "get_collision_polygon_points": "PackedVector2Array",
+    "get_collision_polygons_count": "int",
+    "get_constant_angular_velocity": "float",
+    "get_constant_linear_velocity": "Vector2",
+    "get_custom_data": "Variant",
+    "get_custom_data_by_layer_id": "Variant",
+    "get_navigation_polygon": "NavigationPolygon",
+    "get_occluder": "OccluderPolygon2D",
+    "get_occluder_polygon": "OccluderPolygon2D",
+    "get_occluder_polygons_count": "int",
+    "get_terrain_peering_bit": "int",
+    "has_custom_data": "bool",
+    "is_collision_polygon_one_way": "bool",
+    "is_valid_terrain_peering_bit": "bool",
+    "remove_collision_polygon": "void",
+    "remove_occluder_polygon": "void",
+    "set_collision_polygon_one_way": "void",
+    "set_collision_polygon_one_way_margin": "void",
+    "set_collision_polygon_points": "void",
+    "set_collision_polygons_count": "void",
+    "set_constant_angular_velocity": "void",
+    "set_constant_linear_velocity": "void",
+    "set_custom_data": "void",
+    "set_custom_data_by_layer_id": "void",
+    "set_navigation_polygon": "void",
+    "set_occluder": "void",
+    "set_occluder_polygon": "void",
+    "set_occluder_polygons_count": "void",
+    "set_terrain_peering_bit": "void"
+   },
+   "signals": {
+    "changed": 0
+   }
+  },
+  "TileMap": {
+   "constants": [
+    "VISIBILITY_MODE_DEFAULT",
+    "VISIBILITY_MODE_FORCE_HIDE",
+    "VISIBILITY_MODE_FORCE_SHOW",
+    "VisibilityMode"
+   ],
+   "inherits": "Node2D",
+   "members": {
+    "collision_animatable": "bool",
+    "collision_visibility_mode": "int",
+    "navigation_visibility_mode": "int",
+    "rendering_quadrant_size": "int",
+    "tile_set": "TileSet"
+   },
+   "methods": {
+    "_tile_data_runtime_update": "void",
+    "_use_tile_data_runtime_update": "bool",
+    "add_layer": "void",
+    "clear": "void",
+    "clear_layer": "void",
+    "erase_cell": "void",
+    "fix_invalid_tiles": "void",
+    "force_update": "void",
+    "get_cell_alternative_tile": "int",
+    "get_cell_atlas_coords": "Vector2i",
+    "get_cell_source_id": "int",
+    "get_cell_tile_data": "TileData",
+    "get_coords_for_body_rid": "Vector2i",
+    "get_layer_for_body_rid": "int",
+    "get_layer_modulate": "Color",
+    "get_layer_name": "String",
+    "get_layer_navigation_map": "RID",
+    "get_layer_y_sort_origin": "int",
+    "get_layer_z_index": "int",
+    "get_layers_count": "int",
+    "get_navigation_map": "RID",
+    "get_neighbor_cell": "Vector2i",
+    "get_pattern": "TileMapPattern",
+    "get_surrounding_cells": "Vector2i[]",
+    "get_used_cells": "Vector2i[]",
+    "get_used_cells_by_id": "Vector2i[]",
+    "get_used_rect": "Rect2i",
+    "is_cell_flipped_h": "bool",
+    "is_cell_flipped_v": "bool",
+    "is_cell_transposed": "bool",
+    "is_layer_enabled": "bool",
+    "is_layer_navigation_enabled": "bool",
+    "is_layer_y_sort_enabled": "bool",
+    "local_to_map": "Vector2i",
+    "map_pattern": "Vector2i",
+    "map_to_local": "Vector2",
+    "move_layer": "void",
+    "notify_runtime_tile_data_update": "void",
+    "remove_layer": "void",
+    "set_cell": "void",
+    "set_cells_terrain_connect": "void",
+    "set_cells_terrain_path": "void",
+    "set_layer_enabled": "void",
+    "set_layer_modulate": "void",
+    "set_layer_name": "void",
+    "set_layer_navigation_enabled": "void",
+    "set_layer_navigation_map": "void",
+    "set_layer_y_sort_enabled": "void",
+    "set_layer_y_sort_origin": "void",
+    "set_layer_z_index": "void",
+    "set_navigation_map": "void",
+    "set_pattern": "void",
+    "update_internals": "void"
+   },
+   "signals": {
+    "changed": 0
+   }
+  },
+  "TileMapLayer": {
+   "constants": [
+    "DEBUG_VISIBILITY_MODE_DEFAULT",
+    "DEBUG_VISIBILITY_MODE_FORCE_HIDE",
+    "DEBUG_VISIBILITY_MODE_FORCE_SHOW",
+    "DebugVisibilityMode"
+   ],
+   "inherits": "Node2D",
+   "members": {
+    "collision_enabled": "bool",
+    "collision_visibility_mode": "int",
+    "enabled": "bool",
+    "navigation_enabled": "bool",
+    "navigation_visibility_mode": "int",
+    "occlusion_enabled": "bool",
+    "physics_quadrant_size": "int",
+    "rendering_quadrant_size": "int",
+    "tile_map_data": "PackedByteArray",
+    "tile_set": "TileSet",
+    "use_kinematic_bodies": "bool",
+    "x_draw_order_reversed": "bool",
+    "y_sort_origin": "int"
+   },
+   "methods": {
+    "_tile_data_runtime_update": "void",
+    "_update_cells": "void",
+    "_use_tile_data_runtime_update": "bool",
+    "clear": "void",
+    "erase_cell": "void",
+    "fix_invalid_tiles": "void",
+    "get_cell_alternative_tile": "int",
+    "get_cell_atlas_coords": "Vector2i",
+    "get_cell_source_id": "int",
+    "get_cell_tile_data": "TileData",
+    "get_coords_for_body_rid": "Vector2i",
+    "get_navigation_map": "RID",
+    "get_neighbor_cell": "Vector2i",
+    "get_pattern": "TileMapPattern",
+    "get_surrounding_cells": "Vector2i[]",
+    "get_used_cells": "Vector2i[]",
+    "get_used_cells_by_id": "Vector2i[]",
+    "get_used_rect": "Rect2i",
+    "has_body_rid": "bool",
+    "is_cell_flipped_h": "bool",
+    "is_cell_flipped_v": "bool",
+    "is_cell_transposed": "bool",
+    "local_to_map": "Vector2i",
+    "map_pattern": "Vector2i",
+    "map_to_local": "Vector2",
+    "notify_runtime_tile_data_update": "void",
+    "set_cell": "void",
+    "set_cells_terrain_connect": "void",
+    "set_cells_terrain_path": "void",
+    "set_navigation_map": "void",
+    "set_pattern": "void",
+    "update_internals": "void"
+   },
+   "signals": {
+    "changed": 0
+   }
+  },
+  "TileMapPattern": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {
+    "get_cell_alternative_tile": "int",
+    "get_cell_atlas_coords": "Vector2i",
+    "get_cell_source_id": "int",
+    "get_size": "Vector2i",
+    "get_used_cells": "Vector2i[]",
+    "has_cell": "bool",
+    "is_empty": "bool",
+    "remove_cell": "void",
+    "set_cell": "void",
+    "set_size": "void"
+   },
+   "signals": {}
+  },
+  "TileSet": {
+   "constants": [
+    "CELL_NEIGHBOR_BOTTOM_CORNER",
+    "CELL_NEIGHBOR_BOTTOM_LEFT_CORNER",
+    "CELL_NEIGHBOR_BOTTOM_LEFT_SIDE",
+    "CELL_NEIGHBOR_BOTTOM_RIGHT_CORNER",
+    "CELL_NEIGHBOR_BOTTOM_RIGHT_SIDE",
+    "CELL_NEIGHBOR_BOTTOM_SIDE",
+    "CELL_NEIGHBOR_LEFT_CORNER",
+    "CELL_NEIGHBOR_LEFT_SIDE",
+    "CELL_NEIGHBOR_RIGHT_CORNER",
+    "CELL_NEIGHBOR_RIGHT_SIDE",
+    "CELL_NEIGHBOR_TOP_CORNER",
+    "CELL_NEIGHBOR_TOP_LEFT_CORNER",
+    "CELL_NEIGHBOR_TOP_LEFT_SIDE",
+    "CELL_NEIGHBOR_TOP_RIGHT_CORNER",
+    "CELL_NEIGHBOR_TOP_RIGHT_SIDE",
+    "CELL_NEIGHBOR_TOP_SIDE",
+    "CellNeighbor",
+    "TERRAIN_MODE_MATCH_CORNERS",
+    "TERRAIN_MODE_MATCH_CORNERS_AND_SIDES",
+    "TERRAIN_MODE_MATCH_SIDES",
+    "TILE_LAYOUT_DIAMOND_DOWN",
+    "TILE_LAYOUT_DIAMOND_RIGHT",
+    "TILE_LAYOUT_STACKED",
+    "TILE_LAYOUT_STACKED_OFFSET",
+    "TILE_LAYOUT_STAIRS_DOWN",
+    "TILE_LAYOUT_STAIRS_RIGHT",
+    "TILE_OFFSET_AXIS_HORIZONTAL",
+    "TILE_OFFSET_AXIS_VERTICAL",
+    "TILE_SHAPE_HALF_OFFSET_SQUARE",
+    "TILE_SHAPE_HEXAGON",
+    "TILE_SHAPE_ISOMETRIC",
+    "TILE_SHAPE_SQUARE",
+    "TerrainMode",
+    "TileLayout",
+    "TileOffsetAxis",
+    "TileShape"
+   ],
+   "inherits": "Resource",
+   "members": {
+    "tile_layout": "int",
+    "tile_offset_axis": "int",
+    "tile_shape": "int",
+    "tile_size": "Vector2i",
+    "uv_clipping": "bool"
+   },
+   "methods": {
+    "add_custom_data_layer": "void",
+    "add_navigation_layer": "void",
+    "add_occlusion_layer": "void",
+    "add_pattern": "int",
+    "add_physics_layer": "void",
+    "add_source": "int",
+    "add_terrain": "void",
+    "add_terrain_set": "void",
+    "cleanup_invalid_tile_proxies": "void",
+    "clear_terrains": "void",
+    "clear_tile_proxies": "void",
+    "get_alternative_level_tile_proxy": "Array",
+    "get_coords_level_tile_proxy": "Array",
+    "get_custom_data_layer_by_name": "int",
+    "get_custom_data_layer_name": "String",
+    "get_custom_data_layer_type": "int",
+    "get_custom_data_layers_count": "int",
+    "get_navigation_layer_layer_value": "bool",
+    "get_navigation_layer_layers": "int",
+    "get_navigation_layers_count": "int",
+    "get_next_source_id": "int",
+    "get_occlusion_layer_light_mask": "int",
+    "get_occlusion_layer_sdf_collision": "bool",
+    "get_occlusion_layers_count": "int",
+    "get_pattern": "TileMapPattern",
+    "get_patterns_count": "int",
+    "get_physics_layer_collision_layer": "int",
+    "get_physics_layer_collision_mask": "int",
+    "get_physics_layer_collision_priority": "float",
+    "get_physics_layer_physics_material": "PhysicsMaterial",
+    "get_physics_layers_count": "int",
+    "get_source": "TileSetSource",
+    "get_source_count": "int",
+    "get_source_id": "int",
+    "get_source_level_tile_proxy": "int",
+    "get_terrain_color": "Color",
+    "get_terrain_name": "String",
+    "get_terrain_set_mode": "int",
+    "get_terrain_sets_count": "int",
+    "get_terrains_count": "int",
+    "has_alternative_level_tile_proxy": "bool",
+    "has_coords_level_tile_proxy": "bool",
+    "has_custom_data_layer_by_name": "bool",
+    "has_source": "bool",
+    "has_source_level_tile_proxy": "bool",
+    "map_tile_proxy": "Array",
+    "move_custom_data_layer": "void",
+    "move_navigation_layer": "void",
+    "move_occlusion_layer": "void",
+    "move_physics_layer": "void",
+    "move_terrain": "void",
+    "move_terrain_set": "void",
+    "remove_alternative_level_tile_proxy": "void",
+    "remove_coords_level_tile_proxy": "void",
+    "remove_custom_data_layer": "void",
+    "remove_navigation_layer": "void",
+    "remove_occlusion_layer": "void",
+    "remove_pattern": "void",
+    "remove_physics_layer": "void",
+    "remove_source": "void",
+    "remove_source_level_tile_proxy": "void",
+    "remove_terrain": "void",
+    "remove_terrain_set": "void",
+    "set_alternative_level_tile_proxy": "void",
+    "set_coords_level_tile_proxy": "void",
+    "set_custom_data_layer_name": "void",
+    "set_custom_data_layer_type": "void",
+    "set_navigation_layer_layer_value": "void",
+    "set_navigation_layer_layers": "void",
+    "set_occlusion_layer_light_mask": "void",
+    "set_occlusion_layer_sdf_collision": "void",
+    "set_physics_layer_collision_layer": "void",
+    "set_physics_layer_collision_mask": "void",
+    "set_physics_layer_collision_priority": "void",
+    "set_physics_layer_physics_material": "void",
+    "set_source_id": "void",
+    "set_source_level_tile_proxy": "void",
+    "set_terrain_color": "void",
+    "set_terrain_name": "void",
+    "set_terrain_set_mode": "void"
+   },
+   "signals": {}
+  },
+  "TileSetAtlasSource": {
+   "constants": [
+    "TILE_ANIMATION_MODE_DEFAULT",
+    "TILE_ANIMATION_MODE_MAX",
+    "TILE_ANIMATION_MODE_RANDOM_START_TIMES",
+    "TRANSFORM_FLIP_H",
+    "TRANSFORM_FLIP_V",
+    "TRANSFORM_TRANSPOSE",
+    "TileAnimationMode"
+   ],
+   "inherits": "TileSetSource",
+   "members": {
+    "margins": "Vector2i",
+    "separation": "Vector2i",
+    "texture": "Texture2D",
+    "texture_region_size": "Vector2i",
+    "use_texture_padding": "bool"
+   },
+   "methods": {
+    "clear_tiles_outside_texture": "void",
+    "create_alternative_tile": "int",
+    "create_tile": "void",
+    "get_atlas_grid_size": "Vector2i",
+    "get_next_alternative_tile_id": "int",
+    "get_runtime_texture": "Texture2D",
+    "get_runtime_tile_texture_region": "Rect2i",
+    "get_tile_animation_columns": "int",
+    "get_tile_animation_frame_duration": "float",
+    "get_tile_animation_frames_count": "int",
+    "get_tile_animation_mode": "int",
+    "get_tile_animation_separation": "Vector2i",
+    "get_tile_animation_speed": "float",
+    "get_tile_animation_total_duration": "float",
+    "get_tile_at_coords": "Vector2i",
+    "get_tile_data": "TileData",
+    "get_tile_size_in_atlas": "Vector2i",
+    "get_tile_texture_region": "Rect2i",
+    "get_tiles_to_be_removed_on_change": "PackedVector2Array",
+    "has_room_for_tile": "bool",
+    "has_tiles_outside_texture": "bool",
+    "move_tile_in_atlas": "void",
+    "remove_alternative_tile": "void",
+    "remove_tile": "void",
+    "set_alternative_tile_id": "void",
+    "set_tile_animation_columns": "void",
+    "set_tile_animation_frame_duration": "void",
+    "set_tile_animation_frames_count": "void",
+    "set_tile_animation_mode": "void",
+    "set_tile_animation_separation": "void",
+    "set_tile_animation_speed": "void"
+   },
+   "signals": {}
+  },
+  "TileSetScenesCollectionSource": {
+   "constants": [],
+   "inherits": "TileSetSource",
+   "members": {},
+   "methods": {
+    "create_scene_tile": "int",
+    "get_next_scene_tile_id": "int",
+    "get_scene_tile_display_placeholder": "bool",
+    "get_scene_tile_id": "int",
+    "get_scene_tile_scene": "PackedScene",
+    "get_scene_tiles_count": "int",
+    "has_scene_tile_id": "bool",
+    "remove_scene_tile": "void",
+    "set_scene_tile_display_placeholder": "void",
+    "set_scene_tile_id": "void",
+    "set_scene_tile_scene": "void"
+   },
+   "signals": {}
+  },
+  "TileSetSource": {
+   "constants": [],
+   "inherits": "Resource",
+   "members": {},
+   "methods": {
+    "get_alternative_tile_id": "int",
+    "get_alternative_tiles_count": "int",
+    "get_tile_id": "Vector2i",
+    "get_tiles_count": "int",
+    "has_alternative_tile": "bool",
+    "has_tile": "bool"
+   },
+   "signals": {}
+  },
+  "UPNP": {
+   "constants": [
+    "UPNPResult",
+    "UPNP_RESULT_ACTION_FAILED",
+    "UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING",
+    "UPNP_RESULT_CONFLICT_WITH_OTHER_MECHANISM",
+    "UPNP_RESULT_EXT_PORT_MUST_BE_WILDCARD",
+    "UPNP_RESULT_EXT_PORT_WILDCARD_NOT_PERMITTED",
+    "UPNP_RESULT_HTTP_ERROR",
+    "UPNP_RESULT_INCONSISTENT_PARAMETERS",
+    "UPNP_RESULT_INT_PORT_WILDCARD_NOT_PERMITTED",
+    "UPNP_RESULT_INVALID_ARGS",
+    "UPNP_RESULT_INVALID_DURATION",
+    "UPNP_RESULT_INVALID_GATEWAY",
+    "UPNP_RESULT_INVALID_PARAM",
+    "UPNP_RESULT_INVALID_PORT",
+    "UPNP_RESULT_INVALID_PROTOCOL",
+    "UPNP_RESULT_INVALID_RESPONSE",
+    "UPNP_RESULT_MEM_ALLOC_ERROR",
+    "UPNP_RESULT_NOT_AUTHORIZED",
+    "UPNP_RESULT_NO_DEVICES",
+    "UPNP_RESULT_NO_GATEWAY",
+    "UPNP_RESULT_NO_PORT_MAPS_AVAILABLE",
+    "UPNP_RESULT_NO_SUCH_ENTRY_IN_ARRAY",
+    "UPNP_RESULT_ONLY_PERMANENT_LEASE_SUPPORTED",
+    "UPNP_RESULT_PORT_MAPPING_NOT_FOUND",
+    "UPNP_RESULT_REMOTE_HOST_MUST_BE_WILDCARD",
+    "UPNP_RESULT_SAME_PORT_VALUES_REQUIRED",
+    "UPNP_RESULT_SOCKET_ERROR",
+    "UPNP_RESULT_SRC_IP_WILDCARD_NOT_PERMITTED",
+    "UPNP_RESULT_SUCCESS",
+    "UPNP_RESULT_UNKNOWN_ERROR"
+   ],
+   "inherits": "RefCounted",
+   "members": {
+    "discover_ipv6": "bool",
+    "discover_local_port": "int",
+    "discover_multicast_if": "String"
+   },
+   "methods": {
+    "add_device": "void",
+    "add_port_mapping": "int",
+    "clear_devices": "void",
+    "delete_port_mapping": "int",
+    "discover": "int",
+    "get_device": "UPNPDevice",
+    "get_device_count": "int",
+    "get_gateway": "UPNPDevice",
+    "query_external_address": "String",
+    "remove_device": "void",
+    "set_device": "void"
+   },
+   "signals": {}
+  },
+  "UPNPDevice": {
+   "constants": [
+    "IGDStatus",
+    "IGD_STATUS_DISCONNECTED",
+    "IGD_STATUS_HTTP_EMPTY",
+    "IGD_STATUS_HTTP_ERROR",
+    "IGD_STATUS_INVALID_CONTROL",
+    "IGD_STATUS_MALLOC_ERROR",
+    "IGD_STATUS_NO_IGD",
+    "IGD_STATUS_NO_URLS",
+    "IGD_STATUS_OK",
+    "IGD_STATUS_UNKNOWN_DEVICE",
+    "IGD_STATUS_UNKNOWN_ERROR"
+   ],
+   "inherits": "RefCounted",
+   "members": {
+    "description_url": "String",
+    "igd_control_url": "String",
+    "igd_our_addr": "String",
+    "igd_service_type": "String",
+    "igd_status": "int",
+    "service_type": "String"
+   },
+   "methods": {
+    "add_port_mapping": "int",
+    "delete_port_mapping": "int",
+    "is_valid_gateway": "bool",
+    "query_external_address": "String"
+   },
+   "signals": {}
+  },
+  "VideoStreamTheora": {
+   "constants": [],
+   "inherits": "VideoStream",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisionOSXRInterface": {
+   "constants": [
+    "IMMERSION_STYLE_FULL",
+    "IMMERSION_STYLE_MIXED",
+    "IMMERSION_STYLE_PROGRESSIVE",
+    "ImmersionStyle",
+    "VISIBILITY_AUTOMATIC",
+    "VISIBILITY_HIDDEN",
+    "VISIBILITY_VISIBLE",
+    "Visibility"
+   ],
+   "inherits": "XRInterface",
+   "members": {
+    "immersion_style": "int",
+    "persistent_system_overlays": "int",
+    "upper_limb_visibility": "int",
+    "xr_play_area_mode": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShader": {
+   "constants": [
+    "NODE_ID_INVALID",
+    "NODE_ID_OUTPUT",
+    "TYPE_COLLIDE",
+    "TYPE_FOG",
+    "TYPE_FRAGMENT",
+    "TYPE_LIGHT",
+    "TYPE_MAX",
+    "TYPE_PROCESS",
+    "TYPE_PROCESS_CUSTOM",
+    "TYPE_SKY",
+    "TYPE_START",
+    "TYPE_START_CUSTOM",
+    "TYPE_TEXTURE_BLIT",
+    "TYPE_VERTEX",
+    "Type",
+    "VARYING_MODE_FRAG_TO_LIGHT",
+    "VARYING_MODE_MAX",
+    "VARYING_MODE_VERTEX_TO_FRAG_LIGHT",
+    "VARYING_TYPE_BOOLEAN",
+    "VARYING_TYPE_FLOAT",
+    "VARYING_TYPE_INT",
+    "VARYING_TYPE_MAX",
+    "VARYING_TYPE_TRANSFORM",
+    "VARYING_TYPE_UINT",
+    "VARYING_TYPE_VECTOR_2D",
+    "VARYING_TYPE_VECTOR_3D",
+    "VARYING_TYPE_VECTOR_4D",
+    "VaryingMode",
+    "VaryingType"
+   ],
+   "inherits": "Shader",
+   "members": {
+    "graph_offset": "Vector2"
+   },
+   "methods": {
+    "add_node": "void",
+    "add_varying": "void",
+    "attach_node_to_frame": "void",
+    "can_connect_nodes": "bool",
+    "connect_nodes": "int",
+    "connect_nodes_forced": "void",
+    "detach_node_from_frame": "void",
+    "disconnect_nodes": "void",
+    "get_node": "VisualShaderNode",
+    "get_node_connections": "Dictionary[]",
+    "get_node_list": "PackedInt32Array",
+    "get_node_position": "Vector2",
+    "get_valid_node_id": "int",
+    "has_varying": "bool",
+    "is_node_connection": "bool",
+    "remove_node": "void",
+    "remove_varying": "void",
+    "replace_node": "void",
+    "set_mode": "void",
+    "set_node_position": "void"
+   },
+   "signals": {}
+  },
+  "VisualShaderNode": {
+   "constants": [
+    "PORT_TYPE_BOOLEAN",
+    "PORT_TYPE_MAX",
+    "PORT_TYPE_SAMPLER",
+    "PORT_TYPE_SCALAR",
+    "PORT_TYPE_SCALAR_INT",
+    "PORT_TYPE_SCALAR_UINT",
+    "PORT_TYPE_TRANSFORM",
+    "PORT_TYPE_VECTOR_2D",
+    "PORT_TYPE_VECTOR_3D",
+    "PORT_TYPE_VECTOR_4D",
+    "PortType"
+   ],
+   "inherits": "Resource",
+   "members": {
+    "linked_parent_graph_frame": "int",
+    "output_port_for_preview": "int"
+   },
+   "methods": {
+    "clear_default_input_values": "void",
+    "get_default_input_port": "int",
+    "get_default_input_values": "Array",
+    "get_input_port_default_value": "Variant",
+    "remove_input_port_default_value": "void",
+    "set_default_input_values": "void",
+    "set_input_port_default_value": "void"
+   },
+   "signals": {}
+  },
+  "VisualShaderNodeBillboard": {
+   "constants": [
+    "BILLBOARD_TYPE_DISABLED",
+    "BILLBOARD_TYPE_ENABLED",
+    "BILLBOARD_TYPE_FIXED_Y",
+    "BILLBOARD_TYPE_MAX",
+    "BILLBOARD_TYPE_PARTICLES",
+    "BillboardType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "billboard_type": "int",
+    "keep_scale": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeBooleanConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeBooleanParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "bool",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeClamp": {
+   "constants": [
+    "OP_TYPE_FLOAT",
+    "OP_TYPE_INT",
+    "OP_TYPE_MAX",
+    "OP_TYPE_UINT",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_4D",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeColorConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "Color"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeColorFunc": {
+   "constants": [
+    "FUNC_GRAYSCALE",
+    "FUNC_HSV2RGB",
+    "FUNC_LINEAR_TO_SRGB",
+    "FUNC_MAX",
+    "FUNC_RGB2HSV",
+    "FUNC_SEPIA",
+    "FUNC_SRGB_TO_LINEAR",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeColorOp": {
+   "constants": [
+    "OP_BURN",
+    "OP_DARKEN",
+    "OP_DIFFERENCE",
+    "OP_DODGE",
+    "OP_HARD_LIGHT",
+    "OP_LIGHTEN",
+    "OP_MAX",
+    "OP_OVERLAY",
+    "OP_SCREEN",
+    "OP_SOFT_LIGHT",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeColorParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "Color",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeComment": {
+   "constants": [],
+   "inherits": "VisualShaderNodeFrame",
+   "members": {
+    "description": "String"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeCompare": {
+   "constants": [
+    "COND_ALL",
+    "COND_ANY",
+    "COND_MAX",
+    "CTYPE_BOOLEAN",
+    "CTYPE_MAX",
+    "CTYPE_SCALAR",
+    "CTYPE_SCALAR_INT",
+    "CTYPE_SCALAR_UINT",
+    "CTYPE_TRANSFORM",
+    "CTYPE_VECTOR_2D",
+    "CTYPE_VECTOR_3D",
+    "CTYPE_VECTOR_4D",
+    "ComparisonType",
+    "Condition",
+    "FUNC_EQUAL",
+    "FUNC_GREATER_THAN",
+    "FUNC_GREATER_THAN_EQUAL",
+    "FUNC_LESS_THAN",
+    "FUNC_LESS_THAN_EQUAL",
+    "FUNC_MAX",
+    "FUNC_NOT_EQUAL",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "condition": "int",
+    "function": "int",
+    "type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeCubemap": {
+   "constants": [
+    "SOURCE_MAX",
+    "SOURCE_PORT",
+    "SOURCE_TEXTURE",
+    "Source",
+    "TYPE_COLOR",
+    "TYPE_DATA",
+    "TYPE_MAX",
+    "TYPE_NORMAL_MAP",
+    "TextureType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "cube_map": "TextureLayered",
+    "source": "int",
+    "texture_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeCubemapParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeTextureParameter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeCurveTexture": {
+   "constants": [],
+   "inherits": "VisualShaderNodeResizableBase",
+   "members": {
+    "texture": "CurveTexture"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeCurveXYZTexture": {
+   "constants": [],
+   "inherits": "VisualShaderNodeResizableBase",
+   "members": {
+    "texture": "CurveXYZTexture"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeCustom": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {
+    "_get_category": "String",
+    "_get_code": "String",
+    "_get_default_input_port": "int",
+    "_get_description": "String",
+    "_get_func_code": "String",
+    "_get_global_code": "String",
+    "_get_input_port_count": "int",
+    "_get_input_port_default_value": "Variant",
+    "_get_input_port_name": "String",
+    "_get_input_port_type": "int",
+    "_get_name": "String",
+    "_get_output_port_count": "int",
+    "_get_output_port_name": "String",
+    "_get_output_port_type": "int",
+    "_get_property_count": "int",
+    "_get_property_default_index": "int",
+    "_get_property_name": "String",
+    "_get_property_options": "PackedStringArray",
+    "_get_return_icon_type": "int",
+    "_is_available": "bool",
+    "_is_highend": "bool",
+    "get_option_index": "int"
+   },
+   "signals": {}
+  },
+  "VisualShaderNodeDerivativeFunc": {
+   "constants": [
+    "FUNC_MAX",
+    "FUNC_SUM",
+    "FUNC_X",
+    "FUNC_Y",
+    "Function",
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_4D",
+    "OpType",
+    "PRECISION_COARSE",
+    "PRECISION_FINE",
+    "PRECISION_MAX",
+    "PRECISION_NONE",
+    "Precision"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int",
+    "op_type": "int",
+    "precision": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeDeterminant": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeDistanceFade": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeDotProduct": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeExpression": {
+   "constants": [],
+   "inherits": "VisualShaderNodeGroupBase",
+   "members": {
+    "expression": "String"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeFaceForward": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeFloatConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeFloatFunc": {
+   "constants": [
+    "FUNC_ABS",
+    "FUNC_ACOS",
+    "FUNC_ACOSH",
+    "FUNC_ASIN",
+    "FUNC_ASINH",
+    "FUNC_ATAN",
+    "FUNC_ATANH",
+    "FUNC_CEIL",
+    "FUNC_COS",
+    "FUNC_COSH",
+    "FUNC_DEGREES",
+    "FUNC_EXP",
+    "FUNC_EXP2",
+    "FUNC_FLOOR",
+    "FUNC_FRACT",
+    "FUNC_INVERSE_SQRT",
+    "FUNC_LOG",
+    "FUNC_LOG2",
+    "FUNC_MAX",
+    "FUNC_NEGATE",
+    "FUNC_ONEMINUS",
+    "FUNC_RADIANS",
+    "FUNC_RECIPROCAL",
+    "FUNC_ROUND",
+    "FUNC_ROUNDEVEN",
+    "FUNC_SATURATE",
+    "FUNC_SIGN",
+    "FUNC_SIN",
+    "FUNC_SINH",
+    "FUNC_SQRT",
+    "FUNC_TAN",
+    "FUNC_TANH",
+    "FUNC_TRUNC",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeFloatOp": {
+   "constants": [
+    "OP_ADD",
+    "OP_ATAN2",
+    "OP_DIV",
+    "OP_ENUM_SIZE",
+    "OP_MAX",
+    "OP_MIN",
+    "OP_MOD",
+    "OP_MUL",
+    "OP_POW",
+    "OP_STEP",
+    "OP_SUB",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeFloatParameter": {
+   "constants": [
+    "HINT_MAX",
+    "HINT_NONE",
+    "HINT_RANGE",
+    "HINT_RANGE_STEP",
+    "Hint"
+   ],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "float",
+    "default_value_enabled": "bool",
+    "hint": "int",
+    "max": "float",
+    "min": "float",
+    "step": "float"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeFrame": {
+   "constants": [],
+   "inherits": "VisualShaderNodeResizableBase",
+   "members": {
+    "attached_nodes": "PackedInt32Array",
+    "autoshrink": "bool",
+    "tint_color": "Color",
+    "tint_color_enabled": "bool",
+    "title": "String"
+   },
+   "methods": {
+    "add_attached_node": "void",
+    "remove_attached_node": "void"
+   },
+   "signals": {}
+  },
+  "VisualShaderNodeFresnel": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeGlobalExpression": {
+   "constants": [],
+   "inherits": "VisualShaderNodeExpression",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeGroupBase": {
+   "constants": [],
+   "inherits": "VisualShaderNodeResizableBase",
+   "members": {},
+   "methods": {
+    "add_input_port": "void",
+    "add_output_port": "void",
+    "clear_input_ports": "void",
+    "clear_output_ports": "void",
+    "get_free_input_port_id": "int",
+    "get_free_output_port_id": "int",
+    "get_input_port_count": "int",
+    "get_inputs": "String",
+    "get_output_port_count": "int",
+    "get_outputs": "String",
+    "has_input_port": "bool",
+    "has_output_port": "bool",
+    "is_valid_port_name": "bool",
+    "remove_input_port": "void",
+    "remove_output_port": "void",
+    "set_input_port_name": "void",
+    "set_input_port_type": "void",
+    "set_inputs": "void",
+    "set_output_port_name": "void",
+    "set_output_port_type": "void",
+    "set_outputs": "void"
+   },
+   "signals": {}
+  },
+  "VisualShaderNodeIf": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeInput": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "input_name": "String"
+   },
+   "methods": {
+    "get_input_real_name": "String"
+   },
+   "signals": {
+    "input_type_changed": 0
+   }
+  },
+  "VisualShaderNodeIntConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeIntFunc": {
+   "constants": [
+    "FUNC_ABS",
+    "FUNC_BITWISE_NOT",
+    "FUNC_MAX",
+    "FUNC_NEGATE",
+    "FUNC_SIGN",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeIntOp": {
+   "constants": [
+    "OP_ADD",
+    "OP_BITWISE_AND",
+    "OP_BITWISE_LEFT_SHIFT",
+    "OP_BITWISE_OR",
+    "OP_BITWISE_RIGHT_SHIFT",
+    "OP_BITWISE_XOR",
+    "OP_DIV",
+    "OP_ENUM_SIZE",
+    "OP_MAX",
+    "OP_MIN",
+    "OP_MOD",
+    "OP_MUL",
+    "OP_SUB",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeIntParameter": {
+   "constants": [
+    "HINT_ENUM",
+    "HINT_MAX",
+    "HINT_NONE",
+    "HINT_RANGE",
+    "HINT_RANGE_STEP",
+    "Hint"
+   ],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "int",
+    "default_value_enabled": "bool",
+    "enum_names": "PackedStringArray",
+    "hint": "int",
+    "max": "int",
+    "min": "int",
+    "step": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeIs": {
+   "constants": [
+    "FUNC_IS_INF",
+    "FUNC_IS_NAN",
+    "FUNC_MAX",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeLinearSceneDepth": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeMix": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_2D_SCALAR",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_3D_SCALAR",
+    "OP_TYPE_VECTOR_4D",
+    "OP_TYPE_VECTOR_4D_SCALAR",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeMultiplyAdd": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_4D",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeOuterProduct": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeOutput": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParameter": {
+   "constants": [
+    "QUAL_GLOBAL",
+    "QUAL_INSTANCE",
+    "QUAL_INSTANCE_INDEX",
+    "QUAL_MAX",
+    "QUAL_NONE",
+    "Qualifier"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "instance_index": "int",
+    "parameter_name": "String",
+    "qualifier": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParameterRef": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "parameter_name": "String"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleAccelerator": {
+   "constants": [
+    "MODE_LINEAR",
+    "MODE_MAX",
+    "MODE_RADIAL",
+    "MODE_TANGENTIAL",
+    "Mode"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "mode": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleBoxEmitter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParticleEmitter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleConeVelocity": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleEmit": {
+   "constants": [
+    "EMIT_FLAG_COLOR",
+    "EMIT_FLAG_CUSTOM",
+    "EMIT_FLAG_POSITION",
+    "EMIT_FLAG_ROT_SCALE",
+    "EMIT_FLAG_VELOCITY",
+    "EmitFlags"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "flags": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleEmitter": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "mode_2d": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleMeshEmitter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParticleEmitter",
+   "members": {
+    "mesh": "Mesh",
+    "surface_index": "int",
+    "use_all_surfaces": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleMultiplyByAxisAngle": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "degrees_mode": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleOutput": {
+   "constants": [],
+   "inherits": "VisualShaderNodeOutput",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleRandomness": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_4D",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleRingEmitter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParticleEmitter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeParticleSphereEmitter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParticleEmitter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeProximityFade": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeRandomRange": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeRemap": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_2D_SCALAR",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_3D_SCALAR",
+    "OP_TYPE_VECTOR_4D",
+    "OP_TYPE_VECTOR_4D_SCALAR",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeReroute": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {
+    "get_port_type": "int"
+   },
+   "signals": {}
+  },
+  "VisualShaderNodeResizableBase": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "size": "Vector2"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeRotationByAxis": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeSDFRaymarch": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeSDFToScreenUV": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeSample3D": {
+   "constants": [
+    "SOURCE_MAX",
+    "SOURCE_PORT",
+    "SOURCE_TEXTURE",
+    "Source"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "source": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeScreenNormalWorldSpace": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeScreenUVToSDF": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeSmoothStep": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_2D_SCALAR",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_3D_SCALAR",
+    "OP_TYPE_VECTOR_4D",
+    "OP_TYPE_VECTOR_4D_SCALAR",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeStep": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_SCALAR",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_2D_SCALAR",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_3D_SCALAR",
+    "OP_TYPE_VECTOR_4D",
+    "OP_TYPE_VECTOR_4D_SCALAR",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeSwitch": {
+   "constants": [
+    "OP_TYPE_BOOLEAN",
+    "OP_TYPE_FLOAT",
+    "OP_TYPE_INT",
+    "OP_TYPE_MAX",
+    "OP_TYPE_TRANSFORM",
+    "OP_TYPE_UINT",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_4D",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTexture": {
+   "constants": [
+    "SOURCE_2D_NORMAL",
+    "SOURCE_2D_TEXTURE",
+    "SOURCE_3D_NORMAL",
+    "SOURCE_DEPTH",
+    "SOURCE_MAX",
+    "SOURCE_PORT",
+    "SOURCE_ROUGHNESS",
+    "SOURCE_SCREEN",
+    "SOURCE_TEXTURE",
+    "Source",
+    "TYPE_COLOR",
+    "TYPE_DATA",
+    "TYPE_MAX",
+    "TYPE_NORMAL_MAP",
+    "TextureType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "source": "int",
+    "texture": "Texture2D",
+    "texture_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTexture2DArray": {
+   "constants": [],
+   "inherits": "VisualShaderNodeSample3D",
+   "members": {
+    "texture_array": "TextureLayered"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTexture2DArrayParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeTextureParameter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTexture2DParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeTextureParameter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTexture3D": {
+   "constants": [],
+   "inherits": "VisualShaderNodeSample3D",
+   "members": {
+    "texture": "Texture3D"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTexture3DParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeTextureParameter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTextureParameter": {
+   "constants": [
+    "COLOR_DEFAULT_BLACK",
+    "COLOR_DEFAULT_MAX",
+    "COLOR_DEFAULT_TRANSPARENT",
+    "COLOR_DEFAULT_WHITE",
+    "ColorDefault",
+    "FILTER_DEFAULT",
+    "FILTER_LINEAR",
+    "FILTER_LINEAR_MIPMAP",
+    "FILTER_LINEAR_MIPMAP_ANISOTROPIC",
+    "FILTER_MAX",
+    "FILTER_NEAREST",
+    "FILTER_NEAREST_MIPMAP",
+    "FILTER_NEAREST_MIPMAP_ANISOTROPIC",
+    "REPEAT_DEFAULT",
+    "REPEAT_DISABLED",
+    "REPEAT_ENABLED",
+    "REPEAT_MAX",
+    "SOURCE_DEPTH",
+    "SOURCE_MAX",
+    "SOURCE_NONE",
+    "SOURCE_NORMAL_ROUGHNESS",
+    "SOURCE_SCREEN",
+    "TYPE_ANISOTROPY",
+    "TYPE_COLOR",
+    "TYPE_DATA",
+    "TYPE_MAX",
+    "TYPE_NORMAL_MAP",
+    "TextureFilter",
+    "TextureRepeat",
+    "TextureSource",
+    "TextureType"
+   ],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "color_default": "int",
+    "texture_filter": "int",
+    "texture_repeat": "int",
+    "texture_source": "int",
+    "texture_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTextureParameterTriplanar": {
+   "constants": [],
+   "inherits": "VisualShaderNodeTextureParameter",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTextureSDF": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTextureSDFNormal": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformCompose": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "Transform3D"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformDecompose": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformFunc": {
+   "constants": [
+    "FUNC_INVERSE",
+    "FUNC_MAX",
+    "FUNC_TRANSPOSE",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformOp": {
+   "constants": [
+    "OP_ADD",
+    "OP_A_DIV_B",
+    "OP_A_MINUS_B",
+    "OP_AxB",
+    "OP_AxB_COMP",
+    "OP_B_DIV_A",
+    "OP_B_MINUS_A",
+    "OP_BxA",
+    "OP_BxA_COMP",
+    "OP_MAX",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "Transform3D",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeTransformVecMult": {
+   "constants": [
+    "OP_3x3_AxB",
+    "OP_3x3_BxA",
+    "OP_AxB",
+    "OP_BxA",
+    "OP_MAX",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeUIntConstant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeUIntFunc": {
+   "constants": [
+    "FUNC_BITWISE_NOT",
+    "FUNC_MAX",
+    "FUNC_NEGATE",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeUIntOp": {
+   "constants": [
+    "OP_ADD",
+    "OP_BITWISE_AND",
+    "OP_BITWISE_LEFT_SHIFT",
+    "OP_BITWISE_OR",
+    "OP_BITWISE_RIGHT_SHIFT",
+    "OP_BITWISE_XOR",
+    "OP_DIV",
+    "OP_ENUM_SIZE",
+    "OP_MAX",
+    "OP_MIN",
+    "OP_MOD",
+    "OP_MUL",
+    "OP_SUB",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeUIntParameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "int",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeUVFunc": {
+   "constants": [
+    "FUNC_MAX",
+    "FUNC_PANNING",
+    "FUNC_SCALING",
+    "Function"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeUVPolarCoord": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVarying": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "varying_name": "String",
+    "varying_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVaryingGetter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVarying",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVaryingSetter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVarying",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVec2Constant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "Vector2"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVec2Parameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "Vector2",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVec3Constant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "Vector3"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVec3Parameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "Vector3",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVec4Constant": {
+   "constants": [],
+   "inherits": "VisualShaderNodeConstant",
+   "members": {
+    "constant": "Quaternion"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVec4Parameter": {
+   "constants": [],
+   "inherits": "VisualShaderNodeParameter",
+   "members": {
+    "default_value": "Vector4",
+    "default_value_enabled": "bool"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorBase": {
+   "constants": [
+    "OP_TYPE_MAX",
+    "OP_TYPE_VECTOR_2D",
+    "OP_TYPE_VECTOR_3D",
+    "OP_TYPE_VECTOR_4D",
+    "OpType"
+   ],
+   "inherits": "VisualShaderNode",
+   "members": {
+    "op_type": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorCompose": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorDecompose": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorDistance": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorFunc": {
+   "constants": [
+    "FUNC_ABS",
+    "FUNC_ACOS",
+    "FUNC_ACOSH",
+    "FUNC_ASIN",
+    "FUNC_ASINH",
+    "FUNC_ATAN",
+    "FUNC_ATANH",
+    "FUNC_CEIL",
+    "FUNC_COS",
+    "FUNC_COSH",
+    "FUNC_DEGREES",
+    "FUNC_EXP",
+    "FUNC_EXP2",
+    "FUNC_FLOOR",
+    "FUNC_FRACT",
+    "FUNC_INVERSE_SQRT",
+    "FUNC_LOG",
+    "FUNC_LOG2",
+    "FUNC_MAX",
+    "FUNC_NEGATE",
+    "FUNC_NORMALIZE",
+    "FUNC_ONEMINUS",
+    "FUNC_RADIANS",
+    "FUNC_RECIPROCAL",
+    "FUNC_ROUND",
+    "FUNC_ROUNDEVEN",
+    "FUNC_SATURATE",
+    "FUNC_SIGN",
+    "FUNC_SIN",
+    "FUNC_SINH",
+    "FUNC_SQRT",
+    "FUNC_TAN",
+    "FUNC_TANH",
+    "FUNC_TRUNC",
+    "Function"
+   ],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {
+    "function": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorLen": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorOp": {
+   "constants": [
+    "OP_ADD",
+    "OP_ATAN2",
+    "OP_CROSS",
+    "OP_DIV",
+    "OP_ENUM_SIZE",
+    "OP_MAX",
+    "OP_MIN",
+    "OP_MOD",
+    "OP_MUL",
+    "OP_POW",
+    "OP_REFLECT",
+    "OP_STEP",
+    "OP_SUB",
+    "Operator"
+   ],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {
+    "operator": "int"
+   },
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeVectorRefract": {
+   "constants": [],
+   "inherits": "VisualShaderNodeVectorBase",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "VisualShaderNodeWorldPositionFromDepth": {
+   "constants": [],
+   "inherits": "VisualShaderNode",
+   "members": {},
+   "methods": {},
+   "signals": {}
+  },
+  "WebRTCDataChannel": {
+   "constants": [
+    "ChannelState",
+    "STATE_CLOSED",
+    "STATE_CLOSING",
+    "STATE_CONNECTING",
+    "STATE_OPEN",
+    "WRITE_MODE_BINARY",
+    "WRITE_MODE_TEXT",
+    "WriteMode"
+   ],
+   "inherits": "PacketPeer",
+   "members": {
+    "write_mode": "int"
+   },
+   "methods": {
+    "close": "void",
+    "get_buffered_amount": "int",
+    "get_id": "int",
+    "get_label": "String",
+    "get_max_packet_life_time": "int",
+    "get_max_retransmits": "int",
+    "get_protocol": "String",
+    "get_ready_state": "int",
+    "is_negotiated": "bool",
+    "is_ordered": "bool",
+    "poll": "int",
+    "was_string_packet": "bool"
+   },
+   "signals": {}
+  },
+  "WebRTCDataChannelExtension": {
+   "constants": [],
+   "inherits": "WebRTCDataChannel",
+   "members": {},
+   "methods": {
+    "_close": "void",
+    "_get_available_packet_count": "int",
+    "_get_buffered_amount": "int",
+    "_get_id": "int",
+    "_get_label": "String",
+    "_get_max_packet_life_time": "int",
+    "_get_max_packet_size": "int",
+    "_get_max_retransmits": "int",
+    "_get_packet": "int",
+    "_get_protocol": "String",
+    "_get_ready_state": "int",
+    "_get_write_mode": "int",
+    "_is_negotiated": "bool",
+    "_is_ordered": "bool",
+    "_poll": "int",
+    "_put_packet": "int",
+    "_set_write_mode": "void",
+    "_was_string_packet": "bool"
+   },
+   "signals": {}
+  },
+  "WebRTCMultiplayerPeer": {
+   "constants": [],
+   "inherits": "MultiplayerPeer",
+   "members": {},
+   "methods": {
+    "add_peer": "int",
+    "create_client": "int",
+    "create_mesh": "int",
+    "create_server": "int",
+    "get_peer": "Dictionary",
+    "get_peers": "Dictionary",
+    "has_peer": "bool",
+    "remove_peer": "void"
+   },
+   "signals": {}
+  },
+  "WebRTCPeerConnection": {
+   "constants": [
+    "ConnectionState",
+    "GATHERING_STATE_COMPLETE",
+    "GATHERING_STATE_GATHERING",
+    "GATHERING_STATE_NEW",
+    "GatheringState",
+    "SIGNALING_STATE_CLOSED",
+    "SIGNALING_STATE_HAVE_LOCAL_OFFER",
+    "SIGNALING_STATE_HAVE_LOCAL_PRANSWER",
+    "SIGNALING_STATE_HAVE_REMOTE_OFFER",
+    "SIGNALING_STATE_HAVE_REMOTE_PRANSWER",
+    "SIGNALING_STATE_STABLE",
+    "STATE_CLOSED",
+    "STATE_CONNECTED",
+    "STATE_CONNECTING",
+    "STATE_DISCONNECTED",
+    "STATE_FAILED",
+    "STATE_NEW",
+    "SignalingState"
+   ],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "add_ice_candidate": "int",
+    "close": "void",
+    "create_data_channel": "WebRTCDataChannel",
+    "create_offer": "int",
+    "get_connection_state": "int",
+    "get_gathering_state": "int",
+    "get_signaling_state": "int",
+    "initialize": "int",
+    "poll": "int",
+    "set_default_extension": "void",
+    "set_local_description": "int",
+    "set_remote_description": "int"
+   },
+   "signals": {
+    "data_channel_received": 1,
+    "ice_candidate_created": 3,
+    "session_description_created": 2
+   }
+  },
+  "WebRTCPeerConnectionExtension": {
+   "constants": [],
+   "inherits": "WebRTCPeerConnection",
+   "members": {},
+   "methods": {
+    "_add_ice_candidate": "int",
+    "_close": "void",
+    "_create_data_channel": "WebRTCDataChannel",
+    "_create_offer": "int",
+    "_get_connection_state": "int",
+    "_get_gathering_state": "int",
+    "_get_signaling_state": "int",
+    "_initialize": "int",
+    "_poll": "int",
+    "_set_local_description": "int",
+    "_set_remote_description": "int"
+   },
+   "signals": {}
+  },
+  "WebSocketMultiplayerPeer": {
+   "constants": [],
+   "inherits": "MultiplayerPeer",
+   "members": {
+    "handshake_headers": "PackedStringArray",
+    "handshake_timeout": "float",
+    "inbound_buffer_size": "int",
+    "max_queued_packets": "int",
+    "outbound_buffer_size": "int",
+    "supported_protocols": "PackedStringArray"
+   },
+   "methods": {
+    "create_client": "int",
+    "create_server": "int",
+    "get_peer": "WebSocketPeer",
+    "get_peer_address": "String",
+    "get_peer_port": "int"
+   },
+   "signals": {}
+  },
+  "WebSocketPeer": {
+   "constants": [
+    "STATE_CLOSED",
+    "STATE_CLOSING",
+    "STATE_CONNECTING",
+    "STATE_OPEN",
+    "State",
+    "WRITE_MODE_BINARY",
+    "WRITE_MODE_TEXT",
+    "WriteMode"
+   ],
+   "inherits": "PacketPeer",
+   "members": {
+    "handshake_headers": "PackedStringArray",
+    "heartbeat_interval": "float",
+    "inbound_buffer_size": "int",
+    "max_queued_packets": "int",
+    "outbound_buffer_size": "int",
+    "supported_protocols": "PackedStringArray"
+   },
+   "methods": {
+    "accept_stream": "int",
+    "close": "void",
+    "connect_to_url": "int",
+    "get_close_code": "int",
+    "get_close_reason": "String",
+    "get_connected_host": "String",
+    "get_connected_port": "int",
+    "get_current_outbound_buffered_amount": "int",
+    "get_ready_state": "int",
+    "get_requested_url": "String",
+    "get_selected_protocol": "String",
+    "poll": "void",
+    "send": "int",
+    "send_text": "int",
+    "set_no_delay": "void",
+    "was_string_packet": "bool"
+   },
+   "signals": {}
+  },
+  "WebXRInterface": {
+   "constants": [
+    "TARGET_RAY_MODE_GAZE",
+    "TARGET_RAY_MODE_SCREEN",
+    "TARGET_RAY_MODE_TRACKED_POINTER",
+    "TARGET_RAY_MODE_UNKNOWN",
+    "TargetRayMode"
+   ],
+   "inherits": "XRInterface",
+   "members": {
+    "disable_webxr_layers": "bool",
+    "enabled_features": "String",
+    "optional_features": "String",
+    "reference_space_type": "String",
+    "requested_reference_space_types": "String",
+    "required_features": "String",
+    "session_mode": "String",
+    "visibility_state": "String"
+   },
+   "methods": {
+    "get_available_display_refresh_rates": "Array",
+    "get_display_refresh_rate": "float",
+    "get_input_source_target_ray_mode": "int",
+    "get_input_source_tracker": "XRControllerTracker",
+    "is_input_source_active": "bool",
+    "is_session_supported": "void",
+    "set_display_refresh_rate": "void"
+   },
+   "signals": {
+    "display_refresh_rate_changed": 0,
+    "reference_space_reset": 0,
+    "select": 1,
+    "selectend": 1,
+    "selectstart": 1,
+    "session_ended": 0,
+    "session_failed": 1,
+    "session_started": 0,
+    "session_supported": 2,
+    "squeeze": 1,
+    "squeezeend": 1,
+    "squeezestart": 1,
+    "visibility_state_changed": 0
+   }
+  },
+  "ZIPPacker": {
+   "constants": [
+    "APPEND_ADDINZIP",
+    "APPEND_CREATE",
+    "APPEND_CREATEAFTER",
+    "COMPRESSION_BEST",
+    "COMPRESSION_DEFAULT",
+    "COMPRESSION_FAST",
+    "COMPRESSION_NONE",
+    "CompressionLevel",
+    "ZipAppend"
+   ],
+   "inherits": "RefCounted",
+   "members": {
+    "compression_level": "int"
+   },
+   "methods": {
+    "add_directory": "int",
+    "close": "int",
+    "close_file": "int",
+    "open": "int",
+    "start_file": "int",
+    "write_file": "int"
+   },
+   "signals": {}
+  },
+  "ZIPReader": {
+   "constants": [],
+   "inherits": "RefCounted",
+   "members": {},
+   "methods": {
+    "close": "int",
+    "file_exists": "bool",
+    "get_compression_level": "int",
+    "get_files": "PackedStringArray",
+    "open": "int",
+    "read_file": "PackedByteArray"
+   },
+   "signals": {}
+  }
+ },
+ "godot_commit": "469659e0617345149cd1eaec2e643d61d130aa6a"
+}

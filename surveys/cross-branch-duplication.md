@@ -35,7 +35,7 @@ Godot 的脚本只能继承一个原生类。两个原生类不同的对象需�
 
 ## 方法
 
-1. **单元与逻辑行。** 单元是一个脚本类或其中的内部类，第一方共 2,989 个。`gdcorpus.py` 中的词法分析去掉注释，按括号和行尾反斜杠合并续行。以下行视为平凡，不参与检测，也不计入代码量：`pass`、`return`、`else:`、`break`、`continue`、单独的字符串、只有注解的行、`extends`、`class_name`、`class X:` 头，以及引擎虚函数的 `func _x(...):` 头。其余的行下文称为逻辑行，第一方共 163,202 行，包括测试和编辑器脚本。
+1. **单元与逻辑行。** 单元是一个脚本类或其中的内部类，第一方共 2,992 个。`gdcorpus.py` 中的词法分析去掉注释，按括号和行尾反斜杠合并续行。以下行视为平凡，不参与检测，也不计入代码量：`pass`、`return`、`else:`、`break`、`continue`、单独的字符串、只有注解的行、`extends`、`class_name`、`class X:` 头，以及引擎虚函数的 `func _x(...):` 头。其余的行下文称为逻辑行，第一方共 163,964 行，包括测试和编辑器脚本。
 2. **克隆检测**（`dup.py`）。只在同一个 Godot 项目内比较，godot-demo-projects 的 132 个项目互不比较。窗口是同一单元中连续的 K 个逻辑行（默认 K = 5），连同每行相对于窗口首行的缩进层级；两个窗口的内容相同即为一处匹配。同一对单元中相邻的匹配合并为克隆区域；同一单元内的两个窗口不能重叠。有三种比较方式：
    - **精确**：词法单元原样比较。
    - **近似**：字面量，以及本单元的局部变量名和参数名，换成占位符。
@@ -66,11 +66,11 @@ Godot 的脚本只能继承一个原生类。两个原生类不同的对象需�
 
 | | 逻辑行 | 跨分支 | 同原生类 | 同继承链 |
 |---|---:|---:|---:|---:|
-| 游戏：重复行 | 57,621 | 353 (6.1) | 1,725 (29.9) | 2,884 (50.1) |
+| 游戏：重复行 | 57,629 | 353 (6.1) | 1,725 (29.9) | 2,884 (50.1) |
 | 游戏：单元对 | | 21 / 36,232 | 115 / 8,672 | 403 / 7,993 |
 | 示例：重复行 | 16,776 | 106 (6.3) | 199 (11.9) | 0 |
 | 示例：单元对 | | 3 / 1,063 | 7 / 190 | 0 / 57 |
-| 插件与工具：重复行 | 88,805 | 1,291 (14.5) | 1,575 (17.7) | 2,449 (27.6) |
+| 插件与工具：重复行 | 89,559 | 1,291 (14.4) | 1,575 (17.6) | 2,449 (27.3) |
 | 插件与工具：单元对 | | 31 / 20,290 | 34 / 2,356 | 244 / 1,973 |
 
 - **游戏中，继承本可消除却没有消除的重复比跨分支重复多得多**：同原生类是跨分支的 4.9 倍，同继承链是 8.2 倍。按单元对算差距更大：跨分支的单元对最多，有克隆的比例最低（每千对 0.58 对，另两类为 13.3 对和 50.4 对）。
@@ -84,7 +84,7 @@ Godot 的脚本只能继承一个原生类。两个原生类不同的对象需�
 
 | 仓库 | 提交 | 逻辑行 | 跨分支 | 每千行 | 其中有名字证据 | 近似匹配 | 同原生类 | 同继承链 |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| [gdquest-demos/godot-open-rpg](https://github.com/gdquest-demos/godot-open-rpg) | `d59f2f7` | 2,190 | 0 | 0.0 | 0 | 0 | 12 | 68 |
+| [gdquest-demos/godot-open-rpg](https://github.com/gdquest-demos/godot-open-rpg) | `d59f2f7` | 2,198 | 0 | 0.0 | 0 | 0 | 12 | 68 |
 | [KenneyNL/Starter-Kit-3D-Platformer](https://github.com/KenneyNL/Starter-Kit-3D-Platformer) | `3fa8a04` | 178 | 0 | 0.0 | 0 | 0 | 0 | 0 |
 | [KenneyNL/Starter-Kit-City-Builder](https://github.com/KenneyNL/Starter-Kit-City-Builder) | `4535092` | 159 | 0 | 0.0 | 0 | 0 | 0 | 0 |
 | [KenneyNL/Starter-Kit-FPS](https://github.com/KenneyNL/Starter-Kit-FPS) | `185fd23` | 234 | 0 | 0.0 | 0 | 0 | 0 | 0 |
@@ -96,20 +96,20 @@ Godot 的脚本只能继承一个原生类。两个原生类不同的对象需�
 | [SlayHorizon/godot-tiny-mmo](https://github.com/SlayHorizon/godot-tiny-mmo) | `f4ed04f` | 28,891 | 177 | 6.1 | 40 | 492 | 261 | 911 |
 | [teeeece/godot_open_star_fighter](https://github.com/teeeece/godot_open_star_fighter) | `6e7be5c` | 1,242 | 0 | 0.0 | 0 | 0 | 14 | 12 |
 | [YYF233333/Ring](https://github.com/YYF233333/Ring) | `0ec4161` | 1,804 | 72 | 39.9 | 72 | 78 | 10 | 12 |
-| **游戏合计** | | **57,621** | **353** | **6.1** | **150** | **694** | **1,725** | **2,884** |
+| **游戏合计** | | **57,629** | **353** | **6.1** | **150** | **694** | **1,725** | **2,884** |
 | [godotengine/godot-demo-projects](https://github.com/godotengine/godot-demo-projects) | `b761b4c` | 16,776 | 106 | 6.3 | 94 | 106 | 199 | 0 |
 | [bitbrain/beehave](https://github.com/bitbrain/beehave) | `fe58915` | 5,169 | 24 | 4.6 | 24 | 24 | 348 | 419 |
 | [MikeSchulze/gdUnit4](https://github.com/MikeSchulze/gdUnit4) | `9bc1a45` | 26,384 | 0 | 0.0 | 0 | 0 | 0 | 143 |
-| [nathanhoad/godot_dialogue_manager](https://github.com/nathanhoad/godot_dialogue_manager) | `7a72dcf` | 7,377 | 58 | 7.9 | 0 | 68 | 10 | 0 |
+| [nathanhoad/godot_dialogue_manager](https://github.com/nathanhoad/godot_dialogue_manager) | `7a72dcf` | 8,079 | 58 | 7.2 | 0 | 68 | 10 | 0 |
 | [Maaack/Godot-Game-Template](https://github.com/Maaack/Godot-Game-Template) | `6849d6c` | 5,878 | 156 | 26.5 | 156 | 156 | 836 | 634 |
 | [derkork/godot-statecharts](https://github.com/derkork/godot-statecharts) | `76d226a` | 3,377 | 0 | 0.0 | 0 | 0 | 0 | 36 |
-| [ramokz/phantom-camera](https://github.com/ramokz/phantom-camera) | `21d3762` | 5,394 | 792 | 146.8 | 548 | 808 | 0 | 10 |
+| [ramokz/phantom-camera](https://github.com/ramokz/phantom-camera) | `21d3762` | 5,446 | 792 | 145.4 | 548 | 808 | 0 | 10 |
 | [Orama-Interactive/Pixelorama](https://github.com/Orama-Interactive/Pixelorama) | `38a8b03` | 35,226 | 261 | 7.4 | 163 | 259 | 381 | 1,207 |
-| **插件与工具合计** | | **88,805** | **1,291** | **14.5** | **891** | **1,315** | **1,575** | **2,449** |
+| **插件与工具合计** | | **89,559** | **1,291** | **14.4** | **891** | **1,315** | **1,575** | **2,449** |
 
-- **游戏中，12 个仓库有 7 个没有跨分支克隆**，它们都较小，合计 5,172 行。有跨分支克隆的 5 个仓库中，4 个在每千行 3.8 到 9.7 行之间，Ring 为 39.9 行。
+- **游戏中，12 个仓库有 7 个没有跨分支克隆**，它们都较小，合计 5,180 行。有跨分支克隆的 5 个仓库中，4 个在每千行 3.8 到 9.7 行之间，Ring 为 39.9 行。
 - **游戏中只有 Ring 的跨分支重复多于另两类**（72 行，另两类为 10 行和 12 行），全部来自 Brick（StaticBody2D）与 Enemy（CharacterBody2D）。这对单元的名字证据只有一条：Enemy 使用 CharacterBody2D 的 `velocity`（`breakout/scenes/enemies/base/enemy.gd:98, 186, 196`）。插件中 phantom-camera 和 godot_dialogue_manager 也是跨分支重复多于另两类。
-- **phantom-camera 每千行 146.8 行。** PhantomCamera2D 与 PhantomCamera3D、NoiseEmitter2D 与 NoiseEmitter3D 是两对 2D/3D 孪生脚本，35 个克隆组都在 Node2D 与 Node3D 之间，重复行占该仓库逻辑行的 14.7%。
+- **phantom-camera 每千行 145.4 行。** PhantomCamera2D 与 PhantomCamera3D、NoiseEmitter2D 与 NoiseEmitter3D 是两对 2D/3D 孪生脚本，35 个克隆组都在 Node2D 与 Node3D 之间，重复行占该仓库逻辑行的 14.5%。
 - **godot-tiny-mmo 的近似匹配（492 行）远多于精确匹配（177 行）。** 多出的部分主要是一个 303 行的组：26 个客户端脚本中的 38 处用代码创建容器和 TextureRect、设置主题常量的片段（`groups_near.csv`）。
 - 游戏的 23 个精确跨分支克隆组中，原生类型对最多的是 Control 与 VBoxContainer（7 组，全在 godot-tiny-mmo）和 CharacterBody2D 与 StaticBody2D（4 组，全在 Ring）。353 行中有 211 行所在的组，两个原生类一个是另一个的祖先（例如 Control 与 VBoxContainer），142 行在兄弟类之间。插件与工具的 1,291 行中，兄弟类之间有 1,183 行，主要是 Node2D 与 Node3D。
 - godot-demo-projects 的 132 个项目中，13 个有精确克隆，3 个有跨分支克隆：`2d/physics_tests`（CharacterBody2D 与 RigidBody2D 的两个控制器）、`misc/hdr_output` 和 `xr/openxr_hand_tracking_demo`。
@@ -236,7 +236,7 @@ Godot 的脚本只能继承一个原生类。两个原生类不同的对象需�
 | 8 | 148 (2.6) | 1,016 | 1,770 | 890 | 1,349 | 1,667 |
 
 - 窗口越小，各类重复越多，跨分支增加得最快：K = 3 时是 K = 5 的 2.0 倍，另两类为 1.5 倍。但三种窗口下，游戏的跨分支重复都少于另两类：同原生类是它的 3.6、4.9、6.9 倍，同继承链是 5.9、8.2、12.0 倍。
-- K = 5 时有跨分支克隆的另外 4 个游戏仓库（godot-open-rts、tanks-of-freedom-ii、deck_builder_tutorial、godot-tiny-mmo），每千行的跨分支重复在 K = 3 时为 3.8 到 22.4 行，K = 5 时为 3.8 到 9.7 行，K = 8 时为 0 到 6.0 行。Ring 为 66.5、39.9、22.2 行，phantom-camera 为 170.2、146.8、111.6 行。K = 3 时 godot-open-rpg 也出现 6 行。
+- K = 5 时有跨分支克隆的另外 4 个游戏仓库（godot-open-rts、tanks-of-freedom-ii、deck_builder_tutorial、godot-tiny-mmo），每千行的跨分支重复在 K = 3 时为 3.8 到 22.4 行，K = 5 时为 3.8 到 9.7 行，K = 8 时为 0 到 6.0 行。Ring 为 66.5、39.9、22.2 行，phantom-camera 为 168.6、145.4、110.5 行。K = 3 时 godot-open-rpg 也出现 6 行。
 - 共同能力和变通写法的统计与 K 无关。
 
 ## 典型例子
@@ -368,7 +368,7 @@ func _gather_player_sides(map_data):
 
 ## 结论
 
-- **跨分支重复确实存在，但不多，而且集中。** 游戏中每千行 6.1 行；有这类重复的 5 个游戏仓库中，4 个在 3.8 到 9.7 行之间。Ring 为 39.9 行，2D/3D 孪生插件 phantom-camera 为 146.8 行。
+- **跨分支重复确实存在，但不多，而且集中。** 游戏中每千行 6.1 行；有这类重复的 5 个游戏仓库中，4 个在 3.8 到 9.7 行之间。Ring 为 39.9 行，2D/3D 孪生插件 phantom-camera 为 145.4 行。
 - **继承本可消除却没有消除的重复要多得多。** 游戏中同原生类和同继承链的重复分别是跨分支的 4.9 倍和 8.2 倍，三种窗口下顺序不变；不过这两类主要来自 tanks-of-freedom-ii。
 - **跨分支重复主要是普通方法**，字段声明很少。复制了字段和导出属性的主要是 Ring 和 phantom-camera。
 - **按阅读判断，游戏中一半多的跨分支重复（353 行中的 185 行）可以用组合或静态辅助函数消除**，这两种机制 GDScript 已经有。接口默认方法对应 54 行；带状态的 mixin 对应 102 行，其中 72 行来自 Ring。插件与工具中带状态的 mixin 对应 948 行，其中 734 行来自 phantom-camera，而 phantom-camera 中只差向量类型的部分不在这些数字里。
@@ -388,6 +388,24 @@ func _gather_player_sides(map_data):
 - **共同能力按名字判断**，是上限，名字多为通用词。
 - **语料偏斜。** 游戏代码的 77% 来自 godot-tiny-mmo 和 tanks-of-freedom-ii，Kenney 入门模板都很小；示例由 132 个小项目组成；插件与工具中 Pixelorama 和 gdUnit4 占约 70% 的代码。
 - **只看文本场景和 GDScript。** 用代码 `add_child` 或 `set_script` 挂上的组件看不到；`.scn` 二进制场景和 C# 代码不在内。
+
+## v1 复跑修正
+
+2026-11-15 用当前词法分析器重新生成三种窗口的结果。
+多行字符串不再遮住其后的代码。
+Dialogue Manager 增加 702 行，另两个仓库增加 60 行。
+第一方逻辑行从 163,202 增至 163,964。
+Dialogue Manager 的单元内及测试重复也随之增加。
+三种窗口的跨分支重复行数均不变。
+JSON 键排序固定，同频结果按名字稳定输出。
+这些排序变化不改变计数。
+设计结论不变。
+
+CI 只检出固定提交的 `doc/classes/`。
+模块及平台类的派生元数据随脚本保存。
+其来源同为 `469659e`，不含引擎源码。
+本地可用 `GODOT_REVISION` 从 Git 对象只读重建。
+完整与稀疏输入都还原 1,112 个类。
 
 ## 复现
 
