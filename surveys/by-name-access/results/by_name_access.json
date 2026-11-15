@@ -1,0 +1,122 @@
+{
+ "Godot-Game-Template": {
+  "external_members": 384,
+  "fp_members": 1803,
+  "loc": 6762,
+  "no_pub": 395
+ },
+ "Pixelorama": {
+  "external_members": 1906,
+  "fp_members": 4866,
+  "loc": 43706,
+  "no_pub": 652
+ },
+ "Ring": {
+  "external_members": 149,
+  "fp_members": 600,
+  "loc": 2160,
+  "no_pub": 64
+ },
+ "Starter-Kit-3D-Platformer": {
+  "external_members": 2,
+  "fp_members": 63,
+  "loc": 208,
+  "no_pub": 11
+ },
+ "Starter-Kit-City-Builder": {
+  "external_members": 8,
+  "fp_members": 44,
+  "loc": 183,
+  "no_pub": 6
+ },
+ "Starter-Kit-FPS": {
+  "external_members": 18,
+  "fp_members": 82,
+  "loc": 258,
+  "no_pub": 9
+ },
+ "Starter-Kit-Racing": {
+  "external_members": 2,
+  "fp_members": 41,
+  "loc": 132,
+  "no_pub": 2
+ },
+ "beehave": {
+  "external_members": 296,
+  "fp_members": 980,
+  "loc": 5702,
+  "no_pub": 10
+ },
+ "deck_builder_tutorial": {
+  "external_members": 438,
+  "fp_members": 940,
+  "loc": 3141,
+  "no_pub": 78
+ },
+ "gdUnit4": {
+  "external_members": 2100,
+  "fp_members": 5551,
+  "loc": 36656,
+  "no_pub": 46
+ },
+ "godot-demo-projects": {
+  "external_members": 878,
+  "fp_members": 4019,
+  "loc": 19986,
+  "no_pub": 799
+ },
+ "godot-open-rpg": {
+  "external_members": 248,
+  "fp_members": 577,
+  "loc": 2734,
+  "no_pub": 75
+ },
+ "godot-open-rts": {
+  "external_members": 232,
+  "fp_members": 1184,
+  "loc": 5653,
+  "no_pub": 53
+ },
+ "godot-statecharts": {
+  "external_members": 223,
+  "fp_members": 681,
+  "loc": 3840,
+  "no_pub": 97
+ },
+ "godot-tiny-mmo": {
+  "external_members": 1769,
+  "fp_members": 5194,
+  "loc": 35096,
+  "no_pub": 358
+ },
+ "godot_dialogue_manager": {
+  "external_members": 444,
+  "fp_members": 1291,
+  "loc": 10028,
+  "no_pub": 131
+ },
+ "godot_open_star_fighter": {
+  "external_members": 133,
+  "fp_members": 416,
+  "loc": 1471,
+  "no_pub": 52
+ },
+ "phantom-camera": {
+  "external_members": 219,
+  "fp_members": 1329,
+  "loc": 6394,
+  "no_pub": 125
+ },
+ "tanks-of-freedom-ii": {
+  "external_members": 2416,
+  "fp_members": 4181,
+  "loc": 18433,
+  "no_pub": 258
+ },
+ "tps-demo": {
+  "external_members": 23,
+  "fp_members": 279,
+  "loc": 1177,
+  "no_pub": 37
+ }
+}

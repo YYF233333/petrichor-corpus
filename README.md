@@ -49,6 +49,25 @@ curl -sSfL --create-dirs -o inputs/extension_api-4-7.json https://raw.githubuser
 - a Godot source checkout at a given commit;
 - GitHub searches, whose results change over time.
 
+CI also reads Godot's class reference at `469659e0617345149cd1eaec2e643d61d130aa6a` from `inputs/godot-docs/`.
+It fetches only `doc/classes/` and supplements it with pinned, derived module metadata.
+For an existing checkout, set `GODOT_REFERENCE` to its directory and `GODOT_REVISION` to that commit.
+This reads Git objects without changing the checkout.
+
+After fetching v2, rerun every automated survey and its human subset:
+
+```
+python fetch.py v2 --jobs 4
+python rerun.py v2
+python rerun.py v2 --human-only
+```
+
+Derived outputs go to each survey's `results-v2/` and `results-v2-human/`.
+Raw extractions stay in `work/rerun/`.
+The runner refuses to overwrite differing results.
+Manual migration ledgers stay pinned to their two original projects.
+Accessor categories are reported mechanically until a new sample is reviewed.
+
 ## Method
 
 - A survey runs on a pinned corpus version. A larger corpus gets a new manifest, and the old one stays.

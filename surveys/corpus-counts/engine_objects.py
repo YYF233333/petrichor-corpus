@@ -57,7 +57,9 @@ def main():
         sys.exit(__doc__)
     calls, reads, signals, virtuals = engine_apis(sys.argv[2])
     counts = {kind: collections.Counter() for kind in ("calls", "reads", "connections", "overrides")}
+    per_repo = {}
     for name, _, _, group in G.REPOS:
+        repo_before = {kind: sum(value.values()) for kind, value in counts.items()}
         repo = G.Repo(sys.argv[1], name, group)
         for f, info in G.script_infos(repo).items():
             if not info["first_party"]:
@@ -84,6 +86,8 @@ def main():
                 for signal in SCENE_CONNECTION.findall(repo.read(scene)):
                     if signal in signals:
                         counts["connections"][signal] += 1
+        per_repo[name] = {kind: sum(value.values()) - repo_before[kind] for kind, value in counts.items()}
+    G.save_metrics("engine_objects", per_repo)
     for kind, apis in (("calls", calls), ("reads", reads), ("connections", signals), ("overrides", virtuals)):
         print(f"{kind}: {sum(counts[kind].values())}")
         for api, count in counts[kind].most_common(SHOWN):

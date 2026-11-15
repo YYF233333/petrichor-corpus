@@ -6,6 +6,8 @@ VERSION defaults to v1. Reads corpus/VERSION.json and clones into corpus/VERSION
 Re-running skips the clones already at their commit. Python 3 stdlib only; needs git on PATH.
 """
 import json
+import argparse
+import concurrent.futures
 import os
 import subprocess
 import sys
@@ -41,13 +43,22 @@ def fetch(dest, url, sha, sparse):
 
 
 def main():
-    version = sys.argv[1] if len(sys.argv) > 1 else "v1"
-    want = set(sys.argv[2:])
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("version", nargs="?", default="v1")
+    parser.add_argument("names", nargs="*")
+    parser.add_argument("--jobs", type=int, default=1)
+    args = parser.parse_args()
+    if not 1 <= args.jobs <= 8:
+        parser.error("--jobs must be between 1 and 8")
+    version, want = args.version, set(args.names)
     with open(os.path.join(ROOT, "corpus", version + ".json"), encoding="utf-8") as fh:
         manifest = json.load(fh)
-    for r in manifest["repos"]:
-        if not want or r["name"] in want:
-            fetch(os.path.join(ROOT, "corpus", version, r["name"]), r["url"], r["commit"], manifest["sparse"])
+    with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as pool:
+        futures = [pool.submit(fetch, os.path.join(ROOT, "corpus", version, r["name"]),
+                               r["url"], r["commit"], manifest["sparse"])
+                   for r in manifest["repos"] if not want or r["name"] in want]
+        for future in futures:
+            future.result()
 
 
 if __name__ == "__main__":

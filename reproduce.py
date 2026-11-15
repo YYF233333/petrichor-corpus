@@ -21,25 +21,25 @@ GODOT = os.environ.get("GODOT_REFERENCE", "inputs/godot-docs")
 # Paths are relative to the repository root; {out} is the survey's directory under work/reproduce/.
 STEPS = {
     "by-name-access": [
-        ("by-name-access/names.py", [CORPUS, API], "names.txt", [("names.txt", "by-name-access/results/names.txt")]),
+        ("by-name-access/names.py", [CORPUS, API], "names.txt", [("names.txt", "by-name-access/results/names.txt"), ("by_name_access.json", "by-name-access/results/by_name_access.json")]),
     ],
     "constant-expressions": [
         ("constant-expressions/constants.py", [CORPUS, API], "constants.txt", [("constants.txt", "constant-expressions/results/constants.txt")]),
     ],
     "corpus-counts": [
-        ("corpus-counts/counts.py", [CORPUS], "counts.txt", [("counts.txt", "corpus-counts/results/counts.txt")]),
+        ("corpus-counts/counts.py", [CORPUS, "--metrics", "{out}/metrics.json"], "counts.txt", [("counts.txt", "corpus-counts/results/counts.txt"), ("metrics.json", "corpus-counts/results/metrics.json")]),
         ("paper-migration-2/autoload_self.py", [CORPUS], "autoload_self.txt", [("autoload_self.txt", "corpus-counts/results/autoload_self.txt")]),
         ("corpus-counts/inner_classes.py", [CORPUS, API, "--samples", "0"], "inner_classes.txt", [("inner_classes.txt", "corpus-counts/results/inner_classes.txt")]),
-        ("corpus-counts/layout.py", [CORPUS], "layout.txt", [("layout.txt", "corpus-counts/results/layout.txt")]),
+        ("corpus-counts/layout.py", [CORPUS], "layout.txt", [("layout.txt", "corpus-counts/results/layout.txt"), ("layout.json", "corpus-counts/results/layout.json")]),
         ("corpus-counts/ancestor_assignments.py", [CORPUS], "ancestor_assignments.txt", [("ancestor_assignments.txt", "corpus-counts/results/ancestor_assignments.txt")]),
-        ("corpus-counts/init_params.py", [CORPUS, API], "init_params.txt", [("init_params.txt", "corpus-counts/results/init_params.txt")]),
+        ("corpus-counts/init_params.py", [CORPUS, API], "init_params.txt", [("init_params.txt", "corpus-counts/results/init_params.txt"), ("init_params.json", "corpus-counts/results/init_params.json")]),
         ("corpus-counts/class_level_access.py", [CORPUS, API], "class_level_access.txt", [("class_level_access.txt", "corpus-counts/results/class_level_access.txt")]),
         ("corpus-counts/preload_cycles.py", [CORPUS], "preload_cycles.txt", [("preload_cycles.txt", "corpus-counts/results/preload_cycles.txt")]),
         ("corpus-counts/string_index.py", [CORPUS], "string_index.txt", [("string_index.txt", "corpus-counts/results/string_index.txt")]),
         ("corpus-counts/null_failures.py", [CORPUS], "null_failures.txt", [("null_failures.txt", "corpus-counts/results/null_failures.txt")]),
         ("corpus-counts/weak_refs.py", [CORPUS], "weak_refs.txt", [("weak_refs.txt", "corpus-counts/results/weak_refs.txt")]),
         ("corpus-counts/autoload_types.py", [CORPUS], "autoload_types.txt", [("autoload_types.txt", "corpus-counts/results/autoload_types.txt")]),
-        ("corpus-counts/engine_objects.py", [CORPUS, API], "engine_objects.txt", [("engine_objects.txt", "corpus-counts/results/engine_objects.txt")]),
+        ("corpus-counts/engine_objects.py", [CORPUS, API], "engine_objects.txt", [("engine_objects.txt", "corpus-counts/results/engine_objects.txt"), ("engine_objects.json", "corpus-counts/results/engine_objects.json")]),
     ],
     "member-visibility": [
         ("cross-branch-duplication/build_api.py", [GODOT, "{out}/api.json"], None, []),
@@ -98,6 +98,7 @@ def main():
     failed = []
     for survey in want:
         out = os.path.join(OUT, survey)
+        env["SURVEY_METRICS_DIR"] = out
         shutil.rmtree(out, ignore_errors=True)
         os.makedirs(out)
         for script, args, stdout, compare in STEPS[survey]:

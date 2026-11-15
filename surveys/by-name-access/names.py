@@ -414,14 +414,19 @@ def main():
     corpus, api_path = sys.argv[1], sys.argv[2]
     engine_names, engine_members, things = load_engine(api_path)
     outs = {}
+    metrics = {}
     for label in ("all repositories", "games"):
         out = outs[label] = {"count": collections.Counter(), "examples": collections.defaultdict(list), "calls": collections.Counter(),
                              "members": collections.Counter(), "by_channel": collections.Counter(), "no_pub": set(),
                              "loc": 0, "fp_members": 0, "external_members": 0}
         for name, _, _, group in G.REPOS:
             if label == "all repositories" or group == "game":
+                before = {k: len(out[k]) if k == "no_pub" else out[k] for k in ("no_pub", "loc", "fp_members", "external_members")}
                 survey_repo(G.Repo(corpus, name, group), engine_names, engine_members, things, out)
+                if label == "all repositories":
+                    metrics[name] = {k: (len(out[k]) if k == "no_pub" else out[k]) - before[k] for k in before}
 
+    G.save_metrics("by_name_access", metrics)
     for label, out in outs.items():
         print(f"# {label}\n")
         print("## Names by channel and resolution\n")

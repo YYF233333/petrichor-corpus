@@ -49,6 +49,27 @@ curl -sSfL --create-dirs -o inputs/extension_api-4-7.json https://raw.githubuser
 - 某个提交的 Godot 源码检出；
 - GitHub 检索，其结果随时间变化。
 
+CI 还读取 Godot 固定提交 `469659e0617345149cd1eaec2e643d61d130aa6a` 的类参考。
+检出位置是 `inputs/godot-docs/`，只取 `doc/classes/`。
+固定提交的模块派生元数据补齐其余类。
+若已有检出，设置 `GODOT_REFERENCE` 指向它。
+再把 `GODOT_REVISION` 设为上述提交。
+脚本只读 Git 对象，不改检出。
+
+获取 v2 后，重跑全部自动调查和纯人写子集：
+
+```
+python fetch.py v2 --jobs 4
+python rerun.py v2
+python rerun.py v2 --human-only
+```
+
+派生结果写入各调查的 `results-v2/` 和 `results-v2-human/`。
+原始提取留在 `work/rerun/`。
+若已有结果不同，脚本拒绝覆盖。
+纸面迁移账本仍固定于原来的两个项目。
+访问器类别先给机械指标，重新阅读样本后再作判断。
+
 ## 方法
 
 - 调查在固定版本的语料上进行。扩大语料时另立新清单，旧清单保留。

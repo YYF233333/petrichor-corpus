@@ -53,7 +53,9 @@ def main():
         G.NATIVE_PARENT.update({c["name"]: c.get("inherits") for c in json.load(fh)["classes"]})
     c = collections.Counter()
     places = collections.defaultdict(list)
+    per_repo = {}
     for name, _, _, group in G.REPOS:
+        before = c.copy()
         repo = G.Repo(sys.argv[1], name, group)
         infos = {f: s for f, s in G.script_infos(repo).items() if s["first_party"]}
         tokens = {f: [t for t in G.tokenize(repo.read(f)) if t.k != "NL"] for f in infos}
@@ -77,6 +79,8 @@ def main():
             for i in range(len(ts) - 4):
                 if ts[i].k == "ID" and ts[i].v in with_params and ts[i + 1].v == "." and ts[i + 2].v == "new" and ts[i + 3].v == "(":
                     c[f"{with_params[ts[i].v]}, Name.new({'' if ts[i + 4].v == ')' else '...'})"] += 1
+        per_repo[name] = dict(c - before)
+    G.save_metrics("init_params", per_repo)
     for key in sorted(c):
         print(f"{key}: {c[key]}")
     for key in sorted(places):

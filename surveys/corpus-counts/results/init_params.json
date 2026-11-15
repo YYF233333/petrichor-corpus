@@ -1,0 +1,69 @@
+{
+ "Godot-Game-Template": {},
+ "Pixelorama": {
+  "other, Name.new()": 21,
+  "other, Name.new(...)": 92,
+  "other, all with defaults": 8,
+  "other, some required": 9
+ },
+ "Ring": {
+  "Node, some required": 1
+ },
+ "Starter-Kit-3D-Platformer": {},
+ "Starter-Kit-City-Builder": {},
+ "Starter-Kit-FPS": {},
+ "Starter-Kit-Racing": {},
+ "beehave": {
+  "Node, some required": 5,
+  "other, Name.new(...)": 2,
+  "other, all with defaults": 1
+ },
+ "deck_builder_tutorial": {},
+ "gdUnit4": {
+  "Node, Name.new(...)": 4,
+  "Node, all with defaults": 2,
+  "Node, some required": 5,
+  "Resource, Name.new(...)": 8,
+  "Resource, some required": 2,
+  "other, Name.new()": 45,
+  "other, Name.new(...)": 517,
+  "other, all with defaults": 10,
+  "other, some required": 72
+ },
+ "godot-demo-projects": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "other, Name.new(...)": 4,
+  "other, all with defaults": 1,
+  "other, some required": 3
+ },
+ "godot-open-rpg": {
+  "other, Name.new(...)": 3,
+  "other, some required": 2
+ },
+ "godot-open-rts": {
+  "Node, some required": 11
+ },
+ "godot-statecharts": {
+  "Node, some required": 2,
+  "other, all with defaults": 2
+ },
+ "godot-tiny-mmo": {
+  "other, Name.new(...)": 5,
+  "other, some required": 6
+ },
+ "godot_dialogue_manager": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "other, Name.new(...)": 22,
+  "other, all with defaults": 2,
+  "other, some required": 7
+ },
+ "godot_open_star_fighter": {},
+ "phantom-camera": {},
+ "tanks-of-freedom-ii": {
+  "other, Name.new(...)": 3,
+  "other, some required": 27
+ },
+ "tps-demo": {}
+}

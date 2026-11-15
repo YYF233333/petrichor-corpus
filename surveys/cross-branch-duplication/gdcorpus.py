@@ -32,6 +32,23 @@ def survey_repos(legacy=False):
     """Keep the original 14-repository input of the two early surveys on v1."""
     return [r for r in REPOS if not legacy or MANIFEST_DATA.get("version") != 1 or r[0] in LEGACY_REPOS]
 
+
+def save_metrics(name, repos):
+    """Optional numeric sidecar; stdout and historical result files stay unchanged."""
+    directory = os.environ.get("SURVEY_METRICS_DIR")
+    if not directory:
+        return
+    def numeric(value):
+        if isinstance(value, dict):
+            return {str(k): numeric(v) for k, v in value.items()}
+        if not isinstance(value, (int, float)):
+            raise TypeError(f"non-numeric metric in {name}: {type(value)}")
+        return value
+    os.makedirs(directory, exist_ok=True)
+    with open(os.path.join(directory, name + ".json"), "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(numeric(repos), fh, indent=1, sort_keys=True)
+        fh.write("\n")
+
 ALL = "*"
 # addons/<name>/ directories that are first-party for the repo (everything else under addons/ is vendored).
 FIRST_PARTY_ADDONS = {

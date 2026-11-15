@@ -1,0 +1,775 @@
+{
+ "Godot-Game-Template": {
+  "blank_before_top": {
+   "1": 967,
+   "2": 8
+  },
+  "blank_runs_in_code": {
+   "1": 14
+  },
+  "closing_line": {
+   "at_opener": 18
+  },
+  "code_lines": {
+   ">100": 125,
+   "all": 6687
+  },
+  "comment_gap": {
+   "1": 8,
+   "2": 8
+  },
+  "cont_list": {
+   "+1": 111
+  },
+  "cont_paren": {
+   "other": 4
+  },
+  "dict_one_line": {
+   "mixed": 2
+  },
+  "files": {
+   "all": 125,
+   "tabs": 121,
+   "unindented": 4
+  },
+  "misc": {
+   "backslash": 16,
+   "one_line_block": 66
+  }
+ },
+ "Pixelorama": {
+  "blank_before_inner": {
+   "0": 30,
+   "1": 168
+  },
+  "blank_before_top": {
+   "2": 2795
+  },
+  "blank_runs_in_code": {
+   "1": 1450
+  },
+  "closing_line": {
+   "at_opener": 1446
+  },
+  "code_lines": {
+   ">100": 18,
+   "all": 43518
+  },
+  "comment_gap": {
+   "2": 812
+  },
+  "cont_list": {
+   "+1": 2079
+  },
+  "cont_paren": {
+   "+1": 2298,
+   "+2": 28,
+   "other": 14
+  },
+  "dict_one_line": {
+   "tight": 66
+  },
+  "files": {
+   "all": 210,
+   "both": 2,
+   "tabs": 208
+  },
+  "misc": {
+   "one_line_block": 108
+  }
+ },
+ "Ring": {
+  "blank_before_top": {
+   "1": 170,
+   "2": 135,
+   "3": 4
+  },
+  "blank_runs_in_code": {
+   "1": 125,
+   "2": 2
+  },
+  "closing_line": {
+   "at_opener": 20,
+   "other": 3
+  },
+  "code_lines": {
+   ">100": 25,
+   "all": 2144
+  },
+  "comment_gap": {
+   "1": 35,
+   "2": 1
+  },
+  "cont_list": {
+   "+1": 46,
+   "other": 10
+  },
+  "cont_paren": {
+   "+1": 17
+  },
+  "files": {
+   "all": 66,
+   "tabs": 63,
+   "unindented": 3
+  },
+  "misc": {
+   "backslash": 5
+  }
+ },
+ "Starter-Kit-3D-Platformer": {
+  "blank_before_top": {
+   "1": 22,
+   "2": 2
+  },
+  "blank_runs_in_code": {
+   "1": 63
+  },
+  "code_lines": {
+   "all": 208
+  },
+  "comment_gap": {
+   "1": 12,
+   "2": 2
+  },
+  "files": {
+   "all": 9,
+   "tabs": 9
+  }
+ },
+ "Starter-Kit-City-Builder": {
+  "blank_before_top": {
+   "1": 20
+  },
+  "blank_runs_in_code": {
+   "1": 51
+  },
+  "closing_line": {
+   "at_opener": 1
+  },
+  "code_lines": {
+   ">100": 5,
+   "all": 183
+  },
+  "comment_gap": {
+   "1": 16,
+   "2": 2
+  },
+  "cont_list": {
+   "+1": 2
+  },
+  "cont_paren": {
+   "+1": 2
+  },
+  "files": {
+   "all": 6,
+   "tabs": 3,
+   "unindented": 3
+  }
+ },
+ "Starter-Kit-FPS": {
+  "blank_before_top": {
+   "1": 23,
+   "2": 3
+  },
+  "blank_runs_in_code": {
+   "1": 74
+  },
+  "code_lines": {
+   ">100": 5,
+   "all": 258
+  },
+  "comment_gap": {
+   "1": 26,
+   "2": 7
+  },
+  "files": {
+   "all": 7,
+   "tabs": 6,
+   "unindented": 1
+  },
+  "misc": {
+   "one_line_block": 2
+  }
+ },
+ "Starter-Kit-Racing": {
+  "blank_before_top": {
+   "1": 13
+  },
+  "blank_runs_in_code": {
+   "1": 43
+  },
+  "code_lines": {
+   ">100": 10,
+   "all": 132
+  },
+  "comment_gap": {
+   "1": 1
+  },
+  "files": {
+   "all": 3,
+   "tabs": 3
+  },
+  "misc": {
+   "one_line_block": 9
+  }
+ },
+ "beehave": {
+  "blank_before_inner": {
+   "0": 2
+  },
+  "blank_before_top": {
+   "1": 36,
+   "2": 479,
+   "3": 3
+  },
+  "blank_runs_in_code": {
+   "1": 884,
+   "2": 2
+  },
+  "closing_line": {
+   "at_opener": 44
+  },
+  "code_lines": {
+   ">100": 43,
+   "all": 5699
+  },
+  "comment_gap": {
+   "1": 56,
+   "2": 16,
+   "3": 3
+  },
+  "cont_list": {
+   "+1": 49
+  },
+  "cont_paren": {
+   "+1": 75,
+   "+2": 3
+  },
+  "files": {
+   "all": 95,
+   "tabs": 92,
+   "unindented": 3
+  },
+  "misc": {
+   "backslash": 4,
+   "one_line_block": 4
+  }
+ },
+ "deck_builder_tutorial": {
+  "blank_before_inner": {
+   "0": 21
+  },
+  "blank_before_top": {
+   "2": 446
+  },
+  "blank_runs_in_code": {
+   "1": 347
+  },
+  "closing_line": {
+   "at_opener": 25
+  },
+  "code_lines": {
+   ">100": 20,
+   "all": 3141
+  },
+  "comment_gap": {
+   "1": 1
+  },
+  "cont_list": {
+   "+1": 17
+  },
+  "cont_paren": {
+   "+1": 21,
+   "+2": 30,
+   "other": 6
+  },
+  "files": {
+   "all": 122,
+   "tabs": 117,
+   "unindented": 5
+  },
+  "misc": {
+   "one_line_block": 74
+  }
+ },
+ "gdUnit4": {
+  "blank_before_inner": {
+   "0": 96,
+   "1": 185,
+   "2": 38
+  },
+  "blank_before_top": {
+   "1": 97,
+   "2": 4035
+  },
+  "blank_runs_in_code": {
+   "1": 2292,
+   "2": 47
+  },
+  "closing_line": {
+   "at_opener": 697,
+   "other": 235
+  },
+  "code_lines": {
+   ">100": 1708,
+   "all": 34905
+  },
+  "comment_gap": {
+   "1": 21,
+   "2": 101
+  },
+  "cont_list": {
+   "+1": 2282,
+   "+2": 261,
+   "other": 37
+  },
+  "cont_paren": {
+   "+1": 1022,
+   "+2": 232,
+   "other": 115
+  },
+  "dict_one_line": {
+   "spaced": 268,
+   "tight": 3
+  },
+  "files": {
+   "all": 482,
+   "tabs": 460,
+   "unindented": 22
+  },
+  "misc": {
+   "backslash": 1784,
+   "one_line_block": 135
+  }
+ },
+ "godot-demo-projects": {
+  "blank_before_inner": {
+   "0": 5,
+   "1": 5,
+   "2": 8
+  },
+  "blank_before_top": {
+   "1": 217,
+   "2": 1812,
+   "3": 2
+  },
+  "blank_runs_in_code": {
+   "1": 2290,
+   "2": 14
+  },
+  "closing_line": {
+   "at_opener": 131,
+   "other": 96
+  },
+  "code_lines": {
+   ">100": 480,
+   "all": 19949
+  },
+  "comment_gap": {
+   "1": 137,
+   "2": 126
+  },
+  "cont_list": {
+   "+1": 540,
+   "+2": 92
+  },
+  "cont_paren": {
+   "+1": 15,
+   "+2": 313,
+   "other": 7
+  },
+  "dict_one_line": {
+   "spaced": 5,
+   "tight": 7
+  },
+  "files": {
+   "all": 461,
+   "both": 1,
+   "tabs": 457,
+   "unindented": 3
+  },
+  "misc": {
+   "backslash": 29,
+   "one_line_block": 65,
+   "semicolon": 6
+  }
+ },
+ "godot-open-rpg": {
+  "blank_before_inner": {
+   "0": 28
+  },
+  "blank_before_top": {
+   "1": 1,
+   "2": 253
+  },
+  "blank_runs_in_code": {
+   "1": 449,
+   "2": 4
+  },
+  "closing_line": {
+   "at_opener": 47,
+   "other": 14
+  },
+  "code_lines": {
+   ">100": 1,
+   "all": 2733
+  },
+  "comment_gap": {
+   "1": 4
+  },
+  "cont_list": {
+   "+1": 31
+  },
+  "cont_paren": {
+   "+1": 89,
+   "+2": 59,
+   "other": 27
+  },
+  "files": {
+   "all": 78,
+   "tabs": 76,
+   "unindented": 2
+  },
+  "misc": {
+   "backslash": 14,
+   "one_line_block": 16
+  }
+ },
+ "godot-open-rts": {
+  "blank_before_inner": {
+   "0": 47,
+   "1": 5
+  },
+  "blank_before_top": {
+   "2": 645
+  },
+  "blank_runs_in_code": {
+   "1": 42
+  },
+  "closing_line": {
+   "at_opener": 445
+  },
+  "code_lines": {
+   "all": 5610
+  },
+  "comment_gap": {
+   "2": 31
+  },
+  "cont_list": {
+   "+1": 319
+  },
+  "cont_paren": {
+   "+1": 640,
+   "+2": 12
+  },
+  "dict_one_line": {
+   "tight": 1
+  },
+  "files": {
+   "all": 118,
+   "tabs": 108,
+   "unindented": 10
+  },
+  "misc": {
+   "one_line_block": 1
+  }
+ },
+ "godot-statecharts": {
+  "blank_before_inner": {
+   "0": 1
+  },
+  "blank_before_top": {
+   "0": 1,
+   "1": 171,
+   "2": 219,
+   "3": 19
+  },
+  "blank_runs_in_code": {
+   "1": 711,
+   "2": 20
+  },
+  "closing_line": {
+   "at_opener": 17
+  },
+  "code_lines": {
+   ">100": 82,
+   "all": 3819
+  },
+  "comment_gap": {
+   "0": 1,
+   "1": 4,
+   "2": 4
+  },
+  "cont_list": {
+   "+1": 52
+  },
+  "cont_paren": {
+   "+1": 23,
+   "+2": 1
+  },
+  "dict_one_line": {
+   "tight": 3
+  },
+  "files": {
+   "all": 89,
+   "tabs": 88,
+   "unindented": 1
+  },
+  "misc": {
+   "backslash": 35
+  }
+ },
+ "godot-tiny-mmo": {
+  "blank_before_inner": {
+   "0": 30,
+   "1": 9,
+   "2": 13
+  },
+  "blank_before_top": {
+   "0": 5,
+   "1": 189,
+   "2": 2557,
+   "3": 4
+  },
+  "blank_runs_in_code": {
+   "1": 2360,
+   "2": 21
+  },
+  "closing_line": {
+   "at_opener": 752,
+   "other": 6
+  },
+  "code_lines": {
+   ">100": 709,
+   "all": 35065
+  },
+  "comment_gap": {
+   "0": 2,
+   "1": 329,
+   "2": 96,
+   "3": 55
+  },
+  "cont_list": {
+   "+1": 1524,
+   "+2": 1
+  },
+  "cont_paren": {
+   "+1": 1189,
+   "+2": 137,
+   "other": 29
+  },
+  "dict_one_line": {
+   "spaced": 11,
+   "tight": 877
+  },
+  "files": {
+   "all": 467,
+   "spaces": 1,
+   "tabs": 450,
+   "unindented": 16
+  },
+  "misc": {
+   "backslash": 54,
+   "one_line_block": 801
+  }
+ },
+ "godot_dialogue_manager": {
+  "blank_before_inner": {
+   "1": 3
+  },
+  "blank_before_top": {
+   "1": 3,
+   "2": 686,
+   "3": 1
+  },
+  "blank_runs_in_code": {
+   "1": 1290,
+   "2": 1
+  },
+  "closing_line": {
+   "at_opener": 170
+  },
+  "code_lines": {
+   ">100": 503,
+   "all": 10022
+  },
+  "comment_gap": {
+   "0": 3,
+   "1": 8
+  },
+  "cont_list": {
+   "+1": 602,
+   "+2": 1,
+   "other": 22
+  },
+  "cont_paren": {
+   "+1": 205,
+   "+2": 26,
+   "other": 1063
+  },
+  "dict_one_line": {
+   "spaced": 5
+  },
+  "files": {
+   "all": 79,
+   "both": 1,
+   "tabs": 76,
+   "unindented": 2
+  },
+  "misc": {
+   "backslash": 72,
+   "one_line_block": 361
+  }
+ },
+ "godot_open_star_fighter": {
+  "blank_before_top": {
+   "1": 7,
+   "2": 195,
+   "3": 6
+  },
+  "blank_runs_in_code": {
+   "1": 96
+  },
+  "closing_line": {
+   "at_opener": 29
+  },
+  "code_lines": {
+   ">100": 10,
+   "all": 1471
+  },
+  "comment_gap": {
+   "1": 12
+  },
+  "cont_list": {
+   "+1": 8,
+   "+2": 1
+  },
+  "cont_paren": {
+   "+1": 5,
+   "+2": 35,
+   "other": 6
+  },
+  "dict_one_line": {
+   "tight": 7
+  },
+  "files": {
+   "all": 40,
+   "tabs": 38,
+   "unindented": 2
+  }
+ },
+ "phantom-camera": {
+  "blank_before_top": {
+   "0": 11,
+   "1": 257,
+   "2": 387,
+   "3": 2
+  },
+  "blank_runs_in_code": {
+   "1": 587,
+   "2": 7
+  },
+  "closing_line": {
+   "at_opener": 94,
+   "other": 4
+  },
+  "code_lines": {
+   ">100": 219,
+   "all": 6394
+  },
+  "comment_gap": {
+   "0": 11,
+   "1": 91,
+   "3": 4
+  },
+  "cont_list": {
+   "+1": 122,
+   "+2": 13,
+   "other": 25
+  },
+  "cont_paren": {
+   "+1": 174,
+   "+2": 10,
+   "other": 9
+  },
+  "files": {
+   "all": 36,
+   "tabs": 34,
+   "unindented": 2
+  },
+  "misc": {
+   "backslash": 137,
+   "one_line_block": 179
+  }
+ },
+ "tanks-of-freedom-ii": {
+  "blank_before_top": {
+   "0": 7,
+   "1": 1494,
+   "2": 695,
+   "3": 5
+  },
+  "blank_runs_in_code": {
+   "1": 1902,
+   "2": 15
+  },
+  "closing_line": {
+   "at_opener": 295
+  },
+  "code_lines": {
+   ">100": 291,
+   "all": 18431
+  },
+  "comment_gap": {
+   "1": 5
+  },
+  "cont_list": {
+   "+1": 1702
+  },
+  "cont_paren": {
+   "+1": 62
+  },
+  "dict_one_line": {
+   "tight": 113
+  },
+  "files": {
+   "all": 292,
+   "spaces": 64,
+   "tabs": 219,
+   "unindented": 9
+  },
+  "misc": {
+   "one_line_block": 9
+  }
+ },
+ "tps-demo": {
+  "blank_before_top": {
+   "2": 78
+  },
+  "blank_runs_in_code": {
+   "1": 105,
+   "2": 1
+  },
+  "closing_line": {
+   "at_opener": 9
+  },
+  "code_lines": {
+   ">100": 51,
+   "all": 1177
+  },
+  "comment_gap": {
+   "1": 9,
+   "2": 1
+  },
+  "cont_list": {
+   "+1": 34
+  },
+  "cont_paren": {
+   "+2": 6
+  },
+  "files": {
+   "all": 15,
+   "tabs": 15
+  }
+ }
+}

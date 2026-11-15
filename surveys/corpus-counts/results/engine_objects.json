@@ -1,0 +1,122 @@
+{
+ "Godot-Game-Template": {
+  "calls": 274,
+  "connections": 14,
+  "overrides": 16,
+  "reads": 33
+ },
+ "Pixelorama": {
+  "calls": 1482,
+  "connections": 21,
+  "overrides": 55,
+  "reads": 264
+ },
+ "Ring": {
+  "calls": 171,
+  "connections": 4,
+  "overrides": 0,
+  "reads": 10
+ },
+ "Starter-Kit-3D-Platformer": {
+  "calls": 4,
+  "connections": 3,
+  "overrides": 0,
+  "reads": 1
+ },
+ "Starter-Kit-City-Builder": {
+  "calls": 12,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 0
+ },
+ "Starter-Kit-FPS": {
+  "calls": 14,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 1
+ },
+ "Starter-Kit-Racing": {
+  "calls": 7,
+  "connections": 2,
+  "overrides": 0,
+  "reads": 0
+ },
+ "beehave": {
+  "calls": 326,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 3
+ },
+ "deck_builder_tutorial": {
+  "calls": 159,
+  "connections": 16,
+  "overrides": 8,
+  "reads": 11
+ },
+ "gdUnit4": {
+  "calls": 921,
+  "connections": 2,
+  "overrides": 10,
+  "reads": 48
+ },
+ "godot-demo-projects": {
+  "calls": 1136,
+  "connections": 42,
+  "overrides": 99,
+  "reads": 230
+ },
+ "godot-open-rpg": {
+  "calls": 165,
+  "connections": 8,
+  "overrides": 5,
+  "reads": 19
+ },
+ "godot-open-rts": {
+  "calls": 404,
+  "connections": 3,
+  "overrides": 11,
+  "reads": 43
+ },
+ "godot-statecharts": {
+  "calls": 99,
+  "connections": 11,
+  "overrides": 7,
+  "reads": 5
+ },
+ "godot-tiny-mmo": {
+  "calls": 791,
+  "connections": 16,
+  "overrides": 15,
+  "reads": 85
+ },
+ "godot_dialogue_manager": {
+  "calls": 444,
+  "connections": 11,
+  "overrides": 12,
+  "reads": 14
+ },
+ "godot_open_star_fighter": {
+  "calls": 41,
+  "connections": 5,
+  "overrides": 5,
+  "reads": 1
+ },
+ "phantom-camera": {
+  "calls": 200,
+  "connections": 15,
+  "overrides": 12,
+  "reads": 18
+ },
+ "tanks-of-freedom-ii": {
+  "calls": 358,
+  "connections": 0,
+  "overrides": 17,
+  "reads": 21
+ },
+ "tps-demo": {
+  "calls": 156,
+  "connections": 3,
+  "overrides": 3,
+  "reads": 17
+ }
+}

@@ -156,6 +156,7 @@ def main():
         per_repo[name] = C
         for k, v in C.items():
             totals[k].update(v)
+    G.save_metrics("layout", per_repo)
     for k in sorted(totals):
         print(f"{k}: {dict(sorted(totals[k].items(), key=lambda x: str(x[0])))}")
     print()
