@@ -1,0 +1,12 @@
+get/1         1 in   1 files  game 1
+get/2         7 in   4 files  demos 1, game 4, plugin 2
+pop_back      0 in   0 files  
+pop_front     0 in   0 files  
+godot_dialogue_manager/addons/dialogue_manager/dialogue_manager.gd:966 (plugin): get/2
+godot_dialogue_manager/addons/dialogue_manager/dialogue_manager.gd:974 (plugin): get/2
+godot-demo-projects/mobile/android_iap/store.gd:161 (demos): get/2
+godot-tiny-mmo/source/client/ui/hud/status_bar.gd:99 (game): get/1
+godot-tiny-mmo/source/server/world/components/data_request_handlers/mail.list.gd:28 (game): get/2
+godot-tiny-mmo/source/server/world/components/data_request_handlers/mail.list.gd:29 (game): get/2
+godot-tiny-mmo/source/server/world/database/mail_store.gd:102 (game): get/2
+godot-tiny-mmo/source/server/world/database/mail_store.gd:104 (game): get/2
