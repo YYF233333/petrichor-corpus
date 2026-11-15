@@ -114,8 +114,10 @@ def main():
     constants = []
     for suffix in SUFFIXES:
         s = text('constant-expressions', suffix, 'constants.txt')
+        total_decls = int(re.search(r"^all \{.*'decls': (\d+)\}", s, re.M)[1])
         table = s.split('## Per repository')[1].split('## Samples')[0]
-        per = {m[1]: {'n': int(m[2])} for m in re.finditer(r'^\s+(\S+)\s+(\d+)\s+\d+\s+\d+\s+\d+\s*$', table, re.M)}
+        per = {m[1]: {'n': int(m[2])} for m in re.finditer(r'^\s*(\S+)\s+(\d+)\s+\d+\s+\d+\s+\d+\s*$', table, re.M)}
+        assert metric(per, 'n')['n'] == total_decls, (suffix, metric(per, 'n'), total_decls)
         engine = s.split('## Initializers that compute more than scalars')[1].split('## Per repository')[0]
         refs = []
         for ln in engine.splitlines():
