@@ -14,7 +14,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 
 
 def head(d):
-    r = subprocess.run(["git", "-C", d, "rev-parse", "HEAD"], capture_output=True, text=True)
+    if not os.path.isdir(os.path.join(d, ".git")):
+        return None
+    r = subprocess.run(["git", "-c", "safe.directory=" + os.path.abspath(d), "-C", d, "rev-parse", "HEAD"], capture_output=True, text=True)
     return r.stdout.strip() if r.returncode == 0 and os.path.isdir(os.path.join(d, ".git")) else None
 
 
@@ -26,10 +28,10 @@ def fetch(dest, url, sha, sparse):
 
     def git(*args):
         print("+ git", " ".join(args), flush=True)
-        subprocess.run(["git", *args], cwd=dest, check=True)
+        subprocess.run(["git", "-c", "safe.directory=" + os.path.abspath(dest), *args], cwd=dest, check=True)
 
     git("init", "-q")
-    subprocess.run(["git", "remote", "remove", "origin"], cwd=dest, capture_output=True)
+    subprocess.run(["git", "-c", "safe.directory=" + os.path.abspath(dest), "remote", "remove", "origin"], cwd=dest, capture_output=True)
     git("remote", "add", "origin", url)
     git("config", "core.longpaths", "true")
     git("sparse-checkout", "set", "--no-cone", *sparse)

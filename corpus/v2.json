@@ -17,7 +17,7 @@
   ],
   "repos": [
     {
-      "name": "JHDev2006/Super-Mario-Bros.-Remastered-Public",
+      "name": "Super-Mario-Bros.-Remastered-Public",
       "url": "https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public.git",
       "commit": "7fe1ff7340ec7fd8ace6854faa0e620dd7dba05a",
       "group": "game",
@@ -26,10 +26,11 @@
       "created": "2025-09-13",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-open-rpg",
+      "name": "godot-open-rpg",
       "url": "https://github.com/gdquest-demos/godot-open-rpg.git",
       "commit": "d59f2f71bc046ac53239a4e590861269e7100a36",
       "group": "game",
@@ -38,10 +39,11 @@
       "created": "2018-10-20",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "KsanaDock/Microverse",
+      "name": "Microverse",
       "url": "https://github.com/KsanaDock/Microverse.git",
       "commit": "7a061d41ed67825496588e39ca37b0b2b7465fb2",
       "group": "game",
@@ -50,10 +52,11 @@
       "created": "2025-10-09",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "nezvers/Godot-GameTemplate",
+      "name": "Godot-GameTemplate",
       "url": "https://github.com/nezvers/Godot-GameTemplate.git",
       "commit": "d5d8d15887423b3a8acf0502efb6271c600a80bc",
       "group": "game",
@@ -62,10 +65,13 @@
       "created": "2019-12-15",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "resource_manager"
+      ]
     },
     {
-      "name": "KenneyNL/Starter-Kit-City-Builder",
+      "name": "Starter-Kit-City-Builder",
       "url": "https://github.com/KenneyNL/Starter-Kit-City-Builder.git",
       "commit": "4535092b740b378b700efd9df9e27a631815b84a",
       "group": "game",
@@ -74,10 +80,11 @@
       "created": "2023-09-25",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "godotengine/tps-demo",
+      "name": "tps-demo",
       "url": "https://github.com/godotengine/tps-demo.git",
       "commit": "a82f15448e9b015440d3bbdf5e10801b260c4e9f",
       "group": "game",
@@ -86,10 +93,11 @@
       "created": "2018-10-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "KenneyNL/Starter-Kit-3D-Platformer",
+      "name": "Starter-Kit-3D-Platformer",
       "url": "https://github.com/KenneyNL/Starter-Kit-3D-Platformer.git",
       "commit": "3fa8a04b1c01ab23db43123d4ce814a34c3fc7f0",
       "group": "game",
@@ -98,10 +106,11 @@
       "created": "2023-09-15",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "lampe-games/godot-open-rts",
+      "name": "godot-open-rts",
       "url": "https://github.com/lampe-games/godot-open-rts.git",
       "commit": "a628ad3bb6a9a903587a181a7ee3300dbf735e81",
       "group": "game",
@@ -110,10 +119,11 @@
       "created": "2023-01-03",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-2d-space-game",
+      "name": "godot-2d-space-game",
       "url": "https://github.com/gdquest-demos/godot-2d-space-game.git",
       "commit": "661a101d9e4d35f42bca883fb4434986806cabe0",
       "group": "game",
@@ -122,10 +132,11 @@
       "created": "2020-01-31",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-4-3d-third-person-controller",
+      "name": "godot-4-3d-third-person-controller",
       "url": "https://github.com/gdquest-demos/godot-4-3d-third-person-controller.git",
       "commit": "b3bd6e81084f568be8aa44a69a0c2b1e52e806b3",
       "group": "game",
@@ -134,10 +145,11 @@
       "created": "2022-10-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Whimfoome/godot-FirstPersonStarter",
+      "name": "godot-FirstPersonStarter",
       "url": "https://github.com/Whimfoome/godot-FirstPersonStarter.git",
       "commit": "893db99a10eedadbd8189c040fb4d41fdf6ca46a",
       "group": "game",
@@ -146,10 +158,11 @@
       "created": "2019-08-08",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "KenneyNL/Starter-Kit-FPS",
+      "name": "Starter-Kit-FPS",
       "url": "https://github.com/KenneyNL/Starter-Kit-FPS.git",
       "commit": "185fd2326d74a5cf858cffc616f87cf9696f9cc0",
       "group": "game",
@@ -158,10 +171,11 @@
       "created": "2023-09-25",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Quaint-Studios/Reia",
+      "name": "Reia",
       "url": "https://github.com/Quaint-Studios/Reia.git",
       "commit": "35baf421a66eecde9de66df957a510988ee471d9",
       "group": "game",
@@ -170,10 +184,15 @@
       "created": "2019-11-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "auto_asset_sorter",
+        "map_editor",
+        "rust_binary_updater"
+      ]
     },
     {
-      "name": "ramaureirac/godot-tactical-rpg",
+      "name": "godot-tactical-rpg",
       "url": "https://github.com/ramaureirac/godot-tactical-rpg.git",
       "commit": "cfe785e5b6f88fe8b24559616dfb9a3f8b433f6e",
       "group": "game",
@@ -182,10 +201,11 @@
       "created": "2019-07-04",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "unknown-horizons/godot-port",
+      "name": "godot-port",
       "url": "https://github.com/unknown-horizons/godot-port.git",
       "commit": "fa0d5146162ae2e0bc8966a0254c6a2c4585dc54",
       "group": "game",
@@ -194,10 +214,11 @@
       "created": "2019-01-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "godot-escoria/escoria-demo-game",
+      "name": "escoria-demo-game",
       "url": "https://github.com/godot-escoria/escoria-demo-game.git",
       "commit": "92e650697717894b0aaca3a5084171047494a8e8",
       "group": "game",
@@ -206,10 +227,11 @@
       "created": "2016-08-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Zylann/voxelgame",
+      "name": "voxelgame",
       "url": "https://github.com/Zylann/voxelgame.git",
       "commit": "4cf747a8456375e527c8c976c50fb24446f9d18f",
       "group": "game",
@@ -218,10 +240,14 @@
       "created": "2016-04-27",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "zylann.debug_draw",
+        "zylann.voxel"
+      ]
     },
     {
-      "name": "SakuyaCN/TowDownGame",
+      "name": "TowDownGame",
       "url": "https://github.com/SakuyaCN/TowDownGame.git",
       "commit": "898e2b0ad74583d97b914dd1fa5493e1d887b0d4",
       "group": "game",
@@ -230,10 +256,11 @@
       "created": "2023-05-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "alfredbaudisch/GodotDynamicInventorySystem",
+      "name": "GodotDynamicInventorySystem",
       "url": "https://github.com/alfredbaudisch/GodotDynamicInventorySystem.git",
       "commit": "bd74a72e30a68865efabd69750f8ac6bdaac7d40",
       "group": "game",
@@ -242,10 +269,11 @@
       "created": "2022-04-28",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "m4ym4y/museum-of-all-things",
+      "name": "museum-of-all-things",
       "url": "https://github.com/m4ym4y/museum-of-all-things.git",
       "commit": "03cf5ff95598cdd425139f976a5a5ba1dab6aa37",
       "group": "game",
@@ -254,10 +282,11 @@
       "created": "2022-02-17",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-2d-builder",
+      "name": "godot-2d-builder",
       "url": "https://github.com/gdquest-demos/godot-2d-builder.git",
       "commit": "7a747e581e58c8d472b30e1cdb7f0d682d3dae75",
       "group": "game",
@@ -266,10 +295,11 @@
       "created": "2020-08-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "InvadingOctopus/comedot",
+      "name": "comedot",
       "url": "https://github.com/InvadingOctopus/comedot.git",
       "commit": "5a6cfce61eca87436b4ebcd635da6a86d228175e",
       "group": "game",
@@ -278,10 +308,13 @@
       "created": "2024-04-21",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "Comedot"
+      ]
     },
     {
-      "name": "notapixelstudio/starship-olympics",
+      "name": "starship-olympics",
       "url": "https://github.com/notapixelstudio/starship-olympics.git",
       "commit": "429667b873367e80c871a9a8f30f04b0b490e713",
       "group": "game",
@@ -290,10 +323,18 @@
       "created": "2018-07-08",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "AutoSignals",
+        "ECM",
+        "Scope",
+        "debugToolbox",
+        "traits",
+        "vshapes"
+      ]
     },
     {
-      "name": "TinyTakinTeller/TakinGodotTemplate",
+      "name": "TakinGodotTemplate",
       "url": "https://github.com/TinyTakinTeller/TakinGodotTemplate.git",
       "commit": "a54b519f1102935ef8d09a78fb07c4c811af9860",
       "group": "game",
@@ -302,10 +343,11 @@
       "created": "2024-11-25",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "openfw-game/OpenLiberty",
+      "name": "OpenLiberty",
       "url": "https://github.com/openfw-game/OpenLiberty.git",
       "commit": "b2fcfd2b4c7cdd8d72f066178b9310c8e3c8a5a0",
       "group": "game",
@@ -314,10 +356,11 @@
       "created": "2022-11-08",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "OpenVicProject/OpenVic",
+      "name": "OpenVic",
       "url": "https://github.com/OpenVicProject/OpenVic.git",
       "commit": "936fa940c1a8f431f993cb8182479b4840873259",
       "group": "game",
@@ -326,10 +369,13 @@
       "created": "2023-01-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "OpenVic"
+      ]
     },
     {
-      "name": "guladam/deck_builder_tutorial",
+      "name": "deck_builder_tutorial",
       "url": "https://github.com/guladam/deck_builder_tutorial.git",
       "commit": "91b408bc660e9b7389892dd4242a4d76e5bc9e77",
       "group": "game",
@@ -338,10 +384,11 @@
       "created": "2023-09-27",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "KenneyNL/Starter-Kit-Racing",
+      "name": "Starter-Kit-Racing",
       "url": "https://github.com/KenneyNL/Starter-Kit-Racing.git",
       "commit": "2f2e5f2646dda89cb21d4e8539bab60c6e955dc8",
       "group": "game",
@@ -350,10 +397,11 @@
       "created": "2026-03-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "clear-code-projects/UltimateGodotIntro2D",
+      "name": "UltimateGodotIntro2D",
       "url": "https://github.com/clear-code-projects/UltimateGodotIntro2D.git",
       "commit": "014ce52a8293010f867cb23ba3400734dc2efede",
       "group": "game",
@@ -362,10 +410,11 @@
       "created": "2023-06-21",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "P1X-in/tanks-of-freedom-ii",
+      "name": "tanks-of-freedom-ii",
       "url": "https://github.com/P1X-in/tanks-of-freedom-ii.git",
       "commit": "dbe629ea05691599dde4fd65ab9a13b78a4ccfe1",
       "group": "game",
@@ -374,10 +423,11 @@
       "created": "2019-03-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "catprisbrey/Cats-Godot4-Modular-Souls-like-Template",
+      "name": "Cats-Godot4-Modular-Souls-like-Template",
       "url": "https://github.com/catprisbrey/Cats-Godot4-Modular-Souls-like-Template.git",
       "commit": "d8bceffc5bf4afe585a3a926fd9aa60ebd26e001",
       "group": "game",
@@ -386,10 +436,11 @@
       "created": "2023-12-04",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-3-beginner-2d-platformer",
+      "name": "godot-3-beginner-2d-platformer",
       "url": "https://github.com/gdquest-demos/godot-3-beginner-2d-platformer.git",
       "commit": "ce0871640b17b108f5f37a9e52b35e66b382abde",
       "group": "game",
@@ -398,10 +449,11 @@
       "created": "2019-08-17",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "hsk-dream/PVZ-Godot-Dream",
+      "name": "PVZ-Godot-Dream",
       "url": "https://github.com/hsk-dream/PVZ-Godot-Dream.git",
       "commit": "740691cf9b0ad02c7021efa4dae2ab5f86207585",
       "group": "game",
@@ -410,10 +462,15 @@
       "created": "2025-06-18",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "R2Ga_PVZ",
+        "anim_delete_track",
+        "anim_free_common_tracks"
+      ]
     },
     {
-      "name": "lukky-nl/Pocket-Godot",
+      "name": "Pocket-Godot",
       "url": "https://github.com/lukky-nl/Pocket-Godot.git",
       "commit": "1758733d94e387e5f0434c7ee25db858812856bc",
       "group": "game",
@@ -422,10 +479,11 @@
       "created": "2024-08-28",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "spicylobstergames/shotcaller-godot",
+      "name": "shotcaller-godot",
       "url": "https://github.com/spicylobstergames/shotcaller-godot.git",
       "commit": "aad861b699ee5612924976f585de278143188c36",
       "group": "game",
@@ -434,10 +492,11 @@
       "created": "2022-01-18",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "devloglogan/MultiplayerFPSTutorial",
+      "name": "MultiplayerFPSTutorial",
       "url": "https://github.com/devloglogan/MultiplayerFPSTutorial.git",
       "commit": "ef3e702e6e97163bf4e24698cfa26049b2f5ad30",
       "group": "game",
@@ -446,10 +505,11 @@
       "created": "2023-01-26",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "SlayHorizon/godot-tiny-mmo",
+      "name": "godot-tiny-mmo",
       "url": "https://github.com/SlayHorizon/godot-tiny-mmo.git",
       "commit": "f4ed04f20963c3285117e58b1149fa1117658d3c",
       "group": "game",
@@ -458,10 +518,13 @@
       "created": "2024-08-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "tinymmo"
+      ]
     },
     {
-      "name": "DesirePathGames/Slay-The-Robot",
+      "name": "Slay-The-Robot",
       "url": "https://github.com/DesirePathGames/Slay-The-Robot.git",
       "commit": "4dac5abe0d19382f8ace2cec5ed3fd77e2a0e11d",
       "group": "game",
@@ -470,10 +533,11 @@
       "created": "2025-12-08",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "GianImpr/Castlevania-Remnants-of-Darkness",
+      "name": "Castlevania-Remnants-of-Darkness",
       "url": "https://github.com/GianImpr/Castlevania-Remnants-of-Darkness.git",
       "commit": "d77b3af1c49d3423c5caa02c469a2d57d5b0bfb3",
       "group": "game",
@@ -482,10 +546,11 @@
       "created": "2025-04-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "JHDev2006/Super-Mario-World-Remastered-Public",
+      "name": "Super-Mario-World-Remastered-Public",
       "url": "https://github.com/JHDev2006/Super-Mario-World-Remastered-Public.git",
       "commit": "4c520cf0bf5ad919991b0a84d1e30643508f0086",
       "group": "game",
@@ -494,10 +559,11 @@
       "created": "2025-02-25",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "max99x/wutw-public",
+      "name": "wutw-public",
       "url": "https://github.com/max99x/wutw-public.git",
       "commit": "95704c1c74275082d44c010bd505406e1aa27451",
       "group": "game",
@@ -508,10 +574,15 @@
       "weight": "normal",
       "exclude": [
         "wutw/Wwise/resources/wwise_ids.gd"
+      ],
+      "first_party_addons": [
+        "wutw_editor",
+        "wutw_exporter",
+        "wutw_i18n_export"
       ]
     },
     {
-      "name": "gtibo/Godot-Plush-Character",
+      "name": "Godot-Plush-Character",
       "url": "https://github.com/gtibo/Godot-Plush-Character.git",
       "commit": "1e621160f07100c6e2e7054efd54ced8bccb4803",
       "group": "game",
@@ -520,10 +591,11 @@
       "created": "2024-10-13",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "thegatesbrowser/godot-multiplayer",
+      "name": "godot-multiplayer",
       "url": "https://github.com/thegatesbrowser/godot-multiplayer.git",
       "commit": "70006c80680dbe60be8a676700db8d61df4b7c01",
       "group": "game",
@@ -532,10 +604,11 @@
       "created": "2024-03-31",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Snaiel/Godot4ThirdPersonCombatPrototype",
+      "name": "Godot4ThirdPersonCombatPrototype",
       "url": "https://github.com/Snaiel/Godot4ThirdPersonCombatPrototype.git",
       "commit": "cbfecf427f9a703ebf7e940fd067ed31a729d637",
       "group": "game",
@@ -544,10 +617,11 @@
       "created": "2023-06-23",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Praytic/youtd2",
+      "name": "youtd2",
       "url": "https://github.com/Praytic/youtd2.git",
       "commit": "d7532f35fe24d6f572348530f66f7a6421afe193",
       "group": "game",
@@ -556,10 +630,11 @@
       "created": "2022-12-04",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "GodotVR/godot-xr-template",
+      "name": "godot-xr-template",
       "url": "https://github.com/GodotVR/godot-xr-template.git",
       "commit": "7d8261cd37b07bbf28638cad39cf4b2d6cedd936",
       "group": "game",
@@ -568,10 +643,11 @@
       "created": "2023-01-28",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "dee-dee-catorce/desksaw",
+      "name": "desksaw",
       "url": "https://github.com/dee-dee-catorce/desksaw.git",
       "commit": "4555ffe190f17e545c8259059b79b4606f3a92c7",
       "group": "game",
@@ -580,10 +656,11 @@
       "created": "2026-06-09",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "TinyTakinTeller/GodotProjectZero",
+      "name": "GodotProjectZero",
       "url": "https://github.com/TinyTakinTeller/GodotProjectZero.git",
       "commit": "1ea0458cbe1b4f1bee9981491d7be6401adc3ac7",
       "group": "game",
@@ -592,10 +669,11 @@
       "created": "2024-04-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-4-2d-visual-novel",
+      "name": "godot-4-2d-visual-novel",
       "url": "https://github.com/gdquest-demos/godot-4-2d-visual-novel.git",
       "commit": "94dafe946c81d583ccf2a6fd80eccdfdc11f89e5",
       "group": "game",
@@ -604,10 +682,11 @@
       "created": "2020-12-15",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Redux-Team/Legacy_SM63Redux",
+      "name": "Legacy_SM63Redux",
       "url": "https://github.com/Redux-Team/Legacy_SM63Redux.git",
       "commit": "cde0b9e748d3c7c0827eff644120aae027dfb80c",
       "group": "game",
@@ -616,10 +695,11 @@
       "created": "2020-12-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "endlessm/threadbare",
+      "name": "threadbare",
       "url": "https://github.com/endlessm/threadbare.git",
       "commit": "9bfcd190fcf0e84c2d609c283b2e7f7c3e5ff3aa",
       "group": "game",
@@ -628,10 +708,16 @@
       "created": "2025-03-03",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "threadbare_credits",
+        "threadbare_editor",
+        "threadbare_git_describe",
+        "threadbare_project_settings"
+      ]
     },
     {
-      "name": "KenneyNL/Starter-Kit-Match-3",
+      "name": "Starter-Kit-Match-3",
       "url": "https://github.com/KenneyNL/Starter-Kit-Match-3.git",
       "commit": "4ddb3d2a50cbf247c79cafe9e7884d7d8f99c012",
       "group": "game",
@@ -640,10 +726,11 @@
       "created": "2026-03-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "stesproject/godot-2d-topdown-template",
+      "name": "godot-2d-topdown-template",
       "url": "https://github.com/stesproject/godot-2d-topdown-template.git",
       "commit": "ea95789514fe28532d4ed444bdd06a9d4cddad31",
       "group": "game",
@@ -652,10 +739,11 @@
       "created": "2024-08-21",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Techokami/SonicWorldsNext",
+      "name": "SonicWorldsNext",
       "url": "https://github.com/Techokami/SonicWorldsNext.git",
       "commit": "d2e6212eac90327bd851188e8ef244e42da5cfd3",
       "group": "game",
@@ -664,10 +752,11 @@
       "created": "2021-04-20",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "majikayogames/SimpleFPSController",
+      "name": "SimpleFPSController",
       "url": "https://github.com/majikayogames/SimpleFPSController.git",
       "commit": "da3e71e27dd401702cb65a011b017e465ec00fdd",
       "group": "game",
@@ -676,10 +765,11 @@
       "created": "2024-05-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "michaelmalaska/aarpg-tutorial",
+      "name": "aarpg-tutorial",
       "url": "https://github.com/michaelmalaska/aarpg-tutorial.git",
       "commit": "19ae32eec61cd24b143bfe05a51c77b5d5dad29d",
       "group": "game",
@@ -688,10 +778,11 @@
       "created": "2024-04-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "guladam/godot_autobattler_course",
+      "name": "godot_autobattler_course",
       "url": "https://github.com/guladam/godot_autobattler_course.git",
       "commit": "fba5dc3dea214f13f6210e4e381212d85fda6744",
       "group": "game",
@@ -700,10 +791,11 @@
       "created": "2024-08-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "jonathaneeckhout/jdungeon",
+      "name": "jdungeon",
       "url": "https://github.com/jonathaneeckhout/jdungeon.git",
       "commit": "d941345fd187e51d7d51d24027838baae3ba4b78",
       "group": "game",
@@ -712,10 +804,11 @@
       "created": "2023-09-14",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Nokorpo/LibreAim",
+      "name": "LibreAim",
       "url": "https://github.com/Nokorpo/LibreAim.git",
       "commit": "e705a92d0e759d5266da6a96740f7a2223a6b47b",
       "group": "game",
@@ -724,10 +817,11 @@
       "created": "2023-10-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Bitlytic/Strategy-GDScript",
+      "name": "Strategy-GDScript",
       "url": "https://github.com/Bitlytic/Strategy-GDScript.git",
       "commit": "0b362be9742a4d804f1b2b7348c9b107e8794bd5",
       "group": "game",
@@ -736,10 +830,11 @@
       "created": "2024-05-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "devmoreir4/godot-3d-multiplayer-template",
+      "name": "devmoreir4__godot-3d-multiplayer-template",
       "url": "https://github.com/devmoreir4/godot-3d-multiplayer-template.git",
       "commit": "51b2614fbd92e4c79a3353832256d41d79a6cf4a",
       "group": "game",
@@ -748,10 +843,11 @@
       "created": "2024-09-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Thomas-Holtvedt/opengs",
+      "name": "opengs",
       "url": "https://github.com/Thomas-Holtvedt/opengs.git",
       "commit": "06838d963cac06b4d345baa6cfe1293a1a237e88",
       "group": "game",
@@ -760,10 +856,11 @@
       "created": "2025-07-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "noidexe/top-down-action-rpg-template",
+      "name": "top-down-action-rpg-template",
       "url": "https://github.com/noidexe/top-down-action-rpg-template.git",
       "commit": "525d133e0435094979236dd66249baa18f97698a",
       "group": "game",
@@ -772,10 +869,11 @@
       "created": "2019-11-14",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "MateuSai/Godot-Roguelike-Tutorial",
+      "name": "Godot-Roguelike-Tutorial",
       "url": "https://github.com/MateuSai/Godot-Roguelike-Tutorial.git",
       "commit": "c70e30b71d4558940f78c7b7323f8978598626e3",
       "group": "game",
@@ -784,10 +882,11 @@
       "created": "2021-07-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "theshaggydev/unto-deepest-depths-prototype",
+      "name": "unto-deepest-depths-prototype",
       "url": "https://github.com/theshaggydev/unto-deepest-depths-prototype.git",
       "commit": "3874905de2a1e0c71ac2334f12fbf3b3f71896a8",
       "group": "game",
@@ -796,10 +895,11 @@
       "created": "2024-09-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "timothyqiu/godot-2d-adventure-tutorial",
+      "name": "godot-2d-adventure-tutorial",
       "url": "https://github.com/timothyqiu/godot-2d-adventure-tutorial.git",
       "commit": "0120b91e3c5e9d5df58f5918d465821ca7137c6b",
       "group": "game",
@@ -808,10 +908,11 @@
       "created": "2023-03-06",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "raffomania/knakk",
+      "name": "knakk",
       "url": "https://github.com/raffomania/knakk.git",
       "commit": "8d93a6bafded95679b64d499cd120fa81a565ec7",
       "group": "game",
@@ -820,10 +921,11 @@
       "created": "2022-10-17",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "MelanTech/Dororo",
+      "name": "Dororo",
       "url": "https://github.com/MelanTech/Dororo.git",
       "commit": "c2050bdc03d8504837f2f4062f38936507b06ea9",
       "group": "game",
@@ -832,10 +934,11 @@
       "created": "2025-05-30",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "OpenChamp/_original_client",
+      "name": "_original_client",
       "url": "https://github.com/OpenChamp/_original_client.git",
       "commit": "893d3511dbd9c6187e418f8c6102bf5047b3b4d1",
       "group": "game",
@@ -844,10 +947,13 @@
       "created": "2024-05-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "index_manager"
+      ]
     },
     {
-      "name": "Gab-ani/Godot_Universal-Controller-tutorial",
+      "name": "Godot_Universal-Controller-tutorial",
       "url": "https://github.com/Gab-ani/Godot_Universal-Controller-tutorial.git",
       "commit": "8239bc01d62ab833e730beeb91c6cfb73527a089",
       "group": "game",
@@ -856,10 +962,11 @@
       "created": "2024-04-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "moonbench/simple-godot-train",
+      "name": "simple-godot-train",
       "url": "https://github.com/moonbench/simple-godot-train.git",
       "commit": "c7dd62a8b82978e11f216e80cfb41269700af992",
       "group": "game",
@@ -868,10 +975,11 @@
       "created": "2022-10-28",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "OpMonTeam/OpMon",
+      "name": "OpMon",
       "url": "https://github.com/OpMonTeam/OpMon.git",
       "commit": "9cea69106ab6b6f876cceceec31dfdd0f9988c62",
       "group": "game",
@@ -880,10 +988,11 @@
       "created": "2020-07-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Oen44/Godot-Inventory",
+      "name": "Godot-Inventory",
       "url": "https://github.com/Oen44/Godot-Inventory.git",
       "commit": "61676d98dcf1bfd043f3df4c34347916c985cce5",
       "group": "game",
@@ -892,10 +1001,11 @@
       "created": "2018-09-28",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "quiver-dev/template-beat-em-up",
+      "name": "template-beat-em-up",
       "url": "https://github.com/quiver-dev/template-beat-em-up.git",
       "commit": "ba9542d79b013b6446af1501f74dea3fcde0dcfc",
       "group": "game",
@@ -904,10 +1014,13 @@
       "created": "2022-05-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "quiver.beat_em_up"
+      ]
     },
     {
-      "name": "GuilhermeGSousa/game-base-2D",
+      "name": "game-base-2D",
       "url": "https://github.com/GuilhermeGSousa/game-base-2D.git",
       "commit": "f8bef730de8d4f8151978031c1d73aaeddb91abb",
       "group": "game",
@@ -916,10 +1029,11 @@
       "created": "2022-10-23",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "albertok/godot-rocket-league",
+      "name": "godot-rocket-league",
       "url": "https://github.com/albertok/godot-rocket-league.git",
       "commit": "78b28ce495fae4a54be46f7983a1a006b1a15dec",
       "group": "game",
@@ -928,10 +1042,11 @@
       "created": "2025-04-26",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Freedom-Hunter/Freedom-Hunter",
+      "name": "Freedom-Hunter",
       "url": "https://github.com/Freedom-Hunter/Freedom-Hunter.git",
       "commit": "3f272795933388e837f0aec303df6f8f535bbf37",
       "group": "game",
@@ -940,10 +1055,11 @@
       "created": "2016-07-20",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "simgine/simgine",
+      "name": "simgine",
       "url": "https://github.com/simgine/simgine.git",
       "commit": "24b2d70088344e816616f8bfabd4cbeb705746d4",
       "group": "game",
@@ -952,10 +1068,11 @@
       "created": "2022-07-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "JorisAR/GDWaterKart",
+      "name": "GDWaterKart",
       "url": "https://github.com/JorisAR/GDWaterKart.git",
       "commit": "f151ebe30593b5513e816c863a6649c6692f2c5f",
       "group": "game",
@@ -964,10 +1081,11 @@
       "created": "2025-06-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "ForlornU/TopdownStarter",
+      "name": "TopdownStarter",
       "url": "https://github.com/ForlornU/TopdownStarter.git",
       "commit": "62fe950b0ea246b628a6e6f089fc1d346fd6540c",
       "group": "game",
@@ -976,10 +1094,11 @@
       "created": "2023-11-14",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "henjicc/yipiantian",
+      "name": "yipiantian",
       "url": "https://github.com/henjicc/yipiantian.git",
       "commit": "f816a91242d6bb607aeb80f1cd2c12507fee66b2",
       "group": "game",
@@ -988,10 +1107,11 @@
       "created": "2026-09-23",
       "authorship": "agent",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "chafmere/Godot4-FPS-Template",
+      "name": "Godot4-FPS-Template",
       "url": "https://github.com/chafmere/Godot4-FPS-Template.git",
       "commit": "71309293911f57b124cf1b4be751df311b20b48c",
       "group": "game",
@@ -1000,10 +1120,11 @@
       "created": "2023-05-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "antimundo/poder-solar",
+      "name": "poder-solar",
       "url": "https://github.com/antimundo/poder-solar.git",
       "commit": "d5820a1d78d63abd8dfaf39722994894b7df900a",
       "group": "game",
@@ -1012,10 +1133,11 @@
       "created": "2023-09-26",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "nikitalita/DOGWALK",
+      "name": "DOGWALK",
       "url": "https://github.com/nikitalita/DOGWALK.git",
       "commit": "34c527e59939fd40d315144aabe5127a571d8e71",
       "group": "game",
@@ -1024,10 +1146,11 @@
       "created": "2025-07-15",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "selgesel/godot4-third-person-controller",
+      "name": "godot4-third-person-controller",
       "url": "https://github.com/selgesel/godot4-third-person-controller.git",
       "commit": "c809ec20fd8170f4a81f3d8964e8a9838f8b29da",
       "group": "game",
@@ -1036,10 +1159,11 @@
       "created": "2022-09-30",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "ravimo42/malware-slayer",
+      "name": "malware-slayer",
       "url": "https://github.com/ravimo42/malware-slayer.git",
       "commit": "4f48fec1528a5d3c970bdc98004c2c734aa1f98e",
       "group": "game",
@@ -1048,10 +1172,11 @@
       "created": "2023-12-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "brannotaylor/SurvivorsClone_Complete",
+      "name": "SurvivorsClone_Complete",
       "url": "https://github.com/brannotaylor/SurvivorsClone_Complete.git",
       "commit": "965d7613bb42bfb1e872dc6518af13050b558564",
       "group": "game",
@@ -1060,10 +1185,11 @@
       "created": "2022-10-31",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "judeudumullage/Genesis",
+      "name": "Genesis",
       "url": "https://github.com/judeudumullage/Genesis.git",
       "commit": "2afb86d90ff884955d4211e988994247f2c16ffc",
       "group": "game",
@@ -1072,10 +1198,11 @@
       "created": "2025-07-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "RGonzalezTech/Friendslop-Template",
+      "name": "Friendslop-Template",
       "url": "https://github.com/RGonzalezTech/Friendslop-Template.git",
       "commit": "25787cc6bd34d230affe092cc02f00dec81210f3",
       "group": "game",
@@ -1084,10 +1211,11 @@
       "created": "2026-01-01",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Hugo-Dz/super-godot-galaxy",
+      "name": "super-godot-galaxy",
       "url": "https://github.com/Hugo-Dz/super-godot-galaxy.git",
       "commit": "cfb741eb30cadd072a8abc3d5432eaa7e0a9b1b0",
       "group": "game",
@@ -1096,10 +1224,11 @@
       "created": "2023-10-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Oplexitie/GBM2K-Framework",
+      "name": "GBM2K-Framework",
       "url": "https://github.com/Oplexitie/GBM2K-Framework.git",
       "commit": "12f67484fcabfd5de224633942f5b3635581a379",
       "group": "game",
@@ -1108,10 +1237,11 @@
       "created": "2023-10-21",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "EIRTeam/Project-Heartbeat",
+      "name": "Project-Heartbeat",
       "url": "https://github.com/EIRTeam/Project-Heartbeat.git",
       "commit": "a9c1c0243bda1c010c958f9b636eb7f09d8b7e16",
       "group": "game",
@@ -1120,10 +1250,13 @@
       "created": "2023-08-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "ph_export"
+      ]
     },
     {
-      "name": "quiver-dev/tower-defense-godot4",
+      "name": "tower-defense-godot4",
       "url": "https://github.com/quiver-dev/tower-defense-godot4.git",
       "commit": "1cbd622116dbf5acc0f284f57ece22970338afe8",
       "group": "game",
@@ -1132,10 +1265,11 @@
       "created": "2022-03-31",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "etherealxx/limbo-godot",
+      "name": "limbo-godot",
       "url": "https://github.com/etherealxx/limbo-godot.git",
       "commit": "08879ba0d53909cda47ba316e80571d236f19d3f",
       "group": "game",
@@ -1144,10 +1278,11 @@
       "created": "2024-03-02",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "EeroLai/abyssal-walker",
+      "name": "abyssal-walker",
       "url": "https://github.com/EeroLai/abyssal-walker.git",
       "commit": "ec497b3ed68a948e5991f5d0a9e87245825cf7a6",
       "group": "game",
@@ -1156,10 +1291,11 @@
       "created": "2026-02-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "andrew-wilkes/godot-chess",
+      "name": "godot-chess",
       "url": "https://github.com/andrew-wilkes/godot-chess.git",
       "commit": "e16a2423e8425f04c04807be874f54e252655fc8",
       "group": "game",
@@ -1168,10 +1304,11 @@
       "created": "2021-01-13",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "DinkeyKing/Improved-KCC",
+      "name": "Improved-KCC",
       "url": "https://github.com/DinkeyKing/Improved-KCC.git",
       "commit": "0661e04ee710c1a658b58bb9eaa870ab0c92cf7a",
       "group": "game",
@@ -1180,10 +1317,11 @@
       "created": "2024-01-03",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "BatteryAcid/godot-3d-multiplayer-template",
+      "name": "BatteryAcid__godot-3d-multiplayer-template",
       "url": "https://github.com/BatteryAcid/godot-3d-multiplayer-template.git",
       "commit": "2e274ff196e21f41b26f4b306edf63ad6eab6ec2",
       "group": "game",
@@ -1192,10 +1330,11 @@
       "created": "2024-08-27",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "EricXu1728/Godot4SourceEngineMovement",
+      "name": "Godot4SourceEngineMovement",
       "url": "https://github.com/EricXu1728/Godot4SourceEngineMovement.git",
       "commit": "d3ebc9a4c06f9b09edf49c212d52ab3019aa1091",
       "group": "game",
@@ -1204,10 +1343,11 @@
       "created": "2023-10-23",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "PotatoSackGames/PSGodotTemplateRepo",
+      "name": "PSGodotTemplateRepo",
       "url": "https://github.com/PotatoSackGames/PSGodotTemplateRepo.git",
       "commit": "cc5cccd24570a49cab107eb9f7081a4eb7cd2028",
       "group": "game",
@@ -1216,10 +1356,11 @@
       "created": "2023-05-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "kermeow/RhythiaRewrite",
+      "name": "RhythiaRewrite",
       "url": "https://github.com/kermeow/RhythiaRewrite.git",
       "commit": "e1cfba6f23975d18eb111c3c99a6687e39c4278f",
       "group": "game",
@@ -1228,10 +1369,11 @@
       "created": "2023-04-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Oplexitie/Cupcakes-Framework",
+      "name": "Cupcakes-Framework",
       "url": "https://github.com/Oplexitie/Cupcakes-Framework.git",
       "commit": "485e1ee27d7e2c151ad2d06d6232640e687dfe22",
       "group": "game",
@@ -1240,10 +1382,11 @@
       "created": "2023-09-04",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "JevonLee/Stardew",
+      "name": "Stardew",
       "url": "https://github.com/JevonLee/Stardew.git",
       "commit": "f238436b44c1a433f4d9e27c5d073637607c9107",
       "group": "game",
@@ -1252,10 +1395,11 @@
       "created": "2025-05-26",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "HarmonyHoney/CandyWrapper",
+      "name": "CandyWrapper",
       "url": "https://github.com/HarmonyHoney/CandyWrapper.git",
       "commit": "de759070ad37f4a0c28c942737f9d9927148a576",
       "group": "game",
@@ -1264,10 +1408,11 @@
       "created": "2019-11-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "uheartbeast/Galaxy-Defiance",
+      "name": "Galaxy-Defiance",
       "url": "https://github.com/uheartbeast/Galaxy-Defiance.git",
       "commit": "29b8b70a933d1f6f6301555c2ca12b3b7dac2cbc",
       "group": "game",
@@ -1276,10 +1421,11 @@
       "created": "2023-11-21",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Bitlytic/Resources-GDScript",
+      "name": "Resources-GDScript",
       "url": "https://github.com/Bitlytic/Resources-GDScript.git",
       "commit": "47525a2e3d432f0f7c53c5de5654326c080b9a53",
       "group": "game",
@@ -1288,10 +1434,11 @@
       "created": "2024-12-23",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "GodotCommunityGamesOrg/Lost-Pilot",
+      "name": "Lost-Pilot",
       "url": "https://github.com/GodotCommunityGamesOrg/Lost-Pilot.git",
       "commit": "8bc78dd3d60d910942896a4d7de199e546fafe32",
       "group": "game",
@@ -1300,10 +1447,11 @@
       "created": "2024-10-27",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "sourceofmana/sourceofmana",
+      "name": "sourceofmana",
       "url": "https://github.com/sourceofmana/sourceofmana.git",
       "commit": "50adcc7d30b5105fc8dbe4a2a2c2f1b5bbf30803",
       "group": "game",
@@ -1312,10 +1460,11 @@
       "created": "2025-04-01",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "1185724109/godot-card-game-frame",
+      "name": "godot-card-game-frame",
       "url": "https://github.com/1185724109/godot-card-game-frame.git",
       "commit": "ee4e3dd8b7f4ecd686300505b070043f1d1060ba",
       "group": "game",
@@ -1324,10 +1473,11 @@
       "created": "2025-05-13",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "SakuyaCN/Godot-2D-Action-Game",
+      "name": "Godot-2D-Action-Game",
       "url": "https://github.com/SakuyaCN/Godot-2D-Action-Game.git",
       "commit": "b597570d88511c790904b892a7e74653dc622f7f",
       "group": "game",
@@ -1336,10 +1486,11 @@
       "created": "2025-01-08",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "nicolasbize/soccer-course",
+      "name": "soccer-course",
       "url": "https://github.com/nicolasbize/soccer-course.git",
       "commit": "c28147f5e5a37e0fa9ecd3157d80352dc1109f70",
       "group": "game",
@@ -1348,10 +1499,11 @@
       "created": "2025-03-31",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "endlessm/moddable-platformer",
+      "name": "moddable-platformer",
       "url": "https://github.com/endlessm/moddable-platformer.git",
       "commit": "834b508010fe1ab7e5419010de46e4720ef67895",
       "group": "game",
@@ -1360,10 +1512,11 @@
       "created": "2024-09-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Chaduke/paddles_balls_blocks_walls",
+      "name": "paddles_balls_blocks_walls",
       "url": "https://github.com/Chaduke/paddles_balls_blocks_walls.git",
       "commit": "5448f22030e2f46fc8d231c77247c1ebe1e647a7",
       "group": "game",
@@ -1372,10 +1525,11 @@
       "created": "2024-11-15",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "apiotrowski255/age-of-war",
+      "name": "age-of-war",
       "url": "https://github.com/apiotrowski255/age-of-war.git",
       "commit": "c6f2d0f6954a5e83e28e0809115b3b3a2af04a39",
       "group": "game",
@@ -1384,10 +1538,11 @@
       "created": "2025-02-11",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "quiver-dev/tower-defense-tutorial",
+      "name": "tower-defense-tutorial",
       "url": "https://github.com/quiver-dev/tower-defense-tutorial.git",
       "commit": "9f5cc040da4eca020afd8b10afefc238dd30708d",
       "group": "game",
@@ -1396,10 +1551,11 @@
       "created": "2023-01-23",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "GabeJWJ/holoDelta",
+      "name": "holoDelta",
       "url": "https://github.com/GabeJWJ/holoDelta.git",
       "commit": "74e83d2bdbab4cb0bc33fa275f89384457ed0a99",
       "group": "game",
@@ -1408,10 +1564,11 @@
       "created": "2024-08-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "bukkbeek/GodotFPS-Template",
+      "name": "GodotFPS-Template",
       "url": "https://github.com/bukkbeek/GodotFPS-Template.git",
       "commit": "11619794d644e7933f87caa6099f3acc1f085f5d",
       "group": "game",
@@ -1420,10 +1577,11 @@
       "created": "2026-03-30",
       "authorship": "agent",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "ape1121/Godot-4-Tower-Defense-Template",
+      "name": "Godot-4-Tower-Defense-Template",
       "url": "https://github.com/ape1121/Godot-4-Tower-Defense-Template.git",
       "commit": "cfdbf5e9bf92c24561fc1ad39d8a1a390a3c5a27",
       "group": "game",
@@ -1432,10 +1590,11 @@
       "created": "2024-08-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "WCGH/FRU-Sim",
+      "name": "FRU-Sim",
       "url": "https://github.com/WCGH/FRU-Sim.git",
       "commit": "2a77c857ce1bb6eb472a59a95c7544faba01c55a",
       "group": "game",
@@ -1444,10 +1603,11 @@
       "created": "2024-12-03",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "teeeece/godot_open_star_fighter",
+      "name": "godot_open_star_fighter",
       "url": "https://github.com/teeeece/godot_open_star_fighter.git",
       "commit": "6e7be5c1371b91fb9dbd7f3c8c67f8cfc967580c",
       "group": "game",
@@ -1456,10 +1616,11 @@
       "created": "2023-05-14",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "YYF233333/Ring",
+      "name": "Ring",
       "url": "https://github.com/YYF233333/Ring.git",
       "commit": "0ec41610f25d83917e6410451ad6d796a948c766",
       "group": "game",
@@ -1468,10 +1629,11 @@
       "created": "2023-09-15",
       "authorship": "human",
       "weight": "reference",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "dialogic-godot/dialogic",
+      "name": "dialogic",
       "url": "https://github.com/dialogic-godot/dialogic.git",
       "commit": "3afc449d40ac5dda6ba397eed6a34f5a9b75c881",
       "group": "plugin",
@@ -1480,10 +1642,13 @@
       "created": "2020-06-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "dialogic"
+      ]
     },
     {
-      "name": "nathanhoad/godot_dialogue_manager",
+      "name": "godot_dialogue_manager",
       "url": "https://github.com/nathanhoad/godot_dialogue_manager.git",
       "commit": "7a72dcf64cfec8673d398606f2991d4cf81f2d11",
       "group": "plugin",
@@ -1492,10 +1657,13 @@
       "created": "2022-01-26",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "dialogue_manager"
+      ]
     },
     {
-      "name": "ramokz/phantom-camera",
+      "name": "phantom-camera",
       "url": "https://github.com/ramokz/phantom-camera.git",
       "commit": "21d3762492e2dc51b448f55438b89b3c19349f96",
       "group": "plugin",
@@ -1504,10 +1672,13 @@
       "created": "2022-10-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "phantom_camera"
+      ]
     },
     {
-      "name": "hi-godot/godot-ai",
+      "name": "godot-ai",
       "url": "https://github.com/hi-godot/godot-ai.git",
       "commit": "643c64f3edf984a9668b3043f4d20ebb2bbec6b6",
       "group": "plugin",
@@ -1516,10 +1687,13 @@
       "created": "2026-04-12",
       "authorship": "agent",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot_ai"
+      ]
     },
     {
-      "name": "bitbrain/beehave",
+      "name": "beehave",
       "url": "https://github.com/bitbrain/beehave.git",
       "commit": "fe589153fa780a3f88989578ceb5f539afffb7c2",
       "group": "plugin",
@@ -1528,10 +1702,13 @@
       "created": "2022-05-02",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "beehave"
+      ]
     },
     {
-      "name": "HungryProton/scatter",
+      "name": "scatter",
       "url": "https://github.com/HungryProton/scatter.git",
       "commit": "7198cc00078ebde61307578137c3f35223c6e438",
       "group": "plugin",
@@ -1540,10 +1717,13 @@
       "created": "2019-08-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "proton_scatter"
+      ]
     },
     {
-      "name": "bitwes/Gut",
+      "name": "Gut",
       "url": "https://github.com/bitwes/Gut.git",
       "commit": "cf45f668709d988346e766afee916d4169a9283b",
       "group": "plugin",
@@ -1552,10 +1732,13 @@
       "created": "2016-08-20",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "gut"
+      ]
     },
     {
-      "name": "Zylann/godot_heightmap_plugin",
+      "name": "godot_heightmap_plugin",
       "url": "https://github.com/Zylann/godot_heightmap_plugin.git",
       "commit": "49887ff956f02263d9013006fa1994d34643a199",
       "group": "plugin",
@@ -1564,10 +1747,13 @@
       "created": "2018-02-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "zylann.hterrain"
+      ]
     },
     {
-      "name": "SirRamEsq/SmartShape2D",
+      "name": "SmartShape2D",
       "url": "https://github.com/SirRamEsq/SmartShape2D.git",
       "commit": "9617190250d017529519ef3a6af279ea96a42efd",
       "group": "plugin",
@@ -1576,10 +1762,13 @@
       "created": "2018-12-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "rmsmartshape"
+      ]
     },
     {
-      "name": "Maaack/Godot-Game-Template",
+      "name": "Godot-Game-Template",
       "url": "https://github.com/Maaack/Godot-Game-Template.git",
       "commit": "6849d6c352dafe8ed54b5fa4f4b9774adfca31c8",
       "group": "plugin",
@@ -1588,10 +1777,17 @@
       "created": "2022-09-05",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "maaacks_game_template",
+        "maaacks_music_controller",
+        "maaacks_scene_loader",
+        "maaacks_ui_sound_controller",
+        "plugin_updater"
+      ]
     },
     {
-      "name": "gaea-godot/gaea",
+      "name": "gaea",
       "url": "https://github.com/gaea-godot/gaea.git",
       "commit": "79461f6491e796bc50939babceb14d34f019a588",
       "group": "plugin",
@@ -1600,10 +1796,14 @@
       "created": "2023-07-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "gaea",
+        "gaea_documentation_toolkit"
+      ]
     },
     {
-      "name": "blackears/cyclopsLevelBuilder",
+      "name": "cyclopsLevelBuilder",
       "url": "https://github.com/blackears/cyclopsLevelBuilder.git",
       "commit": "ea41feaab5ddf38cfbd9e1e27e0cc22d10bad0f2",
       "group": "plugin",
@@ -1612,10 +1812,13 @@
       "created": "2023-03-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "cyclops_level_builder"
+      ]
     },
     {
-      "name": "derkork/godot-statecharts",
+      "name": "godot-statecharts",
       "url": "https://github.com/derkork/godot-statecharts.git",
       "commit": "76d226a3efac66a72aea825382b320c94808f409",
       "group": "plugin",
@@ -1624,10 +1827,13 @@
       "created": "2023-03-08",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot_state_charts"
+      ]
     },
     {
-      "name": "KoBeWi/Metroidvania-System",
+      "name": "Metroidvania-System",
       "url": "https://github.com/KoBeWi/Metroidvania-System.git",
       "commit": "0065ae8974291d1c4dfe72f55cfca0f37e3d6ef3",
       "group": "plugin",
@@ -1636,10 +1842,13 @@
       "created": "2022-10-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "MetroidvaniaSystem"
+      ]
     },
     {
-      "name": "GDQuest/godot-steering-ai-framework",
+      "name": "godot-steering-ai-framework",
       "url": "https://github.com/GDQuest/godot-steering-ai-framework.git",
       "commit": "9d7cf0deff805d8f2a5316c33f3c85cffa3376a7",
       "group": "plugin",
@@ -1648,10 +1857,13 @@
       "created": "2019-12-06",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "com.gdquest.godot-steering-ai-framework"
+      ]
     },
     {
-      "name": "Ark2000/PankuConsole",
+      "name": "PankuConsole",
       "url": "https://github.com/Ark2000/PankuConsole.git",
       "commit": "863324dfb752cc19a0520d759ee2007259b8417f",
       "group": "plugin",
@@ -1660,10 +1872,13 @@
       "created": "2022-11-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "panku_console"
+      ]
     },
     {
-      "name": "viniciusgerevini/godot-aseprite-wizard",
+      "name": "godot-aseprite-wizard",
       "url": "https://github.com/viniciusgerevini/godot-aseprite-wizard.git",
       "commit": "eede800f161bbadc10d01a736421c9efbfee9757",
       "group": "plugin",
@@ -1672,10 +1887,13 @@
       "created": "2020-09-02",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "AsepriteWizard"
+      ]
     },
     {
-      "name": "cherriesandmochi/gdmaim",
+      "name": "gdmaim",
       "url": "https://github.com/cherriesandmochi/gdmaim.git",
       "commit": "634cada3c2b5c4a4d350bd6a8e7486981da95932",
       "group": "plugin",
@@ -1684,10 +1902,13 @@
       "created": "2024-01-25",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "gdmaim"
+      ]
     },
     {
-      "name": "dreadpon/godot_spatial_gardener",
+      "name": "godot_spatial_gardener",
       "url": "https://github.com/dreadpon/godot_spatial_gardener.git",
       "commit": "77b822f50ded7211f91c0f0588d7b7c8bedac5f6",
       "group": "plugin",
@@ -1696,10 +1917,13 @@
       "created": "2022-06-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "dreadpon.spatial_gardener"
+      ]
     },
     {
-      "name": "pablogila/TileMapDual",
+      "name": "TileMapDual",
       "url": "https://github.com/pablogila/TileMapDual.git",
       "commit": "b4dc7750035432fc7ec76076589bed34721cb147",
       "group": "plugin",
@@ -1708,10 +1932,13 @@
       "created": "2024-08-27",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "TileMapDual"
+      ]
     },
     {
-      "name": "godot-gdunit-labs/gdUnit4",
+      "name": "gdUnit4",
       "url": "https://github.com/godot-gdunit-labs/gdUnit4.git",
       "commit": "9bc1a450682c9c0d337e1b8977535f0a710385e1",
       "group": "plugin",
@@ -1720,10 +1947,13 @@
       "created": "2022-10-05",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "gdUnit4"
+      ]
     },
     {
-      "name": "TheDuckCow/godot-road-generator",
+      "name": "godot-road-generator",
       "url": "https://github.com/TheDuckCow/godot-road-generator.git",
       "commit": "7cbefde04e57a84499c5d8ba636c9cb4fd7d22c0",
       "group": "plugin",
@@ -1732,10 +1962,13 @@
       "created": "2022-10-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "road-generator"
+      ]
     },
     {
-      "name": "arkology/ShaderV",
+      "name": "ShaderV",
       "url": "https://github.com/arkology/ShaderV.git",
       "commit": "b99ad61d4ab8b6b7e4ed90243990afb150015f97",
       "group": "plugin",
@@ -1744,10 +1977,13 @@
       "created": "2019-11-01",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "shaderV"
+      ]
     },
     {
-      "name": "jotson/ridiculous_coding",
+      "name": "ridiculous_coding",
       "url": "https://github.com/jotson/ridiculous_coding.git",
       "commit": "6ead7f02e64e607cf91a770f46d5130b093f78ca",
       "group": "plugin",
@@ -1756,10 +1992,13 @@
       "created": "2020-08-15",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "ridiculous_coding"
+      ]
     },
     {
-      "name": "foxssake/netfox",
+      "name": "netfox",
       "url": "https://github.com/foxssake/netfox.git",
       "commit": "a482c9752ab6b630f6ed8991ac0da5427ff39795",
       "group": "plugin",
@@ -1768,10 +2007,16 @@
       "created": "2023-07-29",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "netfox",
+        "netfox.extras",
+        "netfox.internals",
+        "netfox.noray"
+      ]
     },
     {
-      "name": "bitbrain/pandora",
+      "name": "pandora",
       "url": "https://github.com/bitbrain/pandora.git",
       "commit": "fa48e30e6609ecd6dbd9edf25e0a26f64deb26a0",
       "group": "plugin",
@@ -1780,10 +2025,13 @@
       "created": "2023-03-20",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "pandora"
+      ]
     },
     {
-      "name": "nathanhoad/godot_input_helper",
+      "name": "godot_input_helper",
       "url": "https://github.com/nathanhoad/godot_input_helper.git",
       "commit": "ccfad58f7eea997e3d4f0903dcac9212da2b2208",
       "group": "plugin",
@@ -1792,10 +2040,13 @@
       "created": "2021-11-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "input_helper"
+      ]
     },
     {
-      "name": "Maran23/script-ide",
+      "name": "script-ide",
       "url": "https://github.com/Maran23/script-ide.git",
       "commit": "c1dfb1f0b94ec72c27166e4871b3f8f9b7c68ecb",
       "group": "plugin",
@@ -1804,10 +2055,13 @@
       "created": "2023-09-30",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "script-ide"
+      ]
     },
     {
-      "name": "don-tnowe/godot-resources-as-sheets-plugin",
+      "name": "godot-resources-as-sheets-plugin",
       "url": "https://github.com/don-tnowe/godot-resources-as-sheets-plugin.git",
       "commit": "f6e56453fe48d52b6e14dd069e9414b44112f743",
       "group": "plugin",
@@ -1816,10 +2070,13 @@
       "created": "2022-09-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "resources_spreadsheet_view"
+      ]
     },
     {
-      "name": "peter-kish/gloot",
+      "name": "gloot",
       "url": "https://github.com/peter-kish/gloot.git",
       "commit": "6b09b87ac07a8536779ef1ab0fafc7e99830f948",
       "group": "plugin",
@@ -1828,10 +2085,13 @@
       "created": "2022-06-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "gloot"
+      ]
     },
     {
-      "name": "MarcoFazioRandom/Virtual-Joystick-Godot",
+      "name": "Virtual-Joystick-Godot",
       "url": "https://github.com/MarcoFazioRandom/Virtual-Joystick-Godot.git",
       "commit": "b90891ee990881757105883677adbb619f4c319c",
       "group": "plugin",
@@ -1840,10 +2100,13 @@
       "created": "2019-06-01",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "virtual_joystick"
+      ]
     },
     {
-      "name": "V-Sekai/unidot_importer",
+      "name": "unidot_importer",
       "url": "https://github.com/V-Sekai/unidot_importer.git",
       "commit": "9719eaa2c5ac10c6444800913a06f28934f4dc34",
       "group": "plugin",
@@ -1852,10 +2115,11 @@
       "created": "2021-03-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "TokisanGames/Sky3D",
+      "name": "Sky3D",
       "url": "https://github.com/TokisanGames/Sky3D.git",
       "commit": "81f95aba9693dba805590618c661a51cf524fd91",
       "group": "plugin",
@@ -1864,10 +2128,13 @@
       "created": "2023-12-02",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "sky_3d"
+      ]
     },
     {
-      "name": "func-godot/func_godot_plugin",
+      "name": "func_godot_plugin",
       "url": "https://github.com/func-godot/func_godot_plugin.git",
       "commit": "352f3d3083f1fb9142cfaf1db07ca60a95aed9aa",
       "group": "plugin",
@@ -1876,10 +2143,13 @@
       "created": "2023-12-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "func_godot"
+      ]
     },
     {
-      "name": "yurineko73/Godot-MCP-Native",
+      "name": "Godot-MCP-Native",
       "url": "https://github.com/yurineko73/Godot-MCP-Native.git",
       "commit": "eef4807190e7765e69d59c9e707d0ba170f6770d",
       "group": "plugin",
@@ -1888,10 +2158,13 @@
       "created": "2026-05-04",
       "authorship": "agent",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot_mcp"
+      ]
     },
     {
-      "name": "nathanhoad/godot_sound_manager",
+      "name": "godot_sound_manager",
       "url": "https://github.com/nathanhoad/godot_sound_manager.git",
       "commit": "1c041582db806a0d0edad77111d1fb7a009346ef",
       "group": "plugin",
@@ -1900,10 +2173,13 @@
       "created": "2021-10-09",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "sound_manager"
+      ]
     },
     {
-      "name": "fenix-hub/godot-engine.easy-charts",
+      "name": "godot-engine.easy-charts",
       "url": "https://github.com/fenix-hub/godot-engine.easy-charts.git",
       "commit": "860b256ce980202c4f852da321438bdf9467d54a",
       "group": "plugin",
@@ -1912,10 +2188,13 @@
       "created": "2020-05-13",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "easy_charts"
+      ]
     },
     {
-      "name": "heroiclabs/nakama-godot",
+      "name": "nakama-godot",
       "url": "https://github.com/heroiclabs/nakama-godot.git",
       "commit": "6dc7b3951d98cc3807cafb3f1dbc9b44d9b98d21",
       "group": "plugin",
@@ -1928,10 +2207,13 @@
         "addons/com.heroiclabs.nakama/api/NakamaAPI.gd",
         "addons/com.heroiclabs.nakama/api/NakamaRTAPI.gd",
         "addons/com.heroiclabs.nakama/Satori/SatoriAPI.gd"
+      ],
+      "first_party_addons": [
+        "com.heroiclabs.nakama"
       ]
     },
     {
-      "name": "anthonyec/godot_little_camera_preview",
+      "name": "godot_little_camera_preview",
       "url": "https://github.com/anthonyec/godot_little_camera_preview.git",
       "commit": "1c4fd4d262e51916ade453484586ea5a4cd289fb",
       "group": "plugin",
@@ -1940,10 +2222,13 @@
       "created": "2024-01-03",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "anthonyec.camera_preview"
+      ]
     },
     {
-      "name": "ceceppa/anima",
+      "name": "anima",
       "url": "https://github.com/ceceppa/anima.git",
       "commit": "f4a454ebd4d58f8d7b38fa580c603a0bfa2aac80",
       "group": "plugin",
@@ -1952,10 +2237,13 @@
       "created": "2021-01-12",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "anima"
+      ]
     },
     {
-      "name": "QodotPlugin/Qodot",
+      "name": "Qodot",
       "url": "https://github.com/QodotPlugin/Qodot.git",
       "commit": "1f03de456d769e519716d8c2c6caa9d9ba892b01",
       "group": "plugin",
@@ -1964,10 +2252,13 @@
       "created": "2023-01-20",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "qodot"
+      ]
     },
     {
-      "name": "Portponky/better-terrain",
+      "name": "better-terrain",
       "url": "https://github.com/Portponky/better-terrain.git",
       "commit": "e93040e1cdd9dba0117c87f8f6b2883c83872d5d",
       "group": "plugin",
@@ -1976,10 +2267,13 @@
       "created": "2022-10-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "better-terrain"
+      ]
     },
     {
-      "name": "GodotVR/godot-xr-tools",
+      "name": "godot-xr-tools",
       "url": "https://github.com/GodotVR/godot-xr-tools.git",
       "commit": "6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60",
       "group": "plugin",
@@ -1988,10 +2282,13 @@
       "created": "2018-05-04",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot-xr-tools"
+      ]
     },
     {
-      "name": "OctoD/godot-gameplay-systems",
+      "name": "godot-gameplay-systems",
       "url": "https://github.com/OctoD/godot-gameplay-systems.git",
       "commit": "9349931cc7a5f3cb748c7f820b4073f2e31fc981",
       "group": "plugin",
@@ -2000,10 +2297,13 @@
       "created": "2021-01-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot_gameplay_systems"
+      ]
     },
     {
-      "name": "GodotModding/godot-mod-loader",
+      "name": "godot-mod-loader",
       "url": "https://github.com/GodotModding/godot-mod-loader.git",
       "commit": "2fbf7b0671aec9e1999617055e40c275214d3ae9",
       "group": "plugin",
@@ -2012,10 +2312,13 @@
       "created": "2022-12-27",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "mod_loader"
+      ]
     },
     {
-      "name": "Ericdowney/SignalVisualizer",
+      "name": "SignalVisualizer",
       "url": "https://github.com/Ericdowney/SignalVisualizer.git",
       "commit": "06a46e553897cfdcf44cfcb148aa3ce8e6796edb",
       "group": "plugin",
@@ -2024,10 +2327,13 @@
       "created": "2023-08-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "SignalVisualizer"
+      ]
     },
     {
-      "name": "GodotNuts/GodotFirebase",
+      "name": "GodotFirebase",
       "url": "https://github.com/GodotNuts/GodotFirebase.git",
       "commit": "68be88690f8afd1be505f17e16af685bf33572b9",
       "group": "plugin",
@@ -2036,10 +2342,13 @@
       "created": "2019-02-07",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot-firebase"
+      ]
     },
     {
-      "name": "ThePat02/BehaviourToolkit",
+      "name": "BehaviourToolkit",
       "url": "https://github.com/ThePat02/BehaviourToolkit.git",
       "commit": "8c8164c19c63377d8decb1c369dc0c47c418e756",
       "group": "plugin",
@@ -2048,10 +2357,13 @@
       "created": "2023-10-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "behaviour_toolkit"
+      ]
     },
     {
-      "name": "imjp94/gd-YAFSM",
+      "name": "gd-YAFSM",
       "url": "https://github.com/imjp94/gd-YAFSM.git",
       "commit": "a4241b10b47512b0c542fc22c94855e3f9f69017",
       "group": "plugin",
@@ -2060,10 +2372,13 @@
       "created": "2020-10-24",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "imjp94.yafsm"
+      ]
     },
     {
-      "name": "godot-extended-libraries/godot-debug-menu",
+      "name": "godot-debug-menu",
       "url": "https://github.com/godot-extended-libraries/godot-debug-menu.git",
       "commit": "ff124615a7da981722b3927343b9965a6a156718",
       "group": "plugin",
@@ -2072,10 +2387,13 @@
       "created": "2023-05-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "debug_menu"
+      ]
     },
     {
-      "name": "glass-brick/Scene-Manager",
+      "name": "Scene-Manager",
       "url": "https://github.com/glass-brick/Scene-Manager.git",
       "commit": "bf3b1feff0e32421df43d6a7ac12e2cc69007171",
       "group": "plugin",
@@ -2084,10 +2402,13 @@
       "created": "2021-06-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "scene_manager"
+      ]
     },
     {
-      "name": "poingstudios/godot-admob-plugin",
+      "name": "godot-admob-plugin",
       "url": "https://github.com/poingstudios/godot-admob-plugin.git",
       "commit": "4dc91441c4baa185a237a6b9156fb8ffff9a7524",
       "group": "plugin",
@@ -2096,10 +2417,13 @@
       "created": "2021-01-09",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "admob"
+      ]
     },
     {
-      "name": "ToumaKamijou/Yugens-Terrain-Authoring-Toolkit",
+      "name": "Yugens-Terrain-Authoring-Toolkit",
       "url": "https://github.com/ToumaKamijou/Yugens-Terrain-Authoring-Toolkit.git",
       "commit": "428f7ef22bff58000e9c4733a0ed92cbfbfcf9c6",
       "group": "plugin",
@@ -2108,10 +2432,13 @@
       "created": "2026-01-11",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "MarchingSquaresTerrain"
+      ]
     },
     {
-      "name": "youichi-uda/godot-mcp-pro",
+      "name": "godot-mcp-pro",
       "url": "https://github.com/youichi-uda/godot-mcp-pro.git",
       "commit": "0f0274ef419da24d8ac868279cfdf53b1fce3a12",
       "group": "plugin",
@@ -2120,10 +2447,13 @@
       "created": "2026-02-24",
       "authorship": "agent",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "godot_mcp"
+      ]
     },
     {
-      "name": "Orama-Interactive/Pixelorama",
+      "name": "Pixelorama",
       "url": "https://github.com/Orama-Interactive/Pixelorama.git",
       "commit": "38a8b03eafc56a2815c42ff53ef3f61db7cf432b",
       "group": "tool",
@@ -2132,10 +2462,13 @@
       "created": "2019-08-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "keychain"
+      ]
     },
     {
-      "name": "mbrlabs/Lorien",
+      "name": "Lorien",
       "url": "https://github.com/mbrlabs/Lorien.git",
       "commit": "17e32227dfce5477292d9f0a55d6cb07d37a2bb1",
       "group": "tool",
@@ -2144,10 +2477,11 @@
       "created": "2021-05-05",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "RodZill4/material-maker",
+      "name": "material-maker",
       "url": "https://github.com/RodZill4/material-maker.git",
       "commit": "7d6daae3c74c09720afe4138ce09699ab3591ce1",
       "group": "tool",
@@ -2156,10 +2490,13 @@
       "created": "2018-07-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "material_maker"
+      ]
     },
     {
-      "name": "j-p-higgins/SoundThread",
+      "name": "SoundThread",
       "url": "https://github.com/j-p-higgins/SoundThread.git",
       "commit": "a33198a84fa44d8ddc1ea7469653cbe0906eb3c5",
       "group": "tool",
@@ -2168,10 +2505,11 @@
       "created": "2025-05-06",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "GDQuest/learn-gdscript",
+      "name": "learn-gdscript",
       "url": "https://github.com/GDQuest/learn-gdscript.git",
       "commit": "b2c86f09f5814973566ad0d9b58fda4c728d4cdc",
       "group": "tool",
@@ -2180,10 +2518,11 @@
       "created": "2021-05-10",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "MewPurPur/GodSVG",
+      "name": "GodSVG",
       "url": "https://github.com/MewPurPur/GodSVG.git",
       "commit": "52ad7944fcf981e80aee50b97022617a8b898905",
       "group": "tool",
@@ -2192,10 +2531,11 @@
       "created": "2023-06-17",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "protongraph/protongraph",
+      "name": "protongraph",
       "url": "https://github.com/protongraph/protongraph.git",
       "commit": "1e2411a29464a704cbaae761aaeba441ede4d124",
       "group": "tool",
@@ -2204,10 +2544,11 @@
       "created": "2020-01-21",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Deep-Fold/PixelPlanets",
+      "name": "PixelPlanets",
       "url": "https://github.com/Deep-Fold/PixelPlanets.git",
       "commit": "8ec6ee305527946ae415f4e7875587c974add273",
       "group": "tool",
@@ -2216,10 +2557,11 @@
       "created": "2020-11-14",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "mhgolkar/Arrow",
+      "name": "Arrow",
       "url": "https://github.com/mhgolkar/Arrow.git",
       "commit": "5c0291c72e0fe1c1ac3024cb68826caa213532ee",
       "group": "tool",
@@ -2228,10 +2570,11 @@
       "created": "2021-03-06",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "popcar2/GodotOS",
+      "name": "GodotOS",
       "url": "https://github.com/popcar2/GodotOS.git",
       "commit": "90c94c0a13edf6a4102d546d91450645ce678f84",
       "group": "tool",
@@ -2240,10 +2583,11 @@
       "created": "2023-10-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "mirror-engine/the-mirror",
+      "name": "the-mirror",
       "url": "https://github.com/mirror-engine/the-mirror.git",
       "commit": "ea32c76d2c551f8cb2d390d5c7c0e233569c75d1",
       "group": "tool",
@@ -2252,10 +2596,11 @@
       "created": "2024-02-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "ShadowBlip/OpenGamepadUI",
+      "name": "OpenGamepadUI",
       "url": "https://github.com/ShadowBlip/OpenGamepadUI.git",
       "commit": "a79179dc5bc737b3ccaf2b7f66bd67d76f615e4c",
       "group": "tool",
@@ -2264,10 +2609,11 @@
       "created": "2022-11-19",
       "authorship": "mixed",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Open-Industry-Project/Open-Industry-Project-Godot",
+      "name": "Open-Industry-Project-Godot",
       "url": "https://github.com/Open-Industry-Project/Open-Industry-Project-Godot.git",
       "commit": "117dfd9785397faf885e243ae52800841240ea2d",
       "group": "tool",
@@ -2276,10 +2622,24 @@
       "created": "2023-02-13",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "agv_gizmo",
+        "conveyor_gizmo",
+        "dock_door_tool",
+        "editor-pilot-mode",
+        "gantry_gizmo",
+        "oip_comms",
+        "oip_ui",
+        "opc_ua_browser",
+        "robot_gizmo",
+        "scene_interop",
+        "st_editor",
+        "tag_groups"
+      ]
     },
     {
-      "name": "YuriSizov/boscaceoil-blue",
+      "name": "boscaceoil-blue",
       "url": "https://github.com/YuriSizov/boscaceoil-blue.git",
       "commit": "4b6b5c6c3f73a663dcce078b260fab4901c7ae82",
       "group": "tool",
@@ -2288,10 +2648,13 @@
       "created": "2024-04-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "bosca_exports"
+      ]
     },
     {
-      "name": "MakovWait/godots",
+      "name": "godots",
       "url": "https://github.com/MakovWait/godots.git",
       "commit": "8e4eb2baa0503c39acf4e7dcfa001c778719b01f",
       "group": "tool",
@@ -2300,10 +2663,13 @@
       "created": "2023-07-02",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "use-context"
+      ]
     },
     {
-      "name": "virtual-puppet-project/vpuppr",
+      "name": "vpuppr",
       "url": "https://github.com/virtual-puppet-project/vpuppr.git",
       "commit": "d244408afcb18ba46f45823fe67608ccabb91ba1",
       "group": "tool",
@@ -2312,10 +2678,11 @@
       "created": "2021-01-22",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "bukkbeek/GodotPixelRenderer",
+      "name": "GodotPixelRenderer",
       "url": "https://github.com/bukkbeek/GodotPixelRenderer.git",
       "commit": "078f2078fb9eb22b0f7d0dbd64d24a3638050c5b",
       "group": "tool",
@@ -2327,10 +2694,11 @@
       "exclude": [
         "PixelRenderer/data/scripts/builtin_color_presets.gd",
         "PixelRenderer/data/scripts/builtin_presets.gd"
-      ]
+      ],
+      "first_party_addons": []
     },
     {
-      "name": "barcoderdev/unitypackage_godot",
+      "name": "unitypackage_godot",
       "url": "https://github.com/barcoderdev/unitypackage_godot.git",
       "commit": "63ca781aff8ff3ab94c32f7f114fea6249e07f2b",
       "group": "tool",
@@ -2339,10 +2707,11 @@
       "created": "2023-05-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "godotengine/godot-demo-projects",
+      "name": "godot-demo-projects",
       "url": "https://github.com/godotengine/godot-demo-projects.git",
       "commit": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
       "group": "demo",
@@ -2351,10 +2720,11 @@
       "created": "2016-06-03",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-4-procedural-generation",
+      "name": "godot-4-procedural-generation",
       "url": "https://github.com/gdquest-demos/godot-4-procedural-generation.git",
       "commit": "19c98cee16ed18e642b3ce178f4c649d56b334b2",
       "group": "demo",
@@ -2363,10 +2733,11 @@
       "created": "2020-06-02",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "gdquest-demos/godot-visual-effects",
+      "name": "godot-visual-effects",
       "url": "https://github.com/gdquest-demos/godot-visual-effects.git",
       "commit": "647a8f1bcecd0b8634f2abe045abb8433b3b3149",
       "group": "demo",
@@ -2375,10 +2746,14 @@
       "created": "2020-04-23",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": [
+        "debug_node_groups",
+        "node-essential-helpers"
+      ]
     },
     {
-      "name": "godot-fun/godot-start",
+      "name": "godot-start",
       "url": "https://github.com/godot-fun/godot-start.git",
       "commit": "115fc06e42f34109b7a0db34e930933c803d8838",
       "group": "demo",
@@ -2387,10 +2762,11 @@
       "created": "2021-09-12",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "MrEliptik/godot_experiments",
+      "name": "godot_experiments",
       "url": "https://github.com/MrEliptik/godot_experiments.git",
       "commit": "4baec7290110ec2e0241daa3739154d5b14c8b59",
       "group": "demo",
@@ -2399,10 +2775,11 @@
       "created": "2020-04-16",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "Miziziziz/MizGodotTools",
+      "name": "MizGodotTools",
       "url": "https://github.com/Miziziziz/MizGodotTools.git",
       "commit": "cb548f9035a3b892e34aebbadcb923e68327f2f8",
       "group": "demo",
@@ -2411,10 +2788,11 @@
       "created": "2025-04-18",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     },
     {
-      "name": "MrEliptik/godot_ui_components",
+      "name": "godot_ui_components",
       "url": "https://github.com/MrEliptik/godot_ui_components.git",
       "commit": "22d2355690612978e58df559ddd4b6ba50c6887c",
       "group": "demo",
@@ -2423,7 +2801,8 @@
       "created": "2023-08-19",
       "authorship": "human",
       "weight": "normal",
-      "exclude": []
+      "exclude": [],
+      "first_party_addons": []
     }
   ]
 }

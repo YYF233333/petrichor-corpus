@@ -990,6 +990,7 @@ def write(rows, eligible):
 
     sel = [r for r in rows.values() if r.get("selected")]
     sel.sort(key=lambda r: (["game", "plugin", "tool", "demo"].index(r["group"]), -r["m"]["stargazerCount"], r["m"]["createdAt"]))
+    names = collections.Counter(r["m"]["nameWithOwner"].split("/")[-1].lower() for r in sel)
     manifest = {
         "version": 2,
         "line_cap": LINE_CAP,
@@ -997,7 +998,9 @@ def write(rows, eligible):
         "sparse": V1_DATA["sparse"],
         "repos": [
             {
-                "name": r["m"]["nameWithOwner"],
+                "name": (r["m"]["nameWithOwner"].replace("/", "__")
+                         if names[r["m"]["nameWithOwner"].split("/")[-1].lower()] > 1
+                         else r["m"]["nameWithOwner"].split("/")[-1]),
                 "url": r["m"]["url"] + ".git",
                 "commit": r["commit"],
                 "group": r["group"],
@@ -1007,6 +1010,7 @@ def write(rows, eligible):
                 "authorship": r.get("authorship", ""),
                 "weight": r["weight"],
                 "exclude": (r.get("label") or {}).get("generated", []),
+                "first_party_addons": r["a"]["fp_addons"],
             }
             for r in sel
         ],
