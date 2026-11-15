@@ -296,6 +296,14 @@ class Repo:
         self.roots = roots
         self.projects = {r: Project(self, r) for r in roots}
         self.metadata = REPO_METADATA.get(name, {})
+        self.old_projects = set()
+        if MANIFEST_DATA.get("version", 1) >= 2:
+            for root in roots:
+                project = (root + "/" if root else "") + "project.godot"
+                if project in self.fileset:
+                    version = re.search(r"(?m)^config_version\s*=\s*(\d+)", self.read(project))
+                    if version is None or int(version.group(1)) != 5:
+                        self.old_projects.add(root)
         self._sample = None
         cap = MANIFEST_DATA.get("line_cap")
         if cap is not None:
@@ -330,6 +338,8 @@ class Repo:
                for pat in self.metadata.get("exclude", ())):
             return False
         proj = self.project_of(rel)
+        if proj.root in self.old_projects:
+            return False
         sub = rel[len(proj.root) + 1:] if proj.root else rel
         parts = sub.split("/")
         if "addons" in parts:

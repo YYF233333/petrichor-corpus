@@ -65,6 +65,7 @@ STEPS = {
     "property-accessors": [
         ("property-accessors/extract.py", [CORPUS, "{out}"], "extraction.txt", [("extraction.txt", "property-accessors/results/extraction.txt")]),
         ("property-accessors/count.py", ["{out}"], "report.txt", [("report.txt", "property-accessors/results/report.txt")]),
+        ("property-accessors/automatic.py", ["{out}"], "automatic.json", [("automatic.json", "property-accessors/results/automatic.json")]),
     ],
     "implementation-coverage": [
         ("implementation-coverage/coverage.py", [CORPUS, API], "coverage.txt", [("coverage.txt", "implementation-coverage/results/coverage.txt")]),

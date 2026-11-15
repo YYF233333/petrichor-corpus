@@ -39,8 +39,6 @@ def steps(survey):
         if script.endswith('/ring_check.py'):
             continue  # Ring is a reference, outside the headline corpus.
         if script == 'property-accessors/count.py':
-            result.append(('property-accessors/automatic.py', ['{out}'], 'automatic.json',
-                           [('automatic.json', 'property-accessors/results/automatic.json')]))
             continue
         args = list(args)
         if script == 'corpus-counts/counts.py' and '--metrics' not in args:

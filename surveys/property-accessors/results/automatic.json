@@ -1,0 +1,162 @@
+{
+ "all": {
+  "await_ready_setters": 25,
+  "await_setters": 30,
+  "exported": 318,
+  "exported_setters_with_guard_syntax": 63,
+  "exported_setters_with_touches": 116,
+  "getters": 251,
+  "lines": 158522,
+  "nontrivial_field_getters": 16,
+  "nontrivial_other_getters": 40,
+  "properties": 589,
+  "setters": 557,
+  "trivial_getters": 195
+ },
+ "method": "automatic; no manual getter, setter or guard verdicts",
+ "repos": {
+  "Godot-Game-Template": {
+   "await_ready_setters": 0,
+   "await_setters": 0,
+   "exported": 26,
+   "exported_setters_with_guard_syntax": 14,
+   "exported_setters_with_touches": 16,
+   "getters": 0,
+   "lines": 5128,
+   "properties": 28,
+   "setters": 28
+  },
+  "Pixelorama": {
+   "await_ready_setters": 1,
+   "await_setters": 6,
+   "exported": 49,
+   "exported_setters_with_guard_syntax": 0,
+   "exported_setters_with_touches": 41,
+   "getters": 17,
+   "lines": 54782,
+   "nontrivial_field_getters": 10,
+   "nontrivial_other_getters": 6,
+   "properties": 194,
+   "setters": 181,
+   "trivial_getters": 1
+  },
+  "Starter-Kit-3D-Platformer": {
+   "lines": 378,
+   "properties": 0
+  },
+  "Starter-Kit-City-Builder": {
+   "lines": 311,
+   "properties": 0
+  },
+  "Starter-Kit-FPS": {
+   "lines": 451,
+   "properties": 0
+  },
+  "Starter-Kit-Racing": {
+   "lines": 258,
+   "properties": 0
+  },
+  "beehave": {
+   "await_ready_setters": 0,
+   "await_setters": 0,
+   "exported": 17,
+   "exported_setters_with_guard_syntax": 9,
+   "exported_setters_with_touches": 13,
+   "getters": 4,
+   "lines": 4469,
+   "nontrivial_field_getters": 1,
+   "nontrivial_other_getters": 2,
+   "properties": 23,
+   "setters": 21,
+   "trivial_getters": 1
+  },
+  "gdUnit4": {
+   "await_ready_setters": 0,
+   "await_setters": 0,
+   "exported": 0,
+   "getters": 18,
+   "lines": 27406,
+   "nontrivial_field_getters": 4,
+   "nontrivial_other_getters": 3,
+   "properties": 18,
+   "setters": 8,
+   "trivial_getters": 11
+  },
+  "godot-demo-projects": {
+   "await_ready_setters": 0,
+   "await_setters": 0,
+   "exported": 27,
+   "exported_setters_with_guard_syntax": 13,
+   "exported_setters_with_touches": 15,
+   "getters": 3,
+   "lines": 30819,
+   "nontrivial_field_getters": 0,
+   "nontrivial_other_getters": 2,
+   "properties": 39,
+   "setters": 39,
+   "trivial_getters": 1
+  },
+  "godot-open-rpg": {
+   "await_ready_setters": 20,
+   "await_setters": 20,
+   "exported": 30,
+   "exported_setters_with_guard_syntax": 12,
+   "exported_setters_with_touches": 13,
+   "getters": 0,
+   "lines": 5422,
+   "properties": 59,
+   "setters": 59
+  },
+  "godot-statecharts": {
+   "await_ready_setters": 0,
+   "await_setters": 0,
+   "exported": 9,
+   "exported_setters_with_guard_syntax": 1,
+   "exported_setters_with_touches": 1,
+   "getters": 5,
+   "lines": 4635,
+   "nontrivial_field_getters": 0,
+   "nontrivial_other_getters": 4,
+   "properties": 16,
+   "setters": 13,
+   "trivial_getters": 1
+  },
+  "godot_dialogue_manager": {
+   "await_ready_setters": 1,
+   "await_setters": 1,
+   "exported": 4,
+   "getters": 29,
+   "lines": 12434,
+   "nontrivial_field_getters": 0,
+   "nontrivial_other_getters": 1,
+   "properties": 29,
+   "setters": 29,
+   "trivial_getters": 28
+  },
+  "phantom-camera": {
+   "await_ready_setters": 3,
+   "await_setters": 3,
+   "exported": 154,
+   "exported_setters_with_guard_syntax": 13,
+   "exported_setters_with_touches": 15,
+   "getters": 175,
+   "lines": 10410,
+   "nontrivial_field_getters": 1,
+   "nontrivial_other_getters": 22,
+   "properties": 181,
+   "setters": 177,
+   "trivial_getters": 152
+  },
+  "tps-demo": {
+   "await_ready_setters": 0,
+   "await_setters": 0,
+   "exported": 2,
+   "exported_setters_with_guard_syntax": 1,
+   "exported_setters_with_touches": 2,
+   "getters": 0,
+   "lines": 1619,
+   "properties": 2,
+   "setters": 2
+  }
+ }
+}

@@ -6,6 +6,7 @@ The field-use split is a syntactic indicator, not a b/c classification.
 import collections
 import json
 import os
+import re
 import sys
 
 
@@ -22,7 +23,9 @@ def counts(props):
                 result['nontrivial_field_getters'] += bool(g.get('uses_field'))
                 result['nontrivial_other_getters'] += not g.get('uses_field')
         if s:
-            result['await_setters'] += any('await' in stmt.split() for stmt in s.get('stmts', []))
+            result['await_setters'] += any(re.search(r'\bawait\b', stmt) for stmt in s.get('stmts', []))
+            result['await_ready_setters'] += any(re.search(r'\bawait\s+(?:self\.)?ready\b', stmt)
+                                                 for stmt in s.get('stmts', []))
             if p['export'] and s.get('touches'):
                 result['exported_setters_with_touches'] += 1
                 result['exported_setters_with_guard_syntax'] += bool(s.get('guards'))

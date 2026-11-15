@@ -60,6 +60,16 @@ class ManifestRules(unittest.TestCase):
         self.assertIsNone(repo._sample)
         self.assertTrue(repo.first_party('main.gd'))
 
+    def test_v2_excludes_old_projects_but_keeps_unhosted_plugins(self):
+        self.write('project.godot', 'config_version=5\n')
+        self.write('main.gd', 'extends Node\n')
+        self.write('old/project.godot', 'config_version=4\n')
+        self.write('old/main.gd', 'extends Spatial\n')
+        with patch.object(G, 'MANIFEST_DATA', {'version': 2}):
+            repo = G.Repo(self.root, 'sample', 'game')
+        self.assertTrue(repo.first_party('main.gd'))
+        self.assertFalse(repo.first_party('old/main.gd'))
+
     def test_reference_and_human_filters(self):
         manifest = self.root / 'manifest.json'
         repos = [{'name': n, 'url': 'https://example.test/' + n, 'commit': 'a' * 40, 'group': 'game',

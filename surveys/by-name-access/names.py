@@ -217,6 +217,8 @@ def survey_repo(R, engine_names, engine_members, things, out):
     decls = {f: declarations(toks[f]) for f in scripts}
 
     def ancestors(f):
+        if f not in scripts:
+            return []
         res, cur = [], scripts[f]["base_script"]
         while cur and cur not in res:
             res.append(cur)
@@ -265,6 +267,8 @@ def survey_repo(R, engine_names, engine_members, things, out):
             return "dynamic", None
         head = name.split(":")[0]
         if on_script is not None:
+            if on_script not in scripts:
+                return "unknown", None
             g = declaring(on_script, head)
             if g:
                 return "script", g
