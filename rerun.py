@@ -4,7 +4,7 @@
 
 Raw extractions stay under work/rerun/. Only derived results go to results-v2/
 (results-v2-human/ for the human subset). Existing differing results are refused.
-Saved .txt reports strip trailing ASCII spaces and tabs; numeric content stays intact.
+Saved outputs use LF; .txt reports strip trailing ASCII spaces and tabs.
 GODOT_REFERENCE selects the pinned class-reference directory, as in reproduce.py.
 """
 import argparse
@@ -61,7 +61,8 @@ def publish(pairs, suffix):
         if Path(src).suffix == '.txt':
             # Formatting belongs to the new-version runner, not the v1 comparator.
             data = Path(src).read_bytes().replace(b'\r\n', b'\n')
-            Path(src).write_bytes(b'\n'.join(line.rstrip(b' \t') for line in data.split(b'\n')))
+            clean = b'\n'.join(line.rstrip(b' \t') for line in data.split(b'\n')).rstrip(b'\n')
+            Path(src).write_bytes(clean + b'\n' if clean else b'')
         original = Path(committed)
         # out_k3 and out_k8 become subdirectories of the new results directory.
         part = original.parts[1]
@@ -76,7 +77,7 @@ def publish(pairs, suffix):
             raise RuntimeError(f'{dest} differs; investigate before updating it. New output: {src}')
     for dest, src in destinations.items():
         dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(Path(src).read_bytes())
+        dest.write_bytes(R.read(src))
 
 
 def run(version, manifest, corpus, want, human=False, save=True):
