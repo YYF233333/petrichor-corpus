@@ -18,6 +18,13 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 def head(d):
     if not os.path.isdir(os.path.join(d, ".git")):
         return None
+    try:
+        with open(os.path.join(d, ".git", "HEAD"), encoding="ascii") as fh:
+            detached = fh.read().strip()
+        if len(detached) == 40 and all(c in "0123456789abcdef" for c in detached):
+            return detached
+    except OSError:
+        pass
     r = subprocess.run(["git", "-c", "safe.directory=" + os.path.abspath(d), "-C", d, "rev-parse", "HEAD"], capture_output=True, text=True)
     return r.stdout.strip() if r.returncode == 0 and os.path.isdir(os.path.join(d, ".git")) else None
 

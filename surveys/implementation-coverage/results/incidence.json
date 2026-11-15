@@ -1,0 +1,140 @@
+{
+ "Godot-Game-Template": {
+  "bare_files": 8,
+  "bare_uses": 22,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "Pixelorama": {
+  "bare_files": 31,
+  "bare_uses": 59,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 8
+ },
+ "Ring": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 12
+ },
+ "Starter-Kit-3D-Platformer": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Starter-Kit-City-Builder": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Starter-Kit-FPS": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Starter-Kit-Racing": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "beehave": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "deck_builder_tutorial": {
+  "bare_files": 2,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "gdUnit4": {
+  "bare_files": 31,
+  "bare_uses": 35,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "godot-demo-projects": {
+  "bare_files": 19,
+  "bare_uses": 32,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "godot-open-rpg": {
+  "bare_files": 6,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 7
+ },
+ "godot-open-rts": {
+  "bare_files": 3,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-statecharts": {
+  "bare_files": 3,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-tiny-mmo": {
+  "bare_files": 21,
+  "bare_uses": 33,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 12
+ },
+ "godot_dialogue_manager": {
+  "bare_files": 3,
+  "bare_uses": 6,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "godot_open_star_fighter": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "phantom-camera": {
+  "bare_files": 6,
+  "bare_uses": 14,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 7
+ },
+ "tanks-of-freedom-ii": {
+  "bare_files": 4,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 23
+ },
+ "tps-demo": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ }
+}

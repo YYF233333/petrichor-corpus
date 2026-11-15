@@ -87,7 +87,7 @@ def main():
                     target, via = cname[root][t.v], "class_name"
                 if target is None and (root, t.v) in autoload:
                     target, via = autoload[(root, t.v)], "autoload"
-                if target is None or target == f:
+                if target not in decls or target == f:
                     continue
                 kind = decls[target].get(ts[i + 2].v)
                 if kind is None:

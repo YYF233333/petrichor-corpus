@@ -16,6 +16,7 @@ def main():
         selected = [f for f in files if repo.first_party(f)]
         record = {'repo': name, 'url': url, 'commit': commit, 'group': group,
                   'authorship': repo.metadata.get('authorship'),
+                  'excluded_legacy_projects': sorted(repo.old_projects),
                   'eligible_files': len(files), 'eligible_lines': sum(lengths.values()),
                   'selected_files': len(selected), 'selected_lines': sum(lengths[f] for f in selected),
                   'files': selected}

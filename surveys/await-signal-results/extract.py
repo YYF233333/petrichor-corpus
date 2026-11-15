@@ -780,11 +780,7 @@ def project_roots(path):
 
 
 def commit_of(path):
-    try:
-        return subprocess.run(['git', '-C', path, 'rev-parse', '--short=7', 'HEAD'], capture_output=True,
-                              text=True, check=True).stdout.strip()
-    except (OSError, subprocess.CalledProcessError):
-        return '?'
+    return (G.git_head(path) or '?')[:7]
 
 
 def category(repo, rel):

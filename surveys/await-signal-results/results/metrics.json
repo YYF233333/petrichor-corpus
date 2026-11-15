@@ -1,0 +1,70 @@
+{
+ "all": {
+  "awaits": 1356,
+  "multi_signal_awaits": 1,
+  "signal_awaits": 447,
+  "used_multi_results": 1,
+  "used_signal_results": 14,
+  "used_zero_results": 1
+ },
+ "repos": {
+  "Godot-Game-Template": {
+   "awaits": 51,
+   "signal_awaits": 43,
+   "used_signal_results": 0
+  },
+  "Pixelorama": {
+   "awaits": 83,
+   "signal_awaits": 78,
+   "used_signal_results": 0
+  },
+  "Starter-Kit-3D-Platformer": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "beehave": {
+   "awaits": 28,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "gdUnit4": {
+   "awaits": 586,
+   "signal_awaits": 102,
+   "used_signal_results": 7,
+   "used_zero_results": 1
+  },
+  "godot-demo-projects": {
+   "awaits": 171,
+   "signal_awaits": 74,
+   "used_signal_results": 2
+  },
+  "godot-open-rpg": {
+   "awaits": 111,
+   "signal_awaits": 94,
+   "used_signal_results": 2
+  },
+  "godot-statecharts": {
+   "awaits": 70,
+   "signal_awaits": 16,
+   "used_signal_results": 0
+  },
+  "godot_dialogue_manager": {
+   "awaits": 240,
+   "multi_signal_awaits": 1,
+   "signal_awaits": 23,
+   "used_multi_results": 1,
+   "used_signal_results": 3
+  },
+  "phantom-camera": {
+   "awaits": 7,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "tps-demo": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  }
+ }
+}

@@ -4,6 +4,7 @@
 
 Raw extractions stay under work/rerun/. Only derived results go to results-v2/
 (results-v2-human/ for the human subset). Existing differing results are refused.
+Saved .txt reports strip trailing ASCII spaces and tabs; numeric content stays intact.
 GODOT_REFERENCE selects the pinned class-reference directory, as in reproduce.py.
 """
 import argparse
@@ -57,6 +58,10 @@ def steps(survey):
 def publish(pairs, suffix):
     destinations = {}
     for src, committed in pairs:
+        if Path(src).suffix == '.txt':
+            # Formatting belongs to the new-version runner, not the v1 comparator.
+            data = Path(src).read_bytes().replace(b'\r\n', b'\n')
+            Path(src).write_bytes(b'\n'.join(line.rstrip(b' \t') for line in data.split(b'\n')))
         original = Path(committed)
         # out_k3 and out_k8 become subdirectories of the new results directory.
         part = original.parts[1]

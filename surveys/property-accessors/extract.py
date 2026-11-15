@@ -22,7 +22,6 @@ Godot 3 `setget` is reported separately.
 import json
 import os
 import re
-import subprocess
 import sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "cross-branch-duplication"))
 import gdcorpus as G
@@ -552,11 +551,7 @@ def mark_overrides(repo_dir, records):
 
 
 def commit_of(path):
-    try:
-        return subprocess.run(['git', '-C', path, 'rev-parse', '--short=7', 'HEAD'],
-                              capture_output=True, text=True, check=True).stdout.strip()
-    except (OSError, subprocess.CalledProcessError):
-        return '?'
+    return (G.git_head(path) or '?')[:7]
 
 
 def main():

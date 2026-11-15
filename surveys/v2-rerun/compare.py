@@ -8,8 +8,19 @@ import collections
 import json
 from pathlib import Path
 import re
+import sys
 
 ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / 'surveys/corpus-counts'))
+import counts as C
+
+TITLES = ['null', '前缀!与not', 'Autoload.x = self登记', '@abstract', '剩余参数', '含await的lambda',
+          'lambda命名、默认值与捕获', '协程方法作为实参', 'assert及消息', 'is_instance_valid',
+          '静态变量与初始化', 'PREDELETE', '线程与线程池', 'create_timer参数', 'parent与owner',
+          '自身free、换脚本及queue_free', 'pop_at/back/front', '_get与_set', '普通引号跨行', '@tool',
+          'preload脚本与类级用法', 'enum用法', '内部类', '排版主要指标', '给下方节点成员赋值',
+          '跨文件类级访问', '_init参数', '新增关键字作名字', '加载依赖环', 'String下标赋值候选',
+          '###文档候选', '失败可查询的API', '弱引用', 'autoload名作类型', '对象边界API']
 
 
 def load(path):
@@ -34,7 +45,23 @@ def parse_counts(suffix):
     row(2, [('!', 'bang'), ('not', 'not')])
     lines = (base / 'autoload_self.txt').read_text(encoding='utf-8').splitlines()
     counts = collections.Counter(ln.split('/')[0] for ln in lines if '/' in ln and not ln.startswith('total '))
-    rows[3] = {'登记': statistic({r: {'n': n} for r, n in counts.items()}, 'n')}
+    direct = collections.Counter()
+    corpus = ROOT / 'corpus' / ('v1' if suffix == 'results' else 'v2')
+    for line in lines:
+        match = re.match(r'([^/]+)/(.+?):(\d+) ', line)
+        if not match:
+            continue
+        name, path, number = match.groups()
+        tokens = [t for t in C.G.tokenize((corpus / name / path).read_text(encoding='utf-8', errors='replace')) if t.k != 'NL']
+        ready = []
+        for index, token in enumerate(tokens[:-1]):
+            if token.v == 'func' and tokens[index + 1].v == '_ready':
+                start, end = C.func_body(tokens, index)
+                if start < end:
+                    ready.append((tokens[start].line, tokens[end - 1].line))
+        direct[name] += any(start <= int(number) <= end for start, end in ready)
+    rows[3] = {'登记候选': statistic({r: {'n': n} for r, n in counts.items()}, 'n'),
+               '词法位于_ready': statistic({r: {'n': n} for r, n in direct.items()}, 'n')}
     row(4, [('类', 'abstract_class'), ('方法', 'abstract_func')])
     row(5, [('剩余参数', 'rest')])
     row(6, [('lambda', 'lambda'), ('含await', 'lambda_await')])
@@ -75,6 +102,11 @@ def parse_counts(suffix):
         for key in ('static method', 'enum, constant or inner class as a type', 'in a constant expression'):
             hit = re.search(re.escape(key) + r' (\d+)', m[4]); classes[m[1]][key] = int(hit[1]) if hit else 0
     rows[26] = {label: statistic(classes, key) for label, key in [('受影响类', 'breaking'), ('静态调用', 'static method'), ('作类型', 'enum, constant or inner class as a type'), ('常量表达式', 'in a constant expression')]}
+    metadata = load(ROOT / 'corpus' / ('v1.json' if suffix == 'results' else 'v2.json'))
+    games = {r['name'] for r in metadata['repos'] if r['group'] == 'game'}
+    game_classes = {name: value for name, value in classes.items() if name in games}
+    rows[26]['游戏受影响类'] = statistic(game_classes, 'breaking')
+    rows[26]['游戏具名类'] = statistic(game_classes, 'classes')
     init = load(base / 'init_params.json')
     rows[27] = {'Node': statistic(init, ['Node, some required', 'Node, all with defaults']), 'Resource': statistic(init, ['Resource, some required', 'Resource, all with defaults'])}
     row(28, [('名字冲突', ['keyword_after_dot', 'keyword_elsewhere'])])
@@ -94,6 +126,7 @@ def parse_counts(suffix):
     for m in re.finditer(r'^(\S+?)/.+:\d+ \([^)]*\): (.+)$', (base / 'weak_refs.txt').read_text(encoding='utf-8'), re.M):
         weak[m[1]][m[2]] += 1
     rows[33] = {k: statistic(weak, k) for k in ('weakref(', 'WeakRef', '.get_ref(')}
+    rows[33]['游戏weakref('] = statistic({name: value for name, value in weak.items() if name in games}, 'weakref(')
     types = {}
     text = (base / 'autoload_types.txt').read_text(encoding='utf-8').split('== type uses per repository')[1].split('== all type uses')[0]
     for m in re.finditer(r'^\s+(\S+) \[[^]]+\]: (\d+) ', text, re.M):
@@ -109,13 +142,28 @@ def main():
     source = (ROOT / 'surveys/corpus-counts.md').read_text(encoding='utf-8')
     labels = [ln.split('|')[1:4] for ln in source.splitlines() if ln.startswith('| ')][1:]
     result = {}
-    print('| 计数 | v1：数量〔仓库数〕 | v2：数量〔仓库数〕 | v2纯人写：数量〔仓库数〕 | 用于 |')
-    print('|---|---|---|---|---|')
+    basis = {7: '旧零值前提失效；见样本', 13: '线程用途更广；推迟依据减弱',
+             14: '默认参数覆盖率下降；见复核', 16: '安全特例前提失效；规则未改',
+             18: '不拦截引擎属性的全称前提失效', 19: '不再几乎全是测试；仍可机械改写',
+             20: '现行已纳入@tool；需求更广', 25: '跨子场景写入均有初值；必填检查依据仍在',
+             28: '更支持上下文关键字；旧零值失效', 29: '加载环的迁移代价见复核',
+             30: '样本3/50为字符替换；旧无替换前提失效', 31: '纯###均为标题的前提失效',
+             33: '游戏零使用的前提失效；优先级待复核'}
+    print('| 计数 | v1：数量〔仓库数〕 | v2：数量〔仓库数〕 | v2纯人写：数量〔仓库数〕 | 用于 | 依据判断 |')
+    print('|---|---|---|---|---|---|')
     for n, (label, _, rule) in enumerate(labels, 1):
+        if n == 3:
+            label = '`Autoload.x = self` 登记（原脚本口径）'
+        if n == 20:
+            rule = '§2.3：现行第一版已有@tool，规则【待定】'
         records = [s[0][n] for s in sets]
-        result[n] = {'label': label.strip(), 'rule': rule.strip(), 'v1': records[0], 'v2': records[1], 'human': records[2]}
+        verdict = basis.get(n, '仍有直接使用依据；不由频次证明语义')
+        result[n] = {'label': label.strip(), 'rule': rule.strip(), 'v1': records[0], 'v2': records[1], 'human': records[2], 'basis': verdict}
         cells = ['；'.join(f'{k} {v["n"]:,}〔{v["repos"]}〕' for k, v in record.items()) for record in records]
-        print('| ' + ' | '.join([f'C{n:02} {label.strip()}', *cells, rule.strip()]) + ' |')
+        used = re.sub(r'（脚本见.*?）', '', rule.strip())
+        if n == 35:
+            used = '§10.2：按高频API审核对象可空性'
+        print('| ' + ' | '.join([f'C{n:02} {TITLES[n-1]}', *cells, used, verdict]) + ' |')
     result['code_lines'] = [s[1] for s in sets]
     out = ROOT / 'surveys/v2-rerun/results-v2/comparison.json'
     out.parent.mkdir(parents=True, exist_ok=True)

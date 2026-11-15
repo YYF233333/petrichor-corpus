@@ -61,6 +61,7 @@ STEPS = {
     ],
     "await-signal-results": [
         ("await-signal-results/extract.py", [CORPUS, GODOT, "{out}"], "report.txt", [("report.txt", "await-signal-results/results/report.txt")]),
+        ("await-signal-results/summarize.py", ["{out}"], "metrics.json", [("metrics.json", "await-signal-results/results/metrics.json")]),
     ],
     "property-accessors": [
         ("property-accessors/extract.py", [CORPUS, "{out}"], "extraction.txt", [("extraction.txt", "property-accessors/results/extraction.txt")]),
@@ -73,6 +74,7 @@ STEPS = {
         ("implementation-coverage/remaining2.py", [CORPUS, API], "remaining2.txt", [("remaining2.txt", "implementation-coverage/results/remaining2.txt")]),
         ("implementation-coverage/gdscript_builtins.py", [CORPUS], "gdscript_builtins.txt", [("gdscript_builtins.txt", "implementation-coverage/results/gdscript_builtins.txt")]),
         ("implementation-coverage/remaining3.py", [CORPUS, API], "remaining3.txt", [("remaining3.txt", "implementation-coverage/results/remaining3.txt")]),
+        ("v2-rerun/incidence.py", [CORPUS, API], "incidence.json", [("incidence.json", "implementation-coverage/results/incidence.json")]),
     ],
     "pitfalls": [
         ("pitfalls/build.py", ["{out}"], None, [("catalog.tsv", "pitfalls/catalog.tsv"), ("catalog.md", "pitfalls/catalog.md")]),
