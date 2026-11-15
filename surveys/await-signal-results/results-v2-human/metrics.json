@@ -1,0 +1,749 @@
+{
+ "all": {
+  "awaits": 5229,
+  "multi_signal_awaits": 21,
+  "signal_awaits": 3313,
+  "typed_multi_results": 11,
+  "used_multi_results": 19,
+  "used_signal_results": 126,
+  "used_zero_results": 5
+ },
+ "repos": {
+  "Arrow": {
+   "awaits": 6,
+   "signal_awaits": 6,
+   "used_signal_results": 0
+  },
+  "BatteryAcid__godot-3d-multiplayer-template": {
+   "awaits": 10,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "CandyWrapper": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "Castlevania-Remnants-of-Darkness": {
+   "awaits": 128,
+   "signal_awaits": 113,
+   "used_signal_results": 1
+  },
+  "Cats-Godot4-Modular-Souls-like-Template": {
+   "awaits": 54,
+   "signal_awaits": 53,
+   "used_signal_results": 0
+  },
+  "DOGWALK": {
+   "awaits": 7,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "Dororo": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "FRU-Sim": {
+   "awaits": 15,
+   "signal_awaits": 14,
+   "used_signal_results": 0
+  },
+  "Freedom-Hunter": {
+   "awaits": 14,
+   "signal_awaits": 14,
+   "used_signal_results": 0
+  },
+  "Friendslop-Template": {
+   "awaits": 75,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "GBM2K-Framework": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "GDWaterKart": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "Galaxy-Defiance": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "Genesis": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "GodSVG": {
+   "awaits": 17,
+   "signal_awaits": 17,
+   "used_signal_results": 0
+  },
+  "Godot-2D-Action-Game": {
+   "awaits": 13,
+   "signal_awaits": 13,
+   "used_signal_results": 0
+  },
+  "Godot-Game-Template": {
+   "awaits": 51,
+   "signal_awaits": 43,
+   "used_signal_results": 0
+  },
+  "Godot-Plush-Character": {
+   "awaits": 5,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "Godot-Roguelike-Tutorial": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "Godot4-FPS-Template": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "Godot4SourceEngineMovement": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "Godot4ThirdPersonCombatPrototype": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "GodotDynamicInventorySystem": {
+   "awaits": 4,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "GodotFirebase": {
+   "awaits": 60,
+   "multi_signal_awaits": 6,
+   "signal_awaits": 20,
+   "typed_multi_results": 2,
+   "used_multi_results": 5,
+   "used_signal_results": 14
+  },
+  "GodotOS": {
+   "awaits": 32,
+   "signal_awaits": 32,
+   "used_signal_results": 0
+  },
+  "GodotPixelRenderer": {
+   "awaits": 16,
+   "signal_awaits": 15,
+   "used_signal_results": 0
+  },
+  "GodotProjectZero": {
+   "awaits": 6,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "Gut": {
+   "awaits": 185,
+   "signal_awaits": 33,
+   "used_signal_results": 0
+  },
+  "Legacy_SM63Redux": {
+   "awaits": 5,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "LibreAim": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "Lorien": {
+   "awaits": 7,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "Lost-Pilot": {
+   "awaits": 13,
+   "signal_awaits": 7,
+   "used_signal_results": 1
+  },
+  "Metroidvania-System": {
+   "awaits": 22,
+   "signal_awaits": 18,
+   "used_signal_results": 0
+  },
+  "Microverse": {
+   "awaits": 39,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "MizGodotTools": {
+   "awaits": 21,
+   "signal_awaits": 20,
+   "used_signal_results": 0
+  },
+  "OpMon": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "Open-Industry-Project-Godot": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "OpenLiberty": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 2
+  },
+  "OpenVic": {
+   "awaits": 8,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "PSGodotTemplateRepo": {
+   "awaits": 31,
+   "signal_awaits": 14,
+   "used_signal_results": 0
+  },
+  "PankuConsole": {
+   "awaits": 6,
+   "signal_awaits": 6,
+   "used_signal_results": 0
+  },
+  "PixelPlanets": {
+   "awaits": 5,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "Pixelorama": {
+   "awaits": 32,
+   "signal_awaits": 31,
+   "used_signal_results": 0
+  },
+  "Project-Heartbeat": {
+   "awaits": 46,
+   "multi_signal_awaits": 4,
+   "signal_awaits": 37,
+   "typed_multi_results": 3,
+   "used_multi_results": 4,
+   "used_signal_results": 9,
+   "used_zero_results": 1
+  },
+  "Qodot": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "RhythiaRewrite": {
+   "awaits": 17,
+   "signal_awaits": 17,
+   "used_signal_results": 0
+  },
+  "Scene-Manager": {
+   "awaits": 91,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "Slay-The-Robot": {
+   "awaits": 48,
+   "signal_awaits": 48,
+   "used_signal_results": 0
+  },
+  "SmartShape2D": {
+   "awaits": 5,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "SonicWorldsNext": {
+   "awaits": 40,
+   "signal_awaits": 40,
+   "used_signal_results": 0
+  },
+  "SoundThread": {
+   "awaits": 72,
+   "signal_awaits": 35,
+   "used_signal_results": 0
+  },
+  "Stardew": {
+   "awaits": 12,
+   "signal_awaits": 12,
+   "used_signal_results": 0
+  },
+  "Starter-Kit-3D-Platformer": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "Starter-Kit-Match-3": {
+   "awaits": 7,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "Super-Mario-Bros.-Remastered-Public": {
+   "awaits": 337,
+   "signal_awaits": 316,
+   "used_signal_results": 0
+  },
+  "Super-Mario-World-Remastered-Public": {
+   "awaits": 466,
+   "signal_awaits": 433,
+   "used_signal_results": 0
+  },
+  "TakinGodotTemplate": {
+   "awaits": 5,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "TileMapDual": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "TopdownStarter": {
+   "awaits": 10,
+   "signal_awaits": 10,
+   "used_signal_results": 0
+  },
+  "TowDownGame": {
+   "awaits": 16,
+   "signal_awaits": 14,
+   "used_signal_results": 0
+  },
+  "UltimateGodotIntro2D": {
+   "awaits": 5,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "Yugens-Terrain-Authoring-Toolkit": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "_original_client": {
+   "awaits": 4,
+   "multi_signal_awaits": 1,
+   "signal_awaits": 3,
+   "typed_multi_results": 1,
+   "used_multi_results": 1,
+   "used_signal_results": 1
+  },
+  "aarpg-tutorial": {
+   "awaits": 49,
+   "signal_awaits": 45,
+   "used_signal_results": 0
+  },
+  "abyssal-walker": {
+   "awaits": 24,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "beehave": {
+   "awaits": 28,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "better-terrain": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "cyclopsLevelBuilder": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "deck_builder_tutorial": {
+   "awaits": 15,
+   "signal_awaits": 15,
+   "used_signal_results": 0
+  },
+  "desksaw": {
+   "awaits": 49,
+   "signal_awaits": 45,
+   "used_signal_results": 3
+  },
+  "devmoreir4__godot-3d-multiplayer-template": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "dialogic": {
+   "awaits": 91,
+   "signal_awaits": 69,
+   "used_signal_results": 0
+  },
+  "escoria-demo-game": {
+   "awaits": 4,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "gaea": {
+   "awaits": 41,
+   "signal_awaits": 16,
+   "used_signal_results": 0
+  },
+  "game-base-2D": {
+   "awaits": 3,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "gdmaim": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "godot-2d-adventure-tutorial": {
+   "awaits": 7,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "godot-2d-builder": {
+   "awaits": 16,
+   "signal_awaits": 16,
+   "used_signal_results": 0
+  },
+  "godot-2d-space-game": {
+   "awaits": 30,
+   "signal_awaits": 28,
+   "used_signal_results": 0
+  },
+  "godot-2d-topdown-template": {
+   "awaits": 24,
+   "signal_awaits": 24,
+   "used_signal_results": 0
+  },
+  "godot-3-beginner-2d-platformer": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "godot-4-2d-visual-novel": {
+   "awaits": 18,
+   "signal_awaits": 14,
+   "used_signal_results": 1
+  },
+  "godot-4-3d-third-person-controller": {
+   "awaits": 13,
+   "signal_awaits": 13,
+   "used_signal_results": 0
+  },
+  "godot-4-procedural-generation": {
+   "awaits": 14,
+   "signal_awaits": 14,
+   "used_signal_results": 0
+  },
+  "godot-aseprite-wizard": {
+   "awaits": 22,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "godot-card-game-frame": {
+   "awaits": 22,
+   "signal_awaits": 15,
+   "used_signal_results": 0
+  },
+  "godot-chess": {
+   "awaits": 4,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "godot-demo-projects": {
+   "awaits": 113,
+   "signal_awaits": 39,
+   "used_signal_results": 2
+  },
+  "godot-gameplay-systems": {
+   "awaits": 9,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "godot-mod-loader": {
+   "awaits": 91,
+   "signal_awaits": 18,
+   "used_signal_results": 0
+  },
+  "godot-multiplayer": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "godot-open-rpg": {
+   "awaits": 111,
+   "signal_awaits": 94,
+   "used_signal_results": 2
+  },
+  "godot-open-rts": {
+   "awaits": 31,
+   "signal_awaits": 26,
+   "used_signal_results": 0
+  },
+  "godot-port": {
+   "awaits": 75,
+   "signal_awaits": 56,
+   "used_signal_results": 1
+  },
+  "godot-resources-as-sheets-plugin": {
+   "awaits": 13,
+   "signal_awaits": 13,
+   "used_signal_results": 0
+  },
+  "godot-road-generator": {
+   "awaits": 5,
+   "signal_awaits": 4,
+   "used_signal_results": 0
+  },
+  "godot-rocket-league": {
+   "awaits": 5,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "godot-start": {
+   "awaits": 6,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "godot-statecharts": {
+   "awaits": 70,
+   "signal_awaits": 16,
+   "used_signal_results": 0
+  },
+  "godot-steering-ai-framework": {
+   "awaits": 15,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "godot-tiny-mmo": {
+   "awaits": 25,
+   "signal_awaits": 15,
+   "used_signal_results": 1
+  },
+  "godot-visual-effects": {
+   "awaits": 16,
+   "signal_awaits": 16,
+   "used_signal_results": 0
+  },
+  "godot-xr-tools": {
+   "awaits": 12,
+   "signal_awaits": 12,
+   "used_signal_results": 0
+  },
+  "godot4-third-person-controller": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "godot_autobattler_course": {
+   "awaits": 2,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "godot_dialogue_manager": {
+   "awaits": 240,
+   "multi_signal_awaits": 1,
+   "signal_awaits": 23,
+   "used_multi_results": 1,
+   "used_signal_results": 3
+  },
+  "godot_experiments": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "godot_input_helper": {
+   "awaits": 2
+  },
+  "godot_little_camera_preview": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "godot_open_star_fighter": {
+   "awaits": 5,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "godot_spatial_gardener": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "godot_ui_components": {
+   "awaits": 6,
+   "signal_awaits": 6,
+   "used_signal_results": 0
+  },
+  "godots": {
+   "awaits": 46,
+   "multi_signal_awaits": 2,
+   "signal_awaits": 4,
+   "typed_multi_results": 2,
+   "used_multi_results": 2,
+   "used_signal_results": 2
+  },
+  "holoDelta": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "jdungeon": {
+   "awaits": 56,
+   "signal_awaits": 50,
+   "used_signal_results": 10
+  },
+  "knakk": {
+   "awaits": 46,
+   "signal_awaits": 26,
+   "used_signal_results": 0
+  },
+  "learn-gdscript": {
+   "awaits": 108,
+   "signal_awaits": 99,
+   "used_signal_results": 0
+  },
+  "limbo-godot": {
+   "awaits": 6,
+   "signal_awaits": 6,
+   "used_signal_results": 0
+  },
+  "malware-slayer": {
+   "awaits": 47,
+   "signal_awaits": 47,
+   "used_signal_results": 0
+  },
+  "material-maker": {
+   "awaits": 219,
+   "multi_signal_awaits": 5,
+   "signal_awaits": 83,
+   "typed_multi_results": 1,
+   "used_multi_results": 4,
+   "used_signal_results": 15
+  },
+  "moddable-platformer": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "museum-of-all-things": {
+   "awaits": 5,
+   "signal_awaits": 4,
+   "used_signal_results": 1,
+   "used_zero_results": 1
+  },
+  "nakama-godot": {
+   "awaits": 219,
+   "multi_signal_awaits": 2,
+   "signal_awaits": 38,
+   "typed_multi_results": 2,
+   "used_multi_results": 2,
+   "used_signal_results": 30
+  },
+  "netfox": {
+   "awaits": 142,
+   "signal_awaits": 57,
+   "used_signal_results": 0
+  },
+  "pandora": {
+   "awaits": 31,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "phantom-camera": {
+   "awaits": 7,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "poder-solar": {
+   "awaits": 3,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "protongraph": {
+   "awaits": 12,
+   "signal_awaits": 9,
+   "used_signal_results": 4
+  },
+  "scatter": {
+   "awaits": 16,
+   "signal_awaits": 5,
+   "used_signal_results": 0
+  },
+  "simgine": {
+   "awaits": 4,
+   "signal_awaits": 3,
+   "used_signal_results": 0
+  },
+  "sourceofmana": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "starship-olympics": {
+   "awaits": 193,
+   "signal_awaits": 167,
+   "used_signal_results": 0
+  },
+  "tanks-of-freedom-ii": {
+   "awaits": 120,
+   "signal_awaits": 95,
+   "used_signal_results": 0
+  },
+  "template-beat-em-up": {
+   "awaits": 44,
+   "signal_awaits": 39,
+   "used_signal_results": 0
+  },
+  "the-mirror": {
+   "awaits": 130,
+   "signal_awaits": 82,
+   "used_signal_results": 19
+  },
+  "top-down-action-rpg-template": {
+   "awaits": 3,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "tower-defense-godot4": {
+   "awaits": 1,
+   "signal_awaits": 1,
+   "used_signal_results": 0
+  },
+  "tower-defense-tutorial": {
+   "awaits": 2,
+   "signal_awaits": 2,
+   "used_signal_results": 0
+  },
+  "tps-demo": {
+   "awaits": 8,
+   "signal_awaits": 8,
+   "used_signal_results": 0
+  },
+  "unto-deepest-depths-prototype": {
+   "awaits": 8,
+   "signal_awaits": 7,
+   "used_signal_results": 0
+  },
+  "vpuppr": {
+   "awaits": 11,
+   "signal_awaits": 10,
+   "used_signal_results": 4,
+   "used_zero_results": 3
+  },
+  "wutw-public": {
+   "awaits": 236,
+   "signal_awaits": 132,
+   "used_signal_results": 0
+  },
+  "youtd2": {
+   "awaits": 13,
+   "signal_awaits": 13,
+   "used_signal_results": 0
+  }
+ }
+}

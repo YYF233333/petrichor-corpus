@@ -1,0 +1,225 @@
+calls: 34253
+   4648 get_tree: Node:SceneTree TreeItem:Tree
+   2957 get_node: AnimationNodeBlendTree:AnimationNode AnimationNodeStateMachine:AnimationNode Node:Node VisualShader:VisualShaderNode
+   2619 get_parent: EditorFileSystemDirectory:EditorFileSystemDirectory Node:Node TreeItem:TreeItem
+   2326 instantiate: PackedScene:Node
+   2135 load: ResourceLoader:Resource
+   1825 duplicate: Node:Node Resource:Resource StreamPeerBuffer:StreamPeerBuffer TextLine:TextLine TextParagraph:TextParagraph
+   1342 get_child: Node:Node TreeItem:TreeItem
+   1301 tween_property: Tween:PropertyTweener
+   1298 create_timer: SceneTree:SceneTreeTimer
+    961 open: DirAccess:DirAccess FileAccess:FileAccess
+    946 get_viewport: Node:Viewport
+    941 create_tween: Node:Tween SceneTree:Tween
+    631 get_node_or_null: Node:Node
+    449 set_trans: MethodTweener:MethodTweener PropertyTweener:PropertyTweener Tween:Tween
+    427 set_ease: MethodTweener:MethodTweener PropertyTweener:PropertyTweener Tween:Tween
+    421 get_theme_icon: Control:Texture2D Window:Texture2D
+    411 find_child: Node:Node
+    316 get_next: OpenXRSpatialEntityTracker:OpenXRStructureBase OpenXRStructureBase:OpenXRStructureBase TreeItem:TreeItem
+    315 get_window: Node:Window
+    297 create: Image:Image PhysicsRayQueryParameters2D:PhysicsRayQueryParameters2D PhysicsRayQueryParameters3D:PhysicsRayQueryParameters3D
+    250 get_root: SceneTree:Window Tree:TreeItem
+    239 create_from_image: ImageTexture:ImageTexture
+    226 get_image: Noise:Image Texture2D:Image
+    220 create_item: Tree:TreeItem
+    219 get_popup: ColorPickerButton:PopupPanel MenuButton:PopupMenu OptionButton:PopupMenu TabContainer:Popup
+    210 get_extension: GDExtensionManager:GDExtension
+    203 get_theme_stylebox: Control:StyleBox Window:StyleBox
+    198 get_texture: BaseMaterial3D:Texture2D CPUParticles2D:Texture2D Decal:Texture2D GPUParticles2D:Texture2D GPUParticlesAttractorVectorField3D:Texture3D GPUParticlesCollisionSDF3D:Texture3D Line2D:Texture2D MeshInstance2D:Texture2D MultiMeshInstance2D:Texture2D NinePatchRect:Texture2D PointLight2D:Texture2D Polygon2D:Texture2D SkeletonProfile:Texture2D Sprite2D:Texture2D Sprite3D:Texture2D StyleBoxTexture:Texture2D TextureRect:Texture2D TileSetAtlasSource:Texture2D Viewport:ViewportTexture VisualShaderNodeCurveTexture:CurveTexture VisualShaderNodeCurveXYZTexture:CurveXYZTexture VisualShaderNodeTexture3D:Texture3D VisualShaderNodeTexture:Texture2D
+    198 search: RegEx:RegExMatch
+    197 tween_callback: Tween:CallbackTweener
+    186 get_icon: StatusIndicator:Texture2D Theme:Texture2D TreeItem:Texture2D
+    180 from: PropertyTweener:PropertyTweener
+    172 get_selected: Tree:TreeItem
+    169 get_first_node_in_group: SceneTree:Node
+    161 get_collider: KinematicCollision2D:Object KinematicCollision3D:Object PhysicsTestMotionResult2D:Object PhysicsTestMotionResult3D:Object RayCast2D:Object RayCast3D:Object ShapeCast2D:Object ShapeCast3D:Object
+    153 get_editor_interface: EditorPlugin:EditorInterface EditorScript:EditorInterface
+    143 get_singleton: Engine:Object
+    136 parallel: Tween:Tween
+    134 create_from_string: DPITexture:DPITexture RegEx:RegEx
+    125 get_undo_redo: EditorPlugin:EditorUndoRedoManager
+    118 get_selection: EditorInterface:EditorSelection
+    117 set_parallel: Tween:Tween
+    105 get_camera_3d: Viewport:Camera3D
+    104 get_world_3d: Node3D:World3D Viewport:World3D
+     93 get_edited_scene_root: EditorInterface:Node SceneTree:Node
+     87 wrap: JavaClassWrapper:JavaClass
+     86 add_button: AcceptDialog:Button
+     85 tween_method: Tween:MethodTweener
+     77 load_from_file: AudioStreamMP3:AudioStreamMP3 AudioStreamOggVorbis:AudioStreamOggVorbis AudioStreamWAV:AudioStreamWAV Image:Image ResourceImporterOggVorbis:AudioStreamOggVorbis
+     77 set_delay: CallbackTweener:CallbackTweener MethodTweener:MethodTweener PropertyTweener:PropertyTweener SubtweenTweener:SubtweenTweener
+     76 get_base_control: EditorInterface:Control
+     70 get_theme_font: Control:Font Window:Font
+     70 get_editor_settings: EditorInterface:EditorSettings
+     67 get_resource_filesystem: EditorInterface:EditorFileSystem
+     67 get_ok_button: AcceptDialog:Button
+     66 get_material: CSGBox3D:Material CSGCylinder3D:Material CSGMesh3D:Material CSGPolygon3D:Material CSGSphere3D:Material CSGTorus3D:Material CanvasItem:Material EditorNode3DGizmoPlugin:StandardMaterial3D FogVolume:Material MeshDataTool:Material PrimitiveMesh:Material Sky:Material TileData:Material
+     64 move_and_collide: PhysicsBody2D:KinematicCollision2D PhysicsBody3D:KinematicCollision3D
+     63 get_main_loop: Engine:MainLoop
+     63 get_node_3d: EditorNode3DGizmo:Node3D
+     62 spawn: MultiplayerSpawner:Node
+     61 tween_interval: Tween:IntervalTweener
+     53 get_animation: AnimationLibrary:Animation AnimationMixer:Animation
+     52 get_camera_2d: Viewport:Camera2D
+     51 gui_get_focus_owner: Viewport:Control
+     46 get_state: PackedScene:SceneState
+     45 find_parent: Node:Node
+     44 get_surface_override_material: MeshInstance3D:Material
+     43 load_threaded_get: ResourceLoader:Resource
+     43 commit: SurfaceTool:ArrayMesh
+     40 get_source: TileSet:TileSetSource
+     40 get_stylebox: Theme:StyleBox
+     39 get_resource: ResourcePreloader:Resource
+     38 get_edited_object: EditorInspector:Object EditorProperty:Object
+     34 get_world_2d: CanvasItem:World2D Viewport:World2D
+     34 create_from_data: Image:Image
+     33 surface_get_material: Mesh:Material
+     33 get_owner: Node:Node
+     33 get_v_scroll_bar: ItemList:VScrollBar RichTextLabel:VScrollBar ScrollContainer:VScrollBar TextEdit:VScrollBar
+     32 get_cell_tile_data: TileMap:TileData TileMapLayer:TileData
+     32 get_profile: BoneMap:SkeletonProfile RetargetModifier3D:SkeletonProfile
+reads: 4464
+    950 data: VoxelGI:VoxelGIData
+    462 shape: CollisionShape2D:Shape2D CollisionShape3D:Shape3D PhysicsShapeQueryParameters2D:Shape2D PhysicsShapeQueryParameters3D:Shape3D ShapeCast2D:Shape2D ShapeCast3D:Shape3D SpringArm3D:Shape3D TouchScreenButton:Shape2D
+    386 root: SceneTree:Node
+    318 texture: CPUParticles2D:Texture2D GPUParticles2D:Texture2D GPUParticlesAttractorVectorField3D:Texture3D GPUParticlesCollisionSDF3D:Texture3D Line2D:Texture2D MeshInstance2D:Texture2D MultiMeshInstance2D:Texture2D NinePatchRect:Texture2D Polygon2D:Texture2D Sprite2D:Texture2D Sprite3D:Texture2D StyleBoxTexture:Texture2D TextureRect:Texture2D TileSetAtlasSource:Texture2D VisualShaderNodeCurveTexture:CurveTexture VisualShaderNodeCurveXYZTexture:CurveXYZTexture VisualShaderNodeTexture3D:Texture3D VisualShaderNodeTexture:Texture2D
+    313 owner: Node:Node
+    274 mesh: CPUParticles3D:Mesh GLTFMesh:Object ImporterMeshInstance3D:ImporterMesh MeshInstance2D:Mesh MeshInstance3D:Mesh MeshTexture:Mesh MultiMesh:Mesh VisualShaderNodeParticleMeshEmitter:Mesh
+    147 icon: Button:Texture2D StatusIndicator:Texture2D
+    138 current_scene: SceneTree:Node
+    136 environment: Camera3D:Environment World3D:Environment WorldEnvironment:Environment
+    118 curve: CurveTexture:Curve Path2D:Curve2D Path3D:Curve3D RibbonTrailMesh:Curve TubeTrailMesh:Curve
+     91 tile_set: TileMap:TileSet TileMapLayer:TileSet
+     83 theme: Control:Theme Window:Theme
+     81 direct_space_state: World2D:PhysicsDirectSpaceState2D World3D:PhysicsDirectSpaceState3D
+     77 multimesh: MultiMeshInstance2D:MultiMesh MultiMeshInstance3D:MultiMesh
+     69 image: ImageTexture:Image
+     68 stream: AudioStreamPlayer2D:AudioStream AudioStreamPlayer3D:AudioStream AudioStreamPlayer:AudioStream VideoStreamPlayer:VideoStream
+     68 actions: OpenXRActionSet:OpenXRAction
+     55 skin: ImporterMeshInstance3D:Skin MeshInstance3D:Skin
+     54 edited_scene_root: SceneTree:Node
+     52 action: OpenXRIPBinding:OpenXRAction
+     49 sprite_frames: AnimatedSprite2D:SpriteFrames AnimatedSprite3D:SpriteFrames
+     49 multiplayer_peer: MultiplayerAPI:MultiplayerPeer
+     44 gradient: GradientTexture1D:Gradient GradientTexture2D:Gradient Line2D:Gradient
+     41 multiplayer: Node:MultiplayerAPI
+     37 sky: Environment:Sky
+     35 syntax_highlighter: TextEdit:SyntaxHighlighter
+     22 albedo_texture: BaseMaterial3D:Texture2D
+     19 base_font: FontVariation:Font
+     19 shader: ShaderMaterial:Shader
+     18 label_settings: Label:LabelSettings
+     17 next: OpenXRStructureBase:OpenXRStructureBase
+     16 host: ENetMultiplayerPeer:ENetConnection
+     14 navigation_mesh: NavigationRegion3D:NavigationMesh
+     12 atlas: AtlasTexture:Texture2D
+     12 tree_root: AnimationTree:AnimationRootNode
+     10 edited_resource: EditorResourcePicker:Resource
+     10 default_font: Theme:Font
+      9 font: Label3D:Font LabelSettings:Font TextMesh:Font
+      9 normal_texture: BaseMaterial3D:Texture2D CanvasTexture:Texture2D
+      8 bindings: OpenXRInteractionProfile:OpenXRIPBinding
+      7 shortcut: BaseButton:Shortcut InputEventShortcut:Shortcut
+      7 width_curve: Line2D:Curve
+      6 button_group: BaseButton:ButtonGroup
+      6 fallback_font: ThemeDB:Font
+      6 noise: NoiseTexture2D:Noise NoiseTexture3D:Noise
+      5 action_set: OpenXRDpadBindingModifier:OpenXRActionSet
+      5 connection: HTTPClient:StreamPeer
+      4 color_ramp: CPUParticles2D:Gradient CPUParticles3D:Gradient NoiseTexture2D:Gradient NoiseTexture3D:Gradient ParticleProcessMaterial:GradientTexture1D
+      3 profile: BoneMap:SkeletonProfile RetargetModifier3D:SkeletonProfile
+      2 next_pass: Material:Material
+      2 world_3d: Viewport:World3D
+      2 texture_progress: TextureProgressBar:Texture2D
+      2 metallic_texture: BaseMaterial3D:Texture2D
+      2 roughness_texture: BaseMaterial3D:Texture2D
+      2 world_2d: Viewport:World2D
+      2 ao_texture: BaseMaterial3D:Texture2D
+      2 physics_material: GridMap:PhysicsMaterial
+      2 emission_texture: BaseMaterial3D:Texture2D
+      2 primary_interface: XRServer:Object
+      2 shortcut_context: Control:Object
+      1 replication_config: MultiplayerSynchronizer:SceneReplicationConfig
+      1 glow_map: Environment:Texture2D
+      1 compositor: Camera3D:Compositor WorldEnvironment:Compositor
+connections: 1811
+    606 area_entered: Area2D(Area2D) Area3D(Area3D)
+    490 body_entered: Area2D(Node2D) Area3D(Node3D) RigidBody2D(Node) RigidBody3D(Node)
+    266 gui_input: Control(InputEvent)
+    171 body_exited: Area2D(Node2D) Area3D(Node3D) RigidBody2D(Node) RigidBody3D(Node)
+     95 area_exited: Area2D(Area2D) Area3D(Area3D)
+     69 input_event: CollisionObject2D(Node, InputEvent) CollisionObject3D(Node, InputEvent)
+     19 button_clicked: Tree(TreeItem)
+     13 child_entered_tree: Node(Node)
+     11 node_added: SceneTree(Node)
+     10 resource_changed: EditorResourcePicker(Resource)
+      9 completed: OpenXRFutureResult(OpenXRFutureResult)
+      8 child_exiting_tree: Node(Node)
+      6 item_collapsed: Tree(TreeItem)
+      5 resource_selected: EditorInspector(Resource) EditorProperty(Resource) EditorResourcePicker(Resource)
+      5 spawned: MultiplayerSpawner(Node)
+      5 body_shape_entered: Area2D(Node2D) Area3D(Node3D) RigidBody2D(Node) RigidBody3D(Node)
+      4 gui_focus_changed: Viewport(Control)
+      3 despawned: MultiplayerSpawner(Node)
+      3 body_shape_exited: Area2D(Node2D) Area3D(Node3D) RigidBody2D(Node) RigidBody3D(Node)
+      3 window_input: Window(InputEvent)
+      2 area_shape_entered: Area2D(Area2D) Area3D(Area3D)
+      2 editor_script_changed: ScriptEditor(Script)
+      2 expanded: FoldableGroup(FoldableContainer)
+      1 resource_saved: EditorPlugin(Resource)
+      1 resource_removed: FileSystemDock(Resource)
+      1 node_removed: SceneTree(Node)
+      1 extension_loaded: GDExtensionManager(GDExtension)
+overrides: 1245
+    462 _input: Node(InputEvent)
+    248 _unhandled_input: Node(InputEvent)
+    149 _gui_input: Control(InputEvent)
+     70 _run: EditorExportPlatformExtension(EditorExportPreset)
+     29 _can_handle: EditorInspectorPlugin(Object)
+     24 _get_recognized_extensions: ResourceFormatSaver(Resource)
+     22 _handles: EditorPlugin(Object) EditorResourceConversionPlugin(Resource)
+     19 _unhandled_key_input: Node(InputEvent)
+     19 _redraw: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+     18 _parse_property: EditorInspectorPlugin(Object)
+     15 _generate: EditorResourcePreviewGenerator(Resource)
+     14 _configure: RenderSceneBuffersExtension(RenderSceneBuffersConfiguration)
+     13 _has_gizmo: EditorNode3DGizmoPlugin(Node3D)
+     12 _shortcut_input: Node(InputEvent)
+     11 _edit: EditorPlugin(Object)
+     10 _integrate_forces: PhysicalBone3D(PhysicsDirectBodyState3D) RigidBody2D(PhysicsDirectBodyState2D) RigidBody3D(PhysicsDirectBodyState3D)
+     10 _save: ResourceFormatSaver(Resource)
+      8 _forward_3d_gui_input: EditorPlugin(Camera3D, InputEvent)
+      8 _get_handle_name: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      8 _get_handle_value: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      8 _set_handle: EditorNode3DGizmo(Camera3D) EditorNode3DGizmoPlugin(EditorNode3DGizmo, Camera3D)
+      8 _commit_handle: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      6 _parse_begin: EditorInspectorPlugin(Object)
+      5 _parse_category: EditorInspectorPlugin(Object)
+      4 _process_custom_fx: RichTextEffect(CharFXTransform)
+      4 _forward_canvas_gui_input: EditorPlugin(InputEvent)
+      3 _load_image: ImageFormatLoaderExtension(Image, FileAccess)
+      3 _input_event: CollisionObject2D(Viewport, InputEvent) CollisionObject3D(Camera3D, InputEvent)
+      3 _post_import: EditorScenePostImport(Node)
+      3 _forward_canvas_draw_over_viewport: EditorPlugin(Control)
+      3 _set_window_layout: EditorPlugin(ConfigFile)
+      2 _tile_data_runtime_update: TileMap(TileData) TileMapLayer(TileData)
+      2 _recognize: ResourceFormatSaver(Resource)
+      2 _create_gizmo: EditorNode3DGizmoPlugin(Node3D)
+      2 _get_window_layout: EditorPlugin(ConfigFile)
+      2 _parse_end: EditorInspectorPlugin(Object)
+      2 _begin_handle_action: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      1 _convert: EditorResourceConversionPlugin(Resource)
+      1 _make_tooltip_for_path: EditorResourceTooltipPlugin(Control)
+      1 _recognize_path: ResourceFormatSaver(Resource)
+      1 _forward_3d_draw_over_viewport: EditorPlugin(Control)
+      1 _internal_process: EditorScenePostImportPlugin(Node, Node, Resource)
+      1 _subgizmos_intersect_ray: EditorNode3DGizmo(Camera3D) EditorNode3DGizmoPlugin(EditorNode3DGizmo, Camera3D)
+      1 _subgizmos_intersect_frustum: EditorNode3DGizmo(Camera3D) EditorNode3DGizmoPlugin(EditorNode3DGizmo, Camera3D)
+      1 _get_subgizmo_transform: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      1 _set_subgizmo_transform: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      1 _commit_subgizmos: EditorNode3DGizmoPlugin(EditorNode3DGizmo)
+      1 _supports_platform: EditorExportPlugin(EditorExportPlatform)
+      1 _import_node: GLTFDocumentExtension(GLTFState, GLTFNode, Node)
+      1 _render_callback: CompositorEffect(RenderData)
+      1 _propagate_input_event: SubViewportContainer(InputEvent)

@@ -1,0 +1,64 @@
+code lines: fps 258, ring 647 (622 as in the first migration + 25 in subclasses), total 905
+
+## by category
+| | fps | ring | total |
+|---|---:|---:|---:|
+| pub | 17 | 85 | 102 |
+| rewrite | 8 | 31 | 39 |
+| conversion | 4 | 33 | 37 |
+| annotation | 17 | 19 | 36 |
+| undefined | 11 | 7 | 18 |
+| decision | 1 | 8 | 9 |
+| benefit | 3 | 4 | 7 |
+| narrow | 1 | 3 | 4 |
+| gap | 0 | 2 | 2 |
+| glue | 0 | 1 | 1 |
+
+## cost by source
+| | fps | ring | total |
+|---|---:|---:|---:|
+| pub/external | 15 | 44 | 59 |
+| pub/subclass | 0 | 29 | 29 |
+| annotation/signature | 8 | 10 | 18 |
+| rewrite/truthiness | 2 | 16 | 18 |
+| pub/interface | 2 | 12 | 14 |
+| conversion/member-option | 0 | 12 | 12 |
+| conversion/downcast | 1 | 7 | 8 |
+| rewrite/interface | 5 | 3 | 8 |
+| rewrite/coroutine | 0 | 7 | 7 |
+| annotation/override-signature | 5 | 1 | 6 |
+| conversion/engine-nullable | 0 | 6 | 6 |
+| decision/member-option | 1 | 5 | 6 |
+| annotation/literal-member | 0 | 4 | 4 |
+| conversion/dynamic | 1 | 3 | 4 |
+| conversion/numeric | 2 | 2 | 4 |
+| narrow/member-option | 1 | 3 | 4 |
+| annotation/owner | 0 | 3 | 3 |
+| conversion/gd-nullable | 0 | 3 | 3 |
+| annotation/empty-container | 2 | 0 | 2 |
+| annotation/signal-param | 1 | 1 | 2 |
+| decision/export-type | 0 | 2 | 2 |
+| gap/inheritance | 0 | 2 | 2 |
+| rewrite/message | 0 | 2 | 2 |
+| rewrite/owner | 0 | 2 | 2 |
+| annotation/export-type | 1 | 0 | 1 |
+| decision/nullable-param | 0 | 1 | 1 |
+| glue/cross-language | 0 | 1 | 1 |
+| rewrite/init-order | 1 | 0 | 1 |
+| rewrite/restructure | 0 | 1 | 1 |
+
+## cost by kind (M mechanical, J judgment)
+| | fps | ring | total |
+|---|---:|---:|---:|
+| M | 40 | 157 | 197 |
+| J | 8 | 25 | 33 |
+
+## cost
+| | fps | ring | total | per 100 lines |
+|---|---:|---:|---:|---:|
+| all cost | 48 | 182 | 230 | 25.4 |
+| without pub | 31 | 97 | 128 | 14.1 |
+| without pub and override signatures | 26 | 96 | 122 | 13.5 |
+| judgment only | 8 | 25 | 33 | 3.6 |
+
+locals added because members do not narrow: 4 (4.4 per 1,000 lines); all costs from Option-typed members: 22

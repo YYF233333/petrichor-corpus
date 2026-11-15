@@ -8,6 +8,7 @@ This repository holds the evidence behind the design of [Petrichor](https://gith
 
 The write-ups are in Chinese. Each ends with the commands that reproduce it.
 
+- [Rerunning the design evidence on corpus v2](surveys/v2-rerun.md)
 - [Do scripts see more than one scene structure?](surveys/scene-structures.md)
 - [How much code is duplicated because native base classes differ?](surveys/cross-branch-duplication.md)
 - [Pitfalls of the engine, GDScript and the C# bridge](surveys/pitfalls.md)
@@ -64,6 +65,7 @@ python rerun.py v2 --human-only
 
 Derived outputs go to each survey's `results-v2/` and `results-v2-human/`.
 Raw extractions stay in `work/rerun/`.
+New-version text reports strip trailing spaces and tabs.
 The runner refuses to overwrite differing results.
 Manual migration ledgers stay pinned to their two original projects.
 Accessor categories are reported mechanically until a new sample is reviewed.

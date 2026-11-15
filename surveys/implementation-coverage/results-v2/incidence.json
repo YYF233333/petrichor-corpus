@@ -1,0 +1,1380 @@
+{
+ "Arrow": {
+  "bare_files": 55,
+  "bare_uses": 238,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 42
+ },
+ "BatteryAcid__godot-3d-multiplayer-template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "BehaviourToolkit": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 8
+ },
+ "CandyWrapper": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Castlevania-Remnants-of-Darkness": {
+  "bare_files": 8,
+  "bare_uses": 8,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 32
+ },
+ "Cats-Godot4-Modular-Souls-like-Template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "Cupcakes-Framework": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "DOGWALK": {
+  "bare_files": 6,
+  "bare_uses": 7,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 20
+ },
+ "Dororo": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "FRU-Sim": {
+  "bare_files": 2,
+  "bare_uses": 11,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 8
+ },
+ "Freedom-Hunter": {
+  "bare_files": 6,
+  "bare_uses": 10,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 26
+ },
+ "Friendslop-Template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "GBM2K-Framework": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "GDWaterKart": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Galaxy-Defiance": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "Genesis": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "GodSVG": {
+  "bare_files": 16,
+  "bare_uses": 30,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "Godot-2D-Action-Game": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 11
+ },
+ "Godot-4-Tower-Defense-Template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 9
+ },
+ "Godot-Game-Template": {
+  "bare_files": 8,
+  "bare_uses": 22,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "Godot-GameTemplate": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Godot-Inventory": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Godot-MCP-Native": {
+  "bare_files": 2,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 154
+ },
+ "Godot-Plush-Character": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Godot-Roguelike-Tutorial": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 21
+ },
+ "Godot4-FPS-Template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "Godot4SourceEngineMovement": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "Godot4ThirdPersonCombatPrototype": {
+  "bare_files": 1,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "GodotDynamicInventorySystem": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "GodotFPS-Template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "GodotFirebase": {
+  "bare_files": 6,
+  "bare_uses": 10,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "GodotOS": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 18
+ },
+ "GodotPixelRenderer": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "GodotProjectZero": {
+  "bare_files": 5,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "Godot_Universal-Controller-tutorial": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Gut": {
+  "bare_files": 4,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 8
+ },
+ "Improved-KCC": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "Legacy_SM63Redux": {
+  "bare_files": 12,
+  "bare_uses": 16,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 41
+ },
+ "LibreAim": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "Lorien": {
+  "bare_files": 5,
+  "bare_uses": 7,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "Lost-Pilot": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Metroidvania-System": {
+  "bare_files": 20,
+  "bare_uses": 25,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "Microverse": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "MizGodotTools": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "MultiplayerFPSTutorial": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "OpMon": {
+  "bare_files": 2,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 47
+ },
+ "Open-Industry-Project-Godot": {
+  "bare_files": 17,
+  "bare_uses": 23,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 33
+ },
+ "OpenGamepadUI": {
+  "bare_files": 18,
+  "bare_uses": 23,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "OpenLiberty": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "OpenVic": {
+  "bare_files": 29,
+  "bare_uses": 42,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "PSGodotTemplateRepo": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "PVZ-Godot-Dream": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 33
+ },
+ "PankuConsole": {
+  "bare_files": 5,
+  "bare_uses": 27,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 7
+ },
+ "PixelPlanets": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 15
+ },
+ "Pixelorama": {
+  "bare_files": 12,
+  "bare_uses": 15,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "Pocket-Godot": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Project-Heartbeat": {
+  "bare_files": 15,
+  "bare_uses": 28,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 314
+ },
+ "Qodot": {
+  "bare_files": 3,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 18
+ },
+ "Reia": {
+  "bare_files": 4,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "Resources-GDScript": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "RhythiaRewrite": {
+  "bare_files": 2,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 28
+ },
+ "Scene-Manager": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "ShaderV": {
+  "bare_files": 83,
+  "bare_uses": 119,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "SignalVisualizer": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "SimpleFPSController": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Sky3D": {
+  "bare_files": 1,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "Slay-The-Robot": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "SmartShape2D": {
+  "bare_files": 6,
+  "bare_uses": 6,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 13
+ },
+ "SonicWorldsNext": {
+  "bare_files": 6,
+  "bare_uses": 10,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 19
+ },
+ "SoundThread": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 37
+ },
+ "Stardew": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 11
+ },
+ "Starter-Kit-3D-Platformer": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Starter-Kit-City-Builder": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Starter-Kit-FPS": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Starter-Kit-Match-3": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "Starter-Kit-Racing": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Strategy-GDScript": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "Super-Mario-Bros.-Remastered-Public": {
+  "bare_files": 3,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 11
+ },
+ "Super-Mario-World-Remastered-Public": {
+  "bare_files": 2,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 23
+ },
+ "SurvivorsClone_Complete": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 31
+ },
+ "TakinGodotTemplate": {
+  "bare_files": 6,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "TileMapDual": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "TopdownStarter": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "TowDownGame": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 77
+ },
+ "UltimateGodotIntro2D": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "Virtual-Joystick-Godot": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "Yugens-Terrain-Authoring-Toolkit": {
+  "bare_files": 5,
+  "bare_uses": 10,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 18
+ },
+ "_original_client": {
+  "bare_files": 3,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "aarpg-tutorial": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "abyssal-walker": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 40
+ },
+ "age-of-war": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 12
+ },
+ "anima": {
+  "bare_files": 6,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "beehave": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "better-terrain": {
+  "bare_files": 2,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 30
+ },
+ "boscaceoil-blue": {
+  "bare_files": 23,
+  "bare_uses": 45,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "comedot": {
+  "bare_files": 9,
+  "bare_uses": 25,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 9
+ },
+ "cyclopsLevelBuilder": {
+  "bare_files": 19,
+  "bare_uses": 24,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "deck_builder_tutorial": {
+  "bare_files": 2,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "desksaw": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "devmoreir4__godot-3d-multiplayer-template": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 18
+ },
+ "dialogic": {
+  "bare_files": 10,
+  "bare_uses": 14,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 27
+ },
+ "escoria-demo-game": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "func_godot_plugin": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "gaea": {
+  "bare_files": 7,
+  "bare_uses": 15,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "game-base-2D": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "gd-YAFSM": {
+  "bare_files": 8,
+  "bare_uses": 38,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 53
+ },
+ "gdUnit4": {
+  "bare_files": 10,
+  "bare_uses": 10,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "gdmaim": {
+  "bare_files": 3,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "gloot": {
+  "bare_files": 10,
+  "bare_uses": 20,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "godot-2d-adventure-tutorial": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-2d-builder": {
+  "bare_files": 4,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 23
+ },
+ "godot-2d-space-game": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 12
+ },
+ "godot-2d-topdown-template": {
+  "bare_files": 4,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-3-beginner-2d-platformer": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "godot-4-2d-visual-novel": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "godot-4-3d-third-person-controller": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "godot-4-procedural-generation": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 2,
+  "iterator_files": 2,
+  "self_code_names": 8
+ },
+ "godot-FirstPersonStarter": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "godot-admob-plugin": {
+  "bare_files": 9,
+  "bare_uses": 17,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 25
+ },
+ "godot-ai": {
+  "bare_files": 4,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 31
+ },
+ "godot-aseprite-wizard": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 15
+ },
+ "godot-card-game-frame": {
+  "bare_files": 2,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "godot-chess": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 19
+ },
+ "godot-debug-menu": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-demo-projects": {
+  "bare_files": 11,
+  "bare_uses": 19,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "godot-engine.easy-charts": {
+  "bare_files": 1,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "godot-gameplay-systems": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-mcp-pro": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 11
+ },
+ "godot-mod-loader": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-multiplayer": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "godot-open-rpg": {
+  "bare_files": 6,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 7
+ },
+ "godot-open-rts": {
+  "bare_files": 3,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-port": {
+  "bare_files": 13,
+  "bare_uses": 21,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 16
+ },
+ "godot-resources-as-sheets-plugin": {
+  "bare_files": 7,
+  "bare_uses": 15,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "godot-road-generator": {
+  "bare_files": 6,
+  "bare_uses": 8,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 99
+ },
+ "godot-rocket-league": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "godot-start": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 15
+ },
+ "godot-statecharts": {
+  "bare_files": 3,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-steering-ai-framework": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 16
+ },
+ "godot-tactical-rpg": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot-tiny-mmo": {
+  "bare_files": 11,
+  "bare_uses": 20,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "godot-visual-effects": {
+  "bare_files": 4,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 5
+ },
+ "godot-xr-template": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "godot-xr-tools": {
+  "bare_files": 5,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 6
+ },
+ "godot4-third-person-controller": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "godot_autobattler_course": {
+  "bare_files": 7,
+  "bare_uses": 13,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot_dialogue_manager": {
+  "bare_files": 3,
+  "bare_uses": 6,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "godot_experiments": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot_heightmap_plugin": {
+  "bare_files": 17,
+  "bare_uses": 27,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 7
+ },
+ "godot_input_helper": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot_little_camera_preview": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot_open_star_fighter": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "godot_sound_manager": {
+  "bare_files": 1,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "godot_spatial_gardener": {
+  "bare_files": 20,
+  "bare_uses": 42,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 11
+ },
+ "godot_ui_components": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 12
+ },
+ "godots": {
+  "bare_files": 15,
+  "bare_uses": 19,
+  "iterator_defs": 1,
+  "iterator_files": 1,
+  "self_code_names": 1
+ },
+ "holoDelta": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 60
+ },
+ "jdungeon": {
+  "bare_files": 1,
+  "bare_uses": 2,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "knakk": {
+  "bare_files": 2,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 20
+ },
+ "learn-gdscript": {
+  "bare_files": 17,
+  "bare_uses": 28,
+  "iterator_defs": 1,
+  "iterator_files": 1,
+  "self_code_names": 20
+ },
+ "limbo-godot": {
+  "bare_files": 2,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "malware-slayer": {
+  "bare_files": 10,
+  "bare_uses": 15,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "material-maker": {
+  "bare_files": 15,
+  "bare_uses": 41,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 168
+ },
+ "moddable-platformer": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "museum-of-all-things": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 77
+ },
+ "nakama-godot": {
+  "bare_files": 4,
+  "bare_uses": 9,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 26
+ },
+ "netfox": {
+  "bare_files": 20,
+  "bare_uses": 25,
+  "iterator_defs": 1,
+  "iterator_files": 1,
+  "self_code_names": 0
+ },
+ "opengs": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "paddles_balls_blocks_walls": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "pandora": {
+  "bare_files": 2,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "phantom-camera": {
+  "bare_files": 6,
+  "bare_uses": 14,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 7
+ },
+ "poder-solar": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "protongraph": {
+  "bare_files": 6,
+  "bare_uses": 8,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "ridiculous_coding": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "scatter": {
+  "bare_files": 4,
+  "bare_uses": 12,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 14
+ },
+ "script-ide": {
+  "bare_files": 2,
+  "bare_uses": 5,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "shotcaller-godot": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 36
+ },
+ "simgine": {
+  "bare_files": 2,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "simple-godot-train": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0
+ },
+ "soccer-course": {
+  "bare_files": 1,
+  "bare_uses": 1,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "sourceofmana": {
+  "bare_files": 18,
+  "bare_uses": 31,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 10
+ },
+ "starship-olympics": {
+  "bare_files": 10,
+  "bare_uses": 16,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 302
+ },
+ "super-godot-galaxy": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "tanks-of-freedom-ii": {
+  "bare_files": 3,
+  "bare_uses": 4,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 17
+ },
+ "template-beat-em-up": {
+  "bare_files": 3,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 17
+ },
+ "the-mirror": {
+  "bare_files": 9,
+  "bare_uses": 13,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "threadbare": {
+  "bare_files": 19,
+  "bare_uses": 29,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 24
+ },
+ "top-down-action-rpg-template": {
+  "bare_files": 4,
+  "bare_uses": 6,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 9
+ },
+ "tower-defense-godot4": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 1
+ },
+ "tower-defense-tutorial": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "tps-demo": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "unidot_importer": {
+  "bare_files": 3,
+  "bare_uses": 10,
+  "iterator_defs": 1,
+  "iterator_files": 1,
+  "self_code_names": 27
+ },
+ "unitypackage_godot": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 0
+ },
+ "unto-deepest-depths-prototype": {
+  "bare_files": 0,
+  "bare_uses": 0,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ },
+ "voxelgame": {
+  "bare_files": 4,
+  "bare_uses": 6,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 13
+ },
+ "vpuppr": {
+  "bare_files": 5,
+  "bare_uses": 10,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 3
+ },
+ "wutw-public": {
+  "bare_files": 6,
+  "bare_uses": 12,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 18
+ },
+ "yipiantian": {
+  "bare_files": 1,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 4
+ },
+ "youtd2": {
+  "bare_files": 3,
+  "bare_uses": 3,
+  "iterator_defs": 0,
+  "iterator_files": 0,
+  "self_code_names": 2
+ }
+}

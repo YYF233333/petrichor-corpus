@@ -1,0 +1,622 @@
+{
+ "Arrow": {},
+ "BatteryAcid__godot-3d-multiplayer-template": {
+  "Resource, Name.new(...)": 5,
+  "Resource, some required": 1
+ },
+ "BehaviourToolkit": {},
+ "CandyWrapper": {},
+ "Castlevania-Remnants-of-Darkness": {},
+ "Cats-Godot4-Modular-Souls-like-Template": {},
+ "Cupcakes-Framework": {},
+ "DOGWALK": {},
+ "Dororo": {
+  "Node, Name.new(...)": 2,
+  "Node, some required": 2
+ },
+ "FRU-Sim": {},
+ "Freedom-Hunter": {
+  "Node, some required": 1,
+  "other, Name.new(...)": 19,
+  "other, some required": 9
+ },
+ "Friendslop-Template": {
+  "other, Name.new()": 4,
+  "other, Name.new(...)": 5,
+  "other, all with defaults": 3
+ },
+ "GBM2K-Framework": {
+  "Node, some required": 1
+ },
+ "GDWaterKart": {},
+ "Galaxy-Defiance": {},
+ "Genesis": {},
+ "GodSVG": {
+  "Resource, Name.new()": 3,
+  "Resource, Name.new(...)": 8,
+  "Resource, all with defaults": 3,
+  "other, Name.new(...)": 11,
+  "other, some required": 3
+ },
+ "Godot-2D-Action-Game": {},
+ "Godot-4-Tower-Defense-Template": {},
+ "Godot-Game-Template": {},
+ "Godot-GameTemplate": {},
+ "Godot-Inventory": {
+  "other, Name.new(...)": 9,
+  "other, some required": 2
+ },
+ "Godot-MCP-Native": {},
+ "Godot-Plush-Character": {},
+ "Godot-Roguelike-Tutorial": {},
+ "Godot4-FPS-Template": {},
+ "Godot4SourceEngineMovement": {},
+ "Godot4ThirdPersonCombatPrototype": {},
+ "GodotDynamicInventorySystem": {},
+ "GodotFPS-Template": {},
+ "GodotFirebase": {
+  "Node, Name.new(...)": 3,
+  "Node, all with defaults": 1,
+  "Resource, Name.new(...)": 4,
+  "Resource, some required": 1,
+  "other, Name.new(...)": 6,
+  "other, some required": 11
+ },
+ "GodotOS": {
+  "other, Name.new(...)": 2,
+  "other, some required": 2
+ },
+ "GodotPixelRenderer": {},
+ "GodotProjectZero": {},
+ "Godot_Universal-Controller-tutorial": {},
+ "Gut": {
+  "other, all with defaults": 4,
+  "other, some required": 3
+ },
+ "Improved-KCC": {},
+ "Legacy_SM63Redux": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "other, Name.new(...)": 2,
+  "other, some required": 1
+ },
+ "LibreAim": {},
+ "Lorien": {},
+ "Lost-Pilot": {
+  "other, Name.new(...)": 1,
+  "other, some required": 1
+ },
+ "Metroidvania-System": {
+  "other, Name.new(...)": 1,
+  "other, some required": 3
+ },
+ "Microverse": {
+  "other, Name.new(...)": 2,
+  "other, some required": 2
+ },
+ "MizGodotTools": {},
+ "MultiplayerFPSTutorial": {},
+ "OpMon": {
+  "Resource, Name.new(...)": 1,
+  "Resource, all with defaults": 8,
+  "other, Name.new()": 2,
+  "other, Name.new(...)": 7,
+  "other, all with defaults": 2
+ },
+ "Open-Industry-Project-Godot": {},
+ "OpenGamepadUI": {
+  "Resource, Name.new()": 1,
+  "Resource, Name.new(...)": 3,
+  "Resource, all with defaults": 1,
+  "Resource, some required": 3,
+  "other, Name.new(...)": 16,
+  "other, some required": 2
+ },
+ "OpenLiberty": {},
+ "OpenVic": {},
+ "PSGodotTemplateRepo": {},
+ "PVZ-Godot-Dream": {
+  "other, Name.new()": 3,
+  "other, Name.new(...)": 5,
+  "other, all with defaults": 1,
+  "other, some required": 2
+ },
+ "PankuConsole": {},
+ "PixelPlanets": {},
+ "Pixelorama": {
+  "other, Name.new()": 5,
+  "other, Name.new(...)": 4,
+  "other, all with defaults": 3
+ },
+ "Pocket-Godot": {},
+ "Project-Heartbeat": {
+  "Resource, Name.new(...)": 2,
+  "Resource, some required": 1,
+  "other, Name.new(...)": 8,
+  "other, some required": 7
+ },
+ "Qodot": {
+  "Resource, Name.new(...)": 2,
+  "Resource, some required": 2,
+  "other, Name.new(...)": 4,
+  "other, some required": 4
+ },
+ "Reia": {
+  "Node, Name.new()": 1,
+  "Node, Name.new(...)": 7,
+  "Node, all with defaults": 4,
+  "Node, some required": 1,
+  "other, Name.new()": 8,
+  "other, Name.new(...)": 30,
+  "other, all with defaults": 25,
+  "other, some required": 6
+ },
+ "Resources-GDScript": {
+  "other, Name.new(...)": 5,
+  "other, some required": 1
+ },
+ "RhythiaRewrite": {
+  "Node, Name.new(...)": 1,
+  "Node, all with defaults": 2,
+  "Resource, Name.new()": 3,
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 6,
+  "other, Name.new(...)": 1,
+  "other, some required": 2
+ },
+ "Scene-Manager": {
+  "other, all with defaults": 1,
+  "other, some required": 2
+ },
+ "ShaderV": {},
+ "SignalVisualizer": {
+  "other, Name.new(...)": 6,
+  "other, some required": 3
+ },
+ "SimpleFPSController": {},
+ "Sky3D": {},
+ "Slay-The-Robot": {
+  "Resource, all with defaults": 2,
+  "Resource, some required": 1,
+  "other, Name.new()": 2,
+  "other, Name.new(...)": 3,
+  "other, all with defaults": 2,
+  "other, some required": 3
+ },
+ "SmartShape2D": {
+  "Resource, Name.new()": 3,
+  "Resource, Name.new(...)": 21,
+  "Resource, all with defaults": 3,
+  "other, Name.new()": 3,
+  "other, Name.new(...)": 67,
+  "other, all with defaults": 1,
+  "other, some required": 17
+ },
+ "SonicWorldsNext": {},
+ "SoundThread": {},
+ "Stardew": {},
+ "Starter-Kit-3D-Platformer": {},
+ "Starter-Kit-City-Builder": {},
+ "Starter-Kit-FPS": {},
+ "Starter-Kit-Match-3": {},
+ "Starter-Kit-Racing": {},
+ "Strategy-GDScript": {},
+ "Super-Mario-Bros.-Remastered-Public": {},
+ "Super-Mario-World-Remastered-Public": {},
+ "SurvivorsClone_Complete": {},
+ "TakinGodotTemplate": {},
+ "TileMapDual": {
+  "Node, Name.new(...)": 2,
+  "Node, some required": 2,
+  "Resource, Name.new()": 1,
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 1,
+  "Resource, some required": 3,
+  "other, Name.new(...)": 1,
+  "other, some required": 1
+ },
+ "TopdownStarter": {},
+ "TowDownGame": {},
+ "UltimateGodotIntro2D": {},
+ "Virtual-Joystick-Godot": {},
+ "Yugens-Terrain-Authoring-Toolkit": {
+  "other, Name.new(...)": 2,
+  "other, all with defaults": 1,
+  "other, some required": 1
+ },
+ "_original_client": {
+  "Node, Name.new()": 4,
+  "Node, Name.new(...)": 3,
+  "Node, all with defaults": 3,
+  "Node, some required": 1,
+  "other, Name.new(...)": 5,
+  "other, some required": 3
+ },
+ "aarpg-tutorial": {},
+ "abyssal-walker": {
+  "other, all with defaults": 4,
+  "other, some required": 2
+ },
+ "age-of-war": {},
+ "anima": {
+  "Node, some required": 1,
+  "other, Name.new()": 10,
+  "other, Name.new(...)": 98,
+  "other, all with defaults": 2,
+  "other, some required": 8
+ },
+ "beehave": {
+  "Node, some required": 5,
+  "other, Name.new(...)": 2,
+  "other, all with defaults": 1
+ },
+ "better-terrain": {},
+ "boscaceoil-blue": {
+  "Resource, some required": 1,
+  "other, Name.new(...)": 4,
+  "other, some required": 1
+ },
+ "comedot": {},
+ "cyclopsLevelBuilder": {
+  "Resource, Name.new(...)": 46,
+  "Resource, all with defaults": 5,
+  "other, Name.new(...)": 2,
+  "other, all with defaults": 1,
+  "other, some required": 1
+ },
+ "deck_builder_tutorial": {},
+ "desksaw": {},
+ "devmoreir4__godot-3d-multiplayer-template": {},
+ "dialogic": {
+  "Resource, Name.new()": 5,
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 2
+ },
+ "escoria-demo-game": {},
+ "func_godot_plugin": {
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 1,
+  "Resource, some required": 1,
+  "other, Name.new(...)": 2,
+  "other, all with defaults": 1,
+  "other, some required": 1
+ },
+ "gaea": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "Resource, Name.new()": 3,
+  "Resource, Name.new(...)": 3,
+  "Resource, all with defaults": 2,
+  "other, Name.new()": 2,
+  "other, Name.new(...)": 11,
+  "other, all with defaults": 1,
+  "other, some required": 6
+ },
+ "game-base-2D": {},
+ "gd-YAFSM": {
+  "Resource, Name.new()": 5,
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 5,
+  "other, some required": 1
+ },
+ "gdUnit4": {
+  "Resource, Name.new(...)": 6,
+  "Resource, some required": 2,
+  "other, Name.new()": 17,
+  "other, Name.new(...)": 72,
+  "other, all with defaults": 4,
+  "other, some required": 24
+ },
+ "gdmaim": {
+  "other, all with defaults": 1,
+  "other, some required": 7
+ },
+ "gloot": {
+  "other, Name.new()": 3,
+  "other, Name.new(...)": 17,
+  "other, all with defaults": 2,
+  "other, some required": 3
+ },
+ "godot-2d-adventure-tutorial": {},
+ "godot-2d-builder": {},
+ "godot-2d-space-game": {
+  "other, Name.new(...)": 40,
+  "other, some required": 24
+ },
+ "godot-2d-topdown-template": {},
+ "godot-3-beginner-2d-platformer": {},
+ "godot-4-2d-visual-novel": {},
+ "godot-4-3d-third-person-controller": {},
+ "godot-4-procedural-generation": {
+  "other, Name.new(...)": 2,
+  "other, some required": 2
+ },
+ "godot-FirstPersonStarter": {},
+ "godot-admob-plugin": {
+  "Node, some required": 4,
+  "other, Name.new(...)": 33,
+  "other, some required": 24
+ },
+ "godot-ai": {
+  "other, some required": 10
+ },
+ "godot-aseprite-wizard": {
+  "other, some required": 1
+ },
+ "godot-card-game-frame": {},
+ "godot-chess": {},
+ "godot-debug-menu": {},
+ "godot-demo-projects": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "other, Name.new(...)": 3,
+  "other, all with defaults": 1,
+  "other, some required": 1
+ },
+ "godot-engine.easy-charts": {
+  "Node, Name.new(...)": 3,
+  "Node, some required": 4,
+  "Resource, Name.new()": 2,
+  "Resource, Name.new(...)": 13,
+  "Resource, all with defaults": 1,
+  "Resource, some required": 1,
+  "other, Name.new(...)": 27,
+  "other, some required": 2
+ },
+ "godot-gameplay-systems": {
+  "Resource, Name.new()": 6,
+  "Resource, Name.new(...)": 7,
+  "Resource, all with defaults": 3,
+  "other, Name.new(...)": 19,
+  "other, some required": 2
+ },
+ "godot-mcp-pro": {},
+ "godot-mod-loader": {
+  "Resource, Name.new()": 1,
+  "Resource, Name.new(...)": 7,
+  "Resource, all with defaults": 1,
+  "Resource, some required": 3,
+  "other, Name.new(...)": 2,
+  "other, some required": 3
+ },
+ "godot-multiplayer": {},
+ "godot-open-rpg": {
+  "other, Name.new(...)": 3,
+  "other, some required": 2
+ },
+ "godot-open-rts": {
+  "Node, some required": 11
+ },
+ "godot-port": {
+  "other, Name.new(...)": 6,
+  "other, some required": 2
+ },
+ "godot-resources-as-sheets-plugin": {},
+ "godot-road-generator": {
+  "Node, some required": 1,
+  "Resource, some required": 2,
+  "other, some required": 3
+ },
+ "godot-rocket-league": {},
+ "godot-start": {},
+ "godot-statecharts": {
+  "Node, some required": 2,
+  "other, all with defaults": 2
+ },
+ "godot-steering-ai-framework": {
+  "other, Name.new(...)": 39,
+  "other, some required": 24
+ },
+ "godot-tactical-rpg": {
+  "other, Name.new(...)": 27,
+  "other, some required": 23
+ },
+ "godot-tiny-mmo": {
+  "other, Name.new(...)": 1,
+  "other, some required": 3
+ },
+ "godot-visual-effects": {},
+ "godot-xr-template": {},
+ "godot-xr-tools": {
+  "Resource, Name.new()": 1,
+  "Resource, all with defaults": 1,
+  "other, Name.new(...)": 11,
+  "other, some required": 5
+ },
+ "godot4-third-person-controller": {},
+ "godot_autobattler_course": {
+  "other, Name.new(...)": 2,
+  "other, some required": 3
+ },
+ "godot_dialogue_manager": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "other, Name.new(...)": 22,
+  "other, all with defaults": 2,
+  "other, some required": 7
+ },
+ "godot_experiments": {},
+ "godot_heightmap_plugin": {
+  "other, Name.new(...)": 4,
+  "other, some required": 6
+ },
+ "godot_input_helper": {},
+ "godot_little_camera_preview": {},
+ "godot_open_star_fighter": {},
+ "godot_sound_manager": {
+  "Node, all with defaults": 1
+ },
+ "godot_spatial_gardener": {
+  "Node, some required": 15,
+  "Resource, all with defaults": 6,
+  "Resource, some required": 1,
+  "other, all with defaults": 4,
+  "other, some required": 15
+ },
+ "godot_ui_components": {},
+ "godots": {
+  "Node, Name.new(...)": 2,
+  "Node, some required": 1,
+  "other, Name.new()": 1,
+  "other, Name.new(...)": 114,
+  "other, all with defaults": 2,
+  "other, some required": 17
+ },
+ "holoDelta": {},
+ "jdungeon": {
+  "Node, all with defaults": 1
+ },
+ "knakk": {},
+ "learn-gdscript": {
+  "other, Name.new(...)": 10,
+  "other, all with defaults": 1,
+  "other, some required": 10
+ },
+ "limbo-godot": {
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 1
+ },
+ "malware-slayer": {
+  "Node, Name.new(...)": 1,
+  "Node, some required": 1,
+  "other, Name.new(...)": 164,
+  "other, some required": 15
+ },
+ "material-maker": {
+  "Node, Name.new(...)": 3,
+  "Node, all with defaults": 4,
+  "Node, some required": 1
+ },
+ "moddable-platformer": {},
+ "museum-of-all-things": {},
+ "nakama-godot": {
+  "other, Name.new()": 13,
+  "other, Name.new(...)": 40,
+  "other, all with defaults": 8,
+  "other, some required": 7
+ },
+ "netfox": {
+  "Node, Name.new(...)": 9,
+  "Node, all with defaults": 3,
+  "other, Name.new()": 14,
+  "other, Name.new(...)": 80,
+  "other, all with defaults": 5,
+  "other, some required": 11
+ },
+ "opengs": {
+  "Resource, Name.new(...)": 10,
+  "Resource, some required": 8,
+  "other, Name.new(...)": 1,
+  "other, some required": 2
+ },
+ "paddles_balls_blocks_walls": {},
+ "pandora": {
+  "Node, some required": 2,
+  "Resource, Name.new(...)": 3,
+  "Resource, some required": 1,
+  "other, Name.new(...)": 80,
+  "other, all with defaults": 1,
+  "other, some required": 7
+ },
+ "phantom-camera": {},
+ "poder-solar": {},
+ "protongraph": {
+  "other, Name.new()": 118,
+  "other, Name.new(...)": 44,
+  "other, all with defaults": 3
+ },
+ "ridiculous_coding": {},
+ "scatter": {},
+ "script-ide": {},
+ "shotcaller-godot": {
+  "Node, all with defaults": 1,
+  "other, some required": 2
+ },
+ "simgine": {
+  "other, Name.new(...)": 1,
+  "other, some required": 1
+ },
+ "simple-godot-train": {},
+ "soccer-course": {
+  "Resource, Name.new(...)": 1,
+  "Resource, some required": 1,
+  "other, Name.new(...)": 2,
+  "other, some required": 1
+ },
+ "sourceofmana": {
+  "Node, Name.new(...)": 4,
+  "Node, all with defaults": 1,
+  "Node, some required": 4,
+  "other, Name.new(...)": 9,
+  "other, some required": 4
+ },
+ "starship-olympics": {
+  "Resource, Name.new()": 2,
+  "Resource, Name.new(...)": 1,
+  "Resource, all with defaults": 1,
+  "other, Name.new()": 1,
+  "other, Name.new(...)": 6,
+  "other, all with defaults": 1,
+  "other, some required": 1
+ },
+ "super-godot-galaxy": {},
+ "tanks-of-freedom-ii": {
+  "other, Name.new(...)": 3,
+  "other, some required": 19
+ },
+ "template-beat-em-up": {
+  "other, Name.new(...)": 7,
+  "other, some required": 1
+ },
+ "the-mirror": {
+  "other, some required": 1
+ },
+ "threadbare": {
+  "Node, Name.new()": 6,
+  "Node, Name.new(...)": 1,
+  "Node, all with defaults": 1,
+  "Node, some required": 1,
+  "Resource, Name.new()": 1,
+  "Resource, Name.new(...)": 2,
+  "Resource, all with defaults": 2,
+  "Resource, some required": 1
+ },
+ "top-down-action-rpg-template": {},
+ "tower-defense-godot4": {},
+ "tower-defense-tutorial": {},
+ "tps-demo": {},
+ "unidot_importer": {
+  "other, all with defaults": 1,
+  "other, some required": 2
+ },
+ "unitypackage_godot": {
+  "other, Name.new(...)": 1,
+  "other, some required": 4
+ },
+ "unto-deepest-depths-prototype": {
+  "other, Name.new(...)": 1,
+  "other, some required": 1
+ },
+ "voxelgame": {},
+ "vpuppr": {
+  "Node, Name.new(...)": 4,
+  "Node, all with defaults": 1,
+  "Node, some required": 2,
+  "other, Name.new(...)": 12,
+  "other, some required": 1
+ },
+ "wutw-public": {
+  "other, Name.new()": 2,
+  "other, Name.new(...)": 6,
+  "other, all with defaults": 1
+ },
+ "yipiantian": {
+  "other, all with defaults": 2
+ },
+ "youtd2": {
+  "Node, Name.new(...)": 72,
+  "Node, some required": 19,
+  "other, Name.new(...)": 43,
+  "other, some required": 3
+ }
+}

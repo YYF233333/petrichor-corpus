@@ -1,0 +1,501 @@
+== autoloads per repository (with class_name)
+  Super-Mario-Bros.-Remastered-Public [game]: 11 autoloads, 0 with class_name
+  godot-open-rpg [game]: 9 autoloads, 4 with class_name
+  Microverse [game]: 7 autoloads, 0 with class_name
+  Godot-GameTemplate [game]: 5 autoloads, 1 with class_name
+  Starter-Kit-City-Builder [game]: 1 autoloads, 0 with class_name
+  tps-demo [game]: 1 autoloads, 0 with class_name
+  Starter-Kit-3D-Platformer [game]: 1 autoloads, 0 with class_name
+  godot-open-rts [game]: 6 autoloads, 0 with class_name
+  godot-2d-space-game [game]: 2 autoloads, 0 with class_name
+  godot-4-3d-third-person-controller [game]: 2 autoloads, 0 with class_name
+  Starter-Kit-FPS [game]: 1 autoloads, 0 with class_name
+  Reia [game]: 10 autoloads, 0 with class_name
+  godot-tactical-rpg [game]: 1 autoloads, 0 with class_name
+  godot-port [game]: 5 autoloads, 0 with class_name
+  escoria-demo-game [game]: 1 autoloads, 0 with class_name
+  voxelgame [game]: 1 autoloads, 0 with class_name
+  TowDownGame [game]: 9 autoloads, 0 with class_name
+  GodotDynamicInventorySystem [game]: 2 autoloads, 0 with class_name
+  museum-of-all-things [game]: 16 autoloads, 0 with class_name
+  godot-2d-builder [game]: 7 autoloads, 0 with class_name
+  comedot [game]: 9 autoloads, 0 with class_name
+  starship-olympics [game]: 12 autoloads, 0 with class_name
+  TakinGodotTemplate [game]: 16 autoloads, 0 with class_name
+  OpenLiberty [game]: 3 autoloads, 0 with class_name
+  OpenVic [game]: 12 autoloads, 0 with class_name
+  deck_builder_tutorial [game]: 5 autoloads, 0 with class_name
+  UltimateGodotIntro2D [game]: 3 autoloads, 0 with class_name
+  tanks-of-freedom-ii [game]: 13 autoloads, 1 with class_name
+  godot-3-beginner-2d-platformer [game]: 3 autoloads, 0 with class_name
+  PVZ-Godot-Dream [game]: 7 autoloads, 3 with class_name
+  shotcaller-godot [game]: 8 autoloads, 0 with class_name
+  godot-tiny-mmo [game]: 7 autoloads, 0 with class_name
+  Slay-The-Robot [game]: 14 autoloads, 0 with class_name
+  Castlevania-Remnants-of-Darkness [game]: 4 autoloads, 2 with class_name
+  Super-Mario-World-Remastered-Public [game]: 12 autoloads, 0 with class_name
+  wutw-public [game]: 13 autoloads, 11 with class_name
+  Godot4ThirdPersonCombatPrototype [game]: 3 autoloads, 0 with class_name
+  youtd2 [game]: 45 autoloads, 1 with class_name
+  godot-xr-template [game]: 3 autoloads, 0 with class_name
+  desksaw [game]: 8 autoloads, 0 with class_name
+  GodotProjectZero [game]: 7 autoloads, 0 with class_name
+  godot-4-2d-visual-novel [game]: 2 autoloads, 0 with class_name
+  Legacy_SM63Redux [game]: 4 autoloads, 0 with class_name
+  threadbare [game]: 14 autoloads, 1 with class_name
+  Starter-Kit-Match-3 [game]: 1 autoloads, 0 with class_name
+  godot-2d-topdown-template [game]: 5 autoloads, 0 with class_name
+  SonicWorldsNext [game]: 3 autoloads, 1 with class_name
+  aarpg-tutorial [game]: 11 autoloads, 1 with class_name
+  godot_autobattler_course [game]: 4 autoloads, 0 with class_name
+  jdungeon [game]: 3 autoloads, 1 with class_name
+  LibreAim [game]: 5 autoloads, 0 with class_name
+  Strategy-GDScript [game]: 1 autoloads, 0 with class_name
+  devmoreir4__godot-3d-multiplayer-template [game]: 2 autoloads, 0 with class_name
+  top-down-action-rpg-template [game]: 5 autoloads, 0 with class_name
+  Godot-Roguelike-Tutorial [game]: 2 autoloads, 0 with class_name
+  unto-deepest-depths-prototype [game]: 3 autoloads, 0 with class_name
+  godot-2d-adventure-tutorial [game]: 3 autoloads, 0 with class_name
+  knakk [game]: 2 autoloads, 0 with class_name
+  Dororo [game]: 6 autoloads, 1 with class_name
+  _original_client [game]: 3 autoloads, 0 with class_name
+  OpMon [game]: 1 autoloads, 0 with class_name
+  Godot-Inventory [game]: 3 autoloads, 0 with class_name
+  template-beat-em-up [game]: 6 autoloads, 0 with class_name
+  game-base-2D [game]: 4 autoloads, 0 with class_name
+  godot-rocket-league [game]: 9 autoloads, 4 with class_name
+  Freedom-Hunter [game]: 2 autoloads, 2 with class_name
+  TopdownStarter [game]: 2 autoloads, 0 with class_name
+  DOGWALK [game]: 11 autoloads, 0 with class_name
+  malware-slayer [game]: 10 autoloads, 0 with class_name
+  SurvivorsClone_Complete [game]: 1 autoloads, 0 with class_name
+  Genesis [game]: 4 autoloads, 0 with class_name
+  Friendslop-Template [game]: 4 autoloads, 4 with class_name
+  super-godot-galaxy [game]: 1 autoloads, 0 with class_name
+  Project-Heartbeat [game]: 17 autoloads, 0 with class_name
+  tower-defense-godot4 [game]: 2 autoloads, 0 with class_name
+  limbo-godot [game]: 3 autoloads, 0 with class_name
+  abyssal-walker [game]: 6 autoloads, 0 with class_name
+  godot-chess [game]: 1 autoloads, 0 with class_name
+  Improved-KCC [game]: 2 autoloads, 2 with class_name
+  BatteryAcid__godot-3d-multiplayer-template [game]: 9 autoloads, 4 with class_name
+  PSGodotTemplateRepo [game]: 10 autoloads, 0 with class_name
+  RhythiaRewrite [game]: 4 autoloads, 0 with class_name
+  Stardew [game]: 7 autoloads, 0 with class_name
+  Galaxy-Defiance [game]: 2 autoloads, 0 with class_name
+  Resources-GDScript [game]: 6 autoloads, 0 with class_name
+  Lost-Pilot [game]: 1 autoloads, 1 with class_name
+  sourceofmana [game]: 3 autoloads, 0 with class_name
+  godot-card-game-frame [game]: 6 autoloads, 1 with class_name
+  Godot-2D-Action-Game [game]: 10 autoloads, 0 with class_name
+  soccer-course [game]: 5 autoloads, 0 with class_name
+  moddable-platformer [game]: 4 autoloads, 0 with class_name
+  paddles_balls_blocks_walls [game]: 3 autoloads, 0 with class_name
+  age-of-war [game]: 2 autoloads, 0 with class_name
+  tower-defense-tutorial [game]: 1 autoloads, 0 with class_name
+  holoDelta [game]: 5 autoloads, 0 with class_name
+  GodotFPS-Template [game]: 2 autoloads, 0 with class_name
+  Godot-4-Tower-Defense-Template [game]: 2 autoloads, 0 with class_name
+  FRU-Sim [game]: 4 autoloads, 0 with class_name
+  godot_open_star_fighter [game]: 5 autoloads, 0 with class_name
+  dialogic [plugin]: 1 autoloads, 0 with class_name
+  godot_dialogue_manager [plugin]: 3 autoloads, 0 with class_name
+  godot-ai [plugin]: 1 autoloads, 0 with class_name
+  beehave [plugin]: 2 autoloads, 0 with class_name
+  Gut [plugin]: 3 autoloads, 0 with class_name
+  Godot-Game-Template [plugin]: 3 autoloads, 3 with class_name
+  cyclopsLevelBuilder [plugin]: 1 autoloads, 0 with class_name
+  Metroidvania-System [plugin]: 1 autoloads, 1 with class_name
+  PankuConsole [plugin]: 2 autoloads, 1 with class_name
+  netfox [plugin]: 18 autoloads, 15 with class_name
+  pandora [plugin]: 1 autoloads, 0 with class_name
+  godot_input_helper [plugin]: 1 autoloads, 0 with class_name
+  Godot-MCP-Native [plugin]: 1 autoloads, 0 with class_name
+  godot_sound_manager [plugin]: 1 autoloads, 0 with class_name
+  nakama-godot [plugin]: 6 autoloads, 0 with class_name
+  godot-xr-tools [plugin]: 2 autoloads, 0 with class_name
+  godot-gameplay-systems [plugin]: 1 autoloads, 0 with class_name
+  godot-mod-loader [plugin]: 4 autoloads, 0 with class_name
+  SignalVisualizer [plugin]: 1 autoloads, 0 with class_name
+  Scene-Manager [plugin]: 1 autoloads, 0 with class_name
+  Pixelorama [tool]: 12 autoloads, 0 with class_name
+  Lorien [tool]: 10 autoloads, 0 with class_name
+  material-maker [tool]: 10 autoloads, 2 with class_name
+  SoundThread [tool]: 3 autoloads, 0 with class_name
+  learn-gdscript [tool]: 6 autoloads, 0 with class_name
+  GodSVG [tool]: 3 autoloads, 0 with class_name
+  protongraph [tool]: 12 autoloads, 1 with class_name
+  GodotOS [tool]: 6 autoloads, 0 with class_name
+  the-mirror [tool]: 22 autoloads, 1 with class_name
+  Open-Industry-Project-Godot [tool]: 4 autoloads, 0 with class_name
+  boscaceoil-blue [tool]: 1 autoloads, 0 with class_name
+  godots [tool]: 7 autoloads, 0 with class_name
+  vpuppr [tool]: 1 autoloads, 1 with class_name
+  godot-demo-projects [demo]: 15 autoloads, 0 with class_name
+  godot_experiments [demo]: 1 autoloads, 0 with class_name
+  MizGodotTools [demo]: 4 autoloads, 0 with class_name
+== type uses by position and shape
+     48  parameter                    Autoload.Enum
+     41  var/const/for annotation     Autoload.Enum
+     24  var/const/for annotation     Autoload.InnerClass
+     19  parameter                    Autoload.InnerClass
+     17  var/const/for annotation     Autoload.X
+     16  parameter                    Autoload.X
+     14  container element            Autoload.Enum
+      9  parameter                    bare autoload name
+      4  container element            Autoload.InnerClass
+      4  as                           Autoload.Enum
+      4  var/const/for annotation     bare autoload name
+      3  return type                  Autoload.InnerClass
+      3  as                           Autoload.InnerClass
+      1  return type                  bare autoload name
+      1  as                           Autoload.X
+      1  return type                  Autoload.Enum
+      1  var/const/for annotation     Autoload.InnerClass (deeper)
+      1  as                           bare autoload name
+      1  is                           Autoload.InnerClass
+== by shape
+    108  Autoload.Enum
+     54  Autoload.InnerClass
+     34  Autoload.X
+     15  bare autoload name
+      1  Autoload.InnerClass (deeper)
+== type uses per repository (other autoload references in parentheses)
+  BatteryAcid__godot-3d-multiplayer-template [game]: 0 (58)
+  Castlevania-Remnants-of-Darkness [game]: 15 (1161)
+  DOGWALK [game]: 20 (649)
+  FRU-Sim [game]: 0 (239)
+  Freedom-Hunter [game]: 0 (52)
+  Friendslop-Template [game]: 0 (39)
+  Genesis [game]: 0 (309)
+  GodSVG [tool]: 0 (789)
+  Godot-2D-Action-Game [game]: 4 (174)
+  Godot-4-Tower-Defense-Template [game]: 0 (81)
+  Godot-Inventory [game]: 8 (74)
+  Godot-Roguelike-Tutorial [game]: 0 (17)
+  Godot4ThirdPersonCombatPrototype [game]: 0 (122)
+  GodotDynamicInventorySystem [game]: 0 (33)
+  GodotFPS-Template [game]: 2 (85)
+  GodotOS [tool]: 0 (42)
+  GodotProjectZero [game]: 0 (980)
+  Improved-KCC [game]: 0 (49)
+  Legacy_SM63Redux [game]: 0 (249)
+  LibreAim [game]: 1 (110)
+  Lorien [tool]: 9 (281)
+  Lost-Pilot [game]: 0 (5)
+  Metroidvania-System [plugin]: 0 (427)
+  Microverse [game]: 1 (69)
+  MizGodotTools [demo]: 0 (38)
+  OpMon [game]: 2 (14)
+  Open-Industry-Project-Godot [tool]: 0 (110)
+  OpenLiberty [game]: 1 (16)
+  OpenVic [game]: 35 (139)
+  PSGodotTemplateRepo [game]: 0 (18)
+  PVZ-Godot-Dream [game]: 0 (463)
+  Pixelorama [tool]: 22 (1556)
+  Project-Heartbeat [game]: 17 (512)
+  Reia [game]: 3 (121)
+  Resources-GDScript [game]: 0 (11)
+  RhythiaRewrite [game]: 0 (81)
+  Scene-Manager [plugin]: 0 (17)
+  Slay-The-Robot [game]: 0 (1862)
+  SonicWorldsNext [game]: 1 (528)
+  SoundThread [tool]: 0 (79)
+  Stardew [game]: 1 (79)
+  Starter-Kit-3D-Platformer [game]: 0 (5)
+  Starter-Kit-City-Builder [game]: 0 (5)
+  Starter-Kit-FPS [game]: 0 (7)
+  Starter-Kit-Match-3 [game]: 0 (4)
+  Super-Mario-Bros.-Remastered-Public [game]: 0 (2287)
+  Super-Mario-World-Remastered-Public [game]: 0 (1721)
+  SurvivorsClone_Complete [game]: 0 (12)
+  TakinGodotTemplate [game]: 9 (249)
+  TopdownStarter [game]: 0 (21)
+  TowDownGame [game]: 0 (268)
+  UltimateGodotIntro2D [game]: 0 (29)
+  _original_client [game]: 0 (62)
+  aarpg-tutorial [game]: 0 (169)
+  abyssal-walker [game]: 0 (203)
+  age-of-war [game]: 0 (162)
+  boscaceoil-blue [tool]: 2 (522)
+  comedot [game]: 0 (513)
+  deck_builder_tutorial [game]: 0 (107)
+  desksaw [game]: 0 (396)
+  devmoreir4__godot-3d-multiplayer-template [game]: 0 (30)
+  escoria-demo-game [game]: 0 (14)
+  game-base-2D [game]: 0 (12)
+  godot-2d-adventure-tutorial [game]: 0 (38)
+  godot-2d-builder [game]: 0 (105)
+  godot-2d-space-game [game]: 0 (80)
+  godot-2d-topdown-template [game]: 0 (47)
+  godot-3-beginner-2d-platformer [game]: 0 (11)
+  godot-4-2d-visual-novel [game]: 0 (12)
+  godot-card-game-frame [game]: 0 (37)
+  godot-chess [game]: 0 (3)
+  godot-demo-projects [demo]: 1 (99)
+  godot-gameplay-systems [plugin]: 0 (10)
+  godot-mod-loader [plugin]: 0 (188)
+  godot-open-rpg [game]: 0 (142)
+  godot-open-rts [game]: 0 (297)
+  godot-port [game]: 3 (137)
+  godot-rocket-league [game]: 0 (15)
+  godot-tiny-mmo [game]: 0 (170)
+  godot-xr-template [game]: 0 (12)
+  godot-xr-tools [plugin]: 0 (36)
+  godot_autobattler_course [game]: 0 (34)
+  godot_dialogue_manager [plugin]: 0 (63)
+  godot_experiments [demo]: 0 (2)
+  godot_input_helper [plugin]: 0 (56)
+  godot_open_star_fighter [game]: 0 (19)
+  godot_sound_manager [plugin]: 0 (16)
+  godots [tool]: 0 (255)
+  holoDelta [game]: 0 (263)
+  jdungeon [game]: 5 (695)
+  knakk [game]: 14 (92)
+  learn-gdscript [tool]: 0 (214)
+  limbo-godot [game]: 0 (61)
+  malware-slayer [game]: 0 (53)
+  material-maker [tool]: 0 (386)
+  moddable-platformer [game]: 5 (51)
+  museum-of-all-things [game]: 0 (330)
+  nakama-godot [plugin]: 0 (47)
+  netfox [plugin]: 6 (591)
+  paddles_balls_blocks_walls [game]: 0 (319)
+  pandora [plugin]: 0 (228)
+  protongraph [tool]: 0 (97)
+  shotcaller-godot [game]: 0 (630)
+  soccer-course [game]: 6 (114)
+  sourceofmana [game]: 0 (824)
+  starship-olympics [game]: 0 (392)
+  super-godot-galaxy [game]: 0 (4)
+  tanks-of-freedom-ii [game]: 0 (17)
+  template-beat-em-up [game]: 10 (103)
+  the-mirror [tool]: 0 (707)
+  threadbare [game]: 0 (229)
+  top-down-action-rpg-template [game]: 0 (43)
+  tower-defense-godot4 [game]: 0 (32)
+  tower-defense-tutorial [game]: 0 (14)
+  tps-demo [game]: 0 (145)
+  unto-deepest-depths-prototype [game]: 0 (24)
+  voxelgame [game]: 0 (20)
+  vpuppr [tool]: 0 (6)
+  wutw-public [game]: 0 (652)
+  youtd2 [game]: 9 (865)
+== all type uses
+-- bare autoload name
+   Microverse/script/ai/APIManager.gd:12 return type: APIManager
+   OpMon/Scenes/Events/Interactable/Player.gd:9 var/const/for annotation: PlayerData
+   OpMon/Scenes/Maps/MapManager.gd:21 var/const/for annotation: PlayerData
+   Godot-Inventory/scripts/tooltip/TooltipSection.gd:7 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/AffixesSection.gd:12 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/BaseStatsSection.gd:7 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/DescriptionSection.gd:9 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/EquippedSection.gd:9 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/NameSection.gd:9 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/PriceSection.gd:9 parameter: ItemTooltip
+   Godot-Inventory/scripts/tooltip/sections/SlotSection.gd:9 parameter: ItemTooltip
+   Stardew/Map/Store/commodity.gd:29 as: MouseItem
+   soccer-course/scenes/game_manager/game_states/game_state.gd:6 var/const/for annotation: GameManager
+   soccer-course/scenes/game_manager/game_states/game_state.gd:9 parameter: GameManager
+   netfox/test/netfox/servers/rollback-simulation-server.test.gd:7 var/const/for annotation: RollbackSimulationServer
+-- Autoload.Enum
+   Reia/godot/boot.gd:7 var/const/for annotation: GameOrchestrator.ExecutionMode
+   godot-port/Assets/UI/BasicControls/ResourceItem.gd:5 var/const/for annotation: Global.ResourceType
+   godot-port/Assets/UI/InfoWidgets/CityInfo.gd:27 var/const/for annotation: Global.Faction
+   godot-port/Assets/UI/InfoWidgets/ResInfo.gd:4 var/const/for annotation: Global.ResourceType
+   OpenLiberty/prefabs/actors/player/interface/player/player_hud.gd:16 parameter: DebugManager.DebugMode
+   Castlevania-Remnants-of-Darkness/SampleProject/Objects/ArcticShield/arctic_shield.gd:5 var/const/for annotation: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Objects/ArcticShield/icicle.gd:15 var/const/for annotation: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/AttackLogic.gd:16 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/AttackLogic.gd:23 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/EnemyStats.gd:17 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/EnemyStats.gd:18 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/HectorStats.gd:289 parameter: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Projectile.gd:11 var/const/for annotation: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/System/body.gd:37 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/System/weapon.gd:57 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/System/Menu/item_stats.gd:165 container element: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/enemies/AxeArmor/Axe.gd:10 var/const/for annotation: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/enemies/Frog/frog.gd:10 var/const/for annotation: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/enemies/Skeleton/BonePhysics.gd:8 var/const/for annotation: Global.Attribute
+   Castlevania-Remnants-of-Darkness/SampleProject/enemies/Zombie/zombie.gd:13 var/const/for annotation: Global.Attribute
+   youtd2/src/game_scene/game_scene.gd:305 var/const/for annotation: Globals.ConnectionType
+   youtd2/src/game_scene/game_scene.gd:519 parameter: TutorialProperties.TutorialId
+   youtd2/src/player/player.gd:737 var/const/for annotation: Globals.ConnectionType
+   youtd2/src/singletons/settings.gd:187 return type: Settings.InterfaceSize
+   youtd2/src/singletons/settings.gd:189 var/const/for annotation: Settings.InterfaceSize
+   youtd2/src/singletons/settings.gd:189 as: Settings.InterfaceSize
+   youtd2/src/singletons/settings.gd:195 var/const/for annotation: Settings.InterfaceSize
+   youtd2/src/ui/title_screen/title_screen.gd:65 parameter: Globals.ConnectionType
+   SonicWorldsNext/Scripts/Misc/PauseManager.gd:90 as: Global.TIME_TRACKING_MODES
+   jdungeon/classes/Enemy.gd:7 var/const/for annotation: J.ENTITY_TYPE
+   jdungeon/classes/Item.gd:18 var/const/for annotation: J.ENTITY_TYPE
+   jdungeon/classes/NPC.gd:7 var/const/for annotation: J.ENTITY_TYPE
+   jdungeon/scenes/player/Player.gd:10 var/const/for annotation: J.ENTITY_TYPE
+   jdungeon/todo/components/networking/projectilesynchronizercomponent/projectilesynchronizercomponent.gd:254 parameter: J.ENTITY_TYPE
+   knakk/GameScreen/Hand.gd:111 parameter: Events.Action
+   knakk/GameScreen/Action/PlayAgainArea.gd:34 parameter: Events.Action
+   knakk/GameScreen/Action/PlayAgainArea.gd:41 parameter: Events.Action
+   knakk/GameScreen/Action/PlayAgainArea.gd:52 parameter: Events.Action
+   knakk/GameScreen/Action/RedrawCardArea.gd:33 parameter: Events.Action
+   knakk/GameScreen/Action/RedrawCardArea.gd:40 parameter: Events.Action
+   knakk/GameScreen/Action/RedrawCardArea.gd:48 parameter: Events.Action
+   knakk/GameScreen/Card/Card.gd:155 parameter: Events.Action
+   knakk/GameScreen/Card/Card.gd:167 parameter: Events.Action
+   knakk/GameScreen/Card/Card.gd:214 parameter: Events.Action
+   knakk/GameScreen/Field/Field.gd:16 parameter: Events.Action
+   knakk/GameScreen/Field/Field.gd:22 parameter: Events.Action
+   knakk/GameScreen/Field/Field.gd:79 parameter: Events.Action
+   knakk/GameScreen/Field/Field.gd:88 parameter: Events.Action
+   template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_attributes.gd:145 parameter: CombatSystem.KnockbackStrength
+   template-beat-em-up/addons/quiver.beat_em_up/combat/quiver_attack_data.gd:21 var/const/for annotation: CombatSystem.HurtTypes
+   template-beat-em-up/addons/quiver.beat_em_up/combat/quiver_attack_data.gd:26 var/const/for annotation: CombatSystem.KnockbackStrength
+   template-beat-em-up/addons/quiver.beat_em_up/combat/quiver_knockback_data.gd:15 var/const/for annotation: CombatSystem.KnockbackStrength
+   template-beat-em-up/addons/quiver.beat_em_up/combat/quiver_knockback_data.gd:16 var/const/for annotation: CombatSystem.HurtTypes
+   template-beat-em-up/addons/quiver.beat_em_up/combat/quiver_knockback_data.gd:27 parameter: CombatSystem.KnockbackStrength
+   template-beat-em-up/addons/quiver.beat_em_up/combat/quiver_knockback_data.gd:28 parameter: CombatSystem.HurtTypes
+   template-beat-em-up/addons/quiver.beat_em_up/combat/collision_areas/quiver_grab_box.gd:16 var/const/for annotation: CombatSystem.CharacterTypes
+   template-beat-em-up/addons/quiver.beat_em_up/combat/collision_areas/quiver_hit_box.gd:16 var/const/for annotation: CombatSystem.CharacterTypes
+   template-beat-em-up/addons/quiver.beat_em_up/combat/collision_areas/quiver_hurt_box.gd:16 var/const/for annotation: CombatSystem.CharacterTypes
+   DOGWALK/source/audio/audio_manager.gd:30 parameter: GameStatus.game_states
+   DOGWALK/source/audio/audio_manager.gd:30 parameter: GameStatus.game_states
+   DOGWALK/source/audio/music_manager.gd:66 parameter: GameStatus.game_states
+   DOGWALK/source/audio/music_manager.gd:66 parameter: GameStatus.game_states
+   DOGWALK/source/audio/sfx/pinda/pinda_sfx.gd:199 var/const/for annotation: Constants.terrain_states
+   DOGWALK/source/audio/sfx/world/item_hint_sound.gd:12 parameter: GameStatus.item_states
+   DOGWALK/source/audio/sfx/world/item_hint_sound.gd:12 parameter: GameStatus.item_states
+   DOGWALK/source/entities/player_entities/pinda.gd:186 var/const/for annotation: Constants.interactable_ids
+   DOGWALK/source/entities/player_entities/pinda.gd:1989 var/const/for annotation: GameStatus.item_states
+   DOGWALK/source/entities/player_entities/pinda.gd:2986 var/const/for annotation: Constants.interactable_ids
+   DOGWALK/source/entities/player_entities/terrain_detector.gd:8 var/const/for annotation: Constants.terrain_states
+   DOGWALK/source/entities/player_entities/terrain_detector.gd:9 var/const/for annotation: Constants.terrain_states
+   DOGWALK/source/entities/player_entities/terrain_detector.gd:37 parameter: Constants.terrain_states
+   DOGWALK/source/globals/game_status.gd:43 container element: Constants.interactable_ids
+   DOGWALK/source/sequences/sequence_gate.gd:103 parameter: Constants.interactable_ids
+   DOGWALK/source/utility/collectable_item.gd:4 parameter: GameStatus.item_states
+   DOGWALK/source/utility/collectable_item.gd:4 parameter: GameStatus.item_states
+   DOGWALK/source/utility/collectable_item.gd:30 var/const/for annotation: Constants.interactable_ids
+   DOGWALK/source/utility/collectable_item.gd:137 parameter: GameStatus.item_states
+   DOGWALK/source/utility/collectable_item.gd:137 parameter: GameStatus.item_states
+   Project-Heartbeat/menus/LoadingScreen.gd:121 container element: SongAssetLoader.ASSET_TYPES
+   Project-Heartbeat/menus/LoadingScreen.gd:154 parameter: SongAssetLoader.ASSET_TYPES
+   Godot-2D-Action-Game/scripts/Resource/Effects.gd:5 var/const/for annotation: Consts.EffectsType
+   Godot-2D-Action-Game/scripts/Resource/Effects.gd:6 var/const/for annotation: Consts.BuffType
+   Godot-2D-Action-Game/scripts/Resource/Talent.gd:10 var/const/for annotation: Consts.UseType
+   Godot-2D-Action-Game/scripts/Resource/Talent.gd:18 var/const/for annotation: Consts.Type
+   soccer-course/scenes/game_manager/game_states/game_state.gd:4 parameter: GameManager.State
+   soccer-course/scenes/game_manager/game_states/game_state.gd:13 parameter: GameManager.State
+   soccer-course/scenes/game_manager/game_states/game_state_factory.gd:15 parameter: GameManager.State
+   soccer-course/scenes/screens/screen.gd:6 var/const/for annotation: MusicPlayer.Music
+   moddable-platformer/scripts/actions.gd:28 container element: Global.Player
+   moddable-platformer/scripts/actions.gd:29 container element: Global.Player
+   moddable-platformer/scripts/actions.gd:56 parameter: Global.Player
+   moddable-platformer/scripts/hud.gd:96 parameter: Global.Endings
+   moddable-platformer/scripts/player.gd:29 var/const/for annotation: Global.Player
+   GodotFPS-Template/common/utils/ammo_refil.gd:51 var/const/for annotation: Bullets.AmmoType
+   GodotFPS-Template/common/weapon/weapon.gd:17 var/const/for annotation: Bullets.AmmoType
+   Pixelorama/src/Autoload/Tools.gd:972 parameter: Global.LayerTypes
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:11 container element: Export.FileFormat
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:26 container element: Export.FileFormat
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:138 parameter: Export.FileFormat
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:246 container element: Export.FileFormat
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:405 parameter: Export.ExportTab
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:410 parameter: Export.Orientation
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:440 parameter: Export.AnimationDirection
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:537 as: Export.FileFormat
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:616 as: Export.CropMode
+   boscaceoil-blue/gui/widgets/ToastMessage.gd:44 parameter: Controller.StatusLevel
+   boscaceoil-blue/gui/widgets/ToastMessage.gd:84 parameter: Controller.StatusLevel
+   godot-demo-projects/3d/physics_tests/utils/container_log.gd:27 parameter: Log.LogType
+-- Autoload.InnerClass
+   Reia/godot/core/features/network/observers/o_network_id.gd:4 var/const/for annotation: EntityMap.EntityMapNamespace
+   Reia/godot/core/features/network/observers/o_network_id.gd:6 parameter: EntityMap.EntityMapNamespace
+   TakinGodotTemplate/godot/root/resources/preload/scene_manager_options/scene_manager_options.gd:26 return type: SceneManager.Options
+   TakinGodotTemplate/godot/root/resources/preload/scene_manager_options/scene_manager_options.gd:33 return type: SceneManager.Options
+   TakinGodotTemplate/godot/root/resources/preload/scene_manager_options/scene_manager_options.gd:40 return type: SceneManager.GeneralOptions
+   OpenVic/game/addons/OpenVic/TranslatorPlugin.gd:29 container element: GameSettings.RevertGroup
+   OpenVic/game/addons/OpenVic/TranslatorPlugin.gd:53 var/const/for annotation: GameSettings.RevertGroup
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:7 container element: GameSettings.RevertGroup
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:80 var/const/for annotation: GameSettings.RevertGroup
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:105 var/const/for annotation: GameSettings.RevertGroup
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:351 var/const/for annotation: GameSettings.RevertGroup
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:354 parameter: GameSettings.RevertGroup
+   youtd2/src/game_scene/game_scene.gd:321 var/const/for annotation: OnlineMatch.WebrtcPlayer
+   LibreAim/scenes/game_world/crosshair.gd:39 var/const/for annotation: SaveManager.SaveFile
+   Project-Heartbeat/autoloads/ScoreHistory.gd:16 parameter: HBBackend.LeaderboardScoreUploadedResult
+   Project-Heartbeat/autoloads/ScoreHistory.gd:19 var/const/for annotation: HBBackend.BackendRequestToken
+   Project-Heartbeat/menus/LoadingScreen.gd:18 var/const/for annotation: SongAssetLoader.AssetLoadToken
+   Project-Heartbeat/menus/LoadingScreen.gd:41 parameter: SongAssetLoader.AssetLoadToken
+   Project-Heartbeat/menus/LoadingScreen.gd:62 parameter: SongAssetLoader.AssetLoadToken
+   Project-Heartbeat/menus/LoadingScreen.gd:138 parameter: SongAssetLoader.AssetLoadToken
+   Project-Heartbeat/menus/MainMenu.gd:244 parameter: SongAssetLoader.AssetLoadToken
+   Project-Heartbeat/menus/music_player/MainMenuMusicPlayer.gd:77 parameter: SongAssetLoader.AssetLoadToken
+   Project-Heartbeat/menus/new_leaderboard_control/LeaderboardViewTab.gd:40 container element: HBBackend.BackendLeaderboardEntry
+   Project-Heartbeat/multiplayer/lobby/LobbyMenu.gd:123 as: YoutubeDL.CachingQueueEntry
+   Project-Heartbeat/rythm_game/ResultsScreen.gd:38 parameter: HBBackend.BackendLeaderboardEntry
+   Project-Heartbeat/rythm_game/ResultsScreen.gd:38 parameter: HBBackend.BackendLeaderboardEntry
+   Project-Heartbeat/rythm_game/ResultsScreen.gd:248 parameter: HBBackend.LeaderboardScoreUploadedResult
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:158 parameter: SongAssetLoader.AssetLoadToken
+   netfox/addons/netfox/servers/network-synchronization-server.gd:59 var/const/for annotation: NetworkCommandServer.Command
+   netfox/addons/netfox/servers/network-synchronization-server.gd:60 var/const/for annotation: NetworkCommandServer.Command
+   netfox/addons/netfox/servers/network-synchronization-server.gd:61 var/const/for annotation: NetworkCommandServer.Command
+   netfox/addons/netfox/servers/network-synchronization-server.gd:63 var/const/for annotation: NetworkCommandServer.Command
+   netfox/addons/netfox/servers/network-synchronization-server.gd:64 var/const/for annotation: NetworkCommandServer.Command
+   Pixelorama/addons/keychain/ShortcutEdit.gd:67 var/const/for annotation: Keychain.MouseMovementInputAction
+   Pixelorama/addons/keychain/ShortcutEdit.gd:138 var/const/for annotation: Keychain.InputGroup
+   Pixelorama/addons/keychain/ShortcutEdit.gd:150 var/const/for annotation: Keychain.InputAction
+   Pixelorama/addons/keychain/ShortcutEdit.gd:155 var/const/for annotation: Keychain.InputGroup
+   Pixelorama/addons/keychain/ShortcutEdit.gd:200 parameter: Keychain.InputGroup
+   Pixelorama/addons/keychain/ShortcutEdit.gd:206 var/const/for annotation: Keychain.InputGroup
+   Pixelorama/addons/keychain/ShortcutEdit.gd:414 is: Keychain.MouseMovementInputAction
+   Pixelorama/src/Tools/BaseDraw.gd:39 var/const/for annotation: Keychain.MouseMovementInputAction
+   Pixelorama/src/Tools/BaseDraw.gd:54 as: Keychain.MouseMovementInputAction
+   Pixelorama/src/Tools/BaseDraw.gd:1023 as: Keychain.MouseMovementInputAction
+   Pixelorama/src/Tools/BaseTool.gd:7 var/const/for annotation: Tools.Slot
+   Pixelorama/src/UI/Dialogs/ExportDialog.gd:34 container element: Export.ProcessedImage
+   Lorien/lorien/Misc/GlobalSignals.gd:5 parameter: KeybindingsManager.Action
+   Lorien/lorien/UI/MainMenu.gd:34 parameter: KeybindingsManager.Action
+   Lorien/lorien/UI/Toolbar.gd:48 var/const/for annotation: KeybindingsManager.Action
+   Lorien/lorien/UI/Toolbar.gd:100 parameter: KeybindingsManager.Action
+   Lorien/lorien/UI/Components/KeybindItem.gd:5 parameter: KeybindingsManager.Action
+   Lorien/lorien/UI/Components/KeybindItem.gd:11 var/const/for annotation: KeybindingsManager.Action
+   Lorien/lorien/UI/Components/KeybindItem.gd:27 parameter: KeybindingsManager.Action
+   Lorien/lorien/UI/Dialogs/SettingsDialog.gd:196 var/const/for annotation: KeybindingsManager.Action
+   Lorien/lorien/UI/Dialogs/SettingsDialog.gd:335 parameter: KeybindingsManager.Action
+-- Autoload.X
+   TakinGodotTemplate/godot/root/autoload/configuration/configuration_node/logger_wrapper_configuration/logger_wrapper_configuration.gd:9 var/const/for annotation: Log.LogLevel
+   TakinGodotTemplate/godot/root/autoload/configuration/configuration_node/logger_wrapper_configuration/logger_wrapper_configuration.gd:28 var/const/for annotation: Log.LogLevel
+   TakinGodotTemplate/godot/root/autoload/wrapper/log_wrapper/log_wrapper.gd:12 var/const/for annotation: Log.LogLevel
+   TakinGodotTemplate/godot/root/autoload/wrapper/log_wrapper/log_wrapper.gd:65 parameter: Log.LogLevel
+   TakinGodotTemplate/godot/root/autoload/wrapper/log_wrapper/log_wrapper.gd:77 var/const/for annotation: Log.LogLevel
+   TakinGodotTemplate/godot/root/autoload/wrapper/log_wrapper/log_wrapper.gd:78 as: Log.LogLevel
+   OpenVic/game/src/Autoload/MusicManager/MusicManager.gd:38 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/Systems/Startup/GameStart.gd:35 var/const/for annotation: Vic2Settings.Setting
+   OpenVic/game/src/Systems/Startup/GameStart.gd:60 var/const/for annotation: ModSettings.Setting
+   OpenVic/game/src/UI/GameMenu/MainMenu/MainMenu.gd:23 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:32 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:38 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:43 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:70 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:79 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:101 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:119 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:125 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:127 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:140 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:142 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:160 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:162 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:175 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:178 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:194 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:240 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:244 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:267 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:272 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:311 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:313 parameter: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:324 var/const/for annotation: GameSettings.Setting
+   OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:326 parameter: GameSettings.Setting
+-- Autoload.InnerClass (deeper)
+   Project-Heartbeat/rythm_game/results_screen/ResultsScreenExperienceInfoDisplay.gd:17 var/const/for annotation: HBBackend.LeaderboardScoreUploadedResult.ExperienceGainBreakdown

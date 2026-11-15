@@ -1,0 +1,1112 @@
+{
+ "Arrow": {
+  "external_members": 666,
+  "fp_members": 2478,
+  "loc": 15526,
+  "no_pub": 74
+ },
+ "BatteryAcid__godot-3d-multiplayer-template": {
+  "external_members": 32,
+  "fp_members": 171,
+  "loc": 592,
+  "no_pub": 43
+ },
+ "BehaviourToolkit": {
+  "external_members": 186,
+  "fp_members": 368,
+  "loc": 1734,
+  "no_pub": 83
+ },
+ "CandyWrapper": {
+  "external_members": 14,
+  "fp_members": 74,
+  "loc": 272,
+  "no_pub": 8
+ },
+ "Castlevania-Remnants-of-Darkness": {
+  "external_members": 1618,
+  "fp_members": 4419,
+  "loc": 16204,
+  "no_pub": 1048
+ },
+ "Cats-Godot4-Modular-Souls-like-Template": {
+  "external_members": 92,
+  "fp_members": 543,
+  "loc": 1783,
+  "no_pub": 116
+ },
+ "Cupcakes-Framework": {
+  "external_members": 4,
+  "fp_members": 62,
+  "loc": 193,
+  "no_pub": 16
+ },
+ "DOGWALK": {
+  "external_members": 439,
+  "fp_members": 1712,
+  "loc": 8779,
+  "no_pub": 259
+ },
+ "Dororo": {
+  "external_members": 47,
+  "fp_members": 315,
+  "loc": 1123,
+  "no_pub": 63
+ },
+ "FRU-Sim": {
+  "external_members": 525,
+  "fp_members": 2346,
+  "loc": 7573,
+  "no_pub": 358
+ },
+ "Freedom-Hunter": {
+  "external_members": 129,
+  "fp_members": 510,
+  "loc": 2280,
+  "no_pub": 86
+ },
+ "Friendslop-Template": {
+  "external_members": 166,
+  "fp_members": 497,
+  "loc": 3078,
+  "no_pub": 25
+ },
+ "GBM2K-Framework": {
+  "external_members": 19,
+  "fp_members": 73,
+  "loc": 276,
+  "no_pub": 3
+ },
+ "GDWaterKart": {
+  "external_members": 87,
+  "fp_members": 413,
+  "loc": 1705,
+  "no_pub": 89
+ },
+ "Galaxy-Defiance": {
+  "external_members": 22,
+  "fp_members": 150,
+  "loc": 366,
+  "no_pub": 34
+ },
+ "Genesis": {
+  "external_members": 91,
+  "fp_members": 373,
+  "loc": 1411,
+  "no_pub": 4
+ },
+ "GodSVG": {
+  "external_members": 640,
+  "fp_members": 2162,
+  "loc": 16328,
+  "no_pub": 47
+ },
+ "Godot-2D-Action-Game": {
+  "external_members": 266,
+  "fp_members": 521,
+  "loc": 2293,
+  "no_pub": 45
+ },
+ "Godot-4-Tower-Defense-Template": {
+  "external_members": 48,
+  "fp_members": 161,
+  "loc": 763,
+  "no_pub": 24
+ },
+ "Godot-Game-Template": {
+  "external_members": 366,
+  "fp_members": 1752,
+  "loc": 6528,
+  "no_pub": 393
+ },
+ "Godot-GameTemplate": {
+  "external_members": 4,
+  "fp_members": 50,
+  "loc": 233,
+  "no_pub": 16
+ },
+ "Godot-Inventory": {
+  "external_members": 174,
+  "fp_members": 328,
+  "loc": 1592,
+  "no_pub": 37
+ },
+ "Godot-Plush-Character": {
+  "external_members": 11,
+  "fp_members": 82,
+  "loc": 271,
+  "no_pub": 12
+ },
+ "Godot-Roguelike-Tutorial": {
+  "external_members": 39,
+  "fp_members": 215,
+  "loc": 750,
+  "no_pub": 36
+ },
+ "Godot4-FPS-Template": {
+  "external_members": 43,
+  "fp_members": 206,
+  "loc": 721,
+  "no_pub": 66
+ },
+ "Godot4SourceEngineMovement": {
+  "external_members": 57,
+  "fp_members": 109,
+  "loc": 408,
+  "no_pub": 9
+ },
+ "Godot4ThirdPersonCombatPrototype": {
+  "external_members": 789,
+  "fp_members": 1581,
+  "loc": 6944,
+  "no_pub": 251
+ },
+ "GodotDynamicInventorySystem": {
+  "external_members": 70,
+  "fp_members": 247,
+  "loc": 876,
+  "no_pub": 26
+ },
+ "GodotFirebase": {
+  "external_members": 202,
+  "fp_members": 588,
+  "loc": 3089,
+  "no_pub": 2
+ },
+ "GodotOS": {
+  "external_members": 128,
+  "fp_members": 552,
+  "loc": 2972,
+  "no_pub": 110
+ },
+ "GodotPixelRenderer": {
+  "external_members": 15,
+  "fp_members": 393,
+  "loc": 2149,
+  "no_pub": 5
+ },
+ "GodotProjectZero": {
+  "external_members": 563,
+  "fp_members": 2199,
+  "loc": 8812,
+  "no_pub": 93
+ },
+ "Godot_Universal-Controller-tutorial": {
+  "external_members": 138,
+  "fp_members": 343,
+  "loc": 1043,
+  "no_pub": 39
+ },
+ "Gut": {
+  "external_members": 331,
+  "fp_members": 1711,
+  "loc": 12651,
+  "no_pub": 53
+ },
+ "Improved-KCC": {
+  "external_members": 57,
+  "fp_members": 315,
+  "loc": 2320,
+  "no_pub": 105
+ },
+ "Legacy_SM63Redux": {
+  "external_members": 355,
+  "fp_members": 1848,
+  "loc": 10433,
+  "no_pub": 192
+ },
+ "LibreAim": {
+  "external_members": 65,
+  "fp_members": 281,
+  "loc": 1134,
+  "no_pub": 60
+ },
+ "Lorien": {
+  "external_members": 285,
+  "fp_members": 846,
+  "loc": 3467,
+  "no_pub": 19
+ },
+ "Lost-Pilot": {
+  "external_members": 31,
+  "fp_members": 179,
+  "loc": 977,
+  "no_pub": 46
+ },
+ "Metroidvania-System": {
+  "external_members": 293,
+  "fp_members": 805,
+  "loc": 4989,
+  "no_pub": 48
+ },
+ "Microverse": {
+  "external_members": 117,
+  "fp_members": 540,
+  "loc": 5166,
+  "no_pub": 14
+ },
+ "MizGodotTools": {
+  "external_members": 201,
+  "fp_members": 859,
+  "loc": 3359,
+  "no_pub": 84
+ },
+ "MultiplayerFPSTutorial": {
+  "external_members": 1,
+  "fp_members": 31,
+  "loc": 116,
+  "no_pub": 6
+ },
+ "OpMon": {
+  "external_members": 201,
+  "fp_members": 455,
+  "loc": 2106,
+  "no_pub": 57
+ },
+ "Open-Industry-Project-Godot": {
+  "external_members": 382,
+  "fp_members": 2229,
+  "loc": 15929,
+  "no_pub": 343
+ },
+ "OpenLiberty": {
+  "external_members": 40,
+  "fp_members": 220,
+  "loc": 1214,
+  "no_pub": 42
+ },
+ "OpenVic": {
+  "external_members": 222,
+  "fp_members": 1245,
+  "loc": 8591,
+  "no_pub": 204
+ },
+ "PSGodotTemplateRepo": {
+  "external_members": 33,
+  "fp_members": 116,
+  "loc": 473,
+  "no_pub": 12
+ },
+ "PankuConsole": {
+  "external_members": 370,
+  "fp_members": 817,
+  "loc": 3712,
+  "no_pub": 112
+ },
+ "PixelPlanets": {
+  "external_members": 132,
+  "fp_members": 262,
+  "loc": 993,
+  "no_pub": 39
+ },
+ "Pixelorama": {
+  "external_members": 537,
+  "fp_members": 2023,
+  "loc": 16129,
+  "no_pub": 327
+ },
+ "Pocket-Godot": {
+  "external_members": 2,
+  "fp_members": 69,
+  "loc": 219,
+  "no_pub": 15
+ },
+ "Project-Heartbeat": {
+  "external_members": 581,
+  "fp_members": 2429,
+  "loc": 16290,
+  "no_pub": 282
+ },
+ "Qodot": {
+  "external_members": 116,
+  "fp_members": 489,
+  "loc": 3484,
+  "no_pub": 61
+ },
+ "Reia": {
+  "external_members": 426,
+  "fp_members": 1346,
+  "loc": 8643,
+  "no_pub": 70
+ },
+ "Resources-GDScript": {
+  "external_members": 85,
+  "fp_members": 293,
+  "loc": 894,
+  "no_pub": 40
+ },
+ "RhythiaRewrite": {
+  "external_members": 282,
+  "fp_members": 678,
+  "loc": 3479,
+  "no_pub": 47
+ },
+ "Scene-Manager": {
+  "external_members": 63,
+  "fp_members": 255,
+  "loc": 1344,
+  "no_pub": 0
+ },
+ "ShaderV": {
+  "external_members": 0,
+  "fp_members": 1245,
+  "loc": 5743,
+  "no_pub": 0
+ },
+ "SignalVisualizer": {
+  "external_members": 44,
+  "fp_members": 147,
+  "loc": 728,
+  "no_pub": 20
+ },
+ "SimpleFPSController": {
+  "external_members": 59,
+  "fp_members": 204,
+  "loc": 964,
+  "no_pub": 40
+ },
+ "Sky3D": {
+  "external_members": 58,
+  "fp_members": 314,
+  "loc": 1618,
+  "no_pub": 138
+ },
+ "Slay-The-Robot": {
+  "external_members": 833,
+  "fp_members": 2051,
+  "loc": 13309,
+  "no_pub": 58
+ },
+ "SmartShape2D": {
+  "external_members": 410,
+  "fp_members": 1069,
+  "loc": 7276,
+  "no_pub": 40
+ },
+ "SonicWorldsNext": {
+  "external_members": 524,
+  "fp_members": 1516,
+  "loc": 7717,
+  "no_pub": 364
+ },
+ "SoundThread": {
+  "external_members": 91,
+  "fp_members": 475,
+  "loc": 4402,
+  "no_pub": 147
+ },
+ "Stardew": {
+  "external_members": 139,
+  "fp_members": 605,
+  "loc": 2053,
+  "no_pub": 82
+ },
+ "Starter-Kit-3D-Platformer": {
+  "external_members": 2,
+  "fp_members": 63,
+  "loc": 208,
+  "no_pub": 11
+ },
+ "Starter-Kit-City-Builder": {
+  "external_members": 8,
+  "fp_members": 44,
+  "loc": 183,
+  "no_pub": 6
+ },
+ "Starter-Kit-FPS": {
+  "external_members": 18,
+  "fp_members": 82,
+  "loc": 258,
+  "no_pub": 9
+ },
+ "Starter-Kit-Match-3": {
+  "external_members": 6,
+  "fp_members": 50,
+  "loc": 230,
+  "no_pub": 10
+ },
+ "Starter-Kit-Racing": {
+  "external_members": 2,
+  "fp_members": 41,
+  "loc": 132,
+  "no_pub": 2
+ },
+ "Strategy-GDScript": {
+  "external_members": 35,
+  "fp_members": 117,
+  "loc": 357,
+  "no_pub": 26
+ },
+ "Super-Mario-Bros.-Remastered-Public": {
+  "external_members": 1185,
+  "fp_members": 3267,
+  "loc": 16747,
+  "no_pub": 607
+ },
+ "Super-Mario-World-Remastered-Public": {
+  "external_members": 1369,
+  "fp_members": 4074,
+  "loc": 16692,
+  "no_pub": 388
+ },
+ "SurvivorsClone_Complete": {
+  "external_members": 37,
+  "fp_members": 222,
+  "loc": 1067,
+  "no_pub": 51
+ },
+ "TakinGodotTemplate": {
+  "external_members": 287,
+  "fp_members": 1248,
+  "loc": 4633,
+  "no_pub": 158
+ },
+ "TileMapDual": {
+  "external_members": 46,
+  "fp_members": 188,
+  "loc": 1434,
+  "no_pub": 11
+ },
+ "TopdownStarter": {
+  "external_members": 43,
+  "fp_members": 156,
+  "loc": 499,
+  "no_pub": 45
+ },
+ "TowDownGame": {
+  "external_members": 367,
+  "fp_members": 833,
+  "loc": 2917,
+  "no_pub": 92
+ },
+ "UltimateGodotIntro2D": {
+  "external_members": 25,
+  "fp_members": 145,
+  "loc": 452,
+  "no_pub": 41
+ },
+ "Virtual-Joystick-Godot": {
+  "external_members": 2,
+  "fp_members": 37,
+  "loc": 151,
+  "no_pub": 13
+ },
+ "Yugens-Terrain-Authoring-Toolkit": {
+  "external_members": 286,
+  "fp_members": 572,
+  "loc": 5882,
+  "no_pub": 12
+ },
+ "_original_client": {
+  "external_members": 305,
+  "fp_members": 773,
+  "loc": 5223,
+  "no_pub": 23
+ },
+ "aarpg-tutorial": {
+  "external_members": 431,
+  "fp_members": 1237,
+  "loc": 4647,
+  "no_pub": 142
+ },
+ "abyssal-walker": {
+  "external_members": 984,
+  "fp_members": 2566,
+  "loc": 15562,
+  "no_pub": 97
+ },
+ "age-of-war": {
+  "external_members": 101,
+  "fp_members": 551,
+  "loc": 2915,
+  "no_pub": 113
+ },
+ "beehave": {
+  "external_members": 296,
+  "fp_members": 980,
+  "loc": 5702,
+  "no_pub": 10
+ },
+ "better-terrain": {
+  "external_members": 91,
+  "fp_members": 307,
+  "loc": 3164,
+  "no_pub": 35
+ },
+ "boscaceoil-blue": {
+  "external_members": 485,
+  "fp_members": 1589,
+  "loc": 10972,
+  "no_pub": 21
+ },
+ "cyclopsLevelBuilder": {
+  "external_members": 635,
+  "fp_members": 1636,
+  "loc": 10619,
+  "no_pub": 222
+ },
+ "deck_builder_tutorial": {
+  "external_members": 438,
+  "fp_members": 940,
+  "loc": 3141,
+  "no_pub": 78
+ },
+ "desksaw": {
+  "external_members": 181,
+  "fp_members": 993,
+  "loc": 5319,
+  "no_pub": 152
+ },
+ "devmoreir4__godot-3d-multiplayer-template": {
+  "external_members": 108,
+  "fp_members": 452,
+  "loc": 2481,
+  "no_pub": 52
+ },
+ "dialogic": {
+  "external_members": 823,
+  "fp_members": 2066,
+  "loc": 12518,
+  "no_pub": 278
+ },
+ "escoria-demo-game": {
+  "external_members": 0,
+  "fp_members": 37,
+  "loc": 156,
+  "no_pub": 5
+ },
+ "func_godot_plugin": {
+  "external_members": 134,
+  "fp_members": 376,
+  "loc": 3732,
+  "no_pub": 59
+ },
+ "gaea": {
+  "external_members": 506,
+  "fp_members": 1794,
+  "loc": 11173,
+  "no_pub": 122
+ },
+ "game-base-2D": {
+  "external_members": 43,
+  "fp_members": 314,
+  "loc": 1012,
+  "no_pub": 78
+ },
+ "gd-YAFSM": {
+  "external_members": 188,
+  "fp_members": 637,
+  "loc": 3228,
+  "no_pub": 28
+ },
+ "gdmaim": {
+  "external_members": 175,
+  "fp_members": 562,
+  "loc": 5008,
+  "no_pub": 17
+ },
+ "gloot": {
+  "external_members": 373,
+  "fp_members": 1118,
+  "loc": 6117,
+  "no_pub": 16
+ },
+ "godot-2d-adventure-tutorial": {
+  "external_members": 55,
+  "fp_members": 188,
+  "loc": 937,
+  "no_pub": 17
+ },
+ "godot-2d-builder": {
+  "external_members": 252,
+  "fp_members": 724,
+  "loc": 3258,
+  "no_pub": 59
+ },
+ "godot-2d-space-game": {
+  "external_members": 289,
+  "fp_members": 817,
+  "loc": 2971,
+  "no_pub": 85
+ },
+ "godot-2d-topdown-template": {
+  "external_members": 203,
+  "fp_members": 538,
+  "loc": 1962,
+  "no_pub": 115
+ },
+ "godot-3-beginner-2d-platformer": {
+  "external_members": 11,
+  "fp_members": 54,
+  "loc": 145,
+  "no_pub": 13
+ },
+ "godot-4-2d-visual-novel": {
+  "external_members": 48,
+  "fp_members": 149,
+  "loc": 1157,
+  "no_pub": 10
+ },
+ "godot-4-3d-third-person-controller": {
+  "external_members": 43,
+  "fp_members": 280,
+  "loc": 1038,
+  "no_pub": 30
+ },
+ "godot-4-procedural-generation": {
+  "external_members": 53,
+  "fp_members": 516,
+  "loc": 2256,
+  "no_pub": 98
+ },
+ "godot-FirstPersonStarter": {
+  "external_members": 3,
+  "fp_members": 36,
+  "loc": 109,
+  "no_pub": 13
+ },
+ "godot-aseprite-wizard": {
+  "external_members": 141,
+  "fp_members": 1005,
+  "loc": 4635,
+  "no_pub": 84
+ },
+ "godot-card-game-frame": {
+  "external_members": 57,
+  "fp_members": 196,
+  "loc": 894,
+  "no_pub": 57
+ },
+ "godot-chess": {
+  "external_members": 34,
+  "fp_members": 161,
+  "loc": 1074,
+  "no_pub": 45
+ },
+ "godot-debug-menu": {
+  "external_members": 0,
+  "fp_members": 54,
+  "loc": 358,
+  "no_pub": 22
+ },
+ "godot-demo-projects": {
+  "external_members": 536,
+  "fp_members": 2618,
+  "loc": 13249,
+  "no_pub": 584
+ },
+ "godot-gameplay-systems": {
+  "external_members": 433,
+  "fp_members": 1016,
+  "loc": 4444,
+  "no_pub": 82
+ },
+ "godot-mod-loader": {
+  "external_members": 236,
+  "fp_members": 1025,
+  "loc": 5262,
+  "no_pub": 11
+ },
+ "godot-multiplayer": {
+  "external_members": 52,
+  "fp_members": 229,
+  "loc": 727,
+  "no_pub": 57
+ },
+ "godot-open-rpg": {
+  "external_members": 248,
+  "fp_members": 577,
+  "loc": 2734,
+  "no_pub": 75
+ },
+ "godot-open-rts": {
+  "external_members": 232,
+  "fp_members": 1184,
+  "loc": 5653,
+  "no_pub": 53
+ },
+ "godot-port": {
+  "external_members": 317,
+  "fp_members": 1117,
+  "loc": 6141,
+  "no_pub": 146
+ },
+ "godot-resources-as-sheets-plugin": {
+  "external_members": 235,
+  "fp_members": 578,
+  "loc": 3777,
+  "no_pub": 87
+ },
+ "godot-road-generator": {
+  "external_members": 334,
+  "fp_members": 1244,
+  "loc": 12014,
+  "no_pub": 107
+ },
+ "godot-rocket-league": {
+  "external_members": 26,
+  "fp_members": 147,
+  "loc": 517,
+  "no_pub": 22
+ },
+ "godot-start": {
+  "external_members": 24,
+  "fp_members": 197,
+  "loc": 741,
+  "no_pub": 17
+ },
+ "godot-statecharts": {
+  "external_members": 223,
+  "fp_members": 681,
+  "loc": 3840,
+  "no_pub": 97
+ },
+ "godot-steering-ai-framework": {
+  "external_members": 219,
+  "fp_members": 527,
+  "loc": 2163,
+  "no_pub": 51
+ },
+ "godot-tactical-rpg": {
+  "external_members": 383,
+  "fp_members": 616,
+  "loc": 2203,
+  "no_pub": 34
+ },
+ "godot-tiny-mmo": {
+  "external_members": 508,
+  "fp_members": 1994,
+  "loc": 12698,
+  "no_pub": 228
+ },
+ "godot-visual-effects": {
+  "external_members": 63,
+  "fp_members": 394,
+  "loc": 1606,
+  "no_pub": 45
+ },
+ "godot-xr-template": {
+  "external_members": 27,
+  "fp_members": 149,
+  "loc": 677,
+  "no_pub": 35
+ },
+ "godot-xr-tools": {
+  "external_members": 672,
+  "fp_members": 2103,
+  "loc": 10269,
+  "no_pub": 360
+ },
+ "godot4-third-person-controller": {
+  "external_members": 70,
+  "fp_members": 217,
+  "loc": 607,
+  "no_pub": 57
+ },
+ "godot_autobattler_course": {
+  "external_members": 263,
+  "fp_members": 648,
+  "loc": 2187,
+  "no_pub": 95
+ },
+ "godot_dialogue_manager": {
+  "external_members": 444,
+  "fp_members": 1291,
+  "loc": 10028,
+  "no_pub": 131
+ },
+ "godot_experiments": {
+  "external_members": 11,
+  "fp_members": 110,
+  "loc": 300,
+  "no_pub": 19
+ },
+ "godot_heightmap_plugin": {
+  "external_members": 476,
+  "fp_members": 1762,
+  "loc": 10626,
+  "no_pub": 98
+ },
+ "godot_input_helper": {
+  "external_members": 42,
+  "fp_members": 149,
+  "loc": 785,
+  "no_pub": 8
+ },
+ "godot_little_camera_preview": {
+  "external_members": 4,
+  "fp_members": 55,
+  "loc": 332,
+  "no_pub": 5
+ },
+ "godot_open_star_fighter": {
+  "external_members": 133,
+  "fp_members": 416,
+  "loc": 1471,
+  "no_pub": 52
+ },
+ "godot_sound_manager": {
+  "external_members": 23,
+  "fp_members": 96,
+  "loc": 344,
+  "no_pub": 12
+ },
+ "godot_spatial_gardener": {
+  "external_members": 587,
+  "fp_members": 1866,
+  "loc": 11841,
+  "no_pub": 37
+ },
+ "godot_ui_components": {
+  "external_members": 7,
+  "fp_members": 208,
+  "loc": 698,
+  "no_pub": 56
+ },
+ "godots": {
+  "external_members": 408,
+  "fp_members": 1084,
+  "loc": 11531,
+  "no_pub": 53
+ },
+ "holoDelta": {
+  "external_members": 293,
+  "fp_members": 986,
+  "loc": 6552,
+  "no_pub": 209
+ },
+ "jdungeon": {
+  "external_members": 788,
+  "fp_members": 2249,
+  "loc": 11926,
+  "no_pub": 226
+ },
+ "knakk": {
+  "external_members": 89,
+  "fp_members": 299,
+  "loc": 1711,
+  "no_pub": 3
+ },
+ "learn-gdscript": {
+  "external_members": 716,
+  "fp_members": 2430,
+  "loc": 14573,
+  "no_pub": 103
+ },
+ "limbo-godot": {
+  "external_members": 59,
+  "fp_members": 211,
+  "loc": 914,
+  "no_pub": 27
+ },
+ "malware-slayer": {
+  "external_members": 345,
+  "fp_members": 1120,
+  "loc": 4834,
+  "no_pub": 29
+ },
+ "material-maker": {
+  "external_members": 870,
+  "fp_members": 2382,
+  "loc": 16770,
+  "no_pub": 340
+ },
+ "moddable-platformer": {
+  "external_members": 22,
+  "fp_members": 186,
+  "loc": 737,
+  "no_pub": 33
+ },
+ "museum-of-all-things": {
+  "external_members": 247,
+  "fp_members": 1123,
+  "loc": 5225,
+  "no_pub": 175
+ },
+ "nakama-godot": {
+  "external_members": 184,
+  "fp_members": 634,
+  "loc": 3753,
+  "no_pub": 10
+ },
+ "netfox": {
+  "external_members": 805,
+  "fp_members": 2362,
+  "loc": 12563,
+  "no_pub": 138
+ },
+ "opengs": {
+  "external_members": 124,
+  "fp_members": 369,
+  "loc": 1821,
+  "no_pub": 52
+ },
+ "paddles_balls_blocks_walls": {
+  "external_members": 133,
+  "fp_members": 516,
+  "loc": 2332,
+  "no_pub": 117
+ },
+ "pandora": {
+  "external_members": 524,
+  "fp_members": 1321,
+  "loc": 6924,
+  "no_pub": 37
+ },
+ "phantom-camera": {
+  "external_members": 219,
+  "fp_members": 1329,
+  "loc": 6394,
+  "no_pub": 125
+ },
+ "poder-solar": {
+  "external_members": 15,
+  "fp_members": 84,
+  "loc": 360,
+  "no_pub": 17
+ },
+ "protongraph": {
+  "external_members": 452,
+  "fp_members": 1300,
+  "loc": 7626,
+  "no_pub": 32
+ },
+ "ridiculous_coding": {
+  "external_members": 15,
+  "fp_members": 89,
+  "loc": 310,
+  "no_pub": 5
+ },
+ "scatter": {
+  "external_members": 301,
+  "fp_members": 992,
+  "loc": 6304,
+  "no_pub": 99
+ },
+ "script-ide": {
+  "external_members": 64,
+  "fp_members": 344,
+  "loc": 1907,
+  "no_pub": 0
+ },
+ "simgine": {
+  "external_members": 101,
+  "fp_members": 290,
+  "loc": 1419,
+  "no_pub": 35
+ },
+ "simple-godot-train": {
+  "external_members": 25,
+  "fp_members": 179,
+  "loc": 542,
+  "no_pub": 57
+ },
+ "soccer-course": {
+  "external_members": 164,
+  "fp_members": 524,
+  "loc": 1709,
+  "no_pub": 7
+ },
+ "sourceofmana": {
+  "external_members": 1355,
+  "fp_members": 3176,
+  "loc": 16032,
+  "no_pub": 164
+ },
+ "starship-olympics": {
+  "external_members": 1419,
+  "fp_members": 3668,
+  "loc": 14501,
+  "no_pub": 762
+ },
+ "super-godot-galaxy": {
+  "external_members": 7,
+  "fp_members": 91,
+  "loc": 284,
+  "no_pub": 15
+ },
+ "tanks-of-freedom-ii": {
+  "external_members": 1889,
+  "fp_members": 3492,
+  "loc": 15329,
+  "no_pub": 205
+ },
+ "template-beat-em-up": {
+  "external_members": 405,
+  "fp_members": 1734,
+  "loc": 9850,
+  "no_pub": 128
+ },
+ "the-mirror": {
+  "external_members": 598,
+  "fp_members": 2732,
+  "loc": 14843,
+  "no_pub": 361
+ },
+ "top-down-action-rpg-template": {
+  "external_members": 34,
+  "fp_members": 144,
+  "loc": 789,
+  "no_pub": 33
+ },
+ "tower-defense-godot4": {
+  "external_members": 99,
+  "fp_members": 310,
+  "loc": 951,
+  "no_pub": 78
+ },
+ "tower-defense-tutorial": {
+  "external_members": 75,
+  "fp_members": 242,
+  "loc": 745,
+  "no_pub": 57
+ },
+ "tps-demo": {
+  "external_members": 23,
+  "fp_members": 279,
+  "loc": 1177,
+  "no_pub": 37
+ },
+ "unidot_importer": {
+  "external_members": 225,
+  "fp_members": 798,
+  "loc": 13004,
+  "no_pub": 20
+ },
+ "unitypackage_godot": {
+  "external_members": 60,
+  "fp_members": 237,
+  "loc": 2269,
+  "no_pub": 3
+ },
+ "unto-deepest-depths-prototype": {
+  "external_members": 41,
+  "fp_members": 108,
+  "loc": 448,
+  "no_pub": 8
+ },
+ "voxelgame": {
+  "external_members": 82,
+  "fp_members": 636,
+  "loc": 3164,
+  "no_pub": 49
+ },
+ "vpuppr": {
+  "external_members": 163,
+  "fp_members": 371,
+  "loc": 2439,
+  "no_pub": 11
+ },
+ "wutw-public": {
+  "external_members": 1078,
+  "fp_members": 2773,
+  "loc": 16605,
+  "no_pub": 447
+ },
+ "youtd2": {
+  "external_members": 458,
+  "fp_members": 2163,
+  "loc": 11878,
+  "no_pub": 192
+ }
+}

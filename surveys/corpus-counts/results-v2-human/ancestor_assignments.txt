@@ -1,0 +1,715 @@
+Assignments counted once per distinct classification; `_ready` / other functions.
+Sites found: 14655; classified differently in different scenes: 0.
+
+                                                same scene    into sub-scene    outer scene
+resolved target, any property                 1722 / 11647        12 / 168           1 / 6
+(a) script member                              168 / 1033          1 / 2             0 / 0
+    of (a), the target is an instance root      91 / 581           0 / 2             0 / 0
+(b) script member without initializer           63 / 280           0 / 0             0 / 0
+    of (b), the target is an instance root      35 / 188           0 / 0             0 / 0
+    typed as a class or object                  31 / 101           0 / 0             0 / 0
+    typed as a built-in or enum                 29 / 160           0 / 0             0 / 0
+    untyped                                      3 / 19            0 / 0             0 / 0
+    of (b), exported                            23 / 167           0 / 0             0 / 0
+of (a), through an exported reference           11 / 60            0 / 0             0 / 0
+
+Not classified (sites): engine 12269, nonliteral 164, notfound 49, unknown 47, upward 518, absolute 97, self 2, exported 88, nocontext 217
+  engine: the target resolves, but no script of it declares the property.
+
+By repository: (a) script member and (b) without initializer, `_ready` / other; not classified.
+                             (a) same   (a) sub   (b) same   (b) sub    engine nonliter notfound  unknown   upward absolute     self exported nocontex
+Super-Mario-Bros.-Remastered-Public       8/69       0/0        0/0       0/0       322        0        0        0        2        0        0        0       14
+godot-open-rpg                    2/9       0/0        1/2       0/0        40        0        0        0        3        0        0        0        0
+Microverse                        0/0       0/0        0/0       0/0        41        0        0        0        0        0        0        0        1
+Godot-GameTemplate                0/0       0/0        0/0       0/0         0        0        0        0        4        0        0        0        0
+Starter-Kit-City-Builder          0/0       0/0        0/0       0/0         2        0        0        0        2        0        0        0        0
+tps-demo                          0/1       0/0        0/0       0/0        14        0        0        5        0        0        0        0        0
+Starter-Kit-3D-Platformer         0/0       0/0        0/0       0/0        11        0        0        5        0        0        0        0        0
+godot-open-rts                    0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+godot-2d-space-game               2/1       0/0        0/0       0/0        37        0        0        0        0        0        0        0        0
+godot-4-3d-third-person-controller        0/5       0/0        0/0       0/0        25        0        0        0        0        0        0        0        0
+godot-FirstPersonStarter          0/0       0/0        0/0       0/0         0        2        0        0        0        0        0        0        0
+Starter-Kit-FPS                   0/0       0/0        0/0       0/0         9        0        0        0        1        0        0        0        0
+Reia                              0/0       0/0        0/0       0/0         2        0        0        0        0        0        0        0        0
+godot-tactical-rpg                0/0       0/0        0/0       0/0         4        0        0        0        0        0        0        0        6
+godot-port                       1/10       0/0        1/3       0/0       122        0        0        0        0        0        0        1        2
+escoria-demo-game                 0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+voxelgame                         0/0       0/0        0/0       0/0        17        0        0        0        0        0        0        0        0
+TowDownGame                       2/6       0/0        2/6       0/0       113        0        0        0        3        0        0        0        5
+GodotDynamicInventorySystem        0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+museum-of-all-things              0/8       0/0        0/4       0/0       158        1        0        0        0        0        0        0        0
+godot-2d-builder                 4/26       0/0        0/3       0/0        66        0        0        0        0        0        0        0        0
+starship-olympics                6/27       0/0        0/3       0/0       693        6       16        0        0        0        0        3        3
+TakinGodotTemplate               0/23       0/0        0/8       0/0        85        0        0        0        1        0        0        4        0
+OpenLiberty                       0/3       0/0        0/3       0/0        23        0        0        0       20        0        0        0        3
+OpenVic                           0/0       0/0        0/0       0/0        60        0        0        0        0        0        0        0        0
+deck_builder_tutorial            4/16       0/0       4/16       0/0        78        0        0        0        2        0        0        9        2
+Starter-Kit-Racing                0/0       0/0        0/0       0/0        11        0        0        2        0        0        0        0        0
+UltimateGodotIntro2D              0/0       0/0        0/0       0/0        12        0        0        0        0        0        0        0        0
+tanks-of-freedom-ii               0/2       0/0        0/0       0/0        18        0        0        0        0       32        0        0        2
+Cats-Godot4-Modular-Souls-like-Template        0/0       0/0        0/0       0/0        21        0        0        0        0        0        0        8        2
+godot-3-beginner-2d-platformer        0/0       0/0        0/0       0/0         4        0        0        0        0        0        0        0        0
+Pocket-Godot                      0/0       0/0        0/0       0/0         6        0        0        0        0        0        0        0        0
+MultiplayerFPSTutorial            0/0       0/0        0/0       0/0         2        0        0        1        0        0        0        0        0
+godot-tiny-mmo                    1/7       0/0        0/5       0/0       104        0       14        0        3        0        0        0        0
+Slay-The-Robot                    0/2       0/0        0/0       0/0       142        0        0        0        0        0        0        0        0
+Castlevania-Remnants-of-Darkness       0/14       0/0       0/13       0/0       236        0        0        0      119        0        0        3        4
+Super-Mario-World-Remastered-Public       2/21       0/0        0/0       0/0       277        0        1        0        3        0        0        0       13
+wutw-public                       0/2       0/0        0/2       0/0        31        0        0        0        0        0        0        0        5
+Godot-Plush-Character             0/3       0/0        0/0       0/0         7        0        1        1        0        0        0        0        0
+godot-multiplayer                 0/0       0/0        0/0       0/0        14        0        0        0        0        0        0        0        0
+Godot4ThirdPersonCombatPrototype       1/28       0/0        0/2       0/0        37        4        0       11       45        0        0        0        2
+youtd2                            0/0       0/0        0/0       0/0        91        0        0        0        1        0        0        0        0
+godot-xr-template                 0/0       0/0        0/0       0/0         5        0        0        0        0        0        0        0        0
+desksaw                          2/37       0/0        0/0       0/0        65        0        2        0       31        0        0        2        4
+GodotProjectZero                 0/19       0/0        0/2       0/0       412        0        0        0        9        0        0        0        0
+godot-4-2d-visual-novel           0/0       0/0        0/0       0/0         9        0        0        0        0        0        0        0        0
+Legacy_SM63Redux                 0/17       0/0        0/0       0/0       215        8        1        0       23       48        0        0        0
+Starter-Kit-Match-3               0/0       0/0        0/0       0/0         3        0        0        0        0        0        0        0        0
+godot-2d-topdown-template         0/2       0/0        0/0       0/0        15        0        0        0        1        0        0        0        0
+SonicWorldsNext                   0/0       0/0        0/0       0/0       202        1        0        0        1        0        0        0        0
+SimpleFPSController               0/1       0/0        0/0       0/0        31        0        0        0        2        0        0        5        0
+aarpg-tutorial                    0/4       0/0        0/1       0/0       165        0        0        0       29        0        0        0        1
+godot_autobattler_course         0/21       0/0       0/19       0/0        30        0        0        0        8        0        0        9        0
+jdungeon                         13/6       0/0        0/1       0/0        61        0        2        0        7        0        0        0       23
+LibreAim                          1/2       0/0        0/0       0/0        47        1        0        0        0        0        0        0        0
+Strategy-GDScript                 0/0       0/0        0/0       0/0         5        0        0        0        3        0        0        0        0
+devmoreir4__godot-3d-multiplayer-template        0/1       0/0        0/1       0/0        57        1        0        0        0        0        0        0        0
+opengs                            1/1       0/0        1/1       0/0        14        0        0        0        0        0        0        0        0
+top-down-action-rpg-template        0/0       0/0        0/0       0/0        12        0        0        0        0        0        0        0        0
+Godot-Roguelike-Tutorial          0/2       0/0        0/0       0/0         4        0        0        0        0        0        0        0        0
+unto-deepest-depths-prototype        1/0       0/0        1/0       0/0         7        0        0        0        0        0        0        0        0
+godot-2d-adventure-tutorial        0/2       0/0        0/1       0/0        11        0        0        0        0        0        0        0        0
+knakk                             1/6       0/0        1/3       0/0        26        1        0        0        1        0        0        0        0
+Dororo                            0/4       0/0        0/0       0/0        24        0        0        0        9       12        0        0        0
+_original_client                  0/0       0/0        0/0       0/0        30        0        1        2        4        0        0        0        4
+Godot_Universal-Controller-tutorial        2/1       0/0        2/1       0/0         8        0        0        0        0        0        0        0        0
+simple-godot-train                0/2       0/0        0/0       0/0        20        0        0        0        0        0        0        0        0
+OpMon                             0/0       0/0        0/0       0/0        90        8        0        0        0        1        0        0        0
+Godot-Inventory                   0/2       0/0        0/0       0/0        28        0        0        0        0        0        0        1        0
+template-beat-em-up               0/2       0/0        0/0       0/0        30        2        0        0        0        0        0        5        0
+game-base-2D                      0/0       0/0        0/0       0/0         2        0        0        0        7        0        0        4        4
+godot-rocket-league               0/0       0/0        0/0       0/0         2        0        0        0        3        0        0        0        0
+Freedom-Hunter                    0/0       0/0        0/0       0/0        18        2        0        7        0        1        0        0        0
+simgine                           0/0       0/0        0/0       0/0        17        0        0        0        0        0        0        0        0
+GDWaterKart                      0/14       0/0       0/10       0/0        17        0        0        0        4        0        0        2        0
+TopdownStarter                    0/0       0/0        0/0       0/0        14        0        0        0        3        0        0        0        4
+Godot4-FPS-Template               0/0       0/0        0/0       0/0         5        0        0        0        0        0        0        0        0
+poder-solar                       0/1       0/0        0/0       0/0        28        0        0        0        5        0        0        0        0
+DOGWALK                           0/2       0/0        0/1       0/0        59        0        0        3        3        0        0        0        0
+godot4-third-person-controller        0/0       0/0        0/0       0/0        15        0        0        0        0        0        0        0        0
+malware-slayer                    1/6       0/0        0/0       0/0        33        0        0        0        0        0        0        0        0
+SurvivorsClone_Complete           1/0       0/0        0/0       0/0        31        0        0        0        0        0        0        0        0
+Genesis                          0/16       0/0        0/0       0/0        93        0        0        0        1        0        0        0        0
+Friendslop-Template               0/1       0/0        0/1       0/0        12        0        0        0        0        0        0        0        0
+super-godot-galaxy                0/0       0/0        0/0       0/0         6        0        0        4        0        0        0        0        0
+GBM2K-Framework                   0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+Project-Heartbeat                7/56       0/0       1/21       0/0       279        1        0        0        3        0        0        0        5
+tower-defense-godot4              0/0       0/0        0/0       0/0        28        1        0        0        0        0        0        0        0
+limbo-godot                       0/0       0/0        0/0       0/0         3        0        0        0        0        0        0        0        0
+abyssal-walker                    0/1       0/0        0/0       0/0       153        0        0        0        0        0        0        0        0
+godot-chess                       0/2       0/0        0/0       0/0         9        0        0        0        0        0        0        0        0
+Improved-KCC                      0/5       0/0        0/2       0/0        15        0        0        0       10        0        0        8        0
+BatteryAcid__godot-3d-multiplayer-template        1/0       0/0        0/0       0/0        16        0        0        0        0        0        0        0        4
+Godot4SourceEngineMovement        0/0       0/0        0/0       0/0         2        0        0        0        0        0        0        0       14
+PSGodotTemplateRepo               0/0       0/0        0/0       0/0         5        0        0        0        0        0        0        0        0
+RhythiaRewrite                    6/0       0/0        4/0       0/0        74        1        0        0        8        0        0        2        4
+Cupcakes-Framework                0/2       0/0        0/2       0/0         4        0        0        0        0        0        0        0        0
+Stardew                           0/1       0/0        0/1       0/0        67        1        0        0       40        0        0        0        0
+CandyWrapper                      0/0       0/0        0/0       0/0        12        0        0        0        0        0        0        0        0
+Galaxy-Defiance                   0/1       0/0        0/1       0/0         5        0        0        0        7        0        0        4        0
+Resources-GDScript                1/0       0/0        0/0       0/0        11        0        0        0        3        0        0        0        0
+Lost-Pilot                        0/0       0/0        0/0       0/0        11        0        0        0        0        0        0        0        0
+sourceofmana                      0/2       0/0        0/0       0/0        69        0        1        0        0        0        0        0        0
+godot-card-game-frame             2/5       0/0        0/2       0/0        44        0        0        0        0        0        0        0        0
+Godot-2D-Action-Game              0/0       0/0        0/0       0/0        52        0        0        0        0        0        0        0        1
+soccer-course                     0/0       0/0        0/0       0/0        28        0        0        0        0        0        0        0        0
+moddable-platformer               0/0       0/0        0/0       0/0        25        0        0        0        0        0        0        0        0
+paddles_balls_blocks_walls       0/16       0/0        0/2       0/0        56        0        0        0        0        0        0        0        0
+age-of-war                        0/0       0/0        0/0       0/0       124        0        0        0        0        0        0        0       27
+tower-defense-tutorial            0/0       0/0        0/0       0/0        28        1        0        0        0        0        0        0        0
+holoDelta                        5/34       0/0       2/26       0/0       547        0        1        0        0        0        0        0        0
+Godot-4-Tower-Defense-Template        0/2       0/0        0/0       0/0        27        0        0        0        0        0        0        0        0
+FRU-Sim                           0/3       0/0        0/1       0/0        97        0        0        0        4        0        0        0        4
+godot_open_star_fighter           1/1       0/0        1/1       0/0        51        0        0        0        0        0        0        1        0
+dialogic                        14/36       1/0        5/3       0/0       329        6        0        0        0        0        0        0        1
+godot_dialogue_manager           4/17       0/0        2/8       0/0       166        0        0        0        0        0        0        0        0
+phantom-camera                    1/9       0/0        1/1       0/0        71        0        0        0        0        0        0        0        0
+beehave                           0/0       0/0        0/0       0/0         5        4        0        0        0        0        0        0        0
+scatter                           0/0       0/0        0/0       0/0        67        0        0        0        0        0        0        0        0
+Gut                               1/3       0/0        0/0       0/0        20        0        0        0        0        0        0        0        3
+godot_heightmap_plugin            0/0       0/0        0/0       0/0       113        0        0        0        0        0        0        0        1
+SmartShape2D                      0/0       0/0        0/0       0/0        16        0        0        0        0        0        0        6        0
+Godot-Game-Template              1/21       0/0        1/8       0/0       103        0        0        0        0        0        0        0        0
+gaea                              0/7       0/0        0/0       0/0        94        2        0        0       18        0        0        2        0
+cyclopsLevelBuilder              0/45       0/0       0/26       0/0        88        2        0        1        0        0        0        8        0
+godot-statecharts                 0/0       0/0        0/0       0/0        40        0        0        0        0        0        0        0        0
+Metroidvania-System               0/0       0/0        0/0       0/0        22        0        0        0        0        0        0        0        8
+godot-steering-ai-framework        2/2       0/0        2/2       0/0         2        0        0        0        0        0        0        0        0
+PankuConsole                      0/2       0/0        0/2       0/0        68        0        0        0       10        0        0        0        0
+godot-aseprite-wizard             0/0       0/0        0/0       0/0        83        0        0        0        0        0        0        0       23
+gdmaim                            0/0       0/0        0/0       0/0        24        0        0        0        0        0        0        0        0
+godot_spatial_gardener            0/0       0/0        0/0       0/0        13        0        0        0        0        0        0        0        0
+TileMapDual                       0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+godot-road-generator              2/1       0/0        0/1       0/0        53        0        0        0        0        0        0        0        0
+ShaderV                           0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+ridiculous_coding                 0/0       0/0        0/0       0/0        23        0        0        0        0        0        0        0        0
+netfox                            1/0       0/0        0/0       0/0        36        0        1        0       14        0        0        1        0
+pandora                           0/3       0/0        0/3       0/0       154        0        0        0        0        0        0        0        0
+godot_input_helper                1/0       0/0        0/0       0/0        13        0        0        0        0        0        0        0        0
+script-ide                        0/0       0/0        0/0       0/0        15        0        0        0        0        0        0        0        0
+godot-resources-as-sheets-plugin        1/2       0/0        0/0       0/0        63        1        0        0        4        0        0        0        2
+gloot                            6/12       0/0        3/8       0/0        16        0        0        0        0        0        0        0        0
+Virtual-Joystick-Godot            0/0       0/0        0/0       0/0         6        0        0        0        0        0        0        0        0
+unidot_importer                   0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+Sky3D                             0/0       0/0        0/0       0/0         0       30        0        0        0        0        0        0        0
+func_godot_plugin                 0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+godot_sound_manager               0/0       0/0        0/0       0/0         6        0        0        0        0        0        0        0        0
+nakama-godot                      0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+godot_little_camera_preview        0/0       0/0        0/0       0/0        56        0        0        0        0        0        0        0        0
+Qodot                             0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        2
+better-terrain                   2/10       0/0        2/0       0/0        54        0        0        0        0        0        0        0        0
+godot-xr-tools                   0/27       0/0        0/0       0/0       154        0        1        5        0        0        0        0        0
+godot-gameplay-systems            2/2       0/0        0/0       0/0        39        0        0        0        0        0        0        0        0
+godot-mod-loader                  0/0       0/0        0/0       0/0         1        0        0        0        0        0        0        0        0
+SignalVisualizer                  0/0       0/0        0/0       0/0        10        0        0        0        0        0        0        0        0
+GodotFirebase                     0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+BehaviourToolkit                  0/0       0/0        0/0       0/0         7        0        0        0        0        0        0        0        0
+gd-YAFSM                          0/0       0/0        0/0       0/0        46        0        0        0        0        0        0        0        0
+godot-debug-menu                  0/0       0/0        0/0       0/0        58        0        0        0        0        0        0        0        0
+Scene-Manager                     0/0       0/0        0/0       0/0         1        0        0        0        0        0        0        0        0
+Yugens-Terrain-Authoring-Toolkit        0/0       0/0        0/0       0/0         0        0        0        0        0        0        0        0        0
+Pixelorama                       9/36       0/0        0/8       0/0       367        1        0        0        1        0        0        0        0
+Lorien                            2/2       0/0        2/2       0/0        92        7        0        0        0        0        0        0        0
+material-maker                   1/57       0/0        0/4       0/0       245        4        0        0        0        0        0        0        0
+SoundThread                      0/11       0/0        0/5       0/0       125        0        0        0        0        0        0        0        0
+learn-gdscript                   5/17       0/0        1/4       0/0       228        0        0        0        0        0        0        0        0
+GodSVG                           24/8       0/0       20/0       0/0       174        0        0        0        0        0        0        0        0
+protongraph                       0/0       0/0        0/0       0/0        97        0        0        0        0        0        0        0        0
+PixelPlanets                      0/0       0/0        0/0       0/0        69        0        0        0        0        0        0        0        0
+Arrow                             0/0       0/0        0/0       0/0         0        0        0        0        0        2        0        0        0
+GodotOS                           0/0       0/0        0/0       0/0        53        0        0        0        9        1        0        0        0
+the-mirror                       7/21       0/2        2/7       0/0       206        6        0        0        0        0        0        0        9
+Open-Industry-Project-Godot        0/0       0/0        0/0       0/0       188       55        5        0        0        0        0        0        0
+boscaceoil-blue                  2/60       0/0        0/3       0/0       112        0        0        0        0        0        0        0        0
+godots                            0/0       0/0        0/0       0/0       196        0        0        0        2        0        0        0        0
+vpuppr                            0/0       0/0        0/0       0/0        30        0        0        0        0        0        0        0        0
+GodotPixelRenderer                0/0       0/0        0/0       0/0       341        0        0        0        0        0        2        0        0
+unitypackage_godot                0/0       0/0        0/0       0/0         1        0        0        0        3        0        0        0        0
+godot-demo-projects              0/24       0/0        0/7       0/0       671        2        2        0       17        0        0        0        2
+godot-4-procedural-generation        0/0       0/0        0/0       0/0        40        0        0        0        0        0        0        0        0
+godot-visual-effects              0/0       0/0        0/0       0/0        22        2        0        0        0        0        0        0        0
+godot-start                       0/0       0/0        0/0       0/0         2        0        0        0        0        0        0        0        0
+godot_experiments                 0/4       0/0        0/0       0/0        15        0        0        0        0        0        0        0        3
+MizGodotTools                     1/8       0/0        1/7       0/0        87        0        0        0        2        0        0        0        0
+godot_ui_components               0/0       0/0        0/0       0/0        18        0        0        0        0        0        0        0        0
+
+Into a sub-scene, member without initializer: 0 (site, kind)
+
+Into a sub-scene, member with an initializer: 3 (site, kind)
+  [ready] dialogic/addons/dialogic/Editor/Common/reference_manager_window.gd:41  broken_manager.reference_changes = old_changes
+      -> addons/dialogic/Editor/editor_main.tscn :: ReferenceManager/Manager/Tabs/BrokenReferences (instance of addons/dialogic/Editor/Common/reference_manager.tscn); member addons/dialogic/Editor/Common/broken_reference_manager.gd:6 (init, type Array)
+  [other] the-mirror/mirror-godot-app/creator/creator_ui.gd:396  _gizmo.is_relative = new_relative
+      -> mirror-godot-app/creator/creator_ui.tscn :: ObjectSelection/Gizmo (instance of mirror-godot-app/creator/selection/object_selection.tscn); member mirror-godot-app/creator/selection/gizmo/gizmo.gd:14 (init, type bool)
+  [other] the-mirror/mirror-godot-app/creator/creator_ui.gd:402  _gizmo.is_snap_checked = is_snap_checked
+      -> mirror-godot-app/creator/creator_ui.tscn :: ObjectSelection/Gizmo (instance of mirror-godot-app/creator/selection/object_selection.tscn); member mirror-godot-app/creator/selection/gizmo/gizmo.gd:15 (init, type bool)
+
+Into a sub-scene, engine property: 177 (site, kind)
+  [ready] godot-demo-projects/3d/graphics_settings/settings.gd:39  $Node3D/OmniLight3D.light_energy = 0.5
+      -> 3d/graphics_settings/control.tscn :: Node3D/OmniLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [ready] godot-demo-projects/3d/graphics_settings/settings.gd:40  $Node3D/SpotLight3D.light_energy = 0.5
+      -> 3d/graphics_settings/control.tscn :: Node3D/SpotLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [ready] godot-demo-projects/3d/graphics_settings/settings.gd:41  $Node3D/DirectionalLight3D.sky_mode = DirectionalLight3D.SKY_MODE_SKY_ONLY
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [ready] material-maker/material_maker/panels/preview_3d/preview_3d.gd:47  sun.shadow_enabled = mm_globals.get_config("ui_3d_preview_sun_shadow")
+      -> material_maker/main_window.tscn :: VBoxContainer/Layout/FlexibleLayout/Main/BackgroundPreviews/Preview3D/MaterialPreview/Preview3d/Sun (instance of material_maker/panels/preview_3d/preview_3d_scene.tscn); engine property
+  [ready] scatter/addons/proton_scatter/src/documentation/documentation.gd:33  tree.hide_root = true
+      -> addons/proton_scatter/src/documentation/documentation.tscn :: HSplitContainer/Tree (instance of addons/proton_scatter/src/documentation/panel.tscn); engine property
+  [ready] starship-olympics/godot/actors/environments/NoCrownZone.gd:17  $FeedbackLine.points = gshape.to_closed_PoolVector2Array()
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/FeedbackLine (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [ready] starship-olympics/godot/actors/environments/NoCrownZone.gd:19  $Decoration.visible = visible_decorations
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/Decoration (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [ready] starship-olympics/godot/actors/environments/NoCrownZone.gd:20  $NoCrownSign.scale = Vector2(symbol_scale, symbol_scale)
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/NoCrownSign (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [ready] starship-olympics/godot/actors/environments/NoCrownZone.gd:21  $Decoration.scale = Vector2(decoration_scale, decoration_scale)
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/Decoration (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [ready] starship-olympics/godot/actors/environments/NoShipZone.gd:15  $FeedbackLine.points = gshape.to_closed_PoolVector2Array()
+      -> godot/combat/levels/singles/homesick_invaders/variants/GlassB.tscn :: NoShipZone/FeedbackLine (instance of godot/actors/environments/NoShipZone.tscn); engine property
+  [ready] starship-olympics/godot/actors/environments/NoShipZone.gd:17  $NoShipSign.scale = Vector2(symbol_scale, symbol_scale)
+      -> godot/combat/levels/singles/homesick_invaders/variants/GlassB.tscn :: NoShipZone/NoShipSign (instance of godot/actors/environments/NoShipZone.tscn); engine property
+  [other] Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Powers/sword_spin.gd:7  sword_sprite.texture = Global.player.sprite.weapon.boomerang.texture
+      -> scenes/player.tscn :: SwordSpin/Spin/Sprite2D/Spin/Sprite2D2 (instance of SampleProject/Powers/Swords/sword_spin.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:34  text_label.text += text
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer/Label (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:38  text_label.text = text
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer/Label (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:44  text_label.text = ""
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer/Label (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:68  text_label.text += THINKING_TEXT
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer/Label (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:84  text_label.text = text_label.text.left(text_label.text.length() - THINKING_TEXT.length())
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer/Label (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:92  text_label.text += output
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer/Label (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] Dororo/scripts/gd/ui/chat_dialog/chat_dialog_window.gd:98  scroll_container.scroll_vertical = scroll_container.get_v_scroll_bar().max_value
+      -> scenes/main.tscn :: GUI/ChatDialog/ChatDialog/MarginContainer/NinePatchRect/MarginContainer/ScrollContainer (instance of prefabs/ui/chat_dialog.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:39  $AnimatedSprite2D.flip_h = false
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:40  $AnimatedSprite2D.animation = "walk_down"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:42  $AnimatedSprite2D.flip_h = false
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:43  $AnimatedSprite2D.animation = "walk_up"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:45  $AnimatedSprite2D.flip_h = true
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:46  $AnimatedSprite2D.animation = "walk_side"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:48  $AnimatedSprite2D.flip_h = false
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/BetaNPC.gd:49  $AnimatedSprite2D.animation = "walk_side"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Beta/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:31  $AnimatedSprite2D.flip_h = false
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:32  $AnimatedSprite2D.animation = "walk_down"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:34  $AnimatedSprite2D.flip_h = false
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:35  $AnimatedSprite2D.animation = "walk_up"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:37  $AnimatedSprite2D.flip_h = true
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:38  $AnimatedSprite2D.animation = "walk_side"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:40  $AnimatedSprite2D.flip_h = false
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/DialogNPC.gd:41  $AnimatedSprite2D.animation = "walk_side"
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: FieldSign/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/PathNPC.gd:61  $AnimatedSprite2D.frame = 0
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Kid/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/PathNPC.gd:75  $AnimatedSprite2D.frame = 0
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Kid/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] OpMon/Scenes/Events/Interactable/PathNPC.gd:85  $AnimatedSprite2D.frame = 0
+      -> Scenes/Maps/EuviTown/EuviTown.tscn :: Kid/AnimatedSprite2D (instance of Scenes/Events/Interactable/Character.tscn); engine property
+  [other] Open-Industry-Project-Godot/src/ChainTransfer/base.gd:67  _sb.constant_linear_velocity = local_left * ct.speed
+      -> parts/ChainTransfer.tscn :: ChainBases/ChainTransferBase2/Chain/StaticBody3D (instance of src/ChainTransfer/Base.tscn); engine property
+  [other] Open-Industry-Project-Godot/src/ChainTransfer/base.gd:68  _sb.position = _sb_active_position
+      -> parts/ChainTransfer.tscn :: ChainBases/ChainTransferBase2/Chain/StaticBody3D (instance of src/ChainTransfer/Base.tscn); engine property
+  [other] Open-Industry-Project-Godot/src/ChainTransfer/base.gd:69  _sb.rotation = Vector3.ZERO
+      -> parts/ChainTransfer.tscn :: ChainBases/ChainTransferBase2/Chain/StaticBody3D (instance of src/ChainTransfer/Base.tscn); engine property
+  [other] Open-Industry-Project-Godot/src/ChainTransfer/base.gd:99  _sb.position = _sb_inactive_position
+      -> parts/ChainTransfer.tscn :: ChainBases/ChainTransferBase2/Chain/StaticBody3D (instance of src/ChainTransfer/Base.tscn); engine property
+  [other] Open-Industry-Project-Godot/src/ChainTransfer/base.gd:100  _sb.rotation = Vector3.ZERO
+      -> parts/ChainTransfer.tscn :: ChainBases/ChainTransferBase2/Chain/StaticBody3D (instance of src/ChainTransfer/Base.tscn); engine property
+  [other] Open-Industry-Project-Godot/src/ChainTransfer/base.gd:101  _sb.constant_linear_velocity = Vector3.ZERO
+      -> parts/ChainTransfer.tscn :: ChainBases/ChainTransferBase2/Chain/StaticBody3D (instance of src/ChainTransfer/Base.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:500  sprite.rotation = deg_to_rad(spriteRotation-90)-rotation-gravityAngle
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:504  sprite.rotation = deg_to_rad(snapped(spriteRotation,45)-90)-rotation-gravityAngle
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:506  sprite.rotation = -rotation-gravityAngle
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:508  sprite.rotation = -rotation+gravityAngle
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:538  sprite.texture = normalSprite
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1206  sprite.flip_v = false
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1207  sprite.offset = defaultSpriteOffset
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1209  animator.speed_scale = abs(animator.speed_scale)
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1211  animator.speed_scale = 1
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1425  animator.speed_scale = (1.0/(duration+1.0))*(60.0/10.0)
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1428  animator.speed_scale = (1.0/(duration+1.0))*(60.0/10.0)
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1431  animator.speed_scale = (1.0/(duration+1.0))*(60.0/10.0)
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1433  animator.speed_scale = 60.0/10.0
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1435  animator.speed_scale = 20.0/10.0
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1437  animator.speed_scale = -movement.y/(40.0*(1.0+float(isSuper)))
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1439  animator.speed_scale = 1
+      -> Entities/MainObjects/Player.tscn :: Sonic/PlayerAnimation (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1465  sprite.flip_h = true
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] SonicWorldsNext/Scripts/Player/Player.gd:1468  sprite.flip_h = false
+      -> Entities/MainObjects/Player.tscn :: Sonic/Sprite2D (instance of Graphics/Players/PlayerAnimations/Sonic.tscn); engine property
+  [other] Super-Mario-World-Remastered-Public/Scripts/Player.gd:377  yoshi_head.frame = 4
+      -> Instances/Levels/blank_level.tscn :: Player/Yoshi/Body/Head (instance of Instances/Prefabs/player_yoshi.tscn); engine property
+  [other] Super-Mario-World-Remastered-Public/Scripts/UI/map_screen.gd:96  mario_point.global_position = active_point.global_position
+      -> Instances/Levels/Maps/IllusionForest.tscn :: MapMario/PathFollow2D/MarioPoint (instance of Instances/Prefabs/MapElements/map_mario.tscn); engine property
+  [other] Super-Mario-World-Remastered-Public/Scripts/UI/map_screen.gd:97  path_follow.global_position = active_point.global_position
+      -> Instances/Levels/Maps/IllusionForest.tscn :: MapMario/PathFollow2D (instance of Instances/Prefabs/MapElements/map_mario.tscn); engine property
+  [other] Super-Mario-World-Remastered-Public/Scripts/UI/map_screen.gd:99  mario_point.global_position = path_follow.global_position
+      -> Instances/Levels/Maps/IllusionForest.tscn :: MapMario/PathFollow2D/MarioPoint (instance of Instances/Prefabs/MapElements/map_mario.tscn); engine property
+  [other] Super-Mario-World-Remastered-Public/Scripts/UI/map_screen.gd:109  path_animation.speed_scale = (move_speed / map_path.curve.get_baked_length())
+      -> Instances/Levels/Maps/IllusionForest.tscn :: MapMario/PathFollow2D/AnimationPlayer (instance of Instances/Prefabs/MapElements/map_mario.tscn); engine property
+  [other] Super-Mario-World-Remastered-Public/Scripts/UI/map_screen.gd:111  path_animation.speed_scale *= 2
+      -> Instances/Levels/Maps/IllusionForest.tscn :: MapMario/PathFollow2D/AnimationPlayer (instance of Instances/Prefabs/MapElements/map_mario.tscn); engine property
+  [other] age-of-war/main_game.gd:23  $Camera2D/in_game_menu/money.text = str(GlobalVariables.player_money)
+      -> main_game.tscn :: Camera2D/in_game_menu/money (instance of UI/in_game_menu.tscn); engine property
+  [other] age-of-war/main_game.gd:24  $Camera2D/in_game_menu/exp.text = str(GlobalVariables.player_exp)
+      -> main_game.tscn :: Camera2D/in_game_menu/exp (instance of UI/in_game_menu.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/animated_sprite/animated_sprite_inspector_dock.gd:22  _round_fps.button_pressed = cfg.get("should_round_fps", true)
+      -> addons/AsepriteWizard/interface/docks/animated_sprite/animated_sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation_sf/section_content/content/round_fps/CheckBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:60  _cleanup_hide_unused_nodes.button_pressed = cfg.get("set_vis_track", config.is_set_visible_track_automatically_enabled())
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/auto_visible_track/CheckBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:61  _keep_length.button_pressed = cfg.get("keep_anim_length", false)
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/keep_length/CheckBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:62  _convert_to_fps.button_pressed = cfg.get("convert_to_fps", false)
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/snap_to_fps/convert_to_fps/CheckBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:63  _convert_ms_field.value = cfg.get("convert_ms_field", 16)
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/snap_to_fps/convert_ratio_container/convert_ratio/ms/SpinBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:64  _convert_fps_field.value = cfg.get("convert_fps_field", 60)
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/snap_to_fps/convert_ratio_container/convert_ratio/fps/fraction/SpinBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:69  _cleanup_hide_unused_nodes.button_pressed = config.is_set_visible_track_automatically_enabled()
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/auto_visible_track/CheckBox (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:285  _convert_section.visible = true
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/snap_to_fps/convert_ratio_container (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:287  _converted_fps_label.text = "(%.3f ms)" % godot_ms
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/snap_to_fps/convert_ratio_container/convert_ratio/fps/ms (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.gd:289  _convert_section.visible = false
+      -> addons/AsepriteWizard/interface/docks/sprite/sprite_inspector_dock.tscn :: dock_fields/VBoxContainer/extra/sections/animation/section_content/content/snap_to_fps/convert_ratio_container (instance of addons/AsepriteWizard/interface/docks/dock_fields.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:190  camera.fov = value
+      -> 3d/graphics_settings/control.tscn :: Node3D/Camera3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:199  directional_light.shadow_bias = 0.06
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:212  directional_light.shadow_bias = 0.04
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:216  directional_light.shadow_bias = 0.03
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:220  directional_light.shadow_bias = 0.02
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:224  directional_light.shadow_bias = 0.01
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] godot-demo-projects/3d/graphics_settings/settings.gd:228  directional_light.shadow_bias = 0.005
+      -> 3d/graphics_settings/control.tscn :: Node3D/DirectionalLight3D (instance of 3d/graphics_settings/3d_scene.tscn); engine property
+  [other] learn-gdscript/course/lesson-9-adding-and-subtracting/visuals/RobotCharacter.gd:39  _label.text = "health = %s" % [health]
+      -> course/lesson-9-adding-and-subtracting/visuals/RobotCharacter.tscn :: HealthBar/Label (instance of course/common/CustomHealthBar.tscn); engine property
+  [other] material-maker/material_maker/panels/preview_3d/preview_3d.gd:134  object_rotate.speed_scale = speed
+      -> material_maker/main_window.tscn :: VBoxContainer/Layout/FlexibleLayout/Main/BackgroundPreviews/Preview3D/MaterialPreview/Preview3d/ObjectRotate (instance of material_maker/panels/preview_3d/preview_3d_scene.tscn); engine property
+  [other] material-maker/material_maker/panels/preview_3d/preview_3d.gd:183  camera.fov = clamp(camera.fov + 1, CAMERA_FOV_MIN, CAMERA_FOV_MAX)
+      -> material_maker/main_window.tscn :: VBoxContainer/Layout/FlexibleLayout/Main/BackgroundPreviews/Preview3D/MaterialPreview/Preview3d/Camera3D (instance of material_maker/panels/preview_3d/preview_3d_scene.tscn); engine property
+  [other] material-maker/material_maker/panels/preview_3d/preview_3d.gd:188  camera.fov = clamp(camera.fov - 1, CAMERA_FOV_MIN, CAMERA_FOV_MAX)
+      -> material_maker/main_window.tscn :: VBoxContainer/Layout/FlexibleLayout/Main/BackgroundPreviews/Preview3D/MaterialPreview/Preview3d/Camera3D (instance of material_maker/panels/preview_3d/preview_3d_scene.tscn); engine property
+  [other] material-maker/material_maker/panels/preview_3d/preview_3d_panel.gd:56  objs_pivot.rotation = Vector3(0, 0, 0)
+      -> material_maker/panels/preview_3d/preview_3d_panel.tscn :: MaterialPreview/Preview3d/ObjectsPivot (instance of material_maker/panels/preview_3d/preview_3d_scene.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:27  throttle_label.text = "%0.1f%%" % (info["throttle"]*100)
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer/Throttle (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:28  force_label.text = "%d/%d (%0.1f%%)" % [round(info["force_applied"]), info["force_max"], (info["force_applied"]/info["force_max"])*100]
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer2/Force (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:29  brake_label.text = "%0.1f%%" % (info["brake"]*100)
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer7/Brake (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:30  velocity_label.text = "%0.1f" % (0 if abs(info["velocity"]) < 0.1 else info["velocity"])
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer3/Velocity (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:31  mass_label.text = "%0.1f" % info["total_mass"]
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer4/Mass (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:32  friction_label.text = "%0.1f" % info["friction"]
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer5/Friction (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] simple-godot-train/Demo/Scripts/TestWorld.gd:33  drag_label.text = "%0.1f" % info["drag"]
+      -> Demo/Scenes/TestTracks1.tscn :: TestWorld/CanvasLayer/Control/MarginContainer/VBoxContainer/HBoxContainer2/InfoBox/MarginContainer/VBoxContainer/HBoxContainer6/Drag (instance of Demo/Scenes/UIInfoBox.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:103  questDescription.text = "\n"
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:110  questDescription.text += "Description:\n[color=#%s]%s[/color]\n\n" % [UICommons.TextColor.to_html(false), questData.description]
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:112  questDescription.text += "Giver:\n[color=#%s]%s" % [UICommons.WarnTextColor.to_html(false), questData.giver]
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:114  questDescription.text += " (%s)" % questData.giverLocation
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:115  questDescription.text += "[/color]\n\n"
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:117  questDescription.text += "Target:\n[color=#%s]%s" % [UICommons.WarnTextColor.to_html(false), questData.target]
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:119  questDescription.text += " (%s)" % questData.targetLocation
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:120  questDescription.text += "[/color]\n\n"
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] sourceofmana/sources/gui/Progress.gd:122  questDescription.text += "Reward:\n[color=#%s]%s[/color]\n\n" % [UICommons.WarnTextColor.to_html(false), questData.reward]
+      -> presets/Client.tscn :: Canvas/Windows/Floating/Progress/Layout/Margin/TabBar/QuestLog/Description (instance of presets/gui/Progress.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoCrownZone.gd:25  $NoCrownSign.rotation = -rotation
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/NoCrownSign (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoCrownZone.gd:29  $FeedbackLine.visible = true
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/FeedbackLine (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoCrownZone.gd:35  $FeedbackLine.points = gshape.to_closed_PoolVector2Array()
+      -> godot/combat/levels/sets/core/rocket_take_the_crown/variants/4A.tscn :: NoCrownZone/FeedbackLine (instance of godot/actors/environments/NoCrownZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoShipZone.gd:21  $NoShipSign.rotation = -rotation
+      -> godot/combat/levels/singles/homesick_invaders/variants/GlassB.tscn :: NoShipZone/NoShipSign (instance of godot/actors/environments/NoShipZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoShipZone.gd:22  $Polygon2D.texture_rotation = -rotation
+      -> godot/combat/levels/singles/homesick_invaders/variants/GlassB.tscn :: NoShipZone/Polygon2D (instance of godot/actors/environments/NoShipZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoShipZone.gd:31  $FeedbackLine.visible = true
+      -> godot/combat/levels/singles/homesick_invaders/variants/GlassB.tscn :: NoShipZone/FeedbackLine (instance of godot/actors/environments/NoShipZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/NoShipZone.gd:37  $FeedbackLine.points = gshape.to_closed_PoolVector2Array()
+      -> godot/combat/levels/singles/homesick_invaders/variants/GlassB.tscn :: NoShipZone/FeedbackLine (instance of godot/actors/environments/NoShipZone.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:93  $line.z_index = -50
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:94  $lineBelow.z_index = -60
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:95  $InnerPolygon2D.visible = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:99  $Polygon2D.color = Color(0.7,0.7,0.7)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:103  $line.z_index = 0
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:104  $lineBelow.z_index = -10
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:105  $InnerPolygon2D.visible = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:109  $Polygon2D.color = Color(0.7,0.7,0.7)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:113  $line.z_index = 0
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:114  $lineBelow.z_index = -10
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:115  $InnerPolygon2D.visible = true
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:121  $Polygon2D.color = Color('#4f3f3c')
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:200  $InnerPolygon2D.visible = not hollow and not(type == TYPE.ghost) and not(type == TYPE.glass) and under == 'both'
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:210  $Polygon2D.visible = not hollow and not type == TYPE.ghost# and not type == TYPE.decoration
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:211  $Grid.visible = hollow and not type == TYPE.ghost and not type == TYPE.decoration and not hide_grid
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Grid (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:212  $line.visible = not hide_line
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:213  $lineBelow.visible = not hide_line_below
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:219  $Polygon2D.self_modulate = Color(1,1,1,0.8) if type == TYPE.glass or under == 'above' else Color(1,1,1,1)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:220  $Polygon2D.texture = texture_glass if type == TYPE.glass else null
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:222  $Entity/CrownDropper.enabled = type == TYPE.glass
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/CrownDropper (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:228  $line.points = PackedVector2Array([p]) + ps + PackedVector2Array([points[0], p])
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:229  $lineBelow.points = PackedVector2Array([p]) + ps + PackedVector2Array([points[0], p])
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:231  $line.texture = line_texture
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:232  $lineBelow.texture = line_texture
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:235  $lineBelow.self_modulate = Color(0.6,0.6,0.6,1) # default
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:239  $Polygon2D.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:240  $InnerPolygon2D.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:241  $line.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:242  $lineBelow.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:243  $Entity/Deadly.enabled = true
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/Deadly (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:244  $Entity/Trigger.enabled = true
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/Trigger (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:245  $line.texture = spikes_texture
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:246  $lineBelow.visible = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:248  $Polygon2D.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:249  $InnerPolygon2D.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:250  $line.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:251  $lineBelow.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:252  $Entity/Deadly.enabled = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/Deadly (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:253  $Entity/Trigger.enabled = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/Trigger (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:255  $line.visible = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:256  $lineBelow.self_modulate = Color(1,1,1,1)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:257  $lineBelow.modulate = Color(0.2,0.4,1,0.2)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:259  $Polygon2D.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:260  $InnerPolygon2D.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:261  $line.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:262  $lineBelow.modulate = solid_line_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:265  $Polygon2D.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:266  $InnerPolygon2D.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/InnerPolygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:267  $line.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:268  $lineBelow.modulate = color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:269  $lineBelow.self_modulate = Color(1,1,1,0.4)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:270  $Entity/Deadly.enabled = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/Deadly (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:271  $Entity/Trigger.enabled = false
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Entity/Trigger (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:273  $Polygon2D.color = Color(1,1,1,0.4) if type == TYPE.glass else Color('#4f4f3c')
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Polygon2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:276  $line.texture_mode = Line2D.LINE_TEXTURE_TILE
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/line (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:280  $Grid.modulate = grid_color
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/Grid (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:288  $PlatformArea/CollisionShape2D.shape = ConvexPolygonShape2D.new()
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/PlatformArea/CollisionShape2D (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/actors/environments/Wall.gd:297  $lineBelow.position = global.isometric_offset.rotated(-global_rotation)
+      -> godot/combat/levels/sets/combat/nine_lives/variants/A.tscn :: Wall9/lineBelow (instance of godot/actors/environments/Wall.tscn); engine property
+  [other] starship-olympics/godot/map_with_sets/DynamicOptionCell.gd:35  sprite.texture = sprite.get_child(selected_value).texture
+      -> godot/map_with_sets/Map.tscn :: Content/Controls/CPUs/Sprite2D (instance of godot/map_with_sets/OptionCell.tscn); engine property
+  [other] starship-olympics/godot/map_with_sets/DynamicOptionCell.gd:36  label.text = description.format({"_": selected_value})
+      -> godot/map_with_sets/Map.tscn :: Content/Controls/CPUs/Label (instance of godot/map_with_sets/OptionCell.tscn); engine property
+  [other] starship-olympics/godot/map_with_sets/DynamicOptionCell.gd:44  sprite.texture = sprite.get_child(selection[index]).texture
+      -> godot/map_with_sets/Map.tscn :: Content/Controls/CPUs/Sprite2D (instance of godot/map_with_sets/OptionCell.tscn); engine property
+  [other] starship-olympics/godot/map_with_sets/DynamicOptionCell.gd:45  label.text = description.format({"_": selection[index]})
+      -> godot/map_with_sets/Map.tscn :: Content/Controls/CPUs/Label (instance of godot/map_with_sets/OptionCell.tscn); engine property
+
+Outer scene: 7 (site, kind)
+  [ready] Stardew/Component/hit_component.gd:10  collision_shape_2d.disabled = true
+      -> Bag/projectiles/rainbow_cat.tscn :: HitComponent/CollisionShape2D; engine property
+  [other] FRU-Sim/scenes/ui/waymark_menu.gd:33  wm_ground_marker.visible = false
+      -> scenes/p1/p1_main.tscn :: GroundMarkers/WMGroundMarker; engine property
+  [other] FRU-Sim/scenes/ui/waymark_menu.gd:36  wm_ground_marker.visible = true
+      -> scenes/p1/p1_main.tscn :: GroundMarkers/WMGroundMarker; engine property
+  [other] FRU-Sim/scenes/ui/waymark_menu.gd:43  wm_ground_marker.visible = false
+      -> scenes/p1/p1_main.tscn :: GroundMarkers/WMGroundMarker; engine property
+  [other] FRU-Sim/scenes/ui/waymark_menu.gd:49  wm_ground_marker.visible = false
+      -> scenes/p1/p1_main.tscn :: GroundMarkers/WMGroundMarker; engine property
+  [other] Godot4ThirdPersonCombatPrototype/scripts/systems/enemy_section.gd:93  patrols.process_mode = Node.PROCESS_MODE_INHERIT if enabled \
+      -> scenes/scenes/Scene2.tscn :: Level2/Enemies/Section1/Patrols; engine property
+  [other] deck_builder_tutorial/scenes/ui/card_pile_opener.gd:17  counter.text = str(cards_amount)
+      -> scenes/battle/battle.tscn :: BattleUI/DrawPileButton/Counter; engine property
+
+Same scene, in `_ready`, member without initializer: 63 (site, kind)
+  [ready] GodSVG/src/ui_parts/about_authors.gd:16  developers_list.items = app_info.authors
+      -> src/ui_parts/about_authors.tscn :: DevelopersList; member src/ui_widgets/PanelGrid.gd:13 (default exported, type PackedStringArray)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:72  titled_panel.corner_radius_bottom_left = 0
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:8 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:73  titled_panel.corner_radius_bottom_right = 5
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:9 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:74  titled_panel.corner_radius_top_left = 5
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:6 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:75  titled_panel.corner_radius_top_right = 5
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:7 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:76  titled_panel.color = ThemeUtils.basic_panel_inner_color
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:10 (default exported, type Color)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:77  titled_panel.border_color = ThemeUtils.basic_panel_border_color
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:11 (default exported, type Color)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:78  titled_panel.border_width = 2
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:5 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:79  titled_panel.title_margin = 2
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:13 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/export_menu.gd:80  titled_panel.panel_margin = 10
+      -> src/ui_parts/export_menu.tscn :: MarginContainer/VBoxContainer/TitledPanel; member src/ui_widgets/TitledPanel.gd:14 (default exported, type int)
+  [ready] GodSVG/src/ui_parts/global_actions.gd:23  settings_button.shortcuts_bind = shortcuts
+      -> src/ui_parts/global_actions.tscn :: LeftSide/SettingsButton; member src/ui_widgets/BetterButton.gd:12 (object, type ShortcutsRegistration)
+  [ready] GodSVG/src/ui_parts/global_actions.gd:24  import_button.shortcuts_bind = shortcuts
+      -> src/ui_parts/global_actions.tscn :: RightSide/ImportButton; member src/ui_widgets/BetterButton.gd:12 (object, type ShortcutsRegistration)
+  [ready] GodSVG/src/ui_parts/global_actions.gd:25  export_button.shortcuts_bind = shortcuts
+      -> src/ui_parts/global_actions.tscn :: RightSide/ExportButton; member src/ui_widgets/BetterButton.gd:12 (object, type ShortcutsRegistration)
+  [ready] GodSVG/src/ui_parts/shortcut_panel_config.gd:19  layout_dropdown.values = range(ShortcutPanel.Layout.size())
+      -> src/ui_parts/shortcut_panel_config.tscn :: VBoxContainer/PanelContainer/HBoxContainer/ConfigContainer/LayoutBox/LayoutDropdown; member src/ui_widgets/dropdown_basic.gd:4 (default exported, type Array)
+  [ready] GodSVG/src/ui_widgets/element_content_path.gd:9  path_field.element = element
+      -> src/ui_widgets/element_content_path.tscn :: PathField; member src/ui_widgets/pathdata_field.gd:4 (object, type Element)
+  [ready] GodSVG/src/ui_widgets/element_content_polyshape.gd:9  points_field.element = element
+      -> src/ui_widgets/element_content_polyshape.tscn :: PointsField; member src/ui_widgets/points_field.gd:4 (object, type Element)
+  [ready] GodSVG/src/ui_widgets/preview_presentation_popup.gd:42  presentation_type_dropdown.values = range(PresentationType.size())
+      -> src/ui_widgets/preview_presentation_popup.tscn :: VBoxContainer/PresentationTypeDropdown; member src/ui_widgets/dropdown_basic.gd:4 (default exported, type Array)
+  [ready] GodSVG/src/ui_widgets/zoom_widget.gd:21  zoom_out_button.shortcuts_bind = shortcuts
+      -> src/ui_parts/display.tscn :: ViewportPanel/VBoxContainer/Toolbar/ViewportOptions/ZoomMenu/ZoomOut; member src/ui_widgets/BetterButton.gd:12 (object, type ShortcutsRegistration)
+  [ready] GodSVG/src/ui_widgets/zoom_widget.gd:22  zoom_in_button.shortcuts_bind = shortcuts
+      -> src/ui_parts/display.tscn :: ViewportPanel/VBoxContainer/Toolbar/ViewportOptions/ZoomMenu/ZoomIn; member src/ui_widgets/BetterButton.gd:12 (object, type ShortcutsRegistration)
+  [ready] GodSVG/src/ui_widgets/zoom_widget.gd:23  zoom_reset_button.shortcuts_bind = shortcuts
+      -> src/ui_parts/display.tscn :: ViewportPanel/VBoxContainer/Toolbar/ViewportOptions/ZoomMenu/ZoomReset; member src/ui_widgets/BetterButton.gd:12 (object, type ShortcutsRegistration)
+  [ready] Godot-Game-Template/addons/maaacks_game_template/installer/kenney_input_prompts_installer.gd:289  _download_and_extract_node.extract_path = get_full_path()
+      -> addons/maaacks_game_template/installer/kenney_input_prompts_installer.tscn :: DownloadAndExtract; member addons/plugin_updater/utilities/download_and_extract.gd:42 (default exported, type String)
+  [ready] Godot_Universal-Controller-tutorial/Player/HumanoidModel/Model.gd:28  moves_container.player = player
+      -> Locations/ProtoLevel.tscn :: Player/Model/States; member Player/HumanoidModel/HumanoidStates.gd:5 (object exported, type CharacterBody3D)
+  [ready] Godot_Universal-Controller-tutorial/Player/HumanoidModel/Model.gd:32  legs.current_legs_move = moves_container.get_move_by_name("idle")
+      -> Locations/ProtoLevel.tscn :: Player/Model/Legs; member Player/HumanoidModel/Legs.gd:11 (object, type Move)
+  [ready] Lorien/lorien/InfiniteCanvas/InfiniteCanvas.gd:49  _brush_tool.pressure_curve = _constant_pressure_curve
+      -> lorien/Main.tscn :: InfiniteCanvas/BrushTool; member lorien/InfiniteCanvas/Tools/BrushTool.gd:9 (object exported, type Curve)
+  [ready] Lorien/lorien/InfiniteCanvas/InfiniteCanvas.gd:51  _brush_tool.pressure_curve = _default_pressure_curve
+      -> lorien/Main.tscn :: InfiniteCanvas/BrushTool; member lorien/InfiniteCanvas/Tools/BrushTool.gd:9 (object exported, type Curve)
+  [ready] MizGodotTools/items/weapons/weapon.gd:13  attack_emitter.damage = damage
+      -> items/weapons/weapon.tscn :: AttackEmitter; member items/weapons/attack_emitters/attack_emitter.gd:7 (default, type int)
+  [ready] Project-Heartbeat/menus/options_menu/OptionCustomSoundSelect.gd:19  pack_select_dropdown.sound_name = sound_name
+      -> menus/options_menu/OptionCustomSoundSelect.tscn :: CanvasLayer/DropDown; member menus/options_menu/OptionSoundSelectDropdown.gd:6 (untyped, type None)
+  [ready] RhythiaRewrite/scripts/game/GameScene.gd:30  replay_manager.mode = ReplayManager.Mode.PLAY
+      -> scenes/Game.tscn :: ReplayManager; member scripts/game/managers/ReplayManager.gd:8 (default exported, type Mode)
+  [ready] RhythiaRewrite/scripts/game/GameScene.gd:33  player.controller = replay_controller
+      -> scenes/Game.tscn :: Origin/Player; member scripts/game/map/objects/PlayerObject.gd:12 (object, type PlayerController)
+  [ready] RhythiaRewrite/scripts/game/GameScene.gd:37  player.controller = solo_controller
+      -> scenes/Game.tscn :: Origin/Player; member scripts/game/map/objects/PlayerObject.gd:12 (object, type PlayerController)
+  [ready] RhythiaRewrite/scripts/game/GameScene.gd:43  if sync_manager is AudioSyncManager: sync_manager.audio_stream = mapset.audio
+      -> scenes/Game.tscn :: AudioSyncManager; member scripts/game/managers/AudioSyncManager.gd:9 (object, type AudioStream)
+  [ready] TowDownGame/game/map/SnowWorld/SnowWorld.gd:10  $MonsterBuilder.land = land
+      -> game/map/SnowWorld/SnowWorld.tscn :: MonsterBuilder; member game/map/SnowWorld/MonsterBuilder.gd:9 (object, type TileMap)
+  [ready] TowDownGame/game/map/SnowWorld/SnowWorld.gd:11  $MonsterBuilder.monsterRoot = $MonsterRoot
+      -> game/map/SnowWorld/SnowWorld.tscn :: MonsterBuilder; member game/map/SnowWorld/MonsterBuilder.gd:8 (object, type Node2D)
+  [ready] better-terrain/addons/better-terrain/editor/Dock.gd:119  tile_view.undo_manager = undo_manager
+      -> addons/better-terrain/editor/Dock.tscn :: VBox/HSplit/Panel/ScrollArea/TileView; member addons/better-terrain/editor/TileView.gd:54 (object, type EditorUndoRedoManager)
+  [ready] better-terrain/addons/better-terrain/editor/Dock.gd:120  tile_view.terrain_undo = terrain_undo
+      -> addons/better-terrain/editor/Dock.tscn :: VBox/HSplit/Panel/ScrollArea/TileView; member addons/better-terrain/editor/TileView.gd:55 (untyped, type None)
+  [ready] deck_builder_tutorial/scenes/enemy/enemy.gd:21  status_handler.status_owner = self
+      -> battles/tier_0_bats2.tscn :: Enemy/StatusHandler; member scenes/status_handler/status_handler.gd:9 (object exported, type Node2D)
+  [ready] deck_builder_tutorial/scenes/event_rooms/helpful_boi_event.gd:9  duplicate_last_card_button.event_button_callback = duplicate_last_card
+      -> scenes/event_rooms/helpful_boi_event.tscn :: VBoxContainer/DuplicateLastCardButton; member scenes/event_rooms/event_room_button.gd:4 (default, type Callable)
+  [ready] deck_builder_tutorial/scenes/event_rooms/helpful_boi_event.gd:10  plus_max_hp_button.event_button_callback = plus_max_hp
+      -> scenes/event_rooms/helpful_boi_event.tscn :: VBoxContainer/PlusMaxHPButton; member scenes/event_rooms/event_room_button.gd:4 (default, type Callable)
+  [ready] deck_builder_tutorial/scenes/player/player.gd:15  status_handler.status_owner = self
+      -> scenes/battle/battle.tscn :: Player/StatusHandler; member scenes/status_handler/status_handler.gd:9 (object exported, type Node2D)
+  [ready] dialogic/addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.gd:18  %ScenePicker.resource_icon = get_theme_icon('PackedScene', 'EditorIcons')
+      -> addons/dialogic/Editor/CharacterEditor/char_edit_p_section_main.tscn :: HBox/ScenePicker; member addons/dialogic/Editor/Events/Fields/field_file.gd:12 (object, type Texture)
+  [ready] dialogic/addons/dialogic/Editor/Common/ReferenceManager_AddReplacementPanel.gd:16  %Character.suggestions_func = get_character_suggestions
+      -> addons/dialogic/Editor/editor_main.tscn :: ReferenceManager/Manager/Tabs/BrokenReferences/ChangesList/VBox/ReplacementEditPanel/VBox/HBoxContainer4/Character; member addons/dialogic/Editor/Events/Fields/field_options_dynamic.gd:14 (default, type Callable)
+  [ready] dialogic/addons/dialogic/Modules/Character/settings_portraits.gd:20  %JoinDefault.suggestions_func = get_join_animation_suggestions
+      -> addons/dialogic/Modules/Character/settings_portraits.tscn :: GridContainer/DefaultIn/JoinDefault; member addons/dialogic/Editor/Events/Fields/field_options_dynamic.gd:14 (default, type Callable)
+  [ready] dialogic/addons/dialogic/Modules/Character/settings_portraits.gd:22  %LeaveDefault.suggestions_func = get_leave_animation_suggestions
+      -> addons/dialogic/Modules/Character/settings_portraits.tscn :: GridContainer/DefaultOut/LeaveDefault; member addons/dialogic/Editor/Events/Fields/field_options_dynamic.gd:14 (default, type Callable)
+  [ready] dialogic/addons/dialogic/Modules/Character/settings_portraits.gd:24  %CrossFadeDefault.suggestions_func = get_crossfade_animation_suggestions
+      -> addons/dialogic/Modules/Character/settings_portraits.tscn :: GridContainer/DefaultCrossFade/CrossFadeDefault; member addons/dialogic/Editor/Events/Fields/field_options_dynamic.gd:14 (default, type Callable)
+  [ready] gloot/addons/gloot/editor/inventory_editor/inventory_inspector.gd:24  inventory_editor.inventory = inventory
+      -> addons/gloot/editor/inventory_editor/inventory_inspector.tscn :: HBoxContainer/InventoryEditor; member addons/gloot/editor/inventory_editor/inventory_editor.gd:9 (object, type Inventory)
+  [ready] gloot/addons/gloot/editor/item_slot_editor/item_slot_editor.gd:73  %CtrlItemSlot.item_slot = item_slot
+      -> addons/gloot/editor/item_slot_editor/item_slot_editor.tscn :: HSplitContainer/VBoxContainer/CtrlItemSlot; member addons/gloot/ui/ctrl_item_slot.gd:14 (object exported, type ItemSlot)
+  [ready] gloot/addons/gloot/editor/item_slot_editor/item_slot_inspector.gd:24  item_slot_editor.item_slot = item_slot
+      -> addons/gloot/editor/item_slot_editor/item_slot_inspector.tscn :: HBoxContainer/ItemSlotEditor; member addons/gloot/editor/item_slot_editor/item_slot_editor.gd:9 (object, type ItemSlot)
+  [ready] godot-open-rpg/src/field/cutscenes/templates/treasure_chests/treasure_chest.gd:14  interaction.item_type = item_type
+      -> src/main.tscn :: Field/Map/House/Gamepieces/TreasureChest/Interaction; member src/field/cutscenes/templates/treasure_chests/treasure_chest_interaction.gd:9 (default, type Inventory.ItemTypes)
+  [ready] godot-port/Assets/UI/TabWidgets/Views/MainSquareTierTab.gd:22  self.caption_block.caption_text = str(self.tab_tier)
+      -> Assets/Player/PlayerHUD2.tscn :: RightMenuPanel/TabContainer/AllTabs/ScrollContainer/TabContainer/MainSquareSailorsTab/CaptionBlock; member Assets/UI/BasicControls/CaptionBlock.gd:7 (default exported, type String)
+  [ready] godot-steering-ai-framework/godot/Demos/Face/FaceDemo.gd:17  player.speed = player_speed
+      -> godot/Demos/Face/FaceDemo.tscn :: Player; member godot/Demos/Face/Player.gd:3 (default, type float)
+  [ready] godot-steering-ai-framework/godot/Demos/SeekFlee/SeekFleeDemo.gd:32  player.speed = player_speed
+      -> godot/Demos/SeekFlee/SeekFleeDemo.tscn :: Player; member godot/Demos/SeekFlee/Player.gd:4 (default, type float)
+  [ready] godot_dialogue_manager/addons/dialogue_manager/views/main_view.gd:140  search_and_replace.code_edit = code_edit
+      -> addons/dialogue_manager/views/main_view.tscn :: Margin/Content/CodePanel/SearchAndReplace; member addons/dialogue_manager/components/search_and_replace.gd:21 (object, type CodeEdit)
+  [ready] godot_dialogue_manager/addons/dialogue_manager/views/main_view.gd:145  code_edit.main_view = self
+      -> addons/dialogue_manager/views/main_view.tscn :: Margin/Content/CodePanel/CodeEdit; member addons/dialogue_manager/components/code_edit.gd:14 (object, type Control)
+  [ready] godot_open_star_fighter/src/ship_controllers/player/player.gd:23  _hud.player_ship = _ship
+      -> src/ship_controllers/player/player.tscn :: Hud; member src/ship_controllers/player/hud/hud.gd:5 (object, type Ship)
+  [ready] holoDelta/Scripts/Multiplayer.gd:230  %ConfirmDialog.dialogTitle = tr("DECK_AUTOLOAD_CONFIRM")
+      -> Scenes/board.tscn :: CanvasLayer/ConfirmDialog; member Scripts/confirm_dialog.gd:3 (default exported, type String)
+  [ready] holoDelta/Scripts/Multiplayer.gd:231  %ConfirmDialog.dialogContent = tr("DECK_AUTOLOAD_CONFIRM_INFO")
+      -> Scenes/board.tscn :: CanvasLayer/ConfirmDialog; member Scripts/confirm_dialog.gd:4 (default exported, type String)
+  [ready] knakk/GameScreen/Slot/Slot.gd:25  $Reward.reward = reward
+      -> GameScreen/Slot/Slot.tscn :: Reward; member Reward/RewardMarker.gd:8 (untyped, type None)
+  [ready] learn-gdscript/ui/UINavigator.gd:43  _course_outliner.course_index = course_index
+      -> ui/UINavigator.tscn :: Layout/Content/CourseOutliner; member ui/screens/course_outliner/CourseOutliner.gd:12 (object, type CourseIndex)
+  [ready] opengs/editor/editor.gd:21  province_editor.database = db
+      -> editor/editor.tscn :: ProvinceEditor; member editor/ui/province_editor.gd:24 (object, type Database)
+  [ready] phantom-camera/addons/phantom_camera/scripts/panel/editor.gd:21  updater.editor_plugin = editor_plugin
+      -> addons/phantom_camera/panel/editor.tscn :: UpdateButton; member addons/phantom_camera/scripts/panel/updater/update_button.gd:31 (object, type EditorPlugin)
+  [ready] the-mirror/mirror-godot-app/ui/main_menu/pages/space_select.gd:120  _endless_scroll_flow_container.fetch_callable = _fetch_results_cb
+      -> mirror-godot-app/ui/game/game_ui.tscn :: MainMenuUI/Pages/My_Spaces/Pages/MySpaceSelect/VBoxContainer/Panel/MarginContainer/EndlessScrollFlowContainer; member mirror-godot-app/ui/common/components/endless_scroll_flow_container.gd:16 (default, type Callable)
+  [ready] the-mirror/mirror-godot-app/ui/main_menu/pages/space_select.gd:121  _endless_scroll_flow_container.on_item_created_callable = _on_space_item_added
+      -> mirror-godot-app/ui/game/game_ui.tscn :: MainMenuUI/Pages/My_Spaces/Pages/MySpaceSelect/VBoxContainer/Panel/MarginContainer/EndlessScrollFlowContainer; member mirror-godot-app/ui/common/components/endless_scroll_flow_container.gd:17 (default, type Callable)
+  [ready] unto-deepest-depths-prototype/src/unit/unit.gd:30  abilities_db.unit = self
+      -> src/battle/battle.tscn :: units/player/unit3/abilities_db; member src/battle/nodes/units/components/abilities_db.gd:3 (object, type Unit)

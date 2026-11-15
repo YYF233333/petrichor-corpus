@@ -1,0 +1,659 @@
+## Corpus
+
+| repo | commit | .gd files | lines | first-party lines | of which tests | awaits | first-party awaits | of which tests |
+|---|---|---|---|---|---|---|---|---|
+| _original_client | 893d351 | 60 | 8,572 | 7,700 | 0 | 5 | 4 | 0 |
+| aarpg-tutorial | 19ae32e | 121 | 7,259 | 7,068 | 0 | 50 | 49 | 0 |
+| abyssal-walker | ec497b3 | 89 | 21,021 | 19,912 | 0 | 27 | 24 | 0 |
+| age-of-war | c6f2d0f | 70 | 3,985 | 3,985 | 13 | 0 | 0 | 0 |
+| Arrow | 5c0291c | 106 | 21,044 | 20,092 | 0 | 6 | 6 | 0 |
+| BatteryAcid__godot-3d-multiplayer-template | 2e274ff | 53 | 5,256 | 901 | 0 | 21 | 10 | 0 |
+| beehave | fe58915 | 322 | 35,193 | 8,566 | 4,097 | 240 | 28 | 28 |
+| BehaviourToolkit | 8c8164c | 74 | 3,155 | 3,155 | 0 | 0 | 0 | 0 |
+| better-terrain | e93040e | 9 | 4,167 | 4,167 | 0 | 8 | 8 | 0 |
+| boscaceoil-blue | 4b6b5c6 | 87 | 17,260 | 17,260 | 0 | 0 | 0 | 0 |
+| CandyWrapper | de75907 | 4 | 359 | 359 | 0 | 1 | 1 | 0 |
+| Castlevania-Remnants-of-Darkness | d77b3af | 871 | 58,348 | 20,446 | 0 | 245 | 128 | 0 |
+| Cats-Godot4-Modular-Souls-like-Template | d8bceff | 39 | 2,702 | 2,702 | 0 | 54 | 54 | 0 |
+| Cupcakes-Framework | 485e1ee | 10 | 274 | 274 | 0 | 0 | 0 | 0 |
+| cyclopsLevelBuilder | ea41fea | 328 | 39,554 | 20,173 | 215 | 5 | 2 | 0 |
+| deck_builder_tutorial | 91b408b | 122 | 4,830 | 4,830 | 0 | 15 | 15 | 0 |
+| desksaw | 4555ffe | 92 | 9,575 | 7,508 | 0 | 53 | 49 | 0 |
+| devmoreir4__godot-3d-multiplayer-template | 51b2614 | 16 | 3,200 | 3,200 | 0 | 2 | 2 | 0 |
+| dialogic | 3afc449 | 272 | 35,543 | 20,175 | 0 | 125 | 91 | 0 |
+| DOGWALK | 34c527e | 97 | 14,065 | 12,708 | 93 | 7 | 7 | 0 |
+| Dororo | c2050bd | 47 | 2,742 | 1,499 | 0 | 1 | 1 | 0 |
+| escoria-demo-game | 92e6506 | 457 | 70,323 | 240 | 0 | 451 | 4 | 0 |
+| Freedom-Hunter | 3f27279 | 50 | 3,402 | 3,402 | 0 | 14 | 14 | 0 |
+| Friendslop-Template | 25787cc | 116 | 21,145 | 5,107 | 2,582 | 105 | 75 | 70 |
+| FRU-Sim | 2a77c85 | 149 | 12,414 | 12,414 | 0 | 15 | 15 | 0 |
+| func_godot_plugin | 352f3d3 | 33 | 5,461 | 5,461 | 0 | 0 | 0 | 0 |
+| gaea | 79461f6 | 166 | 16,491 | 16,491 | 0 | 41 | 41 | 0 |
+| Galaxy-Defiance | 29b8b70 | 32 | 671 | 671 | 0 | 2 | 2 | 0 |
+| game-base-2D | f8bef73 | 57 | 1,475 | 1,475 | 0 | 3 | 3 | 0 |
+| GBM2K-Framework | 12f6748 | 13 | 383 | 383 | 0 | 2 | 2 | 0 |
+| gd-YAFSM | a4241b1 | 36 | 4,249 | 4,249 | 0 | 0 | 0 | 0 |
+| gdmaim | 634cada | 23 | 6,506 | 6,506 | 0 | 3 | 3 | 0 |
+| GDWaterKart | f151ebe | 24 | 2,752 | 2,643 | 0 | 3 | 3 | 0 |
+| Genesis | 2afb86d | 54 | 4,407 | 2,013 | 0 | 9 | 8 | 0 |
+| gloot | 6b09b87 | 62 | 8,729 | 8,729 | 2,364 | 0 | 0 | 0 |
+| Godot-2D-Action-Game | b597570 | 85 | 3,510 | 3,177 | 0 | 13 | 13 | 0 |
+| godot-2d-adventure-tutorial | 0120b91 | 26 | 1,338 | 1,338 | 0 | 7 | 7 | 0 |
+| godot-2d-builder | 7a747e5 | 93 | 4,913 | 4,913 | 0 | 16 | 16 | 0 |
+| godot-2d-space-game | 661a101 | 93 | 4,656 | 4,656 | 0 | 30 | 30 | 0 |
+| godot-2d-topdown-template | ea95789 | 107 | 13,392 | 2,705 | 0 | 102 | 24 | 0 |
+| godot-3-beginner-2d-platformer | ce08716 | 22 | 488 | 242 | 0 | 1 | 1 | 0 |
+| godot-4-2d-visual-novel | 94dafe9 | 16 | 1,855 | 1,855 | 0 | 18 | 18 | 0 |
+| godot-4-3d-third-person-controller | b3bd6e8 | 28 | 1,501 | 1,501 | 0 | 13 | 13 | 0 |
+| godot-4-procedural-generation | 19c98ce | 115 | 7,478 | 3,508 | 0 | 14 | 14 | 0 |
+| Godot-4-Tower-Defense-Template | cfdbf5e | 21 | 905 | 905 | 0 | 0 | 0 | 0 |
+| godot-aseprite-wizard | eede800 | 62 | 6,813 | 6,813 | 0 | 22 | 22 | 0 |
+| godot-card-game-frame | ee4e3dd | 65 | 10,481 | 1,269 | 0 | 87 | 22 | 0 |
+| godot-chess | e16a242 | 10 | 1,425 | 1,425 | 0 | 4 | 4 | 0 |
+| godot-debug-menu | ff12461 | 2 | 505 | 505 | 0 | 0 | 0 | 0 |
+| godot-demo-projects | b761b4c | 461 | 30,819 | 20,302 | 1,824 | 171 | 113 | 92 |
+| godot-FirstPersonStarter | 893db99 | 4 | 179 | 179 | 0 | 0 | 0 | 0 |
+| Godot-Game-Template | 6849d6c | 125 | 8,553 | 8,278 | 0 | 51 | 51 | 0 |
+| godot-gameplay-systems | 9349931 | 169 | 19,336 | 7,422 | 1,143 | 26 | 9 | 5 |
+| Godot-GameTemplate | d5d8d15 | 226 | 12,325 | 336 | 0 | 13 | 0 | 0 |
+| Godot-Inventory | 61676d9 | 34 | 2,164 | 2,164 | 0 | 0 | 0 | 0 |
+| godot-mod-loader | 2fbf7b0 | 61 | 10,167 | 9,650 | 2,816 | 91 | 91 | 87 |
+| godot-multiplayer | 70006c8 | 24 | 1,119 | 1,119 | 0 | 1 | 1 | 0 |
+| godot-open-rpg | d59f2f7 | 342 | 40,662 | 5,422 | 0 | 236 | 111 | 0 |
+| godot-open-rts | a628ad3 | 118 | 7,415 | 7,415 | 10 | 31 | 31 | 0 |
+| Godot-Plush-Character | 1e62116 | 7 | 354 | 354 | 0 | 5 | 5 | 0 |
+| godot-port | fa0d514 | 127 | 8,724 | 8,724 | 0 | 75 | 75 | 0 |
+| godot-resources-as-sheets-plugin | f6e5645 | 48 | 5,301 | 5,301 | 0 | 13 | 13 | 0 |
+| godot-road-generator | 7cbefde | 112 | 33,980 | 17,942 | 2,703 | 35 | 5 | 1 |
+| godot-rocket-league | 78b28ce | 68 | 7,929 | 755 | 0 | 18 | 5 | 0 |
+| Godot-Roguelike-Tutorial | c70e30b | 31 | 1,108 | 1,108 | 0 | 2 | 2 | 0 |
+| godot-start | 115fc06 | 38 | 1,251 | 1,251 | 0 | 6 | 6 | 0 |
+| godot-statecharts | 76d226a | 141 | 18,768 | 6,852 | 2,217 | 87 | 70 | 70 |
+| godot-steering-ai-framework | 9d7cf0d | 67 | 3,381 | 3,381 | 0 | 15 | 15 | 0 |
+| godot-tactical-rpg | cfe785e | 57 | 4,193 | 4,193 | 0 | 0 | 0 | 0 |
+| godot-tiny-mmo | f4ed04f | 470 | 54,742 | 20,175 | 0 | 99 | 25 | 0 |
+| godot-visual-effects | 647a8f1 | 39 | 2,410 | 2,410 | 0 | 16 | 16 | 0 |
+| godot-xr-template | 7d8261c | 123 | 18,799 | 1,497 | 0 | 8 | 0 | 0 |
+| godot-xr-tools | 6c6189b | 142 | 20,830 | 20,077 | 0 | 12 | 12 | 0 |
+| Godot4-FPS-Template | 7130929 | 16 | 964 | 964 | 0 | 2 | 2 | 0 |
+| godot4-third-person-controller | c809ec2 | 22 | 1,087 | 1,087 | 0 | 3 | 3 | 0 |
+| Godot4SourceEngineMovement | d3ebc9a | 14 | 795 | 795 | 0 | 2 | 2 | 0 |
+| Godot4ThirdPersonCombatPrototype | cbfecf4 | 189 | 13,268 | 10,136 | 0 | 8 | 8 | 0 |
+| godot_autobattler_course | fba5dc3 | 80 | 3,269 | 3,269 | 0 | 2 | 2 | 0 |
+| godot_dialogue_manager | 7a72dcf | 79 | 14,619 | 14,619 | 2,185 | 240 | 240 | 152 |
+| godot_experiments | 4baec72 | 17 | 428 | 428 | 64 | 2 | 2 | 0 |
+| godot_heightmap_plugin | 49887ff | 68 | 16,598 | 16,598 | 0 | 0 | 0 | 0 |
+| godot_input_helper | ccfad58 | 10 | 1,197 | 1,197 | 201 | 2 | 2 | 2 |
+| godot_little_camera_preview | 1c4fd4d | 3 | 525 | 525 | 0 | 1 | 1 | 0 |
+| godot_open_star_fighter | 6e7be5c | 40 | 2,408 | 2,408 | 0 | 5 | 5 | 0 |
+| godot_sound_manager | 1c04158 | 7 | 590 | 590 | 0 | 0 | 0 | 0 |
+| godot_spatial_gardener | 77b822f | 101 | 19,013 | 19,013 | 776 | 8 | 8 | 1 |
+| godot_ui_components | 22d2355 | 16 | 974 | 974 | 0 | 6 | 6 | 0 |
+| Godot_Universal-Controller-tutorial | 8239bc0 | 53 | 1,719 | 1,719 | 0 | 0 | 0 | 0 |
+| GodotDynamicInventorySystem | bd74a72 | 26 | 1,460 | 1,460 | 0 | 4 | 4 | 0 |
+| GodotFirebase | 68be886 | 41 | 4,638 | 4,459 | 0 | 60 | 60 | 0 |
+| GodotOS | 90c94c0 | 79 | 4,287 | 4,287 | 0 | 32 | 32 | 0 |
+| GodotPixelRenderer | 078f207 | 11 | 3,539 | 3,106 | 0 | 16 | 16 | 0 |
+| GodotProjectZero | 1ea0458 | 222 | 22,573 | 14,000 | 0 | 18 | 6 | 0 |
+| godots | 8e4eb2b | 143 | 16,599 | 15,282 | 345 | 49 | 46 | 0 |
+| GodSVG | 52ad794 | 192 | 29,510 | 20,140 | 0 | 24 | 17 | 0 |
+| Gut | cf45f66 | 304 | 43,484 | 20,125 | 9,308 | 435 | 185 | 168 |
+| holoDelta | 74e83d2 | 44 | 9,911 | 8,229 | 0 | 6 | 2 | 0 |
+| Improved-KCC | 0661e04 | 57 | 8,115 | 3,850 | 0 | 4 | 0 | 0 |
+| jdungeon | d941345 | 249 | 33,584 | 19,096 | 26 | 75 | 56 | 0 |
+| knakk | 8d93a6b | 32 | 2,716 | 2,716 | 0 | 46 | 46 | 0 |
+| learn-gdscript | b2c86f0 | 265 | 24,118 | 20,220 | 763 | 125 | 108 | 7 |
+| Legacy_SM63Redux | cde0b9e | 161 | 14,900 | 14,900 | 0 | 5 | 5 | 0 |
+| LibreAim | e705a92 | 35 | 1,504 | 1,504 | 0 | 3 | 3 | 0 |
+| limbo-godot | 08879ba | 12 | 1,226 | 1,226 | 0 | 6 | 6 | 0 |
+| Lorien | 17e3222 | 50 | 5,032 | 5,032 | 0 | 7 | 7 | 0 |
+| Lost-Pilot | 8bc78dd | 30 | 1,522 | 1,522 | 0 | 13 | 13 | 0 |
+| malware-slayer | 4f48fec | 121 | 6,221 | 6,221 | 152 | 47 | 47 | 35 |
+| material-maker | 7d6daae | 410 | 60,359 | 20,195 | 0 | 500 | 219 | 0 |
+| Metroidvania-System | 0065ae8 | 56 | 6,872 | 6,872 | 0 | 22 | 22 | 0 |
+| Microverse | 7a061d4 | 30 | 7,800 | 7,800 | 0 | 39 | 39 | 0 |
+| MizGodotTools | cb548f9 | 70 | 4,540 | 4,540 | 0 | 21 | 21 | 0 |
+| moddable-platformer | 834b508 | 15 | 1,320 | 1,320 | 0 | 3 | 3 | 0 |
+| MultiplayerFPSTutorial | ef3e702 | 2 | 162 | 162 | 0 | 0 | 0 | 0 |
+| museum-of-all-things | 03cf5ff | 156 | 20,542 | 6,790 | 0 | 12 | 5 | 0 |
+| nakama-godot | 6dc7b39 | 44 | 14,102 | 5,683 | 580 | 485 | 219 | 71 |
+| netfox | a482c97 | 283 | 25,415 | 19,700 | 3,866 | 219 | 142 | 78 |
+| Open-Industry-Project-Godot | 117dfd9 | 110 | 32,378 | 20,063 | 0 | 7 | 3 | 0 |
+| opengs | 06838d9 | 32 | 2,495 | 2,495 | 0 | 0 | 0 | 0 |
+| OpenLiberty | b2fcfd2 | 80 | 5,893 | 1,691 | 23 | 5 | 3 | 0 |
+| OpenVic | 936fa94 | 323 | 42,081 | 11,898 | 0 | 224 | 8 | 0 |
+| OpMon | 9cea691 | 40 | 2,998 | 2,998 | 0 | 1 | 1 | 0 |
+| paddles_balls_blocks_walls | 5448f22 | 57 | 3,068 | 3,068 | 114 | 0 | 0 | 0 |
+| pandora | fa48e30 | 350 | 36,013 | 9,503 | 2,166 | 240 | 31 | 25 |
+| PankuConsole | 863324d | 100 | 4,909 | 4,909 | 0 | 6 | 6 | 0 |
+| phantom-camera | 21d3762 | 36 | 10,410 | 10,410 | 0 | 7 | 7 | 0 |
+| Pixelorama | 38a8b03 | 249 | 60,025 | 20,081 | 0 | 92 | 32 | 0 |
+| PixelPlanets | 8ec6ee3 | 26 | 2,087 | 1,318 | 0 | 5 | 5 | 0 |
+| Pocket-Godot | 1758733 | 9 | 380 | 380 | 0 | 0 | 0 | 0 |
+| poder-solar | d5820a1 | 11 | 439 | 439 | 0 | 3 | 3 | 0 |
+| Project-Heartbeat | a9c1c02 | 507 | 64,339 | 20,167 | 101 | 122 | 46 | 0 |
+| protongraph | 1e2411a | 167 | 11,385 | 11,385 | 0 | 12 | 12 | 0 |
+| PSGodotTemplateRepo | cc5cccd | 34 | 880 | 880 | 0 | 31 | 31 | 0 |
+| Qodot | 1f03de4 | 43 | 4,705 | 4,705 | 0 | 8 | 8 | 0 |
+| Reia | 35baf42 | 198 | 13,830 | 12,734 | 245 | 0 | 0 | 0 |
+| Resources-GDScript | 47525a2 | 47 | 1,546 | 1,546 | 0 | 0 | 0 | 0 |
+| RhythiaRewrite | e1cfba6 | 76 | 4,101 | 4,101 | 0 | 17 | 17 | 0 |
+| ridiculous_coding | 6ead7f0 | 5 | 432 | 432 | 0 | 0 | 0 | 0 |
+| scatter | 7198cc0 | 83 | 9,444 | 9,444 | 0 | 16 | 16 | 0 |
+| Scene-Manager | bf3b1fe | 107 | 21,716 | 1,931 | 1,015 | 133 | 91 | 70 |
+| script-ide | c1dfb1f | 8 | 2,705 | 2,705 | 0 | 0 | 0 | 0 |
+| ShaderV | b99ad61 | 93 | 7,357 | 7,357 | 0 | 0 | 0 | 0 |
+| SignalVisualizer | 06a46e5 | 15 | 1,170 | 1,170 | 0 | 0 | 0 | 0 |
+| simgine | 24b2d70 | 78 | 6,972 | 2,235 | 367 | 18 | 4 | 0 |
+| simple-godot-train | c7dd62a | 17 | 755 | 755 | 0 | 0 | 0 | 0 |
+| SimpleFPSController | da3e71e | 11 | 1,296 | 1,296 | 0 | 0 | 0 | 0 |
+| Sky3D | 81f95ab | 7 | 2,722 | 2,722 | 0 | 0 | 0 | 0 |
+| Slay-The-Robot | 4dac5ab | 333 | 30,846 | 20,251 | 0 | 51 | 48 | 0 |
+| SmartShape2D | 9617190 | 154 | 30,647 | 11,155 | 2,740 | 43 | 5 | 4 |
+| soccer-course | c28147f | 65 | 2,154 | 2,154 | 0 | 0 | 0 | 0 |
+| SonicWorldsNext | d2e6212 | 132 | 12,436 | 12,436 | 0 | 40 | 40 | 0 |
+| SoundThread | a33198a | 32 | 6,517 | 6,275 | 0 | 74 | 72 | 0 |
+| sourceofmana | 50adcc7 | 289 | 36,344 | 20,194 | 0 | 96 | 8 | 0 |
+| Stardew | f238436 | 65 | 2,788 | 2,788 | 0 | 12 | 12 | 0 |
+| starship-olympics | 429667b | 754 | 67,383 | 20,354 | 149 | 364 | 193 | 4 |
+| Starter-Kit-3D-Platformer | 3fa8a04 | 9 | 378 | 378 | 0 | 1 | 1 | 0 |
+| Starter-Kit-City-Builder | 4535092 | 6 | 311 | 311 | 0 | 0 | 0 | 0 |
+| Starter-Kit-FPS | 185fd23 | 7 | 451 | 451 | 0 | 0 | 0 | 0 |
+| Starter-Kit-Match-3 | 4ddb3d2 | 4 | 366 | 366 | 0 | 7 | 7 | 0 |
+| Starter-Kit-Racing | 2f2e5f2 | 3 | 258 | 258 | 0 | 0 | 0 | 0 |
+| Strategy-GDScript | 0b362be | 27 | 748 | 748 | 0 | 0 | 0 | 0 |
+| super-godot-galaxy | cfb741e | 14 | 600 | 460 | 0 | 0 | 0 | 0 |
+| Super-Mario-Bros.-Remastered-Public | 7fe1ff7 | 471 | 41,266 | 20,313 | 0 | 407 | 337 | 0 |
+| Super-Mario-World-Remastered-Public | 4c520cf | 552 | 33,855 | 20,377 | 0 | 646 | 466 | 0 |
+| SurvivorsClone_Complete | 965d761 | 17 | 1,254 | 1,254 | 0 | 0 | 0 | 0 |
+| TakinGodotTemplate | a54b519 | 205 | 18,781 | 7,445 | 0 | 37 | 5 | 0 |
+| tanks-of-freedom-ii | dbe629e | 292 | 24,361 | 20,232 | 0 | 134 | 120 | 0 |
+| template-beat-em-up | ba9542d | 150 | 18,799 | 18,799 | 0 | 44 | 44 | 0 |
+| the-mirror | ea32c76 | 734 | 80,427 | 20,206 | 415 | 439 | 130 | 0 |
+| TileMapDual | b4dc775 | 15 | 2,152 | 2,152 | 0 | 2 | 2 | 0 |
+| top-down-action-rpg-template | 525d133 | 21 | 1,065 | 1,065 | 0 | 3 | 3 | 0 |
+| TopdownStarter | 62fe950 | 25 | 763 | 763 | 0 | 10 | 10 | 0 |
+| TowDownGame | 898e2b0 | 105 | 5,574 | 3,788 | 0 | 25 | 16 | 0 |
+| tower-defense-godot4 | 1cbd622 | 41 | 1,599 | 1,599 | 0 | 1 | 1 | 0 |
+| tower-defense-tutorial | 9f5cc04 | 30 | 1,049 | 1,049 | 0 | 2 | 2 | 0 |
+| tps-demo | a82f154 | 15 | 1,619 | 1,619 | 0 | 8 | 8 | 0 |
+| UltimateGodotIntro2D | 014ce52 | 21 | 649 | 649 | 0 | 5 | 5 | 0 |
+| unidot_importer | 9719eaa | 29 | 23,291 | 15,722 | 0 | 0 | 0 | 0 |
+| unitypackage_godot | 63ca781 | 15 | 3,451 | 3,451 | 0 | 0 | 0 | 0 |
+| unto-deepest-depths-prototype | 3874905 | 14 | 579 | 579 | 0 | 8 | 8 | 0 |
+| Virtual-Joystick-Godot | b90891e | 4 | 230 | 230 | 24 | 0 | 0 | 0 |
+| voxelgame | 4cf747a | 59 | 4,666 | 4,666 | 0 | 0 | 0 | 0 |
+| vpuppr | d244408 | 83 | 12,624 | 4,133 | 0 | 11 | 11 | 0 |
+| wutw-public | 95704c1 | 860 | 62,955 | 20,286 | 0 | 916 | 236 | 0 |
+| youtd2 | d7532f3 | 735 | 79,885 | 20,166 | 477 | 478 | 13 | 1 |
+| Yugens-Terrain-Authoring-Toolkit | 428f7ef | 31 | 7,881 | 7,881 | 0 | 3 | 3 | 0 |
+| Total |  | 21,132 | 2,263,319 | 1,234,163 | 46,179 | 10,222 | 5,229 | 971 |
+
+`await` tokens in source: 10,754; in code (not comments or strings): 10,222
+
+## Awaits per 1,000 lines
+
+| scope | awaits | lines | per 1,000 lines |
+|---|---|---|---|
+| all | 10222 | 2,263,319 | 4.52 |
+| first-party | 5229 | 1,234,163 | 4.24 |
+| first-party, no tests | 4258 | 1,187,984 | 3.58 |
+
+## Operand kinds
+
+| operand | all | first-party | first-party, no tests |
+|---|---|---|---|
+| signal, engine class | 4311 | 2647 | 2560 |
+| signal, user-declared | 664 | 384 | 332 |
+| signal, by name only | 384 | 215 | 211 |
+| Signal value returned by a call | 207 | 63 | 48 |
+| signal declared outside the corpus | 5 | 4 | 4 |
+| coroutine call | 3823 | 1558 | 987 |
+| other call | 765 | 324 | 82 |
+| other | 63 | 34 | 34 |
+| total | 10222 | 5229 | 4258 |
+
+## Signal awaits by arity and use
+
+| arity | all: statement / used | first-party: statement / used | first-party, no tests: statement / used |
+|---|---|---|---|
+| 0 | 4757 / 11 | 2870 / 5 | 2712 / 5 |
+| 1 | 214 / 181 | 160 / 84 | 160 / 84 |
+| 2+ | 4 / 48 | 2 / 19 | 2 / 19 |
+| unknown | 239 / 117 | 155 / 18 | 155 / 18 |
+| total | 5214 / 357 | 3187 / 126 | 3029 / 126 |
+
+## How results are used (all scopes)
+
+- signal, arity 0: return 6, var initializer 4, assignment 1
+- signal, arity 1: return 79, var initializer 71, assignment 18, condition (while) 5, grouped 3, operand 3, condition (not) 1, condition (if) 1
+- signal, arity 2+: var initializer 34, assignment 8, grouped 6
+- signal, arity unknown: var initializer 113, assignment 4
+- coroutine calls (2006 of 3823 used): var initializer 1171, return 419, assignment 253, argument 90, condition (if) 21, compound assignment 18, condition (not) 18, operand 4, condition (elif) 3, condition (or) 3, grouped 3, comparison 1, condition (and) 1, condition (while) 1
+
+## Awaits of signals with 2+ parameters
+
+| site | category | signal | arity | use | note |
+|---|---|---|---|---|---|
+| _original_client/scenes/startup.gd:389 | first-party | HTTPRequest.request_completed | 4 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/escoria.gd:204 | vendored | event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/escoria.gd:206 | vendored | event_finished | 2 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_action_manager.gd:489 | vendored | event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_action_manager.gd:492 | vendored | event_finished | 2 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_event_manager.gd:293 | vendored | ESCEventManager.event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_event_manager.gd:295 | vendored | ESCEventManager.event_finished | 2 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_event_manager.gd:298 | vendored | ESCEventManager.background_event_finished | 3 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_event_manager.gd:300 | vendored | ESCEventManager.background_event_finished | 3 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_room_manager.gd:392 | vendored | event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_room_manager.gd:394 | vendored | event_finished | 2 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_room_manager.gd:473 | vendored | event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_room_manager.gd:475 | vendored | event_finished | 2 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_room_manager.gd:564 | vendored | event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/core-scripts/esc/esc_room_manager.gd:566 | vendored | event_finished | 2 | assignment |  |
+| escoria-demo-game/addons/escoria-core/game/scenes/esc_prompt/esc_prompt_popup.gd:115 | vendored | event_finished | 2 | var initializer |  |
+| escoria-demo-game/addons/escoria-core/game/scenes/esc_prompt/esc_prompt_popup.gd:117 | vendored | event_finished | 2 | assignment |  |
+| godot-tiny-mmo/source/client/autoload/client.gd:200 | vendored | DataRequest.finished | 2 | var initializer |  |
+| godot-tiny-mmo/source/client/gateway/gateway.gd:342 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+| godot_dialogue_manager/addons/dialogue_manager/dialogue_manager.gd:1956 | first-party | DialogueManager.Resolved (C#) | 2 | var initializer | C# [Signal] ResolvedEventHandler(double id, Variant value), addons/dialogue_manager/DialogueManager.cs:78; receiver typed RefCounted; reads result[0] (request id) and returns result[1] |
+| GodotFirebase/addons/godot-firebase/auth/auth.gd:483 | first-party | FirebaseAuth.auth_request | 2 | statement |  |
+| GodotFirebase/addons/godot-firebase/auth/auth.gd:491 | first-party | FirebaseAuth.auth_request | 2 | var initializer |  |
+| GodotFirebase/addons/godot-firebase/auth/auth.gd:553 | first-party | FirebaseAuth.auth_request | 2 | var initializer |  |
+| GodotFirebase/addons/godot-firebase/firestore/firestore.gd:197 | first-party | auth_request | 2 | var initializer |  |
+| GodotFirebase/addons/godot-firebase/firestore/firestore_collection.gd:196 | first-party | auth_request | 2 | var initializer |  |
+| GodotFirebase/addons/godot-firebase/functions/functions.gd:156 | first-party | auth_request | 2 | var initializer |  |
+| godots/src/http_client.gd:29 | first-party | HTTPRequest.request_completed | 4 | var initializer |  |
+| godots/src/components/misc/news_button.gd:64 | first-party | HTTPRequest.request_completed | 4 | var initializer |  |
+| material-maker/parse_args.gd:33 | vendored | HTTPRequest.request_completed | 4 | grouped |  |
+| material-maker/parse_args.gd:45 | vendored | HTTPRequest.request_completed | 4 | grouped |  |
+| material-maker/addons/material_maker/engine/loader.gd:81 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+| material-maker/material_maker/globals.gd:155 | first-party | HTTPRequest.request_completed | 4 | grouped |  |
+| material-maker/material_maker/tools/environment_manager/environment_manager.gd:181 | first-party | request_completed | 4 | statement |  |
+| material-maker/material_maker/windows/load_from_website/load_from_website.gd:36 | first-party | request_completed | 4 | grouped |  |
+| material-maker/material_maker/windows/load_from_website/load_from_website.gd:85 | first-party | request_completed | 4 | grouped |  |
+| material-maker/material_maker/windows/preferences/language_download.gd:17 | first-party | request_completed | 4 | grouped |  |
+| nakama-godot/addons/com.heroiclabs.nakama/Satori/SatoriHttpAdapter.gd:87 | first-party | HTTPRequest.request_completed | 4 | var initializer |  |
+| nakama-godot/addons/com.heroiclabs.nakama/client/NakamaHTTPAdapter.gd:87 | first-party | HTTPRequest.request_completed | 4 | var initializer |  |
+| Project-Heartbeat/menus/song_list/SongListSongContainer.gd:145 | first-party | HBFilterSongsTask.songs_filtered | 3 | var initializer |  |
+| Project-Heartbeat/menus/song_list/SongListSongContainer.gd:343 | first-party | HBFilterSongsTask.songs_filtered | 3 | var initializer |  |
+| Project-Heartbeat/multiplayer/lobby/LobbyMenu.gd:126 | first-party | download_finished | 2 | var initializer |  |
+| Project-Heartbeat/scripts/HBUtils.gd:619 | vendored | request_completed | 4 | var initializer |  |
+| Project-Heartbeat/tools/PPDManager/PPDDownloader.gd:218 | first-party | HTTPRequest.request_completed | 4 | var initializer |  |
+| simgine/addons/test/cli.gd:138 | vendored | SuiteRunner.test_completed | 2 | statement |  |
+| simgine/addons/test/cli.gd:143 | vendored | SuiteRunner.test_completed | 2 | statement |  |
+| sourceofmana/addons/discord_gd/discord.gd:932 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+| sourceofmana/addons/discord_gd/discord.gd:994 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+| sourceofmana/addons/discord_gd/discord.gd:1027 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+| the-mirror/mirror-godot-app/addons/godot-firebase/functions/functions.gd:158 | vendored | auth_request | 2 | var initializer |  |
+| the-mirror/mirror-godot-app/script/visual/blocks/space_object/create.gd:12 | vendored | space_object_created | 2 | var initializer |  |
+| youtd2/addons/com.heroiclabs.nakama/Satori/SatoriHttpAdapter.gd:78 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+| youtd2/addons/com.heroiclabs.nakama/client/NakamaHTTPAdapter.gd:78 | vendored | HTTPRequest.request_completed | 4 | var initializer |  |
+
+## Signal awaits of unknown arity
+
+| site | category | signal | use | note |
+|---|---|---|---|---|
+| beehave/addons/gdUnit4/src/dotnet/GdUnit4CSharpApiLoader.gd:99 | vendored | ExecutionCompleted (C#) | statement | vendored copy of gdUnit4 |
+| Castlevania-Remnants-of-Darkness/SampleProject/Maps/FirstLevel/dullahan_event.gd:33 | first-party | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Event/combat_scene_medusa.gd:33 | first-party | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Event/training_settings.gd:108 | vendored | closed | statement |  |
+| Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Stage_elements/save_chair.gd:29 | vendored | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/SampleProject/Scripts/System/menu_buttons_save_room.gd:50 | first-party | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/SampleProject/Scripts/System/menu_buttons_save_room.gd:98 | first-party | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/addons/MetroidvaniaSystem/Template/Scripts/Modules/RoomTransitions.gd:47 | vendored | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/addons/MetroidvaniaSystem/Template/Scripts/Modules/RoomTransitions.gd:74 | vendored | animation_finished | statement |  |
+| Castlevania-Remnants-of-Darkness/addons/MetroidvaniaSystem/Template/Scripts/Modules/RoomTransitions.gd:82 | vendored | animation_finished | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:147 | first-party | animation_measured | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:347 | first-party | animation_measured | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:446 | first-party | animation_measured | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:453 | first-party | animation_measured | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:462 | first-party | animation_measured | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:485 | first-party | animation_measured | statement |  |
+| Cats-Godot4-Modular-Souls-like-Template/player/player_charbody3D.gd:494 | first-party | animation_measured | statement |  |
+| escoria-demo-game/addons/escoria-core/testing/issue_946_room_transition_test.gd:63 | vendored | room_ready | statement |  |
+| Freedom-Hunter/src/main_menu.gd:25 | first-party | animation_finished | statement |  |
+| Freedom-Hunter/src/main_menu.gd:32 | first-party | animation_finished | statement |  |
+| Freedom-Hunter/src/main_menu.gd:41 | first-party | animation_finished | statement |  |
+| Freedom-Hunter/src/interact/chest.gd:34 | first-party | animation_finished | statement |  |
+| Freedom-Hunter/src/interact/chest.gd:39 | first-party | animation_finished | statement |  |
+| Freedom-Hunter/src/interact/chest.gd:51 | first-party | animation_finished | statement |  |
+| Freedom-Hunter/src/interface/hud/notification.gd:27 | first-party | play_notify() | statement |  |
+| Freedom-Hunter/src/items/scenes/firework-scene.gd:17 | first-party | animation_finished | statement |  |
+| Godot-2D-Action-Game/scenes/game/enemies/Base/enemy.gd:55 | first-party | animation_finished | statement |  |
+| godot-2d-builder/godot/Entities/Entities/Power/StirlingEngine/StirlingEngineEntity.gd:41 | first-party | animation_finished | statement |  |
+| godot-2d-space-game/project/ui/main_menu.gd:24 | first-party | animation_finished | statement |  |
+| godot-2d-space-game/project/ui/ui.gd:33 | first-party | animation_finished | statement |  |
+| godot-4-3d-third-person-controller/enemies/smoke_puff/smoke_puff.gd:13 | first-party | animation_finished | statement |  |
+| godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile_events/events/explosion_event/explosion.gd:11 | first-party | animation_finished | statement |  |
+| godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/arborist.gd:555 | first-party | p_unlock_signal | statement |  |
+| godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/arborist.gd:566 | first-party | p_unlock_signal | statement |  |
+| learn-gdscript/course/lesson-16-2d-vectors/increase_scale/IncreaseScale.gd:26 | vendored | animation_finished | statement |  |
+| learn-gdscript/course/lesson-21-strings/string_array/StringArray.gd:25 | first-party | animation_finished | statement |  |
+| malware-slayer/scripts/components/alert/alert.gd:22 | first-party | finished | statement |  |
+| malware-slayer/scripts/singletons/managers/scene_manager/scene_manager.gd:24 | first-party | animation_finished | statement |  |
+| material-maker/addons/material_maker/engine/nodes/gen_material.gd:726 | first-party | updated | statement |  |
+| material-maker/addons/material_maker/engine/nodes/gen_material.gd:779 | first-party | updated | statement |  |
+| material-maker/material_maker/tools/share/share_button.gd:209 | vendored | animation_finished | statement |  |
+| material-maker/material_maker/tools/share/share_button.gd:214 | vendored | animation_finished | statement |  |
+| material-maker/material_maker/tools/share/share_button.gd:225 | vendored | animation_finished | statement |  |
+| material-maker/material_maker/windows/panels_presets_dialog/panels_presets_dialog.gd:18 | first-party | pressed | statement |  |
+| Microverse/script/CharacterController.gd:371 | first-party | animation_finished | statement |  |
+| poder-solar/scenes/gameplay/world_items/world_item.gd:68 | first-party | animation_finished | statement |  |
+| Project-Heartbeat/tools/PPDManager/PPDDownloader.gd:198 | first-party | finished | statement |  |
+| Project-Heartbeat/tools/editor/WorkshopUploadForm.gd:85 | first-party | visibility_changed | statement |  |
+| PSGodotTemplateRepo/toolkit/nodes/effects/damage.gd:7 | first-party | animation_finished | statement |  |
+| PSGodotTemplateRepo/toolkit/singletons/Transition.gd:14 | first-party | animation_finished | statement |  |
+| PSGodotTemplateRepo/toolkit/singletons/Transition.gd:20 | first-party | animation_finished | statement |  |
+| scatter/addons/proton_scatter/src/common/physics_helper.gd:90 | first-party | s | statement |  |
+| SonicWorldsNext/Scripts/Enemies/BuzzBomber.gd:57 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Enemies/BuzzBomber.gd:112 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Enemies/BuzzBomber.gd:121 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Enemies/BuzzBomber.gd:135 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Enemies/BuzzBomber.gd:147 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Gimmicks/Teleporter.gd:48 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Global/Main.gd:96 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Level/PoweredByWorlds.gd:16 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Misc/HUD.gd:76 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Misc/HUD.gd:85 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Misc/HUD.gd:222 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Misc/HUD.gd:231 | first-party | timeout | statement |  |
+| SonicWorldsNext/Scripts/Misc/HUD.gd:252 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Objects/GoalPost.gd:36 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Objects/Monitor.gd:49 | first-party | animation_changed | statement |  |
+| SonicWorldsNext/Scripts/Objects/SpecialStageRing.gd:70 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Objects/SpecialStageRing.gd:79 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Player/States/Air.gd:49 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Player/States/Glide.gd:175 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Player/States/Glide.gd:218 | first-party | animation_finished | statement |  |
+| SonicWorldsNext/Scripts/Player/States/SuperStart.gd:19 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/actors/battlers/Graphics.gd:23 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/actors/battlers/Graphics.gd:27 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/actors/battlers/Graphics.gd:32 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/actors/enemies/Rabbit.gd:15 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/actors/environments/Brick.gd:40 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/actors/environments/Brick.gd:55 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/actors/environments/Bubble.gd:123 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/actors/environments/Card.gd:136 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/actors/environments/Card.gd:173 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/actors/environments/Zone.gd:142 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/assets/shaders/TransitionColor.gd:19 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/assets/shaders/TransitionColor.gd:23 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/combat/Arena.gd:631 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/combat/Arena.gd:683 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/combat/Arena.gd:900 | first-party | completed | statement |  |
+| starship-olympics/godot/combat/PlayerSpawner.gd:44 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/combat/collectables/PowerUp.gd:66 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/combat/collectables/PowerUp.gd:69 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/godot4/Main.gd:26 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/map_with_sets/DescriptionMode.gd:80 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/map_with_sets/Map.gd:362 | first-party | completed | statement |  |
+| starship-olympics/godot/map_with_sets/Map.gd:371 | first-party | completed | statement |  |
+| starship-olympics/godot/map_with_sets/Map.gd:385 | first-party | completed | statement |  |
+| starship-olympics/godot/map_with_sets/MapPlanet.gd:63 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/map_with_sets/MapPlanet.gd:77 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/map_with_sets/planets/rules/Minicard.gd:27 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/special_scenes/unlock_screen/UnlockDeck.gd:7 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/special_scenes/unlock_screen/UnlockDeck.gd:12 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/ui/difficulty_screen/DifficultyScreen.gd:6 | vendored | animation_finished | statement |  |
+| starship-olympics/godot/ui/main_menu/MainScreenFancy.gd:6 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/ui/menu_scenes/title_screen/TitleScreen.gd:22 | first-party | animation_finished | statement |  |
+| starship-olympics/godot/ui/menu_scenes/title_screen/TitleScreen.gd:44 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/NoteBlock.gd:20 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/NoteBlock.gd:45 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/SpringBlock.gd:25 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/TimedBooBlock.gd:63 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Editor/LevelEditor.gd:311 | vendored | visibility_changed | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/DryBones.gd:24 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/PipePiranhaPlant.gd:27 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/PiranhaPlant.gd:31 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/RockyWrench.gd:26 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/Spike.gd:29 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/BobOmbHeld.gd:21 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Bumper.gd:31 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Burner.gd:34 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Burner.gd:38 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Burner.gd:50 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Burner.gd:59 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Door.gd:102 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/Global.gd:507 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/Global.gd:539 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Parts/BlockAnimations.gd:19 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/Parts/TitleScreen.gd:91 | first-party | selected | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/UI/AchievementUnlockPopup.gd:24 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/UI/BooRaceMenu.gd:120 | first-party | selected | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/UI/CustomLevelMenu.gd:120 | first-party | selected | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/UI/CustomLevelMenu.gd:129 | first-party | selected | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/UI/QuitDialog.gd:16 | first-party | animation_finished | statement |  |
+| Super-Mario-Bros.-Remastered-Public/Scripts/UI/SettingsMenu.gd:51 | first-party | visibility_changed | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Autoload/achievement_manager.gd:43 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/DryBones.gd:108 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/bony_beetle.gd:42 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/bony_beetle.gd:46 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/bony_beetle.gd:76 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/dino_torch.gd:48 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/pipe_lakitu.gd:33 | vendored | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/piranha_plant.gd:15 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Enemies/Bosses/PipeBoss.gd:49 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Levels/FishingLevel.gd:162 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/Levels/staff_credits.gd:113 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/States/Ludwig/fire.gd:11 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/Classes/States/Ludwig/jump.gd:21 | first-party | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/HeldObjects/baby_yoshi.gd:29 | vendored | animation_finished | statement |  |
+| Super-Mario-World-Remastered-Public/Scripts/LevelElements/end_flag_pole.gd:52 | first-party | animation_finished | statement |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/asset_detail_window/asset_detail_window.gd:41 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/asset_detail_window/asset_detail_window.gd:93 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/asset_detail_window/asset_detail_window.gd:166 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/asset_detail_window/asset_detail_window.gd:214 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/asset_detail_window/asset_detail_window.gd:237 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/asset_detail_window/asset_detail_window.gd:290 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/browser/asset_browser.gd:281 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/browser/asset_browser.gd:333 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/filter/filter_menu.gd:23 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/asset_inventory/hotbar/hotbar_slot.gd:45 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/common/asset_slot.gd:105 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/selection/inspector/primitive/inspector_local_texture.gd:130 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/tools/material_browser/material_browser.gd:103 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/material_browser/material_browser.gd:124 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/material_creator/material_inspector.gd:305 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/material_creator/material_inspector.gd:320 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/material_creator/material_inspector.gd:336 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/material_creator/material_inspector.gd:386 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/material_creator/material_inspector.gd:419 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/creator/tools/tool_options/map_options/map_options.gd:394 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/creator/tools/tool_options/map_options/map_options.gd:401 | vendored | preview_generated | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/scaled_model.gd:323 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/space_object.gd:253 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/space_object.gd:270 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/space_object.gd:745 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/space_object.gd:1242 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:512 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:531 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:552 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:559 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:613 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:623 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:633 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:638 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:655 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/heightmap/heightmap.gd:682 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:91 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:101 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:106 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:174 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:182 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:209 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:293 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:298 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/gameplay/space_object/material/mirror_material.gd:318 | vendored | wait_till_fulfilled() | assignment |  |
+| the-mirror/mirror-godot-app/player/player.gd:828 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/player/animations/animation_controller.gd:303 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/player/animations/animation_controller.gd:314 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/player/animations/animation_controller.gd:320 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/player/cameras/placement_preview.gd:65 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/player/equipable/equipable_controller.gd:145 | vendored | wait_till_fulfilled() | assignment |  |
+| the-mirror/mirror-godot-app/player/equipable/equipable_controller.gd:153 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/prefabs/autoload/zone/collision_shape_generator/_collision_shape_generator_playground/_collision_shape_generator_playground.gd:13 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/script/editor/script_editor.gd:48 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/script/visual/blocks/api/get_request.gd:14 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/script/visual/blocks/player/user_profile_request.gd:9 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/script/visual/blocks/space_object/bbcode_to_texture.gd:22 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/assets/asset_data.gd:55 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/assets/asset_data.gd:90 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/assets/asset_data.gd:106 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/autoload/login.gd:21 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/login.gd:39 | vendored | login_succeeded | statement |  |
+| the-mirror/mirror-godot-app/scripts/autoload/util_funcs.gd:564 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/analytics/analytics_v2.gd:56 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/client.gd:559 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/client.gd:571 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/client.gd:579 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/client.gd:620 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/server.gd:172 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/server.gd:241 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/autoload/zone/space_restore.gd:37 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/net/asset_client.gd:142 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/net/asset_client.gd:150 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/net/script_client.gd:285 | vendored | wait_till_fulfilled() | assignment |  |
+| the-mirror/mirror-godot-app/scripts/net/script_client.gd:339 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/net/script_client.gd:362 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/net/script_client.gd:372 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/space/material_manager.gd:109 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/scripts/space/material_manager.gd:111 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/scripts/space/material_manager.gd:178 | vendored | wait_till_fulfilled() | assignment |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:39 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:54 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:70 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:87 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:103 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:114 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:125 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:135 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:146 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:157 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:172 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:190 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/asset_client_integration_tests.gd:206 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:49 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:75 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:88 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:100 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:113 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:124 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:136 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:149 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:160 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:173 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:183 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:193 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:203 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:213 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:223 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:301 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:331 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:338 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:369 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:403 | vendored | asset_deleted | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:408 | vendored | asset_deleted | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:437 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:482 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:484 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:486 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:495 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:501 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/file_client_integration_tests.gd:507 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:44 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:57 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:68 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:78 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:91 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:108 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:148 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:159 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:171 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:186 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:203 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:218 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:229 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:242 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:251 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:261 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:275 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:286 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:302 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:312 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:322 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/space_client_integration_tests.gd:332 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/user_client_integration_tests.gd:17 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/user_client_integration_tests.gd:30 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/zone_client_integration_tests.gd:36 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/test/integration/zone_client_integration_tests.gd:63 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/zone_finder_integration_tests.gd:30 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/zone_finder_integration_tests.gd:40 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/integration/zone_finder_integration_tests.gd:51 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/test/manual/update_space/update_space.gd:19 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/chat/chat_ui.gd:147 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/common/components/endless_scroll_flow_container.gd:86 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/login/login_code_ui.gd:10 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/login/login_ui.gd:95 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/login/login_ui.gd:124 | first-party | login_succeeded | statement |  |
+| the-mirror/mirror-godot-app/ui/login/login_ui.gd:162 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/login/login_ui.gd:318 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/common/UrlTextureRect.gd:16 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/home_page_section.gd:68 | first-party | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/my_spaces.gd:57 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/select_space_template.gd:50 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space.gd:50 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space.gd:72 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space.gd:178 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space.gd:188 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space.gd:222 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space.gd:231 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/avatar/avatar.gd:70 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/avatar/avatar.gd:114 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/avatar/avatar.gd:127 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/avatar/avatar.gd:154 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/basic_settings.gd:77 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/basic_settings.gd:87 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/basic_settings.gd:108 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:77 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:172 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:195 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:199 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:214 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:220 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:225 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/edit_space/permissions_settings.gd:238 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space/view_space_create_play_server_popups.gd:48 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/main_menu/pages/view_space/view_space_servers_panel.gd:81 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/notifications/popup/notification_popup.gd:25 | vendored | animation_finished | statement |  |
+| the-mirror/mirror-godot-app/ui/publish_space/publish_space_window.gd:18 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/publish_space/publish_space_window.gd:80 | vendored | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/restore_space/restore_space_window.gd:15 | vendored | wait_till_fulfilled() | var initializer |  |
+| the-mirror/mirror-godot-app/ui/save_version/save_version_window.gd:33 | first-party | wait_till_fulfilled() | statement |  |
+| the-mirror/mirror-godot-app/ui/user_tutorial/user_tutorial.gd:44 | first-party | wait_till_fulfilled() | var initializer |  |
+| TowDownGame/game/other/Grenade.gd:24 | first-party | animation_finished | statement |  |
+| UltimateGodotIntro2D/full game/globals/transition_layer.gd:5 | first-party | animation_finished | statement |  |
+| wutw-public/wutw/_dev_tools/trailer/shot11_outro/trailer_11_outro.gd:14 | first-party | animation_finished | statement |  |
+| wutw-public/wutw/_dev_tools/trailer2/shot1a_shards/trailer2_1a_shards.gd:5 | vendored | animation_finished | statement |  |
+| wutw-public/wutw/cards/card.gd:215 | vendored | animation_finished | statement |  |
+| wutw-public/wutw/cards/card.gd:221 | vendored | animation_finished | statement |  |
+| wutw-public/wutw/cards/card.gd:228 | vendored | animation_finished | statement |  |
+| wutw-public/wutw/cutscenes/demo_end/cutscene_demo_end.gd:14 | vendored | animation_finished | statement |  |
+| wutw-public/wutw/events/system/outcomes/all/event_outcome_widget_all.gd:10 | first-party | finished | statement |  |
+| wutw-public/wutw/hub/crafting/unknown_card.gd:65 | first-party | animation_finished | statement |  |
+| wutw-public/wutw/hub/crafting/unknown_card.gd:70 | first-party | animation_finished | statement |  |
+| wutw-public/wutw/hub/crafting/unknown_card.gd:74 | first-party | animation_finished | statement |  |
+| wutw-public/wutw/quests/announcement/quest_announcement.gd:75 | first-party | finished | statement |  |
+| wutw-public/wutw/run/run_end/run_end.gd:217 | vendored | animation_finished | statement |  |
+| wutw-public/wutw/stage/survey/survey.gd:78 | vendored | pressed | statement |  |
+| wutw-public/wutw/stage/survey/survey.gd:287 | vendored | pressed | statement |  |
+| Yugens-Terrain-Authoring-Toolkit/scripts/rotating_camera.gd:23 | first-party | _rotate_camera() | statement |  |
+| Yugens-Terrain-Authoring-Toolkit/scripts/rotating_camera.gd:27 | first-party | _rotate_camera() | statement |  |
+
+## Context: signal arity at connect sites and declarations (first-party)
+
+| arity | `.connect()` sites | of which outside tests | GDScript signal declarations | engine signals (class reference) |
+|---|---|---|---|---|
+| 0 | 5246 | 5216 | 2330 | 246 |
+| 1 | 3251 | 3227 | 1694 | 194 |
+| 2+ | 724 | 710 | 664 | 78 |
+| unknown | 865 | 864 | 0 | 0 |

@@ -1,0 +1,66 @@
+== games
+  textual 2+ scene files: 554 scripts; of these with >=2 distinct structures among the textual attachments: 293
+  attached in a base scene that has inherited scenes: 339; inherited structure differs: 110
+  instanced elsewhere with modified subtree (M3): 169
+  script set on an instanced-scene node (M4): 49; text attachments of that kind: 269
+  inherited scene root given its own script (override_inh attachments): 280
+  subclass attachments add structures (M5): 317; of which script has no own attachment: 173
+  multi-node in one scene with different subtrees (M1b): 27
+  plain instancing (unchanged copies elsewhere): 2778 scripts, 190694 instance contexts; of those scripts only-plain (single structure): 2483
+  textual attachments on non-root nodes: 7311/11528 = 63%
+  multi-structure scripts 741: literal paths 288 (39%), get_child(ren) 142 (19%), Node/NodePath exports 167 (23%)
+  single-structure scripts 4637: literal paths 2267 (49%), get_child(ren) 530 (11%), Node/NodePath exports 771 (17%)
+  multi-structure literal uses resolved in all contexts to one type: 1670/1922; consistent-but-partial (some contexts OUTSIDE/UNKNOWN): 2
+  missing_in_some uses 211: kinds dollar=122, unique=62, get_node_or_null=17, get_node=10
+  %Name resolved only through the outer scene's owner (instance-root fallback): 37 uses starship-olympics/godot/godot4/arena/ArenaScope.gd:17; starship-olympics/godot/godot4/arena/managers/DeathManager.gd:13; starship-olympics/godot/godot4/arena/managers/DeathManager.gd:21; starship-olympics/godot/godot4/arena/managers/DeathManager.gd:30
+  absolute (/root) literal uses 331; missing_all 110; no_context 411; unknown (into imported model) 100
+  scripts calling add_child: 1206/7947; inherited scenes 1825 (from imported models 79); editable-children entries 988; scenes adding nodes inside instances 746
+  purposes (>=2-structure game scripts): UNLABELLED=679 (lit 258), entity-base=24 (lit 12), ui=15 (lit 10), child-container=6 (lit 0), level-base=6 (lit 4), same-script-several-content-scenes=5 (lit 1), prefab-with-instance-edits=4 (lit 3), test=1 (lit 0), other=1 (lit 0)
+  >=2-structure scripts by first matching mechanism (inheritance M2_diff/M5 > multi-attach M1/M1b > instance-edit M3): inheritance:M2=93 (lit 45), inheritance:M2+M5=17 (lit 12), inheritance:M5=228 (lit 83), instance-edit=141 (lit 87), multi-attach=262 (lit 61)
+  M5 scripts 245: subclass contexts include an inherited scene (subclass script on an inherited node) in 83
+  missing_in_some uses in >=2-structure scripts 177: kinds dollar=122, get_node=9, get_node_or_null=17, unique=29
+  distinct literal paths (script, path): 10317 in 2645 scripts
+
+== demos
+  textual 2+ scene files: 22 scripts; of these with >=2 distinct structures among the textual attachments: 9
+  attached in a base scene that has inherited scenes: 9; inherited structure differs: 4
+  instanced elsewhere with modified subtree (M3): 11
+  script set on an instanced-scene node (M4): 3; text attachments of that kind: 4
+  inherited scene root given its own script (override_inh attachments): 17
+  subclass attachments add structures (M5): 21; of which script has no own attachment: 11
+  multi-node in one scene with different subtrees (M1b): 4
+  plain instancing (unchanged copies elsewhere): 133 scripts, 503 instance contexts; of those scripts only-plain (single structure): 127
+  textual attachments on non-root nodes: 340/635 = 54%
+  multi-structure scripts 37: literal paths 17 (46%), get_child(ren) 9 (24%), Node/NodePath exports 5 (14%)
+  single-structure scripts 429: literal paths 256 (60%), get_child(ren) 59 (14%), Node/NodePath exports 29 (7%)
+  multi-structure literal uses resolved in all contexts to one type: 51/53; consistent-but-partial (some contexts OUTSIDE/UNKNOWN): 0
+  missing_in_some uses 2: kinds get_node=2
+  %Name resolved only through the outer scene's owner (instance-root fallback): 0 uses
+  absolute (/root) literal uses 1; missing_all 8; no_context 8; unknown (into imported model) 12
+  scripts calling add_child: 101/536; inherited scenes 33 (from imported models 2); editable-children entries 66; scenes adding nodes inside instances 24
+  >=2-structure scripts by first matching mechanism (inheritance M2_diff/M5 > multi-attach M1/M1b > instance-edit M3): inheritance:M2=3 (lit 3), inheritance:M2+M5=1 (lit 1), inheritance:M5=13 (lit 5), instance-edit=8 (lit 5), multi-attach=12 (lit 3)
+  M5 scripts 14: subclass contexts include an inherited scene (subclass script on an inherited node) in 5
+  missing_in_some uses in >=2-structure scripts 2: kinds get_node=2
+  distinct literal paths (script, path): 1131 in 277 scripts
+
+== plugins/tools
+  textual 2+ scene files: 200 scripts; of these with >=2 distinct structures among the textual attachments: 113
+  attached in a base scene that has inherited scenes: 64; inherited structure differs: 23
+  instanced elsewhere with modified subtree (M3): 36
+  script set on an instanced-scene node (M4): 13; text attachments of that kind: 29
+  inherited scene root given its own script (override_inh attachments): 153
+  subclass attachments add structures (M5): 137; of which script has no own attachment: 86
+  multi-node in one scene with different subtrees (M1b): 10
+  plain instancing (unchanged copies elsewhere): 783 scripts, 13725 instance contexts; of those scripts only-plain (single structure): 703
+  textual attachments on non-root nodes: 2332/3913 = 60%
+  multi-structure scripts 274: literal paths 80 (29%), get_child(ren) 89 (32%), Node/NodePath exports 35 (13%)
+  single-structure scripts 1925: literal paths 1124 (58%), get_child(ren) 424 (22%), Node/NodePath exports 189 (10%)
+  multi-structure literal uses resolved in all contexts to one type: 351/386; consistent-but-partial (some contexts OUTSIDE/UNKNOWN): 0
+  missing_in_some uses 31: kinds get_node_or_null=8, unique=21, dollar=1, get_node=1
+  %Name resolved only through the outer scene's owner (instance-root fallback): 9 uses phantom-camera/addons/phantom_camera/examples/scripts/2D/player_character_body_2d.gd:87; phantom-camera/addons/phantom_camera/examples/scripts/2D/player_character_body_2d.gd:88; Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/MapEditor.gd:27; Metroidvania-System/addons/MetroidvaniaSystem/Database/Manage/Manage.gd:26
+  absolute (/root) literal uses 203; missing_all 28; no_context 61; unknown (into imported model) 7
+  scripts calling add_child: 816/4724; inherited scenes 297 (from imported models 21); editable-children entries 300; scenes adding nodes inside instances 152
+  >=2-structure scripts by first matching mechanism (inheritance M2_diff/M5 > multi-attach M1/M1b > instance-edit M3): inheritance:M2=17 (lit 8), inheritance:M2+M5=6 (lit 4), inheritance:M5=106 (lit 35), instance-edit=30 (lit 18), multi-attach=115 (lit 15)
+  M5 scripts 112: subclass contexts include an inherited scene (subclass script on an inherited node) in 36
+  missing_in_some uses in >=2-structure scripts 21: kinds dollar=1, get_node_or_null=7, unique=13
+  distinct literal paths (script, path): 5420 in 1227 scripts

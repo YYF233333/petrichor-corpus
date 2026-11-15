@@ -1,0 +1,471 @@
+# all repositories
+
+## Names by channel and resolution
+
+@export var: 16125 — script 16125
+@rpc func: 418 — script 418
+animation method key: 1505 — script 723, ambiguous 392, engine 300, unknown 90
+animation property track: 18901 — engine 18274, dynamic 377, script 152, ambiguous 70, unknown 28
+code method query on other: 489 — script 191, ambiguous 163, engine 91, unknown 44
+code method query on self: 2 — engine 1, script 1
+code method ref on no single object: 83 — ambiguous 27, engine 26, script 25, unknown 5
+code method ref on other: 1120 — engine 461, script 409, unknown 131, ambiguous 116, dynamic 3
+code method ref on self: 1095 — script 947, engine 110, unknown 38
+code property ref on no single object: 30 — engine 22, ambiguous 6, script 2
+code property ref on other: 1578 — engine 1387, script 104, ambiguous 52, dynamic 27, unknown 8
+code property ref on other (get/set, may be a Dictionary): 3936 — unknown 1702, engine 887, ambiguous 460, script 447, dynamic 440
+code property ref on self: 478 — engine 369, script 75, dynamic 21, unknown 13
+code signal define on other: 3 — script 2, ambiguous 1
+code signal define on self: 3 — unknown 3
+code signal query on other: 74 — ambiguous 35, script 22, engine 16, unknown 1
+code signal query on self: 1 — unknown 1
+code signal ref on other: 1008 — engine 453, script 360, ambiguous 177, unknown 18
+code signal ref on self: 825 — script 728, engine 85, unknown 12
+replicated property: 85 — engine 64, script 17, ambiguous 4
+scene connection: 11866 — script 10618, no script 652, unknown 456, engine 140
+thing: 11051 — input action 2972, theme item 2394, animation 2232, shader parameter 1245, metadata 1213, group 995
+transition expression: 121 — - 121
+
+## Script members the engine reaches by name
+
+first-party code lines: 856893; top-level members: 157316, external (pub anyway): 48062
+@export: external 6175, not external 9950 (named _x 541)
+@rpc: external 158, not external 260 (named _x 91)
+animation method key: external 1, not external 353 (named _x 22)
+animation property track: external 2, not external 15 (named _x 0)
+code method query on other: external 88, not external 16 (named _x 3)
+code method query on self: external 1, not external 0 (named _x 0)
+code method ref on no single object: external 0, not external 17 (named _x 0)
+code method ref on other: external 32, not external 176 (named _x 44)
+code method ref on self: external 48, not external 643 (named _x 430)
+code property ref on other: external 26, not external 1 (named _x 0)
+code property ref on other (get/set, may be a Dictionary): external 156, not external 71 (named _x 0)
+code property ref on self: external 15, not external 39 (named _x 10)
+code signal define on other: external 2, not external 0 (named _x 0)
+code signal query on other: external 10, not external 6 (named _x 0)
+code signal ref on other: external 26, not external 135 (named _x 0)
+code signal ref on self: external 223, not external 304 (named _x 0)
+replicated property: external 6, not external 10 (named _x 4)
+scene connection: external 290, not external 5673 (named _x 5048)
+members named by any channel and not external: 17525
+
+# games
+
+## Names by channel and resolution
+
+@export var: 10889 — script 10889
+@rpc func: 365 — script 365
+animation method key: 1473 — script 715, ambiguous 388, engine 280, unknown 90
+animation property track: 17753 — engine 17246, dynamic 264, script 149, ambiguous 70, unknown 24
+code method query on other: 221 — script 88, ambiguous 84, engine 33, unknown 16
+code method ref on no single object: 67 — ambiguous 26, script 20, engine 17, unknown 4
+code method ref on other: 351 — engine 167, script 91, unknown 47, ambiguous 45, dynamic 1
+code method ref on self: 671 — script 574, engine 72, unknown 25
+code property ref on no single object: 19 — engine 11, ambiguous 6, script 2
+code property ref on other: 824 — engine 783, dynamic 22, script 11, ambiguous 8
+code property ref on other (get/set, may be a Dictionary): 2136 — unknown 868, script 325, dynamic 322, engine 313, ambiguous 308
+code property ref on self: 330 — engine 270, script 38, dynamic 18, unknown 4
+code signal query on other: 24 — script 9, ambiguous 8, engine 6, unknown 1
+code signal ref on other: 677 — script 277, engine 251, ambiguous 135, unknown 14
+code signal ref on self: 542 — script 485, engine 50, unknown 7
+replicated property: 74 — engine 59, script 15
+scene connection: 7180 — script 6192, no script 470, unknown 393, engine 125
+thing: 6316 — animation 2122, input action 2053, group 747, theme item 636, metadata 420, shader parameter 338
+transition expression: 121 — - 121
+
+## Script members the engine reaches by name
+
+first-party code lines: 422265; top-level members: 87715, external (pub anyway): 28139
+@export: external 4137, not external 6752 (named _x 377)
+@rpc: external 157, not external 208 (named _x 51)
+animation method key: external 1, not external 347 (named _x 21)
+animation property track: external 2, not external 14 (named _x 0)
+code method query on other: external 53, not external 5 (named _x 1)
+code method ref on no single object: external 0, not external 14 (named _x 0)
+code method ref on other: external 8, not external 56 (named _x 18)
+code method ref on self: external 32, not external 442 (named _x 314)
+code property ref on other: external 5, not external 1 (named _x 0)
+code property ref on other (get/set, may be a Dictionary): external 105, not external 54 (named _x 0)
+code property ref on self: external 7, not external 17 (named _x 3)
+code signal query on other: external 5, not external 4 (named _x 0)
+code signal ref on other: external 18, not external 101 (named _x 0)
+code signal ref on self: external 158, not external 213 (named _x 0)
+replicated property: external 6, not external 9 (named _x 4)
+scene connection: external 249, not external 3049 (named _x 2550)
+members named by any channel and not external: 11188
+
+# all repositories, details
+
+by combination of channels:
+  @export [not external]: 9909
+  @export [external]: 6084
+  scene connection [not external]: 5662
+  code method ref on self [not external]: 602
+  animation method key [not external]: 351
+  scene connection [external]: 290
+  code signal ref on self [not external]: 258
+  @rpc [not external]: 238
+  code signal ref on self [external]: 215
+  @rpc [external]: 157
+  code method ref on other [not external]: 157
+  code property ref on other (get/set, may be a Dictionary) [external]: 96
+  code method query on other [external]: 87
+  code signal ref on other [not external]: 86
+  code property ref on other (get/set, may be a Dictionary) [not external]: 61
+  @export + code property ref on other (get/set, may be a Dictionary) [external]: 60
+  code method ref on self [external]: 46
+  code signal ref on other + code signal ref on self [not external]: 42
+  code property ref on self [not external]: 31
+  code method ref on other [external]: 31
+  @rpc + code method ref on self [not external]: 19
+  @export + code property ref on other [external]: 19
+  code method ref on no single object [not external]: 16
+  code signal ref on other [external]: 14
+  @export + animation property track [not external]: 13
+  code property ref on self [external]: 10
+  @export + replicated property [not external]: 10
+  @export + code property ref on other (get/set, may be a Dictionary) [not external]: 10
+  code method ref on self + scene connection [not external]: 9
+  code method ref on other + code method ref on self [not external]: 8
+  code signal query on other [external]: 8
+  code method query on other + code method ref on other [not external]: 8
+  code method query on other [not external]: 8
+  code signal ref on other + code signal ref on self [external]: 8
+  @export + code property ref on self [not external]: 8
+  @export + replicated property [external]: 6
+  code property ref on other [external]: 6
+  code signal query on other + code signal ref on other [not external]: 5
+  @export + code property ref on self [external]: 4
+  @rpc + code method ref on other [not external]: 3
+  code method ref on self + code signal ref on self [not external]: 3
+  animation property track [not external]: 2
+  @export + animation property track [external]: 2
+  code signal define on other + code signal ref on other [external]: 2
+  code signal query on other + code signal ref on other [external]: 2
+  code method ref on no single object + scene connection [not external]: 1
+  code property ref on other + code property ref on self [external]: 1
+  animation method key + code method ref on self [not external]: 1
+  animation method key + scene connection [not external]: 1
+  animation method key [external]: 1
+  code property ref on other [not external]: 1
+  code method ref on self + code signal ref on other [not external]: 1
+  @rpc + code method ref on self [external]: 1
+  code method ref on other + code method ref on self [external]: 1
+  code signal query on other + code signal ref on other + code signal ref on self [not external]: 1
+  code method query on other + code method query on self [external]: 1
+
+## Calls matched, by method
+
+get 3467, tween_property 1290, connect 854, emit_signal 839, Callable 751, call_deferred 662, set 509, has_method 491, set_deferred 481, add_do_method 283, add_undo_method 263, call 181, add_do_property 122, add_undo_property 121, call_group 77, has_signal 71, is_connected 71, disconnect 60, rpc_id 53, set_group 30, rpc 13, get_signal_connection_list 9, callv 8, propagate_call 6, add_user_signal 6, has_user_signal 4, call_thread_safe 1, get_indexed 1, set_indexed 1
+
+## Examples
+
+animation method key / ambiguous:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Entities/Enemies/PipePlantBase.tscn:128
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Entities/Items/YoshiEgg.tscn:237
+   starship-olympics/godot/actors/environments/Alien.tscn:11
+animation method key / engine:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Parts/ScoreNote.tscn:33
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Entities/Explosion.tscn:96
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Entities/Enemies/Spike.tscn:74
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Entities/Enemies/Spike.tscn:115
+animation method key / script:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+animation method key / unknown:
+   Super-Mario-World-Remastered-Public/Instances/Levels/Cutscenes/all_dragon_coins_cutscene.tscn:221
+   Super-Mario-World-Remastered-Public/Instances/Parts/block_coin.tscn:117
+   Super-Mario-World-Remastered-Public/Instances/Prefabs/HeldObjects/spring.tscn:134
+   Godot_Universal-Controller-tutorial/Assets/Imagine using animations.tscn:93
+animation property track / ambiguous:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:235
+   escoria-demo-game/game/rooms/room06/r_door.tscn:5
+   escoria-demo-game/game/rooms/room06/r_door.tscn:44
+animation property track / dynamic:
+   tps-demo/enemies/red_robot/red_robot.tscn:10215
+   tps-demo/enemies/red_robot/red_robot.tscn:10215
+   tps-demo/enemies/red_robot/red_robot.tscn:10215
+   tps-demo/enemies/red_robot/red_robot.tscn:10215
+animation property track / engine:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:50
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:65
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/ChallengeModeResults.tscn:36
+animation property track / script:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/SMBANN/LostLevelsEnding.tscn:214
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/SMBLL/LostLevelsEnding.tscn:218
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/SMBLL/LostLevelsEnding.tscn:296
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Entities/Enemies/RockyWrench.tscn:122
+animation property track / unknown:
+   starship-olympics/godot/godot4/test/manual/TestAnimatedWalls.tscn:31
+   starship-olympics/godot/godot4/test/manual/TestAnimatedWalls.tscn:46
+   starship-olympics/godot/special_scenes/unlock_screen/NewDraft.tscn:8
+   starship-olympics/godot/special_scenes/unlock_screen/NewDraft.tscn:8
+code method query on other / ambiguous:
+   Microverse/script/CharacterController.gd:530
+   tps-demo/player/bullet/bullet.gd:31
+   Starter-Kit-FPS/objects/enemy.gd:54
+   Starter-Kit-FPS/objects/player.gd:204
+code method query on other / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:288
+   Microverse/script/CharacterManager.gd:157
+   godot-port/Utils/center_camera.gd:8
+   starship-olympics/godot/actors/environments/Rock.gd:100
+code method query on other / script:
+   Microverse/script/CharacterManager.gd:34
+   Microverse/script/CharacterManager.gd:65
+   Microverse/script/CharacterManager.gd:86
+   Microverse/script/CharacterManager.gd:102
+code method query on other / unknown:
+   Microverse/script/GameSaveManager.gd:101
+   Microverse/script/ai/AIAgent.gd:102
+   Microverse/script/ai/AIAgent.gd:229
+   godot-port/Assets/World/Context/BuildingContext.gd:132
+code method query on self / engine:
+   gdmaim/addons/gdmaim/plugin.gd:32
+code method query on self / script:
+   learn-gdscript/course/lesson-22-functions-return-values/convert-grid-coordinates/ConvertGridCoordinates.gd:44
+code method ref on no single object / ambiguous:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/CastleBridge.gd:103
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/EndFlagpole.gd:28
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/LevelTransition.gd:33
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/TitleScreen.gd:47
+code method ref on no single object / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/SignalExposer.gd:66
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/TeleportPipeArea.gd:27
+   tps-demo/menu/settings.gd:86
+   TowDownGame/game/npc/RewardNpc.gd:15
+code method ref on no single object / script:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/OnOffSwitcher.gd:43
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/RaceBoo.gd:71
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Door.gd:61
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Door.gd:83
+code method ref on no single object / unknown:
+   Project-Heartbeat/menus/main_menu/MainMenuLeft.gd:16
+   Project-Heartbeat/menus/main_menu/MainMenuLeft.gd:18
+   Project-Heartbeat/menus/main_menu/MainMenuLeft.gd:20
+   Project-Heartbeat/tools/editor/EditorTimeline.gd:105
+code method ref on other / ambiguous:
+   godot-2d-builder/godot/GUI/GUI.gd:203
+   godot-2d-builder/start-project-3/GUI/GUI.gd:140
+   starship-olympics/godot/combat/Arena.gd:167
+   starship-olympics/godot/combat/Arena.gd:211
+code method ref on other / dynamic:
+   OpenVic/game/src/Autoload/WindowOverride.gd:24
+   Gut/addons/gut/update_detector.gd:296
+   Metroidvania-System/SampleProject/Scripts/Game.gd:85
+code method ref on other / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/PSwitcher.gd:27
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/PowerStates/Fire.gd:17
+   godot-open-rpg/src/common/screen_transitions/screen_transition.gd:87
+   Reia/godot/addons/map_editor/application/commands/command_history.gd:28
+code method ref on other / script:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/MinusWorldBlock.gd:8
+   TowDownGame/game/hero/Hero.gd:153
+   TowDownGame/game/hero/Hero.gd:165
+   TowDownGame/game/monster/BaseMonster.gd:101
+code method ref on other / unknown:
+   voxelgame/project/addons/zylann.voxel/version.gd:7
+   voxelgame/project/addons/zylann.voxel/version.gd:13
+   voxelgame/project/addons/zylann.voxel/version.gd:19
+   godot-tiny-mmo/source/common/gameplay/characters/character.gd:294
+code method ref on self / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Player.gd:1146
+   godot-open-rpg/src/common/screen_transitions/screen_transition.gd:55
+   godot-open-rpg/src/common/screen_transitions/screen_transition.gd:75
+   museum-of-all-things/scenes/menu/PopupTerminalMenu.gd:7
+code method ref on self / script:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/FrozenBlock.gd:23
+   Microverse/script/CharacterManager.gd:17
+   Microverse/script/RoomManager.gd:10
+   tps-demo/main/main.gd:21
+code method ref on self / unknown:
+   starship-olympics/godot/actors/NewRigid.gd:49
+   starship-olympics/godot/actors/NewRigid.gd:50
+   starship-olympics/godot/actors/NewRigid.gd:53
+   starship-olympics/godot/actors/NewRigid.gd:54
+code property ref on no single object / ambiguous:
+   template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character.gd:39
+   template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:51
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:143
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:202
+code property ref on no single object / engine:
+   museum-of-all-things/scenes/menu/GraphicsSettings.gd:20
+   museum-of-all-things/scenes/menu/GraphicsSettings.gd:103
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:62
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:81
+code property ref on no single object / script:
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:136
+   Project-Heartbeat/rythm_game/game_modes/heartbeat/HeartbeatRhythmGameUI.gd:233
+code property ref on other / ambiguous:
+   godot-2d-builder/start-project-2/Entities/Entities/StirlingEngineEntity.gd:18
+   godot-2d-builder/start-project-3/Entities/Entities/StirlingEngineEntity.gd:18
+   UltimateGodotIntro2D/full game/scenes/levels/inside.gd:6
+   UltimateGodotIntro2D/full game/scenes/levels/outside.gd:6
+code property ref on other / dynamic:
+   TowDownGame/ui/ControlUI.gd:35
+   museum-of-all-things/scenes/items/FogWall.gd:16
+   game-base-2D/scripts/interaction/effects/sprite_shake_effect.gd:25
+   Godot4-FPS-Template/Player_Controller/scripts/Player_Character/player_character.gd:129
+code property ref on other / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BooOnOffBlock.gd:28
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BooOnOffBlock.gd:30
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/InvisibleQuestionBlock.gd:20
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/SwitchBlock.gd:24
+code property ref on other / script:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/CoinHeavenAllCoinsBonus.gd:21
+   Castlevania-Remnants-of-Darkness/SampleProject/Scripts/System/sell_screen.gd:304
+   Godot-Plush-Character/components/player/player.gd:143
+   Godot-Plush-Character/components/player/player.gd:144
+code property ref on other / unknown:
+   godot-road-generator/addons/road-generator/plugin.gd:528
+   godot-road-generator/addons/road-generator/plugin.gd:1092
+   godot-road-generator/addons/road-generator/plugin.gd:1138
+   Lorien/lorien/InfiniteCanvas/InfiniteCanvas.gd:273
+code property ref on other (get/set, may be a Dictionary) / ambiguous:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:246
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:251
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Cannon.gd:19
+   godot-2d-space-game/project/ui/minimap/map_view.gd:30
+code property ref on other (get/set, may be a Dictionary) / dynamic:
+   tps-demo/enemies/red_robot/red_robot.gd:159
+   godot-4-3d-third-person-controller/enemies/bee_bot/bee_root.gd:19
+   godot-4-3d-third-person-controller/enemies/bee_bot/bee_root.gd:20
+   godot-4-3d-third-person-controller/enemies/bee_bot/bee_root.gd:21
+code property ref on other (get/set, may be a Dictionary) / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:76
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/NoteBlock.gd:77
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/GibSpawner.gd:27
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:141
+code property ref on other (get/set, may be a Dictionary) / script:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:247
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:254
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:255
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/Lakitu.gd:89
+code property ref on other (get/set, may be a Dictionary) / unknown:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:192
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:193
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:248
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:249
+code property ref on self / dynamic:
+   godot-port/Assets/UI/Notification/MessageText.gd:18
+   TowDownGame/ui/widgets/HitLabel.gd:14
+   starship-olympics/godot/godot4/ui/settings_controls/SettingCheckBox.gd:25
+   starship-olympics/godot/godot4/ui/settings_controls/SettingCheckBox.gd:26
+code property ref on self / engine:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/SpikeTop.gd:75
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Items/PowerUpItem.gd:48
+   godot-open-rpg/src/combat/battlers/battler_anim.gd:118
+   godot-open-rpg/src/combat/battlers/battler_anim.gd:133
+code property ref on self / script:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/Global.gd:437
+   Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/Global.gd:438
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/CameraHandler.gd:52
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/CameraHandler.gd:157
+code property ref on self / unknown:
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/EditorVisibleNode.gd:15
+   Super-Mario-Bros.-Remastered-Public/Scripts/Parts/EditorVisibleNode.gd:19
+   LibreAim/scenes/game_world/bullet_hole.gd:6
+   sourceofmana/sources/gui/ProgressBar.gd:37
+code signal define on other / ambiguous:
+   GodSVG/src/ui_parts/donate_menu.gd:46
+code signal define on other / script:
+   godot_spatial_gardener/addons/dreadpon.spatial_gardener/gardener/baker.gd:37
+   godot-demo-projects/mobile/android_iap/store.gd:28
+code signal define on self / unknown:
+   Gut/test/samples/test_readme_examples.gd:389
+   Gut/test/samples/test_readme_examples.gd:390
+   Gut/test/unit/verify_signal_watches_are_cleared.gd:11
+code signal query on other / ambiguous:
+   tps-demo/main/main.gd:32
+   starship-olympics/godot/combat/traits/Collectable.gd:6
+   starship-olympics/godot/combat/traits/Conquerable.gd:6
+   starship-olympics/godot/combat/traits/Conquerable.gd:7
+code signal query on other / engine:
+   Microverse/script/CharacterController.gd:520
+   Microverse/script/ui/AIModelLabel.gd:27
+   tps-demo/main/main.gd:30
+   Cats-Godot4-Modular-Souls-like-Template/player/equipment_system/equipment_system.gd:67
+code signal query on other / script:
+   Cats-Godot4-Modular-Souls-like-Template/cameras/follow_cam/follow_cam_3d.gd:43
+   Cats-Godot4-Modular-Souls-like-Template/player/item_system/item_system.gd:27
+   SonicWorldsNext/Scripts/Boss/BossBoundrySetter.gd:56
+   malware-slayer/scripts/components/dropable/dropable_component.gd:32
+code signal query on other / unknown:
+   Cats-Godot4-Modular-Souls-like-Template/enemy/enemy_area_target_sensor.gd:27
+code signal query on self / unknown:
+   Gut/test/samples/test_readme_examples.gd:123
+code signal ref on other / ambiguous:
+   godot-tactical-rpg/data/modules/tactics/camera/camera.gd:35
+   TowDownGame/game/guns/BaseGun.gd:55
+   TowDownGame/game/guns/BaseGun.gd:83
+   TowDownGame/game/guns/BaseGun.gd:108
+code signal ref on other / engine:
+   godot-2d-space-game/project/ui/menus/quit_menu.gd:14
+   godot-2d-space-game/project/world/docking_point/docking_point.gd:39
+   godot-2d-space-game/project/world/docking_point/docking_point.gd:40
+   godot-tactical-rpg/data/modules/tactics/controls/controls.gd:39
+code signal ref on other / script:
+   godot-tactical-rpg/data/models/view/control/tactics/service/service.gd:43
+   godot-tactical-rpg/data/models/view/control/tactics/service/service.gd:44
+   godot-tactical-rpg/data/models/view/control/tactics/service/service.gd:45
+   godot-tactical-rpg/data/models/view/control/tactics/service/service.gd:46
+code signal ref on other / unknown:
+   starship-olympics/godot/globals/AudioLibrary.gd:61
+   starship-olympics/godot/local_multiplayer/LocalMultiplayer.gd:36
+   Dororo/scripts/gd/interact/window.gd:55
+   Project-Heartbeat/menus/LoadingScreen.gd:34
+code signal ref on self / engine:
+   museum-of-all-things/scenes/HallDirectionDetector.gd:18
+   museum-of-all-things/scenes/HallDirectionDetector.gd:19
+   tanks-of-freedom-ii/scenes/ui/map_picker/map_button.gd:18
+   Slay-The-Robot/ui/components/volume_slider/VolumeSlider.gd:6
+code signal ref on self / script:
+   tps-demo/menu/menu.gd:165
+   godot-port/Assets/Player/InteractionContext.gd:72
+   godot-port/Assets/UI/BasicControls/CheckBoxEx.gd:37
+   godot-port/Assets/UI/BasicControls/HSliderEx.gd:99
+code signal ref on self / unknown:
+   TowDownGame/ui/widgets/WeaponListItem.gd:28
+   starship-olympics/godot/actors/battlers/PlayerShip.gd:16
+   starship-olympics/godot/godot4/actors/brains/PlayerBrain.gd:80
+   DOGWALK/source/obstacles/generic_tripping_hazard.gd:12
+replicated property / ambiguous:
+   netfox/examples/forest-brawl/scenes/brawler.tscn:87
+   netfox/examples/multiplayer-fps/characters/player.tscn:53
+   netfox/examples/multiplayer-fps/characters/player.tscn:53
+   netfox/examples/multiplayer-fps/characters/player.tscn:53
+replicated property / engine:
+   tps-demo/enemies/red_robot/red_robot.tscn:29
+   tps-demo/enemies/red_robot/red_robot.tscn:29
+   tps-demo/enemies/red_robot/red_robot.tscn:29
+   tps-demo/enemies/red_robot/red_robot.tscn:10418
+replicated property / script:
+   tps-demo/enemies/red_robot/red_robot.tscn:29
+   tps-demo/enemies/red_robot/red_robot.tscn:29
+   tps-demo/enemies/red_robot/red_robot.tscn:10418
+   tps-demo/player/player.tscn:18
+scene connection / engine:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/CustomLevelMenu.tscn:1098
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/CustomLevelMenu.tscn:1099
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/CustomLevelMenu.tscn:1119
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/CustomLevelMenu.tscn:1120
+scene connection / no script:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/AchievementMenu.tscn:363
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:833
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:835
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:836
+scene connection / script:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:834
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:837
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:840
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/BooRaceMenu.tscn:843
+scene connection / unknown:
+   Super-Mario-Bros.-Remastered-Public/Scenes/Levels/SMBANN/World3/3-2.tscn:12
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Global.tscn:676
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Blocks/FrozenBrickBlock.tscn:63
+   Super-Mario-Bros.-Remastered-Public/Scenes/Prefabs/Blocks/NoteBlock.tscn:163

@@ -1,0 +1,437 @@
+repo | group | commit | license | gd(1st-party) | lines | tscn | b0 | b1 | b2 | b3+ | inh(tscn/model) | inhStruct | editable | lit-scripts | struct>=2 own/all | lit&struct>=2 | nonroot-attach
+Super-Mario-Bros.-Remastered-Public | game | 7fe1ff7340 | GPL | 314 | 20313 | 767 | 28 | 214 | 27 | 45 | 266 (266/0) | 143 | 128 | 175 | 89/93 | 33 | 1922/2326
+godot-open-rpg | game | d59f2f71bc | MIT | 78 | 5422 | 128 | 22 | 55 | 1 | 0 | 22 (22/0) | 14 | 0 | 34 | 7/14 | 9 | 49/77
+Microverse | game | 7a061d41ed | MIT | 30 | 7800 | 22 | 15 | 13 | 0 | 2 | 0 (0/0) | 0 | 0 | 13 | 0/0 | 0 | 13/32
+Godot-GameTemplate | game | d5d8d15887 | MIT | 4 | 336 | 82 | 1 | 3 | 0 | 0 | 22 (22/0) | 13 | 34 | 0 | 0/0 | 0 | 1/3
+Starter-Kit-City-Builder | game | 4535092b74 | MIT | 6 | 311 | 1 | 4 | 2 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 2/2
+tps-demo | game | a82f15448e | MIT | 15 | 1619 | 17 | 1 | 14 | 0 | 0 | 1 (0/1) | 0 | 6 | 10 | 1/1 | 1 | 6/16
+Starter-Kit-3D-Platformer | game | 3fa8a04b1c | MIT | 9 | 378 | 10 | 1 | 8 | 0 | 0 | 6 (0/6) | 0 | 1 | 6 | 0/0 | 0 | 2/8
+godot-open-rts | game | a628ad3bb6 | MIT | 118 | 7415 | 84 | 30 | 87 | 0 | 1 | 9 (9/0) | 8 | 19 | 2 | 4/9 | 1 | 20/92
+godot-2d-space-game | game | 661a101d9e | MIT | 93 | 4656 | 41 | 43 | 47 | 3 | 0 | 8 (8/0) | 4 | 2 | 33 | 1/4 | 1 | 22/53
+godot-4-3d-third-person-controller | game | b3bd6e8108 | MIT | 28 | 1501 | 28 | 2 | 25 | 1 | 0 | 2 (0/2) | 0 | 12 | 20 | 1/1 | 1 | 9/29
+godot-FirstPersonStarter | game | 893db99a10 | MIT | 4 | 179 | 6 | 0 | 4 | 0 | 0 | 1 (1/0) | 1 | 0 | 0 | 1/1 | 0 | 1/4
+Starter-Kit-FPS | game | 185fd2326d | MIT | 7 | 451 | 10 | 2 | 5 | 0 | 0 | 6 (0/6) | 0 | 0 | 3 | 0/0 | 0 | 1/5
+Reia | game | 35baf421a6 | ?LICENSE | 191 | 12734 | 23 | 168 | 23 | 0 | 0 | 0 (0/0) | 0 | 4 | 6 | 0/0 | 0 | 11/26
+godot-tactical-rpg | game | cfe785e5b6 | MIT | 57 | 4193 | 10 | 41 | 16 | 0 | 0 | 0 (0/0) | 0 | 0 | 13 | 1/2 | 2 | 7/16
+godot-port | game | fa0d514616 | GPL | 127 | 8724 | 182 | 38 | 73 | 2 | 14 | 39 (39/0) | 15 | 5 | 55 | 12/16 | 11 | 54/201
+escoria-demo-game | game | 92e6506977 | MIT | 5 | 240 | 108 | 1 | 4 | 0 | 0 | 0 (0/0) | 0 | 1 | 3 | 0/0 | 0 | 2/4
+voxelgame | game | 4cf747a845 | MIT | 59 | 4666 | 28 | 19 | 34 | 5 | 1 | 1 (0/1) | 0 | 2 | 27 | 3/3 | 3 | 24/47
+TowDownGame | game | 898e2b0ad7 | none | 88 | 3788 | 102 | 14 | 71 | 1 | 2 | 0 (0/0) | 0 | 0 | 47 | 0/4 | 3 | 9/79
+GodotDynamicInventorySystem | game | bd74a72e30 | Apache-2.0 | 26 | 1460 | 23 | 11 | 13 | 2 | 0 | 5 (5/0) | 0 | 7 | 11 | 2/3 | 2 | 3/17
+museum-of-all-things | game | 03cf5ff955 | MIT | 65 | 6790 | 119 | 15 | 50 | 0 | 0 | 1 (1/0) | 0 | 4 | 38 | 0/0 | 0 | 2/50
+godot-2d-builder | game | 7a747e581e | MIT | 93 | 4913 | 80 | 22 | 60 | 6 | 5 | 0 (0/0) | 0 | 0 | 50 | 3/9 | 2 | 23/99
+comedot | game | 5a6cfce61e | MIT | 168 | 20160 | 219 | 64 | 93 | 8 | 3 | 32 (32/0) | 13 | 64 | 45 | 16/28 | 9 | 36/142
+starship-olympics | game | 429667b873 | ?LICENSE_assets.txt | 360 | 20354 | 976 | 57 | 279 | 13 | 11 | 514 (514/0) | 421 | 196 | 183 | 59/75 | 36 | 176/448
+TakinGodotTemplate | game | a54b519f11 | MIT | 113 | 7445 | 108 | 31 | 82 | 0 | 0 | 0 (0/0) | 0 | 0 | 30 | 1/3 | 1 | 0/82
+OpenLiberty | game | b2fcfd2b4c | none | 31 | 1691 | 56 | 16 | 14 | 0 | 1 | 20 (20/0) | 11 | 2 | 10 | 0/0 | 0 | 7/17
+OpenVic | game | 936fa940c1 | MIT | 73 | 11898 | 44 | 27 | 46 | 0 | 0 | 1 (1/0) | 0 | 0 | 0 | 0/1 | 0 | 23/46
+deck_builder_tutorial | game | 91b408bc66 | MIT | 122 | 4830 | 61 | 54 | 65 | 2 | 1 | 0 (0/0) | 0 | 0 | 43 | 6/7 | 1 | 22/73
+Starter-Kit-Racing | game | 2f2e5f2646 | MIT | 3 | 258 | 4 | 0 | 3 | 0 | 0 | 0 (0/0) | 0 | 0 | 3 | 0/1 | 1 | 1/3
+UltimateGodotIntro2D | game | 014ce52a82 | none | 21 | 649 | 26 | 2 | 19 | 0 | 0 | 4 (4/0) | 4 | 0 | 17 | 1/3 | 2 | 0/19
+tanks-of-freedom-ii | game | dbe629ea05 | MIT | 234 | 20232 | 661 | 100 | 133 | 0 | 1 | 449 (449/0) | 140 | 3 | 102 | 9/13 | 13 | 0/137
+Cats-Godot4-Modular-Souls-like-Template | game | d8bceffc5b | ?LICENSE | 39 | 2702 | 25 | 5 | 24 | 6 | 4 | 0 (0/0) | 0 | 6 | 18 | 8/8 | 2 | 60/82
+godot-3-beginner-2d-platformer | game | ce0871640b | MIT | 11 | 242 | 47 | 1 | 10 | 0 | 0 | 0 (0/0) | 0 | 7 | 5 | 0/1 | 0 | 0/10
+PVZ-Godot-Dream | game | 740691cf9b | ?LICENSE | 257 | 20257 | 233 | 41 | 192 | 8 | 16 | 117 (117/0) | 104 | 150 | 151 | 36/52 | 30 | 314/437
+Pocket-Godot | game | 1758733d94 | MIT | 9 | 380 | 8 | 0 | 8 | 0 | 1 | 0 (0/0) | 0 | 1 | 5 | 0/0 | 0 | 8/11
+shotcaller-godot | game | aad861b699 | ?LICENSE.md | 127 | 13647 | 94 | 75 | 48 | 3 | 1 | 27 (27/0) | 27 | 89 | 31 | 4/4 | 2 | 10/57
+MultiplayerFPSTutorial | game | ef3e702e6e | MIT | 2 | 162 | 3 | 0 | 2 | 0 | 0 | 1 (0/1) | 0 | 0 | 2 | 0/0 | 0 | 0/2
+godot-tiny-mmo | game | f4ed04f209 | MIT | 180 | 20175 | 123 | 125 | 48 | 3 | 4 | 14 (14/0) | 2 | 0 | 16 | 6/12 | 1 | 32/91
+Slay-The-Robot | game | 4dac5abe0d | MIT | 251 | 20251 | 46 | 187 | 63 | 1 | 0 | 0 (0/0) | 0 | 0 | 44 | 1/4 | 3 | 33/67
+Castlevania-Remnants-of-Darkness | game | d77b3af1c4 | none | 448 | 20446 | 524 | 41 | 372 | 16 | 19 | 7 (7/0) | 2 | 46 | 22 | 20/27 | 1 | 669/932
+Super-Mario-World-Remastered-Public | game | 4c520cf0bf | ?LICENSE | 379 | 20377 | 721 | 69 | 258 | 30 | 22 | 25 (25/0) | 10 | 33 | 209 | 57/65 | 37 | 1346/1660
+wutw-public | game | 95704c1c74 | CC0 | 287 | 20286 | 534 | 186 | 94 | 2 | 5 | 191 (191/0) | 12 | 56 | 80 | 8/12 | 4 | 386/517
+Godot-Plush-Character | game | 1e621160f0 | MIT | 7 | 354 | 8 | 0 | 6 | 1 | 0 | 0 (0/0) | 0 | 1 | 4 | 0/0 | 0 | 1/8
+godot-multiplayer | game | 70006c8068 | MIT | 24 | 1119 | 10 | 2 | 22 | 0 | 0 | 0 (0/0) | 0 | 2 | 5 | 0/0 | 0 | 14/22
+Godot4ThirdPersonCombatPrototype | game | cbfecf427f | MIT | 148 | 10136 | 93 | 38 | 80 | 17 | 13 | 11 (9/2) | 9 | 42 | 29 | 7/11 | 3 | 154/198
+youtd2 | game | d7532f35fe | MIT | 166 | 20166 | 972 | 136 | 30 | 0 | 0 | 18 (18/0) | 5 | 0 | 0 | 0/2 | 0 | 7/31
+godot-xr-template | game | 7d8261cd37 | MIT | 17 | 1497 | 120 | 6 | 10 | 0 | 1 | 15 (15/0) | 9 | 41 | 3 | 4/4 | 1 | 4/14
+desksaw | game | 4555ffe190 | MIT | 67 | 7508 | 37 | 15 | 29 | 17 | 6 | 0 (0/0) | 0 | 0 | 14 | 6/6 | 3 | 82/103
+GodotProjectZero | game | 1ea0458cbe | MIT | 141 | 14000 | 139 | 30 | 111 | 0 | 0 | 0 (0/0) | 0 | 0 | 68 | 3/3 | 2 | 3/112
+godot-4-2d-visual-novel | game | 94dafe946c | MIT | 16 | 1855 | 8 | 8 | 8 | 0 | 0 | 0 (0/0) | 0 | 0 | 4 | 1/1 | 0 | 2/9
+Legacy_SM63Redux | game | cde0b9e748 | ?LICENSE.txt | 161 | 14900 | 104 | 23 | 128 | 3 | 7 | 0 (0/0) | 0 | 1 | 91 | 10/21 | 10 | 102/185
+threadbare | game | 9bfcd190fc | ?COPYING | 230 | 20226 | 423 | 65 | 119 | 15 | 31 | 4 (4/0) | 1 | 137 | 99 | 49/55 | 19 | 577/715
+Starter-Kit-Match-3 | game | 4ddb3d2a50 | MIT | 4 | 366 | 3 | 1 | 3 | 0 | 0 | 0 (0/0) | 0 | 0 | 2 | 0/0 | 0 | 0/3
+godot-2d-topdown-template | game | ea95789514 | MIT | 64 | 2705 | 46 | 27 | 25 | 5 | 7 | 9 (9/0) | 5 | 8 | 7 | 14/16 | 2 | 110/127
+SonicWorldsNext | game | d2e6212eac | MIT | 132 | 12436 | 98 | 9 | 114 | 6 | 3 | 0 (0/0) | 0 | 22 | 67 | 13/20 | 10 | 80/167
+SimpleFPSController | game | da3e71e27d | CC0 | 11 | 1296 | 17 | 4 | 7 | 0 | 0 | 0 (0/0) | 0 | 0 | 5 | 0/0 | 0 | 3/8
+aarpg-tutorial | game | 19ae32eec6 | MIT | 116 | 7068 | 73 | 25 | 77 | 11 | 3 | 0 (0/0) | 0 | 0 | 60 | 21/24 | 10 | 86/148
+godot_autobattler_course | game | fba5dc3dea | MIT | 80 | 3269 | 32 | 25 | 44 | 8 | 3 | 0 (0/0) | 0 | 0 | 25 | 10/11 | 0 | 49/81
+jdungeon | game | d941345fd1 | ?LICENSE | 182 | 19096 | 168 | 62 | 120 | 0 | 0 | 0 (0/0) | 0 | 0 | 58 | 2/8 | 4 | 0/120
+LibreAim | game | e705a92d0e | GPL | 35 | 1504 | 22 | 8 | 23 | 2 | 2 | 0 (0/0) | 0 | 0 | 21 | 2/2 | 0 | 20/40
+Strategy-GDScript | game | 0b362be974 | none | 27 | 748 | 6 | 8 | 18 | 1 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 15/20
+devmoreir4__godot-3d-multiplayer-template | game | 51b2614fbd | MIT | 16 | 3200 | 22 | 5 | 10 | 0 | 1 | 0 (0/0) | 0 | 0 | 8 | 1/1 | 0 | 2/23
+opengs | game | 06838d963c | MIT | 32 | 2495 | 10 | 18 | 14 | 0 | 0 | 0 (0/0) | 0 | 0 | 9 | 0/0 | 0 | 4/14
+top-down-action-rpg-template | game | 525d133e04 | MIT | 21 | 1065 | 27 | 5 | 15 | 1 | 0 | 0 (0/0) | 0 | 1 | 12 | 1/1 | 1 | 3/17
+Godot-Roguelike-Tutorial | game | c70e30b71d | none | 31 | 1108 | 39 | 1 | 28 | 2 | 0 | 24 (24/0) | 19 | 0 | 17 | 3/6 | 5 | 11/32
+unto-deepest-depths-prototype | game | 3874905de2 | MIT | 14 | 579 | 7 | 7 | 7 | 0 | 0 | 0 (0/0) | 0 | 0 | 4 | 1/1 | 0 | 0/7
+godot-2d-adventure-tutorial | game | 0120b91e3c | none | 26 | 1338 | 17 | 3 | 17 | 6 | 0 | 1 (1/0) | 1 | 0 | 12 | 3/6 | 3 | 15/30
+knakk | game | 8d93a6bafd | none | 32 | 2716 | 11 | 6 | 26 | 0 | 0 | 0 (0/0) | 0 | 0 | 18 | 0/0 | 0 | 27/37
+Dororo | game | c2050bdc03 | GPL | 28 | 1499 | 8 | 4 | 24 | 0 | 0 | 0 (0/0) | 0 | 0 | 15 | 0/0 | 0 | 19/24
+_original_client | game | 893d3511db | GPL | 54 | 7700 | 18 | 38 | 15 | 1 | 0 | 0 (0/0) | 0 | 0 | 14 | 1/1 | 1 | 4/17
+Godot_Universal-Controller-tutorial | game | 8239bc01d6 | MIT | 53 | 1719 | 15 | 12 | 41 | 0 | 0 | 0 (0/0) | 0 | 1 | 12 | 3/4 | 1 | 31/41
+simple-godot-train | game | c7dd62a8b8 | MIT | 17 | 755 | 20 | 0 | 17 | 0 | 0 | 2 (2/0) | 1 | 152 | 13 | 4/5 | 4 | 0/17
+OpMon | game | 9cea69106a | none | 40 | 2998 | 24 | 18 | 16 | 5 | 1 | 3 (3/0) | 1 | 0 | 16 | 1/4 | 1 | 13/36
+Godot-Inventory | game | 61676d98dc | MIT | 34 | 2164 | 20 | 19 | 13 | 1 | 1 | 0 (0/0) | 0 | 1 | 0 | 0/1 | 0 | 8/19
+template-beat-em-up | game | ba9542d79b | MIT | 150 | 18799 | 52 | 52 | 47 | 18 | 33 | 12 (12/0) | 11 | 11 | 24 | 27/36 | 5 | 324/363
+game-base-2D | game | f8bef730de | MIT | 57 | 1475 | 25 | 24 | 28 | 3 | 2 | 0 (0/0) | 0 | 0 | 1 | 6/7 | 1 | 31/46
+godot-rocket-league | game | 78b28ce495 | MIT | 12 | 755 | 10 | 0 | 11 | 1 | 0 | 2 (0/2) | 0 | 0 | 7 | 0/0 | 0 | 5/13
+Freedom-Hunter | game | 3f27279593 | none | 50 | 3402 | 30 | 19 | 31 | 0 | 0 | 7 (0/7) | 0 | 3 | 29 | 0/0 | 0 | 10/31
+simgine | game | 24b2d70088 | ?COPYING | 35 | 2235 | 11 | 15 | 19 | 1 | 0 | 1 (1/0) | 1 | 0 | 9 | 2/3 | 2 | 12/22
+GDWaterKart | game | f151ebe305 | MIT | 22 | 2643 | 24 | 3 | 18 | 0 | 1 | 4 (0/4) | 0 | 1 | 11 | 0/1 | 0 | 16/26
+TopdownStarter | game | 62fe950b0e | MIT | 25 | 763 | 15 | 5 | 16 | 3 | 1 | 0 (0/0) | 0 | 0 | 6 | 2/4 | 0 | 17/26
+yipiantian | game | f816a91242 | none | 132 | 20131 | 11 | 128 | 4 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 1/4
+Godot4-FPS-Template | game | 7130929391 | MIT | 16 | 964 | 26 | 4 | 8 | 2 | 2 | 0 (0/0) | 0 | 0 | 6 | 2/3 | 0 | 2/24
+poder-solar | game | d5820a1d78 | GPL | 11 | 439 | 7 | 0 | 9 | 0 | 2 | 0 (0/0) | 0 | 0 | 9 | 2/2 | 2 | 13/20
+DOGWALK | game | 34c527e599 | none | 91 | 12708 | 444 | 21 | 49 | 6 | 15 | 0 (0/0) | 0 | 39 | 1 | 11/11 | 0 | 263/308
+godot4-third-person-controller | game | c809ec20fd | MIT | 22 | 1087 | 8 | 2 | 20 | 0 | 0 | 0 (0/0) | 0 | 1 | 6 | 0/2 | 0 | 18/23
+malware-slayer | game | 4f48fec152 | GPL | 121 | 6221 | 46 | 68 | 52 | 0 | 1 | 0 (0/0) | 0 | 0 | 30 | 1/2 | 0 | 18/57
+SurvivorsClone_Complete | game | 965d7613bb | CC0 | 17 | 1254 | 20 | 1 | 15 | 0 | 1 | 0 (0/0) | 0 | 11 | 10 | 0/0 | 0 | 1/20
+Genesis | game | 2afb86d90f | MIT | 21 | 2013 | 5 | 7 | 14 | 0 | 0 | 0 (0/0) | 0 | 0 | 14 | 0/0 | 0 | 11/14
+Friendslop-Template | game | 25787cc6bd | MIT | 48 | 5107 | 24 | 32 | 13 | 3 | 0 | 0 (0/0) | 0 | 0 | 6 | 3/4 | 0 | 12/19
+super-godot-galaxy | game | cfb741eb30 | MIT | 12 | 460 | 46 | 2 | 10 | 0 | 0 | 43 (0/43) | 0 | 1 | 6 | 0/0 | 0 | 9/13
+GBM2K-Framework | game | 12f67484fc | MIT | 13 | 383 | 5 | 5 | 7 | 0 | 1 | 0 (0/0) | 0 | 0 | 2 | 1/3 | 1 | 7/11
+Project-Heartbeat | game | a9c1c0243b | none | 167 | 20167 | 239 | 72 | 91 | 3 | 1 | 10 (10/0) | 10 | 41 | 75 | 5/12 | 5 | 80/154
+tower-defense-godot4 | game | 1cbd622116 | MIT | 41 | 1599 | 29 | 5 | 36 | 0 | 0 | 12 (12/0) | 3 | 10 | 18 | 1/4 | 2 | 19/38
+limbo-godot | game | 08879ba0d5 | MIT | 12 | 1226 | 10 | 4 | 8 | 0 | 0 | 0 (0/0) | 0 | 0 | 7 | 0/0 | 0 | 0/8
+abyssal-walker | game | ec497b3ed6 | MIT | 87 | 19912 | 17 | 69 | 17 | 1 | 0 | 0 (0/0) | 0 | 0 | 11 | 0/0 | 0 | 3/19
+godot-chess | game | e16a2423e8 | MIT | 10 | 1425 | 9 | 1 | 9 | 0 | 0 | 0 (0/0) | 0 | 0 | 6 | 0/0 | 0 | 0/9
+Improved-KCC | game | 0661e04ee7 | MIT | 30 | 3850 | 18 | 7 | 17 | 0 | 6 | 0 (0/0) | 0 | 4 | 1 | 4/6 | 0 | 285/298
+BatteryAcid__godot-3d-multiplayer-template | game | 2e274ff196 | MIT | 18 | 901 | 35 | 3 | 15 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 5/15
+Godot4SourceEngineMovement | game | d3ebc9a4c0 | MIT | 14 | 795 | 4 | 5 | 9 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 1/1 | 0 | 9/10
+PSGodotTemplateRepo | game | cc5cccd245 | MIT | 34 | 880 | 27 | 8 | 26 | 0 | 0 | 13 (13/0) | 1 | 0 | 7 | 0/1 | 0 | 1/26
+RhythiaRewrite | game | e1cfba6f23 | none | 76 | 4101 | 22 | 41 | 33 | 1 | 1 | 0 (0/0) | 0 | 0 | 26 | 1/4 | 1 | 35/51
+Cupcakes-Framework | game | 485e1ee27d | MIT | 10 | 274 | 1 | 2 | 8 | 0 | 0 | 0 (0/0) | 0 | 0 | 5 | 0/1 | 0 | 10/10
+Stardew | game | f238436b44 | none | 65 | 2788 | 50 | 10 | 55 | 0 | 0 | 2 (2/0) | 0 | 0 | 30 | 6/6 | 2 | 10/55
+CandyWrapper | game | de759070ad | MIT | 4 | 359 | 26 | 0 | 4 | 0 | 0 | 0 (0/0) | 0 | 0 | 3 | 0/0 | 0 | 1/4
+Galaxy-Defiance | game | 29b8b70a93 | MIT | 32 | 671 | 14 | 3 | 18 | 6 | 5 | 3 (3/0) | 3 | 0 | 9 | 15/16 | 1 | 41/53
+Resources-GDScript | game | 47525a2e3d | none | 47 | 1546 | 13 | 20 | 25 | 2 | 0 | 0 (0/0) | 0 | 0 | 12 | 2/2 | 0 | 18/29
+Lost-Pilot | game | 8bc78dd3d6 | GPL | 30 | 1522 | 18 | 14 | 15 | 1 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/5 | 0 | 4/17
+sourceofmana | game | 50adcc7d30 | MIT | 194 | 20194 | 141 | 143 | 47 | 2 | 2 | 1 (1/0) | 1 | 0 | 38 | 3/4 | 3 | 21/63
+godot-card-game-frame | game | ee4e3dd8b7 | MIT | 26 | 1269 | 36 | 4 | 18 | 4 | 0 | 0 (0/0) | 0 | 0 | 16 | 2/4 | 4 | 6/26
+Godot-2D-Action-Game | game | b597570d88 | none | 76 | 3177 | 23 | 22 | 54 | 0 | 0 | 1 (1/0) | 1 | 0 | 22 | 1/4 | 2 | 33/54
+soccer-course | game | c28147f5e5 | MIT | 65 | 2154 | 12 | 52 | 13 | 0 | 0 | 0 (0/0) | 0 | 0 | 11 | 0/1 | 0 | 2/13
+moddable-platformer | game | 834b508010 | MIT | 15 | 1320 | 17 | 3 | 9 | 3 | 0 | 0 (0/0) | 0 | 4 | 9 | 1/1 | 1 | 2/15
+paddles_balls_blocks_walls | game | 5448f22030 | ?license.txt | 57 | 3068 | 120 | 4 | 52 | 0 | 1 | 1 (0/1) | 0 | 0 | 31 | 0/0 | 0 | 3/61
+age-of-war | game | c6f2d0f695 | none | 70 | 3985 | 63 | 5 | 64 | 1 | 0 | 0 (0/0) | 0 | 0 | 37 | 2/4 | 4 | 6/67
+tower-defense-tutorial | game | 9f5cc040da | MIT | 30 | 1049 | 25 | 2 | 27 | 1 | 0 | 9 (9/0) | 2 | 7 | 16 | 3/4 | 3 | 10/29
+holoDelta | game | 74e83d2bdb | MIT | 28 | 8229 | 20 | 8 | 20 | 0 | 0 | 0 (0/0) | 0 | 1 | 18 | 2/2 | 2 | 8/26
+GodotFPS-Template | game | 11619794d6 | MIT | 25 | 1957 | 26 | 2 | 23 | 0 | 0 | 6 (6/0) | 1 | 6 | 18 | 2/2 | 2 | 18/33
+Godot-4-Tower-Defense-Template | game | cfdbf5e9bf | MIT | 21 | 905 | 17 | 2 | 17 | 2 | 0 | 0 (0/0) | 0 | 0 | 15 | 0/1 | 1 | 5/21
+FRU-Sim | game | 2a77c857ce | none | 149 | 12414 | 182 | 20 | 109 | 16 | 4 | 3 (0/3) | 0 | 7 | 74 | 19/24 | 11 | 103/199
+godot_open_star_fighter | game | 6e7be5c137 | MIT | 40 | 2408 | 26 | 11 | 29 | 0 | 0 | 3 (3/0) | 2 | 0 | 18 | 1/5 | 3 | 7/29
+dialogic | plugin | 3afc449d40 | MIT | 176 | 20175 | 84 | 106 | 66 | 1 | 3 | 2 (2/0) | 2 | 0 | 51 | 4/10 | 0 | 30/82
+godot_dialogue_manager | plugin | 7a72dcf64c | MIT | 79 | 14619 | 24 | 59 | 18 | 2 | 0 | 0 (0/0) | 0 | 0 | 16 | 1/1 | 1 | 2/22
+phantom-camera | plugin | 21d3762492 | MIT | 36 | 10410 | 32 | 14 | 16 | 2 | 4 | 0 (0/0) | 0 | 1 | 13 | 6/7 | 1 | 83/95
+godot-ai | plugin | 643c64f3ed | MIT | 61 | 20058 | 7 | 61 | 0 | 0 | 0 | 0 (0/0) | 0 | 0 | 3 | 0/0 | 0 | 0/0
+beehave | plugin | fe589153fa | MIT | 95 | 8566 | 27 | 67 | 22 | 2 | 4 | 0 (0/0) | 0 | 0 | 7 | 6/13 | 0 | 72/82
+scatter | plugin | 7198cc0007 | MIT | 83 | 9444 | 42 | 50 | 29 | 1 | 3 | 11 (0/11) | 0 | 4 | 26 | 2/3 | 1 | 177/202
+Gut | plugin | cf45f66870 | none | 150 | 20125 | 37 | 133 | 16 | 1 | 0 | 0 (0/0) | 0 | 0 | 12 | 1/1 | 0 | 1/18
+godot_heightmap_plugin | plugin | 49887ff956 | MIT | 68 | 16598 | 24 | 38 | 30 | 0 | 0 | 0 (0/0) | 0 | 1 | 23 | 1/1 | 1 | 6/30
+SmartShape2D | plugin | 9617190250 | MIT | 68 | 11155 | 33 | 62 | 5 | 0 | 1 | 0 (0/0) | 0 | 0 | 4 | 1/1 | 0 | 15/19
+Godot-Game-Template | plugin | 6849d6c352 | MIT | 123 | 8278 | 119 | 24 | 83 | 8 | 8 | 56 (56/0) | 34 | 6 | 52 | 14/24 | 12 | 65/142
+gaea | plugin | 79461f6491 | MIT | 166 | 16491 | 23 | 128 | 33 | 4 | 1 | 9 (9/0) | 9 | 0 | 17 | 2/4 | 3 | 22/45
+cyclopsLevelBuilder | plugin | ea41feaab5 | MIT | 174 | 20173 | 145 | 82 | 88 | 4 | 0 | 0 (0/0) | 0 | 7 | 43 | 10/16 | 3 | 46/108
+godot-statecharts | plugin | 76d226a3ef | MIT | 89 | 6852 | 43 | 62 | 22 | 0 | 5 | 0 (0/0) | 0 | 0 | 17 | 5/6 | 0 | 199/217
+Metroidvania-System | plugin | 0065ae8974 | MIT | 56 | 6872 | 57 | 31 | 21 | 2 | 2 | 0 (0/0) | 0 | 0 | 24 | 4/7 | 4 | 25/37
+godot-steering-ai-framework | plugin | 9d7cf0deff | MIT | 67 | 3381 | 16 | 29 | 36 | 1 | 1 | 0 (0/0) | 0 | 0 | 18 | 0/0 | 0 | 36/51
+PankuConsole | plugin | 863324dfb7 | MIT | 100 | 4909 | 45 | 52 | 45 | 3 | 0 | 0 (0/0) | 0 | 27 | 9 | 1/2 | 1 | 10/51
+godot-aseprite-wizard | plugin | eede800f16 | MIT | 62 | 6813 | 28 | 34 | 28 | 0 | 0 | 0 (0/0) | 0 | 0 | 20 | 0/0 | 0 | 1/28
+gdmaim | plugin | 634cada3c2 | MIT | 23 | 6506 | 11 | 17 | 5 | 0 | 1 | 0 (0/0) | 0 | 0 | 5 | 0/1 | 0 | 0/9
+godot_spatial_gardener | plugin | 77b822f50d | MIT | 101 | 19013 | 17 | 80 | 19 | 2 | 0 | 0 (0/0) | 0 | 0 | 7 | 2/4 | 1 | 11/23
+TileMapDual | plugin | b4dc775003 | MIT | 15 | 2152 | 9 | 11 | 2 | 0 | 2 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 25/25
+gdUnit4 | plugin | 9bc1a45068 | MIT | 204 | 20204 | 29 | 194 | 9 | 0 | 1 | 0 (0/0) | 0 | 0 | 9 | 1/1 | 0 | 4/12
+godot-road-generator | plugin | 7cbefde04e | MIT | 44 | 17942 | 43 | 23 | 16 | 1 | 4 | 0 (0/0) | 0 | 10 | 12 | 4/5 | 1 | 444/464
+ShaderV | plugin | b99ad61d4a | MIT | 93 | 7357 | 1 | 93 | 0 | 0 | 0 | 0 (0/0) | 0 | 0 | 0 | 0/0 | 0 | 0/0
+ridiculous_coding | plugin | 6ead7f02e6 | MIT | 5 | 432 | 4 | 1 | 4 | 0 | 0 | 0 (0/0) | 0 | 0 | 4 | 0/0 | 0 | 0/4
+netfox | plugin | a482c9752a | MIT | 214 | 19700 | 61 | 136 | 71 | 2 | 5 | 0 (0/0) | 0 | 2 | 28 | 3/7 | 1 | 83/115
+pandora | plugin | fa48e30e66 | MIT | 125 | 9503 | 66 | 77 | 46 | 0 | 2 | 0 (0/0) | 0 | 0 | 42 | 0/1 | 0 | 14/64
+godot_input_helper | plugin | ccfad58f7e | MIT | 10 | 1197 | 6 | 5 | 5 | 0 | 0 | 0 (0/0) | 0 | 0 | 5 | 0/0 | 0 | 0/5
+script-ide | plugin | c1dfb1f0b9 | MIT | 8 | 2705 | 4 | 4 | 4 | 0 | 0 | 0 (0/0) | 0 | 0 | 4 | 0/0 | 0 | 0/4
+godot-resources-as-sheets-plugin | plugin | f6e56453fe | MIT | 48 | 5301 | 17 | 24 | 22 | 1 | 1 | 0 (0/0) | 0 | 0 | 20 | 2/4 | 2 | 45/57
+gloot | plugin | 6b09b87ac0 | MIT | 62 | 8729 | 22 | 21 | 31 | 2 | 8 | 0 (0/0) | 0 | 0 | 12 | 10/12 | 0 | 80/93
+Virtual-Joystick-Godot | plugin | b90891ee99 | MIT | 4 | 230 | 2 | 2 | 2 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 1/2
+unidot_importer | plugin | 9719eaa2c5 | MIT | 28 | 15722 | 0 | 28 | 0 | 0 | 0 | 0 (0/0) | 0 | 0 | 0 | 0/0 | 0 | 0/0
+Sky3D | plugin | 81f95aba96 | MIT | 7 | 2722 | 4 | 4 | 3 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 3/3
+func_godot_plugin | plugin | 352f3d3083 | MIT | 33 | 5461 | 0 | 33 | 0 | 0 | 0 | 0 (0/0) | 0 | 0 | 0 | 0/0 | 0 | 0/0
+Godot-MCP-Native | plugin | eef4807190 | MIT | 63 | 20048 | 2 | 63 | 0 | 0 | 0 | 0 (0/0) | 0 | 0 | 0 | 0/0 | 0 | 0/0
+godot_sound_manager | plugin | 1c041582db | MIT | 7 | 590 | 2 | 6 | 1 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 0/1
+godot-engine.easy-charts | plugin | 860b256ce9 | MIT | 38 | 3294 | 16 | 18 | 19 | 1 | 0 | 0 (0/0) | 0 | 0 | 16 | 0/0 | 0 | 5/21
+nakama-godot | plugin | 6dc7b3951d | Apache-2.0 | 41 | 5683 | 2 | 39 | 2 | 0 | 0 | 0 (0/0) | 0 | 0 | 0 | 0/0 | 0 | 0/2
+godot_little_camera_preview | plugin | 1c4fd4d262 | MIT | 3 | 525 | 3 | 2 | 1 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 0/1
+anima | plugin | f4a454ebd4 | MIT | 146 | 20136 | 53 | 122 | 23 | 1 | 0 | 1 (0/1) | 0 | 0 | 20 | 2/3 | 1 | 5/28
+Qodot | plugin | 1f03de456d | MIT | 43 | 4705 | 13 | 36 | 3 | 2 | 2 | 0 (0/0) | 0 | 0 | 3 | 5/6 | 0 | 45/45
+better-terrain | plugin | e93040e1cd | ?LICENSE.md | 9 | 4167 | 3 | 5 | 4 | 0 | 0 | 0 (0/0) | 0 | 0 | 3 | 0/0 | 0 | 1/4
+godot-xr-tools | plugin | 6c6189bdfc | MIT | 140 | 20077 | 220 | 32 | 88 | 7 | 13 | 39 (38/1) | 35 | 108 | 43 | 21/25 | 7 | 152/275
+godot-gameplay-systems | plugin | 9349931cc7 | MIT | 117 | 7422 | 68 | 55 | 50 | 8 | 4 | 0 (0/0) | 0 | 0 | 29 | 2/5 | 0 | 54/97
+godot-mod-loader | plugin | 2fbf7b0671 | CC0 | 60 | 9650 | 4 | 58 | 2 | 0 | 0 | 0 (0/0) | 0 | 0 | 6 | 0/0 | 0 | 1/2
+SignalVisualizer | plugin | 06a46e5538 | MIT | 15 | 1170 | 7 | 6 | 9 | 0 | 0 | 0 (0/0) | 0 | 0 | 4 | 0/1 | 1 | 2/9
+GodotFirebase | plugin | 68be88690f | MIT | 39 | 4459 | 7 | 26 | 13 | 0 | 0 | 0 (0/0) | 0 | 0 | 3 | 0/0 | 0 | 7/13
+BehaviourToolkit | plugin | 8c8164c19c | MIT | 74 | 3155 | 8 | 25 | 37 | 11 | 1 | 0 (0/0) | 0 | 0 | 4 | 7/13 | 0 | 81/86
+gd-YAFSM | plugin | a4241b10b4 | MIT | 36 | 4249 | 16 | 22 | 14 | 0 | 0 | 6 (6/0) | 6 | 0 | 12 | 0/4 | 2 | 1/14
+godot-debug-menu | plugin | ff124615a7 | MIT | 2 | 505 | 1 | 1 | 1 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 0/1
+Scene-Manager | plugin | bf3b1feff0 | none | 21 | 1931 | 34 | 14 | 6 | 1 | 0 | 0 (0/0) | 0 | 0 | 4 | 0/0 | 0 | 0/8
+godot-admob-plugin | plugin | 4dc91441c4 | MIT | 158 | 14481 | 18 | 147 | 10 | 1 | 0 | 0 (0/0) | 0 | 0 | 10 | 0/1 | 0 | 3/12
+Yugens-Terrain-Authoring-Toolkit | plugin | 428f7ef22b | MIT | 31 | 7881 | 4 | 26 | 0 | 3 | 2 | 0 (0/0) | 0 | 0 | 2 | 3/3 | 2 | 10/14
+godot-mcp-pro | plugin | 0f0274ef41 | MIT | 36 | 19239 | 1 | 35 | 1 | 0 | 0 | 0 (0/0) | 0 | 0 | 1 | 0/0 | 0 | 0/1
+Pixelorama | tool | 38a8b03eaf | MIT | 81 | 20081 | 120 | 21 | 59 | 1 | 0 | 45 (45/0) | 36 | 2 | 40 | 2/5 | 3 | 21/64
+Lorien | tool | 17e32227df | MIT | 50 | 5032 | 22 | 19 | 29 | 1 | 1 | 0 (0/0) | 0 | 0 | 17 | 1/1 | 1 | 26/47
+material-maker | tool | 7d6daae3c7 | MIT | 195 | 20195 | 189 | 52 | 139 | 2 | 2 | 13 (13/0) | 7 | 0 | 80 | 9/15 | 8 | 88/180
+SoundThread | tool | a33198a84f | MIT | 30 | 6275 | 19 | 8 | 19 | 2 | 1 | 0 (0/0) | 0 | 0 | 17 | 1/1 | 1 | 18/35
+learn-gdscript | tool | b2c86f09f5 | MIT | 223 | 20220 | 333 | 96 | 116 | 6 | 5 | 36 (36/0) | 19 | 14 | 67 | 8/10 | 4 | 58/236
+GodSVG | tool | 52ad7944fc | MIT | 141 | 20140 | 89 | 64 | 74 | 2 | 1 | 0 (0/0) | 0 | 0 | 50 | 2/6 | 0 | 20/87
+protongraph | tool | 1e2411a294 | none | 167 | 11385 | 28 | 132 | 34 | 0 | 1 | 0 (0/0) | 0 | 0 | 25 | 1/1 | 0 | 29/54
+PixelPlanets | tool | 8ec6ee3055 | MIT | 18 | 1318 | 15 | 0 | 18 | 0 | 0 | 8 (8/0) | 8 | 0 | 16 | 0/1 | 0 | 3/18
+Arrow | tool | 5c0291c72e | MIT | 102 | 20092 | 58 | 22 | 80 | 0 | 0 | 0 (0/0) | 0 | 0 | 72 | 0/0 | 0 | 23/80
+GodotOS | tool | 90c94c0a13 | ?LICENSE | 79 | 4287 | 58 | 19 | 52 | 4 | 4 | 13 (13/0) | 7 | 1 | 27 | 5/7 | 2 | 39/77
+the-mirror | tool | ea32c76d2c | MIT | 207 | 20206 | 297 | 92 | 109 | 4 | 2 | 38 (37/1) | 27 | 108 | 84 | 9/14 | 9 | 58/140
+OpenGamepadUI | tool | a79179dc5b | GPL | 170 | 20170 | 155 | 74 | 85 | 9 | 2 | 4 (4/0) | 3 | 5 | 56 | 18/19 | 5 | 49/131
+Open-Industry-Project-Godot | tool | 117dfd9785 | MIT | 79 | 20063 | 62 | 42 | 34 | 3 | 0 | 8 (0/8) | 0 | 0 | 31 | 2/4 | 2 | 18/52
+boscaceoil-blue | tool | 4b6b5c6c3f | MIT | 87 | 17260 | 33 | 42 | 45 | 0 | 0 | 5 (5/0) | 5 | 0 | 29 | 1/1 | 1 | 13/45
+godots | tool | 8e4eb2baa0 | MIT | 139 | 15282 | 41 | 74 | 56 | 4 | 5 | 7 (7/0) | 3 | 6 | 36 | 13/17 | 3 | 52/93
+vpuppr | tool | d244408afc | ?LICENSE | 52 | 4133 | 19 | 32 | 19 | 1 | 0 | 1 (1/0) | 1 | 1 | 16 | 1/4 | 2 | 7/25
+GodotPixelRenderer | tool | 078f2078fb | MIT | 9 | 3106 | 1 | 0 | 9 | 0 | 0 | 0 (0/0) | 0 | 1 | 8 | 0/0 | 0 | 8/9
+unitypackage_godot | tool | 63ca781aff | MIT | 15 | 3451 | 4 | 13 | 2 | 0 | 0 | 0 (0/0) | 0 | 1 | 2 | 0/0 | 0 | 1/2
+godot-demo-projects | demo | b761b4cd57 | MIT | 305 | 20302 | 396 | 27 | 263 | 8 | 7 | 8 (6/2) | 5 | 38 | 162 | 8/13 | 5 | 269/411
+godot-4-procedural-generation | demo | 19c98cee16 | MIT | 51 | 3508 | 85 | 17 | 34 | 0 | 0 | 1 (1/0) | 1 | 6 | 25 | 1/4 | 1 | 4/34
+godot-visual-effects | demo | 647a8f1bce | MIT | 39 | 2410 | 79 | 15 | 22 | 0 | 2 | 1 (1/0) | 0 | 7 | 13 | 1/2 | 0 | 19/56
+godot-start | demo | 115fc06e42 | MIT | 38 | 1251 | 30 | 10 | 26 | 2 | 0 | 0 (0/0) | 0 | 0 | 6 | 1/1 | 0 | 18/30
+godot_experiments | demo | 4baec72901 | MIT | 17 | 428 | 14 | 2 | 14 | 1 | 0 | 0 (0/0) | 0 | 5 | 13 | 0/0 | 0 | 3/16
+MizGodotTools | demo | cb548f9035 | MIT | 70 | 4540 | 73 | 9 | 59 | 1 | 1 | 23 (23/0) | 20 | 10 | 47 | 15/17 | 11 | 21/73
+godot_ui_components | demo | 22d2355690 | MIT | 16 | 974 | 12 | 1 | 15 | 0 | 0 | 0 (0/0) | 0 | 0 | 11 | 0/0 | 0 | 6/15
+
+== games: 8886 first-party scripts; buckets 0/1/2/3+ = 3117/5130/322/317; with any scene context (own or subclass) 5970
+   scripts with literal self node paths: 2990
+   scripts seeing >=2 structures: own 645, incl. subclass attachments 882; of those using literal paths 350
+   HEADLINE-1 lit&multi = 350 / all 8886 = 3.9%; / scene-context scripts 5970 = 5.9%; / literal-path scripts 2990 = 11.7%
+   literal uses total 16425: consistent=15161, no_context=418, absolute=331, missing_in_some=236, missing_all=113, unknown=100, differs_script=34, differs_native=19, outside=13
+   literal uses in >=2-structure scripts 2107: consistent=1814, missing_in_some=202, absolute=29, differs_script=26, differs_native=19, unknown=9, missing_all=8
+   HEADLINE-2 differs = 45 / uses in multi-structure scripts 2107 = 2.1%; / those resolved in >=2 contexts 1999 = 2.3%; / all literal uses 16425 = 0.3%
+   mechanisms among >=2-structure scripts: M1_text2+_diff=360, M1_text2+_same=11, M1b_same_file_multi_node_diff=32, M2_inherited_diff=135, M2_inherited_same=103, M3_instance_modified_diff=190, M4_script_on_instance=6, M5_subclass_diff=298
+   bucket-0 reasons: non_node_code=1190, node_code_only=662, resource_attached=463, base_class=328, autoload=309, test=119, editor=46
+   scripts with NO scene context but literal self paths: 95 (node_code_only=80, autoload=10, resource_attached=3, non_node_code=1, base_class=1)
+   access counts (uses/scripts): dollar=10992/2300, unique=4576/739, get_node_lit=761/233, get_node_or_null_lit=96/50, get_node_nonlit=460/236, other_recv_lit=1625/436, has_node_lit=25/21, find_child=441/181, export_node=2431/1026, export_nodepath=106/78, dotdot=277/141, root_paths=391/157, owner_dot=336/117, get_parent=1788/850, set_script=18/12
+
+== demos: 536 first-party scripts; buckets 0/1/2/3+ = 81/433/12/10; with any scene context (own or subclass) 466
+   scripts with literal self node paths: 277
+   scripts seeing >=2 structures: own 26, incl. subclass attachments 37; of those using literal paths 17
+   HEADLINE-1 lit&multi = 17 / all 536 = 3.2%; / scene-context scripts 466 = 3.6%; / literal-path scripts 277 = 6.1%
+   literal uses total 1646: consistent=1615, unknown=12, missing_all=8, no_context=8, missing_in_some=2, absolute=1
+   literal uses in >=2-structure scripts 53: consistent=51, missing_in_some=2
+   HEADLINE-2 differs = 0 / uses in multi-structure scripts 53 = 0.0%; / those resolved in >=2 contexts 51 = 0.0%; / all literal uses 1646 = 0.0%
+   mechanisms among >=2-structure scripts: M1_text2+_diff=9, M1b_same_file_multi_node_diff=4, M2_inherited_diff=4, M2_inherited_same=4, M3_instance_modified_diff=11, M5_subclass_diff=14
+   bucket-0 reasons: node_code_only=26, non_node_code=23, base_class=14, autoload=9, resource_attached=6, editor=3
+   scripts with NO scene context but literal self paths: 4 (node_code_only=4)
+   access counts (uses/scripts): dollar=1290/245, unique=338/51, get_node_lit=18/12, get_node_or_null_lit=0/0, get_node_nonlit=24/13, other_recv_lit=39/18, has_node_lit=5/3, find_child=26/10, export_node=41/28, export_nodepath=8/7, dotdot=22/17, root_paths=1/1, owner_dot=15/7, get_parent=61/44, set_script=2/2
+
+== plugins/tools: 5600 first-party scripts; buckets 0/1/2/3+ = 3325/2060/113/102; with any scene context (own or subclass) 2368
+   scripts with literal self node paths: 1342
+   scripts seeing >=2 structures: own 193, incl. subclass attachments 298; of those using literal paths 86
+   HEADLINE-1 lit&multi = 86 / all 5600 = 1.5%; / scene-context scripts 2368 = 3.6%; / literal-path scripts 1342 = 6.4%
+   literal uses total 8250: consistent=7900, absolute=203, no_context=72, missing_in_some=31, missing_all=28, unknown=7, differs_native=4, differs_script=3, outside=2
+   literal uses in >=2-structure scripts 404: consistent=366, missing_in_some=21, absolute=5, missing_all=4, differs_native=4, differs_script=3, outside=1
+   HEADLINE-2 differs = 7 / uses in multi-structure scripts 404 = 1.7%; / those resolved in >=2 contexts 382 = 1.8%; / all literal uses 8250 = 0.1%
+   mechanisms among >=2-structure scripts: M1_text2+_diff=125, M1_text2+_same=3, M1b_same_file_multi_node_diff=11, M2_inherited_diff=23, M2_inherited_same=27, M3_instance_modified_diff=44, M5_subclass_diff=115
+   bucket-0 reasons: non_node_code=1476, test=621, node_code_only=373, base_class=279, resource_attached=270, editor=219, autoload=87
+   scripts with NO scene context but literal self paths: 30 (non_node_code=12, node_code_only=9, test=7, editor=1, base_class=1)
+   access counts (uses/scripts): dollar=4435/924, unique=3655/523, get_node_lit=98/46, get_node_or_null_lit=62/23, get_node_nonlit=640/207, other_recv_lit=609/161, has_node_lit=30/9, find_child=176/81, export_node=413/199, export_nodepath=90/69, dotdot=56/34, root_paths=205/36, owner_dot=93/39, get_parent=1070/396, set_script=51/38
+
+per-repo literal-use statuses (all scripts):
+  Super-Mario-Bros.-Remastered-Public: consistent=1446, no_context=31, missing_in_some=26, missing_all=7, differs_script=1
+  godot-open-rpg: consistent=60
+  Microverse: consistent=53, no_context=18, absolute=7, missing_all=1
+  Godot-GameTemplate:
+  Starter-Kit-City-Builder: consistent=1
+  tps-demo: consistent=40, unknown=3, missing_all=1
+  Starter-Kit-3D-Platformer: consistent=14, unknown=1
+  godot-open-rts: consistent=6, missing_in_some=2
+  godot-2d-space-game: consistent=93, no_context=2
+  godot-4-3d-third-person-controller: consistent=69, unknown=5
+  godot-FirstPersonStarter:
+  Starter-Kit-FPS: consistent=10
+  Reia: consistent=31, unknown=1, missing_all=1, no_context=1
+  godot-tactical-rpg: consistent=27, no_context=3, missing_in_some=2
+  godot-port: consistent=146, absolute=10, differs_script=3, no_context=2, missing_in_some=1
+  escoria-demo-game: consistent=11
+  voxelgame: consistent=37, absolute=11, no_context=5, outside=1
+  TowDownGame: consistent=199, missing_in_some=7, no_context=1, missing_all=1
+  GodotDynamicInventorySystem: consistent=49, missing_in_some=2
+  museum-of-all-things: consistent=266
+  godot-2d-builder: consistent=106, missing_in_some=3, no_context=1
+  comedot: consistent=142, differs_native=6, no_context=4, differs_script=2
+  starship-olympics: consistent=1281, missing_in_some=54, missing_all=21, no_context=7, differs_script=2
+  TakinGodotTemplate: consistent=108
+  OpenLiberty: consistent=31, no_context=8
+  OpenVic:
+  deck_builder_tutorial: consistent=128, no_context=1
+  Starter-Kit-Racing: unknown=10, consistent=8, missing_in_some=1
+  UltimateGodotIntro2D: consistent=76, no_context=2
+  tanks-of-freedom-ii: consistent=871, absolute=95, missing_in_some=12, no_context=9, missing_all=2
+  Cats-Godot4-Modular-Souls-like-Template: consistent=33, no_context=3, unknown=1
+  godot-3-beginner-2d-platformer: consistent=8
+  PVZ-Godot-Dream: consistent=391, differs_script=11, missing_in_some=8, missing_all=1
+  Pocket-Godot: consistent=9
+  shotcaller-godot: consistent=107, missing_in_some=10, differs_native=1
+  MultiplayerFPSTutorial: consistent=7, unknown=1
+  godot-tiny-mmo: consistent=75, missing_all=1
+  Slay-The-Robot: consistent=217, missing_in_some=1
+  Castlevania-Remnants-of-Darkness: consistent=36, no_context=14, missing_all=2, differs_script=1
+  Super-Mario-World-Remastered-Public: consistent=837, no_context=67, missing_all=37, missing_in_some=12, differs_script=4, differs_native=2
+  wutw-public: consistent=951, no_context=143, missing_in_some=13
+  Godot-Plush-Character: consistent=14, unknown=1, missing_all=1
+  godot-multiplayer: consistent=17
+  Godot4ThirdPersonCombatPrototype: consistent=84, unknown=8, missing_in_some=1
+  youtd2:
+  godot-xr-template: consistent=11
+  desksaw: consistent=32, missing_in_some=12, no_context=12, missing_all=4
+  GodotProjectZero: consistent=308
+  godot-4-2d-visual-novel: consistent=15
+  Legacy_SM63Redux: consistent=279, absolute=74, missing_in_some=5, missing_all=4, no_context=3, outside=2, differs_script=1
+  threadbare: consistent=325, missing_in_some=7, missing_all=2, differs_script=1, no_context=1
+  Starter-Kit-Match-3: consistent=8
+  godot-2d-topdown-template: consistent=15
+  SonicWorldsNext: consistent=584, missing_in_some=1, differs_native=1
+  SimpleFPSController: consistent=100
+  aarpg-tutorial: consistent=214, missing_in_some=1
+  godot_autobattler_course: consistent=86
+  jdungeon: consistent=210, no_context=10, missing_all=2, missing_in_some=1
+  LibreAim: consistent=85, outside=5
+  Strategy-GDScript: consistent=1
+  devmoreir4__godot-3d-multiplayer-template: consistent=42, absolute=2
+  opengs: consistent=62
+  top-down-action-rpg-template: consistent=30, missing_in_some=1, no_context=1
+  Godot-Roguelike-Tutorial: consistent=32, differs_script=1
+  unto-deepest-depths-prototype: consistent=10
+  godot-2d-adventure-tutorial: consistent=37
+  knakk: consistent=73
+  Dororo: consistent=105, absolute=41, differs_script=2
+  _original_client: consistent=41, no_context=10, missing_all=4, unknown=3, outside=2
+  Godot_Universal-Controller-tutorial: consistent=32, no_context=3
+  simple-godot-train: consistent=43
+  OpMon: consistent=162, absolute=2
+  Godot-Inventory:
+  template-beat-em-up: consistent=48, missing_all=3, differs_script=1, no_context=1
+  game-base-2D: missing_in_some=1
+  godot-rocket-league: consistent=18, absolute=2
+  Freedom-Hunter: consistent=116, unknown=63, absolute=15, no_context=14, missing_all=8, outside=1
+  simgine: consistent=30, missing_in_some=1
+  GDWaterKart: consistent=32
+  TopdownStarter: consistent=7
+  yipiantian: no_context=2
+  Godot4-FPS-Template: consistent=13
+  poder-solar: consistent=74, missing_in_some=4
+  DOGWALK: consistent=1
+  godot4-third-person-controller: consistent=27
+  malware-slayer: consistent=61, no_context=3, missing_all=2, missing_in_some=2
+  SurvivorsClone_Complete: consistent=45
+  Genesis: consistent=74, no_context=3
+  Friendslop-Template: consistent=14
+  super-godot-galaxy: consistent=9, no_context=1, unknown=1
+  GBM2K-Framework: consistent=3
+  Project-Heartbeat: consistent=411, no_context=11, differs_native=7, missing_in_some=7, missing_all=1
+  tower-defense-godot4: consistent=58, missing_all=1
+  limbo-godot: consistent=31
+  abyssal-walker: consistent=115
+  godot-chess: consistent=39
+  Improved-KCC: missing_all=2
+  BatteryAcid__godot-3d-multiplayer-template: consistent=1
+  Godot4SourceEngineMovement: consistent=6
+  PSGodotTemplateRepo: consistent=20
+  RhythiaRewrite: consistent=169
+  Cupcakes-Framework: consistent=9
+  Stardew: consistent=86, missing_in_some=1
+  CandyWrapper: consistent=12
+  Galaxy-Defiance: consistent=45
+  Resources-GDScript: consistent=25, no_context=2
+  Lost-Pilot: no_context=2
+  sourceofmana: consistent=260, missing_in_some=19, missing_all=1, differs_native=1
+  godot-card-game-frame: consistent=73, missing_in_some=3, differs_script=1
+  Godot-2D-Action-Game: consistent=61, missing_all=1
+  soccer-course: consistent=48
+  moddable-platformer: consistent=44
+  paddles_balls_blocks_walls: consistent=220, missing_all=2
+  age-of-war: consistent=496, absolute=71, no_context=10, missing_in_some=3, differs_native=1
+  tower-defense-tutorial: consistent=52, absolute=1, differs_script=1
+  holoDelta: consistent=740, missing_in_some=1, unknown=1
+  GodotFPS-Template: consistent=67
+  Godot-4-Tower-Defense-Template: consistent=63
+  FRU-Sim: consistent=346, missing_in_some=11, no_context=7, outside=2, differs_script=2, unknown=1
+  godot_open_star_fighter: consistent=55
+  dialogic: consistent=932, missing_all=2
+  godot_dialogue_manager: consistent=117, no_context=6
+  phantom-camera: consistent=76, missing_in_some=2
+  godot-ai: no_context=5
+  beehave: consistent=24
+  scatter: consistent=114, missing_all=1
+  Gut: consistent=70, no_context=2
+  godot_heightmap_plugin: consistent=111
+  SmartShape2D: consistent=18
+  Godot-Game-Template: consistent=228
+  gaea: consistent=33, no_context=3, missing_in_some=1, differs_script=1
+  cyclopsLevelBuilder: consistent=271, absolute=3, missing_in_some=2, unknown=1
+  godot-statecharts: consistent=51
+  Metroidvania-System: consistent=98, no_context=4, missing_in_some=3, differs_script=1
+  godot-steering-ai-framework: consistent=28
+  PankuConsole: consistent=26
+  godot-aseprite-wizard: consistent=177
+  gdmaim: consistent=32
+  godot_spatial_gardener: consistent=25, missing_in_some=8
+  TileMapDual: missing_all=1
+  gdUnit4: consistent=38, no_context=3
+  godot-road-generator: consistent=51, no_context=3
+  ShaderV:
+  ridiculous_coding: consistent=28
+  netfox: consistent=93, no_context=6, missing_in_some=4, unknown=1, missing_all=1
+  pandora: consistent=152
+  godot_input_helper: consistent=15
+  script-ide: consistent=13
+  godot-resources-as-sheets-plugin: consistent=108
+  gloot: consistent=122
+  Virtual-Joystick-Godot: consistent=2
+  unidot_importer:
+  Sky3D: consistent=4
+  func_godot_plugin:
+  Godot-MCP-Native:
+  godot_sound_manager: consistent=2
+  godot-engine.easy-charts: consistent=29
+  nakama-godot:
+  godot_little_camera_preview: consistent=13
+  anima: consistent=110, differs_native=3
+  Qodot: consistent=7, no_context=3
+  better-terrain: consistent=52
+  godot-xr-tools: consistent=158, unknown=5, missing_in_some=1, missing_all=1
+  godot-gameplay-systems: consistent=93
+  godot-mod-loader: no_context=8, consistent=4
+  SignalVisualizer: consistent=9, missing_in_some=1
+  GodotFirebase: consistent=15
+  BehaviourToolkit: consistent=52
+  gd-YAFSM: consistent=34
+  godot-debug-menu: consistent=5
+  Scene-Manager: consistent=8
+  godot-admob-plugin: consistent=57, no_context=2
+  Yugens-Terrain-Authoring-Toolkit: missing_in_some=3, consistent=1
+  godot-mcp-pro: no_context=1
+  Pixelorama: consistent=438, outside=2
+  Lorien: consistent=114, missing_in_some=3
+  material-maker: consistent=709, no_context=9, absolute=8, missing_all=3, missing_in_some=1
+  SoundThread: consistent=447, missing_all=2
+  learn-gdscript: consistent=268, no_context=4, missing_all=3
+  GodSVG: consistent=233, no_context=6
+  protongraph: consistent=117, missing_all=1
+  PixelPlanets: consistent=339
+  Arrow: consistent=234, absolute=182, no_context=5
+  GodotOS: consistent=120, absolute=9
+  the-mirror: consistent=289, missing_all=3, differs_script=1, differs_native=1
+  OpenGamepadUI: consistent=261
+  Open-Industry-Project-Godot: consistent=99, missing_all=9, no_context=1
+  boscaceoil-blue: consistent=113, missing_in_some=2
+  godots: consistent=211, missing_all=1
+  vpuppr: consistent=67
+  GodotPixelRenderer: consistent=130
+  unitypackage_godot: consistent=5, absolute=1, no_context=1
+  godot-demo-projects: consistent=1257, unknown=12, missing_all=5, no_context=2, absolute=1
+  godot-4-procedural-generation: consistent=58
+  godot-visual-effects: consistent=26, no_context=2
+  godot-start: consistent=17, missing_all=1
+  godot_experiments: consistent=31, no_context=4
+  MizGodotTools: consistent=154, missing_all=2, missing_in_some=2
+  godot_ui_components: consistent=72

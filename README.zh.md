@@ -8,6 +8,7 @@
 
 报告用中文写成，每篇末尾附复现命令。
 
+- [在语料 v2 上重跑设计证据](surveys/v2-rerun.md)
 - [脚本会见到不止一种场景结构吗？](surveys/scene-structures.md)
 - [原生基类不同造成了多少代码重复？](surveys/cross-branch-duplication.md)
 - [引擎、GDScript 和 C# 桥接的暗坑](surveys/pitfalls.md)
@@ -66,6 +67,7 @@ python rerun.py v2 --human-only
 
 派生结果写入各调查的 `results-v2/` 和 `results-v2-human/`。
 原始提取留在 `work/rerun/`。
+新版本的文本报告去掉行尾空格和制表符。
 若已有结果不同，脚本拒绝覆盖。
 纸面迁移账本仍固定于原来的两个项目。
 访问器类别先给机械指标，重新阅读样本后再作判断。

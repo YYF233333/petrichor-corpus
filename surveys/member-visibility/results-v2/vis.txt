@@ -1,0 +1,2158 @@
+| repo | group | code lines | external | subclass_only | internal | ambiguous | scene_conn |
+|---|---|---|---|---|---|---|---|
+| Super-Mario-Bros.-Remastered-Public | game | 16747 | 393 | 18 | 1137 | 797 | 498 |
+| godot-open-rpg | game | 2734 | 108 | 13 | 216 | 134 | 6 |
+| Microverse | game | 5166 | 81 | 0 | 317 | 103 | 0 |
+| Godot-GameTemplate | game | 233 | 2 | 0 | 36 | 6 | 0 |
+| Starter-Kit-City-Builder | game | 183 | 4 | 0 | 20 | 13 | 0 |
+| tps-demo | game | 1177 | 15 | 0 | 185 | 42 | 12 |
+| Starter-Kit-3D-Platformer | game | 208 | 1 | 0 | 36 | 12 | 3 |
+| godot-open-rts | game | 5653 | 129 | 3 | 530 | 344 | 29 |
+| godot-2d-space-game | game | 2971 | 127 | 21 | 297 | 235 | 4 |
+| godot-4-3d-third-person-controller | game | 1038 | 29 | 0 | 161 | 51 | 1 |
+| godot-FirstPersonStarter | game | 109 | 2 | 0 | 22 | 4 | 0 |
+| Starter-Kit-FPS | game | 258 | 8 | 0 | 40 | 22 | 3 |
+| Reia | game | 8643 | 155 | 1 | 621 | 422 | 6 |
+| godot-tactical-rpg | game | 2203 | 123 | 0 | 97 | 347 | 1 |
+| godot-port | game | 6141 | 144 | 12 | 560 | 213 | 30 |
+| escoria-demo-game | game | 156 | 0 | 0 | 26 | 2 | 3 |
+| voxelgame | game | 3164 | 53 | 0 | 289 | 200 | 12 |
+| TowDownGame | game | 2917 | 109 | 21 | 252 | 227 | 77 |
+| GodotDynamicInventorySystem | game | 876 | 46 | 0 | 131 | 44 | 10 |
+| museum-of-all-things | game | 5225 | 175 | 0 | 586 | 180 | 92 |
+| godot-2d-builder | game | 3258 | 35 | 4 | 64 | 513 | 30 |
+| comedot | game | 9230 | 197 | 26 | 974 | 556 | 51 |
+| starship-olympics | game | 14501 | 336 | 20 | 1494 | 1285 | 131 |
+| TakinGodotTemplate | game | 4633 | 165 | 28 | 624 | 274 | 0 |
+| OpenLiberty | game | 1214 | 20 | 0 | 108 | 47 | 9 |
+| OpenVic | game | 8591 | 135 | 3 | 735 | 185 | 97 |
+| deck_builder_tutorial | game | 3141 | 179 | 1 | 306 | 289 | 35 |
+| Starter-Kit-Racing | game | 132 | 2 | 6 | 23 | 4 | 1 |
+| UltimateGodotIntro2D | game | 452 | 4 | 1 | 43 | 43 | 35 |
+| tanks-of-freedom-ii | game | 15329 | 560 | 36 | 1217 | 1087 | 185 |
+| Cats-Godot4-Modular-Souls-like-Template | game | 1783 | 47 | 0 | 276 | 163 | 9 |
+| godot-3-beginner-2d-platformer | game | 145 | 4 | 1 | 22 | 12 | 8 |
+| PVZ-Godot-Dream | game | 12621 | 423 | 70 | 1203 | 581 | 95 |
+| Pocket-Godot | game | 219 | 2 | 0 | 19 | 28 | 11 |
+| shotcaller-godot | game | 9376 | 285 | 0 | 486 | 438 | 32 |
+| MultiplayerFPSTutorial | game | 116 | 1 | 0 | 18 | 3 | 4 |
+| godot-tiny-mmo | game | 12698 | 279 | 35 | 1179 | 328 | 11 |
+| Slay-The-Robot | game | 13309 | 648 | 33 | 744 | 396 | 0 |
+| Castlevania-Remnants-of-Darkness | game | 16204 | 215 | 50 | 1442 | 1443 | 218 |
+| Super-Mario-World-Remastered-Public | game | 16692 | 399 | 17 | 1376 | 1435 | 237 |
+| wutw-public | game | 16605 | 269 | 34 | 913 | 862 | 126 |
+| Godot-Plush-Character | game | 271 | 6 | 0 | 50 | 13 | 0 |
+| godot-multiplayer | game | 727 | 25 | 0 | 99 | 65 | 6 |
+| Godot4ThirdPersonCombatPrototype | game | 6944 | 215 | 13 | 437 | 600 | 5 |
+| youtd2 | game | 11878 | 319 | 12 | 1132 | 530 | 45 |
+| godot-xr-template | game | 677 | 20 | 3 | 66 | 33 | 12 |
+| desksaw | game | 5319 | 97 | 0 | 479 | 296 | 32 |
+| GodotProjectZero | game | 8812 | 355 | 5 | 977 | 682 | 0 |
+| godot-4-2d-visual-novel | game | 1157 | 29 | 0 | 76 | 33 | 0 |
+| Legacy_SM63Redux | game | 10433 | 153 | 42 | 939 | 390 | 80 |
+| threadbare | game | 12976 | 188 | 11 | 1820 | 592 | 105 |
+| Starter-Kit-Match-3 | game | 230 | 4 | 0 | 30 | 8 | 2 |
+| godot-2d-topdown-template | game | 1962 | 85 | 2 | 247 | 108 | 10 |
+| SonicWorldsNext | game | 7717 | 205 | 6 | 598 | 319 | 120 |
+| SimpleFPSController | game | 964 | 50 | 6 | 119 | 12 | 0 |
+| aarpg-tutorial | game | 4647 | 126 | 20 | 455 | 404 | 6 |
+| godot_autobattler_course | game | 2187 | 148 | 1 | 208 | 189 | 17 |
+| jdungeon | game | 11926 | 372 | 15 | 872 | 760 | 0 |
+| LibreAim | game | 1134 | 35 | 1 | 127 | 39 | 44 |
+| Strategy-GDScript | game | 357 | 17 | 1 | 37 | 24 | 4 |
+| devmoreir4__godot-3d-multiplayer-template | game | 2481 | 76 | 0 | 287 | 55 | 9 |
+| opengs | game | 1821 | 73 | 3 | 169 | 81 | 22 |
+| top-down-action-rpg-template | game | 789 | 14 | 0 | 42 | 54 | 9 |
+| Godot-Roguelike-Tutorial | game | 750 | 19 | 13 | 79 | 45 | 15 |
+| unto-deepest-depths-prototype | game | 448 | 25 | 1 | 53 | 20 | 0 |
+| godot-2d-adventure-tutorial | game | 937 | 30 | 0 | 71 | 51 | 9 |
+| knakk | game | 1711 | 45 | 0 | 101 | 117 | 0 |
+| Dororo | game | 1123 | 27 | 0 | 170 | 71 | 16 |
+| _original_client | game | 5223 | 165 | 15 | 359 | 121 | 2 |
+| Godot_Universal-Controller-tutorial | game | 1043 | 64 | 16 | 87 | 99 | 0 |
+| simple-godot-train | game | 542 | 19 | 2 | 71 | 48 | 24 |
+| OpMon | game | 2106 | 76 | 10 | 169 | 121 | 5 |
+| Godot-Inventory | game | 1592 | 73 | 10 | 96 | 95 | 0 |
+| template-beat-em-up | game | 9850 | 144 | 34 | 489 | 388 | 64 |
+| game-base-2D | game | 1012 | 18 | 5 | 136 | 72 | 1 |
+| godot-rocket-league | game | 517 | 17 | 0 | 83 | 30 | 1 |
+| Freedom-Hunter | game | 2280 | 65 | 18 | 181 | 118 | 43 |
+| simgine | game | 1419 | 51 | 4 | 120 | 64 | 21 |
+| GDWaterKart | game | 1705 | 42 | 0 | 232 | 98 | 2 |
+| TopdownStarter | game | 499 | 28 | 1 | 64 | 25 | 10 |
+| yipiantian | game | 18229 | 441 | 0 | 760 | 796 | 0 |
+| Godot4-FPS-Template | game | 721 | 24 | 5 | 125 | 22 | 15 |
+| poder-solar | game | 360 | 13 | 0 | 35 | 14 | 11 |
+| DOGWALK | game | 8779 | 191 | 1 | 909 | 429 | 58 |
+| godot4-third-person-controller | game | 607 | 32 | 3 | 85 | 43 | 6 |
+| malware-slayer | game | 4834 | 164 | 23 | 523 | 245 | 1 |
+| SurvivorsClone_Complete | game | 1067 | 17 | 0 | 94 | 64 | 30 |
+| Genesis | game | 1411 | 44 | 0 | 198 | 106 | 1 |
+| Friendslop-Template | game | 3078 | 109 | 10 | 246 | 72 | 9 |
+| super-godot-galaxy | game | 284 | 4 | 0 | 44 | 25 | 3 |
+| GBM2K-Framework | game | 276 | 7 | 14 | 22 | 21 | 0 |
+| Project-Heartbeat | game | 16290 | 159 | 26 | 1422 | 485 | 68 |
+| tower-defense-godot4 | game | 951 | 41 | 5 | 108 | 55 | 47 |
+| limbo-godot | game | 914 | 42 | 0 | 100 | 38 | 12 |
+| abyssal-walker | game | 15562 | 417 | 0 | 1154 | 926 | 5 |
+| godot-chess | game | 1074 | 25 | 0 | 83 | 21 | 24 |
+| Improved-KCC | game | 2320 | 28 | 2 | 175 | 75 | 2 |
+| BatteryAcid__godot-3d-multiplayer-template | game | 592 | 20 | 9 | 75 | 34 | 16 |
+| Godot4SourceEngineMovement | game | 408 | 43 | 3 | 26 | 11 | 0 |
+| PSGodotTemplateRepo | game | 473 | 13 | 2 | 59 | 17 | 1 |
+| RhythiaRewrite | game | 3479 | 107 | 11 | 256 | 204 | 0 |
+| Cupcakes-Framework | game | 193 | 4 | 5 | 33 | 4 | 8 |
+| Stardew | game | 2053 | 70 | 1 | 158 | 258 | 6 |
+| CandyWrapper | game | 272 | 11 | 0 | 40 | 13 | 0 |
+| Galaxy-Defiance | game | 366 | 16 | 0 | 55 | 54 | 0 |
+| Resources-GDScript | game | 894 | 32 | 1 | 113 | 87 | 10 |
+| Lost-Pilot | game | 977 | 16 | 3 | 90 | 27 | 16 |
+| sourceofmana | game | 16032 | 791 | 44 | 1402 | 632 | 109 |
+| godot-card-game-frame | game | 894 | 35 | 3 | 52 | 52 | 34 |
+| Godot-2D-Action-Game | game | 2293 | 53 | 1 | 126 | 194 | 21 |
+| soccer-course | game | 1709 | 83 | 13 | 180 | 154 | 0 |
+| moddable-platformer | game | 737 | 15 | 0 | 104 | 42 | 5 |
+| paddles_balls_blocks_walls | game | 2332 | 79 | 0 | 127 | 153 | 90 |
+| age-of-war | game | 2915 | 36 | 22 | 114 | 133 | 97 |
+| tower-defense-tutorial | game | 745 | 36 | 7 | 71 | 51 | 40 |
+| holoDelta | game | 6552 | 124 | 0 | 438 | 220 | 178 |
+| GodotFPS-Template | game | 1302 | 32 | 0 | 228 | 78 | 9 |
+| Godot-4-Tower-Defense-Template | game | 763 | 34 | 2 | 62 | 21 | 21 |
+| FRU-Sim | game | 7573 | 244 | 28 | 1086 | 752 | 118 |
+| godot_open_star_fighter | game | 1471 | 68 | 12 | 203 | 56 | 26 |
+| dialogic | plugin | 12518 | 316 | 22 | 870 | 454 | 104 |
+| godot_dialogue_manager | plugin | 10028 | 271 | 1 | 533 | 261 | 109 |
+| phantom-camera | plugin | 6394 | 80 | 0 | 649 | 514 | 1 |
+| godot-ai | plugin | 14328 | 62 | 28 | 1071 | 166 | 0 |
+| beehave | plugin | 5702 | 64 | 7 | 249 | 513 | 1 |
+| scatter | plugin | 6304 | 149 | 14 | 376 | 249 | 20 |
+| Gut | plugin | 12651 | 180 | 99 | 999 | 274 | 45 |
+| godot_heightmap_plugin | plugin | 10626 | 277 | 0 | 809 | 471 | 77 |
+| SmartShape2D | plugin | 7276 | 166 | 2 | 535 | 257 | 0 |
+| Godot-Game-Template | plugin | 6528 | 92 | 20 | 635 | 674 | 152 |
+| gaea | plugin | 11173 | 239 | 70 | 500 | 323 | 61 |
+| cyclopsLevelBuilder | plugin | 10619 | 156 | 26 | 455 | 543 | 126 |
+| godot-statecharts | plugin | 3840 | 94 | 18 | 242 | 157 | 81 |
+| Metroidvania-System | plugin | 4989 | 160 | 44 | 252 | 173 | 31 |
+| godot-steering-ai-framework | plugin | 2163 | 42 | 11 | 109 | 265 | 0 |
+| PankuConsole | plugin | 3712 | 163 | 7 | 364 | 180 | 0 |
+| godot-aseprite-wizard | plugin | 4635 | 104 | 21 | 383 | 272 | 73 |
+| gdmaim | plugin | 5008 | 122 | 0 | 273 | 127 | 16 |
+| godot_spatial_gardener | plugin | 11841 | 344 | 76 | 639 | 529 | 5 |
+| TileMapDual | plugin | 1434 | 28 | 0 | 105 | 36 | 0 |
+| gdUnit4 | plugin | 13514 | 209 | 34 | 1183 | 417 | 15 |
+| godot-road-generator | plugin | 12014 | 224 | 2 | 694 | 200 | 31 |
+| ShaderV | plugin | 5743 | 0 | 0 | 0 | 52 | 0 |
+| ridiculous_coding | plugin | 310 | 2 | 0 | 43 | 34 | 3 |
+| netfox | plugin | 12563 | 355 | 15 | 740 | 995 | 9 |
+| pandora | plugin | 6924 | 162 | 3 | 491 | 463 | 34 |
+| godot_input_helper | plugin | 785 | 36 | 0 | 82 | 12 | 8 |
+| script-ide | plugin | 1907 | 35 | 0 | 224 | 60 | 0 |
+| godot-resources-as-sheets-plugin | plugin | 3777 | 109 | 13 | 201 | 101 | 49 |
+| gloot | plugin | 6117 | 132 | 18 | 337 | 492 | 0 |
+| Virtual-Joystick-Godot | plugin | 151 | 1 | 0 | 22 | 7 | 0 |
+| unidot_importer | plugin | 13004 | 174 | 2 | 493 | 103 | 0 |
+| Sky3D | plugin | 1618 | 36 | 0 | 225 | 42 | 0 |
+| func_godot_plugin | plugin | 3732 | 87 | 0 | 139 | 81 | 0 |
+| Godot-MCP-Native | plugin | 16264 | 127 | 4 | 1123 | 191 | 0 |
+| godot_sound_manager | plugin | 344 | 13 | 4 | 56 | 10 | 8 |
+| godot-engine.easy-charts | plugin | 2323 | 80 | 5 | 152 | 133 | 13 |
+| nakama-godot | plugin | 3753 | 65 | 0 | 213 | 276 | 0 |
+| godot_little_camera_preview | plugin | 332 | 4 | 0 | 40 | 1 | 5 |
+| anima | plugin | 13958 | 178 | 0 | 1174 | 365 | 8 |
+| Qodot | plugin | 3484 | 61 | 3 | 255 | 87 | 5 |
+| better-terrain | plugin | 3164 | 70 | 0 | 168 | 32 | 21 |
+| godot-xr-tools | plugin | 10269 | 141 | 14 | 734 | 841 | 60 |
+| godot-gameplay-systems | plugin | 4444 | 162 | 6 | 416 | 291 | 0 |
+| godot-mod-loader | plugin | 5262 | 146 | 0 | 391 | 448 | 0 |
+| SignalVisualizer | plugin | 728 | 28 | 0 | 47 | 41 | 17 |
+| GodotFirebase | plugin | 3089 | 65 | 5 | 224 | 259 | 3 |
+| BehaviourToolkit | plugin | 1734 | 25 | 2 | 93 | 99 | 15 |
+| gd-YAFSM | plugin | 3228 | 71 | 34 | 277 | 153 | 0 |
+| godot-debug-menu | plugin | 358 | 0 | 0 | 46 | 0 | 1 |
+| Scene-Manager | plugin | 1344 | 46 | 0 | 134 | 56 | 0 |
+| godot-admob-plugin | plugin | 8260 | 143 | 10 | 325 | 698 | 57 |
+| Yugens-Terrain-Authoring-Toolkit | plugin | 5882 | 186 | 0 | 227 | 123 | 0 |
+| godot-mcp-pro | plugin | 14294 | 28 | 52 | 637 | 40 | 0 |
+| Pixelorama | tool | 16129 | 305 | 25 | 895 | 317 | 319 |
+| Lorien | tool | 3467 | 196 | 7 | 430 | 150 | 0 |
+| material-maker | tool | 16770 | 178 | 30 | 924 | 694 | 252 |
+| SoundThread | tool | 4402 | 52 | 0 | 180 | 87 | 122 |
+| learn-gdscript | tool | 14573 | 305 | 37 | 1040 | 686 | 4 |
+| GodSVG | tool | 16328 | 377 | 11 | 1037 | 524 | 0 |
+| protongraph | tool | 7626 | 221 | 21 | 513 | 278 | 4 |
+| PixelPlanets | tool | 993 | 17 | 6 | 54 | 32 | 30 |
+| Arrow | tool | 15526 | 134 | 0 | 819 | 1456 | 0 |
+| GodotOS | tool | 2972 | 89 | 2 | 237 | 60 | 66 |
+| the-mirror | tool | 14843 | 224 | 7 | 1489 | 591 | 273 |
+| OpenGamepadUI | tool | 14079 | 193 | 5 | 969 | 942 | 0 |
+| Open-Industry-Project-Godot | tool | 15929 | 93 | 7 | 993 | 851 | 8 |
+| boscaceoil-blue | tool | 10972 | 364 | 10 | 760 | 276 | 0 |
+| godots | tool | 11531 | 163 | 15 | 460 | 295 | 17 |
+| vpuppr | tool | 2439 | 41 | 5 | 156 | 92 | 0 |
+| GodotPixelRenderer | tool | 2149 | 13 | 0 | 329 | 41 | 0 |
+| unitypackage_godot | tool | 2269 | 32 | 29 | 121 | 38 | 0 |
+| godot-demo-projects | demo | 13249 | 108 | 12 | 991 | 642 | 442 |
+| godot-4-procedural-generation | demo | 2256 | 19 | 26 | 182 | 177 | 39 |
+| godot-visual-effects | demo | 1606 | 29 | 6 | 210 | 87 | 3 |
+| godot-start | demo | 741 | 14 | 0 | 95 | 36 | 2 |
+| godot_experiments | demo | 300 | 1 | 0 | 37 | 47 | 5 |
+| MizGodotTools | demo | 3359 | 111 | 9 | 439 | 206 | 4 |
+| godot_ui_components | demo | 698 | 3 | 0 | 106 | 62 | 19 |
+
+all: 1017647 code lines; external 22741, subclass_only 1942, internal 76953, ambiguous 49232, scene_conn 6823
+  classified 101636; external 22.4% of classified, 22.3 per 1k lines; subclass_only 1942 = 7.9% of members used outside their file (611 overridden, 1331 only called or read)
+
+games: 485999 code lines; external 13149, subclass_only 980, internal 41833, ambiguous 26924, scene_conn 3950
+  classified 55962; external 23.5% of classified, 27.1 per 1k lines; subclass_only 980 = 6.9% of members used outside their file (344 overridden, 636 only called or read)
+func: external 11195, subclass_only 1280, internal 34200, ambiguous 19895, scene_conn 6823
+var: external 7919, subclass_only 572, internal 32533, ambiguous 23811, scene_conn 0
+signal: external 1917, subclass_only 41, internal 1625, ambiguous 1694, scene_conn 0
+const: external 1710, subclass_only 49, internal 8595, ambiguous 3832, scene_conn 0
+members of scripts that have subclasses: external 2487, subclass_only 1942, internal 4303, ambiguous 3859, scene_conn 260
+names starting with '_': external 831, subclass_only 579, internal 25593, ambiguous 9403, scene_conn 5742
+external vars: written from other scripts 3115, only read 4804
+
+subclass_only members:
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/LevelClass.gd:7 var room_type
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/LevelClass.gd:174 func update_next_level_info
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:5 const SPRITE_LIST_PATH
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:7 const DEFAULT_PALETTE_GROUP
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:8 const PREVIEW_PALETTE
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:14 const PALETTES_FOLDER
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:16 var rom
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:17 var prg_rom_size
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:18 var chr_rom
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:42 func png_path_to_json
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/RomAssetRipper.gd:48 func draw_tile
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:17 var mushroom_if_small
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemy.gd:12 var ignore_flag_die
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemy.gd:30 func bounce_from_object
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/PipeArea.gd:27 var exit_only
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/PipeArea.gd:104 func get_input_direction
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/PipeArea.gd:124 func run_player_check
+  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Items/PowerUpItem.gd:18 func collect_item
+  godot-open-rpg/src/field/cutscenes/cutscene.gd:30 var _is_cutscene_in_progress
+  godot-open-rpg/src/field/cutscenes/templates/area_transitions/area_transition.gd:77 func _on_blackout
+  godot-open-rpg/src/field/cutscenes/templates/combat/combat_trigger.gd:31 func _run_victory_cutscene
+  godot-open-rpg/src/field/cutscenes/templates/combat/combat_trigger.gd:38 func _run_loss_cutscene
+  godot-open-rpg/src/field/cutscenes/templates/conversations/conversation_template.gd:20 func _on_dialogic_signal_event
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:6 signal waypoint_changed
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:17 var _current_waypoint
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:24 var _gamepiece
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:57 func move_along_path
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:64 func set_is_active
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:73 func _move_to_next_waypoint
+  godot-open-rpg/src/field/gamepieces/controllers/gamepiece_controller.gd:94 func _on_gamepiece_arriving
+  godot-open-rpg/src/field/ui/popups/ui_popup.gd:16 var _is_shown
+  godot-open-rts/source/match/units/Unit.gd:41 var _action_locked
+  godot-open-rts/source/match/units/Unit.gd:109 func _set_action
+  godot-open-rts/source/match/units/actions/Moving.gd:3 var _target_position
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/gsai_group_behavior.gd:7 var proximity
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/gsai_group_behavior.gd:9 var _callback
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/gsai_group_behavior.gd:20 func _report_neighbor
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/gsai_steering_behavior.gd:29 func _calculate_steering
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/agents/gsai_specialized_agent.gd:10 var calculate_velocities
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/agents/gsai_specialized_agent.gd:15 var apply_linear_drag
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/agents/gsai_specialized_agent.gd:20 var apply_angular_drag
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/agents/gsai_specialized_agent.gd:32 var _last_orientation
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/agents/gsai_specialized_agent.gd:33 var _applied_steering
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/behaviors/gsai_arrive.gd:23 func _arrive
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/behaviors/gsai_match_orientation.gd:19 var use_z
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/behaviors/gsai_match_orientation.gd:28 func _match_orientation
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/behaviors/gsai_pursue.gd:11 var predict_time_max
+  godot-2d-space-game/project/libraries/godot-steering-ai-framework/behaviors/gsai_pursue.gd:38 func _get_modified_acceleration
+  godot-2d-space-game/project/libraries/state_machine/state.gd:9 var _state_machine
+  godot-2d-space-game/project/libraries/state_machine/state.gd:10 var _parent
+  godot-2d-space-game/project/ships/stats.gd:82 func _update_all
+  godot-2d-space-game/project/ships/guns/laser_gun/laser_gun.gd:14 var is_firing
+  godot-2d-space-game/project/world/docking_point/docking_point.gd:25 var dock_aura
+  godot-2d-space-game/project/world/docking_point/docking_point.gd:63 func _on_DockingArea_body_entered
+  godot-2d-space-game/project/world/docking_point/docking_point.gd:83 func _on_DockingArea_body_exited
+  Reia/_old_code/features/combat/base_stats.gd:4 signal stats_changed
+  godot-port/Assets/UI/BookMenu/BookMenu.gd:102 func _on_DeleteButton_pressed
+  godot-port/Assets/UI/BookMenu/BookMenu.gd:106 func _on_CancelButton_pressed
+  godot-port/Assets/World/TileMap3D.gd:18 func set_tile
+  godot-port/Assets/World/TileMap3D.gd:23 func unset_tile
+  godot-port/Assets/World/TileMap3D.gd:29 func set_tile_item
+  godot-port/Assets/World/WorldThing2D.gd:70 func sleep
+  godot-port/Assets/World/Buildings/Building2D.gd:73 func set_current_tier
+  godot-port/Assets/World/Buildings/Building2D.gd:89 func update_tier
+  godot-port/Assets/World/Buildings/Building2D.gd:106 func connect_set_tier
+  godot-port/Assets/World/Buildings/Building2D.gd:121 func refresh_resources_produced_consumed
+  godot-port/Assets/World/Components/BaseComponent.gd:19 func set_pause
+  godot-port/Assets/World/Components/Storages/StorageComponent.gd:22 func get_storage_state
+  TowDownGame/game/attachments/BaseAttachment.gd:55 func onStart
+  TowDownGame/game/attachments/BaseAttachment.gd:58 func onDestroy
+  TowDownGame/game/guns/BaseGun.gd:5 const particles_pre
+  TowDownGame/game/guns/BaseGun.gd:12 var bullet_scene
+  TowDownGame/game/guns/BaseGun.gd:23 var recoil
+  TowDownGame/game/guns/BaseGun.gd:39 var gun_tip
+  TowDownGame/game/guns/BaseGun.gd:40 var audio
+  TowDownGame/game/guns/BaseGun.gd:46 var tween
+  TowDownGame/game/guns/BaseGun.gd:169 func reload_ammo
+  TowDownGame/game/guns/BaseGun.gd:196 func _shoot
+  TowDownGame/game/guns/BaseGun.gd:199 func _shootAnim
+  TowDownGame/game/items/BaseItem.gd:3 var giveCallBack
+  TowDownGame/game/monster/BaseMonster.gd:15 var target_player
+  TowDownGame/game/monster/BaseMonster.gd:18 var is_die
+  TowDownGame/game/monster/BaseMonster.gd:20 var is_atk
+  TowDownGame/game/reward/BaseReward.gd:29 func onRewardStart
+  TowDownGame/game/reward/BaseReward.gd:35 func afterAtk
+  TowDownGame/game/reward/BaseReward.gd:38 func beforeAtk
+  TowDownGame/game/reward/BaseReward.gd:41 func beforePlayerHit
+  TowDownGame/game/reward/BaseReward.gd:47 func onKill
+  TowDownGame/game/reward/BaseReward.gd:50 func onCountChange
+  godot-2d-builder/godot/Entities/Entities/Machines/Furnace/FurnaceEntity.gd:30 func _set_initial_speed
+  godot-2d-builder/godot/Entities/Entities/Machines/Furnace/FurnaceGUI.gd:8 var ore_container
+  godot-2d-builder/godot/Entities/Entities/Machines/Furnace/FurnaceGUI.gd:12 var output_container
+  godot-2d-builder/godot/Entities/Entities/Machines/Furnace/FurnaceGUI.gd:72 func _find_nodes
+  comedot/Components/Component.gd:57 var allowNonEntityParent
+  comedot/Components/Component.gd:212 func getRequiredComponents
+  comedot/Components/Component.gd:253 func getCoComponent
+  comedot/Components/Component.gd:276 func removeFromEntity
+  comedot/Components/Component.gd:477 func emitDebugBubble
+  comedot/Components/Combat/DamageComponent.gd:117 signal didMiss
+  comedot/Components/Gameplay/ComponentSwapperComponent.gd:38 func swapToSet
+  comedot/Components/Movement/IndependentPathFollowComponent.gd:40 signal didCompletePath
+  comedot/Components/Movement/IndependentPathFollowComponent.gd:53 func setDependencies
+  comedot/Components/Movement/IndependentPathFollowComponent.gd:93 func snapEntityToCurve
+  comedot/Components/Physics/AreaComponentBase.gd:24 var selfAsArea
+  comedot/Components/Physics/AreaComponentBase.gd:26 var selfAscollisionObject
+  comedot/Components/Physics/AreaContactComponent.gd:20 var groupToInclude
+  comedot/Components/Physics/AreaContactComponent.gd:26 var areasInContact
+  comedot/Components/Physics/AreaContactComponent.gd:54 func resetContactLists
+  comedot/Components/Physics/AreaContactComponent.gd:90 func shouldIncludeArea
+  comedot/Components/Physics/AreaContactComponent.gd:98 func shouldIncludeBody
+  comedot/Entities/Entity.gd:243 func installComponent
+  comedot/Entities/Entity.gd:369 func uninstallComponent
+  comedot/Entities/Entity.gd:661 func findChildrenOfType
+  comedot/Resources/StateMachine.gd:78 signal didRejectTransition
+  comedot/Resources/StateMachine.gd:120 func validateTransition
+  comedot/Resources/StateMachine.gd:144 func transitionToState
+  comedot/Scripts/Gameplay/Spawner.gd:27 var sceneToSpawn
+  comedot/Scripts/Gameplay/Spawner.gd:118 func setupSpawn
+  comedot/UI/Views/StatUI.gd:110 func onStat_changed
+  starship-olympics/godot/addons/vshapes/VParametricShape.gd:26 func taint
+  starship-olympics/godot/combat/managers/modes/ModeManager.gd:13 func broadcast_score
+  starship-olympics/godot/globals/AudioLibrary.gd:5 var this_sound
+  starship-olympics/godot/globals/AudioLibrary.gd:42 func list_songs
+  starship-olympics/godot/godot4/actors/brains/Brain.gd:4 var target_velocity
+  starship-olympics/godot/godot4/actors/brains/Brain.gd:5 var rotation_request
+  starship-olympics/godot/godot4/actors/brains/Brain.gd:7 var controllee
+  starship-olympics/godot/godot4/actors/enemies/Shapeoid.gd:8 var _direction
+  starship-olympics/godot/godot4/actors/enemies/Shapeoid.gd:10 func _move
+  starship-olympics/godot/godot4/arena/hud/Bar.gd:11 func set_max_value
+  starship-olympics/godot/godot4/arena/hud/Bar.gd:22 func _get_max_size
+  starship-olympics/godot/godot4/effects/appear/Appear.gd:7 func _done
+  starship-olympics/godot/map/draft/cards/DraftCard.gd:20 func is_available_for_random_extraction
+  starship-olympics/godot/map/draft/cards/DraftCard.gd:60 func on_card_picked
+  starship-olympics/godot/special_scenes/combat_UI/session_points/PilotStats.gd:58 func _compute_score
+  starship-olympics/godot/special_scenes/combat_UI/session_points/PilotStats.gd:63 func _update_icon
+  starship-olympics/godot/ui/common_elements/GenericOption.gd:10 var option_name
+  starship-olympics/godot/ui/common_elements/GenericOption.gd:12 var label_description
+  starship-olympics/godot/ui/fancy_menus/FancyMenu.gd:91 func get_fancy_button_children
+  starship-olympics/godot/ui/fancy_menus/FancyMenu.gd:98 func give_focus_to
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:22 func get_config_group_id
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:26 func get_config_id
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:36 func get_default_value
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:54 func get_saved_config_value
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:59 func load_config_value
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:71 func save_config_value
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_configuration_controller.gd:76 func apply_config_value
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:22 var cfg_options
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:39 func save_config_value_index
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:57 func get_saved_config_value_index
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:66 func init_cfg_options
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:70 func init_cfg_option
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:75 func disable_cfg_option
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_tree_configuration_controller.gd:88 func apply_internal_config_value
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:11 var build_on_ready
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:18 var condition_properties
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:21 var not_condition_properties
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:24 var no_condition_classes
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:28 var attach_components
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:31 var customize
+  TakinGodotTemplate/godot/root/scenes/component/builder/builder.gd:36 var _condition_class
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:28 var min_motion_factor
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:29 var max_motion_factor
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:41 var motion_factor
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:43 var _original_target_values
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:89 func reset_motion_tween
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:105 func _motion_transform
+  TakinGodotTemplate/godot/root/scenes/component/motion/motion.gd:109 func _set_target_original_values
+  OpenVic/game/src/UI/GameMenu/LobbyMenu/LobbyPanelButton.gd:12 var name_label
+  OpenVic/game/src/UI/GameMenu/LobbyMenu/LobbyPanelButton.gd:13 var date_label
+  OpenVic/game/src/UI/GameMenu/LobbyMenu/LobbyPanelButton.gd:43 func _is_start_date
+  deck_builder_tutorial/custom_resources/card.gd:59 func apply_effects
+  Starter-Kit-Racing/scripts/vehicle.gd:11 var vehicle_body
+  Starter-Kit-Racing/scripts/vehicle.gd:31 var input
+  Starter-Kit-Racing/scripts/vehicle.gd:34 var acceleration
+  Starter-Kit-Racing/scripts/vehicle.gd:43 var calculated_lean
+  Starter-Kit-Racing/scripts/vehicle.gd:121 func effect_body
+  Starter-Kit-Racing/scripts/vehicle.gd:134 func effect_wheels
+  UltimateGodotIntro2D/full game/scenes/container/item_container.gd:4 var current_direction
+  tanks-of-freedom-ii/scenes/abilities/ability.gd:10 var cooldown
+  tanks-of-freedom-ii/scenes/abilities/ability.gd:43 func _is_visible
+  tanks-of-freedom-ii/scenes/abilities/ability.gd:67 func get_cooldown
+  tanks-of-freedom-ii/scenes/board/board.gd:22 var collateral
+  tanks-of-freedom-ii/scenes/board/board.gd:54 func _ready_start
+  tanks-of-freedom-ii/scenes/board/board.gd:216 func _add_player_to_state
+  tanks-of-freedom-ii/scenes/board/board.gd:245 func _end_turn
+  tanks-of-freedom-ii/scenes/board/board.gd:275 func _manage_cinematic_bars
+  tanks-of-freedom-ii/scenes/board/board.gd:285 func _manage_ai_start
+  tanks-of-freedom-ii/scenes/board/board.gd:372 func _reselect_tile
+  tanks-of-freedom-ii/scenes/board/board.gd:382 func cancel_ability
+  tanks-of-freedom-ii/scenes/board/board.gd:618 func _generate_collateral_damage
+  tanks-of-freedom-ii/scenes/board/board.gd:677 func cheat_capture
+  tanks-of-freedom-ii/scenes/board/board.gd:697 func cheat_kill
+  tanks-of-freedom-ii/scenes/board/board.gd:982 func _should_perform_hq_cam
+  tanks-of-freedom-ii/scenes/board/board.gd:1020 func restore_saved_state
+  tanks-of-freedom-ii/scenes/board/board.gd:1025 func _restore_saved_state
+  tanks-of-freedom-ii/scenes/board/board.gd:1078 func _timer_end_turn
+  tanks-of-freedom-ii/scenes/board/board.gd:1086 func _undo_unit_move
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:6 var pathfinder
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:14 var counter_death_penalty
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:145 func _gather_ability_actions
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:174 func _ability_action
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:177 func _approach_action
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:201 func _move_action
+  tanks-of-freedom-ii/scenes/board/logic/ai/brains/abstract_unit_brain.gd:218 func _get_interaction_tiles
+  tanks-of-freedom-ii/scenes/board/logic/scripting/outcomes/base_outcome.gd:14 func _ingest_details
+  tanks-of-freedom-ii/scenes/board/logic/scripting/triggers/base_trigger.gd:14 func _observe
+  tanks-of-freedom-ii/scenes/board/logic/scripting/triggers/base_trigger.gd:17 func execute_outcome
+  tanks-of-freedom-ii/scenes/board/logic/scripting/triggers/base_trigger.gd:25 func _get_outcome_metadata
+  tanks-of-freedom-ii/scenes/map_editor/story/stories/types/base_edit_action.gd:34 func _compile_step_data
+  tanks-of-freedom-ii/scenes/map_editor/story/triggers/types/base_edit_type.gd:39 func _compile_trigger_data
+  tanks-of-freedom-ii/scenes/tiles/tile.gd:20 var scripting_tags
+  tanks-of-freedom-ii/scenes/tiles/tile.gd:34 func reset_position_for_tile_view
+  tanks-of-freedom-ii/scenes/tiles/units/unit.gd:54 var modifiers
+  tanks-of-freedom-ii/scenes/tiles/units/unit.gd:154 func _apply_experience_modifiers
+  godot-3-beginner-2d-platformer/godot-4game/src/Actors/Actor.gd:5 var speed
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:4 var area_2d_attack
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:13 var max_attack_num
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:15 var curr_attack_num
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:17 var _hit_boss_ids
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:25 var bullet_mode
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:29 var start_pos
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:37 var trigger_be_attack_sfx
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:112 func _can_attack_character
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:142 func _attack_enemy
+  PVZ-Godot-Dream/scripts/bullet/bullet_000_norm_base.gd:152 func _attack_zombie
+  PVZ-Godot-Dream/scripts/bullet/component/movement/bullet_movement_base.gd:6 var bullet
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:14 var anim_component
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:26 var all_timer
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:50 var random_speed_range
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:77 signal signal_update_speed
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:98 func update_direction_x_root
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:122 var node2d_detect_in_slope
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:187 func ready_garden
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:201 func update_speed_factor
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:207 func death_language
+  PVZ-Godot-Dream/scripts/character/character_000_base.gd:263 func be_hypno
+  PVZ-Godot-Dream/scripts/character/components/attack_behavior_component/component_attack_base.gd:23 var is_attack_res
+  PVZ-Godot-Dream/scripts/character/components/attack_behavior_component/component_attack_base.gd:67 func attack_end
+  PVZ-Godot-Dream/scripts/character/components/bomb_component/component_bomb_base.gd:6 var area_2d_bomb
+  PVZ-Godot-Dream/scripts/character/components/bomb_component/component_bomb_base.gd:9 var bomb_lane
+  PVZ-Godot-Dream/scripts/character/components/bomb_component/component_bomb_base.gd:11 var bomb_value
+  PVZ-Godot-Dream/scripts/character/components/bomb_component/component_bomb_base.gd:13 var is_cherry_bomb
+  PVZ-Godot-Dream/scripts/character/components/bomb_component/component_bomb_base.gd:51 func _start_bomb_fx
+  PVZ-Godot-Dream/scripts/character/components/bomb_component/component_bomb_base.gd:55 func _bomb_all_enemy
+  PVZ-Godot-Dream/scripts/character/components/drop_body/ZombieDropBase.gd:11 var x_v
+  PVZ-Godot-Dream/scripts/character/components/garden/component_garden.gd:17 var direction_x
+  PVZ-Godot-Dream/scripts/character/components/garden/component_garden.gd:23 var curr_growth_stage
+  PVZ-Godot-Dream/scripts/character/components/garden/component_garden.gd:126 func update_growth_stage
+  PVZ-Godot-Dream/scripts/character/components/garden/component_garden.gd:179 func up_growth_stage
+  PVZ-Godot-Dream/scripts/character/components/hp_component/component_hp.gd:15 var sfx_be_attack_body
+  PVZ-Godot-Dream/scripts/character/components/swim_box_component/component_swim_box.gd:9 var body_change_swim
+  PVZ-Godot-Dream/scripts/character/components/swim_box_component/component_swim_box.gd:14 var owner_is_death
+  PVZ-Godot-Dream/scripts/character/components/swim_box_component/component_swim_box.gd:33 func appear_splash
+  PVZ-Godot-Dream/scripts/character/plant/plant_000_base.gd:5 var blink_component
+  PVZ-Godot-Dream/scripts/character/plant/plant_000_base.gd:7 var garden_component
+  PVZ-Godot-Dream/scripts/character/plant/plant_000_base.gd:180 func _be_zombie_eat_once_special
+  PVZ-Godot-Dream/scripts/character/zombie/zombie_000_base.gd:57 var is_trigger_squash_pos_judge
+  PVZ-Godot-Dream/scripts/character/zombie/zombie_000_base.gd:349 func change_is_swimming
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:8 const BALL_TYPE_ICE
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:10 const BALL_TYPE_FIRE
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:61 func get_ball_type
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:64 func get_form_animation
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:67 func get_roll_animation
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:70 func _subscribe_counter_events
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:73 func _unsubscribe_counter_events
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/objects/z_b_001_doctor_ball_base.gd:249 func dispel
+  PVZ-Godot-Dream/scripts/character/zombie_boss/001_doctor/skills/z_b_001_doctor_skill_area_crush.gd:7 var target_cells
+  PVZ-Godot-Dream/scripts/choose_level/choose_level.gd:7 var all_page
+  PVZ-Godot-Dream/scripts/choose_level/choose_level.gd:14 var all_pages_array
+  PVZ-Godot-Dream/scripts/choose_level/choose_level.gd:72 func _ready_update_page
+  PVZ-Godot-Dream/scripts/choose_level/choose_level.gd:94 func _on_choose_level_button
+  PVZ-Godot-Dream/scripts/garden/Item/garden_item_base.gd:8 var is_mouse_button_pressed_wait
+  PVZ-Godot-Dream/scripts/garden/Item/garden_item_base.gd:22 func use_it
+  PVZ-Godot-Dream/scripts/manager/main_game_sub_manager.gd:22 func init_manager
+  PVZ-Godot-Dream/scripts/state_machine/base/character_composite_state.gd:8 var child_initialized
+  PVZ-Godot-Dream/scripts/state_machine/base/character_state_machine.gd:12 var character
+  PVZ-Godot-Dream/scripts/state_machine/base/character_state_machine.gd:28 var _pending_state
+  PVZ-Godot-Dream/scripts/state_machine/base/character_state_machine.gd:32 var _initialized
+  PVZ-Godot-Dream/scripts/state_machine/base/character_state_machine.gd:34 var _switching
+  PVZ-Godot-Dream/scripts/state_machine/base/character_state_machine.gd:214 func _is_registered
+  PVZ-Godot-Dream/scripts/state_machine/base/character_state_machine.gd:220 func _disconnect_animation_player
+  PVZ-Godot-Dream/scripts/state_machine/zombie_boss/001_doctor/states/z_b_001_doctor_state_skill_action.gd:41 func get_next_state
+  PVZ-Godot-Dream/scripts/state_machine/zombie_boss/001_doctor/states/z_b_001_doctor_state_skill_action.gd:56 func get_driver_reaction
+  PVZ-Godot-Dream/scripts/ui/card/card_base.gd:10 var _cool_mask
+  PVZ-Godot-Dream/scripts/ui/card/card_base.gd:35 var cool_time
+  godot-tiny-mmo/source/client/ui/menus/menu_shell.gd:28 var content
+  godot-tiny-mmo/source/client/ui/menus/menu_shell.gd:30 var header_center
+  godot-tiny-mmo/source/client/ui/menus/menu_shell.gd:32 var header_right
+  godot-tiny-mmo/source/client/ui/menus/menu_shell.gd:35 var backdrop
+  godot-tiny-mmo/source/client/ui/menus/menu_shell.gd:42 func build_shell
+  godot-tiny-mmo/source/client/ui/menus/menu_shell.gd:121 func set_title
+  godot-tiny-mmo/source/client/ui/menus/settings/components/settings_widget.gd:6 var setting_section
+  godot-tiny-mmo/source/client/ui/menus/settings/components/settings_widget.gd:13 var setting_property
+  godot-tiny-mmo/source/client/ui/menus/settings/components/settings_widget.gd:60 func _update_label
+  godot-tiny-mmo/source/client/ui/menus/settings/components/settings_widget.gd:76 func _load_defaults
+  godot-tiny-mmo/source/common/gameplay/characters/character.gd:87 const BAR_COLOR_HOSTILE
+  godot-tiny-mmo/source/common/gameplay/characters/character.gd:98 var spar_ally_peers
+  godot-tiny-mmo/source/common/gameplay/characters/character.gd:99 var spar_opponent_peers
+  godot-tiny-mmo/source/common/gameplay/characters/character.gd:104 var group_peers
+  godot-tiny-mmo/source/common/gameplay/characters/character.gd:142 func set_health_bar_fill
+  godot-tiny-mmo/source/common/gameplay/characters/character.gd:385 func die
+  godot-tiny-mmo/source/common/gameplay/characters/npc/behaviors/mob_attack.gd:45 func _fire
+  godot-tiny-mmo/source/common/gameplay/combat/ability/ability_collection/bolt_shoot/bolt_shoot_ability.gd:15 var ap_ratio
+  godot-tiny-mmo/source/common/gameplay/combat/ability/ability_collection/bolt_shoot/bolt_shoot_ability.gd:18 var cast_animation
+  godot-tiny-mmo/source/common/gameplay/combat/ability/ability_collection/bolt_shoot/bolt_shoot_ability.gd:33 var bolt_modulate
+  godot-tiny-mmo/source/common/gameplay/combat/ability/ability_collection/bolt_shoot/bolt_shoot_ability.gd:93 func _wielder_ap
+  godot-tiny-mmo/source/common/gameplay/combat/ability/ability_collection/channel/channel_ability.gd:69 func channel_tick
+  godot-tiny-mmo/source/common/gameplay/items/gear_item.gd:38 func stat_lines
+  godot-tiny-mmo/source/common/gameplay/items/gear_item.gd:62 func equip
+  godot-tiny-mmo/source/common/gameplay/items/gear_item.gd:72 func unequip
+  godot-tiny-mmo/source/common/gameplay/items/weapons/weapon.gd:12 var abilities
+  godot-tiny-mmo/source/common/gameplay/items/weapons/weapon.gd:28 var weapon_sprite
+  godot-tiny-mmo/source/common/gameplay/items/weapons/weapon.gd:68 func set_channeling_pose
+  godot-tiny-mmo/source/common/gameplay/items/weapons/weapon.gd:205 func perform_action
+  godot-tiny-mmo/source/common/gameplay/items/weapons/bow/arrow.gd:160 func _resolve_hit
+  godot-tiny-mmo/source/common/gameplay/maps/components/interactable.gd:17 var menu_name
+  godot-tiny-mmo/source/common/gameplay/maps/components/interactable.gd:44 func _build_menu_arg
+  godot-tiny-mmo/source/common/network/endpoints/base_multiplayer_endpoint.gd:52 func _connect_multiplayer_api_signals
+  godot-tiny-mmo/source/server/world/components/chat_command/chat_command.gd:11 var command_usage
+  godot-tiny-mmo/source/server/world/components/chat_command/chat_command.gd:24 func parse_duration_ms
+  Slay-The-Robot/data/PrototypeData.gd:11 var object_uid
+  Slay-The-Robot/data/SerializableData.gd:92 func _get_recursive_properties
+  Slay-The-Robot/data/SerializableData.gd:558 func _get_native_properties
+  Slay-The-Robot/scripts/action_interceptors/BaseActionInterceptor.gd:14 func process_action_interception
+  Slay-The-Robot/scripts/actions/card_actions/cardset_actions/BaseCardsetAction.gd:21 func _get_picked_cards
+  Slay-The-Robot/scripts/actions/card_actions/pick_card_actions/ActionBasePickCards.gd:33 func perform_async_action
+  Slay-The-Robot/scripts/actions/card_actions/pick_card_actions/ActionBasePickCards.gd:227 func get_min_cards_are_required_for_action
+  Slay-The-Robot/scripts/actions/card_actions/pick_card_actions/ActionPickCards.gd:10 func _generate_child_actions
+  Slay-The-Robot/scripts/artifacts/BaseArtifact.gd:12 func connect_signals
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:5 var block
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:6 var block_amount
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:10 var animated_sprite_2d
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:11 var layered_health_bar
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:13 var fade_container
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:16 var selection_button
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:38 func _on_selection_button_up
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:48 func get_animation_sprite_frames
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:75 func set_block
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:84 func add_block
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:118 func update_health_bar
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:122 func get_combatant_health
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:126 func get_combatant_health_max
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:160 func unregister_all_custom_ui
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:173 func create_block_text
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:178 func create_damage_text
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:183 func create_block_fade
+  Slay-The-Robot/scripts/combatants/BaseCombatant.gd:291 func clear_all_status_effects
+  Slay-The-Robot/scripts/run_modifiers/BaseRunModifier.gd:10 func run_start_modification
+  Slay-The-Robot/scripts/status_effects/BaseStatusEffect.gd:77 func _generate_status_effect_card_play_request
+  Slay-The-Robot/scripts/ui/custom/BaseCustomUI.gd:5 var custom_ui_object_id
+  Slay-The-Robot/scripts/validators/BaseValidator.gd:20 func _validation
+  Slay-The-Robot/scripts/validators/BaseValidator.gd:33 func _compare
+  Slay-The-Robot/scripts/validators/BaseValidator.gd:45 func _get_validator_value
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/AttackLogic.gd:4 var damage_boost
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/AttackLogic.gd:16 var base_attribute
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/AttackLogic.gd:244 func calculateDamage
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:42 func can_perform
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:50 func can_pose
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:55 func run_without_start_anim
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:62 func can_fall
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:72 func can_drop_ledge
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:79 func reset_ledge_detection
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:85 func can_guard
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:97 func can_turn
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:108 func can_move_with_momentum
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:124 func remove_momentum
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:129 func check_is_blocking
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:148 func check_is_hurt
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:190 func can_attack
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:240 func get_hector_attack_sound
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:256 func swingWeapon
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:270 func _can_activate_magic
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:318 func stay_crouched
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:322 func can_double_jump
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:329 func can_dive_kick
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:333 func can_land
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:357 func can_die
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:386 func attack_anim_suffix
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:392 func get_attack_speed
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:399 func get_attack_sound
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:409 func is_above_player_within_range
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:412 func is_below_player_within_range
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:415 func in_front_of_player
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:418 func is_below_player
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:421 func can_turnaround
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:429 func can_turnaround_with_scale
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:438 func horizontal_distance_from_player
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:444 func enemy_can_die
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:453 func enemy_can_guard
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:457 func enemy_check_is_hurt
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:462 func innocent_check_is_hurt
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:466 func innocent_can_guard
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:470 func innocent_can_die
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:474 func turn_around
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/State.gd:480 func can_use_skill
+  Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Event/combat_scene.gd:22 func _dissolveMusic
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:15 const INITIAL_SAVE_PATH
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:16 const SAVE_FILE_EXTENSION
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:19 const CHECKPOINT_SAVE_NAME
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:42 var focused_slot
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:68 func checkInput
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:143 func containsData
+  Castlevania-Remnants-of-Darkness/SampleProject/extra_scenes/loading_screen.gd:167 func onSlotPressed
+  Super-Mario-World-Remastered-Public/Scripts/Classes/CutsceneLevel.gd:17 func cutscene_finish
+  Super-Mario-World-Remastered-Public/Scripts/Classes/EnemyClass.gd:10 var gib_type
+  Super-Mario-World-Remastered-Public/Scripts/Classes/EnemyClass.gd:43 var frozen
+  Super-Mario-World-Remastered-Public/Scripts/Classes/EnemyClass.gd:99 func damage_player
+  Super-Mario-World-Remastered-Public/Scripts/Classes/EnemyClass.gd:125 func on_freeze
+  Super-Mario-World-Remastered-Public/Scripts/Classes/EnemyClass.gd:153 func death_animation
+  Super-Mario-World-Remastered-Public/Scripts/Classes/HeldObject.gd:7 var press_pickup
+  Super-Mario-World-Remastered-Public/Scripts/Classes/HeldObject.gd:13 var kick_bounce
+  Super-Mario-World-Remastered-Public/Scripts/Classes/HeldObject.gd:74 var player_can_stand
+  Super-Mario-World-Remastered-Public/Scripts/Classes/HeldObject.gd:76 var position_direction
+  Super-Mario-World-Remastered-Public/Scripts/Classes/HeldObject.gd:386 func on_kick
+  Super-Mario-World-Remastered-Public/Scripts/Classes/MapPoint.gd:16 var map_warp
+  Super-Mario-World-Remastered-Public/Scripts/Classes/carrry_item_class.gd:12 var thrown
+  Super-Mario-World-Remastered-Public/Scripts/Classes/Maps/MapPointVisualClass.gd:4 var map_point
+  Super-Mario-World-Remastered-Public/Scripts/Classes/PowerUps/PowerUpSpriteExtra.gd:7 var display
+  Super-Mario-World-Remastered-Public/Scripts/Classes/States/Chuck/ChuckState.gd:5 var chuck
+  Super-Mario-World-Remastered-Public/Scripts/UI/selectable_option_node.gd:40 func update_2
+  wutw-public/wutw/achievements/achievement.gd:8 signal stat_changed
+  wutw-public/wutw/achievements/achievement.gd:16 func check
+  wutw-public/wutw/cards/abilities/card_ability.gd:15 func get_ability_tooltip
+  wutw-public/wutw/cards/abilities/card_ability.gd:16 func cast
+  wutw-public/wutw/cards/abilities/card_ability.gd:23 func should_destroy_on_cast
+  wutw-public/wutw/cards/abilities/card_ability.gd:26 func scales_when_looped
+  wutw-public/wutw/glossary/tooltip/tooltip.gd:112 func _get_link_mode
+  wutw-public/wutw/glossary/tooltip/tooltip.gd:144 func _clear_extras
+  wutw-public/wutw/glossary/tooltip/tooltip.gd:150 func _ensure_extras_created
+  wutw-public/wutw/glossary/tooltip/tooltip.gd:174 func _place_extras
+  wutw-public/wutw/map/map_effect.gd:7 func animate_destroy
+  wutw-public/wutw/map/modifications/map_modification.gd:11 func _encode_args
+  wutw-public/wutw/map/modifications/map_modification.gd:12 func _decode_args
+  wutw-public/wutw/map/modifications/map_modification.gd:52 func _setup_random
+  wutw-public/wutw/map/modifications/map_modification.gd:58 func _threaded_try_place_single
+  wutw-public/wutw/map/modifications/map_modification.gd:76 func _replace_roof_color
+  wutw-public/wutw/relics/relic.gd:25 var default_description
+  wutw-public/wutw/relics/relic.gd:81 func save_data
+  wutw-public/wutw/relics/relic.gd:84 func load_data
+  wutw-public/wutw/relics/relic.gd:123 func _get_modifier_tag
+  wutw-public/wutw/relics/relic.gd:126 func _brief_wait
+  wutw-public/wutw/shard_types/shard_type.gd:107 func _apply_replacements
+  wutw-public/wutw/shard_types/shard_type.gd:113 func _has_finished_event
+  wutw-public/wutw/tutorial/tutorial_base.gd:6 signal ready_to_trigger
+  wutw-public/wutw/tutorial/tutorial_base.gd:13 var _container
+  wutw-public/wutw/tutorial/tutorial_base.gd:15 var _tooltip
+  wutw-public/wutw/tutorial/tutorial_base.gd:20 func trigger
+  wutw-public/wutw/tutorial/tutorial_base.gd:21 func get_skip_id
+  wutw-public/wutw/tutorial/tutorial_base.gd:22 func get_tutorial_type
+  wutw-public/wutw/tutorial/tutorial_base.gd:24 func get_tutorial_order
+  wutw-public/wutw/tutorial/tutorial_base.gd:30 func mark_skipped
+  wutw-public/wutw/tutorial/tutorial_base.gd:51 func _outline_controls
+  wutw-public/wutw/tutorial/tutorial_base.gd:111 func _on_continued
+  wutw-public/wutw/tutorial/tutorial_base.gd:115 func _get_container
+  Godot4ThirdPersonCombatPrototype/scripts/animations/base_animations.gd:8 func should_return_blend
+  Godot4ThirdPersonCombatPrototype/scripts/animations/subclasses/melee/melee_attack.gd:33 func perform_legs_transition
+  Godot4ThirdPersonCombatPrototype/scripts/camera_controller/camera_controller_state_machine.gd:88 func process_camera
+  Godot4ThirdPersonCombatPrototype/scripts/camera_controller/camera_controller_state_machine.gd:92 func process_unhandled_input
+  Godot4ThirdPersonCombatPrototype/scripts/components/abilities/melee_component.gd:80 func set_can_damage_of_all_weapons
+  Godot4ThirdPersonCombatPrototype/scripts/components/abilities/non_melee_component.gd:14 var executing_action
+  Godot4ThirdPersonCombatPrototype/scripts/components/abilities/non_melee_component.gd:19 var action_index
+  Godot4ThirdPersonCombatPrototype/scripts/components/abilities/non_melee_component.gd:41 func perform_action
+  Godot4ThirdPersonCombatPrototype/scripts/components/abilities/non_melee_component.gd:76 func interrupt_action
+  Godot4ThirdPersonCombatPrototype/scripts/components/rotation/rotation_component.gd:12 var target_look
+  Godot4ThirdPersonCombatPrototype/scripts/components/rotation/rotation_component.gd:20 func set_rotate_towards_target
+  Godot4ThirdPersonCombatPrototype/scripts/player/player_state_machine.gd:77 func process_player
+  Godot4ThirdPersonCombatPrototype/scripts/player/player_state_machine.gd:81 func process_movement_animations
+  youtd2/src/buffs/buff_type.gd:230 func apply_to_unit_permanent
+  youtd2/src/buffs/buff_type.gd:534 func set_buff_icon_color
+  youtd2/src/buffs/buff_type.gd:569 func set_is_purgable
+  youtd2/src/items/item_behavior.gd:10 var item
+  youtd2/src/items/item_behavior.gd:47 func item_init
+  youtd2/src/items/item_behavior.gd:53 func on_consume
+  youtd2/src/items/item_behavior.gd:63 func on_pickup
+  youtd2/src/items/item_behavior.gd:68 func on_drop
+  youtd2/src/items/item_container.gd:58 func have_item_space
+  youtd2/src/missions/mission.gd:28 func check_for_fail
+  youtd2/src/missions/mission.gd:40 func mission_failed
+  youtd2/src/unit/unit.gd:1114 func _set_visual_node
+  godot-xr-template/components/persistent/persistent_world.gd:41 var zone_database
+  godot-xr-template/components/persistent/persistent_world.gd:156 func load_file
+  godot-xr-template/components/persistent/persistent_world.gd:191 func save_file
+  GodotProjectZero/scenes/language_selection/language_buttons/language_button/language_button.gd:17 func set_vars
+  GodotProjectZero/template/scenes/node/game/label_particle_tweens/label_particle_tween/label_particle_tween.gd:10 var label_amount
+  GodotProjectZero/template/scenes/node/game/label_particle_tweens/label_particle_tween/label_particle_tween.gd:11 var label_title
+  GodotProjectZero/template/scenes/node/game/label_particle_tweens/label_particle_tween/label_particle_tween.gd:13 var particle_tween
+  GodotProjectZero/template/scenes/node/game/label_particle_tweens/label_particle_tween/label_particle_tween.gd:40 func _format
+  Legacy_SM63Redux/classes/entity/entity.gd:15 var _water_bodies
+  Legacy_SM63Redux/classes/entity/entity.gd:49 func _preempt_all_node_readies
+  Legacy_SM63Redux/classes/entity/entity.gd:62 func _process_override
+  Legacy_SM63Redux/classes/entity/entity.gd:67 func _physics_step
+  Legacy_SM63Redux/classes/entity/entity.gd:114 func _preempt_node_ready
+  Legacy_SM63Redux/classes/entity/entity.gd:119 func _set_node_property_if_exists
+  Legacy_SM63Redux/classes/entity/entity.gd:125 func _connect_node_signal_if_exists
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:47 var stomped
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:48 var struck
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:74 func enemy_die
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:119 func _hitbox_check
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:124 func _hurtbox_check
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:206 func _strike_check
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:210 func _hurt_stomp
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:215 func _hurt_struck
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy.gd:221 func _struck_land
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy_walk.gd:16 var _edge_check_path
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy_walk.gd:17 var edge_check
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy_walk.gd:43 func turn_around
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy_walk.gd:78 func _move_condition
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy_walk.gd:125 func _wander
+  Legacy_SM63Redux/classes/entity/enemy/entity_enemy_walk.gd:151 func _target_alert
+  Legacy_SM63Redux/classes/interactable/interactable.gd:13 func _physics_override
+  Legacy_SM63Redux/classes/interactable/interactable.gd:23 func _interact_with
+  Legacy_SM63Redux/classes/interactable/interactable.gd:27 func _interact_check
+  Legacy_SM63Redux/classes/interactable/interactable.gd:31 func _state_check
+  Legacy_SM63Redux/classes/interactable/interactable_warp.gd:110 func _exit_pos_offset
+  Legacy_SM63Redux/classes/interactable/interactable_warp.gd:125 func _animation_length
+  Legacy_SM63Redux/classes/interactable/interactable_warp.gd:129 func _begin_animation
+  Legacy_SM63Redux/classes/interactable/interactable_warp.gd:133 func _update_animation
+  Legacy_SM63Redux/classes/interactable/interactable_warp.gd:137 func _end_animation
+  Legacy_SM63Redux/classes/interactable/door/door.gd:40 func _enter_pos_offset_x
+  Legacy_SM63Redux/classes/interactable/door/door.gd:55 func _door_open
+  Legacy_SM63Redux/classes/interactable/door/door.gd:59 func _door_close
+  Legacy_SM63Redux/classes/interactable/door/door.gd:63 func _set_sprite_frames
+  Legacy_SM63Redux/classes/pickup/pickup.gd:6 var parent_is_root
+  Legacy_SM63Redux/classes/pickup/pickup.gd:127 func _pickup_effect
+  Legacy_SM63Redux/classes/pickup/pickup.gd:131 func _award_pickup
+  Legacy_SM63Redux/classes/pickup/coin/coin_pickup.gd:24 func _add_coins
+  Legacy_SM63Redux/classes/solid/telescoping/telescoping.gd:22 var middle_segment_width
+  Legacy_SM63Redux/classes/solid/telescoping/telescoping.gd:23 var end_segment_width
+  Legacy_SM63Redux/classes/solid/telescoping/telescoping.gd:27 func set_width
+  threadbare/scenes/eternal_loom_sokoban/components/system/rules/goal.gd:28 func _is_self_completed
+  threadbare/scenes/game_elements/characters/enemies/throwing_enemy/components/throwing_enemy.gd:263 func _set_target_position
+  threadbare/scenes/game_elements/characters/enemies/throwing_enemy/components/throwing_enemy.gd:284 func shoot_projectile
+  threadbare/scenes/game_elements/characters/enemies/throwing_enemy/components/throwing_enemy.gd:294 func shoot_projectile_at
+  threadbare/scenes/game_elements/props/projectile/components/projectile.gd:28 var can_hit_player
+  threadbare/scenes/game_elements/props/projectile/components/projectile.gd:89 var duration_timer
+  threadbare/scenes/game_elements/props/projectile/components/projectile.gd:153 func add_small_fx
+  threadbare/scenes/game_logic/base_canvas_item_behavior.gd:14 var canvas_item
+  threadbare/scenes/game_logic/base_canvas_item_behavior.gd:23 func _set_canvas_item
+  threadbare/scenes/ui_elements/dialogue/components/text_effects/base_threads_text_effect.gd:8 var text_color_1
+  threadbare/scenes/ui_elements/dialogue/components/text_effects/base_threads_text_effect.gd:9 var text_color_2
+  godot-2d-topdown-template/scripts/state_machine/states/state.gd:58 func enter
+  godot-2d-topdown-template/scripts/state_machine/states/state.gd:73 func complete
+  SonicWorldsNext/Scripts/Enemies/EnemyBase.gd:9 var defaultMovement
+  SonicWorldsNext/Scripts/Enemies/EnemyBase.gd:82 func get_nearest_player_by_x
+  SonicWorldsNext/Scripts/Objects/PhysicsObject.gd:16 var maxCharGroundHeight
+  SonicWorldsNext/Scripts/Objects/PhysicsObject.gd:41 var getVert
+  SonicWorldsNext/Scripts/Player/State.gd:6 var invulnerability
+  SonicWorldsNext/Tools/Graphics/AnimatedTextureDrawer.gd:71 func draw_at_pos_internal
+  SimpleFPSController/FPSController/weapon_manager/weapon_resource.gd:28 var view_idle_anim
+  SimpleFPSController/FPSController/weapon_manager/weapon_resource.gd:30 var view_shoot_anim
+  SimpleFPSController/FPSController/weapon_manager/weapon_resource.gd:35 var shoot_sound
+  SimpleFPSController/FPSController/weapon_manager/weapon_resource.gd:41 var damage
+  SimpleFPSController/FPSController/weapon_manager/weapon_resource.gd:75 var last_fire_time
+  SimpleFPSController/FPSController/weapon_manager/weapon_resource.gd:128 func fire_shot
+  aarpg-tutorial/Interactables/dialog/scripts/dialog_item.gd:8 var example_dialog
+  aarpg-tutorial/Interactables/dialog/scripts/dialog_item.gd:73 func _set_editor_display
+  aarpg-tutorial/Interactables/throwable/throwable.gd:4 var throw_speed
+  aarpg-tutorial/Interactables/throwable/throwable.gd:11 var object_sprite
+  aarpg-tutorial/Interactables/throwable/throwable.gd:12 var vertical_velocity
+  aarpg-tutorial/Interactables/throwable/throwable.gd:13 var ground_height
+  aarpg-tutorial/Interactables/throwable/throwable.gd:17 var wall_detect
+  aarpg-tutorial/Interactables/throwable/throwable.gd:97 func disable_collisions
+  aarpg-tutorial/Interactables/throwable/throwable.gd:135 func hit_ground
+  aarpg-tutorial/Levels/scripts/level_transition.gd:28 var collision_shape
+  aarpg-tutorial/Levels/scripts/level_transition.gd:57 func _player_entered
+  aarpg-tutorial/Levels/scripts/level_transition.gd:94 func _update_area
+  aarpg-tutorial/npc/scripts/npc_behavior.gd:4 var npc
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:4 var linked_quest
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:5 var quest_step
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:6 var quest_complete
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:9 var settings_summary
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:40 func update_summary
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:48 func get_step
+  aarpg-tutorial/quests/utility_nodes/quest_node.gd:56 func get_prev_step
+  godot_autobattler_course/custom_nodes/unit_ability.gd:7 var sound
+  jdungeon/classes/MultiplayerConnection.gd:60 func _client_init
+  jdungeon/classes/MultiplayerConnection.gd:82 func _client_start
+  jdungeon/classes/MultiplayerConnection.gd:95 func _client_cleanup
+  jdungeon/classes/MultiplayerConnection.gd:108 func _server_init
+  jdungeon/classes/MultiplayerConnection.gd:123 func _server_start
+  jdungeon/classes/NPC.gd:35 func interact
+  jdungeon/todo/components/networking/projectilesynchronizercomponent/Projectile2D.gd:20 var move_speed
+  jdungeon/todo/components/networking/projectilesynchronizercomponent/Projectile2D.gd:26 var target_global_pos
+  jdungeon/todo/components/networking/projectilesynchronizercomponent/Projectile2D.gd:105 func get_motion
+  jdungeon/todo/components/networking/projectilesynchronizercomponent/Projectile2D.gd:117 func _launch
+  jdungeon/todo/components/networking/statuseffectcomponent/StatusEffectResource.gd:45 func _effect_applied
+  jdungeon/todo/components/networking/statuseffectcomponent/StatusEffectResource.gd:53 func _effect_tick
+  jdungeon/todo/components/networking/statuseffectcomponent/StatusEffectResource.gd:69 func _effect_timeout
+  jdungeon/todo/components/networking/statuseffectcomponent/StatusEffectResource.gd:77 func _effect_removed
+  jdungeon/todo/components/player/skillcomponent/SkillResource.gd:66 func _effect
+  LibreAim/scenes/target/behavior/behavior.gd:6 var _current_velocity
+  Strategy-GDScript/Objects/Scripts/Enemy/States/enemy_state.gd:50 func try_chase
+  opengs/core/database/base_importer.gd:4 func read_lines
+  opengs/core/database/base_importer.gd:14 func read_json
+  opengs/core/utils/camera_controller.gd:313 func _on_province_click
+  Godot-Roguelike-Tutorial/Characters/Character.gd:19 var state_machine
+  Godot-Roguelike-Tutorial/Characters/Character.gd:20 var animated_sprite
+  Godot-Roguelike-Tutorial/Characters/Character.gd:22 var mov_direction
+  Godot-Roguelike-Tutorial/Characters/FSM.gd:20 func _state_logic
+  Godot-Roguelike-Tutorial/Characters/FSM.gd:24 func _get_transition
+  Godot-Roguelike-Tutorial/Characters/FSM.gd:28 func _add_state
+  Godot-Roguelike-Tutorial/Characters/FSM.gd:39 func _enter_state
+  Godot-Roguelike-Tutorial/Characters/FSM.gd:43 func _exit_state
+  Godot-Roguelike-Tutorial/Characters/Hitbox.gd:4 var damage
+  Godot-Roguelike-Tutorial/Characters/Hitbox.gd:6 var knockback_force
+  Godot-Roguelike-Tutorial/Characters/Hitbox.gd:38 func _collide
+  Godot-Roguelike-Tutorial/Characters/Enemies/Enemy.gd:8 var navigation_agent
+  Godot-Roguelike-Tutorial/Characters/Enemies/Enemy.gd:34 func _get_path_to_player
+  unto-deepest-depths-prototype/src/unit/type_components/unit_type_component.gd:11 func _on_attack_beginning
+  _original_client/scripts/actions/action_effect.gd:72 var _activation_state
+  _original_client/scripts/actions/action_effect.gd:75 var _ability_type
+  _original_client/scripts/actions/action_effect.gd:79 var _is_loaded
+  _original_client/scripts/actions/action_effect.gd:95 var _effect_source
+  _original_client/scripts/actions/action_effect.gd:189 func init_from_dict
+  _original_client/scripts/actions/effect_types/active_action_effect.gd:4 var attack_speed_scaled
+  _original_client/scripts/actions/effect_types/active_action_effect.gd:14 var cooldown_time
+  _original_client/scripts/actions/effect_types/active_action_effect.gd:16 var scaling_string
+  _original_client/scripts/actions/effect_types/active_action_effect.gd:152 func _start_channeling
+  _original_client/scripts/actions/effect_types/active_action_effect.gd:171 func _finish_channeling
+  _original_client/scripts/config_groups/config_group_base.gd:4 var config_type
+  _original_client/scripts/map/map_feature.gd:4 var feature_type
+  _original_client/scripts/map/map_feature.gd:5 var feature_name
+  _original_client/scripts/map/map_feature.gd:50 func _get_position
+  _original_client/scripts/registries/registry_base.gd:11 var _json_type
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:20 var tracking_angular_speed
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:36 var has_forced_move
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:37 var forced_move
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:63 func best_input_that_can_be_paid
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:83 func process_input_vector
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:100 func works_longer_than
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:110 func works_between
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:139 func get_root_position_delta
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:142 func right_weapon_hurts
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:146 func default_lifecycle
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:159 func on_enter_state
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:165 func on_exit_state
+  Godot_Universal-Controller-tutorial/Player/Moves/Move.gd:194 func react_on_parry
+  Godot_Universal-Controller-tutorial/Player/Moves/Legs/LegsBehaviour.gd:16 func transition_legs_state
+  Godot_Universal-Controller-tutorial/Player/Moves/Legs/LegsBehaviour.gd:20 func change_state
+  Godot_Universal-Controller-tutorial/Weapons/Models/Weapon.gd:9 var base_damage
+  simple-godot-train/Scripts/TrainVehicle.gd:14 var front_bogie
+  simple-godot-train/Scripts/TrainVehicle.gd:49 func change_towed_mass
+  OpMon/Scenes/Events/Interactable/Character.gd:40 var _faced_direction
+  OpMon/Scenes/Events/Interactable/Character.gd:44 var _paused
+  OpMon/Scenes/Events/Interactable/Character.gd:47 var _moving
+  OpMon/Scenes/Events/Interactable/Character.gd:86 func _get_collider
+  OpMon/Scenes/Events/Interactable/Character.gd:158 func _check_pending_interaction
+  OpMon/Scenes/Events/Interactable/Character.gd:169 func _end_move
+  OpMon/Scenes/Events/Interactable/Character.gd:183 func get_direction
+  OpMon/Scenes/Events/Interactable/Interactable.gd:13 func interact
+  OpMon/Scenes/Events/Trigger/Teleporter.gd:31 func teleport
+  OpMon/Scenes/Events/Trigger/Trigger.gd:16 var _active
+  Godot-Inventory/scripts/inventory/BaseInventoryModel.gd:8 func stack_items
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:17 var _quantity_selector
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:73 func _inventory_view_input
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:158 func can_create_item_by_id
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:195 func create_item_by_id
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:242 func can_add_item
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:305 func remove_item_by_id
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:324 func remove_currency
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:371 func _on_quantity_confirmed
+  Godot-Inventory/scripts/inventory/InventoryModel.gd:392 func _on_quantity_canceled
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:78 var _animation_list
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:134 func end_of_skin_animation
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:154 func _populate_animation_list
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:160 func _skin_direction_updated
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:167 func _in_editor_ready
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:185 func _runtime_ready
+  template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_character_skin.gd:191 func _is_valid_state
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/quiver_ai_state_machine.gd:42 var _state_to_resume
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/quiver_ai_state_machine.gd:123 func _decide_next_behavior
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/quiver_ai_state_machine.gd:141 func _ai_reset
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/quiver_ai_state_machine.gd:145 func _interrupt_current_state
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/states/quiver_ai_chase_closest_player.gd:20 var max_chase_time
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/states/quiver_ai_chase_closest_player.gd:26 var _target
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/states/quiver_ai_chase_closest_player.gd:27 var _chase_timer
+  template-beat-em-up/addons/quiver.beat_em_up/characters/ai/states/quiver_ai_chase_closest_player.gd:67 func _chase_target
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/quiver_custom_overlay.gd:72 func _on_main_plugin_set
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_debug_property_label.gd:20 var properties
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_debug_property_label.gd:27 var _reference_node
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:19 var main_texture
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:46 var cap_end
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:50 var cap_end_offset
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:75 var _textures
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:76 var _texture_sequence
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:138 func _draw_main_body
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd:150 func _draw_cap_end
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/state_machines/quiver_state.gd:150 func _connect_signals
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/state_machines/quiver_state.gd:161 func _disconnect_signals
+  template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/state_machines/quiver_state_machine.gd:30 var initial_state
+  template-beat-em-up/stages/_base/base_stage.gd:20 var _end_screen
+  template-beat-em-up/stages/_base/skyboxes/skybox.gd:31 var gradient_transitions_array
+  template-beat-em-up/ui/gameplay_hud/player_health_bar/heath_bar.gd:54 func _update_lifebar_visuals
+  template-beat-em-up/ui/gameplay_hud/player_health_bar/heath_bar.gd:65 func _reset_lifebar_visuals
+  template-beat-em-up/ui/gameplay_hud/player_health_bar/heath_bar.gd:82 func _on_health_changed
+  template-beat-em-up/ui/gameplay_hud/player_health_bar/heath_bar.gd:86 func _on_health_depleted
+  game-base-2D/scripts/interaction/interactible.gd:17 func _on_interact
+  game-base-2D/scripts/interaction/hit/base_hitbox.gd:32 func _get_hp
+  game-base-2D/scripts/interaction/hit/base_hitbox.gd:35 func _set_hp
+  game-base-2D/scripts/references/value_reference.gd:11 func _getter
+  game-base-2D/scripts/references/value_reference.gd:14 func _setter
+  Freedom-Hunter/src/entities/entity.gd:14 var hp_regenerable
+  Freedom-Hunter/src/entities/entity.gd:36 signal ailment_added
+  Freedom-Hunter/src/entities/entity.gd:37 var ailments
+  Freedom-Hunter/src/entities/entity.gd:55 var attack_speed
+  Freedom-Hunter/src/entities/entity.gd:64 var interpolation_factor
+  Freedom-Hunter/src/entities/entity.gd:65 var previous_origin
+  Freedom-Hunter/src/entities/entity.gd:67 var animation_tree
+  Freedom-Hunter/src/entities/entity.gd:69 var movement_state_machine
+  Freedom-Hunter/src/entities/entity.gd:94 func effect_over_time
+  Freedom-Hunter/src/entities/entity.gd:104 func dodge
+  Freedom-Hunter/src/entities/entity.gd:111 func jump
+  Freedom-Hunter/src/entities/entity.gd:119 func run
+  Freedom-Hunter/src/entities/entity.gd:127 func walk
+  Freedom-Hunter/src/entities/entity.gd:155 func move_entity
+  Freedom-Hunter/src/entities/entity.gd:260 func died
+  Freedom-Hunter/src/entities/entity.gd:292 func get_defence
+  Freedom-Hunter/src/entities/entity.gd:342 func attack
+  Freedom-Hunter/src/items/consumable.gd:20 func effect
+  simgine/characters/visuals/character_visual.gd:81 func _attach_item
+  simgine/characters/visuals/character_visual.gd:89 func _detach_item
+  simgine/characters/visuals/character_visual.gd:113 func get_skeleton_profile
+  simgine/characters/visuals/character_visual.gd:160 func _apply_modifier
+  TopdownStarter/Scripts/CharacterBase.gd:64 func _die
+  Godot4-FPS-Template/Player_Controller/scripts/Projectiles/Projectile.gd:13 var Rigid_Body_Projectile
+  Godot4-FPS-Template/Player_Controller/scripts/Projectiles/Projectile.gd:19 var Projectiles_Spawned
+  Godot4-FPS-Template/Player_Controller/scripts/Projectiles/Projectile.gd:30 func Fire_Projectile
+  Godot4-FPS-Template/Player_Controller/scripts/Projectiles/Projectile.gd:41 func _over_ride_collision
+  Godot4-FPS-Template/Player_Controller/scripts/Projectiles/Projectile.gd:62 func Hit_Scan_Collision
+  DOGWALK/source/obstacles/collision_entity_class.gd:5 var collision_shapes
+  godot4-third-person-controller/player/states/PlayerState.gd:5 var player
+  godot4-third-person-controller/player/states/PlayerState.gd:7 func set_horizontal_movement
+  godot4-third-person-controller/scripts/State.gd:5 var state_machine
+  malware-slayer/scripts/components/dialogue_manager/dialogue_manager.gd:30 func update_conditions
+  malware-slayer/scripts/components/dialogue_manager/dialogue_manager.gd:33 func update_variable_substitutes
+  malware-slayer/scripts/components/dialogue_manager/dialogue_manager.gd:36 func start_dialogue
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:10 var projectile_scene
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:15 var mechanism
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:16 var projectile_ammount
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:19 var projectile_lifetime
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:20 var shoot_per_minute
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:22 var projectile_spread
+  malware-slayer/scripts/components/entities/common/shoot/shoot_component.gd:23 var projectile_spread_degrees
+  malware-slayer/scripts/components/terminal_emulator/terminal_emulator.gd:5 var input
+  malware-slayer/scripts/components/terminal_emulator/terminal_emulator.gd:7 var output
+  malware-slayer/scripts/libs/projectiles/projectile.gd:27 func behaviour
+  malware-slayer/scripts/libs/unix/commands/command.gd:9 var manual
+  malware-slayer/scripts/libs/unix/commands/command.gd:12 var option
+  malware-slayer/scripts/libs/unix/commands/command.gd:14 var requires_opts
+  malware-slayer/scripts/libs/unix/commands/command.gd:16 var ignore_invalid_opt
+  malware-slayer/scripts/libs/unix/commands/command.gd:18 var has_entry
+  malware-slayer/scripts/libs/unix/commands/command.gd:24 var args
+  malware-slayer/scripts/libs/unix/commands/command.gd:25 var opts
+  malware-slayer/scripts/libs/unix/commands/command.gd:31 func init_override
+  malware-slayer/scripts/libs/unix/commands/command.gd:34 func main_override
+  malware-slayer/scripts/libs/unix/commands/command.gd:97 func get_help
+  Friendslop-Template/scripts/multiplayer/network/providers/base_network_provider.gd:31 func get_class_name
+  Friendslop-Template/scripts/multiplayer/player_spawning/base_player_spawn_manager.gd:30 func _get_spawn_params
+  Friendslop-Template/scripts/multiplayer/player_spawning/base_player_spawn_manager.gd:34 func _on_player_ready_for_gameplay
+  Friendslop-Template/scripts/multiplayer/player_spawning/base_player_spawn_manager.gd:51 func _on_player_left
+  Friendslop-Template/test/__setup__/base_network_gut_test.gd:18 var _server_node
+  Friendslop-Template/test/__setup__/base_network_gut_test.gd:21 var _client_node
+  Friendslop-Template/test/__setup__/base_network_gut_test.gd:30 func setup_server
+  Friendslop-Template/test/__setup__/base_network_gut_test.gd:41 func setup_client
+  Friendslop-Template/test/__setup__/base_network_gut_test.gd:53 func teardown_server
+  Friendslop-Template/test/__setup__/base_network_gut_test.gd:58 func teardown_client
+  GBM2K-Framework/Scripts/Grid/pawn_grid.gd:17 func initialize_cells
+  GBM2K-Framework/Scripts/Grid/pawn_grid.gd:26 func get_grid_region
+  GBM2K-Framework/Scripts/Grid/pawn_grid.gd:38 func initialize_pawns
+  GBM2K-Framework/Scripts/Grid/pawn_grid.gd:45 func get_cell_data
+  GBM2K-Framework/Scripts/Grid/pawn_grid.gd:52 func get_cell_pawn
+  GBM2K-Framework/Scripts/Grid/pawn_grid.gd:58 func update_pawn_pos
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:7 var is_moving
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:8 var is_talking
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:10 var chara_skin
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:11 var Grid
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:13 func can_move
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:16 func move_to
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:25 func _move_tween_done
+  GBM2K-Framework/Scripts/Pawns/Types/character.gd:30 func set_talking
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:33 func get_load_methods
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:49 func get_meta_file_name
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:53 func get_package_extension
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:56 func _init_loader
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:63 func uses_custom_load_paths
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:70 func load_songs_from_package_file
+  Project-Heartbeat/autoloads/song_loader/song_loaders/SongLoaderImpl.gd:73 func caching_enabled
+  Project-Heartbeat/menus/HBConfirmationWindow.gd:49 func _connect_button_signals
+  Project-Heartbeat/menus/HBConfirmationWindow.gd:74 func _on_Control_about_to_show
+  Project-Heartbeat/menus/options_menu/Option.gd:36 func change_value
+  Project-Heartbeat/rythm_game/game_modes/HBRhythmGameUIBase.gd:3 var disable_score_processing
+  Project-Heartbeat/rythm_game/game_modes/HBRhythmGameUIBase.gd:4 func get_notes_node
+  Project-Heartbeat/rythm_game/game_modes/HBRhythmGameUIBase.gd:6 func _on_reset
+  Project-Heartbeat/rythm_game/game_modes/HBRhythmGameUIBase.gd:10 func _on_song_set
+  Project-Heartbeat/rythm_game/game_modes/HBRhythmGameUIBase.gd:12 func get_lyrics_view
+  Project-Heartbeat/rythm_game/note_drawers/NoteGraphic.gd:7 func set_note_type
+  Project-Heartbeat/tests/test_case.gd:11 func after_each
+  Project-Heartbeat/tests/test_case.gd:23 func expect_eq
+  Project-Heartbeat/tests/test_case.gd:27 func expect_ne
+  Project-Heartbeat/tools/editor/editor_modules/MIDILoader/MIDILoaderPopup.gd:7 var current_smf
+  Project-Heartbeat/tools/editor/timeline_items/EditorTimelineItem.gd:4 var _class_name
+  Project-Heartbeat/tools/editor/timeline_items/EditorTimelineItem.gd:5 var _inheritance
+  Project-Heartbeat/tools/editor/timeline_items/EditorTimelineItem.gd:28 var update_affects_timing_points
+  Project-Heartbeat/tools/editor/timeline_items/EditorTimelineItem.gd:48 func get_editor_size
+  Project-Heartbeat/tools/editor/timeline_items/EditorTimelineItem.gd:166 func get_ph_editor_description
+  Project-Heartbeat/tools/new_inspector/HBNInspectorPropertyEditor.gd:32 func _init_inspector
+  tower-defense-godot4/entities/state_machine.gd:12 signal state_changed
+  tower-defense-godot4/entities/state_machine.gd:24 var states_map
+  tower-defense-godot4/entities/state_machine.gd:61 func _change_state
+  tower-defense-godot4/entities/enemies/enemy.gd:74 func _calculate_rot
+  tower-defense-godot4/entities/enemies/states/motion.gd:5 func _move
+  Improved-KCC/IKCC/ikcc.gd:200 var current_floor_normal
+  Improved-KCC/gui/menu.gd:8 var home_page_name
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:6 const WALK_SPEED
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:7 const RUN_MODIFIER
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:13 var camera_input
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:19 func move_player
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:24 func rotate_player_model
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:37 func force_update_is_on_floor
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:43 func get_movement_input
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:46 func get_run
+  BatteryAcid__godot-3d-multiplayer-template/scripts/states/movement/movement_state.gd:49 func get_jump
+  Godot4SourceEngineMovement/Scripts/playerMovementScripts/playerState.gd:7 var player
+  Godot4SourceEngineMovement/Scripts/playerMovementScripts/player_inputs.gd:34 func ViewAngles
+  Godot4SourceEngineMovement/Scripts/playerMovementScripts/player_inputs.gd:38 func InputKeys
+  PSGodotTemplateRepo/toolkit/nodes/effect.gd:8 signal effect_completed
+  PSGodotTemplateRepo/toolkit/nodes/effects/shader_swap.gd:12 func between_steps
+  RhythiaRewrite/scripts/game/managers/GameManager.gd:6 func _find_game
+  RhythiaRewrite/scripts/game/managers/GameManager.gd:19 func _post_ready
+  RhythiaRewrite/scripts/game/managers/SyncManager.gd:11 var real_time
+  RhythiaRewrite/scripts/game/managers/SyncManager.gd:43 func just_paused
+  RhythiaRewrite/scripts/game/managers/SyncManager.gd:45 func just_unpaused
+  RhythiaRewrite/scripts/game/map/objects/GameObject.gd:29 func get_visibility
+  RhythiaRewrite/scripts/game/renderers/ObjectRenderer.gd:13 func render_objects
+  RhythiaRewrite/scripts/menu/settings/SettingControl.gd:6 var signal_emitter
+  RhythiaRewrite/scripts/menu/settings/SettingControl.gd:7 var signal_name
+  RhythiaRewrite/scripts/menu/settings/SettingControl.gd:8 var property_name
+  RhythiaRewrite/scripts/menu/settings/SettingControl.gd:68 func signal_received
+  Cupcakes-Framework/Scripts/Nights/AI/ai.gd:14 func is_room_empty
+  Cupcakes-Framework/Scripts/Nights/AI/ai.gd:17 func move_options
+  Cupcakes-Framework/Scripts/Nights/AI/ai.gd:24 func move_to
+  Cupcakes-Framework/Scripts/Nights/Camera/camera.gd:8 var all_feeds
+  Cupcakes-Framework/Scripts/Nights/Camera/camera.gd:17 func set_feed
+  Stardew/Player/States/state.gd:21 func _update_animation
+  Resources-GDScript/Util/Components/health.gd:10 signal died
+  Lost-Pilot/scripts/entities/entity.gd:4 var map_position
+  Lost-Pilot/scripts/entities/actors/actor.gd:6 var turn_state
+  Lost-Pilot/scripts/menu_system/menu_base.gd:5 var menu_manager
+  sourceofmana/sources/actor/agent/NpcScript.gd:6 var own
+  sourceofmana/sources/actor/agent/NpcScript.gd:8 var steps
+  sourceofmana/sources/actor/agent/NpcScript.gd:25 func GetGlobal
+  sourceofmana/sources/actor/agent/NpcScript.gd:33 func GetNamedGlobalNPC
+  sourceofmana/sources/actor/agent/NpcScript.gd:53 func SetVisible
+  sourceofmana/sources/actor/agent/NpcScript.gd:88 func IsMonsterAlive
+  sourceofmana/sources/actor/agent/NpcScript.gd:107 func AddAIBehaviour
+  sourceofmana/sources/actor/agent/NpcScript.gd:175 func IsQuestCompleted
+  sourceofmana/sources/actor/agent/NpcScript.gd:189 func Notification
+  sourceofmana/sources/actor/agent/NpcScript.gd:195 func DisplayTracker
+  sourceofmana/sources/actor/agent/NpcScript.gd:202 func LookAtPosition
+  sourceofmana/sources/actor/agent/NpcScript.gd:207 func LookAtNpc
+  sourceofmana/sources/actor/agent/NpcScript.gd:215 func TriggerNpc
+  sourceofmana/sources/actor/agent/NpcScript.gd:222 func ResetCamera
+  sourceofmana/sources/actor/agent/NpcScript.gd:228 func Mes
+  sourceofmana/sources/actor/agent/NpcScript.gd:233 func Think
+  sourceofmana/sources/actor/agent/NpcScript.gd:238 func Narrate
+  sourceofmana/sources/actor/agent/NpcScript.gd:243 func Choice
+  sourceofmana/sources/actor/agent/NpcScript.gd:273 func Greeting
+  sourceofmana/sources/actor/agent/NpcScript.gd:278 func Farewell
+  sourceofmana/sources/actor/agent/NpcScript.gd:284 func AddTimer
+  sourceofmana/sources/actor/agent/NpcScript.gd:314 func HasItem
+  sourceofmana/sources/actor/agent/NpcScript.gd:320 func HasItemsSpace
+  sourceofmana/sources/actor/agent/NpcScript.gd:347 func HasSpace
+  sourceofmana/sources/actor/agent/NpcScript.gd:444 func ApplyStep
+  sourceofmana/sources/actor/agent/NpcScript.gd:524 func OnStart
+  sourceofmana/sources/actor/agent/NpcScript.gd:526 func OnTrigger
+  sourceofmana/sources/actor/agent/NpcScript.gd:527 func OnAreaEnter
+  sourceofmana/sources/actor/agent/NpcScript.gd:528 func OnAreaExit
+  sourceofmana/sources/gui/WindowPanel.gd:13 var saveOverlayState
+  sourceofmana/sources/gui/WindowPanel.gd:15 var maxSize
+  sourceofmana/sources/gui/WindowPanel.gd:36 func ResizeWindow
+  sourceofmana/sources/gui/WindowPanel.gd:155 func EnableControl
+  sourceofmana/sources/network/Interface.gd:10 var bulks
+  sourceofmana/sources/network/Interface.gd:12 var useWebSocket
+  sourceofmana/sources/network/Interface.gd:13 var useWebRTC
+  sourceofmana/sources/network/Interface.gd:15 var isLocal
+  sourceofmana/sources/network/Interface.gd:17 var rtcConnections
+  sourceofmana/sources/network/Interface.gd:70 func RtcMultiplayerPeer
+  sourceofmana/sources/network/Interface.gd:73 func CreateRtcConnection
+  sourceofmana/sources/network/Interface.gd:82 func AddRtcIceCandidate
+  sourceofmana/sources/network/Interface.gd:87 func RemoveRtcConnection
+  sourceofmana/sources/scripts/generic/MerchantScript.gd:9 func GetStock
+  sourceofmana/sources/scripts/generic/WarpGlobal.gd:15 func OnWarpConfirm
+  godot-card-game-frame/cards/card.gd:14 var cardInfo
+  godot-card-game-frame/cards/card.gd:16 var pickButton
+  godot-card-game-frame/cards/card.gd:119 func drawCard
+  Godot-2D-Action-Game/scenes/game/effect/AnimatedEffect.gd:4 var sp
+  soccer-course/scenes/ball/ball_states/ball_state.gd:13 var sprite
+  soccer-course/scenes/ball/ball_states/ball_state.gd:28 func set_ball_animation_from_velocity
+  soccer-course/scenes/ball/ball_states/ball_state.gd:48 func move_and_bounce
+  soccer-course/scenes/characters/ai/ai_behavior.gd:27 func perform_ai_movement
+  soccer-course/scenes/characters/ai/ai_behavior.gd:30 func perform_ai_decisions
+  soccer-course/scenes/characters/ai/ai_behavior.gd:33 func get_bicircular_weight
+  soccer-course/scenes/characters/ai/ai_behavior.gd:44 func is_ball_possessed_by_opponent
+  soccer-course/scenes/characters/ai/ai_behavior.gd:47 func is_ball_carried_by_teammate
+  soccer-course/scenes/characters/ai/ai_behavior.gd:50 func has_opponents_nearby
+  soccer-course/scenes/characters/character_states/player_state.gd:6 var ai_behavior
+  soccer-course/scenes/game_manager/game_states/game_state.gd:6 var manager
+  soccer-course/scenes/screens/screen.gd:9 var screen_data
+  soccer-course/scenes/screens/screen.gd:18 func transition_screen
+  age-of-war/range_unit.gd:12 var multiple_melee_attack_animations
+  age-of-war/range_unit.gd:20 var sprite_idle_attack_position
+  age-of-war/range_unit.gd:21 var sprite_melee_attack_position
+  age-of-war/range_unit.gd:23 var sprite_walk_attack_position
+  age-of-war/range_unit.gd:141 func idle_attack_state
+  age-of-war/range_unit.gd:150 func melee_attack_state
+  age-of-war/range_unit.gd:178 func walk_attack_state
+  age-of-war/bases/turret.gd:6 var projectile_damge
+  age-of-war/bases/turret.gd:7 var projectile_speed
+  age-of-war/bases/turret.gd:8 var projectile_texture
+  age-of-war/bases/turret.gd:9 var spawn_projectile_offspring
+  age-of-war/bases/turret.gd:11 var projectile_rotation
+  age-of-war/bases/turret.gd:16 var spawn_projectile_frame
+  age-of-war/bases/turret.gd:17 var spawn_projectile_frame2
+  age-of-war/bases/turret.gd:18 var play_audio_frame
+  age-of-war/bases/turret.gd:19 var play_audio_frame2
+  age-of-war/bases/turret.gd:21 var no_rotation
+  age-of-war/bases/turret.gd:22 var play_audio_repeated
+  age-of-war/scripts/melee_unit.gd:6 var multiple_attack_animations
+  age-of-war/scripts/melee_unit.gd:7 var custom_death_sfx
+  age-of-war/scripts/melee_unit.gd:24 var sprite_attack_position
+  age-of-war/scripts/melee_unit.gd:134 func attack_state
+  tower-defense-tutorial/entities/shooter.gd:6 var fire_rate
+  tower-defense-tutorial/entities/shooter.gd:14 var can_shoot
+  tower-defense-tutorial/entities/shooter.gd:18 var muzzle_flash
+  tower-defense-tutorial/entities/shooter.gd:19 var shoot_sound
+  tower-defense-tutorial/entities/shooter.gd:21 var firerate_timer
+  tower-defense-tutorial/entities/shooter.gd:47 func _play_animations
+  tower-defense-tutorial/entities/shooter.gd:65 func _instantiate_projectile
+  Godot-4-Tower-Defense-Template/Scenes/turrets/turretBase/turret_base.gd:21 var current_target
+  Godot-4-Tower-Defense-Template/Scenes/turrets/turretBase/turret_base.gd:72 func try_get_closest_target
+  FRU-Sim/scenes/common/sequence.gd:33 func start_new_sequence
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:12 const COLOR_ALPHA
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:16 var mesh_instance_3d
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:17 var collision_shape_3d
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:30 var is_donut
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:31 var donut_inner_radius
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:73 func set_center_position
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:83 func set_lifetime
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:98 func set_fail_conditions
+  FRU-Sim/scenes/common/ground_markers/ground_marker.gd:113 func get_collisions
+  FRU-Sim/scenes/common/player_characters/playable_character.gd:14 var model_scene
+  FRU-Sim/scenes/common/player_characters/playable_character.gd:25 var role_key
+  FRU-Sim/scenes/common/player_characters/playable_character.gd:34 var is_player_character
+  FRU-Sim/scenes/common/player_characters/playable_character.gd:67 func reset_movement
+  FRU-Sim/scenes/common/player_characters/playable_character.gd:229 func set_model_meta
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:36 var margin_container
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:37 var move_ui_reset_button
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:39 var section_key
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:42 var previous_position
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:66 func init_position
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:79 func load_position_and_scale
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:86 func save_position
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:125 func on_mouse_click_up
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:143 func on_toggle_move_ui
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:153 func on_container_mouse_button_event
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:166 func on_ui_ready
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:176 func on_move_ui_on
+  FRU-Sim/scenes/ui/movable_canvas_layer.gd:178 func on_move_ui_off
+  godot_open_star_fighter/src/levels/modes/level_base.gd:5 var _player_ship
+  godot_open_star_fighter/src/levels/modes/level_base.gd:8 var _ship_tscn
+  godot_open_star_fighter/src/levels/modes/level_base.gd:9 var _ship_brain_comp_tscn
+  godot_open_star_fighter/src/levels/modes/level_base.gd:10 var _ship_brain_player_tscn
+  godot_open_star_fighter/src/levels/modes/level_base.gd:26 func set_player_ship
+  godot_open_star_fighter/src/levels/modes/level_base.gd:33 func _on_pause_menu_quit_level
+  godot_open_star_fighter/src/levels/modes/level_base.gd:37 func _on_pause_menu_restart_level
+  godot_open_star_fighter/src/menu_ui/mulit_page_ui/manager.gd:6 var _pages
+  godot_open_star_fighter/src/menu_ui/mulit_page_ui/page.gd:8 var _back_page_name
+  godot_open_star_fighter/src/ship_controllers/base.gd:6 signal afterburner_command
+  godot_open_star_fighter/src/ship_controllers/base.gd:13 var _ship
+  godot_open_star_fighter/src/ship_controllers/computer/states/base.gd:11 func _check_threats
+  dialogic/addons/dialogic/Core/index_class.gd:37 func _get_character_editor_sections
+  dialogic/addons/dialogic/Core/index_class.gd:86 func list_animations
+  dialogic/addons/dialogic/Core/index_class.gd:119 func scan_for_layout_parts
+  dialogic/addons/dialogic/Editor/dialogic_editor.gd:28 var alternative_text
+  dialogic/addons/dialogic/Editor/CharacterEditor/character_editor_main_settings_section.gd:34 func _load_character
+  dialogic/addons/dialogic/Editor/CharacterEditor/character_editor_main_settings_section.gd:41 func _save_changes
+  dialogic/addons/dialogic/Editor/CharacterEditor/character_editor_portrait_settings_section.gd:12 signal update_preview
+  dialogic/addons/dialogic/Editor/CharacterEditor/character_editor_portrait_settings_section.gd:40 func _load_portrait_data
+  dialogic/addons/dialogic/Editor/CharacterEditor/character_editor_portrait_settings_section.gd:47 func _recheck
+  dialogic/addons/dialogic/Modules/Background/Transitions/class_dialogic_background_transition.gd:34 func set_shader
+  dialogic/addons/dialogic/Modules/Background/Transitions/class_dialogic_background_transition.gd:46 func tween_shader_progress
+  dialogic/addons/dialogic/Modules/Background/Transitions/simple_push_transitions.gd:3 func setup_push_shader
+  dialogic/addons/dialogic/Modules/Character/class_dialogic_animation.gd:8 signal finished_once
+  dialogic/addons/dialogic/Modules/Character/class_dialogic_animation.gd:75 func get_modulation_property
+  dialogic/addons/dialogic/Modules/Character/class_dialogic_animation.gd:85 func get_node_size
+  dialogic/addons/dialogic/Modules/Character/class_dialogic_animation.gd:95 func get_node_origin
+  dialogic/addons/dialogic/Modules/Character/class_dialogic_animation.gd:103 func get_viewport_size
+  dialogic/addons/dialogic/Modules/Character/dialogic_portrait.gd:98 func apply_character_and_portrait
+  dialogic/addons/dialogic/Modules/Character/dialogic_portrait.gd:106 func apply_texture
+  dialogic/addons/dialogic/Resources/dialogic_identifiable_resource.gd:9 func _get_resource_name
+  dialogic/addons/dialogic/Resources/dialogic_layout_base.gd:72 func _get_persistent_info
+  dialogic/addons/dialogic/Resources/dialogic_layout_base.gd:77 func _load_persistent_info
+  godot_dialogue_manager/tests/test.gd:24 func create_resource
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:52 var display_name
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:53 var config_type
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:57 var automatic_config_edits
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:64 var config_allows_comments
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:69 var path_template
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:101 var config_path_candidates
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:112 var config_merge_path_templates
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:116 var config_merge_project_paths
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:139 var config_scope_envs
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:162 var server_key_path
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:170 var entry_url_field
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:181 var entry_extra_fields
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:192 var entry_initial_fields
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:217 var command_shape
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:221 var command_transport_key
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:222 var command_transport_value
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:235 var command_legacy_keys
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:248 var command_initial_fields
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:253 var command_user_fields
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:254 var command_timeout_fields
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:260 var detect_paths
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:279 var config_home_env
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:283 var config_home_env_subpath
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:286 var cli_names
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:293 var cli_register_template
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:294 var cli_unregister_template
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:298 var cli_status_args
+  godot-ai/plugin/addons/godot_ai/clients/_base.gd:308 var cli_scope_status_template
+  beehave/addons/beehave/nodes/beehave_node.gd:48 func _safe_tick
+  beehave/addons/beehave/nodes/composites/composite.gd:38 func _cleanup_running
+  beehave/addons/beehave/nodes/composites/composite.gd:46 func _interrupt_children
+  beehave/addons/beehave/nodes/composites/randomized_composite.gd:44 func get_shuffled_children
+  beehave/addons/beehave/nodes/leaves/leaf.gd:6 const EXPRESSION_PLACEHOLDER
+  beehave/addons/beehave/nodes/leaves/leaf.gd:25 func _parse_expression
+  beehave/addons/beehave/nodes/leaves/leaf.gd:40 func _get_expression_sources
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:17 const Domain
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:29 var warning
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:30 var warning_ignore_no_transforms
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:40 var deprecation_message
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:41 var interrupt_update
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:97 func is_using_global_space
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:101 func is_using_local_space
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:105 func is_using_individual_instances_space
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:109 func use_global_space_by_default
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:113 func use_local_space_by_default
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:117 func use_individual_instances_space_by_default
+  scatter/addons/proton_scatter/src/modifiers/base_modifier.gd:127 func _process_transforms
+  scatter/addons/proton_scatter/src/stack/inspector_plugin/ui/modifier/components/base_parameter.gd:9 var _previous
+  scatter/addons/proton_scatter/src/stack/inspector_plugin/ui/modifier/components/base_parameter.gd:50 func _set_value
+  Gut/addons/gut/hook_script.gd:32 func run
+  Gut/addons/gut/test.gd:60 var ParameterFactory
+  Gut/addons/gut/test.gd:65 var InputFactory
+  Gut/addons/gut/test.gd:68 var InputSender
+  Gut/addons/gut/test.gd:86 var _fail_pass_text
+  Gut/addons/gut/test.gd:100 var _awaiter
+  Gut/addons/gut/test.gd:160 func _fail
+  Gut/addons/gut/test.gd:416 func should_skip_script
+  Gut/addons/gut/test.gd:421 func before_all
+  Gut/addons/gut/test.gd:426 func before_each
+  Gut/addons/gut/test.gd:430 func after_each
+  Gut/addons/gut/test.gd:435 func after_all
+  Gut/addons/gut/test.gd:451 func is_passing
+  Gut/addons/gut/test.gd:462 func is_failing
+  Gut/addons/gut/test.gd:474 func pass_test
+  Gut/addons/gut/test.gd:479 func fail_test
+  Gut/addons/gut/test.gd:495 func set_double_strategy
+  Gut/addons/gut/test.gd:534 func watch_signals
+  Gut/addons/gut/test.gd:544 func get_signal_emit_count
+  Gut/addons/gut/test.gd:592 func get_signal_parameters
+  Gut/addons/gut/test.gd:609 func get_call_parameters
+  Gut/addons/gut/test.gd:630 func get_call_count
+  Gut/addons/gut/test.gd:697 func use_parameters
+  Gut/addons/gut/test.gd:720 func run_x_times
+  Gut/addons/gut/test.gd:765 func skip_if_godot_version_ne
+  Gut/addons/gut/test.gd:780 func compare_deep
+  Gut/addons/gut/test.gd:857 func assert_eq
+  Gut/addons/gut/test.gd:894 func assert_ne
+  Gut/addons/gut/test.gd:929 func assert_almost_eq
+  Gut/addons/gut/test.gd:940 func assert_almost_ne
+  Gut/addons/gut/test.gd:980 func assert_gt
+  Gut/addons/gut/test.gd:1027 func assert_lt
+  Gut/addons/gut/test.gd:1048 func assert_true
+  Gut/addons/gut/test.gd:1061 func assert_false
+  Gut/addons/gut/test.gd:1085 func assert_between
+  Gut/addons/gut/test.gd:1113 func assert_not_between
+  Gut/addons/gut/test.gd:1146 func assert_has
+  Gut/addons/gut/test.gd:1155 func assert_does_not_have
+  Gut/addons/gut/test.gd:1180 func assert_file_exists
+  Gut/addons/gut/test.gd:1204 func assert_file_does_not_exist
+  Gut/addons/gut/test.gd:1227 func assert_file_empty
+  Gut/addons/gut/test.gd:1250 func assert_file_not_empty
+  Gut/addons/gut/test.gd:1259 func assert_has_method
+  Gut/addons/gut/test.gd:1273 func assert_accessors
+  Gut/addons/gut/test.gd:1332 func assert_exports
+  Gut/addons/gut/test.gd:1455 func assert_connected
+  Gut/addons/gut/test.gd:1480 func assert_not_connected
+  Gut/addons/gut/test.gd:1538 func assert_signal_emitted
+  Gut/addons/gut/test.gd:1579 func assert_signal_not_emitted
+  Gut/addons/gut/test.gd:1637 func assert_signal_emitted_with_parameters
+  Gut/addons/gut/test.gd:1705 func assert_signal_emit_count
+  Gut/addons/gut/test.gd:1745 func assert_has_signal
+  Gut/addons/gut/test.gd:1777 func assert_is
+  Gut/addons/gut/test.gd:1809 func assert_typeof
+  Gut/addons/gut/test.gd:1847 func assert_string_contains
+  Gut/addons/gut/test.gd:1880 func assert_string_starts_with
+  Gut/addons/gut/test.gd:1909 func assert_string_ends_with
+  Gut/addons/gut/test.gd:1946 func assert_called
+  Gut/addons/gut/test.gd:1986 func assert_not_called
+  Gut/addons/gut/test.gd:2021 func assert_called_count
+  Gut/addons/gut/test.gd:2040 func assert_null
+  Gut/addons/gut/test.gd:2049 func assert_not_null
+  Gut/addons/gut/test.gd:2068 func assert_freed
+  Gut/addons/gut/test.gd:2076 func assert_not_freed
+  Gut/addons/gut/test.gd:2086 func assert_no_new_orphans
+  Gut/addons/gut/test.gd:2147 func assert_property
+  Gut/addons/gut/test.gd:2174 func assert_eq_deep
+  Gut/addons/gut/test.gd:2323 func assert_engine_error_count
+  Gut/addons/gut/test.gd:2348 func assert_engine_error
+  Gut/addons/gut/test.gd:2367 func assert_push_error_count
+  Gut/addons/gut/test.gd:2389 func assert_push_error
+  Gut/addons/gut/test.gd:2405 func assert_push_warning_count
+  Gut/addons/gut/test.gd:2416 func assert_push_warning
+  Gut/addons/gut/test.gd:2454 func wait_frames
+  Gut/addons/gut/test.gd:2480 func wait_idle_frames
+  Gut/addons/gut/test.gd:2586 func did_wait_timeout
+  Gut/addons/gut/test.gd:2713 func ignore_method_when_doubling
+  Gut/addons/gut/test.gd:2726 func stub
+  Gut/addons/gut/test.gd:2774 func autoqfree
+  Gut/addons/gut/test.gd:2780 func add_child_autofree
+  Gut/addons/gut/test.gd:2789 func add_child_autoqfree
+  Gut/addons/gut/test.gd:2824 func yield_for
+  Gut/addons/gut/test.gd:2830 func yield_to
+  Gut/addons/gut/test.gd:2836 func yield_frames
+  Gut/addons/gut/test.gd:2866 func assert_call_count
+  Gut/addons/gut/test.gd:2875 func assert_setget
+  Gut/test/resources/tools/gut_internal_tester.gd:5 var verbose
+  Gut/test/resources/tools/gut_internal_tester.gd:10 const DOUBLE_ME_SCENE_PATH
+  Gut/test/resources/tools/gut_internal_tester.gd:11 var DoubleMeScene
+  Gut/test/resources/tools/gut_internal_tester.gd:26 var TestCollector
+  Gut/test/resources/tools/gut_internal_tester.gd:55 func assert_logger_warn
+  Gut/test/resources/tools/gut_internal_tester.gd:63 func assert_logger_errored
+  Gut/test/resources/tools/gut_internal_tester.gd:71 func assert_deprecated
+  Gut/test/resources/tools/gut_internal_tester.gd:79 func assert_has_logger
+  Gut/test/resources/tools/gut_internal_tester.gd:150 func new_gut
+  Gut/test/resources/tools/gut_internal_tester.gd:162 func new_no_print_logger
+  Gut/test/resources/tools/gut_internal_tester.gd:210 func assert_tracked_gut_error
+  Gut/test/resources/tools/gut_internal_tester.gd:220 func assert_tracked_gut_error_text
+  Gut/test/resources/tools/gut_internal_tester.gd:253 func skip_if_debugger_active
+  SmartShape2D/addons/rmsmartshape/actions/action_add_point.gd:9 var _position
+  SmartShape2D/addons/rmsmartshape/tools/editor_tool.gd:41 func create_options_item
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.gd:27 var menu_buttons_box_container
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.gd:39 func load_game_scene
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.gd:49 func new_game
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.gd:66 func _open_sub_menu
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/main_menu/main_menu.gd:73 func _close_sub_menu
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/list_option_control.gd:10 var option_values
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/list_option_control.gd:43 func _value_title_map
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/option_control.gd:59 var property_type
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/option_control.gd:66 func _on_setting_changed
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/menus/options_menu/option_control/option_control.gd:71 func _get_setting
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/windows/popup_window_panel.gd:31 var _scene_tree
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/windows/window_panel.gd:12 var update_content
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/windows/window_panel.gd:40 var close_button
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/windows/window_panel.gd:67 func _handle_cancel_input
+  Godot-Game-Template/addons/maaacks_game_template/base/nodes/windows/window_panel.gd:82 func _on_close_button_pressed
+  Godot-Game-Template/addons/maaacks_scene_loader/base/nodes/loading_screen/loading_screen.gd:32 var _scene_loading_progress
+  Godot-Game-Template/addons/maaacks_scene_loader/base/nodes/loading_screen/loading_screen.gd:39 var _total_loading_progress
+  Godot-Game-Template/addons/maaacks_scene_loader/base/nodes/loading_screen/loading_screen.gd:45 func update_total_loading_progress
+  Godot-Game-Template/addons/maaacks_scene_loader/base/nodes/loading_screen/loading_screen.gd:48 func _reset_loading_stage
+  Godot-Game-Template/addons/maaacks_scene_loader/base/nodes/loading_screen/loading_screen.gd:65 func _set_scene_loading_complete
+  gaea/addons/gaea/editor/custom_controls/range_slider.gd:76 var _orientation
+  gaea/addons/gaea/editor/graph/argument_editors/argument_editor.gd:55 func _on_hint_changed
+  gaea/addons/gaea/editor/graph/argument_editors/argument_editor.gd:82 func set_label_text
+  gaea/addons/gaea/editor/graph/nodes/node.gd:64 func _on_added
+  gaea/addons/gaea/editor/graph/nodes/node.gd:309 func _on_removed
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:22 signal traversed
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:110 func _on_added_to_graph
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:120 func _on_removed_from_graph
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:128 func notify_argument_hint_changed
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:133 func set_tree_name_override
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:138 func set_default_argument_value_override
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:262 func _get_title
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:274 func _get_extra_documentation
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:281 func _get_tree_items
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:288 func _get_enums_count
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:329 func _get_enum_option_icon
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:346 func _get_arguments_list
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:351 func _get_argument_type
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:356 func _get_argument_display_name
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:364 func _get_argument_default_value
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:371 func _get_argument_description
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:378 func _get_argument_hint
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:386 func _has_argument_editor
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:393 func _has_input_slot
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:405 func _get_output_port_display_name
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:411 func _get_output_port_description
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:425 func _get_overridden_output_port_idx
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:436 func _get_custom_saved_data
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:463 func _get_arg
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:553 func _use_caching
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:561 func _get_required_arguments
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:599 func _get_argument_connection
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:638 func _log_execute
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:645 func _log_time
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:652 func _log_layer
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:664 func _log_data
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:702 func _display_documentation_button
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:712 func _get_scene
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:720 func _get_scene_script
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:725 func _get_axis_range
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:778 func _is_point_outside_area
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:791 func _get_seed
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:803 func _get_rng
+  gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:811 func _load_save_data
+  gaea/addons/gaea/runtime/graph_nodes/generic_classes/number_operation.gd:180 func _get_operation_definitions
+  gaea/addons/gaea/runtime/graph_nodes/root/map/mappers/mapper.gd:85 func _passes_mapping
+  gaea/addons/gaea/runtime/graph_nodes/root/sampling/filters/filter.gd:66 func _passes_filter
+  gaea/addons/gaea/runtime/graph_nodes/root/sampling/noise/noise.gd:86 func _get_noise_value
+  gaea/addons/gaea/runtime/graph_nodes/root/vector/vector_base.gd:15 func _get_vector_type
+  gaea/addons/gaea/runtime/graph_nodes/root/vector/vector_base.gd:19 func _get_vector_type_name
+  gaea/addons/gaea/runtime/graph_nodes/root/vector/vector_base.gd:55 func _is_integer_vector
+  gaea/addons/gaea/runtime/graph_nodes/special/parameter.gd:45 func _get_variant_type
+  gaea/addons/gaea/runtime/graph_nodes/special/parameter.gd:50 func _get_property_hint
+  gaea/addons/gaea/runtime/graph_nodes/special/parameter.gd:55 func _get_property_hint_string
+  gaea/addons/gaea/runtime/resources/materials/material.gd:33 func _is_sampled
+  gaea/addons/gaea/runtime/resources/materials/material.gd:43 func _is_data
+  gaea/addons/gaea/runtime/resources/materials/material.gd:54 func _get_sampled_resource
+  gaea/addons/gaea/runtime/resources/materials/material.gd:66 func _get_resource
+  gaea/addons/gaea/runtime/scene_nodes/chunk_loaders/actor.gd:14 func _get_chunk_position
+  gaea/addons/gaea/runtime/scene_nodes/renderers/renderer.gd:69 func _render
+  gaea/addons/gaea/runtime/scene_nodes/renderers/renderer.gd:74 func _erase_area
+  gaea/addons/gaea/runtime/scene_nodes/renderers/renderer.gd:80 func _reset
+  gaea/addons/gaea/runtime/scene_nodes/threading/priority.gd:33 func _calculate
+  gaea/addons/gaea/runtime/scene_nodes/threading/task.gd:53 func _set_results
+  gaea/addons/gaea/runtime/scene_nodes/threading/task.gd:57 func _get_results
+  gaea/addons/gaea/runtime/scene_nodes/threading/task.gd:69 func _on_cancel
+  gaea/addons/gaea/runtime/scene_nodes/threading/task.gd:82 func _compare
+  gaea/addons/gaea/runtime/scene_nodes/threading/task.gd:92 func _equals
+  gaea/testing/test_grid_output_base.gd:8 func _assert_output_grid_matches
+  gaea/testing/graph_nodes/operations/num_op.gd:32 func _get_failure_message
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/actions/cyclops_action.gd:43 func calc_pivot_of_blocks
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/gui/keymap/menu_line_item.gd:28 signal menu_tree_changed
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/overlays/cyclops_overlay_object.gd:32 func get_editor_control
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/overlays/cyclops_overlay_object.gd:35 func _draw_overlay
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/resources/data_vector.gd:65 func equals_data
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/resources/data_vector.gd:71 func get_data_format_type
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/resources/data_vector.gd:95 func data_type_num_components
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/cyclops_tool.gd:29 var tool_owner
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/cyclops_tool.gd:45 func _get_tool_id
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/cyclops_tool.gd:161 func calc_empty_space_draw_plane_origin
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/cyclops_tool.gd:186 func calc_hit_point_empty_space
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/cyclops_tool.gd:216 func calc_active_block_orthogonal_height
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/cyclops_tool.gd:228 func select_block_under_cursor
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/tool_edit_base.gd:59 func pick_material
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/tool_edit_base.gd:74 func calc_gizmo_basis
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/tool_edit_base.gd:105 func constrain_cursor
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/gizmos/gizmo_base.gd:40 func intersect_part
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:36 var mvd_cache
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:41 var view_uv_editor
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:48 func clear_tracked_blocks
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:55 func track_selected_blocks
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:71 func cache_selected_blocks
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:80 func get_selected_uv_center
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:217 func get_sticky_uvs
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/tools/uv_editor/tool_uv.gd:252 func select_face_vertices
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/util/xml/XML_node.gd:28 func format_document_recursive
+  godot-statecharts/addons/godot_state_charts/state_chart_state.gd:113 func _state_exit
+  godot-statecharts/addons/godot_state_charts/state_chart_state.gd:135 func _state_save
+  godot-statecharts/addons/godot_state_charts/state_chart_state.gd:172 func _state_restore
+  godot-statecharts/tests/framework/state_chart_test_base.gd:22 func set_initial_expression_properties
+  godot-statecharts/tests/framework/state_chart_test_base.gd:34 func assert_active
+  godot-statecharts/tests/framework/state_chart_test_base.gd:39 func assert_inactive
+  godot-statecharts/tests/framework/state_chart_test_base.gd:46 func finish_setup
+  godot-statecharts/tests/framework/state_chart_test_base.gd:60 func chart
+  godot-statecharts/tests/framework/state_chart_test_base.gd:70 func compound_state
+  godot-statecharts/tests/framework/state_chart_test_base.gd:86 func parallel_state
+  godot-statecharts/tests/framework/state_chart_test_base.gd:102 func atomic_state
+  godot-statecharts/tests/framework/state_chart_test_base.gd:116 func transition
+  godot-statecharts/tests/framework/state_chart_test_base.gd:132 func history_state
+  godot-statecharts/tests/framework/state_chart_test_base.gd:142 func expression_guard
+  godot-statecharts/tests/framework/state_chart_test_base.gd:148 func state_is_active_guard
+  godot-statecharts/tests/framework/state_chart_test_base.gd:156 func all_of_guard
+  godot-statecharts/tests/framework/state_chart_test_base.gd:163 func any_of_guard
+  godot-statecharts/tests/framework/state_chart_test_base.gd:222 func _collect_saved_state_paths
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:6 var current_layer_spinbox
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:7 var status_label
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:52 func on_layer_changed
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:69 func setup_new_layer
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:77 func on_zoom_changed
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:84 func _on_overlay_input
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:129 func _update_status_label
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/EditorMapView.gd:150 func _on_overlay_draw
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/BorderPaintEditor.gd:4 var border_property
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/BorderPaintEditor.gd:57 func modify_border
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/CellPaintEditor.gd:6 var can_pick
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/CellPaintEditor.gd:8 var whole_room
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/CellPaintEditor.gd:52 func update_hovered_room
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/CellPaintEditor.gd:86 func modify_cell
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/CellPaintEditor.gd:89 func modify_coords
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:8 var undo_active
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:11 var use_cursor
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:12 var room_only_cursor
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:13 var overlay_mode
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:14 var update_neighbors
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:16 var drag_from
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:17 var highlighted_room
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:18 var highlighted_border
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:29 func _editor_init
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:87 func get_rect_between
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:98 func get_square_border_idx
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:113 func get_cell_at_cursor
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:119 func redraw_overlay
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:126 func undo_begin
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:130 func undo_handle_cell_property
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:143 func undo_handle_cell_spawn
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:151 func undo_handle_cell_erase
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:163 func undo_handle_group_add
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:171 func undo_handle_group_remove
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:179 func undo_handle_element_add
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:189 func undo_handle_element_remove
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:199 func undo_handle_scene_add
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:210 func undo_handle_scene_remove
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:240 func undo_end
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:249 func undo_end_with_redraw
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:255 func undo_handle_cell_redraw
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Editor/SubEditor.gd:259 func undo_handle_rect_redraw
+  Metroidvania-System/addons/MetroidvaniaSystem/Template/Scripts/MetSysGame.gd:57 func _load_room
+  Metroidvania-System/addons/MetroidvaniaSystem/Template/Scripts/MetSysModule.gd:10 var game
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/GSAIGroupBehavior.gd:9 var _callback
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/GSAIGroupBehavior.gd:20 func _report_neighbor
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/GSAISteeringBehavior.gd:29 func _calculate_steering
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Agents/GSAISpecializedAgent.gd:15 var apply_linear_drag
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Agents/GSAISpecializedAgent.gd:20 var apply_angular_drag
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Agents/GSAISpecializedAgent.gd:32 var _last_orientation
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Agents/GSAISpecializedAgent.gd:33 var _applied_steering
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Behaviors/GSAIArrive.gd:23 func _arrive
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Behaviors/GSAIMatchOrientation.gd:19 var use_z
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Behaviors/GSAIMatchOrientation.gd:28 func _match_orientation
+  godot-steering-ai-framework/godot/addons/com.gdquest.godot-steering-ai-framework/Behaviors/GSAIPursue.gd:38 func _get_modified_acceleration
+  PankuConsole/addons/panku_console/common/panku_module.gd:14 func init_module
+  PankuConsole/addons/panku_console/common/panku_module.gd:34 func load_module_data
+  PankuConsole/addons/panku_console/common/panku_module.gd:46 func load_window_data
+  PankuConsole/addons/panku_console/common/panku_module.gd:61 func save_window_data
+  PankuConsole/addons/panku_console/common/panku_module.gd:72 func add_auto_save_hook
+  PankuConsole/addons/panku_console/common/panku_module.gd:81 func get_module_opt
+  PankuConsole/addons/panku_console/modules/data_controller/exporter/row_ui.gd:8 func get_ui_val
+  godot-aseprite-wizard/addons/AsepriteWizard/creators/base_sprite_resource_creator.gd:12 func _load_compressed_texture
+  godot-aseprite-wizard/addons/AsepriteWizard/creators/animation_player/animation_creator.gd:293 func _setup_texture
+  godot-aseprite-wizard/addons/AsepriteWizard/creators/animation_player/animation_creator.gd:297 func _get_frame_property
+  godot-aseprite-wizard/addons/AsepriteWizard/creators/animation_player/animation_creator.gd:302 func _get_frame_key
+  godot-aseprite-wizard/addons/AsepriteWizard/creators/animation_player/animation_creator.gd:306 func _get_props_to_cleanup
+  godot-aseprite-wizard/addons/AsepriteWizard/importers/multiple_import_plugin_base.gd:118 func _layer_extension
+  godot-aseprite-wizard/addons/AsepriteWizard/importers/multiple_import_plugin_base.gd:121 func _get_base_import_options
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:19 var _importing
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:54 var _embed_field
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:124 func _update_pending_fields
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:532 func _hide_sheet_fields
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:538 func _show_sheet_fields
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:545 func _show_message
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:554 func _notify_aseprite_error
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:620 func _pre_setup
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:625 func _setup
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:629 func _load_default_config
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:638 func _get_available_layers
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:643 func _get_available_slices
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:648 func _get_current_field_values
+  godot-aseprite-wizard/addons/AsepriteWizard/interface/docks/base_inspector_dock.gd:656 func _show_specific_fields
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:17 const TransformGenerator
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:23 var randomizer
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:26 var brush
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:29 var space_state
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:101 func should_abort_early
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:160 func volume_get_stroke_update_changes
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/arborist/stroke_handler/stroke_handler.gd:226 func proj_get_stroke_update_changes
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:136 func set_thumb_interaction_feature
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:149 func _generate_thumbnail
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:164 func _generate_thumbnail_create_inst
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:180 func on_requested_add
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:185 func on_requested_delete
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:190 func on_requested_clear
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:251 func set_res_for_thumbnail
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_if_thumbnail_base.gd:263 func _queue_thumbnail
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:32 var container_box
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:45 var val_cache
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:48 var tab_index
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:53 var visibility_forced
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:56 var disable_history
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:184 func _update_ui_to_prop_action
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:190 func _update_ui_to_val
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:196 func _request_prop_action
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/ui_input_field.gd:226 func on_node_received_input
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/action_thumbnail/ui_action_thumbnail.gd:38 var new_texture
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/action_thumbnail/ui_action_thumbnail.gd:123 func _set_default_textures
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/controls/input_fields/action_thumbnail/ui_action_thumbnail.gd:188 func enable_features_to_flag
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:30 const UI_InputField
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:31 const UI_IF_Bool
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:32 const UI_IF_Enum
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:33 const UI_IF_MultiRange
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:34 const UI_IF_RealSlider
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:35 const UI_IF_IntSlider
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:36 const UI_IF_IntLineEdit
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:37 const UI_IF_ThumbnailArray
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:38 const UI_IF_ApplyChanges
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:39 const UI_IF_Button
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:40 const UI_IF_PlainText
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:42 const UI_IF_ThumbnailObject
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:43 const UI_IF_IntFlags
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:56 var input_field_blacklist
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:188 func ifr_from_dict
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:246 func _fix_duplicate_signals
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:262 func on_prop_action_requested
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:412 func _modify_prop
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:427 func _filter_prop_dictionary
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:451 func _emit_property_list_changed_notify
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:485 func create_input_field
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:514 func _create_input_field
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:519 func on_if_tree_entered
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:538 func get_prop_tooltip
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:551 func _add_prop_dependency
+  godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/input_field_resource/input_field_resource.gd:582 func _add_res_edit_source_array
+  godot_spatial_gardener/testing/tests/test_base.gd:14 var is_executing
+  godot_spatial_gardener/testing/tests/test_base.gd:18 signal finished_execution
+  godot_spatial_gardener/testing/tests/test_base.gd:43 func finish_execution
+  godot_spatial_gardener/testing/tests/test_base.gd:53 func print_and_get_result
+  godot_spatial_gardener/testing/tests/test_base.gd:75 func execute_undo_redo_sequence
+  godot_spatial_gardener/testing/tests/test_base.gd:99 func on_finished_undo_redo_action
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:8 const OctreeSnapshotCheck
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:21 var greenhouse_path
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:22 var gardener
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:23 var editor_selection
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:25 var painting_data
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:26 var painter_script
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:27 var stage
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:32 const PRESET_COVERAGE_MODES_1COVER_4CENTER100
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:35 const PRESET_COVERAGE_MODES_1COVER
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:37 const PRESET_COVERAGE_MODES_1_CLEAR
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:39 const PRESET_COVERAGE_MODES_5_CLEAR
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:77 func select_brush
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:101 func execute_next_stage
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:116 func finished_painter_action
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:120 func print_and_get_result_indexed
+  godot_spatial_gardener/testing/tests/gardener_tests/test_gardener_base.gd:177 func get_coverage_modes_list
+  godot_spatial_gardener/testing/tests/plant_tests/test_plant_base.gd:15 func load_greenhouses
+  gdUnit4/addons/gdUnit4/src/GdUnitArrayAssert.gd:76 func contains_same
+  gdUnit4/addons/gdUnit4/src/GdUnitArrayAssert.gd:81 func contains_same_exactly
+  gdUnit4/addons/gdUnit4/src/GdUnitArrayAssert.gd:86 func contains_same_exactly_in_any_order
+  gdUnit4/addons/gdUnit4/src/GdUnitArrayAssert.gd:110 func not_contains_same
+  gdUnit4/addons/gdUnit4/src/core/execution/stages/IGdUnitExecutionStage.gd:23 func fire_event
+  gdUnit4/addons/gdUnit4/src/core/execution/stages/IGdUnitExecutionStage.gd:32 func set_debug_mode
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:27 const RETURN_SUCCESS
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:28 const RETURN_ERROR
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:29 const RETURN_ERROR_HEADLESS_NOT_SUPPORTED
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:31 const RETURN_ERROR_SCRIPT_ERRORS_DETECTED
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:32 const RETURN_WARNING
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:51 var max_report_history
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:58 var _runner_config
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:60 var _executor
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:67 var _test_session
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:132 func init_runner
+  gdUnit4/addons/gdUnit4/src/core/runners/GdUnitTestSessionRunner.gd:145 func get_exit_code
+  gdUnit4/addons/gdUnit4/src/core/writers/GdUnitMessageWriter.gd:179 func _print_stack_trace
+  gdUnit4/addons/gdUnit4/src/core/writers/GdUnitMessageWriter.gd:190 func _print_message
+  gdUnit4/addons/gdUnit4/src/core/writers/GdUnitMessageWriter.gd:201 func _println_message
+  gdUnit4/addons/gdUnit4/src/core/writers/GdUnitMessageWriter.gd:214 func _print_at
+  gdUnit4/addons/gdUnit4/src/doubler/GdUnitClassDoubler.gd:17 const EXLCUDE_SCENE_FUNCTIONS
+  gdUnit4/addons/gdUnit4/src/doubler/GdUnitClassDoubler.gd:66 func double_functions
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:4 var _resource_path
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:6 var _test_count
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:7 var _failure_count
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:8 var _error_count
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:9 var _orphan_count
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:10 var _skipped_count
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:11 var _flaky_count
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:12 var _duration
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportSummary.gd:14 var _text_formatter
+  gdUnit4/addons/gdUnit4/src/reporters/GdUnitReportWriter.gd:10 func output_format
+  gdUnit4/addons/gdUnit4/src/update/GdUnitPatch.gd:4 const PATCH_VERSION
+  godot-road-generator/addons/road-generator/procgen/intersection_settings.gd:82 func can_generate_mesh
+  godot-road-generator/addons/road-generator/procgen/intersection_settings.gd:93 func get_min_distance_from_intersection_point
+  netfox/addons/netfox/serializers/base-snapshot-serializer.gd:9 var _default_filter
+  netfox/addons/netfox/serializers/base-snapshot-serializer.gd:19 func _write_property
+  netfox/addons/netfox/serializers/base-snapshot-serializer.gd:22 func _read_property
+  netfox/addons/netfox/serializers/base-snapshot-serializer.gd:25 func _write_identifier
+  netfox/addons/netfox/serializers/base-snapshot-serializer.gd:36 func _get_identity_server
+  netfox/addons/netfox/servers/network-command-server.gd:53 func send_command
+  netfox/addons/netfox.extras/weapon/network-weapon-hitscan-3d.gd:128 func _on_fire
+  netfox/examples/forest-brawl/scripts/effects/effect.gd:44 func _apply
+  netfox/examples/forest-brawl/scripts/effects/effect.gd:47 func _cease
+  netfox/examples/forest-brawl/scripts/effects/effect.gd:50 func get_target
+  netfox/examples/forest-brawl/ui/menus/base-menu.gd:13 func _cancel
+  netfox/examples/forest-brawl/ui/menus/base-menu.gd:16 func _switch_to
+  netfox/examples/forest-brawl/ui/menus/base-menu.gd:20 func _back
+  netfox/examples/property-configuration/scripts/base-subject.gd:3 func _get_synchronized_state_properties
+  netfox/test/netfox/serializers/snapshot-serializer-test.gd:8 func to_buffer
+  pandora/addons/pandora/model/type.gd:16 var _settings
+  pandora/addons/pandora/model/type.gd:61 func is_actual_type
+  pandora/addons/pandora/ui/components/properties/property_control.gd:11 var _fields_settings
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/import_export/formats_edit/edit_base.gd:19 func create_resource
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/import_export/formats_edit/edit_tres.gd:4 var timer
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_cells/cell_editor.gd:7 const CELL_SCENE_DIR
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_cells/cell_editor.gd:54 func text_to_random_color
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_cells/cell_editor_array.gd:30 func _write_value_to_child
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_array.gd:4 var recent_container
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_array.gd:7 var value_input
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_array.gd:10 var _stored_type
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_array.gd:95 func _add_values
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_array.gd:129 func _add_recent
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_array.gd:149 func _on_recent_clicked
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_base.gd:9 var sheet
+  godot-resources-as-sheets-plugin/addons/resources_spreadsheet_view/typed_editors/dock_base.gd:33 func resize_drag
+  gloot/addons/gloot/core/constraints/inventory_constraint.gd:73 func _on_inventory_set
+  gloot/addons/gloot/ui/ctrl_inventory_item_base.gd:11 signal item_changed
+  gloot/addons/gloot/ui/ctrl_inventory_item_base.gd:14 signal icon_stretch_mode_changed
+  gloot/addons/gloot/ui/ctrl_inventory_item_base.gd:17 signal icon_flip_h_changed
+  gloot/addons/gloot/ui/ctrl_inventory_item_base.gd:20 signal icon_flip_v_changed
+  gloot/tests/test_suite.gd:5 var tests
+  gloot/tests/test_suite.gd:16 func init_suite
+  gloot/tests/test_suite.gd:26 func init_test
+  gloot/tests/test_suite.gd:31 func cleanup_test
+  gloot/tests/test_suite.gd:47 func create_inventory
+  gloot/tests/test_suite.gd:53 func create_inventory_stacked
+  gloot/tests/test_suite.gd:61 func create_inventory_grid
+  gloot/tests/test_suite.gd:69 func enable_weight_constraint
+  gloot/tests/test_suite.gd:76 func enable_grid_constraint
+  gloot/tests/test_suite.gd:83 func enable_item_count_constraint
+  gloot/tests/test_suite.gd:97 func free_inventory
+  gloot/tests/test_suite.gd:112 func free_slot
+  gloot/tests/test_suite.gd:124 func is_node_valid
+  unidot_importer/thread_worker.gd:65 func push_work_obj
+  unidot_importer/thread_worker.gd:77 func _run_single_item
+  Godot-MCP-Native/addons/godot_mcp/native_mcp/mcp_http_server_legacy.gd:452 func _handle_post_request
+  Godot-MCP-Native/addons/godot_mcp/native_mcp/mcp_http_server_legacy.gd:488 func _handle_get_request
+  Godot-MCP-Native/addons/godot_mcp/native_mcp/mcp_http_server_legacy.gd:511 func _handle_options_request
+  Godot-MCP-Native/addons/godot_mcp/native_mcp/mcp_transport_base.gd:65 func send_response
+  godot_sound_manager/addons/sound_manager/abstract_audio_player_pool.gd:9 var busy_players
+  godot_sound_manager/addons/sound_manager/abstract_audio_player_pool.gd:36 func prepare
+  godot_sound_manager/addons/sound_manager/abstract_audio_player_pool.gd:69 func get_busy_player_with_resource
+  godot_sound_manager/addons/sound_manager/abstract_audio_player_pool.gd:110 func fade_volume
+  godot-engine.easy-charts/addons/easy_charts/control_charts/plotters/function_plotter.gd:46 func get_chart_properties
+  godot-engine.easy-charts/addons/easy_charts/control_charts/plotters/function_plotter.gd:49 func get_relative_position
+  godot-engine.easy-charts/addons/easy_charts/control_charts/plotters/line_plotter.gd:4 func _get_spline_points
+  godot-engine.easy-charts/addons/easy_charts/control_charts/plotters/line_plotter.gd:27 func _get_stair_points
+  godot-engine.easy-charts/addons/easy_charts/control_charts/plotters/scatter_plotter.gd:8 var points_positions
+  Qodot/addons/qodot/game_definitions/worldspawn_layers/liquid.gd:3 var buoyancy_factor
+  Qodot/addons/qodot/game_definitions/worldspawn_layers/liquid.gd:4 var lateral_damping_factor
+  Qodot/addons/qodot/game_definitions/worldspawn_layers/liquid.gd:5 var vertical_damping_factor
+  godot-xr-tools/addons/godot-xr-tools/interactables/interactable_handle_driven.gd:23 var grabbed_handles
+  godot-xr-tools/addons/godot-xr-tools/objects/pickable.gd:216 func drop
+  godot-xr-tools/addons/godot-xr-tools/objects/pickable.gd:421 func switch_active_grab_point
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:30 var stash_sound
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:37 var snap_mode
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:40 var snap_require
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:43 var snap_exclude
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:46 var grab_require
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:49 var grab_exclude
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:52 var initial_object
+  godot-xr-tools/addons/godot-xr-tools/objects/snap_zone.gd:295 func _on_target_dropped
+  godot-xr-tools/addons/godot-xr-tools/objects/force_body/force_body.gd:95 func rotate_and_collide
+  godot-xr-tools/addons/godot-xr-tools/objects/grab_points/grab_point.gd:44 func _weight
+  godot-xr-tools/addons/godot-xr-tools/staging/staging.gd:58 var prompt_for_continue
+  godot-gameplay-systems/addons/godot_gameplay_systems/attributes_and_abilities/resources/ability.gd:43 var tags_activation_required
+  godot-gameplay-systems/addons/godot_gameplay_systems/attributes_and_abilities/resources/ability.gd:46 var tags_block
+  godot-gameplay-systems/addons/godot_gameplay_systems/attributes_and_abilities/resources/ability.gd:57 var tags_end_blocking
+  godot-gameplay-systems/examples/doom_like_fps/items/weapons/weapon.gd:10 var bullet_damage
+  godot-gameplay-systems/examples/doom_like_fps/items/weapons/weapon.gd:11 var bullet_speed
+  godot-gameplay-systems/examples/doom_like_fps/items/weapons/weapon.gd:12 var reload_time
+  GodotFirebase/addons/godot-firebase/auth/auth_provider.gd:15 var client_secret
+  GodotFirebase/addons/godot-firebase/auth/auth_provider.gd:19 func set_client_id
+  GodotFirebase/addons/godot-firebase/auth/auth_provider.gd:22 func set_client_secret
+  GodotFirebase/addons/godot-firebase/auth/auth_provider.gd:31 func get_oauth_params
+  GodotFirebase/addons/godot-firebase/firestore/field_transform.gd:18 var transform_type
+  BehaviourToolkit/addons/behaviour_toolkit/behaviour_tree/bt_composite.gd:11 var leaves
+  BehaviourToolkit/addons/behaviour_toolkit/behaviour_tree/bt_decorator.gd:11 var leaf
+  gd-YAFSM/addons/imjp94.yafsm/scenes/condition_editors/ConditionEditor.gd:64 func _on_condition_changed
+  gd-YAFSM/addons/imjp94.yafsm/scenes/condition_editors/ValueConditionEditor.gd:27 func _on_value_changed
+  gd-YAFSM/addons/imjp94.yafsm/scenes/condition_editors/ValueConditionEditor.gd:51 func change_value_action
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:10 const FlowChartLayer
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:34 var content
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:38 var top_bar
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:39 var gadget
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:47 var can_gui_select_node
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:48 var can_gui_delete_node
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:49 var can_gui_connect_node
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:59 var _copying_nodes
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:502 func add_layer_to
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:507 func get_layer
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:513 func select_layer
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:541 func create_layer_instance
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:547 func create_line_instance
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:602 func duplicate_nodes
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:627 func _on_layer_selected
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:630 func _on_layer_deselected
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:634 func _on_node_added
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:638 func _on_node_removed
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:642 func _on_node_dragged
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:646 func _on_node_connected
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:650 func _on_node_disconnected
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:656 func _on_node_reconnect_begin
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:659 func _on_node_reconnect_end
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:662 func _on_node_reconnect_failed
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:665 func _request_connect_from
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:668 func _request_connect_to
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:672 func _on_duplicated
+  gd-YAFSM/addons/imjp94.yafsm/scenes/flowchart/FlowChart.gd:676 func content_position
+  gd-YAFSM/addons/imjp94.yafsm/src/StackPlayer.gd:27 func push
+  gd-YAFSM/addons/imjp94.yafsm/src/StackPlayer.gd:87 func get_previous
+  gd-YAFSM/addons/imjp94.yafsm/src/conditions/Condition.gd:22 func display_string
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/api/core/AdError.gd:26 var domain
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/api/core/AdError.gd:28 var cause
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/core/MobileSingletonPlugin.gd:26 func _get_plugin
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/core/MobileSingletonPlugin.gd:56 func safe_connect
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/core/MobileSingletonPlugin.gd:63 func safe_disconnect
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/mediation/MediationExtras.gd:38 func _get_android_mediation_extra_class_name
+  godot-admob-plugin/platforms/godot_editor/addons/admob/gdscript/src/mediation/MediationExtras.gd:44 func _get_ios_mediation_extra_class_name
+  godot-admob-plugin/platforms/godot_editor/addons/admob/internal/editor/popup_menu.gd:32 func add_menu_item
+  godot-admob-plugin/platforms/godot_editor/addons/admob/internal/exporters/base_export_plugin.gd:53 func _get_setting
+  godot-admob-plugin/platforms/godot_editor/addons/admob/internal/exporters/base_export_plugin.gd:59 func _discover_enabled_libs
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:13 func success
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:18 func error
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:26 func error_not_found
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:33 func error_invalid_params
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:37 func error_no_scene
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:41 func error_internal
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:45 func error_conflict
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:50 func require_string
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:57 func optional_string
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:64 func optional_bool
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:76 func optional_int
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:94 func optional_float
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:114 func require_dictionary_array
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:130 func get_game_user_dir
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:178 func get_editor
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:183 func get_edited_root
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:192 func normalize_project_path
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:208 func paths_match
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:218 func guard_expected_extension
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:232 func is_scene_resource_path
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:237 func get_open_scene_paths
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:253 func is_scene_path_open
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:263 func is_active_scene_path
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:270 func guard_offline_scene_save
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:285 func ensure_parent_dir
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:298 func unwrap_game_result
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:323 func send_game_command
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:451 func is_text_resource_open_in_script_editor
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:468 func guard_text_resource_write
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:488 func mark_current_scene_unsaved
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:499 func get_godot_version_string
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:506 func error_requires_godot
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:517 func get_unsaved_scene_paths
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:530 func get_unsaved_script_paths
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:542 func is_script_unsaved_in_editor
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:566 func get_open_script_editor_pairs
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:597 func record_failed_script_saves
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:612 func protect_script_buffers_before_save
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:626 func get_protected_unsaved_buffers
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:643 func get_buffers_differing_from_disk
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:661 func get_script_buffer_text
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:673 func reload_script_editor_buffers
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:681 func add_child_with_undo
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:691 func set_property_with_undo
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:869 func run_path_serialized
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:893 func verify_text_write
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:919 func watch_text_persistence
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:947 func write_file_atomic
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:1067 const INPUT_COMMANDS_PATH
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:1101 func handle_implicit_stop
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:1128 func write_input_payload
+  godot-mcp-pro/addons/godot_mcp/commands/base_command.gd:1175 func find_node_by_path
+  Pixelorama/src/Tools/BaseDraw.gd:22 var _drawer
+  Pixelorama/src/Tools/BaseDraw.gd:264 func update_mask
+  Pixelorama/src/Tools/BaseDraw.gd:282 func prepare_undo
+  Pixelorama/src/Tools/BaseDraw.gd:492 func get_coords_to_draw
+  Pixelorama/src/Tools/BaseDraw.gd:743 func _set_pixel
+  Pixelorama/src/Tools/BaseShapeDrawer.gd:52 func _get_shape_points
+  Pixelorama/src/Tools/BaseShapeDrawer.gd:56 func _get_shape_points_filled
+  Pixelorama/src/Tools/BaseTool.gd:10 var drawing_on_3d_node
+  Pixelorama/src/Tools/BaseTool.gd:12 var materials_3d
+  Pixelorama/src/Tools/BaseTool.gd:14 var _cursor
+  Pixelorama/src/Tools/BaseTool.gd:16 var _draw_cache
+  Pixelorama/src/Tools/BaseTool.gd:18 var _for_frame
+  Pixelorama/src/Tools/BaseTool.gd:22 var _spacing_mode
+  Pixelorama/src/Tools/BaseTool.gd:24 var _stroke_dimensions
+  Pixelorama/src/Tools/BaseTool.gd:39 func save_config
+  Pixelorama/src/Tools/BaseTool.gd:87 func manage_undo_redo_palettes
+  Pixelorama/src/Tools/BaseTool.gd:141 func get_spacing_position
+  Pixelorama/src/Tools/BaseTool.gd:183 func snap_position
+  Pixelorama/src/Tools/BaseTool.gd:230 func mirror_array
+  Pixelorama/src/Tools/BaseTool.gd:335 func get_3d_node_uvs
+  Pixelorama/src/Tools/BaseTool.gd:419 func _get_selected_draw_cels
+  Pixelorama/src/Tools/BaseTool.gd:434 func _get_selected_draw_images
+  Pixelorama/src/Tools/BaseTool.gd:449 func _flip_rect
+  Pixelorama/src/Tools/BaseTool.gd:460 func _create_polylines
+  Pixelorama/src/Tools/BaseTool.gd:479 func _fill_bitmap_with_points
+  Lorien/lorien/InfiniteCanvas/Cursor/BaseCursor.gd:7 var _pressure
+  Lorien/lorien/InfiniteCanvas/Tools/CanvasTool.gd:12 var _cursor
+  Lorien/lorien/InfiniteCanvas/Tools/CanvasTool.gd:15 var performing_stroke
+  Lorien/lorien/InfiniteCanvas/Tools/CanvasTool.gd:16 var disable_stroke
+  Lorien/lorien/InfiniteCanvas/Tools/CanvasTool.gd:18 var zooming_detected
+  Lorien/lorien/InfiniteCanvas/Tools/CanvasTool.gd:77 func add_subdivided_line
+  Lorien/lorien/InfiniteCanvas/Tools/CanvasTool.gd:97 func get_current_brush_stroke
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:66 const TEXTURE_TYPE
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:103 func do_compile_shader
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:359 func get_uniform_declarations
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:373 func get_input_texture_declarations
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:401 func create_output_texture
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:410 func create_depth_texture
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:413 func get_parameter_uniforms
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:424 func get_texture_uniforms
+  material-maker/addons/material_maker/engine/pipeline/pipeline.gd:452 func create_buffers_uniform_list
+  material-maker/addons/material_maker/engine/pipeline/rendering_pipeline.gd:20 func bind_buffer_uniforms
+  material-maker/addons/material_maker/engine/pipeline/rendering_pipeline.gd:25 func draw_list_extra_setup
+  material-maker/addons/material_maker/sdf_builder/tex/fbm.gd:34 func get_color_code_gs
+  material-maker/material_maker/nodes/base.gd:51 func wrap_string
+  material-maker/material_maker/nodes/base.gd:495 func load_generator
+  material-maker/material_maker/nodes/base.gd:507 func do_load_generator
+  material-maker/material_maker/nodes/base.gd:529 func save_generator
+  material-maker/material_maker/nodes/base.gd:541 func do_save_generator
+  material-maker/material_maker/nodes/minimal.gd:9 var close_button
+  material-maker/material_maker/nodes/minimal.gd:48 func init_buttons
+  material-maker/material_maker/nodes/minimal.gd:61 func reroll_generator_seed
+  material-maker/material_maker/nodes/minimal.gd:64 func on_generator_changed
+  material-maker/material_maker/nodes/minimal.gd:67 func update_node
+  material-maker/material_maker/nodes/minimal.gd:78 func get_slot_from_position
+  material-maker/material_maker/nodes/minimal.gd:109 func on_clicked_output
+  material-maker/material_maker/panels/preview_3d/preview_3d.gd:11 var current_object
+  material-maker/material_maker/panels/preview_3d/preview_3d.gd:50 func reattach_menu
+  material-maker/material_maker/panels/preview_3d/preview_3d.gd:81 func do_load_custom_mesh
+  material-maker/material_maker/panels/preview_3d/preview_3d.gd:234 func on_right_click
+  material-maker/material_maker/widgets/lattice_edit/lattice_view.gd:10 var lattice
+  material-maker/material_maker/widgets/splines_edit/splines_view.gd:14 var edited
+  learn-gdscript/course/common/turtle/DrawingTurtle.gd:14 signal turtle_finished
+  learn-gdscript/course/common/turtle/DrawingTurtle.gd:83 func turn_left
+  learn-gdscript/course/common/turtle/DrawingTurtle.gd:91 func jump
+  learn-gdscript/course/common/turtle/DrawingTurtle.gd:213 func _close_polygon
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:6 func _get_turtle
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:9 func get_shape_count
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:13 func shape_has_fewer_than
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:20 func shape_has_greater_than
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:36 func shape_is
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:47 func shape_count_fewer_than
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:52 func shape_count_greater_than
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:57 func shape_count_is
+  learn-gdscript/script_checking/DrawingTurtlePracticeTester.gd:62 func turtle_faces_right
+  learn-gdscript/script_checking/PracticeTester.gd:17 var _scene_root_viewport
+  learn-gdscript/script_checking/PracticeTester.gd:19 var _slice
+  learn-gdscript/script_checking/PracticeTester.gd:22 var _analyzer
+  learn-gdscript/script_checking/PracticeTester.gd:37 func _define
+  learn-gdscript/script_checking/PracticeTester.gd:103 func _prepare
+  learn-gdscript/script_checking/PracticeTester.gd:109 func _clean_up
+  learn-gdscript/script_checking/PracticeTester.gd:116 func _prevalidate
+  learn-gdscript/script_checking/PracticeTester.gd:122 func matches_code_line
+  learn-gdscript/script_checking/ScriptVerifier.gd:9 const GDQuestErrorCode
+  learn-gdscript/script_checking/ScriptVerifier.gd:22 var _new_script_text
+  learn-gdscript/ui/UINavigatablePage.gd:12 var _is_current_screen
+  learn-gdscript/ui/UINavigatablePage.gd:36 func _accept_unload
+  learn-gdscript/ui/UINavigatablePage.gd:40 func _deny_unload
+  learn-gdscript/ui/UINavigatablePage.gd:45 func _on_current_screen_unload_requested
+  learn-gdscript/ui/components/RunnableCodeExample.gd:230 func set_run_button_label
+  learn-gdscript/ui/components/RunnableCodeExample.gd:239 func create_slider_for
+  learn-gdscript/ui/components/RunnableCodeExample.gd:286 func _set_instance_value
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:24 var _quiz
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:25 var _quiz_data
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:37 var _question
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:100 func _get_answers
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:104 func _update_margins
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:108 func _test_answer
+  learn-gdscript/ui/screens/lesson/UIBaseQuiz.gd:134 func _test_answer_against_quiz
+  GodSVG/src/config_classes/ConfigResource.gd:25 func external_call
+  GodSVG/src/config_classes/PreviewPresentation.gd:15 func get_extra_info
+  GodSVG/src/config_classes/PreviewPresentation.gd:17 func get_equivalent_export_data
+  GodSVG/src/data_classes/Element.gd:269 func apply_to
+  GodSVG/src/data_classes/Element.gd:285 func _get_own_default
+  GodSVG/src/data_classes/Element.gd:291 func can_replace
+  GodSVG/src/data_classes/Element.gd:305 func user_setup
+  GodSVG/src/data_classes/XNode.gd:34 func propagate_xid_correction
+  GodSVG/src/ui_widgets/TitledPanel.gd:16 func _get_minimum_size_common_logic
+  GodSVG/src/ui_widgets/TitledPanel.gd:31 func _notification_common_logic
+  GodSVG/src/utils/ImageExportData.gd:17 func inject_in_export_svg
+  protongraph/common/autoloads/plugin_manager/plugin.gd:7 var version
+  protongraph/common/custom_types/noise/noise.gd:47 func apply_curve
+  protongraph/common/custom_types/noise/combiners/noise_combiner.gd:5 var noise_a
+  protongraph/common/custom_types/noise/combiners/noise_combiner.gd:6 var noise_b
+  protongraph/common/custom_types/noise/combiners/noise_combiner.gd:30 func _combine_noise
+  protongraph/core/proton_node.gd:6 signal local_value_changed
+  protongraph/core/proton_node.gd:41 func create_output
+  protongraph/core/proton_node.gd:53 func create_extra
+  protongraph/core/proton_node.gd:71 func restore_custom_data
+  protongraph/core/proton_node.gd:77 func enable_type_mirroring_on_slot
+  protongraph/core/proton_node.gd:135 func get_input_single
+  protongraph/core/proton_node.gd:184 func set_output
+  protongraph/core/proton_node.gd:196 func set_extra
+  protongraph/ui/common/custom_tab_container.gd:5 signal tab_closed
+  protongraph/ui/common/custom_tab_container.gd:36 func close_tab
+  protongraph/ui/common/custom_tab_container.gd:59 func change_tab
+  protongraph/ui/common/custom_tab_container.gd:64 func set_tab_name
+  protongraph/ui/common/custom_tab_container.gd:82 func _on_tab_close_pressed
+  protongraph/ui/views/editor/graph_editor/components/nodes/generic_input.gd:20 func add_ui
+  protongraph/ui/views/editor/graph_editor/components/nodes/graph_node_ui_component.gd:14 var icon_container
+  protongraph/ui/views/editor/viewport/gizmos/abstract_gizmo.gd:25 func add_point_at
+  PixelPlanets/Planets/Planet.gd:20 func update_time
+  PixelPlanets/Planets/Planet.gd:25 func get_multiplier
+  PixelPlanets/Planets/Planet.gd:36 func get_dither
+  PixelPlanets/Planets/Planet.gd:42 func get_colors_from_shader
+  PixelPlanets/Planets/Planet.gd:45 func set_colors_on_shader
+  PixelPlanets/Planets/Planet.gd:52 func _generate_new_colorscheme
+  GodotOS/Applications/Terminal/commands/terminal_command.gd:23 func usage
+  GodotOS/Scenes/Containers/smooth_container.gd:30 var line_count
+  the-mirror/mirror-godot-app/creator/selection/inspector/categories/inspector_category_base.gd:6 signal inspected_object_updated
+  the-mirror/mirror-godot-app/creator/selection/inspector/categories/inspector_category_base.gd:7 signal refresh_inspected_nodes
+  the-mirror/mirror-godot-app/creator/selection/inspector/categories/inspector_category_base.gd:49 func _inspected_object_updated
+  the-mirror/mirror-godot-app/creator/selection/inspector/categories/inspector_category_base.gd:55 func update_active_fields_by_permissions
+  the-mirror/mirror-godot-app/creator/selection/inspector/primitive/inspector_property_base.gd:12 var _label_node
+  the-mirror/mirror-godot-app/creator/selection/inspector/primitive/inspector_property_base.gd:23 func _update_reset_visibility
+  the-mirror/mirror-godot-app/script/visual/blocks/misc/print_base.gd:5 func value_to_friendly_string
+  OpenGamepadUI/core/systems/effects/effect.gd:12 signal effect_started
+  OpenGamepadUI/core/systems/hardware/drm_card_info.gd:63 func get_clock_limits
+  OpenGamepadUI/core/systems/hardware/drm_card_info.gd:68 func get_clock_values
+  OpenGamepadUI/core/systems/library/library.gd:76 func get_library_launch_items
+  OpenGamepadUI/core/systems/network/http_api_client.gd:4 var base_url
+  Open-Industry-Project-Godot/src/Fence/fence.gd:31 var _post_material
+  Open-Industry-Project-Godot/src/Fence/fence.gd:32 var _mesh_material
+  Open-Industry-Project-Godot/src/ResizableNode3D/resizable_node_3d.gd:11 var _resize_handle
+  Open-Industry-Project-Godot/src/ResizableNode3D/resizable_node_3d.gd:47 var size_default
+  Open-Industry-Project-Godot/src/ResizableNode3D/resizable_node_3d.gd:73 func _get_scale_warning_text
+  Open-Industry-Project-Godot/src/ResizableNode3D/resizable_node_3d.gd:92 func _transform_requested
+  Open-Industry-Project-Godot/src/ResizableNode3D/resizable_node_3d.gd:122 func _on_size_changed
+  boscaceoil-blue/gui/widgets/ItemDock.gd:10 signal item_created
+  boscaceoil-blue/gui/widgets/ItemDock.gd:12 signal item_deleted
+  boscaceoil-blue/gui/widgets/ItemDock.gd:39 var drag_source_id
+  boscaceoil-blue/gui/widgets/ItemDock.gd:45 var _add_button
+  boscaceoil-blue/gui/widgets/ItemDock.gd:224 func _draw_item
+  boscaceoil-blue/gui/widgets/ItemDock.gd:309 func _get_total_item_amount
+  boscaceoil-blue/gui/widgets/ItemDock.gd:314 func _get_current_item_index
+  boscaceoil-blue/gui/widgets/popups/WindowPopup.gd:132 func _update_before_popup
+  boscaceoil-blue/objects/Instrument.gd:34 var _voice_data
+  boscaceoil-blue/objects/Instrument.gd:68 func set_voice_data
+  godots/src/components/projects/install_project_dialog/install_project_dialog.gd:4 signal _successfully_confirmed
+  godots/src/components/projects/install_project_dialog/install_project_dialog.gd:7 var _project_name_edit
+  godots/src/components/projects/install_project_dialog/install_project_dialog.gd:9 var _project_path_line_edit
+  godots/src/components/projects/install_project_dialog/install_project_dialog.gd:102 func _update_project_dir
+  godots/src/components/projects/install_project_dialog/install_project_dialog.gd:249 func _handle_dir_is_not_empty
+  godots/src/components/projects/install_project_dialog/install_project_dialog.gd:261 func _on_raise
+  godots/src/components/v_box_list/v_box_list.gd:78 func _item_comparator
+  godots/src/components/v_box_list/v_box_list.gd:82 func _fill_sort_options
+  godots/src/components/v_box_list/v_box_list.gd:86 func _post_add
+  godots/src/components/v_box_list/item/h_box_list_item.gd:5 signal right_clicked
+  godots/src/components/v_box_list/item/h_box_list_item.gd:6 signal double_clicked
+  godots/src/components/v_box_list/item/h_box_list_item.gd:7 signal hover_changed
+  godots/src/components/v_box_list/item/h_box_list_item.gd:8 signal selected_changed
+  godots/src/components/v_box_list/item/h_box_list_item.gd:11 var _is_hovering
+  godots/src/components/v_box_list/item/h_box_list_item.gd:18 var _is_selected
+  vpuppr/entities/puppets/glb_puppet.gd:20 func _find_skeleton
+  vpuppr/entities/puppets/glb_puppet.gd:39 func handle_open_see_face
+  vpuppr/screens/gui/default_gui.gd:220 func add_popup
+  vpuppr/screens/gui/h_split_tree.gd:14 var tree
+  vpuppr/screens/gui/h_split_tree.gd:17 var pages
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:12 const BUILT_IN_SHADER_GUID
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:29 func set_created_by
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:35 func append_ufile_ids
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:64 func choose_correct_owner
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:104 func for_all_nodes
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:112 func search_for_node
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:125 func to_scale
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:130 func to_position
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:139 func to_color
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/_base_common.gd:144 func to_quaternion
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:25 var extension
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:215 func asset_path_on_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:251 func asset_is_on_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:266 func asset_packed_scene_from_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:275 func asset_resource_from_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:281 func _asset_load_from_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:295 func asset_save_node_get_packed_scene
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:328 func asset_node_to_packed_scene
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:341 func asset_save_resource_to_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:364 func asset_save_shader_to_disk
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:409 func _helper_is_root_node
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/asset_base.gd:412 func _helper_sort_root_order
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/comp_doc_base.gd:66 func find_node_by_ufile_id
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/comp_doc_base.gd:83 func find_nodes_by_ufile_id
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/comp_doc_base.gd:110 func is_stripped_transform
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/comp_doc_base.gd:137 func is_prefab_instance
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/comp_doc_base.gd:142 func is_prefab
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/upackgd_base.gd:48 var catalog
+  unitypackage_godot/unitypackage_godot/lib/unitypackage/upackgd_base.gd:225 func package_dump
+  godot-demo-projects/2d/finite_state_machine/state_machine/state_machine.gd:14 var states_map
+  godot-demo-projects/2d/finite_state_machine/state_machine/state_machine.gd:17 var current_state
+  godot-demo-projects/2d/finite_state_machine/state_machine/state_machine.gd:18 var _active
+  godot-demo-projects/2d/role_playing_game/grid_movement/pawns/walker.gd:11 var grid
+  godot-demo-projects/2d/role_playing_game/grid_movement/pawns/walker.gd:23 func update_look_direction
+  godot-demo-projects/2d/role_playing_game/grid_movement/pawns/walker.gd:27 func move_to
+  godot-demo-projects/2d/role_playing_game/grid_movement/pawns/walker.gd:47 func bump
+  godot-demo-projects/networking/webrtc_signaling/client/ws_webrtc_client.gd:28 signal offer_received
+  godot-demo-projects/networking/webrtc_signaling/client/ws_webrtc_client.gd:29 signal answer_received
+  godot-demo-projects/networking/webrtc_signaling/client/ws_webrtc_client.gd:30 signal candidate_received
+  godot-demo-projects/networking/webrtc_signaling/client/ws_webrtc_client.gd:115 func send_offer
+  godot-demo-projects/networking/webrtc_signaling/client/ws_webrtc_client.gd:119 func send_answer
+  godot-4-procedural-generation/godot4/infinite_space/layered_world_generator.gd:38 var planet_generation_area_threshold
+  godot-4-procedural-generation/godot4/infinite_space/layered_world_generator.gd:177 func _generate_planets_at
+  godot-4-procedural-generation/godot4/infinite_space/layered_world_generator.gd:329 func _calculate_triangle_area
+  godot-4-procedural-generation/godot4/infinite_space/layered_world_generator.gd:333 func _calculate_triangle_epicenter
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:15 var sector_size
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:17 var sector_axis_count
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:23 var _sectors
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:25 var _current_sector
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:32 var _half_sector_size
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:34 var _sector_size_squared
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:35 var _half_sector_count
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:47 func make_seed_for
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:55 func _update_sectors
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:62 func _generate_sector
+  godot-4-procedural-generation/godot4/infinite_space/shared/world_generator.gd:68 func _update_along_axis
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile.gd:22 signal collided
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile.gd:24 signal missed
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile.gd:53 func _post_setup
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile.gd:60 func _impact
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile_emitter.gd:10 var projectiles_per_second
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile_emitter.gd:11 var projectile_lifetime
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile_emitter.gd:15 var spawned_objects
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile_emitter.gd:19 func fire
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile_emitter.gd:27 func _do_fire
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile/projectile_emitter.gd:39 func _on_projectile_missed
+  godot-4-procedural-generation/godot4/modular_weapons/modular_weapon/src/projectile_events/projectile_event.gd:25 func _do_trigger
+  godot-visual-effects/godot/addons/node-essential-helpers/demo.gd:9 signal screen_changed
+  godot-visual-effects/godot/addons/node-essential-helpers/demo.gd:17 var _active_screen
+  godot-visual-effects/godot/addons/node-essential-helpers/demo.gd:19 var _current_screen_index
+  godot-visual-effects/godot/addons/node-essential-helpers/demo.gd:21 var _screens
+  godot-visual-effects/godot/addons/node-essential-helpers/demo_screen.gd:14 var scene
+  godot-visual-effects/godot/addons/node-essential-helpers/demo_screen.gd:23 var _scene_instance
+  MizGodotTools/effects/pseudo_3d/pseudo_3d_object.gd:8 var layer_instances
+  MizGodotTools/effects/pseudo_3d/pseudo_3d_object.gd:9 var is_duplicate_instance
+  MizGodotTools/effects/pseudo_3d/pseudo_3d_object.gd:58 func create_duplicate
+  MizGodotTools/inventory/inventory_container.gd:7 var items_base
+  MizGodotTools/inventory/inventory_container.gd:8 var list_of_contained_items
+  MizGodotTools/inventory/inventory_container.gd:53 func fill_identical_stackables
+  MizGodotTools/inventory/inventory_container.gd:101 func has_space_for_item
+  MizGodotTools/inventory/inventory_container.gd:114 func get_item_under_pos
+  MizGodotTools/inventory/inventory_container.gd:124 func get_all_items

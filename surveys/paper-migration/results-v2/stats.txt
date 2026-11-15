@@ -1,0 +1,65 @@
+code lines: fps 258, ring 622, total 880
+
+## by category
+| | fps | ring | total |
+|---|---:|---:|---:|
+| conversion | 12 | 68 | 80 |
+| rename | 14 | 46 | 60 |
+| rewrite | 12 | 44 | 56 |
+| undefined | 17 | 36 | 53 |
+| annotation | 18 | 11 | 29 |
+| decision | 6 | 9 | 15 |
+| benefit | 2 | 4 | 6 |
+| gap | 2 | 4 | 6 |
+| silent-narrowing | 0 | 4 | 4 |
+| glue | 0 | 1 | 1 |
+
+## cost by source (v0.1)
+| | fps | ring | total |
+|---|---:|---:|---:|
+| int-float | 14 | 46 | 60 |
+| engine-contract | 6 | 29 | 35 |
+| variant-utility | 7 | 16 | 23 |
+| downcast | 4 | 15 | 19 |
+| non-null | 6 | 12 | 18 |
+| scene | 10 | 8 | 18 |
+| option | 0 | 14 | 14 |
+| truthiness | 2 | 11 | 13 |
+| message-field | 0 | 11 | 11 |
+| cross-language | 0 | 9 | 9 |
+| inference | 6 | 3 | 9 |
+| shared-capability | 2 | 2 | 4 |
+| is-narrowing | 1 | 2 | 3 |
+| numeric | 1 | 2 | 3 |
+| loop | 2 | 0 | 2 |
+| type-name | 2 | 0 | 2 |
+| container | 1 | 0 | 1 |
+| cross-language-coroutine | 0 | 1 | 1 |
+| duplication | 0 | 1 | 1 |
+| liveness | 0 | 1 | 1 |
+
+## cost by the convention that removes it
+| | fps | ring | total |
+|---|---:|---:|---:|
+| - | 19 | 69 | 88 |
+| C-int | 14 | 46 | 60 |
+| A3 | 7 | 16 | 23 |
+| A2 | 4 | 14 | 18 |
+| C-scene | 10 | 8 | 18 |
+| A1 | 2 | 12 | 14 |
+| A8 | 0 | 12 | 12 |
+| C-trait | 4 | 3 | 7 |
+| C-is | 1 | 2 | 3 |
+| A5 | 2 | 0 | 2 |
+| A7 | 0 | 1 | 1 |
+| C-r3 | 1 | 0 | 1 |
+
+## cost by scenario
+| | fps | ring | total | per 100 lines |
+|---|---:|---:|---:|---:|
+| v0.1 | 64 | 183 | 247 | 28.1 |
+| v0.1 + A1 | 62 | 171 | 233 | 26.5 |
+| + A1-A8 | 49 | 128 | 177 | 20.1 |
+| + A1-A8 + C-int | 35 | 82 | 117 | 13.3 |
+| + A1-A8 + C-int + C-scene | 25 | 74 | 99 | 11.2 |
+| + all A and C | 19 | 69 | 88 | 10.0 |

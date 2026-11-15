@@ -1,0 +1,370 @@
+blank_before_inner: {0: 940, 1: 2722, 2: 423}
+blank_before_top: {0: 792, 1: 38507, 2: 44050, 3: 851}
+blank_runs_in_code: {1: 76959, 2: 1050}
+closing_line: {'at_opener': 14850, 'other': 798}
+code_lines: {'>100': 25180, 'all': 854553}
+comment_gap: {0: 205, 1: 7218, 2: 1745, 3: 374}
+cont_list: {'+1': 36327, '+2': 550, 'other': 2056}
+cont_paren: {'+1': 18057, '+2': 4568, 'other': 2989}
+dict_one_line: {'mixed': 28, 'spaced': 453, 'tight': 2291}
+files: {'all': 13207, 'both': 29, 'spaces': 344, 'tabs': 12324, 'unindented': 510}
+misc: {'backslash': 2118, 'one_line_block': 4516, 'semicolon': 141}
+
+blank lines before top-level functions and classes, by repository (1 / 2):
+  Super-Mario-Bros.-Remastered-Public: 1491 / 60
+  godot-open-rpg: 1 / 253
+  Microverse: 363 / 0
+  Godot-GameTemplate: 16 / 3
+  Starter-Kit-City-Builder: 20 / 0
+  tps-demo: 0 / 78
+  Starter-Kit-3D-Platformer: 22 / 2
+  godot-open-rts: 0 / 645
+  godot-2d-space-game: 16 / 337
+  godot-4-3d-third-person-controller: 17 / 88
+  godot-FirstPersonStarter: 1 / 11
+  Starter-Kit-FPS: 23 / 3
+  Reia: 470 / 261
+  godot-tactical-rpg: 20 / 287
+  godot-port: 500 / 17
+  escoria-demo-game: 6 / 9
+  voxelgame: 8 / 255
+  TowDownGame: 386 / 29
+  GodotDynamicInventorySystem: 9 / 101
+  museum-of-all-things: 551 / 23
+  godot-2d-builder: 4 / 343
+  starship-olympics: 1753 / 132
+  TakinGodotTemplate: 1 / 709
+  OpenLiberty: 65 / 43
+  OpenVic: 0 / 573
+  deck_builder_tutorial: 0 / 446
+  Starter-Kit-Racing: 13 / 0
+  UltimateGodotIntro2D: 33 / 42
+  tanks-of-freedom-ii: 1239 / 591
+  Cats-Godot4-Modular-Souls-like-Template: 190 / 33
+  godot-3-beginner-2d-platformer: 0 / 31
+  Pocket-Godot: 14 / 10
+  MultiplayerFPSTutorial: 15 / 0
+  godot-tiny-mmo: 67 / 957
+  Slay-The-Robot: 977 / 48
+  Castlevania-Remnants-of-Darkness: 1734 / 200
+  Super-Mario-World-Remastered-Public: 1441 / 147
+  wutw-public: 1706 / 0
+  Godot-Plush-Character: 29 / 0
+  godot-multiplayer: 0 / 110
+  Godot4ThirdPersonCombatPrototype: 15 / 570
+  youtd2: 209 / 1158
+  godot-xr-template: 21 / 72
+  desksaw: 254 / 173
+  GodotProjectZero: 7 / 1319
+  godot-4-2d-visual-novel: 0 / 93
+  Legacy_SM63Redux: 95 / 650
+  Starter-Kit-Match-3: 29 / 0
+  godot-2d-topdown-template: 243 / 10
+  SonicWorldsNext: 509 / 102
+  SimpleFPSController: 73 / 0
+  aarpg-tutorial: 12 / 327
+  godot_autobattler_course: 4 / 297
+  jdungeon: 4 / 1169
+  LibreAim: 180 / 0
+  Strategy-GDScript: 2 / 51
+  devmoreir4__godot-3d-multiplayer-template: 0 / 246
+  opengs: 34 / 125
+  top-down-action-rpg-template: 41 / 31
+  Godot-Roguelike-Tutorial: 2 / 109
+  unto-deepest-depths-prototype: 37 / 2
+  godot-2d-adventure-tutorial: 0 / 86
+  knakk: 12 / 165
+  Dororo: 162 / 0
+  _original_client: 38 / 344
+  Godot_Universal-Controller-tutorial: 55 / 117
+  simple-godot-train: 87 / 1
+  OpMon: 210 / 15
+  Godot-Inventory: 188 / 0
+  template-beat-em-up: 411 / 712
+  game-base-2D: 154 / 12
+  godot-rocket-league: 44 / 14
+  Freedom-Hunter: 0 / 299
+  simgine: 0 / 165
+  GDWaterKart: 68 / 57
+  TopdownStarter: 77 / 0
+  Godot4-FPS-Template: 67 / 3
+  poder-solar: 46 / 1
+  DOGWALK: 384 / 269
+  godot4-third-person-controller: 94 / 0
+  malware-slayer: 520 / 2
+  SurvivorsClone_Complete: 57 / 12
+  Genesis: 149 / 15
+  Friendslop-Template: 332 / 26
+  super-godot-galaxy: 26 / 4
+  GBM2K-Framework: 45 / 0
+  Project-Heartbeat: 1017 / 78
+  tower-defense-godot4: 0 / 160
+  limbo-godot: 93 / 0
+  abyssal-walker: 57 / 1557
+  godot-chess: 11 / 93
+  Improved-KCC: 7 / 70
+  BatteryAcid__godot-3d-multiplayer-template: 85 / 4
+  Godot4SourceEngineMovement: 17 / 25
+  PSGodotTemplateRepo: 68 / 6
+  RhythiaRewrite: 181 / 0
+  Cupcakes-Framework: 28 / 0
+  Stardew: 218 / 35
+  CandyWrapper: 24 / 1
+  Galaxy-Defiance: 40 / 1
+  Resources-GDScript: 10 / 102
+  Lost-Pilot: 81 / 13
+  sourceofmana: 1880 / 4
+  godot-card-game-frame: 35 / 46
+  Godot-2D-Action-Game: 246 / 19
+  soccer-course: 263 / 2
+  moddable-platformer: 0 / 80
+  paddles_balls_blocks_walls: 284 / 1
+  age-of-war: 188 / 149
+  tower-defense-tutorial: 29 / 91
+  holoDelta: 449 / 57
+  Godot-4-Tower-Defense-Template: 81 / 1
+  FRU-Sim: 116 / 782
+  godot_open_star_fighter: 7 / 195
+  dialogic: 284 / 1008
+  godot_dialogue_manager: 3 / 686
+  phantom-camera: 257 / 387
+  beehave: 36 / 479
+  scatter: 6 / 527
+  Gut: 492 / 816
+  godot_heightmap_plugin: 16 / 951
+  SmartShape2D: 43 / 687
+  Godot-Game-Template: 935 / 8
+  gaea: 26 / 1266
+  cyclopsLevelBuilder: 687 / 258
+  godot-statecharts: 171 / 219
+  Metroidvania-System: 480 / 0
+  godot-steering-ai-framework: 11 / 234
+  PankuConsole: 307 / 52
+  godot-aseprite-wizard: 49 / 543
+  gdmaim: 74 / 261
+  godot_spatial_gardener: 27 / 978
+  TileMapDual: 0 / 108
+  godot-road-generator: 42 / 687
+  ShaderV: 1239 / 6
+  ridiculous_coding: 0 / 26
+  netfox: 1457 / 8
+  pandora: 203 / 585
+  godot_input_helper: 0 / 78
+  script-ide: 170 / 1
+  godot-resources-as-sheets-plugin: 28 / 322
+  gloot: 9 / 751
+  Virtual-Joystick-Godot: 11 / 3
+  unidot_importer: 72 / 304
+  Sky3D: 1 / 66
+  func_godot_plugin: 174 / 1
+  godot_sound_manager: 2 / 72
+  nakama-godot: 385 / 24
+  godot_little_camera_preview: 23 / 0
+  Qodot: 266 / 14
+  better-terrain: 9 / 156
+  godot-xr-tools: 23 / 1030
+  godot-gameplay-systems: 5 / 451
+  godot-mod-loader: 20 / 672
+  SignalVisualizer: 79 / 4
+  GodotFirebase: 210 / 66
+  BehaviourToolkit: 20 / 185
+  gd-YAFSM: 361 / 28
+  godot-debug-menu: 2 / 12
+  Scene-Manager: 1 / 161
+  Yugens-Terrain-Authoring-Toolkit: 27 / 207
+  Pixelorama: 0 / 1080
+  Lorien: 418 / 2
+  material-maker: 1412 / 255
+  SoundThread: 171 / 110
+  learn-gdscript: 82 / 1164
+  GodSVG: 961 / 235
+  protongraph: 7 / 740
+  PixelPlanets: 183 / 9
+  Arrow: 1011 / 3
+  GodotOS: 265 / 72
+  the-mirror: 46 / 1575
+  Open-Industry-Project-Godot: 149 / 996
+  boscaceoil-blue: 112 / 778
+  godots: 77 / 690
+  vpuppr: 154 / 0
+  GodotPixelRenderer: 182 / 5
+  unitypackage_godot: 137 / 0
+  godot-demo-projects: 150 / 1194
+  godot-4-procedural-generation: 4 / 238
+  godot-visual-effects: 6 / 176
+  godot-start: 59 / 49
+  godot_experiments: 36 / 0
+  MizGodotTools: 370 / 17
+  godot_ui_components: 59 / 2
+code lines longer than 100 columns, by repository:
+  Slay-The-Robot: 1432
+  GodSVG: 1186
+  unidot_importer: 982
+  godot_spatial_gardener: 925
+  Arrow: 922
+  sourceofmana: 921
+  boscaceoil-blue: 804
+  Project-Heartbeat: 778
+  material-maker: 747
+  Super-Mario-Bros.-Remastered-Public: 706
+  wutw-public: 698
+  dialogic: 602
+  OpenVic: 536
+  Castlevania-Remnants-of-Darkness: 521
+  the-mirror: 519
+  godot_dialogue_manager: 503
+  youtd2: 475
+  learn-gdscript: 465
+  Super-Mario-World-Remastered-Public: 387
+  godot-demo-projects: 346
+  godots: 344
+  godot-road-generator: 326
+  abyssal-walker: 324
+  SonicWorldsNext: 315
+  gaea: 313
+  Open-Industry-Project-Godot: 310
+  godot-port: 278
+  cyclopsLevelBuilder: 267
+  godot-mod-loader: 266
+  godot-tiny-mmo: 262
+  tanks-of-freedom-ii: 258
+  starship-olympics: 253
+  DOGWALK: 250
+  SoundThread: 246
+  Yugens-Terrain-Authoring-Toolkit: 235
+  holoDelta: 224
+  phantom-camera: 219
+  netfox: 201
+  Reia: 182
+  nakama-godot: 179
+  Metroidvania-System: 176
+  func_godot_plugin: 173
+  godot-aseprite-wizard: 170
+  gdmaim: 169
+  Microverse: 161
+  Gut: 161
+  Legacy_SM63Redux: 154
+  SmartShape2D: 150
+  FRU-Sim: 145
+  age-of-war: 140
+  better-terrain: 128
+  pandora: 123
+  godot-gameplay-systems: 122
+  Godot-Game-Template: 121
+  Friendslop-Template: 118
+  godot-resources-as-sheets-plugin: 117
+  GodotFirebase: 110
+  gloot: 106
+  gd-YAFSM: 106
+  godot-tactical-rpg: 100
+  GodotPixelRenderer: 91
+  godot-statecharts: 82
+  OpMon: 80
+  godot-2d-topdown-template: 77
+  Lorien: 77
+  desksaw: 75
+  Qodot: 75
+  GDWaterKart: 74
+  SimpleFPSController: 72
+  scatter: 66
+  malware-slayer: 57
+  GodotOS: 57
+  opengs: 56
+  museum-of-all-things: 55
+  script-ide: 55
+  SignalVisualizer: 54
+  MizGodotTools: 54
+  soccer-course: 52
+  godot_input_helper: 52
+  tps-demo: 51
+  devmoreir4__godot-3d-multiplayer-template: 45
+  PankuConsole: 44
+  beehave: 43
+  godot-debug-menu: 41
+  Lost-Pilot: 38
+  Dororo: 37
+  OpenLiberty: 36
+  RhythiaRewrite: 35
+  BehaviourToolkit: 34
+  protongraph: 33
+  Godot-Inventory: 32
+  TowDownGame: 31
+  vpuppr: 31
+  GodotDynamicInventorySystem: 30
+  limbo-godot: 30
+  godot_ui_components: 30
+  Freedom-Hunter: 29
+  Sky3D: 28
+  unitypackage_godot: 28
+  Godot-Roguelike-Tutorial: 26
+  ShaderV: 26
+  PixelPlanets: 25
+  godot-card-game-frame: 24
+  Godot_Universal-Controller-tutorial: 22
+  Improved-KCC: 22
+  Godot4-FPS-Template: 21
+  Stardew: 21
+  godot_sound_manager: 21
+  deck_builder_tutorial: 20
+  simple-godot-train: 20
+  Genesis: 20
+  godot-visual-effects: 20
+  template-beat-em-up: 19
+  godot-2d-builder: 18
+  godot-4-2d-visual-novel: 18
+  Cats-Godot4-Modular-Souls-like-Template: 16
+  aarpg-tutorial: 16
+  Godot-2D-Action-Game: 16
+  godot4-third-person-controller: 15
+  godot-steering-ai-framework: 15
+  godot-xr-tools: 15
+  godot-4-procedural-generation: 15
+  godot-4-3d-third-person-controller: 14
+  godot-2d-space-game: 13
+  jdungeon: 13
+  LibreAim: 13
+  PSGodotTemplateRepo: 13
+  godot-rocket-league: 12
+  godot_autobattler_course: 11
+  knakk: 11
+  SurvivorsClone_Complete: 11
+  BatteryAcid__godot-3d-multiplayer-template: 11
+  Starter-Kit-Racing: 10
+  godot_open_star_fighter: 10
+  Virtual-Joystick-Godot: 10
+  _original_client: 9
+  godot_heightmap_plugin: 8
+  godot-multiplayer: 7
+  Godot4ThirdPersonCombatPrototype: 7
+  unto-deepest-depths-prototype: 7
+  Galaxy-Defiance: 7
+  Pixelorama: 7
+  Godot-Plush-Character: 6
+  simgine: 6
+  godot-chess: 6
+  paddles_balls_blocks_walls: 6
+  godot_little_camera_preview: 6
+  Starter-Kit-City-Builder: 5
+  Starter-Kit-FPS: 5
+  TopdownStarter: 5
+  super-godot-galaxy: 5
+  Resources-GDScript: 5
+  poder-solar: 4
+  CandyWrapper: 4
+  tower-defense-tutorial: 4
+  godot-start: 4
+  UltimateGodotIntro2D: 3
+  Pocket-Godot: 3
+  Starter-Kit-Match-3: 3
+  game-base-2D: 3
+  Godot4SourceEngineMovement: 3
+  Godot-4-Tower-Defense-Template: 3
+  top-down-action-rpg-template: 2
+  Scene-Manager: 2
+  godot_experiments: 2
+  godot-open-rpg: 1
+  godot-3-beginner-2d-platformer: 1
+  GodotProjectZero: 1
+  Strategy-GDScript: 1
+  GBM2K-Framework: 1
+  ridiculous_coding: 1

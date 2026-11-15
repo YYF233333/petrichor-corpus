@@ -1,0 +1,1667 @@
+{
+ "Arrow": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 74,
+  "string_call": 188
+ },
+ "BatteryAcid__godot-3d-multiplayer-template": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "BehaviourToolkit": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 2,
+  "string_call": 0
+ },
+ "CandyWrapper": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Castlevania-Remnants-of-Darkness": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 13,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 30,
+  "owner_or_parent_duck_units": 6,
+  "static_funcs": 18,
+  "string_call": 7
+ },
+ "Cats-Godot4-Modular-Souls-like-Template": {
+  "has_method_calls": 6,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 13,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 2
+ },
+ "Cupcakes-Framework": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "DOGWALK": {
+  "has_method_calls": 4,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 17
+ },
+ "Dororo": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "FRU-Sim": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Freedom-Hunter": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 7,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 2,
+  "string_call": 4
+ },
+ "Friendslop-Template": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 7,
+  "string_call": 0
+ },
+ "GBM2K-Framework": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "GDWaterKart": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Galaxy-Defiance": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Genesis": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "GodSVG": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 3,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 132,
+  "string_call": 0
+ },
+ "Godot-2D-Action-Game": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Godot-4-Tower-Defense-Template": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 4,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Godot-Game-Template": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 104,
+  "string_call": 10
+ },
+ "Godot-GameTemplate": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Godot-Inventory": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 3
+ },
+ "Godot-Plush-Character": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Godot-Roguelike-Tutorial": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 6
+ },
+ "Godot4-FPS-Template": {
+  "has_method_calls": 5,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 7,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Godot4SourceEngineMovement": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Godot4ThirdPersonCombatPrototype": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 3,
+  "string_call": 4
+ },
+ "GodotDynamicInventorySystem": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 12,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 6,
+  "string_call": 0
+ },
+ "GodotFirebase": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 15,
+  "string_call": 0
+ },
+ "GodotOS": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 15,
+  "owner_or_parent_duck_units": 7,
+  "static_funcs": 0,
+  "string_call": 2
+ },
+ "GodotPixelRenderer": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "GodotProjectZero": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 93,
+  "string_call": 0
+ },
+ "Godot_Universal-Controller-tutorial": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 2,
+  "string_call": 0
+ },
+ "Gut": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 28,
+  "string_call": 3
+ },
+ "Improved-KCC": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 15,
+  "string_call": 1
+ },
+ "Legacy_SM63Redux": {
+  "has_method_calls": 5,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 9,
+  "owner_or_parent_duck_units": 8,
+  "static_funcs": 2,
+  "string_call": 18
+ },
+ "LibreAim": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 5,
+  "string_call": 0
+ },
+ "Lorien": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 5,
+  "string_call": 2
+ },
+ "Lost-Pilot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 7,
+  "string_call": 0
+ },
+ "Metroidvania-System": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 4,
+  "owner_or_parent_duck_sites": 11,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 4,
+  "string_call": 1
+ },
+ "Microverse": {
+  "has_method_calls": 23,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 4,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 29,
+  "string_call": 2
+ },
+ "MizGodotTools": {
+  "has_method_calls": 4,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 6,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 16,
+  "string_call": 0
+ },
+ "MultiplayerFPSTutorial": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "OpMon": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 14
+ },
+ "Open-Industry-Project-Godot": {
+  "has_method_calls": 15,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 183,
+  "string_call": 38
+ },
+ "OpenLiberty": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 16,
+  "string_call": 1
+ },
+ "OpenVic": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 52,
+  "string_call": 1
+ },
+ "PSGodotTemplateRepo": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 4,
+  "string_call": 0
+ },
+ "PankuConsole": {
+  "has_method_calls": 8,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 8,
+  "owner_or_parent_duck_units": 3,
+  "static_funcs": 26,
+  "string_call": 1
+ },
+ "PixelPlanets": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "Pixelorama": {
+  "has_method_calls": 9,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 60,
+  "string_call": 1
+ },
+ "Pocket-Godot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Project-Heartbeat": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 3,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 57,
+  "string_call": 15
+ },
+ "Qodot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 7,
+  "string_call": 1
+ },
+ "Reia": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 52,
+  "string_call": 2
+ },
+ "Resources-GDScript": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 3,
+  "string_call": 0
+ },
+ "RhythiaRewrite": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 10,
+  "string_call": 23
+ },
+ "Scene-Manager": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 5,
+  "string_call": 1
+ },
+ "ShaderV": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "SignalVisualizer": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 8,
+  "string_call": 1
+ },
+ "SimpleFPSController": {
+  "has_method_calls": 5,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 0
+ },
+ "Sky3D": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 7,
+  "string_call": 0
+ },
+ "Slay-The-Robot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 5,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 11,
+  "string_call": 4
+ },
+ "SmartShape2D": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 66,
+  "string_call": 1
+ },
+ "SonicWorldsNext": {
+  "has_method_calls": 7,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 9,
+  "owner_or_parent_duck_units": 7,
+  "static_funcs": 0,
+  "string_call": 6
+ },
+ "SoundThread": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Stardew": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 5
+ },
+ "Starter-Kit-3D-Platformer": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Starter-Kit-City-Builder": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Starter-Kit-FPS": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 0
+ },
+ "Starter-Kit-Match-3": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Starter-Kit-Racing": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Strategy-GDScript": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Super-Mario-Bros.-Remastered-Public": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 30,
+  "owner_or_parent_duck_units": 12,
+  "static_funcs": 24,
+  "string_call": 5
+ },
+ "Super-Mario-World-Remastered-Public": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 6,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 83,
+  "owner_or_parent_duck_units": 42,
+  "static_funcs": 0,
+  "string_call": 7
+ },
+ "SurvivorsClone_Complete": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 9
+ },
+ "TakinGodotTemplate": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 113,
+  "string_call": 0
+ },
+ "TileMapDual": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 26,
+  "string_call": 2
+ },
+ "TopdownStarter": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 11,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "TowDownGame": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 13
+ },
+ "UltimateGodotIntro2D": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "Virtual-Joystick-Godot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "Yugens-Terrain-Authoring-Toolkit": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 30,
+  "string_call": 2
+ },
+ "_original_client": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 46,
+  "string_call": 5
+ },
+ "aarpg-tutorial": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 4
+ },
+ "abyssal-walker": {
+  "has_method_calls": 49,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 103,
+  "string_call": 29
+ },
+ "age-of-war": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 7,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "beehave": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 11,
+  "string_call": 6
+ },
+ "better-terrain": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 18,
+  "string_call": 0
+ },
+ "boscaceoil-blue": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 53,
+  "string_call": 0
+ },
+ "cyclopsLevelBuilder": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 73,
+  "string_call": 0
+ },
+ "deck_builder_tutorial": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 3,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 4,
+  "owner_or_parent_duck_units": 4,
+  "static_funcs": 3,
+  "string_call": 0
+ },
+ "desksaw": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 23,
+  "owner_or_parent_duck_units": 5,
+  "static_funcs": 0,
+  "string_call": 2
+ },
+ "devmoreir4__godot-3d-multiplayer-template": {
+  "has_method_calls": 11,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 18
+ },
+ "dialogic": {
+  "has_method_calls": 15,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 16,
+  "owner_or_parent_duck_units": 8,
+  "static_funcs": 53,
+  "string_call": 21
+ },
+ "escoria-demo-game": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "func_godot_plugin": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 26,
+  "string_call": 4
+ },
+ "gaea": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 50,
+  "string_call": 1
+ },
+ "game-base-2D": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 0
+ },
+ "gd-YAFSM": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 5,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 11,
+  "string_call": 2
+ },
+ "gdmaim": {
+  "has_method_calls": 4,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 17,
+  "string_call": 9
+ },
+ "gloot": {
+  "has_method_calls": 4,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 64,
+  "string_call": 1
+ },
+ "godot-2d-adventure-tutorial": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 3,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-2d-builder": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 21,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 5,
+  "string_call": 8
+ },
+ "godot-2d-space-game": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 8,
+  "string_call": 0
+ },
+ "godot-2d-topdown-template": {
+  "has_method_calls": 8,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 7,
+  "string_call": 0
+ },
+ "godot-3-beginner-2d-platformer": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-4-2d-visual-novel": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 2
+ },
+ "godot-4-3d-third-person-controller": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 4,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-4-procedural-generation": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 22,
+  "string_call": 1
+ },
+ "godot-FirstPersonStarter": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-aseprite-wizard": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 14,
+  "string_call": 2
+ },
+ "godot-card-game-frame": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-chess": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-debug-menu": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-demo-projects": {
+  "has_method_calls": 13,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 10,
+  "string_call": 2
+ },
+ "godot-gameplay-systems": {
+  "has_method_calls": 6,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 5
+ },
+ "godot-mod-loader": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 224,
+  "string_call": 0
+ },
+ "godot-multiplayer": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 2,
+  "string_call": 1
+ },
+ "godot-open-rpg": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 6,
+  "string_call": 3
+ },
+ "godot-open-rts": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 35,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 35,
+  "string_call": 0
+ },
+ "godot-port": {
+  "has_method_calls": 5,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 15,
+  "string_call": 3
+ },
+ "godot-resources-as-sheets-plugin": {
+  "has_method_calls": 7,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 20,
+  "string_call": 0
+ },
+ "godot-road-generator": {
+  "has_method_calls": 34,
+  "is_A_or_B_lines": 4,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 12,
+  "string_call": 25
+ },
+ "godot-rocket-league": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot-start": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 16,
+  "string_call": 0
+ },
+ "godot-statecharts": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 14,
+  "owner_or_parent_duck_sites": 3,
+  "owner_or_parent_duck_units": 3,
+  "static_funcs": 40,
+  "string_call": 1
+ },
+ "godot-steering-ai-framework": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 8,
+  "owner_or_parent_duck_units": 3,
+  "static_funcs": 6,
+  "string_call": 1
+ },
+ "godot-tactical-rpg": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 11,
+  "string_call": 0
+ },
+ "godot-tiny-mmo": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 153,
+  "string_call": 2
+ },
+ "godot-visual-effects": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 5,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 2
+ },
+ "godot-xr-template": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 4,
+  "string_call": 1
+ },
+ "godot-xr-tools": {
+  "has_method_calls": 11,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 10,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 65,
+  "string_call": 1
+ },
+ "godot4-third-person-controller": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 7,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "godot_autobattler_course": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 3,
+  "string_call": 0
+ },
+ "godot_dialogue_manager": {
+  "has_method_calls": 8,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 79,
+  "string_call": 5
+ },
+ "godot_experiments": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "godot_heightmap_plugin": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 101,
+  "string_call": 12
+ },
+ "godot_input_helper": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 3,
+  "string_call": 1
+ },
+ "godot_little_camera_preview": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godot_open_star_fighter": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 2
+ },
+ "godot_sound_manager": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 4
+ },
+ "godot_spatial_gardener": {
+  "has_method_calls": 9,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 116,
+  "string_call": 14
+ },
+ "godot_ui_components": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "godots": {
+  "has_method_calls": 10,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 84,
+  "string_call": 32
+ },
+ "holoDelta": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 45,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 3,
+  "string_call": 5
+ },
+ "jdungeon": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 9,
+  "string_call": 0
+ },
+ "knakk": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 5,
+  "string_call": 0
+ },
+ "learn-gdscript": {
+  "has_method_calls": 17,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 47,
+  "string_call": 7
+ },
+ "limbo-godot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "malware-slayer": {
+  "has_method_calls": 5,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 3,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 25,
+  "string_call": 3
+ },
+ "material-maker": {
+  "has_method_calls": 29,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 98,
+  "owner_or_parent_duck_units": 24,
+  "static_funcs": 48,
+  "string_call": 15
+ },
+ "moddable-platformer": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 2,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "museum-of-all-things": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 8,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 35
+ },
+ "nakama-godot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 25,
+  "string_call": 8
+ },
+ "netfox": {
+  "has_method_calls": 10,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 2,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 143,
+  "string_call": 1
+ },
+ "opengs": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 11,
+  "string_call": 0
+ },
+ "paddles_balls_blocks_walls": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 4,
+  "owner_or_parent_duck_sites": 7,
+  "owner_or_parent_duck_units": 4,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "pandora": {
+  "has_method_calls": 10,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 42,
+  "string_call": 0
+ },
+ "phantom-camera": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 6
+ },
+ "poder-solar": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "protongraph": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 39,
+  "string_call": 0
+ },
+ "ridiculous_coding": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "scatter": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 2,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 23,
+  "string_call": 1
+ },
+ "script-ide": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 2,
+  "string_call": 3
+ },
+ "simgine": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 15,
+  "string_call": 0
+ },
+ "simple-godot-train": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "soccer-course": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 13,
+  "string_call": 4
+ },
+ "sourceofmana": {
+  "has_method_calls": 2,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 1,
+  "owner_or_parent_duck_units": 1,
+  "static_funcs": 438,
+  "string_call": 0
+ },
+ "starship-olympics": {
+  "has_method_calls": 52,
+  "is_A_or_B_lines": 5,
+  "is_in_group_calls": 7,
+  "owner_or_parent_duck_sites": 4,
+  "owner_or_parent_duck_units": 2,
+  "static_funcs": 11,
+  "string_call": 46
+ },
+ "super-godot-galaxy": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "tanks-of-freedom-ii": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 14
+ },
+ "template-beat-em-up": {
+  "has_method_calls": 6,
+  "is_A_or_B_lines": 6,
+  "is_in_group_calls": 4,
+  "owner_or_parent_duck_sites": 23,
+  "owner_or_parent_duck_units": 8,
+  "static_funcs": 20,
+  "string_call": 3
+ },
+ "the-mirror": {
+  "has_method_calls": 23,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 3,
+  "owner_or_parent_duck_units": 3,
+  "static_funcs": 33,
+  "string_call": 1
+ },
+ "top-down-action-rpg-template": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 1,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "tower-defense-godot4": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 3,
+  "string_call": 0
+ },
+ "tower-defense-tutorial": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 1,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "tps-demo": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 1
+ },
+ "unidot_importer": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 33,
+  "string_call": 32
+ },
+ "unitypackage_godot": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 1,
+  "string_call": 0
+ },
+ "unto-deepest-depths-prototype": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 0,
+  "string_call": 0
+ },
+ "voxelgame": {
+  "has_method_calls": 3,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 29,
+  "string_call": 4
+ },
+ "vpuppr": {
+  "has_method_calls": 1,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 19,
+  "string_call": 11
+ },
+ "wutw-public": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 4,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 46,
+  "string_call": 0
+ },
+ "youtd2": {
+  "has_method_calls": 0,
+  "is_A_or_B_lines": 0,
+  "is_in_group_calls": 0,
+  "owner_or_parent_duck_sites": 0,
+  "owner_or_parent_duck_units": 0,
+  "static_funcs": 89,
+  "string_call": 0
+ }
+}

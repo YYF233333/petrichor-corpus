@@ -1,0 +1,1072 @@
+
+==================== ALL REPOSITORIES
+-- 1 totals
+    1192  inner classes
+     479  files with inner classes
+     283  files with inner classes that have a class_name
+     172  inner classes in test files
+      30  files with inner classes that are autoloads
+-- 2 extends
+     564  nothing (implicit RefCounted)
+     196  inner class of the same file
+     179  class_name class
+     123  engine: RefCounted
+      63  engine: other Node subclass
+      19  path string
+      14  engine: Node
+      11  engine: other
+      10  Other.Inner (class_name)
+       9  engine: Resource
+       2  engine: other Resource subclass
+       2  engine: Object
+-- 2b engine bases
+     123  RefCounted
+      14  Node
+      13  Control
+      10  Node2D
+       9  Resource
+       7  Button
+       5  HBoxContainer
+       4  VBoxContainer
+       4  EditorProperty
+       3  Panel
+       3  EditorExportPlugin
+       3  MenuButton
+       2  Label
+       2  OptionButton
+       2  TextureRect
+       2  EditorInspectorPlugin
+       2  Node3D
+       2  Object
+       1  CheckButton
+       1  ConfirmationDialog
+       1  AtlasTexture
+       1  AcceptDialog
+       1  EditorResourcePreviewGenerator
+       1  ResourceFormatLoader
+       1  ConfigFile
+       1  StreamPeerBuffer
+       1  SyntaxHighlighter
+       1  EditorDebuggerPlugin
+       1  Line2D
+       1  Container
+       1  Window
+       1  Logger
+-- 2c extends written on the first body line
+     246  yes
+-- 2d native ancestor
+     971  RefCounted
+     186  Node-derived
+      17  Resource
+       3  AtlasTexture
+       3  EditorExportPlugin
+       3  Object
+       2  EditorInspectorPlugin
+       1  EditorResourcePreviewGenerator
+       1  ResourceFormatLoader
+       1  ConfigFile
+       1  StreamPeerBuffer
+       1  SyntaxHighlighter
+       1  EditorDebuggerPlugin
+       1  Logger
+-- 3 nesting depth
+    1154  depth 1
+      35  depth 2
+       3  depth 3
+-- 4 contains (classes having)
+     458  _init with params
+     124  const
+      61  static func
+      56  signal
+      44  _init without params
+      23  inner classes
+      22  enum
+      14  static var
+       6  enum (unnamed)
+       5  @export var
+       1  @onready var
+-- 4a annotations on/before the class line
+       4  @tool
+       2  @abstract
+-- 5 classes using, by kind
+     286  other inner class
+      37  const
+      34  const (preload/load)
+      23  enum (named)
+       1  INSTANCE var
+-- 5 outer declaration used inside (per class+name)
+     416  other inner class
+      81  const
+      37  outer class_name (any use, e.g. back-reference type)
+      36  const (preload/load)
+      29  enum (named)
+       1  INSTANCE var
+-- 5 summary
+     347  inner classes using some outer declaration bare
+-- 6 other-file uses via autoload name
+     115  Inner.CONST
+      35  type annotation
+      33  Inner.Name (CamelCase: enum or class)
+      23  .new()
+      16  static call Inner.f()
+       5  Inner.member (lowercase: static var or other)
+       1  as
+-- 6 other-file uses via class_name
+     921  type annotation
+     475  .new()
+     272  static call Inner.f()
+     254  Inner.CONST
+     123  Inner.member (lowercase: static var or other)
+     108  is
+      38  other (value)
+      30  as
+      25  Inner.Name (CamelCase: enum or class)
+      19  extends
+-- 6 other-file uses via preload/load const or var
+     151  type annotation
+     134  .new()
+       8  is
+       3  other (value)
+       1  static call Inner.f()
+       1  as
+-- 6 summary (uses)
+    2265  via class_name
+     298  via preload/load const or var
+     228  via autoload name
+-- 7 same-file uses
+    1693  type annotation
+    1542  .new()
+     196  extends
+      70  Inner.Name (CamelCase: enum or class)
+      52  Inner.CONST
+      48  static call Inner.f()
+      45  is
+      42  as
+      35  Inner.member (lowercase: static var or other)
+      33  other (value)
+      24  type annotation [qualified Own.Inner]
+       4  Inner.CONST [qualified Own.Inner]
+       2  .new() [qualified Own.Inner]
+       1  static call Inner.f() [qualified Own.Inner]
+-- 7b same-file uses by location
+    2625  in the outer class
+    1131  inside an inner class
+-- 9 purpose
+     409  object with state and methods
+     305  data record (vars, maybe _init/_to_string)
+     172  in a test file
+     118  stateless object (instance methods, no vars)
+      73  namespace (only const/enum/static/inner classes)
+      66  Node subclass
+      37  empty / marker (maybe _init)
+      12  name mentions State
+-- 9b purpose of test-file classes
+     120  Node subclass
+      23  stateless object (instance methods, no vars)
+      10  empty / marker (maybe _init)
+       9  object with state and methods
+       8  data record (vars, maybe _init/_to_string)
+       2  namespace (only const/enum/static/inner classes)
+
+==================== GAME REPOSITORIES
+-- 1 totals
+     328  inner classes
+     130  files with inner classes
+      82  files with inner classes that have a class_name
+      20  inner classes in test files
+      16  files with inner classes that are autoloads
+-- 2 extends
+     189  nothing (implicit RefCounted)
+      43  class_name class
+      37  inner class of the same file
+      35  engine: RefCounted
+      18  engine: other Node subclass
+       2  path string
+       2  Other.Inner (class_name)
+       1  engine: Resource
+       1  engine: other Resource subclass
+-- 2b engine bases
+      35  RefCounted
+       3  Button
+       2  Label
+       2  OptionButton
+       2  HBoxContainer
+       2  TextureRect
+       2  Control
+       1  Resource
+       1  CheckButton
+       1  ConfirmationDialog
+       1  Panel
+       1  Node2D
+       1  AtlasTexture
+       1  VBoxContainer
+-- 2c extends written on the first body line
+      84  yes
+-- 2d native ancestor
+     285  RefCounted
+      37  Node-derived
+       3  Resource
+       3  AtlasTexture
+-- 3 nesting depth
+     311  depth 1
+      16  depth 2
+       1  depth 3
+-- 4 contains (classes having)
+     131  _init with params
+      43  const
+      21  static func
+      19  signal
+      12  enum
+      10  inner classes
+       9  static var
+       2  enum (unnamed)
+       1  _init without params
+       1  @export var
+-- 5 classes using, by kind
+      67  other inner class
+       9  const
+       7  enum (named)
+       3  const (preload/load)
+-- 5 outer declaration used inside (per class+name)
+      97  other inner class
+      12  enum (named)
+       9  const
+       6  outer class_name (any use, e.g. back-reference type)
+       4  const (preload/load)
+-- 5 summary
+      79  inner classes using some outer declaration bare
+-- 6 other-file uses via autoload name
+     115  Inner.CONST
+      33  Inner.Name (CamelCase: enum or class)
+      19  type annotation
+      16  static call Inner.f()
+      13  .new()
+       5  Inner.member (lowercase: static var or other)
+       1  as
+-- 6 other-file uses via class_name
+     197  type annotation
+     173  Inner.CONST
+     123  Inner.member (lowercase: static var or other)
+     100  .new()
+      37  is
+      23  Inner.Name (CamelCase: enum or class)
+      10  static call Inner.f()
+       6  extends
+       1  as
+-- 6 other-file uses via preload/load const or var
+      17  .new()
+       2  type annotation
+-- 6 summary (uses)
+     670  via class_name
+     202  via autoload name
+      19  via preload/load const or var
+-- 7 same-file uses
+     550  type annotation
+     384  .new()
+      37  extends
+      33  Inner.Name (CamelCase: enum or class)
+      33  Inner.CONST
+      20  Inner.member (lowercase: static var or other)
+      14  static call Inner.f()
+      14  as
+      11  type annotation [qualified Own.Inner]
+       4  Inner.CONST [qualified Own.Inner]
+       4  is
+       1  other (value)
+-- 7b same-file uses by location
+     856  in the outer class
+     234  inside an inner class
+-- 9 purpose
+     108  data record (vars, maybe _init/_to_string)
+      94  object with state and methods
+      52  namespace (only const/enum/static/inner classes)
+      22  Node subclass
+      20  in a test file
+      14  stateless object (instance methods, no vars)
+      13  empty / marker (maybe _init)
+       5  name mentions State
+-- 9b purpose of test-file classes
+      15  Node subclass
+       3  data record (vars, maybe _init/_to_string)
+       2  stateless object (instance methods, no vars)
+
+==================== PER REPOSITORY: first-party .gd, files with inner classes, inner classes, same-file uses, other-file uses
+   Super-Mario-Bros.-Remastered-Public game      314     0     0      0      0
+   godot-open-rpg               game       78     0     0      0      0
+   Microverse                   game       30     2     3     12      0
+   Godot-GameTemplate           game        4     0     0      0      0
+   Starter-Kit-City-Builder     game        6     0     0      0      0
+   tps-demo                     game       15     0     0      0      0
+   Starter-Kit-3D-Platformer    game        9     0     0      0      0
+   godot-open-rts               game      118     8    25     34    168
+   godot-2d-space-game          game       93     1     1      5      0
+   godot-4-3d-third-person-controller game       28     0     0      0      0
+   godot-FirstPersonStarter     game        4     0     0      0      0
+   Starter-Kit-FPS              game        7     0     0      0      0
+   Reia                         game      191    11    32     55     37
+   godot-tactical-rpg           game       57     0     0      0      0
+   godot-port                   game      127     1     1     21      0
+   escoria-demo-game            game        5     0     0      0      0
+   voxelgame                    game       59     4     4      5      0
+   TowDownGame                  game       88     0     0      0      0
+   GodotDynamicInventorySystem  game       26     0     0      0      0
+   museum-of-all-things         game       65     1     1      1      0
+   godot-2d-builder             game       93     0     0      0      0
+   starship-olympics            game      360     2     2     11     24
+   TakinGodotTemplate           game      113     1     1      3      4
+   OpenLiberty                  game       31     4     9     16     15
+   OpenVic                      game       73     7    36    164     23
+   deck_builder_tutorial        game      122     0     0      0      0
+   Starter-Kit-Racing           game        3     0     0      0      0
+   UltimateGodotIntro2D         game       21     0     0      0      0
+   tanks-of-freedom-ii          game      234     0     0      0      0
+   Cats-Godot4-Modular-Souls-like-Template game       39     1     1      1      0
+   godot-3-beginner-2d-platformer game       11     0     0      0      0
+   Pocket-Godot                 game        9     0     0      0      0
+   MultiplayerFPSTutorial       game        2     0     0      0      0
+   godot-tiny-mmo               game      180     2     3     10      8
+   Slay-The-Robot               game      251     0     0      0      0
+   Castlevania-Remnants-of-Darkness game      448     0     0      0      5
+   Super-Mario-World-Remastered-Public game      379     0     0      0      0
+   wutw-public                  game      287     6    17    108    201
+   Godot-Plush-Character        game        7     0     0      0      0
+   godot-multiplayer            game       24     0     0      0      0
+   Godot4ThirdPersonCombatPrototype game      148     0     0      0      0
+   youtd2                       game      166     7    17     70      8
+   godot-xr-template            game       17     0     0      0      0
+   desksaw                      game       67     2     2      5      0
+   GodotProjectZero             game      141     1     1      6      0
+   godot-4-2d-visual-novel      game       16     3    23     92     31
+   Legacy_SM63Redux             game      161     0     0      0      0
+   Starter-Kit-Match-3          game        4     0     0      0      0
+   godot-2d-topdown-template    game       64     1     1      2      0
+   SonicWorldsNext              game      132     0     0      0      0
+   SimpleFPSController          game       11     0     0      0      0
+   aarpg-tutorial               game      116     0     0      0      0
+   godot_autobattler_course     game       80     1     1      1      0
+   jdungeon                     game      182    10    11     62     27
+   LibreAim                     game       35     1     1      4      1
+   Strategy-GDScript            game       27     0     0      0      0
+   devmoreir4__godot-3d-multiplayer-template game       16     0     0      0      0
+   opengs                       game       32     1     6     12      0
+   top-down-action-rpg-template game       21     0     0      0      0
+   Godot-Roguelike-Tutorial     game       31     0     0      0      0
+   unto-deepest-depths-prototype game       14     0     0      0      0
+   godot-2d-adventure-tutorial  game       26     0     0      0      0
+   knakk                        game       32     1     4      0     52
+   Dororo                       game       28     0     0      0      0
+   _original_client             game       54     0     0      0      0
+   Godot_Universal-Controller-tutorial game       53     0     0      0      0
+   simple-godot-train           game       17     0     0      0      0
+   OpMon                        game       40     1     1      2      0
+   Godot-Inventory              game       34     0     0      0      0
+   template-beat-em-up          game      150     1     1      2      0
+   game-base-2D                 game       57     0     0      0      0
+   godot-rocket-league          game       12     0     0      0      0
+   Freedom-Hunter               game       50     2     3     13      0
+   simgine                      game       35     0     0      0      0
+   GDWaterKart                  game       22     0     0      0      0
+   TopdownStarter               game       25     0     0      0      0
+   Godot4-FPS-Template          game       16     0     0      0      0
+   poder-solar                  game       11     0     0      0      0
+   DOGWALK                      game       91     0     0      0      0
+   godot4-third-person-controller game       22     0     0      0      0
+   malware-slayer               game      121     5    11     10     18
+   SurvivorsClone_Complete      game       17     0     0      0      0
+   Genesis                      game       21     0     0      0      0
+   Friendslop-Template          game       48     6    17      8      0
+   super-godot-galaxy           game       12     1     1      1      0
+   GBM2K-Framework              game       13     0     0      0      0
+   Project-Heartbeat            game      167    20    64    179     97
+   tower-defense-godot4         game       41     0     0      0      0
+   limbo-godot                  game       12     0     0      0      0
+   abyssal-walker               game       87     1     1      3     59
+   godot-chess                  game       10     0     0      0      0
+   Improved-KCC                 game       30     1     8    104      0
+   BatteryAcid__godot-3d-multiplayer-template game       18     0     0      0      0
+   Godot4SourceEngineMovement   game       14     0     0      0      0
+   PSGodotTemplateRepo          game       34     1     2      4      0
+   RhythiaRewrite               game       76     4     5      7     21
+   Cupcakes-Framework           game       10     0     0      0      0
+   Stardew                      game       65     0     0      0      0
+   CandyWrapper                 game        4     0     0      0      0
+   Galaxy-Defiance              game       32     0     0      0      0
+   Resources-GDScript           game       47     1     1      3      0
+   Lost-Pilot                   game       30     2     4      9      6
+   sourceofmana                 game      194     5     6     60     86
+   godot-card-game-frame        game       26     0     0      0      0
+   Godot-2D-Action-Game         game       76     0     0      0      0
+   soccer-course                game       65     0     0      0      0
+   moddable-platformer          game       15     0     0      0      0
+   paddles_balls_blocks_walls   game       57     0     0      0      0
+   age-of-war                   game       70     0     0      0      0
+   tower-defense-tutorial       game       30     0     0      0      0
+   holoDelta                    game       28     0     0      0      0
+   Godot-4-Tower-Defense-Template game       21     0     0      0      0
+   FRU-Sim                      game      149     0     0      0      0
+   godot_open_star_fighter      game       40     0     0      0      0
+   dialogic                     plugin    176     2     2     17      2
+   godot_dialogue_manager       plugin     79     3     4      6      0
+   phantom-camera               plugin     36     0     0      0      0
+   beehave                      plugin     95     1     1      3      0
+   scatter                      plugin     83     2     4     25      0
+   Gut                          plugin    150    43   137    189     26
+   godot_heightmap_plugin       plugin     68    12    24     84      2
+   SmartShape2D                 plugin     68     6     9     17      6
+   Godot-Game-Template          plugin    123     0     0      0      0
+   gaea                         plugin    166     9    15     64    111
+   cyclopsLevelBuilder          plugin    174    21    29    174     78
+   godot-statecharts            plugin     89     0     0      0      0
+   Metroidvania-System          plugin     56     4    10     41      2
+   godot-steering-ai-framework  plugin     67     1     1      5      0
+   PankuConsole                 plugin    100     2     2      4      0
+   godot-aseprite-wizard        plugin     62     0     0      0      0
+   gdmaim                       plugin     23     6    32    116    175
+   godot_spatial_gardener       plugin    101     5    11     26     64
+   TileMapDual                  plugin     15     0     0      0      0
+   godot-road-generator         plugin     44     2     2      6      0
+   ShaderV                      plugin     93     0     0      0      0
+   ridiculous_coding            plugin      5     0     0      0      0
+   netfox                       plugin    214    19    57    116     17
+   pandora                      plugin    125     5     6     12      1
+   godot_input_helper           plugin     10     0     0      0      0
+   script-ide                   plugin      8     2     3     27      0
+   godot-resources-as-sheets-plugin plugin     48     0     0      0      0
+   gloot                        plugin     62     1     2     13      0
+   Virtual-Joystick-Godot       plugin      4     0     0      0      0
+   unidot_importer              plugin     28    13    38    152     12
+   Sky3D                        plugin      7     0     0      0      0
+   func_godot_plugin            plugin     33     1     7      8     20
+   godot_sound_manager          plugin      7     0     0      0      0
+   nakama-godot                 plugin     41     8    32     21    146
+   godot_little_camera_preview  plugin      3     0     0      0      0
+   Qodot                        plugin     43     2    14     24     27
+   better-terrain               plugin      9     0     0      0      0
+   godot-xr-tools               plugin    140     3     3     14      0
+   godot-gameplay-systems       plugin    117     2     7     61      0
+   godot-mod-loader             plugin     60     9    13     13      1
+   SignalVisualizer             plugin     15     2     3      6      3
+   GodotFirebase                plugin     39     3    10     14      2
+   BehaviourToolkit             plugin     74     1     1      0     14
+   gd-YAFSM                     plugin     36     2     2      1      2
+   godot-debug-menu             plugin      2     0     0      0      0
+   Scene-Manager                plugin     21     0     0      0      0
+   Yugens-Terrain-Authoring-Toolkit plugin     31     1     1      3      0
+   Pixelorama                   tool       81    12    19    197     20
+   Lorien                       tool       50     4     4     11     10
+   material-maker               tool      195    12    18     88     34
+   SoundThread                  tool       30     0     0      0      0
+   learn-gdscript               tool      223    17    31    131    133
+   GodSVG                       tool      141    14    34    169    183
+   protongraph                  tool      167     5     6     26      0
+   PixelPlanets                 tool       18     0     0      0      0
+   Arrow                        tool      102    10    18     15    194
+   GodotOS                      tool       79     0     0      0      0
+   the-mirror                   tool      207     5    18     47     95
+   Open-Industry-Project-Godot  tool       79     4     6     15     11
+   boscaceoil-blue              tool       87    19    47    194    116
+   godots                       tool      139    44   169    489    393
+   vpuppr                       tool       52     2     2      3      0
+   GodotPixelRenderer           tool        9     0     0      0      0
+   unitypackage_godot           tool       15     0     0      0      0
+   godot-demo-projects          demo      305     6     7     29      0
+   godot-4-procedural-generation demo       51     0     0      0      0
+   godot-visual-effects         demo       39     1     1      3      0
+   godot-start                  demo       38     1     2      3      0
+   godot_experiments            demo       17     0     0      0      0
+   MizGodotTools                demo       70     0     0      0      0
+   godot_ui_components          demo       16     0     0      0      0
+
+==================== DETAIL
+-- 5 instance-member candidates (1)
+    unidot_importer/asset_adapter.gd:579 SceneHandler -> unidot_utils
+-- 6 targets (2791)
+    133 uses from  36 files  Arrow/scripts/shared/shared_helpers.gd::Utils  (via class_name)
+    106 uses from  21 files  learn-gdscript/resources/lesson_bbcode_parser/BBCodeParser.gd::ParseNode  (via class_name)
+     67 uses from  29 files  gaea/addons/gaea/runtime/resources/value.gd::Sample  (via class_name)
+     64 uses from  17 files  godot-open-rts/source/Constants.gd::Units  (via autoload name)
+     63 uses from  33 files  sourceofmana/sources/actor/ProgressCommons.gd::Quest  (via class_name)
+     59 uses from   8 files  abyssal-walker/scripts/core/stats/damage_calculator.gd::DamageResult  (via class_name)
+     52 uses from   3 files  gdmaim/addons/gdmaim/obfuscator/script/parser/ast.gd::ASTNode  (via preload/load const or var)
+     49 uses from  15 files  wutw-public/wutw/settings/game_settings.gd::Interface  (via class_name)
+     45 uses from  24 files  wutw-public/wutw/Wwise/resources/wwise_ids.gd::EVENTS  (via class_name)
+     41 uses from   1 files  godot_spatial_gardener/addons/dreadpon.spatial_gardener/scene_converter/converter_types.gd::TokenVal  (via preload/load const or var)
+     40 uses from   6 files  boscaceoil-blue/gui/widgets/OptionListPopup.gd::Item  (via class_name)
+     35 uses from  13 files  the-mirror/mirror-godot-app/scripts/enum/enums.gd::ASSET_TYPE  (via class_name)
+     33 uses from   6 files  knakk/Reward/Reward.gd::Points  (via class_name)
+     33 uses from   7 files  godots/src/services/local_editors.gd::Item  (via class_name)
+     33 uses from   5 files  godots/src/services/projects.gd::Item  (via class_name)
+     29 uses from   4 files  godots/src/objects/action.gd::IconTheme  (via class_name)
+     28 uses from   5 files  wutw-public/wutw/settings/game_settings.gd::Japanese  (via class_name)
+     26 uses from   3 files  wutw-public/wutw/settings/game_settings.gd::Audio  (via class_name)
+     24 uses from   2 files  starship-olympics/godot/godot4/elements/blocks/Block.gd::BlockTile  (via class_name)
+     24 uses from   6 files  GodSVG/src/data_classes/PathCommand.gd::MoveCommand  (via class_name)
+     24 uses from   3 files  GodSVG/src/data_classes/PathCommand.gd::EllipticalArcCommand  (via class_name)
+     23 uses from   9 files  Reia/godot/client/ui/core/ui_colors.gd::Base  (via class_name)
+     23 uses from  12 files  jdungeon/classes/MultiplayerConnection.gd::User  (via class_name)
+     23 uses from  11 files  the-mirror/mirror-godot-app/script/visual/blocks/script_block.gd::ScriptBlockInputPort  (via class_name)
+     21 uses from   9 files  gaea/addons/gaea/runtime/resources/value.gd::GridType  (via class_name)
+     20 uses from   5 files  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/math/convex_volume.gd::FaceVertexInfo  (via class_name)
+     20 uses from   3 files  gdmaim/addons/gdmaim/obfuscator/script/tokenizer/tokenizer.gd::Line  (via preload/load const or var)
+     20 uses from   5 files  material-maker/addons/material_maker/engine/nodes/gen_base.gd::ShaderUniform  (via class_name)
+     19 uses from   7 files  godot-open-rts/source/Constants.gd::Navigation  (via autoload name)
+     19 uses from   9 files  gaea/addons/gaea/runtime/resources/value.gd::Map  (via class_name)
+     19 uses from   6 files  gdmaim/addons/gdmaim/obfuscator/symbol_table.gd::Symbol  (via preload/load const or var)
+     19 uses from   3 files  GodSVG/src/data_classes/PathCommand.gd::HorizontalLineCommand  (via class_name)
+     19 uses from   9 files  godots/src/services/local_editors.gd::List  (via class_name)
+     19 uses from   6 files  godots/src/components/asset_lib_projects/asset_lib.gd::Item  (via class_name)
+     19 uses from   6 files  godots/src/objects/action.gd::Self  (via class_name)
+     18 uses from   2 files  godot-open-rts/source/Constants.gd::VoiceNarrator  (via autoload name)
+     18 uses from   4 files  wutw-public/wutw/settings/game_settings.gd::Display  (via class_name)
+     18 uses from   9 files  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/math/convex_volume.gd::FaceInfo  (via class_name)
+     18 uses from   1 files  godot_spatial_gardener/addons/dreadpon.spatial_gardener/scene_converter/converter_types.gd::PropStruct  (via preload/load const or var)
+     18 uses from   4 files  godots/src/extensions/dir.gd::DirListResult  (via class_name)
+     17 uses from   3 files  GodSVG/src/data_classes/PathCommand.gd::VerticalLineCommand  (via class_name)
+     17 uses from   6 files  Arrow/scripts/shared/html5_helpers.gd::Utils  (via class_name)
+     17 uses from   4 files  the-mirror/mirror-godot-app/scripts/autoload/analytics/analytics_event.gd::TYPE  (via class_name)
+     16 uses from   2 files  sourceofmana/sources/network/server/Peers.gd::Peer  (via class_name)
+     16 uses from   4 files  boscaceoil-blue/gui/widgets/popups/ExportMasterPopup.gd::ExportConfig  (via class_name)
+     15 uses from   4 files  godot-open-rts/source/Constants.gd::Match  (via autoload name)
+     15 uses from   8 files  godots/src/cli/parser/cli_parser.gd::ParsedCommandResult  (via class_name)
+     14 uses from   3 files  godot-open-rts/source/Constants.gd::Navmesh  (via autoload name)
+     14 uses from   1 files  OpenVic/game/addons/keychain/Keychain.gd::InputAction  (via preload/load const or var)
+     14 uses from   6 files  RhythiaRewrite/scripts/content/replays/Replay.gd::Frame  (via class_name)
+-- 8 .new() of a Node-derived inner class (161)
+    OpenVic/game/src/UI/GameMenu/MainMenu/MainMenu.gd:24 SettingsContainer.EnumOptionButton.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:39 SettingLabel.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:49 BoolEnumButton.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:51 BoolButton.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:55 RangeSlider.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:59 FileSelectEdit.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:61 PlaceholderLabel.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:75 ResetButton.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:83 RevertDialog.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:203 PlaceholderLabel.new()
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:204 EnumOptionButton.new()
+    jdungeon/todo/components/player/charclasscomponent/CharClassSelection.gd:72 CharacterClassMenuElement.new()
+    jdungeon/todo/components/player/charclasscomponent/CharClassSelection.gd:94 CharacterClassMenuElement.new()
+    jdungeon/todo/components/player/skillcomponent/SkillBar.gd:32 SkillDisplay.new()
+    jdungeon/todo/components/player/skillcomponent/SkillSelection.gd:108 SkillButton.new()
+    jdungeon/todo/components/player/skillcomponent/SkillSelection.gd:116 SkillButton.new()
+    Freedom-Hunter/src/inventory.gd:25 Slot.new()
+    Freedom-Hunter/src/inventory.gd:29 Slot.new()
+    Freedom-Hunter/src/inventory.gd:144 ItemStack.new()
+    Freedom-Hunter/src/inventory.gd:163 ItemStack.new()
+    Friendslop-Template/test/core/test_scene_manager.gd:13 MockSceneManager.new()
+    Friendslop-Template/test/multiplayer/player_spawning/test_base_player_spawn_manager.gd:52 MockPlayerSpawnManager.new()
+    Friendslop-Template/test/multiplayer/player_spawning/test_coll_queue_player_spawn_manager.gd:50 MockSpawnPoint.new()
+    Project-Heartbeat/menus/HBHovereableButton.gd:47 ButtonHoverAnimationProxy.new()
+    godot_dialogue_manager/tests/test_state_contexts.gd:29 ContextTarget.new()
+    Gut/scratch/where_are_the_functions.gd:14 TryThis.new()
+    Gut/test/samples/test_readme_examples.gd:338 MovingNode.new()
+    Gut/test/samples/test_readme_examples.gd:369 TimedSignaler.new()
+    Gut/test/samples/test_readme_examples.gd:378 TimedSignaler.new()
+    Gut/test/unit/test_bugs/test_i608_mouse_motion_buttons.gd:30 DraggableButton.new()
+    Gut/test/unit/test_bugs/test_i608_mouse_motion_buttons.gd:49 DraggableButton.new()
+    Gut/test/unit/test_input_sender.gd:244 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:254 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:264 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:271 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:278 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:285 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:299 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:309 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:332 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:341 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:347 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:353 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:367 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:378 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:388 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:397 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:407 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:418 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:429 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:439 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:449 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:460 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:471 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:481 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:491 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:502 InputTracker.new()
+    Gut/test/unit/test_input_sender.gd:523 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:530 HasInputEvents.new()
+    Gut/test/unit/test_input_sender.gd:537 HasInputEvents.new()
+-- 8 Node-derived inner classes (186)
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:124 SettingLabel extends Label native=Label
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:139 BoolEnumButton extends OptionButton native=OptionButton
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:159 BoolButton extends CheckButton native=CheckButton
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:174 EnumOptionButton extends OptionButton native=OptionButton
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:239 RangeSlider extends HBoxContainer native=HBoxContainer
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:266 FileSelectEdit extends HBoxContainer native=HBoxContainer
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:310 PlaceholderLabel extends Label native=Label
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:323 ResetButton extends Button native=Button
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:341 RevertDialog extends ConfirmationDialog native=ConfirmationDialog
+    jdungeon/todo/components/player/charclasscomponent/CharClassSelection.gd:225 CharacterClassMenuElement extends Button native=Button
+    jdungeon/todo/components/player/skillcomponent/SkillBar.gd:80 SkillDisplay extends TextureRect native=TextureRect
+    jdungeon/todo/components/player/skillcomponent/SkillSelection.gd:195 SkillButton extends Button native=Button
+    Freedom-Hunter/src/inventory.gd:115 ItemStack extends TextureRect native=TextureRect
+    Freedom-Hunter/src/inventory.gd:137 Slot extends Panel native=Panel
+    Friendslop-Template/test/core/test_scene_manager.gd:3 MockSceneManager extends SceneManagerCode native=Timer
+    Friendslop-Template/test/input/test_local_coop_manager.gd:4 TestMKB extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:36 TestBinding extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:86 TestUnbinding extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:110 TestDeviceSignals extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:141 TestDerivedProperties extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:194 TestQueries extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:220 TestHotplug extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:252 TestSlotSignals extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:301 TestEdgeCases extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:350 TestInit extends GutTest native=Node
+    Friendslop-Template/test/input/test_local_coop_manager.gd:412 TestPlug extends GutTest native=Node
+    Friendslop-Template/test/multiplayer/player_spawning/test_base_player_spawn_manager.gd:6 MockPlayerSpawnManager extends BasePlayerSpawnManager native=Node
+    Friendslop-Template/test/multiplayer/player_spawning/test_coll_queue_player_spawn_manager.gd:20 MockSpawnPoint extends Node2D native=Node2D
+    Friendslop-Template/test/multiplayer/test_lobby_player.gd:100 TestLobbyPlayerNetworkStatus extends BaseNetworkGutTest native=Node
+    Project-Heartbeat/menus/HBHovereableButton.gd:11 ButtonHoverAnimationProxy extends Control native=Control
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:15 HBEditorImporter extends VBoxContainer native=VBoxContainer
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:64 DSCImporter extends HBEditorImporter native=VBoxContainer
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:138 PPDImporter extends HBEditorImporter native=VBoxContainer
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:162 ComfyImporter extends HBEditorImporter native=VBoxContainer
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:179 EditImporter extends HBEditorImporter native=VBoxContainer
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:196 MIDIImporter extends HBEditorImporter native=VBoxContainer
+    Project-Heartbeat/tools/new_inspector/new_inspector.gd:13 TestObj extends Control native=Control
+    godot_dialogue_manager/tests/test_state_contexts.gd:5 ContextTarget extends Node native=Node
+    Gut/scratch/find_inner_classes.gd:11 Inner1 extends res://addons/gut/test.gd native=Node
+    Gut/scratch/find_inner_classes.gd:18 Inner2_a extends res://addons/gut/test.gd native=Node
+    Gut/scratch/find_inner_classes.gd:24 Inner3 extends GutInternalTester native=Node
+    Gut/scratch/find_inner_classes.gd:27 ExtendsInner1 extends Inner1 native=Node
+    Gut/scratch/where_are_the_functions.gd:5 TryThis extends res://test/resources/doubler_test_objects/double_extends_window_dialog.gd native=Window
+    Gut/test/integration/test_gut_and_error_tracker.gd:4 TestDefaults extends GutInternalTester native=Node
+    Gut/test/integration/test_gut_and_error_tracker.gd:14 TestErrorFailures extends GutInternalTester native=Node
+    Gut/test/integration/test_gut_and_error_tracker.gd:106 TestErrorAsserts extends GutInternalTester native=Node
+    Gut/test/integration/test_gut_and_spy.gd:16 TestGutClearsSpyBetweenTests extends res://addons/gut/test.gd native=Node
+    Gut/test/output_tests/test_misc.gd:4 TestTestAwaitMethods extends GutOutputTest native=Node
+    Gut/test/output_tests/test_misc.gd:29 TestResultExporter extends GutInternalTester native=Node
+    Gut/test/output_tests/test_misc.gd:63 TestTest extends GutOutputTest native=Node
+    Gut/test/output_tests/test_misc.gd:92 TestSummary extends GutOutputTest native=Node
+    Gut/test/output_tests/test_misc.gd:164 TestJunitXmlExport extends GutOutputTest native=Node
+    Gut/test/output_tests/test_misc.gd:195 TestDiffTool extends GutOutputTest native=Node
+    Gut/test/output_tests/test_misc.gd:229 TestParameterized extends GutTest native=Node
+    Gut/test/output_tests/test_misc.gd:236 TestOutputWhenRunDirectly extends GutTest native=Node
+    Gut/test/output_tests/test_one_of_everything.gd:42 TestSkipThisScript extends GutTest native=Node
+    Gut/test/output_tests/test_one_of_everything.gd:52 TestInnerTestClass extends GutTest native=Node
+    Gut/test/output_tests/test_print.gd:74 TestGuiOutput extends GutTest native=Node
+    Gut/test/output_tests/test_print.gd:112 TestBasicLoggerOutput extends GutInternalTester native=Node
+    Gut/test/output_tests/test_print.gd:145 TestLogLevels extends GutTest native=Node
+-- 9 Node subclass (66)
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:124 SettingLabel extends=Label vars=1 consts=0 funcs=['_init']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:139 BoolEnumButton extends=OptionButton vars=1 consts=0 funcs=['_init', 'update']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:159 BoolButton extends=CheckButton vars=1 consts=0 funcs=['_init', 'update']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:174 EnumOptionButton extends=OptionButton vars=1 consts=0 funcs=['_get_display_values', '_init', '_notification', '_update_items', 'create_button']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:239 RangeSlider extends=HBoxContainer vars=3 consts=0 funcs=['_init', 'update']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:266 FileSelectEdit extends=HBoxContainer vars=4 consts=0 funcs=['_init', '_on_path_selected', 'update']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:310 PlaceholderLabel extends=Label vars=1 consts=0 funcs=['_init', 'update']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:323 ResetButton extends=Button vars=1 consts=0 funcs=['_init', '_ready', 'update']
+    OpenVic/game/src/UI/GameMenu/OptionMenu/SettingsContainer.gd:341 RevertDialog extends=ConfirmationDialog vars=2 consts=0 funcs=['_init', '_notification', '_on_canceled', '_on_confirmed', '_on_timer_timeout']
+    jdungeon/todo/components/player/charclasscomponent/CharClassSelection.gd:225 CharacterClassMenuElement extends=Button vars=1 consts=0 funcs=['_init', '_on_mouse_entered', '_pressed', '_ready']
+    jdungeon/todo/components/player/skillcomponent/SkillBar.gd:80 SkillDisplay extends=TextureRect vars=4 consts=0 funcs=['_on_skill_cast_on_select_selected', '_on_skill_cooldown_updated', '_on_skill_selected', '_ready', 'deselect']
+    jdungeon/todo/components/player/skillcomponent/SkillSelection.gd:195 SkillButton extends=Button vars=4 consts=0 funcs=['_init', '_pressed', '_ready', 'update_visual']
+    Freedom-Hunter/src/inventory.gd:115 ItemStack extends=TextureRect vars=1 consts=0 funcs=['_init', 'layout']
+    Freedom-Hunter/src/inventory.gd:137 Slot extends=Panel vars=3 consts=0 funcs=['_can_drop_data', '_drop_data', '_get_drag_data', '_init', 'set_item']
+    Project-Heartbeat/menus/HBHovereableButton.gd:11 ButtonHoverAnimationProxy extends=Control vars=1 consts=0 funcs=['_draw', '_init']
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:15 HBEditorImporter extends=VBoxContainer vars=4 consts=0 funcs=['autoplace', 'build_timing_map', 'file_selected', 'get_filter']
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:64 DSCImporter extends=HBEditorImporter vars=2 consts=1 funcs=['_ready', 'file_selected', 'get_filter', 'get_selected_game']
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:138 PPDImporter extends=HBEditorImporter vars=0 consts=0 funcs=['_ready', 'file_selected']
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:162 ComfyImporter extends=HBEditorImporter vars=1 consts=0 funcs=['_ready', 'file_selected']
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:179 EditImporter extends=HBEditorImporter vars=0 consts=1 funcs=['_ready', 'file_selected']
+    Project-Heartbeat/tools/editor/editor_modules/ImportsModule.gd:196 MIDIImporter extends=HBEditorImporter vars=6 consts=1 funcs=['_ready', 'file_selected', 'get_filter', 'merge_tracks', 'track_import_accepted']
+    Project-Heartbeat/tools/new_inspector/new_inspector.gd:13 TestObj extends=Control vars=2 consts=0 funcs=['get_hb_inspector_whitelist']
+    Gut/scratch/find_inner_classes.gd:11 Inner1 extends=res://addons/gut/test.gd vars=1 consts=0 funcs=[]
+    Gut/scratch/find_inner_classes.gd:18 Inner2_a extends=res://addons/gut/test.gd vars=0 consts=0 funcs=[]
+    Gut/scratch/find_inner_classes.gd:24 Inner3 extends=GutInternalTester vars=0 consts=0 funcs=[]
+    Gut/scratch/find_inner_classes.gd:27 ExtendsInner1 extends=Inner1 vars=0 consts=0 funcs=[]
+    Gut/scratch/where_are_the_functions.gd:5 TryThis extends=res://test/resources/doubler_test_objects/double_extends_window_dialog.gd vars=0 consts=0 funcs=['emit_changed']
+    SmartShape2D/addons/rmsmartshape/editors/action_property_inspector_plugin.gd:18 ActionPropertyEditor extends=EditorProperty vars=1 consts=0 funcs=['_init', '_ready']
+    SmartShape2D/addons/rmsmartshape/tools/collision_tool.gd:12 OptionsDialog extends=AcceptDialog vars=1 consts=0 funcs=['_init', '_on_node_selected', 'get_selected_node_path', 'set_selected_node_path']
+    Metroidvania-System/addons/MetroidvaniaSystem/EditorExtension/MetSysEditorExtension.gd:142 EditorPropertyRoomLink extends=EditorProperty vars=3 consts=0 funcs=['_assign_scene', '_browse_file', '_can_drop_fw', '_drop_fw', '_init']
+    godot-road-generator/road_demos/procedural_generator/road_actor_spawner.gd:5 DespawnRoadLane extends=RoadLane vars=1 consts=0 funcs=['_init', 'register_vehicle']
+    netfox/addons/netfox/servers/network-command-server.gd:114 _Transport extends=Node vars=0 consts=0 funcs=['send']
+    netfox/addons/netfox/servers/network-command-server.gd:120 _PacketTransport extends=_Transport vars=1 consts=0 funcs=['_handle_packet', '_init', '_ready', 'is_command_packet', 'send']
+    netfox/addons/netfox/servers/network-command-server.gd:161 _RPCTransport extends=_Transport vars=0 consts=0 funcs=['_submit_reliable', '_submit_unreliable', '_submit_unreliable_ordered', 'send']
+    gloot/addons/gloot/ui/ctrl_inventory_grid.gd:23 PriorityPanel extends=Panel vars=3 consts=0 funcs=['_init', '_ready', '_set_panel_style', 'set_style']
+    gloot/addons/gloot/ui/ctrl_inventory_grid.gd:66 CustomizablePanel extends=Panel vars=0 consts=0 funcs=['set_style']
+    Qodot/addons/qodot/src/util/qodot_editor_button.gd:30 ButtonTrigger extends=EditorProperty vars=3 consts=0 funcs=['_ready', 'trigger']
+    GodotFirebase/addons/godot-firebase/Utilities.gd:356 AwaitDetachable extends=Node2D vars=1 consts=0 funcs=['_init']
+    BehaviourToolkit/addons/behaviour_toolkit/behaviour_toolkit.gd:13 BTLogger extends=BehaviourToolkit vars=0 consts=4 funcs=['colorize', 'say']
+    Pixelorama/src/UI/Nodes/GradientEdit.gd:40 GradientCursor extends=Control vars=4 consts=1 funcs=['_can_drop_data', '_draw', '_drop_data', '_gui_input', '_ready']
+    learn-gdscript/course/common/turtle/DrawingTurtle.gd:263 Polygon extends=Node2D vars=1 consts=0 funcs=['get_center', 'get_global_center', 'get_points', 'get_positioned_rect', 'get_rect']
+    learn-gdscript/course/common/turtle/DrawingTurtle.gd:320 DrawingLine2D extends=Line2D vars=1 consts=3 funcs=['_animate_drawing', '_init', '_spawn_label', 'start', 'stop']
+    learn-gdscript/course/lesson-14-multiplying/visuals/Graph.gd:87 Polygon extends=Node2D vars=7 consts=0 funcs=['_animate_point_position', '_init', 'get_center', 'get_points', 'get_rect']
+    learn-gdscript/ui/components/SliceEditorOverlay.gd:171 ErrorOverlay extends=Control vars=5 consts=3 funcs=['_init', '_ready', 'set_regions', 'try_consume_mouse']
+    learn-gdscript/ui/components/SliceEditorOverlay.gd:262 ErrorUnderline extends=Control vars=4 consts=8 funcs=['_draw', '_init', 'set_line_color', 'set_line_length', 'set_line_type']
+    learn-gdscript/ui/components/SliceEditorOverlay.gd:360 HighlightOverlay extends=Control vars=4 consts=2 funcs=['_dissolve_step', '_draw', '_init', '_ready', 'set_regions']
+    GodSVG/src/ui_parts/editor_scene.gd:223 LayoutPartContainer extends=Container vars=0 consts=0 funcs=['_get_minimum_size', '_notification']
+    GodSVG/src/ui_widgets/points_field.gd:13 Strip extends=Control vars=3 consts=0 funcs=[]
+    Open-Industry-Project-Godot/addons/tag_groups/tag_groups.gd:23 TagGroupOptionButton extends=EditorProperty vars=1 consts=0 funcs=['_init', '_on_item_selected', '_populate_options', '_select_current_value', '_tag_groups_registered']
+    boscaceoil-blue/globals/PopupManager.gd:234 PopupControl extends=Control vars=2 consts=1 funcs=['align_popup', 'animate_transform', 'get_popup_anchor', 'is_popped', 'mark_click_handled']
+    boscaceoil-blue/globals/PopupManager.gd:313 PopupAnchor extends=Control vars=0 consts=0 funcs=['_fit_to_screen', '_init', 'update_absolute_position', 'update_relative_position']
+    boscaceoil-blue/gui/views/pattern_map/PatternMap.gd:985 DraggedPatternPreview extends=Control vars=2 consts=0 funcs=['_input']
+    boscaceoil-blue/gui/widgets/ItemDock.gd:406 ItemDragPreview extends=Control vars=0 consts=0 funcs=['_notification']
+    godots/src/components/editors/local/editor_item/editor_item_actions.gd:88 Menu extends=MenuButton vars=4 consts=0 funcs=['_init', '_setup_popup', 'add_controls_to_node', 'refill_popup']
+    godots/src/components/misc/array_edit.gd:59 Item extends=HBoxContainer vars=4 consts=0 funcs=['_emit_move_requested', '_init', '_notification', '_ready', 'get_value']
+    godots/src/components/misc/tab_actions.gd:63 Menu extends=MenuButton vars=3 consts=0 funcs=['_init', '_setup_popup', 'add_controls_to_node']
+    godots/src/components/projects/clone_project_dialog/clone_project_dialog.gd:90 CloningWindow extends=Window vars=1 consts=0 funcs=['_init', '_notification', '_ready']
+    godots/src/components/projects/new_project_dialog/new_project_dialog.gd:109 NewProjectGodot3Form extends=VBoxContainer vars=1 consts=0 funcs=['_init', 'renderer_method']
+    godots/src/components/projects/new_project_dialog/new_project_dialog.gd:209 NewProjectGodot4Form extends=VBoxContainer vars=2 consts=0 funcs=['_init', 'renderer_method', 'vsc_meta']
+    godots/src/components/projects/new_project_dialog/new_project_dialog.gd:271 VersionControlMetadata extends=HBoxContainer vars=1 consts=0 funcs=['_init', 'current']
+-- 9 data record (vars, maybe _init/_to_string) (305)
+    Microverse/script/ai/APIConfig.gd:20 APIProvider extends=- vars=8 consts=0 funcs=['_init']
+    Microverse/script/ai/background_story/BackgroundStoryManager.gd:6 StoryBackground extends=- vars=4 consts=0 funcs=['_init']
+    Microverse/script/ai/background_story/BackgroundStoryManager.gd:19 SocialRule extends=- vars=2 consts=0 funcs=['_init']
+    godot-2d-space-game/project/libraries/godot-steering-ai-framework/gsai_path.gd:124 GSAISegment extends=- vars=4 consts=0 funcs=['_init']
+    Reia/_old_code/features/inventory/integration/inventory_demo_service.gd:6 Item extends=- vars=6 consts=0 funcs=['_init']
+    Reia/_old_code/features/inventory/integration/inventory_service.gd:6 ItemView extends=- vars=7 consts=0 funcs=['_init']
+    Reia/godot/addons/map_editor/infrastructure/adapters/viewport_raycaster.gd:7 RaycastHitResult extends=- vars=5 consts=0 funcs=[]
+    Reia/godot/addons/map_editor/infrastructure/geometry/procedural_mesh_batcher.gd:9 ChunkCompileResult extends=- vars=5 consts=0 funcs=[]
+    godot-port/Assets/World/Components/Collectors/Collector.gd:8 Job extends=- vars=4 consts=0 funcs=['_init', '_to_string']
+    voxelgame/project/blocky_game/blocks/block.gd:8 BaseInfo extends=- vars=9 consts=0 funcs=[]
+    voxelgame/project/blocky_game/blocks/blocks.gd:38 RawMapping extends=- vars=2 consts=0 funcs=[]
+    voxelgame/project/blocky_game/items/item.gd:4 BaseInfo extends=- vars=3 consts=0 funcs=[]
+    TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/_configuration_controller/_list_configuration_controller.gd:16 CfgOptions extends=- vars=3 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/collision_model.gd:14 CollisionBounds extends=- vars=4 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/collision_model.gd:21 CollisionSphere extends=- vars=3 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/collision_model.gd:27 CollisionBox extends=- vars=3 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/collision_model.gd:33 CollisionFace extends=- vars=4 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/collision_model.gd:40 CollisionSurface extends=- vars=4 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/item_definition.gd:91 ObjectDef extends=- vars=7 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/item_definition.gd:121 Light2DFX extends=- vars=8 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/item_placement.gd:57 Instance extends=- vars=2 consts=0 funcs=[]
+    OpenLiberty/scripts/core/resources/model_fs.gd:96 DirEntry extends=- vars=3 consts=0 funcs=[]
+    OpenVic/game/src/Autoload/Settings/GameSettings.gd:428 RevertGroup extends=- vars=2 consts=0 funcs=['_init']
+    OpenVic/game/src/Model/XACLoader.gd:824 MaterialDefinition extends=- vars=4 consts=0 funcs=['_init']
+    Cats-Godot4-Modular-Souls-like-Template/utility scripts/mesh_streak.gd:32 edge extends=- vars=2 consts=0 funcs=[]
+    godot-tiny-mmo/source/common/gameplay/audio/audio_manager.gd:210 PendingMusic extends=- vars=4 consts=0 funcs=[]
+    wutw-public/wutw/dialogue/dialogue.gd:73 Page extends=RefCounted vars=4 consts=0 funcs=[]
+    wutw-public/wutw/dialogue/dialogue.gd:79 Line extends=RefCounted vars=2 consts=0 funcs=[]
+    wutw-public/wutw/glossary/tooltip/tooltip_system.gd:91 TooltipConfig extends=RefCounted vars=6 consts=0 funcs=[]
+    wutw-public/wutw/hub/museum/museum_browser.gd:451 HistoricalRecordEntry extends=RefCounted vars=2 consts=0 funcs=['_init']
+    wutw-public/wutw/utils/context_highlight.gd:94 Context extends=RefCounted vars=4 consts=0 funcs=[]
+    youtd2/src/buffs/buff_type.gd:21 SpecialEffect extends=- vars=5 consts=0 funcs=[]
+    youtd2/src/buffs/buff_type.gd:28 CommonHandlerData extends=- vars=2 consts=0 funcs=[]
+    youtd2/src/buffs/buff_type.gd:32 PeriodicHandlerData extends=- vars=2 consts=0 funcs=[]
+    youtd2/src/buffs/buff_type.gd:36 RangeHandlerData extends=- vars=3 consts=0 funcs=[]
+    youtd2/src/buffs/buff_type.gd:41 AuraCreationInfo extends=- vars=2 consts=0 funcs=[]
+    youtd2/src/spells/spell_type.gd:17 BlizzardData extends=- vars=3 consts=0 funcs=[]
+    youtd2/src/spells/spell_type.gd:23 ChaingLightningData extends=- vars=3 consts=0 funcs=[]
+    youtd2/src/spells/spell_type.gd:29 ForkedLightningData extends=- vars=2 consts=0 funcs=[]
+    youtd2/src/spells/spell_type.gd:34 SwarmData extends=- vars=5 consts=0 funcs=[]
+    youtd2/src/spells/spell_type.gd:42 SpellData extends=- vars=4 consts=0 funcs=[]
+    youtd2/src/towers/tower_behaviors/it.gd:9 Summoner extends=- vars=5 consts=0 funcs=[]
+    youtd2/src/towers/tower_behaviors/sorceress.gd:29 Data extends=- vars=7 consts=0 funcs=[]
+    desksaw/Scripts/ui/terminal/itemsView.gd:10 ItemEntry extends=- vars=3 consts=0 funcs=[]
+    desksaw/Scripts/ui/terminal/skinsView.gd:16 SkinEntry extends=- vars=2 consts=0 funcs=[]
+    GodotProjectZero/global/autoload/audio/audio_queue/audio_queue.gd:11 AudioItem extends=- vars=4 consts=0 funcs=[]
+    godot-4-2d-visual-novel/godot/Parser/SceneLexer.gd:47 Token extends=- vars=2 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:48 BaseExpression extends=- vars=2 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:63 FunctionExpression extends=BaseExpression vars=1 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:78 ChoiceBlockExpression extends=BaseExpression vars=1 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:93 ConditionalExpression extends=BaseExpression vars=1 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:108 ConditionalTreeExpression extends=BaseExpression vars=3 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:36 BaseNode extends=- vars=1 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:45 DialogueNode extends=BaseNode vars=5 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:63 BackgroundCommandNode extends=BaseNode vars=2 consts=0 funcs=['_init', '_to_string']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:79 SongCommandNode extends=BaseNode vars=1 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:92 SceneCommandNode extends=BaseNode vars=1 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:105 TransitionCommandNode extends=BaseNode vars=1 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:117 ChoiceTreeNode extends=BaseNode vars=1 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:131 ConditionalBlockNode extends=BaseNode vars=1 consts=0 funcs=['_init']
+-- 9 empty / marker (maybe _init) (37)
+    Reia/godot/client/ui/core/UIEventBus.gd:11 SessionEvents extends=RefCounted vars=0 consts=0 funcs=[]
+    Reia/godot/client/ui/core/UIEventBus.gd:17 AuthEvents extends=RefCounted vars=0 consts=0 funcs=[]
+    Reia/godot/client/ui/core/UIEventBus.gd:22 InventoryEvents extends=RefCounted vars=0 consts=0 funcs=[]
+    Reia/godot/client/ui/core/UIEventBus.gd:27 CombatEvents extends=RefCounted vars=0 consts=0 funcs=[]
+    Reia/godot/client/ui/core/UIEventBus.gd:31 WorldEvents extends=RefCounted vars=0 consts=0 funcs=[]
+    museum-of-all-things/scenes/util/RequestSync.gd:62 ResponseAsync extends=- vars=0 consts=0 funcs=[]
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:184 MarkCommandNode extends=BaseNode vars=0 consts=0 funcs=['_init']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:192 PassCommandNode extends=BaseNode vars=0 consts=0 funcs=['_init']
+    knakk/Reward/Reward.gd:12 RedrawCard extends=Reward vars=0 consts=0 funcs=[]
+    knakk/Reward/Reward.gd:16 PlayAgain extends=Reward vars=0 consts=0 funcs=[]
+    knakk/Reward/Reward.gd:20 Nothing extends=Reward vars=0 consts=0 funcs=[]
+    malware-slayer/scripts/libs/multi_threading/cpu/multi_threading.gd:3 _CPUSignal extends=- vars=0 consts=0 funcs=[]
+    malware-slayer/scripts/singletons/vfx/vfx.gd:146 Explosion extends=- vars=0 consts=0 funcs=['_init']
+    gdmaim/addons/gdmaim/obfuscator/script/parser/ast.gd:72 Iterator extends=Var vars=0 consts=0 funcs=['_to_string']
+    gdmaim/addons/gdmaim/obfuscator/script/parser/ast.gd:126 Const extends=Var vars=0 consts=0 funcs=['_to_string']
+    gdmaim/addons/gdmaim/obfuscator/script/parser/ast.gd:130 ExportVar extends=Var vars=0 consts=0 funcs=['_to_string']
+    gdmaim/addons/gdmaim/obfuscator/script/parser/ast.gd:140 Parameter extends=Var vars=0 consts=0 funcs=['_to_string']
+    godot_spatial_gardener/addons/dreadpon.spatial_gardener/scene_converter/converter_types.gd:157 ExtResource extends=SubResource vars=0 consts=0 funcs=['_init', '_to_string']
+    pandora/addons/pandora/model/type.gd:8 UndefinedType extends=PandoraPropertyType vars=0 consts=0 funcs=['_init']
+    unidot_importer/asset_adapter.gd:165 DefaultHandler extends=AssetHandler vars=0 consts=0 funcs=[]
+    unidot_importer/queue_lib.gd:159 LockedDeque extends=Deque vars=0 consts=0 funcs=['_init']
+    unidot_importer/queue_lib.gd:167 LockedQueue extends=Queue vars=0 consts=0 funcs=['_init']
+    unidot_importer/thread_worker.gd:19 ShutdownSentinel extends=- vars=0 consts=0 funcs=[]
+    material-maker/addons/material_maker/engine/nodes/gen_material.gd:212 CustomOptions extends=RefCounted vars=0 consts=0 funcs=[]
+    GodSVG/src/data_classes/PathCommand.gd:65 CloseCommand extends=PathCommand vars=0 consts=0 funcs=['_init']
+    the-mirror/mirror-godot-app/addons/debug_geometry.gd:175 LinePrimitive extends=Primitive vars=0 consts=0 funcs=['_init']
+    the-mirror/mirror-godot-app/addons/debug_geometry.gd:180 TrianglePrimitive extends=Primitive vars=0 consts=0 funcs=['_init']
+    the-mirror/mirror-godot-app/addons/debug_geometry.gd:393 DebugCylinder extends=DebugCone vars=0 consts=0 funcs=['_init', '_to_string']
+    godots/src/cli/commands/editor/list/list.gd:17 Request extends=- vars=0 consts=0 funcs=[]
+    godots/src/components/command_viewer/command_viewer.gd:233 CommandsInMemory extends=CommandsWrap vars=0 consts=0 funcs=['_init']
+    godots/src/components/editors/remote/remote_editors_tree/remote_editors_tree.gd:235 SimpleContainsFilter extends=RowFilter vars=0 consts=0 funcs=['_init']
+    godots/src/components/editors/remote/remote_editors_tree/remote_editors_tree.gd:243 NotRelatedFilter extends=RowFilter vars=0 consts=0 funcs=['_init']
+    godots/src/components/settings/settings_window.gd:521 CompSettingName extends=Comp vars=0 consts=0 funcs=['_init']
+    godots/src/components/settings/settings_window.gd:536 CompSettingNameContainer extends=Comp vars=0 consts=0 funcs=['_init']
+    godots/src/components/settings/settings_window.gd:587 CompSettingPanelContainer extends=Comp vars=0 consts=0 funcs=['_init']
+    godots/src/objects/node_component/comp_refs.gd:21 Field extends=Transient vars=0 consts=0 funcs=['_init']
+    godots/src/objects/opt.gd:65 _Callable extends=Opt vars=0 consts=0 funcs=[]
+-- 9 in a test file (172)
+    youtd2/src/tests/test_horadric_tool.gd:17 TestCaseget_item_list_for_autofill extends=TestTool.TestCase_base vars=3 consts=0 funcs=['_init']
+    youtd2/src/tests/test_horadric_tool.gd:78 TestCase_get_result_item_for_recipe extends=TestTool.TestCase_base vars=5 consts=0 funcs=['_init']
+    youtd2/src/tests/test_tool.gd:11 TestCase_base extends=- vars=1 consts=0 funcs=[]
+    Friendslop-Template/test/core/test_scene_manager.gd:3 MockSceneManager extends=SceneManagerCode vars=1 consts=0 funcs=['_perform_scene_change']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:4 TestMKB extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_bind_device_mkb_is_no_op', 'test_mkb_is_permanently_slot_0', 'test_unbind_device_mkb_is_no_op']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:36 TestBinding extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_auto_unbinds_from_previous_slot', 'test_maps_gamepad_to_slot', 'test_multiple_devices_to_same_slot', 'test_same_slot_is_no_op']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:86 TestUnbinding extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_removes_mapping', 'test_unknown_is_no_op']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:110 TestDeviceSignals extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_device_bound_fires_on_bind', 'test_device_bound_not_emitted_for_mkb', 'test_device_unbound_fires_on_explicit_unbind', 'test_device_unbound_not_emitted_for_mkb']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:141 TestDerivedProperties extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_active_players_counts_distinct_slots', 'test_get_active_slots_returns_sparse_slots', 'test_has_available_gamepad_false_when_gamepad_on_other_slot', 'test_has_available_gamepad_false_with_only_mkb']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:194 TestQueries extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_get_devices_for_player_empty_for_inactive_slot', 'test_get_devices_for_player_returns_all_devices', 'test_get_player_for_device_returns_0_for_unbound']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:220 TestHotplug extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_gamepad_connect_auto_binds_to_slot_0', 'test_gamepad_disconnect_cleans_empty_slot', 'test_gamepad_disconnect_unbinds_and_emits']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:252 TestSlotSignals extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_slot_activated_and_deactivated_on_move', 'test_slot_activated_emitted_when_slot_becomes_active', 'test_slot_activated_not_emitted_when_slot_already_active', 'test_slot_deactivated_emitted_when_slot_becomes_empty']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:301 TestEdgeCases extends=GutTest vars=1 consts=0 funcs=['before_each', 'test_bind_then_unbind_restores_initial_state', 'test_multiple_devices_on_primary_slot', 'test_rebind_preserves_other_slot_devices', 'test_sparse_slots_are_valid']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:350 TestInit extends=GutTest vars=0 consts=0 funcs=['_build_manager', 'test_ready_gamepads_do_not_activate_other_slots', 'test_ready_mkb_always_bound_to_slot_0', 'test_ready_with_single_gamepad', 'test_ready_with_two_gamepads']
+    Friendslop-Template/test/input/test_local_coop_manager.gd:412 TestPlug extends=GutTest vars=0 consts=0 funcs=['_build_manager_with_mock', 'test_hotplug_after_startup_enumeration', 'test_hotplug_connect_binds_to_slot_0', 'test_hotplug_disconnect_emits_device_unbound', 'test_hotplug_disconnect_unbinds_device']
+    Friendslop-Template/test/multiplayer/player_spawning/test_base_player_spawn_manager.gd:6 MockPlayerSpawnManager extends=BasePlayerSpawnManager vars=1 consts=0 funcs=['_get_spawn_params', 'set_mock_spawn_params']
+    Friendslop-Template/test/multiplayer/player_spawning/test_base_player_spawn_manager.gd:17 MockSpawnableResource extends=SpawnableResource vars=0 consts=0 funcs=['spawn']
+    Friendslop-Template/test/multiplayer/player_spawning/test_coll_queue_player_spawn_manager.gd:20 MockSpawnPoint extends=Node2D vars=1 consts=0 funcs=['has_overlapping_bodies']
+    Friendslop-Template/test/multiplayer/replication/test_handshake_spawner.gd:4 MockSpawnableResource extends=SpawnableResource vars=0 consts=0 funcs=['spawn', 'teardown']
+    Friendslop-Template/test/multiplayer/test_lobby_player.gd:100 TestLobbyPlayerNetworkStatus extends=BaseNetworkGutTest vars=3 consts=0 funcs=['after_each', 'before_each', 'test_set_status_emits_status_changed', 'test_set_status_is_server_side_and_peer_authenticated', 'test_update_player_name_runs_update_player_name_rpc_on_host']
+    godot_dialogue_manager/tests/test_basic_dialogue.gd:281 TestClass extends=- vars=2 consts=0 funcs=['set_values']
+    godot_dialogue_manager/tests/test_basic_dialogue.gd:333 Thing extends=- vars=0 consts=0 funcs=['_to_dialogue_string']
+    godot_dialogue_manager/tests/test_compilation.gd:63 TestProcessor extends=DMDialogueProcessor vars=0 consts=0 funcs=['_preprocess_line', '_process_line']
+    godot_dialogue_manager/tests/test_state_contexts.gd:5 ContextTarget extends=Node vars=1 consts=0 funcs=['mutate']
+    Gut/test/integration/test_gut_and_error_tracker.gd:4 TestDefaults extends=GutInternalTester vars=0 consts=0 funcs=['test_gut_uses_utils_error_tracker_by_default']
+    Gut/test/integration/test_gut_and_error_tracker.gd:14 TestErrorFailures extends=GutInternalTester vars=5 consts=0 funcs=['after_all', 'after_each', 'before_all', 'before_each', 'should_skip_script']
+    Gut/test/integration/test_gut_and_error_tracker.gd:106 TestErrorAsserts extends=GutInternalTester vars=2 consts=0 funcs=['after_all', 'after_each', 'before_all', 'before_each', 'should_skip_script']
+    Gut/test/integration/test_gut_and_spy.gd:16 TestGutClearsSpyBetweenTests extends=res://addons/gut/test.gd vars=0 consts=0 funcs=['test_spy_cleared_between_tests', 'test_spy_cleared_between_tests_setup']
+    Gut/test/output_tests/test_misc.gd:4 TestTestAwaitMethods extends=GutOutputTest vars=0 consts=0 funcs=['test_wait_until_accepts_string_as_thrid_arg', 'test_wait_until_accepts_time_between_then_msg']
+    Gut/test/output_tests/test_misc.gd:7 PredicateMethods extends=- vars=1 consts=0 funcs=['called_x_times']
+    Gut/test/output_tests/test_misc.gd:29 TestResultExporter extends=GutInternalTester vars=1 consts=0 funcs=['before_each', 'export_script', 'get_a_gut', 'run_scripts', 'test_spot_check']
+    Gut/test/output_tests/test_misc.gd:63 TestTest extends=GutOutputTest vars=2 consts=0 funcs=['before_each', 'test_children_warning', 'test_fails_with_message_if_non_doubled_passed']
+    Gut/test/output_tests/test_misc.gd:92 TestSummary extends=GutOutputTest vars=2 consts=2 funcs=['_run_test_gut_tests', 'before_all', 'before_each', 'test_output_1', 'test_output_with_all_test_scripts']
+    Gut/test/output_tests/test_misc.gd:164 TestJunitXmlExport extends=GutOutputTest vars=1 consts=0 funcs=['before_all', 'before_each', 'export_script', 'run_scripts', 'test_spot_check']
+    Gut/test/output_tests/test_misc.gd:195 TestDiffTool extends=GutOutputTest vars=1 consts=0 funcs=['test_summarize', 'test_with_obj_as_keys']
+    Gut/test/output_tests/test_misc.gd:229 TestParameterized extends=GutTest vars=0 consts=0 funcs=['test_invalid_parameters']
+    Gut/test/output_tests/test_misc.gd:236 TestOutputWhenRunDirectly extends=GutTest vars=5 consts=0 funcs=['after_all', 'after_each', 'before_all', 'before_each', 'test_one']
+    Gut/test/output_tests/test_one_of_everything.gd:42 TestSkipThisScript extends=GutTest vars=0 consts=0 funcs=['should_skip_script', 'test_nothing']
+    Gut/test/output_tests/test_one_of_everything.gd:52 TestInnerTestClass extends=GutTest vars=0 consts=0 funcs=['test_failing', 'test_passing', 'test_pending']
+    Gut/test/output_tests/test_print.gd:74 TestGuiOutput extends=GutTest vars=2 consts=0 funcs=['before_each', 'test_embedded_bbcode', 'test_embedded_bbcode_with_closing_tag', 'test_embedded_bbcode_with_format']
+    Gut/test/output_tests/test_print.gd:112 TestBasicLoggerOutput extends=GutInternalTester vars=1 consts=0 funcs=['before_each', 'test_expected_error_output', 'test_indent_levels', 'test_indent_with_new_lines']
+    Gut/test/output_tests/test_print.gd:145 TestLogLevels extends=GutTest vars=2 consts=0 funcs=['after_all', 'before_all', 'test_log_types_at_levels_with_failing_test', 'test_log_types_at_levels_with_passing_test']
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:13 InnerA extends=- vars=0 consts=0 funcs=['get_a']
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:20 AnotherInnerA extends=- vars=0 consts=0 funcs=['get_a']
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:24 InnerB extends=- vars=0 consts=0 funcs=['get_b']
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:28 InnerB1 extends=- vars=0 consts=0 funcs=['get_b1']
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:32 InnerCA extends=InnerA vars=0 consts=0 funcs=['get_ca']
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:38 InnerWithSignals extends=- vars=0 consts=0 funcs=[]
+    Gut/test/resources/doubler_test_objects/inner_classes.gd:43 InnerExtendsNode2D extends=Node2D vars=0 consts=0 funcs=[]
+    Gut/test/resources/exporter_test_files/test_special_chars_in_test_output.gd:16 TestSkipWithNullMessage extends=GutTest vars=0 consts=0 funcs=['should_skip', 'test_something_that_is_skipped']
+    Gut/test/resources/parsing_and_loading_samples/cyclic_ref_class_b.gd:3 CyclicRefBInnerClass extends=- vars=1 consts=0 funcs=[]
+    Gut/test/resources/parsing_and_loading_samples/inner_classes_check_before_after.gd:7 BeforeAfterCounterTest extends=res://addons/gut/test.gd vars=4 consts=0 funcs=['after_all', 'after_each', 'before_all', 'before_each']
+    Gut/test/resources/parsing_and_loading_samples/inner_classes_check_before_after.gd:28 TestInner1 extends=BeforeAfterCounterTest vars=0 consts=0 funcs=['test_passing']
+    Gut/test/resources/parsing_and_loading_samples/inner_classes_check_before_after.gd:35 TestInner2 extends=BeforeAfterCounterTest vars=0 consts=0 funcs=['test_passing']
+    Gut/test/resources/parsing_and_loading_samples/test_has_inner_class.gd:17 TestClass1 extends=res://addons/gut/test.gd vars=0 consts=0 funcs=['after_all', 'after_each', 'before_all', 'before_each', 'print_something']
+    Gut/test/resources/parsing_and_loading_samples/test_has_inner_class.gd:40 NotTestClass extends=- vars=0 consts=0 funcs=['not_a_test', 'test_something']
+    Gut/test/resources/state_check_tests.gd:6 TestIsPassing extends=GutTest vars=0 consts=0 funcs=['test_is_passing_false_by_default', 'test_is_passing_returns_false_when_test_is_failing', 'test_is_passing_returns_true_before_test_fails', 'test_is_passing_returns_true_when_test_is_passing']
+    Gut/test/resources/state_check_tests.gd:25 TestIsFailing extends=GutTest vars=0 consts=0 funcs=['test_is_failing_returns_false_before_test_passes', 'test_is_failing_returns_false_by_default', 'test_is_failing_returns_false_when_passing', 'test_is_failing_returns_true_when_failing']
+    Gut/test/resources/state_check_tests.gd:43 TestUseIsPassingInBeforeAll extends=GutTest vars=0 consts=0 funcs=['before_all', 'test_nothing']
+    Gut/test/resources/state_check_tests.gd:52 TestUseIsPassingInAfterAll extends=GutTest vars=0 consts=0 funcs=['after_all', 'test_nothing']
+-- 9 name mentions State (12)
+    godot-2d-topdown-template/scripts/state_machine/states/state.gd:87 StateTimer extends=- vars=1 consts=0 funcs=['_init', 'start']
+    Improved-KCC/IKCC/ikcc.gd:1978 CollisionState extends=RefCounted vars=19 consts=0 funcs=[]
+    Improved-KCC/IKCC/ikcc.gd:2069 BodySaveState extends=RefCounted vars=3 consts=0 funcs=['_init', 'array_contains_rid']
+    PSGodotTemplateRepo/toolkit/nodes/state_machine.gd:31 State extends=- vars=2 consts=0 funcs=['_init', 'enter', 'exit', 'physics_process']
+    Lost-Pilot/scripts/global/static/world_turn_base.gd:16 StateMachine extends=- vars=2 consts=0 funcs=['remove_actor']
+    unidot_importer/post_import_model.gd:34 ParseState extends=- vars=52 consts=0 funcs=['build_skinned_name_to_node_map', 'fold_root_transforms_into_only_child', 'generate_object_hash', 'get_materials_path', 'get_materials_path_base']
+    unidot_importer/scene_node_state.gd:33 PrefabState extends=RefCounted vars=14 consts=0 funcs=[]
+    unidot_importer/scene_node_state.gd:59 AvatarState extends=RefCounted vars=8 consts=0 funcs=[]
+    boscaceoil-blue/globals/StateManager.gd:141 StateChange extends=- vars=8 consts=0 funcs=['_should_accumulate', 'add_action', 'add_do_action', 'add_indexed_property', 'add_property']
+    boscaceoil-blue/globals/StateManager.gd:304 StateChangeItem extends=- vars=0 consts=0 funcs=[]
+    boscaceoil-blue/globals/StateManager.gd:308 StateChangeProperty extends=StateChangeItem vars=4 consts=0 funcs=[]
+    boscaceoil-blue/globals/StateManager.gd:315 StateChangeAction extends=StateChangeItem vars=2 consts=0 funcs=[]
+-- 9 namespace (only const/enum/static/inner classes) (73)
+    godot-open-rts/source/Constants.gd:10 Match extends=res://source/match/MatchConstants.gd vars=0 consts=0 funcs=[]
+    godot-open-rts/source/Constants.gd:13 Player extends=- vars=0 consts=1 funcs=[]
+    godot-open-rts/source/Constants.gd:21 Player extends=- vars=0 consts=1 funcs=[]
+    godot-open-rts/source/Utils.gd:6 Set extends=res://source/utils/Set.gd vars=0 consts=0 funcs=['from_array', 'subtracted']
+    godot-open-rts/source/Utils.gd:23 Dict extends=- vars=0 consts=0 funcs=['items']
+    godot-open-rts/source/Utils.gd:31 Float extends=- vars=0 consts=0 funcs=['is_equal_approx_with_epsilon']
+    godot-open-rts/source/Utils.gd:36 Colour extends=- vars=0 consts=0 funcs=['is_equal_approx_with_epsilon']
+    godot-open-rts/source/Utils.gd:45 NodeEx extends=- vars=0 consts=0 funcs=['find_parent_with_group']
+    godot-open-rts/source/Utils.gd:55 Arr extends=- vars=0 consts=0 funcs=['sum']
+    godot-open-rts/source/match/MatchConstants.gd:21 Navigation extends=- vars=0 consts=1 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:30 Air extends=- vars=0 consts=2 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:34 Navmesh extends=- vars=0 consts=3 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:40 Terrain extends=- vars=0 consts=1 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:43 Navmesh extends=- vars=0 consts=3 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:49 Resources extends=- vars=0 consts=0 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:50 A extends=- vars=0 consts=3 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:55 B extends=- vars=0 consts=3 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:61 Units extends=- vars=0 consts=12 funcs=[]
+    godot-open-rts/source/match/MatchConstants.gd:220 VoiceNarrator extends=- vars=0 consts=1 funcs=[]
+    godot-open-rts/source/match/MatchUtils.gd:1 Unit extends=- vars=0 consts=2 funcs=[]
+    godot-open-rts/source/match/players/human/UnitActionsController.gd:7 Actions extends=- vars=0 consts=6 funcs=[]
+    godot-open-rts/source/match/players/simple-clairvoyant-ai/AutoAttackingBattlegroup.gd:9 Actions extends=- vars=0 consts=2 funcs=[]
+    godot-open-rts/source/match/players/simple-clairvoyant-ai/IntelligenceController.gd:7 Actions extends=- vars=0 consts=1 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:4 Colors extends=- vars=0 consts=0 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:5 White extends=- vars=0 consts=3 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:9 Black extends=- vars=0 consts=2 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:12 Blue extends=- vars=0 consts=2 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:15 Red extends=- vars=0 consts=1 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:17 Inventory extends=- vars=0 consts=2 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:20 Item extends=- vars=0 consts=12 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:34 Fonts extends=- vars=0 consts=0 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:35 Size extends=- vars=0 consts=1 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:37 Poppins extends=- vars=0 consts=0 funcs=[]
+    Reia/_old_code/presentation/ui/themes/theme_gen.gd:40 Roboto extends=- vars=0 consts=0 funcs=[]
+    Reia/_old_code/scenes/scene_selector/scene_selector.gd:9 CITIES extends=- vars=0 consts=1 funcs=[]
+    Reia/_old_code/scenes/scene_selector/scene_selector.gd:13 REGIONS extends=- vars=0 consts=3 funcs=[]
+    Reia/_old_code/scenes/scene_selector/scene_selector.gd:19 DUNGEONS extends=- vars=0 consts=1 funcs=[]
+    Reia/_old_code/scenes/scene_selector/scene_selector.gd:22 SPIRITS extends=- vars=0 consts=2 funcs=[]
+    Reia/_old_code/scenes/scene_selector/scene_selector.gd:26 MAIN extends=- vars=0 consts=3 funcs=[]
+    Reia/godot/client/core/scenes.gd:4 Boot extends=- vars=0 consts=1 funcs=[]
+    Reia/godot/client/core/scenes.gd:7 Hud extends=- vars=0 consts=1 funcs=[]
+    Reia/godot/client/core/scenes.gd:10 Menus extends=- vars=0 consts=2 funcs=[]
+    Reia/godot/client/ui/core/ui_colors.gd:3 Base extends=- vars=0 consts=7 funcs=[]
+    Reia/godot/client/ui/core/ui_colors.gd:15 Action extends=- vars=0 consts=1 funcs=[]
+    wutw-public/wutw/settings/game_settings.gd:16 Interface extends=- vars=0 consts=0 funcs=[]
+    wutw-public/wutw/settings/game_settings.gd:35 FirstRun extends=- vars=0 consts=0 funcs=[]
+    wutw-public/wutw/settings/game_settings.gd:39 Display extends=- vars=0 consts=0 funcs=[]
+    wutw-public/wutw/settings/game_settings.gd:46 Audio extends=- vars=0 consts=0 funcs=[]
+    wutw-public/wutw/settings/game_settings.gd:55 Japanese extends=- vars=0 consts=0 funcs=[]
+    wutw-public/wutw/settings/game_settings.gd:78 SkipTutorials extends=- vars=0 consts=0 funcs=['is_skipped', 'keys', 'set_skipped']
+    wutw-public/wutw/settings/game_settings.gd:87 Controls extends=- vars=0 consts=0 funcs=['get_binding', 'set_binding']
+    sourceofmana/sources/actor/ProgressCommons.gd:8 Quest extends=- vars=0 consts=0 funcs=[]
+    Gut/addons/gut/version_numbers.gd:4 VerNumTools extends=- vars=0 consts=0 funcs=['_make_version_array_from_string', 'is_godot_version_eq', 'is_godot_version_gte', 'is_version_eq', 'is_version_gte']
+    Gut/scratch/find_inner_classes.gd:6 HasSomeInners extends=- vars=0 consts=1 funcs=[]
+    gaea/addons/gaea/runtime/scene_nodes/threading/generation_priority.gd:88 Vector extends=- vars=0 consts=4 funcs=['to_vec4']
+    pandora/pandora/categories.gd:14 ItemsArmoryCategories extends=- vars=0 consts=1 funcs=[]
+    pandora/pandora/categories.gd:18 ItemsCategories extends=- vars=0 consts=3 funcs=[]
+    unidot_importer/post_import_model.gd:1007 HashGenerator extends=- vars=0 consts=0 funcs=['generate_object_hash', 'test_xxHash64', 'unsrs', 'xxHash64']
+    godot-mod-loader/addons/mod_loader/api/log.gd:519 ModLoaderLogCompare extends=- vars=0 consts=0 funcs=['time']
+    godot-mod-loader/addons/mod_loader/internal/dependency.gd:126 CompareImportance extends=- vars=0 consts=0 funcs=['_compare_importance']
+-- 9 object with state and methods (409)
+    godot-open-rts/source/Utils.gd:63 RouletteWheel extends=- vars=1 consts=0 funcs=['_init', 'get_value']
+    godot-open-rts/source/match/units/traits/ProductionQueue.gd:9 ProductionQueueElement extends=Resource vars=3 consts=0 funcs=['progress']
+    Reia/godot/core/EntityMap.gd:5 EntityMapNamespace extends=RefCounted vars=2 consts=0 funcs=['clear', 'get_all_active_clients', 'get_entity', 'get_network_id', 'register']
+    Reia/godot/core/features/network/NetworkRouter.gd:8 NetworkChannel extends=RefCounted vars=10 consts=0 funcs=['clear_inbox', 'consume_bucket', 'flush_to_rust', 'queue_broadcast', 'queue_packet']
+    voxelgame/project/blocky_game/blocky_game.gd:25 BG_Logger extends=- vars=1 consts=0 funcs=['debug', 'error']
+    starship-olympics/godot/globals/TheGame.gd:13 CardsSelection extends=- vars=2 consts=0 funcs=['to_dict']
+    starship-olympics/godot/godot4/elements/blocks/Block.gd:89 BlockTile extends=- vars=3 consts=2 funcs=['_init', '_to_string', 'copy', 'get_atlas_coords', 'get_cell']
+    OpenVic/game/src/Autoload/CursorManager.gd:103 CompatCursor extends=- vars=9 consts=0 funcs=['_init', '_process_cursor', 'generate_new_resolution', 'reset', 'set_hardware_cursor']
+    OpenVic/game/src/Model/FileAccessUtils.gd:83 xac_mat4x4 extends=- vars=4 consts=0 funcs=['_init', 'debugPrint', 'getAsTransform']
+    OpenVic/game/src/Model/XACLoader.gd:842 MetadataChunk extends=- vars=10 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:884 NodeData extends=- vars=13 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:933 NodeHierarchyChunk extends=- vars=3 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:949 MaterialTotalsChunk extends=- vars=3 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:964 Layer extends=- vars=11 consts=0 funcs=['_init', 'debugPrint', 'is_specular']
+    OpenVic/game/src/Model/XACLoader.gd:1011 MaterialDefinitionChunk extends=- vars=14 consts=0 funcs=['_init', 'debugPrint', 'has_specular', 'setLayers']
+    OpenVic/game/src/Model/XACLoader.gd:1077 VerticesAttribute extends=- vars=6 consts=0 funcs=['_init', 'debugPrint', 'setData']
+    OpenVic/game/src/Model/XACLoader.gd:1125 SubMesh extends=- vars=6 consts=0 funcs=['_init', 'debugPrint', 'setBoneIds', 'setRelIndices']
+    OpenVic/game/src/Model/XACLoader.gd:1150 MeshChunk extends=- vars=10 consts=0 funcs=['_init', 'debugPrint', 'setSubMeshes', 'setVerticesAttributes']
+    OpenVic/game/src/Model/XACLoader.gd:1196 InfluenceData extends=- vars=3 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:1210 InfluenceRange extends=- vars=2 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:1222 SkinningChunk extends=- vars=7 consts=0 funcs=['_init', 'debugPrint', 'setInfluenceData', 'setInfluenceRange']
+    OpenVic/game/src/Model/XACLoader.gd:1259 ChunkType6 extends=- vars=3 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:1277 NodeChunk extends=- vars=9 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XACLoader.gd:1315 ChunkTypeUnknown extends=- vars=1 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XSMLoader.gd:201 MetadataChunk extends=- vars=10 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XSMLoader.gd:243 PosKey extends=- vars=2 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XSMLoader.gd:255 RotKey extends=- vars=2 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XSMLoader.gd:267 ScaleKey extends=- vars=2 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XSMLoader.gd:279 ScaleRotKey extends=- vars=2 consts=0 funcs=['_init', 'debugPrint']
+    OpenVic/game/src/Model/XSMLoader.gd:291 SkeletalSubMotion extends=- vars=18 consts=0 funcs=['_init', 'debugPrint', 'setPosKeys', 'setRotKeys', 'setScaleKeys']
+    OpenVic/game/src/Model/XSMLoader.gd:368 BoneAnimationChunk extends=- vars=2 consts=0 funcs=['_init', 'debugPrint', 'setSkeletalSubMotions']
+    OpenVic/game/src/UI/Session/ProvinceOverviewPanel.gd:384 BuildingSlot extends=- vars=7 consts=0 funcs=['_init', 'update_info']
+    godot-tiny-mmo/source/client/autoload/client_state.gd:374 DataDict extends=- vars=1 consts=0 funcs=['_set', 'get_key', 'set_key']
+    godot-tiny-mmo/source/client/autoload/client_state.gd:397 Settings extends=- vars=2 consts=2 funcs=['get_default', 'get_defaults_section', 'get_value', 'load_file', 'save']
+    wutw-public/wutw/settings/game_settings.gd:217 FloatSetting extends=RefCounted vars=3 consts=0 funcs=['_init', 'get_default', 'set_value', 'value']
+    wutw-public/wutw/settings/game_settings.gd:240 IntSetting extends=RefCounted vars=3 consts=0 funcs=['_init', 'get_default', 'set_value', 'value']
+    wutw-public/wutw/settings/game_settings.gd:263 BoolSetting extends=RefCounted vars=3 consts=0 funcs=['_init', 'get_default', 'set_value', 'value']
+    wutw-public/wutw/settings/game_settings.gd:286 StringSetting extends=RefCounted vars=3 consts=0 funcs=['_init', 'get_default', 'set_value', 'value']
+    wutw-public/wutw/tutorial/tutorial_base.gd:122 OutlineSetup extends=RefCounted vars=9 consts=0 funcs=['update_sizing']
+    youtd2/src/singletons/utils.gd:797 DistanceSorter extends=- vars=1 consts=0 funcs=['sort']
+    youtd2/src/singletons/utils.gd:831 AttackTargetSorter extends=- vars=1 consts=0 funcs=['sort']
+    godot-4-2d-visual-novel/godot/Parser/SceneLexer.gd:63 DialogueScript extends=- vars=4 consts=0 funcs=['_init', 'get_current_character', 'get_next_character', 'get_previous_character', 'is_at_end_of_file']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:19 SyntaxTree extends=- vars=2 consts=0 funcs=['append_expression', 'is_at_end', 'move_to_next_expression', 'peek']
+    godot-4-2d-visual-novel/godot/Parser/SceneParser.gd:133 Parser extends=- vars=3 consts=0 funcs=['_init', 'find_expressions', 'get_current_token', 'get_previous_token', 'is_at_end_of_list']
+    godot-4-2d-visual-novel/godot/Parser/SceneTranspiler.gd:24 DialogueTree extends=- vars=2 consts=0 funcs=['append_node']
+    jdungeon/classes/SoundManager.gd:313 StreamPlayerSettings extends=RefCounted vars=9 consts=0 funcs=['set_attenuation', 'set_bus', 'set_loop', 'set_max_distance', 'set_pitch_scale']
+    jdungeon/components/map/AStarComponent/AStarComponent.gd:202 AStarPath extends=RefCounted vars=1 consts=0 funcs=['get_next_path_position', 'is_navigation_finished']
+    LibreAim/scenes/autoload/save_manager.gd:13 SaveFile extends=- vars=3 consts=0 funcs=['get_data', 'get_default_data', 'get_file', 'initialize', 'load_data']
+    opengs/core/utils/camera_controller.gd:73 MovementCalculator extends=CameraTranslationCalculator vars=1 consts=0 funcs=['get_final_frame_acceleration', 'on_input_event']
+    opengs/core/utils/camera_controller.gd:125 MouseRotationCalculator extends=PVACalculator vars=1 consts=0 funcs=['get_final_frame_acceleration', 'get_value', 'on_input_event', 'set_value']
+    OpMon/Objects/OpMon.gd:156 OpMove extends=- vars=3 consts=1 funcs=['_init', 'move', 'save']
+    template-beat-em-up/addons/quiver.beat_em_up/characters/quiver_attributes.gd:197 HitLaneLimits extends=RefCounted vars=3 consts=0 funcs=['_init', 'is_value_inside_lane']
+    malware-slayer/scripts/singletons/data_service/data_service.gd:106 SectionWrapper extends=- vars=2 consts=0 funcs=['get_data', 'get_keys', 'has_data', 'set_data']
+    malware-slayer/scripts/singletons/vfx/vfx.gd:91 HitLabel extends=- vars=0 consts=1 funcs=['_init']
+    malware-slayer/scripts/singletons/vfx/vfx.gd:115 HealthStat extends=- vars=1 consts=1 funcs=['_create_new', '_init']
+    super-godot-galaxy/scripts/DebugDraw3D.gd:3 Vector extends=- vars=5 consts=0 funcs=['_init', 'draw']
+    Project-Heartbeat/autoloads/HBBackend.gd:66 BackendRequestToken extends=- vars=7 consts=0 funcs=['cancel_request']
+    Project-Heartbeat/autoloads/HBBackend.gd:114 ExperienceGainBreakdown extends=- vars=3 consts=0 funcs=['get_total_experience_gain']
+    Project-Heartbeat/autoloads/YoutubeDL.gd:62 CachingQueueEntry extends=- vars=14 consts=0 funcs=['abort_download', 'process_download_progress', 'wait_for_task_to_end']
+    Project-Heartbeat/autoloads/song_loader/song_loaders/DIVASpriteSet.gd:43 DIVASprite extends=AtlasTexture vars=3 consts=0 funcs=['get_fallback_material', 'notify_visible']
+-- 9 stateless object (instance methods, no vars) (118)
+    opengs/core/utils/camera_controller.gd:55 CameraTranslationCalculator extends=PVACalculator vars=0 consts=0 funcs=['get_value', 'on_input_event', 'set_value', 'update_velocity']
+    opengs/core/utils/camera_controller.gd:97 AutomaticPanCalculator extends=CameraTranslationCalculator vars=0 consts=0 funcs=['get_final_frame_acceleration']
+    opengs/core/utils/camera_controller.gd:155 KeysRotationCalculator extends=PVACalculator vars=0 consts=0 funcs=['get_final_frame_acceleration', 'get_value', 'on_input_event', 'set_value']
+    opengs/core/utils/camera_controller.gd:182 ZoomCalculator extends=PVACalculator vars=0 consts=0 funcs=['get_final_frame_acceleration', 'get_value', 'on_input_event', 'set_value', 'update_velocity']
+    malware-slayer/scripts/libs/auto_tween/auto_tween.gd:49 Method extends=AutoTween vars=0 consts=0 funcs=['_init', '_tween_method']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:434 InterpolateAngleTransform extends=EditorTransformation vars=0 consts=0 funcs=['transform_notes']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:459 InterpolateDistanceTransform extends=EditorTransformation vars=0 consts=0 funcs=['transform_notes']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:485 FlipAngleTransform extends=EditorTransformation vars=0 consts=0 funcs=['transform_notes']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:499 FlipOscillationTransform extends=EditorTransformation vars=0 consts=0 funcs=['transform_notes']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:870 VerticalMultiPreset extends=MultiPresetTemplate vars=0 consts=0 funcs=['_init', 'modify_angle', 'process_angle', 'process_position', 'process_type']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:916 StraightVerticalMultiPreset extends=VerticalMultiPreset vars=0 consts=0 funcs=['_init', 'check_group', 'modify_angle']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:935 HorizontalMultiPreset extends=MultiPresetTemplate vars=0 consts=0 funcs=['_init', 'process_type']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:968 DiagonalMultiPreset extends=HorizontalMultiPreset vars=0 consts=0 funcs=['_init', 'check_group', 'get_anchor', 'get_center_distance', 'process_angle']
+    Project-Heartbeat/tools/editor/HBEditorTransforms.gd:1110 SidewaysQuadPreset extends=EditorTransformation vars=0 consts=0 funcs=['check_area', 'get_distance', 'get_position', 'sort_by_distance', 'transform_notes']
+    Gut/scratch/super_funcref.gd:3 SuperClass extends=- vars=0 consts=0 funcs=['print_hello']
+    Gut/scratch/super_funcref.gd:8 SubClass extends=SuperClass vars=0 consts=0 funcs=['print_hello']
+    godot_heightmap_plugin/addons/zylann.hterrain/hterrain.gd:1731 HT_ExitWorldAction extends=- vars=0 consts=0 funcs=['exec']
+    godot_heightmap_plugin/addons/zylann.hterrain/util/logger.gd:20 HT_LoggerVerbose extends=HT_LoggerBase vars=0 consts=0 funcs=['_init', 'debug']
+    SmartShape2D/addons/rmsmartshape/version_transition.gd:8 IVersionConverter extends=RefCounted vars=0 consts=0 funcs=['convert', 'needs_conversion']
+    SmartShape2D/addons/rmsmartshape/version_transition.gd:20 BaseSceneConverter extends=IVersionConverter vars=0 consts=0 funcs=['_convert', 'convert', 'convert_scene', 'needs_conversion']
+    gaea/addons/gaea/runtime/graph_nodes/root/sampling/generation/falloff_map.gd:97 FalloffSamplerSquare extends=FalloffSampler vars=0 consts=0 funcs=['_get_sample']
+    gaea/addons/gaea/runtime/graph_nodes/root/sampling/generation/falloff_map.gd:104 FalloffSamplerRoundedSquare extends=FalloffSampler vars=0 consts=0 funcs=['_get_sample']
+    gaea/addons/gaea/runtime/graph_nodes/root/sampling/generation/falloff_map.gd:122 FalloffSamplerSquircle extends=FalloffSampler vars=0 consts=0 funcs=['_get_sample']
+    gaea/addons/gaea/runtime/resources/value.gd:378 Sample extends=GridType vars=0 consts=0 funcs=['get_cell', 'get_xyz', 'set_cell', 'set_xyz']
+    gaea/addons/gaea/runtime/resources/value.gd:408 Map extends=GridType vars=0 consts=0 funcs=['get_cell', 'get_xyz', 'set_cell', 'set_xyz']
+    Metroidvania-System/addons/MetroidvaniaSystem/EditorExtension/MetSysEditorExtension.gd:122 RoomLinkPlugin extends=EditorInspectorPlugin vars=0 consts=0 funcs=['_can_handle', '_parse_property', 'is_valid_property']
+    Metroidvania-System/addons/MetroidvaniaSystem/EditorExtension/MetSysEditorExtension.gd:236 MapThemePreviewGenerator extends=EditorResourcePreviewGenerator vars=0 consts=0 funcs=['_generate', '_handles']
+    PankuConsole/addons/panku_console/modules/engine_tools/module.gd:17 ClsCountNodesInTree extends=- vars=0 consts=0 funcs=['calc_children_count', 'count_all_children']
+    godot_spatial_gardener/addons/dreadpon.spatial_gardener/scene_converter/converter_types.gd:132 PS_Vector3 extends=PropStruct vars=0 consts=0 funcs=['_init', 'variant']
+    godot_spatial_gardener/addons/dreadpon.spatial_gardener/scene_converter/converter_types.gd:140 PS_Transform extends=PropStruct vars=0 consts=0 funcs=['_init', 'variant']
+    netfox/addons/netfox.extras/physics/physics-driver-toggles.gd:3 PhysicsDriverToggle extends=- vars=0 consts=1 funcs=['get_error_messages', 'get_files', 'get_name', 'is_enabled', 'toggle']
+    netfox/addons/netfox.extras/physics/physics-driver-toggles.gd:40 Rapier2DPhysicsDriverToggle extends=PhysicsDriverToggle vars=0 consts=0 funcs=['get_error_messages', 'get_files', 'get_name']
+    netfox/addons/netfox.extras/physics/physics-driver-toggles.gd:54 Rapier3DPhysicsDriverToggle extends=PhysicsDriverToggle vars=0 consts=0 funcs=['get_error_messages', 'get_files', 'get_name']
+    netfox/addons/netfox.extras/physics/physics-driver-toggles.gd:68 GodotPhysicsDriverToggle extends=PhysicsDriverToggle vars=0 consts=0 funcs=['get_error_messages', 'get_files', 'get_name']
+    netfox/addons/netfox/schemas/network-schemas.gd:488 _VariantSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:495 _StringSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:502 _CStringSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:518 _BoolSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:525 _Uint8Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:529 _Uint16Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:533 _Uint32Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:537 _Uint64Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:541 _Int8Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:545 _Int16Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:549 _Int32Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:553 _Int64Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:557 _VaruintSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:586 _VariableBitsetSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:632 _Float16Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:645 _Float32Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:649 _Float64Serializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    netfox/addons/netfox/schemas/network-schemas.gd:889 _NetworkIdentityReferenceSerializer extends=NetworkSchemaSerializer vars=0 consts=0 funcs=['decode', 'encode']
+    pandora/addons/pandora/plugin.gd:80 PandoraExportPlugin extends=EditorExportPlugin vars=0 consts=0 funcs=['_export_begin', '_get_name']
+    unidot_importer/asset_adapter.gd:170 ImageHandler extends=AssetHandler vars=0 consts=0 funcs=['get_asset_type', 'get_imagemagick_path', 'preprocess_asset', 'write_godot_import']
+    unidot_importer/asset_adapter.gd:427 YamlHandler extends=AssetHandler vars=0 consts=1 funcs=['get_asset_type', 'get_file_extension_without_early_parse', 'parse_yaml_or_binary', 'preprocess_asset', 'uses_godot_importer']
+    unidot_importer/asset_adapter.gd:567 SceneHandler extends=YamlHandler vars=0 consts=0 funcs=['preprocess_asset', 'write_godot_asset']
+    unidot_importer/asset_adapter.gd:585 BaseModelHandler extends=AssetHandler vars=0 consts=0 funcs=['about_to_import', 'finished_import', 'get_asset_type', 'preprocess_asset', 'write_godot_asset']
+    unidot_importer/asset_adapter.gd:844 FbxHandler extends=BaseModelHandler vars=0 consts=1 funcs=['_adjust_fbx_scale', '_extract_fbx_geometry_material_order_ascii', '_extract_fbx_geometry_material_order_binary', '_extract_fbx_object_offsets_ascii', '_extract_fbx_object_offsets_binary']
+    unidot_importer/asset_adapter.gd:2484 TextHandler extends=AssetHandler vars=0 consts=0 funcs=['get_asset_type', 'uses_godot_importer', 'write_godot_asset']
+    unidot_importer/asset_adapter.gd:2498 DisabledHandler extends=AssetHandler vars=0 consts=0 funcs=['preprocess_asset', 'uses_godot_importer', 'write_and_preprocess_asset', 'write_godot_asset']

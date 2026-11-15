@@ -1,0 +1,296 @@
+K = 8 non-trivial logical lines per window. X = exact, N = near (locals+literals normalized), L = loose (all non-engine identifiers blind)
+
+== Per repo (LLOC = non-trivial logical lines, first-party; dup lines count every copy; cb = cross-branch)
+   snX/scX = exact lines in same_native_unrelated / same_chain pairs
+repo                       grp    commit     LLOC  dupX  cbX cbX/k  cbN cbN/k  cbL  gX  gN prX frcX   snX   scX  top native pairs (exact groups)
+Super-Mario-Bros.-Remaster games  7fe1ff7   13977    86    0   0.0    0   0.0    0   0   0   0    0    48     0
+godot-open-rpg             games  d59f2f7    2198    58    0   0.0    0   0.0    0   0   0   0    0     0    58
+Microverse                 games  7a061d4    4267   142    0   0.0   30   7.0   20   0   1   0    0    82     0
+Godot-GameTemplate         games  d5d8d15     188     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Starter-Kit-City-Builder   games  4535092     159     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+tps-demo                   games  a82f154    1046    18    0   0.0    0   0.0    0   0   0   0    0    18     0
+Starter-Kit-3D-Platformer  games  3fa8a04     178     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-open-rts             games  a628ad3    3716    97    0   0.0    0   0.0   38   0   0   0    0    73    24
+godot-2d-space-game        games  661a101    2377    68    0   0.0    0   0.0    0   0   0   0    0     0    68
+godot-4-3d-third-person-co games  b3bd6e8     893    26    0   0.0    0   0.0    0   0   0   0    0    26     0
+godot-FirstPersonStarter   games  893db99      89     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Starter-Kit-FPS            games  185fd23     234     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Reia                       games  35baf42    7378   454    0   0.0    0   0.0   22   0   0   0    0   338     0
+godot-tactical-rpg         games  cfe785e    1848   660    0   0.0    0   0.0   18   0   0   0    0     0     0
+godot-port                 games  fa0d514    4372    38   22   5.0   22   5.0   22   1   1   1    0    16     0  Control/PanelContainer x1
+escoria-demo-game          games  92e6506     133     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+voxelgame                  games  4cf747a    2595   102    0   0.0    0   0.0    0   0   0   0    0   102     0
+TowDownGame                games  898e2b0    2457   123    0   0.0    0   0.0   18   0   0   0    0     0   123
+GodotDynamicInventorySyste games  bd74a72     790     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+museum-of-all-things       games  03cf5ff    4380    18    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-2d-builder           games  7a747e5    2520     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+starship-olympics          games  429667b   12568   291   18   1.4   18   1.4   18   1   1   1   18   143   112  Area2D/Polygon2D x1
+TakinGodotTemplate         games  a54b519    3786    18    0   0.0    0   0.0   18   0   0   0    0     0    18
+OpenLiberty                games  b2fcfd2    1010    58    0   0.0    0   0.0    0   0   0   0    0    34     0
+OpenVic                    games  936fa94    6740    81    0   0.0    0   0.0   36   0   0   0    0     0    22
+deck_builder_tutorial      games  91b408b    2679   118   16   6.0   16   6.0   16   1   1   1    0     0   102  Area2D/Node2D x1
+Starter-Kit-Racing         games  2f2e5f2     123     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+UltimateGodotIntro2D       games  014ce52     408     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+tanks-of-freedom-ii        games  dbe629e   12777  1388   32   2.5   32   2.5  260   1   1   4   24   572   783  Control/Node x1
+Cats-Godot4-Modular-Souls- games  d8bceff    1615    40    0   0.0    0   0.0    0   0   0   0    0    40     0
+godot-3-beginner-2d-platfo games  ce08716     115     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Pocket-Godot               games  1758733     193    65    0   0.0    0   0.0    0   0   0   0    0    65     0
+MultiplayerFPSTutorial     games  ef3e702     102     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-tiny-mmo             games  f4ed04f   10189   132    0   0.0    0   0.0    0   0   0   0    0    44    50
+Slay-The-Robot             games  4dac5ab   10550   206    0   0.0    0   0.0    0   0   0   0    0    36   170
+Castlevania-Remnants-of-Da games  d77b3af   13731   643   73   5.3   73   5.3   73   2   2   6   55   112   459  Node/VBoxContainer x1, RigidBody2D/StaticBody2D x1
+Super-Mario-World-Remaster games  4c520cf   14600   426   30   2.1    0   0.0   30   1   0   2   30    82   318  CharacterBody2D/Node x1
+wutw-public                games  95704c1   13609   331   30   2.2    0   0.0   90   1   0   1    0   164   121  Control/VBoxContainer x1
+Godot-Plush-Character      games  1e62116     229     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-multiplayer          games  70006c8     631     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Godot4ThirdPersonCombatPro games  cbfecf4    4534   127    0   0.0    0   0.0   70   0   0   0    0     0   105
+youtd2                     games  d7532f3   10334    60    0   0.0    0   0.0    0   0   0   0    0     0    18
+godot-xr-template          games  7d8261c     578    18   18  31.1   24  41.5   26   1   1   1    0     0     0  Area3D/RigidBody3D x1
+desksaw                    games  4555ffe    4469   646  145  32.4  161  36.0  174   4   5   4  127   547     0  Node/StaticBody2D x2, Container/Node x1, Control/Node x1
+GodotProjectZero           games  1ea0458    7400    56    0   0.0    0   0.0   94   0   0   0    0    16     0
+godot-4-2d-visual-novel    games  94dafe9     838     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Legacy_SM63Redux           games  cde0b9e    7932     0    0   0.0    0   0.0   34   0   0   0    0     0     0
+Starter-Kit-Match-3        games  4ddb3d2     211     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-2d-topdown-template  games  ea95789    1611     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+SonicWorldsNext            games  d2e6212    6780   120    0   0.0    0   0.0   16   0   0   0    0    84    36
+SimpleFPSController        games  da3e71e     884    16    0   0.0    0   0.0    0   0   0   0    0     0    16
+aarpg-tutorial             games  19ae32e    3728    84   22   5.9   22   5.9   24   1   1   1   22    40    22  Area2D/Node2D x1
+godot_autobattler_course   games  fba5dc3    1746     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+jdungeon                   games  d941345    9255   480  126  13.6  126  13.6  180   5   5   1    0   284    36  Node/Node2D x5
+LibreAim                   games  e705a92     984     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Strategy-GDScript          games  0b362be     277     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+devmoreir4__godot-3d-multi games  51b2614    2016     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+opengs                     games  06838d9    1587     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+top-down-action-rpg-templa games  525d133     581     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Godot-Roguelike-Tutorial   games  c70e30b     660    31    0   0.0    0   0.0    0   0   0   0    0     0    31
+unto-deepest-depths-protot games  3874905     355     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-2d-adventure-tutoria games  0120b91     735     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+knakk                      games  8d93a6b    1237    62    0   0.0   16  12.9   16   0   1   0    0    62     0
+Dororo                     games  c2050bd    1013    16    0   0.0    0   0.0    0   0   0   0    0     0     0
+_original_client           games  893d351    4383    58    0   0.0    0   0.0   16   0   0   0    0     0    26
+Godot_Universal-Controller games  8239bc0     903   129    0   0.0    0   0.0    0   0   0   0    0    30    99
+simple-godot-train         games  c7dd62a     477    50    0   0.0    0   0.0    0   0   0   0    0    50     0
+OpMon                      games  9cea691    1730    50    0   0.0    0   0.0    0   0   0   0    0    20    30
+Godot-Inventory            games  61676d9    1366    40    0   0.0    0   0.0    0   0   0   0    0     0    20
+template-beat-em-up        games  ba9542d    6848  1796 1091 159.3 1093 159.6 1095   1   1 111 1091  1080  1469  Node/Node2D x1, Node/ReferenceRect x1, Node/Sprite2D x1
+game-base-2D               games  f8bef73     771    16    0   0.0    0   0.0    0   0   0   0    0     0    16
+godot-rocket-league        games  78b28ce     469     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Freedom-Hunter             games  3f27279    2018    34   34  16.8   34  16.8   34   2   2   2    0     0     0  Area3D/CharacterBody3D x1, Control/VBoxContainer x1
+simgine                    games  24b2d70    1096     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+GDWaterKart                games  f151ebe    1559   148    0   0.0    0   0.0    0   0   0   0    0   132     0
+TopdownStarter             games  62fe950     417     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Godot4-FPS-Template        games  7130929     646     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+poder-solar                games  d5820a1     286     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+DOGWALK                    games  34c527e    6599    56   18   2.7   49   7.4   98   1   2   1   18    22     0  Area3D/CollisionObject3D x1
+godot4-third-person-contro games  c809ec2     531     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+malware-slayer             games  4f48fec    4020    44    0   0.0    0   0.0    0   0   0   0    0     0    44
+SurvivorsClone_Complete    games  965d761     760     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Genesis                    games  2afb86d    1236    28    0   0.0    0   0.0    0   0   0   0    0    28     0
+Friendslop-Template        games  25787cc    2678    16    0   0.0    0   0.0    0   0   0   0    0     0     0
+super-godot-galaxy         games  cfb741e     244     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+GBM2K-Framework            games  12f6748     242     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Project-Heartbeat          games  a9c1c02   12734   242    0   0.0    0   0.0   86   0   0   0    0    80     0
+tower-defense-godot4       games  1cbd622     807    22    0   0.0    0   0.0    0   0   0   0    0     0    22
+limbo-godot                games  08879ba     770     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+abyssal-walker             games  ec497b3   12867   652   22   1.7   22   1.7  103   1   1   1   22   518     0  Node/Node2D x1
+godot-chess                games  e16a242     997     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Improved-KCC               games  0661e04    1774    16    0   0.0    0   0.0   22   0   0   0    0     0     0
+BatteryAcid__godot-3d-mult games  2e274ff     539    50    0   0.0    0   0.0    0   0   0   0    0     0    50
+Godot4SourceEngineMovement games  d3ebc9a     343     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+PSGodotTemplateRepo        games  cc5cccd     400     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+RhythiaRewrite             games  e1cfba6    2917    20    0   0.0    0   0.0    0   0   0   0    0     0     0
+Cupcakes-Framework         games  485e1ee     170     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Stardew                    games  f238436    1763   161   29  16.4   29  16.4   29   1   1   2   29   100    32  Area2D/Node2D x1, Area2D/StaticBody2D x1
+CandyWrapper               games  de75907     252     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Galaxy-Defiance            games  29b8b70     260     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Resources-GDScript         games  47525a2     735     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Lost-Pilot                 games  8bc78dd     748    18    0   0.0    0   0.0    0   0   0   0    0     0     0
+sourceofmana               games  50adcc7   14006    48    0   0.0    0   0.0    0   0   0   0    0     0    48
+godot-card-game-frame      games  ee4e3dd     797   184    0   0.0    0   0.0    0   0   0   0    0   184     0
+Godot-2D-Action-Game       games  b597570    1879   116    0   0.0    0   0.0    0   0   0   0    0     0   116
+soccer-course              games  c28147f    1379    18    0   0.0    0   0.0    0   0   0   0    0     0    18
+moddable-platformer        games  834b508     591     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+paddles_balls_blocks_walls games  5448f22    2085   161   44  21.1   44  21.1   44   2   2   3   20   133     0  Area3D/RigidBody3D x1, Area3D/StaticBody3D x1
+age-of-war                 games  c6f2d0f    2607   213    0   0.0    0   0.0    0   0   0   0    0   133    54
+tower-defense-tutorial     games  9f5cc04     644     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+holoDelta                  games  74e83d2    6196    57    0   0.0    0   0.0    0   0   0   0    0     0     0
+Godot-4-Tower-Defense-Temp games  cfdbf5e     534    24    0   0.0    0   0.0    0   0   0   0    0    24     0
+FRU-Sim                    games  2a77c85    5966   375   26   4.4   26   4.4   59   1   1   1   26   168   107  CanvasLayer/MarginContainer x1
+godot_open_star_fighter    games  6e7be5c    1242     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+dialogic                   plugin 3afc449   10573    38    0   0.0    0   0.0    0   0   0   0    0     0    18
+godot_dialogue_manager     plugin 7a72dcf    8079   181   58   7.2   58   7.2   92   2   2   1    0     0     0  Area2D/Area3D x2
+phantom-camera             plugin 21d3762    5446   716  602 110.5  602 110.5  805  19  18   4  358     0     0  Node2D/Node3D x19, Node/Node2D x1, Node/Node3D x1
+beehave                    plugin fe58915    5169  1248   24   4.6   24   4.6   24   1   1   2   24   288   275  GraphEdit/VBoxContainer x1
+scatter                    plugin 7198cc0    5382    96    0   0.0    0   0.0    0   0   0   0    0    16    16
+Gut                        plugin cf45f66   10956   226    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot_heightmap_plugin     plugin 49887ff    8850   106    0   0.0    0   0.0   54   0   0   0    0     0     0
+SmartShape2D               plugin 9617190    6240    52    0   0.0    0   0.0    0   0   0   0    0     0     0
+Godot-Game-Template        plugin 6849d6c    5658  1652  134  23.7  134  23.7  157   4   4   1  134   738   588  Container/Tree x4
+gaea                       plugin 79461f6    8457   389    0   0.0    0   0.0    0   0   0   0    0   246    84
+cyclopsLevelBuilder        plugin ea41fea    9144  1258   74   8.1   74   8.1   90   2   2   2   32    64   824  Node2D/Node3D x1, Node3D/SubViewport x1
+godot-statecharts          plugin 76d226a    3377   112    0   0.0    0   0.0    0   0   0   0    0     0    16
+Metroidvania-System        plugin 0065ae8    4483   162    0   0.0    0   0.0    0   0   0   0    0    92    16
+godot-steering-ai-framewor plugin 9d7cf0d    1635   132    0   0.0    0   0.0    0   0   0   0    0    80    52
+PankuConsole               plugin 863324d    2744     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-aseprite-wizard      plugin eede800    3731   210   88  23.6   98  26.3  122   4   4   1    0    58     0  Panel/PanelContainer x4
+gdmaim                     plugin 634cada    3490   116    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot_spatial_gardener     plugin 77b822f    9761   220    0   0.0    0   0.0   38   0   0   0    0     0    58
+TileMapDual                plugin b4dc775     834     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-road-generator       plugin 7cbefde   10255   208    0   0.0    0   0.0    0   0   0   0    0     0     0
+ShaderV                    plugin b99ad61    4069  2240    0   0.0    0   0.0    0   0   0   0    0     0     0
+ridiculous_coding          plugin 6ead7f0     269     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+netfox                     plugin a482c97    8744   604  104  11.9  104  11.9  121   2   2   8   80   412   112  MultiplayerSpawner/Node x1, Node2D/Node3D x1
+pandora                    plugin fa48e30    5876   136   16   2.7   16   2.7   20   1   1   1   16    26     0  PanelContainer/Window x1
+godot_input_helper         plugin ccfad58     696     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+script-ide                 plugin c1dfb1f    1741     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-resources-as-sheets- plugin f6e5645    3226    36    0   0.0    0   0.0    0   0   0   0    0     0    20
+gloot                      plugin 6b09b87    5167    58    0   0.0    0   0.0   88   0   0   0    0    22     0
+Virtual-Joystick-Godot     plugin b90891e     127     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+unidot_importer            plugin 9719eaa   11463   477    0   0.0    0   0.0    0   0   0   0    0     0     0
+Sky3D                      plugin 81f95ab    1540     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+func_godot_plugin          plugin 352f3d3    2922    16    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot_sound_manager        plugin 1c04158     320     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+nakama-godot               plugin 6dc7b39    2817   660    0   0.0    0   0.0    0   0   0   0    0   114    24
+godot_little_camera_previe plugin 1c4fd4d     300     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Qodot                      plugin 1f03de4    2866     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+better-terrain             plugin e93040e    2575    90    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-xr-tools             plugin 6c6189b    7835   638   22   2.8   28   3.6   44   1   1   1    0   408   172  MeshInstance3D/Node3D x1
+godot-gameplay-systems     plugin 9349931    3625   156   92  25.4   92  25.4  112   3   3   3   92     0     0  Area2D/Area3D x2, RayCast2D/RayCast3D x1
+godot-mod-loader           plugin 2fbf7b0    4045   615    0   0.0    0   0.0    0   0   0   0    0     0     0
+SignalVisualizer           plugin 06a46e5     611     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+GodotFirebase              plugin 68be886    2480   154    0   0.0    0   0.0    0   0   0   0    0   126     0
+BehaviourToolkit           plugin 8c8164c    1376    34    0   0.0    0   0.0    0   0   0   0    0     0    34
+gd-YAFSM                   plugin a4241b1    2904    29    0   0.0    0   0.0    0   0   0   0    0     0    29
+godot-debug-menu           plugin ff12461     305     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Scene-Manager              plugin bf3b1fe     917    18    0   0.0    0   0.0    0   0   0   0    0     0     0
+Yugens-Terrain-Authoring-T plugin 428f7ef    5122   136    0   0.0    0   0.0    0   0   0   0    0     0     0
+Pixelorama                 plugin 38a8b03   13115   428   30   2.3   30   2.3  106   1   1   1   30    76   226  AcceptDialog/Control x1
+Lorien                     plugin 17e3222    3165    24   24   7.6   24   7.6   44   1   1   1   24     0     0  PopupMenu/ScrollContainer x1
+material-maker             plugin 7d6daae   14563   305   16   1.1   16   1.1   16   1   1   1    0    84   165  Control/MarginContainer x1
+SoundThread                plugin a33198a    4039   243   40   9.9   80  19.8   64   2   3   2   16    16     0  Control/Window x1, PopupPanel/Window x1
+learn-gdscript             plugin b2c86f0   10203   383    0   0.0   38   3.7   62   0   1   0    0   192   141
+GodSVG                     plugin 52ad794   14513   333   28   1.9   28   1.9   58   1   1   1   28    44    36  MarginContainer/TextureRect x1
+protongraph                plugin 1e2411a    6845    84    0   0.0    0   0.0    0   0   0   0    0     0    84
+PixelPlanets               plugin 8ec6ee3     932     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+Arrow                      plugin 5c0291c   11965  2160   28   2.3   28   2.3   54   1   1   1    0  2132     0  Control/GraphNode x1
+GodotOS                    plugin 90c94c0    2478     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+the-mirror                 plugin ea32c76   12667   200    0   0.0    0   0.0   26   0   0   0    0     0   144
+Open-Industry-Project-Godo plugin 117dfd9   13708  2067    0   0.0    0   0.0    0   0   0   0    0   535  1239
+boscaceoil-blue            plugin 4b6b5c6    9437   189    0   0.0    0   0.0   64   0   0   0    0    22     0
+godots                     plugin 8e4eb2b    7729   371    0   0.0    0   0.0    0   0   0   0    0    78    48
+vpuppr                     plugin d244408    1555    46    0   0.0    0   0.0   18   0   0   0    0     0    46
+GodotPixelRenderer         plugin 078f207    1919    32    0   0.0    0   0.0    0   0   0   0    0    16     0
+unitypackage_godot         plugin 63ca781    1717     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-demo-projects        demos  b761b4c   11068    42    0   0.0    0   0.0    0   0   0   0    0    26     0
+godot-4-procedural-generat demos  19c98ce    1811   238    0   0.0    0   0.0    0   0   0   0    0   214    16
+godot-visual-effects       demos  647a8f1    1323     0    0   0.0    0   0.0    0   0   0   0    0     0     0
+godot-start                demos  115fc06     591    75   56  94.8   56  94.8   56   1   1   3   56    49     0  CharacterBody2D/Sprite2D x1
+godot_experiments          demos  4baec72     252    16    0   0.0    0   0.0    0   0   0   0    0    16     0
+MizGodotTools              demos  cb548f9    2903   126   20   6.9   20   6.9   20   1   1   1    0    34    72  Control/ScrollContainer x1
+godot_ui_components        demos  22d2355     641    82    0   0.0    0   0.0    0   0   0   0    0    52     0
+
+== Totals by group: lines (all copies) / lines whose only clone category is this one / unit pairs with >=1 clone
+-- games: LLOC 346476, units 8275, dup lines X 12245 (35/k), N 18976 (55/k), L 35394 (102/k)
+   category                linX   exX  linN   exN  linL popPairs  prX  prN  prL prX/1k prN/1k   gX
+   cross_branch            1796   527  1837   561  2899   330883  144  145  238   0.44   0.44   28
+   cross_forced            1482   237  1483   258  1937        0   95   94  126   0.00   0.00    0
+   cross_lowerable         1373   290  1413   303  2108        0   49   51  112   0.00   0.00    0
+   same_native_unrelated   5730  4518  6512  4887 10476    78356  171  201  410   2.18   2.57  138
+   same_chain              4843  3622  6960  5688  9388    44675  805  965 1166  18.02  21.60  126
+   non_node                2167  1048  2380  1203  3658   214577   72   80  131   0.34   0.37    0
+   tool_test                 62    62    96    96   221    14699    4    5   17   0.27   0.34    0
+   intra_unit               796   760  4740  4175 14631        0   34  105  303   0.00   0.00    0
+   unresolved               375   178   589   222  1061    12318   30   43  196   2.44   3.49    0
+   cross-branch lines by kind (exact): export=26, member=12, lifecycle=62, per_frame=18, handler=117, method=461, other_virtual=1100; of which contain .connect: 10
+   cross-branch lines by kind (near): export=26, member=12, lifecycle=62, per_frame=18, handler=137, method=491, other_virtual=1091; of which contain .connect: 10
+-- demos: LLOC 18589, units 546, dup lines X 579 (31/k), N 772 (42/k), L 1147 (62/k)
+   category                linX   exX  linN   exN  linL popPairs  prX  prN  prL prX/1k prN/1k   gX
+   cross_branch              76    23    76    23    76     3665    4    4    4   1.09   1.09    2
+   cross_forced              56     3    56     3    56        0    3    3    3   0.00   0.00    0
+   cross_lowerable           20    20    20    20    20        0    1    1    1   0.00   0.00    0
+   same_native_unrelated    391   330   419   358   494      982   10   10   10  10.18  10.18   14
+   same_chain                88    88    90    90    90      117    2    2    2  17.09  17.09    3
+   non_node                  24     8    24     8    24     1122    2    2    2   1.78   1.78    0
+   tool_test                 59    12    59    12    81      372    4    4    5  10.75  10.75    0
+   intra_unit                46    46   209   209   496        0    2    6   18   0.00   0.00    0
+   unresolved                 0     0     0     0     0       37    0    0    0   0.00   0.00    0
+   cross-branch lines by kind (exact): export=4, member=4, lifecycle=4, per_frame=44, method=20; of which contain .connect: 0
+   cross-branch lines by kind (near): export=4, member=4, lifecycle=4, per_frame=44, method=20; of which contain .connect: 0
+-- plugins/tools: LLOC 338752, units 5578, dup lines X 20084 (59/k), N 28100 (83/k), L 46201 (136/k)
+   category                linX   exX  linN   exN  linL popPairs  prX  prN  prL prX/1k prN/1k   gX
+   cross_branch            1380  1292  1474  1314  2279    76396   31   38   62   0.41   0.50   46
+   cross_forced             834   758   890   742  1452        0   22   24   38   0.00   0.00    0
+   cross_lowerable          558   546   620   592   884        0    9   14   24   0.00   0.00    0
+   same_native_unrelated   5885  5716  6150  5911  9390    18341  324  336  435  17.67  18.32  145
+   same_chain              4467  4332  5812  5628  8851    16558  183  286  469  11.05  17.27  117
+   non_node                3987  3955  5748  5033  6994   207377  898 3380 3472   4.33  16.30    0
+   tool_test               1765  1695  2432  2184  4611    94720   58   90  174   0.61   0.95    0
+   intra_unit              2909  2753  7807  6675 18608        0   91  193  400   0.00   0.00    0
+   unresolved                16    16    16    16    16     1316    1    1    1   0.76   0.76    0
+   cross-branch lines by kind (exact): export=44, signal=4, member=264, lifecycle=83, per_frame=98, handler=68, method=795, other_virtual=24; of which contain .connect: 16
+   cross-branch lines by kind (near): export=44, signal=4, member=268, lifecycle=83, per_frame=98, handler=64, method=875, other_virtual=38; of which contain .connect: 20
+demo projects with first-party code: 116; with any clone (exact): 2; with cross-branch clone: 0 []
+demo projects with first-party code: 116; with any clone (near): 5; with cross-branch clone: 0 []
+
+== Cross-branch native pairs (number of exact groups / near groups)
+-- games: Node/Node2D 7/7, Area2D/Node2D 3/3, Node/StaticBody2D 2/2, Control/Node 2/3, Control/VBoxContainer 2/1, Area3D/RigidBody3D 2/2, Node/ReferenceRect 1/1, Node/Sprite2D 1/1, Node2D/ReferenceRect 1/1, Node2D/Sprite2D 1/1, ReferenceRect/Sprite2D 1/1, RigidBody2D/StaticBody2D 1/1
+   near-only: CharacterBody3D/StaticBody3D 1, Container/Panel 1, Container/Control 1
+-- demos: CharacterBody2D/Sprite2D 1/1, Control/ScrollContainer 1/1
+-- plugins/tools: Node2D/Node3D 21/20, Container/Tree 4/4, Area2D/Area3D 4/4, Panel/PanelContainer 4/4, MultiplayerSpawner/Node 1/1, Node3D/SubViewport 1/1, AcceptDialog/Control 1/1, MarginContainer/TextureRect 1/1, Control/GraphNode 1/1, Node/Node2D 1/1, Node/Node3D 1/1, GraphEdit/VBoxContainer 1/1
+   near-only: CenterContainer/Control 1, CenterContainer/Node2D 1, Control/Node2D 1
+
+== Cross-branch clone pairs (distinct unit pairs)
+-- games exact: 144 unit pairs (95 forced by name evidence), 93 units; by repo template-beat-em-up 111, Castlevania-Remnants-of-Darkness 6, desksaw 4, tanks-of-freedom-ii 4, paddles_balls_blocks_walls 3, Freedom-Hunter 2, Stardew 2, Super-Mario-World-Remastered-Public 2, DOGWALK 1, FRU-Sim 1, aarpg-tutorial 1, abyssal-walker 1, deck_builder_tutorial 1, godot-port 1, godot-xr-template 1, jdungeon 1, starship-olympics 1, wutw-public 1
+-- games near: 145 unit pairs (94 forced by name evidence), 96 units; by repo template-beat-em-up 111, Castlevania-Remnants-of-Darkness 6, desksaw 5, tanks-of-freedom-ii 4, paddles_balls_blocks_walls 3, DOGWALK 2, Freedom-Hunter 2, Stardew 2, FRU-Sim 1, Microverse 1, aarpg-tutorial 1, abyssal-walker 1, deck_builder_tutorial 1, godot-port 1, godot-xr-template 1, jdungeon 1, knakk 1, starship-olympics 1
+-- games loose: 238 unit pairs (126 forced by name evidence), 180 units; by repo template-beat-em-up 111, tanks-of-freedom-ii 39, GodotProjectZero 12, Godot4ThirdPersonCombatPrototype 9, abyssal-walker 8, Project-Heartbeat 7, Castlevania-Remnants-of-Darkness 6, DOGWALK 5, desksaw 5, wutw-public 4, FRU-Sim 3, paddles_balls_blocks_walls 3, Freedom-Hunter 2, Legacy_SM63Redux 2, Stardew 2, Super-Mario-World-Remastered-Public 2, godot-open-rts 2, Improved-KCC 1, Microverse 1, OpenVic 1, Reia 1, SonicWorldsNext 1, TakinGodotTemplate 1, TowDownGame 1, _original_client 1, aarpg-tutorial 1, deck_builder_tutorial 1, godot-port 1, godot-tactical-rpg 1, godot-xr-template 1, jdungeon 1, knakk 1, starship-olympics 1
+-- demos exact: 4 unit pairs (3 forced by name evidence), 6 units; by repo godot-start 3, MizGodotTools 1
+-- demos near: 4 unit pairs (3 forced by name evidence), 6 units; by repo godot-start 3, MizGodotTools 1
+-- demos loose: 4 unit pairs (3 forced by name evidence), 6 units; by repo godot-start 3, MizGodotTools 1
+-- plugins/tools exact: 31 unit pairs (22 forced by name evidence), 52 units; by repo netfox 8, phantom-camera 4, godot-gameplay-systems 3, SoundThread 2, beehave 2, cyclopsLevelBuilder 2, Arrow 1, GodSVG 1, Godot-Game-Template 1, Lorien 1, Pixelorama 1, godot-aseprite-wizard 1, godot-xr-tools 1, godot_dialogue_manager 1, material-maker 1, pandora 1
+-- plugins/tools near: 38 unit pairs (24 forced by name evidence), 55 units; by repo netfox 8, phantom-camera 8, godot-gameplay-systems 3, learn-gdscript 3, SoundThread 2, beehave 2, cyclopsLevelBuilder 2, Arrow 1, GodSVG 1, Godot-Game-Template 1, Lorien 1, Pixelorama 1, godot-aseprite-wizard 1, godot-xr-tools 1, godot_dialogue_manager 1, material-maker 1, pandora 1
+-- plugins/tools loose: 62 unit pairs (38 forced by name evidence), 94 units; by repo netfox 9, phantom-camera 8, learn-gdscript 5, Pixelorama 3, SoundThread 3, boscaceoil-blue 3, gloot 3, godot-gameplay-systems 3, godot_heightmap_plugin 3, Arrow 2, GodSVG 2, Lorien 2, beehave 2, cyclopsLevelBuilder 2, godot-xr-tools 2, godot_dialogue_manager 2, godot_spatial_gardener 2, Godot-Game-Template 1, godot-aseprite-wizard 1, material-maker 1, pandora 1, the-mirror 1, vpuppr 1
+
+== Heuristic pre-labels (exact cross-branch groups; automatic, see dup.py)
+-- games: a_interface_default=9 (1257 lines), b_stateful=18 (476 lines), d_static_helper=1 (63 lines)
+-- demos: b_stateful=1 (56 lines), d_static_helper=1 (20 lines)
+-- plugins/tools: a_interface_default=4 (114 lines), b_stateful=39 (1190 lines), d_static_helper=3 (76 lines)
+
+== Shared capability: cross-branch Node unit pairs (no common script ancestor, different natives) declaring the same public
+   non-engine func / non-@onready var / signal; 'consumed' = the name is accessed on a non-self receiver somewhere in the project
+-- games: node units 6218; pairs declaring a common name 10663, of which a consumed name 8859, >=2 consumed names 1176; (project,name) 1906, consumed 1254
+   consumer sites by mechanism: untyped_other=6186, autoload_or_class=2192, typed_script=2076, typed_engine_or_other=1627, node_path=829, typed_inferred=503, is_A_check=467, is_A_or_B=190, string_get=162, static_or_autoload_class=157, string_emit_signal=128, owner_or_parent=84, string_connect=83, group_then_call=49, string_has_method=30, has_method_guard=23, string_call_deferred=9, string_set=7, string_has_signal=2, string_call=2; total 14806
+-- demos: node units 483; pairs declaring a common name 101, of which a consumed name 73, >=2 consumed names 40; (project,name) 60, consumed 31
+   consumer sites by mechanism: typed_script=47, untyped_other=37, typed_inferred=23, typed_engine_or_other=17, is_A_check=6, has_method_guard=5, string_has_method=4, node_path=2, static_or_autoload_class=1; total 142
+-- plugins/tools: node units 2584; pairs declaring a common name 4513, of which a consumed name 4154, >=2 consumed names 380; (project,name) 775, consumed 492
+   consumer sites by mechanism: typed_script=1088, typed_engine_or_other=876, untyped_other=863, typed_inferred=525, autoload_or_class=315, node_path=240, is_A_check=82, static_or_autoload_class=81, string_emit_signal=32, string_has_method=31, string_get=27, is_A_or_B=26, has_method_guard=25, string_connect=18, owner_or_parent=13, string_call=13, string_has_signal=11, string_call_deferred=5, string_set=4; total 4275
+   games explicit cross-type sites by repo: group_then_call: starship-olympics 21, godot-open-rts 18, Godot4ThirdPersonCombatPrototype 9, LibreAim 1; owner_or_parent: Super-Mario-World-Remastered-Public 45, Super-Mario-Bros.-Remastered-Public 21, Castlevania-Remnants-of-Darkness 10, SonicWorldsNext 2, Freedom-Hunter 1, RhythiaRewrite 1, godot-2d-space-game 1, malware-slayer 1, paddles_balls_blocks_walls 1, starship-olympics 1; is_A_or_B: Castlevania-Remnants-of-Darkness 97, age-of-war 27, Super-Mario-World-Remastered-Public 19, starship-olympics 18, Project-Heartbeat 7, godot-tiny-mmo 5, FRU-Sim 4, Super-Mario-Bros.-Remastered-Public 4, deck_builder_tutorial 4, godot_autobattler_course 2, wutw-public 2, tower-defense-tutorial 1; has_method_guard: starship-olympics 8, Starter-Kit-FPS 3, OpMon 2, godot-2d-topdown-template 2, godot_open_star_fighter 2, DOGWALK 1, Microverse 1, SimpleFPSController 1, SonicWorldsNext 1, devmoreir4__godot-3d-multiplayer-template 1, godot-tiny-mmo 1; string_has_method: starship-olympics 15, DOGWALK 2, OpMon 2, Starter-Kit-FPS 2, godot-2d-topdown-template 2, godot_open_star_fighter 2, Microverse 1, SimpleFPSController 1, SonicWorldsNext 1, devmoreir4__godot-3d-multiplayer-template 1, godot-tiny-mmo 1
+   games shared names with most consumer sites: Castlevania-Remnants-of-Darkness:player 577, Castlevania-Remnants-of-Darkness:stats 537, Castlevania-Remnants-of-Darkness:play 375, jdungeon:component_list 284, Legacy_SM63Redux:size 243, Super-Mario-World-Remastered-Public:play_sfx 198
+   demos explicit cross-type sites by repo: has_method_guard: MizGodotTools 5; string_has_method: MizGodotTools 4
+   demos shared names with most consumer sites: godot-visual-effects:text 18, MizGodotTools:item_dynamic_data 16, MizGodotTools:item_id 13, MizGodotTools:get_save_data 11, MizGodotTools:load_save_data 10, godot-visual-effects:size 10
+   plugins/tools explicit cross-type sites by repo: owner_or_parent: dialogic 4, material-maker 3, Metroidvania-System 2, GodotOS 1, gd-YAFSM 1, godot-steering-ai-framework 1, godots 1; is_A_or_B: Pixelorama 13, GodSVG 5, gaea 3, godot-statecharts 2, material-maker 2, godot-road-generator 1; has_method_guard: godot-xr-tools 5, the-mirror 5, dialogic 4, material-maker 4, Godot-Game-Template 2, learn-gdscript 2, netfox 2, godot_dialogue_manager 1; string_has_method: godot-xr-tools 7, learn-gdscript 6, material-maker 4, the-mirror 4, dialogic 3, Godot-Game-Template 2, netfox 2, godot_dialogue_manager 1, godots 1, vpuppr 1
+   plugins/tools shared names with most consumer sites: boscaceoil-blue:current_song 152, learn-gdscript:text 146, Yugens-Terrain-Authoring-Toolkit:dimensions 121, phantom-camera:emit 94, material-maker:material 68, Pixelorama:index 60
+
+== Workaround indicators (first-party, non-test)
+-- games: has_method_calls=229, is_A_or_B_lines=57, is_in_group_calls=180, owner_or_parent_duck_sites=301, owner_or_parent_duck_units=116, static_funcs=1653, string_call=369
+   has_method_calls: starship-olympics 52, abyssal-walker 49, Microverse 23, devmoreir4__godot-3d-multiplayer-template 11, godot-2d-topdown-template 8, SonicWorldsNext 7, Cats-Godot4-Modular-Souls-like-Template 6, template-beat-em-up 6, Godot4-FPS-Template 5, Legacy_SM63Redux 5, SimpleFPSController 5, godot-port 5, malware-slayer 5, DOGWALK 4, Friendslop-Template 3, OpMon 3, Project-Heartbeat 3, SurvivorsClone_Complete 3, godot-2d-builder 3, voxelgame 3, Genesis 2, Godot-Roguelike-Tutorial 2, Starter-Kit-FPS 2, godot-tiny-mmo 2, godot_open_star_fighter 2, sourceofmana 2, Castlevania-Remnants-of-Darkness 1, Godot4ThirdPersonCombatPrototype 1, Starter-Kit-3D-Platformer 1, Super-Mario-Bros.-Remastered-Public 1, godot-multiplayer 1, museum-of-all-things 1, super-godot-galaxy 1, tps-demo 1
+   is_A_or_B_lines: Castlevania-Remnants-of-Darkness 13, age-of-war 7, Super-Mario-World-Remastered-Public 6, template-beat-em-up 6, starship-olympics 5, wutw-public 4, Project-Heartbeat 3, deck_builder_tutorial 3, FRU-Sim 2, abyssal-walker 2, godot_autobattler_course 2, Super-Mario-Bros.-Remastered-Public 1, aarpg-tutorial 1, malware-slayer 1, tower-defense-tutorial 1
+   is_in_group_calls: godot-open-rts 35, godot-2d-builder 21, Cats-Godot4-Modular-Souls-like-Template 13, TopdownStarter 11, museum-of-all-things 8, Freedom-Hunter 7, Godot4-FPS-Template 7, godot4-third-person-controller 7, starship-olympics 7, Slay-The-Robot 5, Godot-4-Tower-Defense-Template 4, Microverse 4, godot-4-3d-third-person-controller 4, paddles_balls_blocks_walls 4, template-beat-em-up 4, Godot4ThirdPersonCombatPrototype 3, OpMon 3, SurvivorsClone_Complete 3, godot-2d-space-game 3, godot-xr-template 3, malware-slayer 3, Castlevania-Remnants-of-Darkness 2, Genesis 2, GodotDynamicInventorySystem 2, _original_client 2, game-base-2D 2, moddable-platformer 2, Godot-2D-Action-Game 1, Godot_Universal-Controller-tutorial 1, LibreAim 1, Starter-Kit-3D-Platformer 1, godot-2d-topdown-template 1, godot-card-game-frame 1, holoDelta 1, limbo-godot 1, top-down-action-rpg-template 1
+   owner_or_parent_duck_sites: Super-Mario-World-Remastered-Public 83, holoDelta 45, Castlevania-Remnants-of-Darkness 30, Super-Mario-Bros.-Remastered-Public 30, desksaw 23, template-beat-em-up 23, GodotDynamicInventorySystem 12, Legacy_SM63Redux 9, SonicWorldsNext 9, paddles_balls_blocks_walls 7, deck_builder_tutorial 4, starship-olympics 4, godot-2d-adventure-tutorial 3, Cats-Godot4-Modular-Souls-like-Template 2, FRU-Sim 2, Godot-4-Tower-Defense-Template 2, godot-2d-space-game 2, godot-card-game-frame 2, godot-port 2, malware-slayer 2, DOGWALK 1, Freedom-Hunter 1, OpMon 1, godot-tiny-mmo 1, sourceofmana 1
+   owner_or_parent_duck_units: Super-Mario-World-Remastered-Public 42, Super-Mario-Bros.-Remastered-Public 12, Legacy_SM63Redux 8, template-beat-em-up 8, SonicWorldsNext 7, Castlevania-Remnants-of-Darkness 6, desksaw 5, deck_builder_tutorial 4, paddles_balls_blocks_walls 4, godot-2d-space-game 2, godot-port 2, malware-slayer 2, starship-olympics 2, Cats-Godot4-Modular-Souls-like-Template 1, DOGWALK 1, FRU-Sim 1, Freedom-Hunter 1, Godot-4-Tower-Defense-Template 1, GodotDynamicInventorySystem 1, OpMon 1, godot-2d-adventure-tutorial 1, godot-card-game-frame 1, godot-tiny-mmo 1, holoDelta 1, sourceofmana 1
+   static_funcs: sourceofmana 438, godot-tiny-mmo 153, TakinGodotTemplate 113, abyssal-walker 103, GodotProjectZero 93, youtd2 89, Project-Heartbeat 57, OpenVic 52, Reia 52, _original_client 46, wutw-public 46, godot-open-rts 35, Microverse 29, voxelgame 29, malware-slayer 25, Super-Mario-Bros.-Remastered-Public 24, template-beat-em-up 20, Castlevania-Remnants-of-Darkness 18, OpenLiberty 16, Improved-KCC 15, godot-port 15, simgine 15, soccer-course 13, Slay-The-Robot 11, godot-tactical-rpg 11, opengs 11, starship-olympics 11, RhythiaRewrite 10, jdungeon 9, godot-2d-space-game 8, Friendslop-Template 7, Lost-Pilot 7, godot-2d-topdown-template 7, GodotDynamicInventorySystem 6, godot-open-rpg 6, LibreAim 5, godot-2d-builder 5, knakk 5, PSGodotTemplateRepo 4, godot-xr-template 4, Godot4ThirdPersonCombatPrototype 3, Resources-GDScript 3, deck_builder_tutorial 3, godot_autobattler_course 3, holoDelta 3, tower-defense-godot4 3, Freedom-Hunter 2, Godot_Universal-Controller-tutorial 2, Legacy_SM63Redux 2, godot-multiplayer 2, SimpleFPSController 1, Starter-Kit-FPS 1, game-base-2D 1, museum-of-all-things 1
+   string_call: starship-olympics 46, museum-of-all-things 35, abyssal-walker 29, RhythiaRewrite 23, Legacy_SM63Redux 18, devmoreir4__godot-3d-multiplayer-template 18, DOGWALK 17, Project-Heartbeat 15, OpMon 14, tanks-of-freedom-ii 14, TowDownGame 13, SurvivorsClone_Complete 9, godot-2d-builder 8, Castlevania-Remnants-of-Darkness 7, Super-Mario-World-Remastered-Public 7, Godot-Roguelike-Tutorial 6, SonicWorldsNext 6, Stardew 5, Super-Mario-Bros.-Remastered-Public 5, _original_client 5, holoDelta 5, Freedom-Hunter 4, Godot4ThirdPersonCombatPrototype 4, Slay-The-Robot 4, aarpg-tutorial 4, soccer-course 4, voxelgame 4, Godot-Inventory 3, godot-open-rpg 3, godot-port 3, malware-slayer 3, template-beat-em-up 3, Cats-Godot4-Modular-Souls-like-Template 2, Microverse 2, Reia 2, desksaw 2, godot-4-2d-visual-novel 2, godot-tiny-mmo 2, godot_open_star_fighter 2, BatteryAcid__godot-3d-multiplayer-template 1, Improved-KCC 1, OpenLiberty 1, OpenVic 1, UltimateGodotIntro2D 1, godot-multiplayer 1, godot-xr-template 1, godot4-third-person-controller 1, moddable-platformer 1, paddles_balls_blocks_walls 1, tps-demo 1
+-- demos: has_method_calls=17, is_A_or_B_lines=0, is_in_group_calls=16, owner_or_parent_duck_sites=3, owner_or_parent_duck_units=3, static_funcs=65, string_call=6
+   has_method_calls: godot-demo-projects 13, MizGodotTools 4
+   is_in_group_calls: MizGodotTools 6, godot-visual-effects 5, godot-4-procedural-generation 3, godot-demo-projects 2
+   owner_or_parent_duck_sites: godot-demo-projects 2, godot-4-procedural-generation 1
+   owner_or_parent_duck_units: godot-demo-projects 2, godot-4-procedural-generation 1
+   static_funcs: godot-4-procedural-generation 22, MizGodotTools 16, godot-start 16, godot-demo-projects 10, godot-visual-effects 1
+   string_call: godot-demo-projects 2, godot-visual-effects 2, godot-4-procedural-generation 1, godot_experiments 1
+-- plugins/tools: has_method_calls=259, is_A_or_B_lines=26, is_in_group_calls=34, owner_or_parent_duck_sites=179, owner_or_parent_duck_units=66, static_funcs=2378, string_call=487
+   has_method_calls: godot-road-generator 34, material-maker 29, the-mirror 23, learn-gdscript 17, Open-Industry-Project-Godot 15, dialogic 15, godot-xr-tools 11, godots 10, netfox 10, pandora 10, Pixelorama 9, godot_spatial_gardener 9, PankuConsole 8, godot_dialogue_manager 8, godot-resources-as-sheets-plugin 7, godot-gameplay-systems 6, gdmaim 4, gloot 4, Godot-Game-Template 3, Gut 3, func_godot_plugin 3, phantom-camera 3, unidot_importer 3, Arrow 2, GodotFirebase 2, GodotPixelRenderer 2, Metroidvania-System 2, scatter 2, BehaviourToolkit 1, Scene-Manager 1, SoundThread 1, godot_heightmap_plugin 1, vpuppr 1
+   is_A_or_B_lines: godot-road-generator 4, GodSVG 3, Open-Industry-Project-Godot 2, Pixelorama 2, Qodot 2, gloot 2, godot-statecharts 2, material-maker 2, scatter 2, BehaviourToolkit 1, beehave 1, func_godot_plugin 1, gaea 1, the-mirror 1
+   is_in_group_calls: godot-statecharts 14, godot-xr-tools 10, Metroidvania-System 4, GodotOS 2, Lorien 1, gaea 1, netfox 1, the-mirror 1
+   owner_or_parent_duck_sites: material-maker 98, dialogic 16, GodotOS 15, Metroidvania-System 11, PankuConsole 8, godot-steering-ai-framework 8, gd-YAFSM 5, godot-statecharts 3, the-mirror 3, BehaviourToolkit 2, PixelPlanets 2, godot_heightmap_plugin 2, netfox 2, GodSVG 1, Lorien 1, godot-resources-as-sheets-plugin 1, learn-gdscript 1
+   owner_or_parent_duck_units: material-maker 24, dialogic 8, GodotOS 7, PankuConsole 3, godot-statecharts 3, godot-steering-ai-framework 3, the-mirror 3, BehaviourToolkit 2, Metroidvania-System 2, PixelPlanets 2, gd-YAFSM 2, netfox 2, GodSVG 1, Lorien 1, godot-resources-as-sheets-plugin 1, godot_heightmap_plugin 1, learn-gdscript 1
+   static_funcs: godot-mod-loader 224, Open-Industry-Project-Godot 183, netfox 143, GodSVG 132, godot_spatial_gardener 116, Godot-Game-Template 104, godot_heightmap_plugin 101, godots 84, godot_dialogue_manager 79, Arrow 74, cyclopsLevelBuilder 73, SmartShape2D 66, godot-xr-tools 65, gloot 64, Pixelorama 60, boscaceoil-blue 53, dialogic 53, gaea 50, material-maker 48, learn-gdscript 47, pandora 42, godot-statecharts 40, protongraph 39, the-mirror 33, unidot_importer 33, Yugens-Terrain-Authoring-Toolkit 30, Gut 28, PankuConsole 26, TileMapDual 26, func_godot_plugin 26, nakama-godot 25, scatter 23, godot-resources-as-sheets-plugin 20, vpuppr 19, better-terrain 18, gdmaim 17, GodotFirebase 15, godot-aseprite-wizard 14, godot-road-generator 12, beehave 11, gd-YAFSM 11, SignalVisualizer 8, Qodot 7, Sky3D 7, godot-steering-ai-framework 6, Lorien 5, Scene-Manager 5, Metroidvania-System 4, godot_input_helper 3, BehaviourToolkit 2, script-ide 2, godot-gameplay-systems 1, unitypackage_godot 1
+   string_call: Arrow 188, Open-Industry-Project-Godot 38, godots 32, unidot_importer 32, godot-road-generator 25, dialogic 21, material-maker 15, godot_spatial_gardener 14, godot_heightmap_plugin 12, vpuppr 11, Godot-Game-Template 10, gdmaim 9, nakama-godot 8, learn-gdscript 7, beehave 6, phantom-camera 6, godot-gameplay-systems 5, godot_dialogue_manager 5, func_godot_plugin 4, godot_sound_manager 4, Gut 3, script-ide 3, GodotOS 2, Lorien 2, TileMapDual 2, Yugens-Terrain-Authoring-Toolkit 2, gd-YAFSM 2, godot-aseprite-wizard 2, Metroidvania-System 1, PankuConsole 1, PixelPlanets 1, Pixelorama 1, Qodot 1, Scene-Manager 1, SignalVisualizer 1, SmartShape2D 1, gaea 1, gloot 1, godot-statecharts 1, godot-steering-ai-framework 1, godot-xr-tools 1, godot_input_helper 1, netfox 1, scatter 1, the-mirror 1

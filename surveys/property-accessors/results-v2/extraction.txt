@@ -1,0 +1,232 @@
+repo                         commit    files   lines | first-party: lines props | test: lines props | vendored: lines props | duplicate: lines props
+_original_client             893d351      60    8572 |              7700     0 |                 0     0 |               872    12 |                 0     0
+aarpg-tutorial               19ae32e     121    7259 |              7068    26 |                 0     0 |               191     0 |                 0     0
+abyssal-walker               ec497b3      89   21021 |             19912     3 |                 0     0 |              1109     0 |                 0     0
+age-of-war                   c6f2d0f      70    3985 |              3972     0 |                13     0 |                 0     0 |                 0     0
+anima                        f4a454e     261   43693 |              8375    16 |             11761     1 |             23557   118 |                 0     0
+Arrow                        5c0291c     106   21044 |             20092     0 |                 0     0 |               952     0 |                 0     0
+BatteryAcid__godot-3d-multiplayer-template 2e274ff      53    5256 |               901     0 |                 0     0 |              4355    35 |                 0     0
+beehave                      fe58915     322   35193 |              4469    23 |              4097     0 |             26627    18 |                 0     0
+BehaviourToolkit             8c8164c      74    3155 |              3155    25 |                 0     0 |                 0     0 |                 0     0
+better-terrain               e93040e       9    4167 |              4167     7 |                 0     0 |                 0     0 |                 0     0
+boscaceoil-blue              4b6b5c6      87   17260 |             17260    62 |                 0     0 |                 0     0 |                 0     0
+CandyWrapper                 de75907       4     359 |               359     0 |                 0     0 |                 0     0 |                 0     0
+Castlevania-Remnants-of-Darkness d77b3af     871   58348 |             20446    16 |                 0     0 |             37902   148 |                 0     0
+Cats-Godot4-Modular-Souls-like-Template d8bceff      39    2702 |              2702     4 |                 0     0 |                 0     0 |                 0     0
+comedot                      5a6cfce     289   34129 |             20160   187 |                 0     0 |             13969   155 |                 0     0
+Cupcakes-Framework           485e1ee      10     274 |               274     0 |                 0     0 |                 0     0 |                 0     0
+cyclopsLevelBuilder          ea41fea     328   39554 |             19958    95 |               215     0 |             19381    99 |                 0     0
+deck_builder_tutorial        91b408b     122    4830 |              4830    33 |                 0     0 |                 0     0 |                 0     0
+desksaw                      4555ffe      92    9575 |              7508     8 |                 0     0 |              2067    65 |                 0     0
+devmoreir4__godot-3d-multiplayer-template 51b2614      16    3200 |              3200     0 |                 0     0 |                 0     0 |                 0     0
+dialogic                     3afc449     272   35543 |             20175    60 |                 0     0 |             15368    19 |                 0     0
+DOGWALK                      34c527e      97   14065 |             12615    47 |                93     0 |              1357    17 |                 0     0
+Dororo                       c2050bd      47    2742 |              1499     2 |                 0     0 |              1243     1 |                 0     0
+escoria-demo-game            92e6506     457   70323 |               240     0 |                 0     0 |             70083   120 |                 0     0
+Freedom-Hunter               3f27279      50    3402 |              3402     7 |                 0     0 |                 0     0 |                 0     0
+Friendslop-Template          25787cc     116   21145 |              2525    12 |              2582     0 |             16038    90 |                 0     0
+FRU-Sim                      2a77c85     149   12414 |             12414     0 |                 0     0 |                 0     0 |                 0     0
+func_godot_plugin            352f3d3      33    5461 |              5461     5 |                 0     0 |                 0     0 |                 0     0
+gaea                         79461f6     166   16491 |             16491    66 |                 0     0 |                 0     0 |                 0     0
+Galaxy-Defiance              29b8b70      32     671 |               671     3 |                 0     0 |                 0     0 |                 0     0
+game-base-2D                 f8bef73      57    1475 |              1475     1 |                 0     0 |                 0     0 |                 0     0
+GBM2K-Framework              12f6748      13     383 |               383     0 |                 0     0 |                 0     0 |                 0     0
+gd-YAFSM                     a4241b1      36    4249 |              4249    30 |                 0     0 |                 0     0 |                 0     0
+  setget: gdmaim/addons/gdmaim/export_plugin.gd:444
+  setget: gdmaim/addons/gdmaim/export_plugin.gd:468
+gdmaim                       634cada      23    6506 |              6506     4 |                 0     0 |                 0     0 |                 0     0
+gdUnit4                      9bc1a45     482   54133 |             10510     9 |              9694     2 |             33929    10 |                 0     0
+GDWaterKart                  f151ebe      24    2752 |              2643    10 |                 0     0 |               109     1 |                 0     0
+Genesis                      2afb86d      54    4407 |              2013     0 |                 0     0 |              2394    91 |                 0     0
+gloot                        6b09b87      62    8729 |              6365    63 |              2364     0 |                 0     0 |                 0     0
+Godot-2D-Action-Game         b597570      85    3510 |              3177     2 |                 0     0 |               333     0 |                 0     0
+godot-2d-adventure-tutorial  0120b91      26    1338 |              1338     5 |                 0     0 |                 0     0 |                 0     0
+godot-2d-builder             7a747e5      93    4913 |              4913    21 |                 0     0 |                 0     0 |                 0     0
+godot-2d-space-game          661a101      93    4656 |              4656    18 |                 0     0 |                 0     0 |                 0     0
+godot-2d-topdown-template    ea95789     107   13392 |              2705    26 |                 0     0 |             10687    20 |                 0     0
+  setget: godot-3-beginner-2d-platformer/game/src/Autoload/PlayerData.gd:8
+  setget: godot-3-beginner-2d-platformer/game/src/Autoload/PlayerData.gd:9
+  setget: godot-3-beginner-2d-platformer/game/src/UserInterface/UserInterface.gd:12
+godot-3-beginner-2d-platformer ce08716      22     488 |               242     3 |                 0     0 |               246     0 |                 0     0
+godot-4-2d-visual-novel      94dafe9      16    1855 |              1855     2 |                 0     0 |                 0     0 |                 0     0
+godot-4-3d-third-person-controller b3bd6e8      28    1501 |              1501     3 |                 0     0 |                 0     0 |                 0     0
+  setget: godot-4-procedural-generation/godot3/BasicDungeon/03.Bonus/Room.gd:4
+  setget: godot-4-procedural-generation/godot3/BasicDungeon/03.Bonus/Room.gd:5
+  setget: godot-4-procedural-generation/godot3/BasicDungeon/03.Bonus/Room.gd:6
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:19
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:20
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:22
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:23
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:24
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:20
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:21
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:23
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:24
+  setget: godot-4-procedural-generation/godot3/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:25
+  setget: godot-4-procedural-generation/godot3/ModularWeapons/ModularWeapon/src/ModularWeapon.gd:9
+  setget: godot-4-procedural-generation/godot3/ModularWeapons/ModularWeapon/src/ModularWeapon.gd:10
+  setget: godot-4-procedural-generation/godot3/SpaceInfiniteGeneration/LayeredWorldGenerator.gd:31
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:4
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:5
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:7
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:8
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/02.CavernGenerator/CellularCavernGenerator.gd:9
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:17
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:18
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:20
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:21
+  setget: godot-4-procedural-generation/start-project/CellularAutomata/03.DungeonGenerator/CellularDungeonGenerator.gd:22
+godot-4-procedural-generation 19c98ce     115    7478 |              3508    16 |                 0     0 |              3970     0 |                 0     0
+Godot-4-Tower-Defense-Template cfdbf5e      21     905 |               905    11 |                 0     0 |                 0     0 |                 0     0
+godot-admob-plugin           4dc9144     158   14481 |             14481    10 |                 0     0 |                 0     0 |                 0     0
+godot-ai                     643c64f     287  121767 |             12999     0 |              7059     1 |            101709     6 |                 0     0
+godot-aseprite-wizard        eede800      62    6813 |              6813     0 |                 0     0 |                 0     0 |                 0     0
+godot-card-game-frame        ee4e3dd      65   10481 |              1269     2 |                 0     0 |              9212    20 |                 0     0
+godot-chess                  e16a242      10    1425 |              1425     0 |                 0     0 |                 0     0 |                 0     0
+godot-debug-menu             ff12461       2     505 |               505     1 |                 0     0 |                 0     0 |                 0     0
+godot-demo-projects          b761b4c     461   30819 |             18478    23 |              1824     3 |             10517    13 |                 0     0
+godot-engine.easy-charts     860b256      38    3294 |              3294     3 |                 0     0 |                 0     0 |                 0     0
+godot-FirstPersonStarter     893db99       4     179 |               179     0 |                 0     0 |                 0     0 |                 0     0
+Godot-Game-Template          6849d6c     125    8553 |              8278    40 |                 0     0 |               275     1 |                 0     0
+godot-gameplay-systems       9349931     169   19336 |              6279    63 |              1143     0 |             11914    35 |                 0     0
+Godot-GameTemplate           d5d8d15     226   12325 |               336     0 |                 0     0 |             11989    46 |                 0     0
+Godot-Inventory              61676d9      34    2164 |              2164     3 |                 0     0 |                 0     0 |                 0     0
+Godot-MCP-Native             eef4807      87   29463 |             15550    12 |              4498     0 |              9415     0 |                 0     0
+godot-mcp-pro                0f0274e      36   19239 |             19239     0 |                 0     0 |                 0     0 |                 0     0
+godot-mod-loader             2fbf7b0      61   10167 |              6834     4 |              2816    91 |               517     0 |                 0     0
+godot-multiplayer            70006c8      24    1119 |              1119     4 |                 0     0 |                 0     0 |                 0     0
+godot-open-rpg               d59f2f7     342   40662 |              5422    59 |                 0     0 |             35240    79 |                 0     0
+godot-open-rts               a628ad3     118    7415 |              7405    45 |                10     0 |                 0     0 |                 0     0
+Godot-Plush-Character        1e62116       7     354 |               354     5 |                 0     0 |                 0     0 |                 0     0
+godot-port                   fa0d514     127    8724 |              8724   102 |                 0     0 |                 0     0 |                 0     0
+godot-resources-as-sheets-plugin f6e5645      48    5301 |              5301     7 |                 0     0 |                 0     0 |                 0     0
+godot-road-generator         7cbefde     112   33980 |             15239    64 |              2703     0 |             16038    90 |                 0     0
+godot-rocket-league          78b28ce      68    7929 |               755     1 |                 0     0 |              7174    44 |                 0     0
+Godot-Roguelike-Tutorial     c70e30b      31    1108 |              1108     2 |                 0     0 |                 0     0 |                 0     0
+godot-start                  115fc06      38    1251 |              1251     0 |                 0     0 |                 0     0 |                 0     0
+godot-statecharts            76d226a     141   18768 |              4635    16 |              2217     0 |             11916    35 |                 0     0
+godot-steering-ai-framework  9d7cf0d      67    3381 |              3381    51 |                 0     0 |                 0     0 |                 0     0
+godot-tactical-rpg           cfe785e      57    4193 |              4193     9 |                 0     0 |                 0     0 |                 0     0
+godot-tiny-mmo               f4ed04f     470   54742 |             20175    36 |                 0     0 |             34567    15 |                 0     0
+godot-visual-effects         647a8f1      39    2410 |              2410    31 |                 0     0 |                 0     0 |                 0     0
+godot-xr-template            7d8261c     123   18799 |              1497    10 |                 0     0 |             17302   144 |                 0     0
+godot-xr-tools               6c6189b     142   20830 |             20077   161 |                 0     0 |               753     3 |                 0     0
+Godot4-FPS-Template          7130929      16     964 |               964     0 |                 0     0 |                 0     0 |                 0     0
+godot4-third-person-controller c809ec2      22    1087 |              1087     3 |                 0     0 |                 0     0 |                 0     0
+Godot4SourceEngineMovement   d3ebc9a      14     795 |               795     0 |                 0     0 |                 0     0 |                 0     0
+Godot4ThirdPersonCombatPrototype cbfecf4     189   13268 |             10136    22 |                 0     0 |              3132    15 |                 0     0
+godot_autobattler_course     fba5dc3      80    3269 |              3269    27 |                 0     0 |                 0     0 |                 0     0
+godot_dialogue_manager       7a72dcf      79   14619 |             12434    29 |              2185     0 |                 0     0 |                 0     0
+godot_experiments            4baec72      17     428 |               364     0 |                64     0 |                 0     0 |                 0     0
+godot_heightmap_plugin       49887ff      68   16598 |             16598    23 |                 0     0 |                 0     0 |                 0     0
+godot_input_helper           ccfad58      10    1197 |               996     2 |               201     0 |                 0     0 |                 0     0
+godot_little_camera_preview  1c4fd4d       3     525 |               525     0 |                 0     0 |                 0     0 |                 0     0
+godot_open_star_fighter      6e7be5c      40    2408 |              2408     4 |                 0     0 |                 0     0 |                 0     0
+godot_sound_manager          1c04158       7     590 |               590     4 |                 0     0 |                 0     0 |                 0     0
+godot_spatial_gardener       77b822f     101   19013 |             18237    20 |               776     3 |                 0     0 |                 0     0
+godot_ui_components          22d2355      16     974 |               974     1 |                 0     0 |                 0     0 |                 0     0
+Godot_Universal-Controller-tutorial 8239bc0      53    1719 |              1719     0 |                 0     0 |                 0     0 |                 0     0
+GodotDynamicInventorySystem  bd74a72      26    1460 |              1460    12 |                 0     0 |                 0     0 |                 0     0
+GodotFirebase                68be886      41    4638 |              4459     4 |                 0     0 |               179     0 |                 0     0
+GodotFPS-Template            1161979      25    1957 |              1957     0 |                 0     0 |                 0     0 |                 0     0
+GodotOS                      90c94c0      79    4287 |              4287     3 |                 0     0 |                 0     0 |                 0     0
+GodotPixelRenderer           078f207      11    3539 |              3106     0 |                 0     0 |               433     0 |                 0     0
+GodotProjectZero             1ea0458     222   22573 |             14000     3 |                 0     0 |              8573    12 |                 0     0
+godots                       8e4eb2b     143   16599 |             14937   141 |               345     0 |              1317     0 |                 0     0
+GodSVG                       52ad794     192   29510 |             20140   116 |                 0     0 |              9370    26 |                 0     0
+Gut                          cf45f66     304   43484 |             10817    27 |              9308    13 |             23359   101 |                 0     0
+holoDelta                    74e83d2      44    9911 |              8229    39 |                 0     0 |              1682     8 |                 0     0
+Improved-KCC                 0661e04      57    8115 |              3850    18 |                 0     0 |              4265     6 |                 0     0
+jdungeon                     d941345     249   33584 |             19070    39 |                26     0 |             14488    50 |                 0     0
+knakk                        8d93a6b      32    2716 |              2716    14 |                 0     0 |                 0     0 |                 0     0
+learn-gdscript               b2c86f0     265   24118 |             19457    93 |               763     0 |              3898     6 |                 0     0
+Legacy_SM63Redux             cde0b9e     161   14900 |             14900    38 |                 0     0 |                 0     0 |                 0     0
+LibreAim                     e705a92      35    1504 |              1504     7 |                 0     0 |                 0     0 |                 0     0
+limbo-godot                  08879ba      12    1226 |              1226     0 |                 0     0 |                 0     0 |                 0     0
+Lorien                       17e3222      50    5032 |              5032     8 |                 0     0 |                 0     0 |                 0     0
+Lost-Pilot                   8bc78dd      30    1522 |              1522     3 |                 0     0 |                 0     0 |                 0     0
+malware-slayer               4f48fec     121    6221 |              6069    91 |               152     3 |                 0     0 |                 0     0
+material-maker               7d6daae     410   60359 |             20195    23 |                 0     0 |             40164   144 |                 0     0
+Metroidvania-System          0065ae8      56    6872 |              6872    17 |                 0     0 |                 0     0 |                 0     0
+Microverse                   7a061d4      30    7800 |              7800     0 |                 0     0 |                 0     0 |                 0     0
+MizGodotTools                cb548f9      70    4540 |              4540     6 |                 0     0 |                 0     0 |                 0     0
+moddable-platformer          834b508      15    1320 |              1320    15 |                 0     0 |                 0     0 |                 0     0
+MultiplayerFPSTutorial       ef3e702       2     162 |               162     0 |                 0     0 |                 0     0 |                 0     0
+museum-of-all-things         03cf5ff     156   20542 |              6790    13 |                 0     0 |             13752   104 |                 0     0
+nakama-godot                 6dc7b39      44   14102 |              5103    46 |               580     0 |              8419   340 |                 0     0
+netfox                       a482c97     283   25415 |             15834    54 |              3866     0 |              5715     0 |                 0     0
+Open-Industry-Project-Godot  117dfd9     110   32378 |             20063   259 |                 0     0 |             12315   123 |                 0     0
+OpenGamepadUI                a79179d     326   42777 |             20170    80 |                 0     0 |             22607    67 |                 0     0
+opengs                       06838d9      32    2495 |              2495     5 |                 0     0 |                 0     0 |                 0     0
+OpenLiberty                  b2fcfd2      80    5893 |              1668     3 |                23     0 |              4202    30 |                 0     0
+OpenVic                      936fa94     323   42081 |             11898    37 |                 0     0 |             30183    21 |                 0     0
+OpMon                        9cea691      40    2998 |              2998     9 |                 0     0 |                 0     0 |                 0     0
+paddles_balls_blocks_walls   5448f22      57    3068 |              2954     0 |               114     0 |                 0     0 |                 0     0
+pandora                      fa48e30     350   36013 |              7337    16 |              2166     0 |             26510    18 |                 0     0
+PankuConsole                 863324d     100    4909 |              4909    29 |                 0     0 |                 0     0 |                 0     0
+phantom-camera               21d3762      36   10410 |             10410   181 |                 0     0 |                 0     0 |                 0     0
+Pixelorama                   38a8b03     249   60025 |             20081    90 |                 0     0 |             39944   126 |                 0     0
+PixelPlanets                 8ec6ee3      26    2087 |              1318     0 |                 0     0 |               769     0 |                 0     0
+Pocket-Godot                 1758733       9     380 |               380     0 |                 0     0 |                 0     0 |                 0     0
+poder-solar                  d5820a1      11     439 |               439     0 |                 0     0 |                 0     0 |                 0     0
+Project-Heartbeat            a9c1c02     507   64339 |             20066    77 |               101     0 |             44172   161 |                 0     0
+protongraph                  1e2411a     167   11385 |             11385     9 |                 0     0 |                 0     0 |                 0     0
+PSGodotTemplateRepo          cc5cccd      34     880 |               880     0 |                 0     0 |                 0     0 |                 0     0
+PVZ-Godot-Dream              740691c     470   42595 |             20209    30 |                48     0 |             22338    33 |                 0     0
+Qodot                        1f03de4      43    4705 |              4705     8 |                 0     0 |                 0     0 |                 0     0
+Reia                         35baf42     198   13830 |             12489    15 |               245     0 |              1096     7 |                 0     0
+Resources-GDScript           47525a2      47    1546 |              1546     5 |                 0     0 |                 0     0 |                 0     0
+RhythiaRewrite               e1cfba6      76    4101 |              4101    21 |                 0     0 |                 0     0 |                 0     0
+ridiculous_coding            6ead7f0       5     432 |               432     0 |                 0     0 |                 0     0 |                 0     0
+scatter                      7198cc0      83    9444 |              9444    43 |                 0     0 |                 0     0 |                 0     0
+Scene-Manager                bf3b1fe     107   21716 |               916     0 |              1015     0 |             19785   118 |                 0     0
+script-ide                   c1dfb1f       8    2705 |              2705     4 |                 0     0 |                 0     0 |                 0     0
+ShaderV                      b99ad61      93    7357 |              7357     0 |                 0     0 |                 0     0 |                 0     0
+shotcaller-godot             aad861b     128   13664 |              9411     1 |              4236     0 |                17     0 |                 0     0
+SignalVisualizer             06a46e5      15    1170 |              1170    11 |                 0     0 |                 0     0 |                 0     0
+simgine                      24b2d70      78    6972 |              1868     2 |               367     0 |              4737    17 |                 0     0
+simple-godot-train           c7dd62a      17     755 |               755     2 |                 0     0 |                 0     0 |                 0     0
+SimpleFPSController          da3e71e      11    1296 |              1296     4 |                 0     0 |                 0     0 |                 0     0
+Sky3D                        81f95ab       7    2722 |              2722   159 |                 0     0 |                 0     0 |                 0     0
+Slay-The-Robot               4dac5ab     333   30846 |             20251     7 |                 0     0 |             10595    23 |                 0     0
+SmartShape2D                 9617190     154   30647 |              8415    79 |              2740     0 |             19492   113 |                 0     0
+soccer-course                c28147f      65    2154 |              2154     0 |                 0     0 |                 0     0 |                 0     0
+SonicWorldsNext              d2e6212     132   12436 |             12436     1 |                 0     0 |                 0     0 |                 0     0
+SoundThread                  a33198a      32    6517 |              6275     0 |                 0     0 |               242     1 |                 0     0
+sourceofmana                 50adcc7     289   36344 |             20194     1 |                 0     0 |             16150    23 |                 0     0
+Stardew                      f238436      65    2788 |              2788    13 |                 0     0 |                 0     0 |                 0     0
+starship-olympics            429667b     754   67383 |             20205   175 |               149     0 |             47029   350 |                 0     0
+Starter-Kit-3D-Platformer    3fa8a04       9     378 |               378     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-City-Builder     4535092       6     311 |               311     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-FPS              185fd23       7     451 |               451     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-Match-3          4ddb3d2       4     366 |               366     0 |                 0     0 |                 0     0 |                 0     0
+Starter-Kit-Racing           2f2e5f2       3     258 |               258     0 |                 0     0 |                 0     0 |                 0     0
+Strategy-GDScript            0b362be      27     748 |               748     1 |                 0     0 |                 0     0 |                 0     0
+super-godot-galaxy           cfb741e      14     600 |               460     0 |                 0     0 |               140     0 |                 0     0
+Super-Mario-Bros.-Remastered-Public 7fe1ff7     471   41266 |             20313    38 |                 0     0 |             20953    38 |                 0     0
+Super-Mario-World-Remastered-Public 4c520cf     552   33855 |             20377     0 |                 0     0 |             13478     9 |                 0     0
+SurvivorsClone_Complete      965d761      17    1254 |              1254     0 |                 0     0 |                 0     0 |                 0     0
+TakinGodotTemplate           a54b519     205   18781 |              7445    40 |                 0     0 |             11336     6 |                 0     0
+tanks-of-freedom-ii          dbe629e     292   24361 |             20232     0 |                 0     0 |              4129     0 |                 0     0
+template-beat-em-up          ba9542d     150   18799 |             18799    96 |                 0     0 |                 0     0 |                 0     0
+the-mirror                   ea32c76     734   80427 |             19791    62 |               415     0 |             60221   123 |                 0     0
+threadbare                   9bfcd19     477   58112 |             20226   133 |                 0     0 |             37886   286 |                 0     0
+TileMapDual                  b4dc775      15    2152 |              2152     2 |                 0     0 |                 0     0 |                 0     0
+top-down-action-rpg-template 525d133      21    1065 |              1065     2 |                 0     0 |                 0     0 |                 0     0
+TopdownStarter               62fe950      25     763 |               763     0 |                 0     0 |                 0     0 |                 0     0
+TowDownGame                  898e2b0     105    5574 |              3788    12 |                 0     0 |              1786     0 |                 0     0
+tower-defense-godot4         1cbd622      41    1599 |              1599     8 |                 0     0 |                 0     0 |                 0     0
+tower-defense-tutorial       9f5cc04      30    1049 |              1049     4 |                 0     0 |                 0     0 |                 0     0
+tps-demo                     a82f154      15    1619 |              1619     2 |                 0     0 |                 0     0 |                 0     0
+UltimateGodotIntro2D         014ce52      21     649 |               649     3 |                 0     0 |                 0     0 |                 0     0
+unidot_importer              9719eaa      29   23291 |             15722     2 |                 0     0 |              7569    66 |                 0     0
+unitypackage_godot           63ca781      15    3451 |              3451     0 |                 0     0 |                 0     0 |                 0     0
+unto-deepest-depths-prototype 3874905      14     579 |               579     6 |                 0     0 |                 0     0 |                 0     0
+Virtual-Joystick-Godot       b90891e       4     230 |               206     0 |                24     0 |                 0     0 |                 0     0
+voxelgame                    4cf747a      59    4666 |              4666     0 |                 0     0 |                 0     0 |                 0     0
+vpuppr                       d244408      83   12624 |              4133     1 |                 0     0 |              8491    44 |                 0     0
+wutw-public                  95704c1     860   62955 |             20286   112 |                 0     0 |             42669   181 |                 0     0
+yipiantian                   f816a91     249   40631 |             11979     1 |              8152     0 |             20500     0 |                 0     0
+youtd2                       d7532f3     735   79885 |             19689     0 |               477     0 |             59719   397 |                 0     0
+Yugens-Terrain-Authoring-Toolkit 428f7ef      31    7881 |              7881    72 |                 0     0 |                 0     0 |                 0     0
+total properties with accessors: 9493 {'first-party': 4633, 'test': 117, 'vendored': 4743, 'duplicate': 0}

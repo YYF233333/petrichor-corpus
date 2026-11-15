@@ -1,0 +1,1112 @@
+{
+ "Arrow": {
+  "calls": 410,
+  "connections": 15,
+  "overrides": 5,
+  "reads": 520
+ },
+ "BatteryAcid__godot-3d-multiplayer-template": {
+  "calls": 17,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 4
+ },
+ "BehaviourToolkit": {
+  "calls": 64,
+  "connections": 2,
+  "overrides": 4,
+  "reads": 10
+ },
+ "CandyWrapper": {
+  "calls": 11,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 0
+ },
+ "Castlevania-Remnants-of-Darkness": {
+  "calls": 1434,
+  "connections": 246,
+  "overrides": 9,
+  "reads": 109
+ },
+ "Cats-Godot4-Modular-Souls-like-Template": {
+  "calls": 118,
+  "connections": 6,
+  "overrides": 4,
+  "reads": 1
+ },
+ "Cupcakes-Framework": {
+  "calls": 3,
+  "connections": 3,
+  "overrides": 0,
+  "reads": 0
+ },
+ "DOGWALK": {
+  "calls": 259,
+  "connections": 33,
+  "overrides": 5,
+  "reads": 32
+ },
+ "Dororo": {
+  "calls": 87,
+  "connections": 0,
+  "overrides": 5,
+  "reads": 22
+ },
+ "FRU-Sim": {
+  "calls": 311,
+  "connections": 24,
+  "overrides": 7,
+  "reads": 26
+ },
+ "Freedom-Hunter": {
+  "calls": 125,
+  "connections": 6,
+  "overrides": 11,
+  "reads": 3
+ },
+ "Friendslop-Template": {
+  "calls": 34,
+  "connections": 8,
+  "overrides": 2,
+  "reads": 42
+ },
+ "GBM2K-Framework": {
+  "calls": 15,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 0
+ },
+ "GDWaterKart": {
+  "calls": 61,
+  "connections": 2,
+  "overrides": 4,
+  "reads": 4
+ },
+ "Galaxy-Defiance": {
+  "calls": 24,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 1
+ },
+ "Genesis": {
+  "calls": 42,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 4
+ },
+ "GodSVG": {
+  "calls": 529,
+  "connections": 11,
+  "overrides": 23,
+  "reads": 23
+ },
+ "Godot-2D-Action-Game": {
+  "calls": 90,
+  "connections": 5,
+  "overrides": 2,
+  "reads": 7
+ },
+ "Godot-4-Tower-Defense-Template": {
+  "calls": 59,
+  "connections": 14,
+  "overrides": 1,
+  "reads": 3
+ },
+ "Godot-Game-Template": {
+  "calls": 255,
+  "connections": 13,
+  "overrides": 16,
+  "reads": 33
+ },
+ "Godot-GameTemplate": {
+  "calls": 6,
+  "connections": 2,
+  "overrides": 0,
+  "reads": 2
+ },
+ "Godot-Inventory": {
+  "calls": 37,
+  "connections": 1,
+  "overrides": 6,
+  "reads": 4
+ },
+ "Godot-Plush-Character": {
+  "calls": 21,
+  "connections": 0,
+  "overrides": 5,
+  "reads": 2
+ },
+ "Godot-Roguelike-Tutorial": {
+  "calls": 110,
+  "connections": 8,
+  "overrides": 1,
+  "reads": 4
+ },
+ "Godot4-FPS-Template": {
+  "calls": 43,
+  "connections": 3,
+  "overrides": 3,
+  "reads": 2
+ },
+ "Godot4SourceEngineMovement": {
+  "calls": 12,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 0
+ },
+ "Godot4ThirdPersonCombatPrototype": {
+  "calls": 144,
+  "connections": 10,
+  "overrides": 3,
+  "reads": 9
+ },
+ "GodotDynamicInventorySystem": {
+  "calls": 43,
+  "connections": 2,
+  "overrides": 1,
+  "reads": 0
+ },
+ "GodotFirebase": {
+  "calls": 44,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 32
+ },
+ "GodotOS": {
+  "calls": 404,
+  "connections": 14,
+  "overrides": 19,
+  "reads": 10
+ },
+ "GodotPixelRenderer": {
+  "calls": 48,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 0
+ },
+ "GodotProjectZero": {
+  "calls": 115,
+  "connections": 1,
+  "overrides": 7,
+  "reads": 13
+ },
+ "Godot_Universal-Controller-tutorial": {
+  "calls": 12,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 20
+ },
+ "Gut": {
+  "calls": 271,
+  "connections": 4,
+  "overrides": 10,
+  "reads": 15
+ },
+ "Improved-KCC": {
+  "calls": 55,
+  "connections": 2,
+  "overrides": 3,
+  "reads": 30
+ },
+ "Legacy_SM63Redux": {
+  "calls": 347,
+  "connections": 33,
+  "overrides": 13,
+  "reads": 33
+ },
+ "LibreAim": {
+  "calls": 73,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 5
+ },
+ "Lorien": {
+  "calls": 130,
+  "connections": 0,
+  "overrides": 7,
+  "reads": 10
+ },
+ "Lost-Pilot": {
+  "calls": 35,
+  "connections": 0,
+  "overrides": 4,
+  "reads": 1
+ },
+ "Metroidvania-System": {
+  "calls": 205,
+  "connections": 33,
+  "overrides": 13,
+  "reads": 60
+ },
+ "Microverse": {
+  "calls": 238,
+  "connections": 2,
+  "overrides": 7,
+  "reads": 24
+ },
+ "MizGodotTools": {
+  "calls": 141,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 11
+ },
+ "MultiplayerFPSTutorial": {
+  "calls": 6,
+  "connections": 1,
+  "overrides": 2,
+  "reads": 0
+ },
+ "OpMon": {
+  "calls": 94,
+  "connections": 3,
+  "overrides": 10,
+  "reads": 12
+ },
+ "Open-Industry-Project-Godot": {
+  "calls": 491,
+  "connections": 10,
+  "overrides": 31,
+  "reads": 126
+ },
+ "OpenLiberty": {
+  "calls": 35,
+  "connections": 2,
+  "overrides": 10,
+  "reads": 6
+ },
+ "OpenVic": {
+  "calls": 281,
+  "connections": 2,
+  "overrides": 6,
+  "reads": 50
+ },
+ "PSGodotTemplateRepo": {
+  "calls": 64,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 12
+ },
+ "PankuConsole": {
+  "calls": 168,
+  "connections": 2,
+  "overrides": 8,
+  "reads": 9
+ },
+ "PixelPlanets": {
+  "calls": 55,
+  "connections": 1,
+  "overrides": 0,
+  "reads": 0
+ },
+ "Pixelorama": {
+  "calls": 604,
+  "connections": 19,
+  "overrides": 16,
+  "reads": 118
+ },
+ "Pocket-Godot": {
+  "calls": 14,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 0
+ },
+ "Project-Heartbeat": {
+  "calls": 783,
+  "connections": 6,
+  "overrides": 48,
+  "reads": 45
+ },
+ "Qodot": {
+  "calls": 70,
+  "connections": 3,
+  "overrides": 8,
+  "reads": 7
+ },
+ "Reia": {
+  "calls": 182,
+  "connections": 0,
+  "overrides": 10,
+  "reads": 14
+ },
+ "Resources-GDScript": {
+  "calls": 39,
+  "connections": 1,
+  "overrides": 1,
+  "reads": 6
+ },
+ "RhythiaRewrite": {
+  "calls": 230,
+  "connections": 0,
+  "overrides": 5,
+  "reads": 36
+ },
+ "Scene-Manager": {
+  "calls": 45,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 3
+ },
+ "ShaderV": {
+  "calls": 0,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 0
+ },
+ "SignalVisualizer": {
+  "calls": 32,
+  "connections": 8,
+  "overrides": 0,
+  "reads": 8
+ },
+ "SimpleFPSController": {
+  "calls": 48,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 11
+ },
+ "Sky3D": {
+  "calls": 23,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 10
+ },
+ "Slay-The-Robot": {
+  "calls": 170,
+  "connections": 1,
+  "overrides": 0,
+  "reads": 2
+ },
+ "SmartShape2D": {
+  "calls": 153,
+  "connections": 0,
+  "overrides": 9,
+  "reads": 22
+ },
+ "SonicWorldsNext": {
+  "calls": 265,
+  "connections": 114,
+  "overrides": 9,
+  "reads": 112
+ },
+ "SoundThread": {
+  "calls": 227,
+  "connections": 3,
+  "overrides": 3,
+  "reads": 32
+ },
+ "Stardew": {
+  "calls": 262,
+  "connections": 8,
+  "overrides": 11,
+  "reads": 23
+ },
+ "Starter-Kit-3D-Platformer": {
+  "calls": 4,
+  "connections": 3,
+  "overrides": 0,
+  "reads": 1
+ },
+ "Starter-Kit-City-Builder": {
+  "calls": 12,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 0
+ },
+ "Starter-Kit-FPS": {
+  "calls": 14,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 1
+ },
+ "Starter-Kit-Match-3": {
+  "calls": 34,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 0
+ },
+ "Starter-Kit-Racing": {
+  "calls": 7,
+  "connections": 2,
+  "overrides": 0,
+  "reads": 0
+ },
+ "Strategy-GDScript": {
+  "calls": 17,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 5
+ },
+ "Super-Mario-Bros.-Remastered-Public": {
+  "calls": 1361,
+  "connections": 47,
+  "overrides": 6,
+  "reads": 181
+ },
+ "Super-Mario-World-Remastered-Public": {
+  "calls": 1335,
+  "connections": 312,
+  "overrides": 4,
+  "reads": 145
+ },
+ "SurvivorsClone_Complete": {
+  "calls": 91,
+  "connections": 5,
+  "overrides": 1,
+  "reads": 0
+ },
+ "TakinGodotTemplate": {
+  "calls": 116,
+  "connections": 7,
+  "overrides": 4,
+  "reads": 4
+ },
+ "TileMapDual": {
+  "calls": 22,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 35
+ },
+ "TopdownStarter": {
+  "calls": 38,
+  "connections": 11,
+  "overrides": 0,
+  "reads": 0
+ },
+ "TowDownGame": {
+  "calls": 317,
+  "connections": 23,
+  "overrides": 13,
+  "reads": 19
+ },
+ "UltimateGodotIntro2D": {
+  "calls": 45,
+  "connections": 19,
+  "overrides": 0,
+  "reads": 0
+ },
+ "Virtual-Joystick-Godot": {
+  "calls": 4,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 0
+ },
+ "Yugens-Terrain-Authoring-Toolkit": {
+  "calls": 124,
+  "connections": 3,
+  "overrides": 11,
+  "reads": 34
+ },
+ "_original_client": {
+  "calls": 113,
+  "connections": 5,
+  "overrides": 3,
+  "reads": 17
+ },
+ "aarpg-tutorial": {
+  "calls": 182,
+  "connections": 9,
+  "overrides": 7,
+  "reads": 14
+ },
+ "abyssal-walker": {
+  "calls": 293,
+  "connections": 2,
+  "overrides": 9,
+  "reads": 31
+ },
+ "age-of-war": {
+  "calls": 409,
+  "connections": 13,
+  "overrides": 1,
+  "reads": 11
+ },
+ "beehave": {
+  "calls": 326,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 3
+ },
+ "better-terrain": {
+  "calls": 114,
+  "connections": 0,
+  "overrides": 6,
+  "reads": 115
+ },
+ "boscaceoil-blue": {
+  "calls": 229,
+  "connections": 2,
+  "overrides": 22,
+  "reads": 16
+ },
+ "cyclopsLevelBuilder": {
+  "calls": 361,
+  "connections": 18,
+  "overrides": 17,
+  "reads": 57
+ },
+ "deck_builder_tutorial": {
+  "calls": 159,
+  "connections": 16,
+  "overrides": 8,
+  "reads": 11
+ },
+ "desksaw": {
+  "calls": 343,
+  "connections": 13,
+  "overrides": 2,
+  "reads": 111
+ },
+ "devmoreir4__godot-3d-multiplayer-template": {
+  "calls": 62,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 7
+ },
+ "dialogic": {
+  "calls": 1074,
+  "connections": 19,
+  "overrides": 12,
+  "reads": 36
+ },
+ "escoria-demo-game": {
+  "calls": 4,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 7
+ },
+ "func_godot_plugin": {
+  "calls": 59,
+  "connections": 0,
+  "overrides": 6,
+  "reads": 26
+ },
+ "gaea": {
+  "calls": 422,
+  "connections": 3,
+  "overrides": 26,
+  "reads": 7
+ },
+ "game-base-2D": {
+  "calls": 74,
+  "connections": 2,
+  "overrides": 3,
+  "reads": 10
+ },
+ "gd-YAFSM": {
+  "calls": 156,
+  "connections": 4,
+  "overrides": 14,
+  "reads": 4
+ },
+ "gdmaim": {
+  "calls": 207,
+  "connections": 2,
+  "overrides": 3,
+  "reads": 0
+ },
+ "gloot": {
+  "calls": 89,
+  "connections": 0,
+  "overrides": 7,
+  "reads": 18
+ },
+ "godot-2d-adventure-tutorial": {
+  "calls": 34,
+  "connections": 0,
+  "overrides": 7,
+  "reads": 14
+ },
+ "godot-2d-builder": {
+  "calls": 132,
+  "connections": 2,
+  "overrides": 10,
+  "reads": 3
+ },
+ "godot-2d-space-game": {
+  "calls": 166,
+  "connections": 3,
+  "overrides": 6,
+  "reads": 6
+ },
+ "godot-2d-topdown-template": {
+  "calls": 83,
+  "connections": 5,
+  "overrides": 4,
+  "reads": 16
+ },
+ "godot-3-beginner-2d-platformer": {
+  "calls": 8,
+  "connections": 5,
+  "overrides": 1,
+  "reads": 0
+ },
+ "godot-4-2d-visual-novel": {
+  "calls": 42,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 18
+ },
+ "godot-4-3d-third-person-controller": {
+  "calls": 77,
+  "connections": 6,
+  "overrides": 4,
+  "reads": 2
+ },
+ "godot-4-procedural-generation": {
+  "calls": 69,
+  "connections": 4,
+  "overrides": 9,
+  "reads": 20
+ },
+ "godot-FirstPersonStarter": {
+  "calls": 5,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 0
+ },
+ "godot-aseprite-wizard": {
+  "calls": 211,
+  "connections": 0,
+  "overrides": 15,
+  "reads": 10
+ },
+ "godot-card-game-frame": {
+  "calls": 139,
+  "connections": 5,
+  "overrides": 2,
+  "reads": 0
+ },
+ "godot-chess": {
+  "calls": 36,
+  "connections": 1,
+  "overrides": 0,
+  "reads": 1
+ },
+ "godot-debug-menu": {
+  "calls": 8,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 1
+ },
+ "godot-demo-projects": {
+  "calls": 736,
+  "connections": 41,
+  "overrides": 64,
+  "reads": 185
+ },
+ "godot-gameplay-systems": {
+  "calls": 105,
+  "connections": 9,
+  "overrides": 13,
+  "reads": 8
+ },
+ "godot-mod-loader": {
+  "calls": 134,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 4
+ },
+ "godot-multiplayer": {
+  "calls": 24,
+  "connections": 1,
+  "overrides": 4,
+  "reads": 0
+ },
+ "godot-open-rpg": {
+  "calls": 165,
+  "connections": 8,
+  "overrides": 5,
+  "reads": 19
+ },
+ "godot-open-rts": {
+  "calls": 404,
+  "connections": 3,
+  "overrides": 11,
+  "reads": 43
+ },
+ "godot-port": {
+  "calls": 259,
+  "connections": 4,
+  "overrides": 15,
+  "reads": 27
+ },
+ "godot-resources-as-sheets-plugin": {
+  "calls": 249,
+  "connections": 7,
+  "overrides": 4,
+  "reads": 4
+ },
+ "godot-road-generator": {
+  "calls": 474,
+  "connections": 0,
+  "overrides": 18,
+  "reads": 137
+ },
+ "godot-rocket-league": {
+  "calls": 39,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 5
+ },
+ "godot-start": {
+  "calls": 34,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 2
+ },
+ "godot-statecharts": {
+  "calls": 99,
+  "connections": 11,
+  "overrides": 7,
+  "reads": 5
+ },
+ "godot-steering-ai-framework": {
+  "calls": 55,
+  "connections": 1,
+  "overrides": 5,
+  "reads": 25
+ },
+ "godot-tactical-rpg": {
+  "calls": 92,
+  "connections": 0,
+  "overrides": 4,
+  "reads": 6
+ },
+ "godot-tiny-mmo": {
+  "calls": 321,
+  "connections": 5,
+  "overrides": 4,
+  "reads": 43
+ },
+ "godot-visual-effects": {
+  "calls": 89,
+  "connections": 3,
+  "overrides": 7,
+  "reads": 36
+ },
+ "godot-xr-template": {
+  "calls": 10,
+  "connections": 1,
+  "overrides": 0,
+  "reads": 0
+ },
+ "godot-xr-tools": {
+  "calls": 200,
+  "connections": 30,
+  "overrides": 20,
+  "reads": 63
+ },
+ "godot4-third-person-controller": {
+  "calls": 11,
+  "connections": 6,
+  "overrides": 6,
+  "reads": 7
+ },
+ "godot_autobattler_course": {
+  "calls": 58,
+  "connections": 7,
+  "overrides": 5,
+  "reads": 13
+ },
+ "godot_dialogue_manager": {
+  "calls": 444,
+  "connections": 11,
+  "overrides": 12,
+  "reads": 14
+ },
+ "godot_experiments": {
+  "calls": 21,
+  "connections": 1,
+  "overrides": 1,
+  "reads": 3
+ },
+ "godot_heightmap_plugin": {
+  "calls": 351,
+  "connections": 2,
+  "overrides": 16,
+  "reads": 57
+ },
+ "godot_input_helper": {
+  "calls": 19,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 0
+ },
+ "godot_little_camera_preview": {
+  "calls": 17,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 1
+ },
+ "godot_open_star_fighter": {
+  "calls": 41,
+  "connections": 5,
+  "overrides": 5,
+  "reads": 1
+ },
+ "godot_sound_manager": {
+  "calls": 9,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 7
+ },
+ "godot_spatial_gardener": {
+  "calls": 278,
+  "connections": 6,
+  "overrides": 5,
+  "reads": 59
+ },
+ "godot_ui_components": {
+  "calls": 359,
+  "connections": 3,
+  "overrides": 1,
+  "reads": 0
+ },
+ "godots": {
+  "calls": 476,
+  "connections": 6,
+  "overrides": 5,
+  "reads": 18
+ },
+ "holoDelta": {
+  "calls": 242,
+  "connections": 3,
+  "overrides": 4,
+  "reads": 14
+ },
+ "jdungeon": {
+  "calls": 350,
+  "connections": 12,
+  "overrides": 19,
+  "reads": 31
+ },
+ "knakk": {
+  "calls": 129,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 0
+ },
+ "learn-gdscript": {
+  "calls": 604,
+  "connections": 5,
+  "overrides": 59,
+  "reads": 31
+ },
+ "limbo-godot": {
+  "calls": 130,
+  "connections": 1,
+  "overrides": 4,
+  "reads": 0
+ },
+ "malware-slayer": {
+  "calls": 172,
+  "connections": 3,
+  "overrides": 14,
+  "reads": 18
+ },
+ "material-maker": {
+  "calls": 986,
+  "connections": 59,
+  "overrides": 19,
+  "reads": 74
+ },
+ "moddable-platformer": {
+  "calls": 19,
+  "connections": 10,
+  "overrides": 2,
+  "reads": 10
+ },
+ "museum-of-all-things": {
+  "calls": 266,
+  "connections": 9,
+  "overrides": 4,
+  "reads": 25
+ },
+ "nakama-godot": {
+  "calls": 133,
+  "connections": 0,
+  "overrides": 0,
+  "reads": 3
+ },
+ "netfox": {
+  "calls": 297,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 80
+ },
+ "opengs": {
+  "calls": 64,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 13
+ },
+ "paddles_balls_blocks_walls": {
+  "calls": 135,
+  "connections": 45,
+  "overrides": 3,
+  "reads": 11
+ },
+ "pandora": {
+  "calls": 242,
+  "connections": 2,
+  "overrides": 4,
+  "reads": 0
+ },
+ "phantom-camera": {
+  "calls": 200,
+  "connections": 15,
+  "overrides": 12,
+  "reads": 18
+ },
+ "poder-solar": {
+  "calls": 47,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 4
+ },
+ "protongraph": {
+  "calls": 164,
+  "connections": 2,
+  "overrides": 4,
+  "reads": 23
+ },
+ "ridiculous_coding": {
+  "calls": 15,
+  "connections": 2,
+  "overrides": 0,
+  "reads": 0
+ },
+ "scatter": {
+  "calls": 191,
+  "connections": 0,
+  "overrides": 16,
+  "reads": 100
+ },
+ "script-ide": {
+  "calls": 159,
+  "connections": 5,
+  "overrides": 7,
+  "reads": 2
+ },
+ "simgine": {
+  "calls": 46,
+  "connections": 0,
+  "overrides": 2,
+  "reads": 3
+ },
+ "simple-godot-train": {
+  "calls": 33,
+  "connections": 1,
+  "overrides": 2,
+  "reads": 6
+ },
+ "soccer-course": {
+  "calls": 24,
+  "connections": 8,
+  "overrides": 0,
+  "reads": 1
+ },
+ "sourceofmana": {
+  "calls": 218,
+  "connections": 22,
+  "overrides": 16,
+  "reads": 77
+ },
+ "starship-olympics": {
+  "calls": 705,
+  "connections": 90,
+  "overrides": 26,
+  "reads": 75
+ },
+ "super-godot-galaxy": {
+  "calls": 5,
+  "connections": 2,
+  "overrides": 0,
+  "reads": 0
+ },
+ "tanks-of-freedom-ii": {
+  "calls": 340,
+  "connections": 0,
+  "overrides": 14,
+  "reads": 21
+ },
+ "template-beat-em-up": {
+  "calls": 264,
+  "connections": 3,
+  "overrides": 21,
+  "reads": 18
+ },
+ "the-mirror": {
+  "calls": 423,
+  "connections": 10,
+  "overrides": 14,
+  "reads": 36
+ },
+ "top-down-action-rpg-template": {
+  "calls": 34,
+  "connections": 2,
+  "overrides": 3,
+  "reads": 0
+ },
+ "tower-defense-godot4": {
+  "calls": 45,
+  "connections": 23,
+  "overrides": 4,
+  "reads": 3
+ },
+ "tower-defense-tutorial": {
+  "calls": 32,
+  "connections": 8,
+  "overrides": 3,
+  "reads": 3
+ },
+ "tps-demo": {
+  "calls": 156,
+  "connections": 3,
+  "overrides": 3,
+  "reads": 17
+ },
+ "unidot_importer": {
+  "calls": 544,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 67
+ },
+ "unitypackage_godot": {
+  "calls": 51,
+  "connections": 0,
+  "overrides": 3,
+  "reads": 13
+ },
+ "unto-deepest-depths-prototype": {
+  "calls": 17,
+  "connections": 0,
+  "overrides": 1,
+  "reads": 0
+ },
+ "voxelgame": {
+  "calls": 134,
+  "connections": 0,
+  "overrides": 19,
+  "reads": 8
+ },
+ "vpuppr": {
+  "calls": 113,
+  "connections": 2,
+  "overrides": 4,
+  "reads": 7
+ },
+ "wutw-public": {
+  "calls": 747,
+  "connections": 34,
+  "overrides": 14,
+  "reads": 25
+ },
+ "youtd2": {
+  "calls": 154,
+  "connections": 1,
+  "overrides": 3,
+  "reads": 23
+ }
+}

@@ -1,0 +1,1000 @@
+# Totals
+all {'files': 13207, 'files with const': 3600, 'decls': 12840}
+games {'files': 7947, 'files with const': 1938, 'decls': 7048}
+
+## Scope
+                                                            all decl  files  game decl  files
+class                                                          11983   3494       6488   1884
+inner class                                                      240     60        109     17
+local                                                            617    176        451    104
+
+## Annotation (all)
+                                                            all decl  files  game decl  files
+:=                                                              3398   1103       1874    552
+none                                                            5505   1778       2460    848
+typed                                                           3937   1090       2714    691
+
+## Annotation (class-level incl. inner)
+                                                            all decl  files  game decl  files
+:=                                                              3275   1068       1834    536
+none                                                            5435   1747       2425    830
+typed                                                           3513   1052       2338    667
+
+## Annotation (local)
+                                                            all decl  files  game decl  files
+:=                                                               123     61         40     29
+none                                                              70     43         35     23
+typed                                                            424     82        376     56
+
+## Initializer category
+                                                            all decl  files  game decl  files
+1 literal                                                       6915   2264       3950   1242
+11 other                                                          34     21         26     15
+2 StringName/NodePath                                            442     65        313     42
+3 preload                                                       2456   1089        940    471
+4 array                                                          826    449        491    259
+5 dict                                                           680    362        411    199
+6 constructor                                                    742    301        536    193
+7 builtin constant                                                73     35         53     21
+8 name/expr                                                      630    301        305    167
+9 utility call                                                    42     21         23     14
+
+## Initializer subcategory
+                                                            all decl  files  game decl  files
+1 literal | bool                                                 112     81         32     22
+1 literal | float                                               1786    752       1268    522
+1 literal | int                                                 2176    935       1313    611
+1 literal | null                                                   1      1          0      0
+1 literal | string                                              2840   1000       1337    388
+11 other | preload                                                34     21         26     15
+2 StringName/NodePath | &                                        439     62        310     39
+2 StringName/NodePath | ^                                          3      3          3      3
+3 preload | .gd                                                 1186    499        221    105
+3 preload | other: .fnt                                            3      3          3      3
+3 preload | other: .gdshader                                      29     14          3      2
+3 preload | other: .glsl                                           1      1          1      1
+3 preload | other: .gltf                                           1      1          0      0
+3 preload | other: .jpg                                            4      2          0      0
+3 preload | other: .json                                          14     12          1      1
+3 preload | other: .material                                       7      6          1      1
+3 preload | other: .mp3                                           14      7         14      7
+3 preload | other: .ogg                                           10      2         10      2
+3 preload | other: .otf                                            4      4          4      4
+3 preload | other: .png                                          113     53         84     38
+3 preload | other: .stylebox                                       1      1          1      1
+3 preload | other: .svg                                           87     50         14     10
+3 preload | other: .tres                                         124     90         64     50
+3 preload | other: .ttf                                           10      8          7      6
+3 preload | other: .wav                                           39      5         37      4
+3 preload | other: res://                                         12      6         12      6
+3 preload | other: uid://                                         21     12          2      1
+3 preload | scene                                                776    470        461    281
+4 array | all literals                                           564    293        334    166
+4 array | empty                                                   13     13          6      6
+4 array | includes constructor                                    79     61         62     51
+4 array | includes names                                         138    102         60     45
+4 array | includes preload                                        32     26         29     23
+5 dict | all literals                                            269    177        134     87
+5 dict | empty                                                     5      5          1      1
+5 dict | includes constructor                                     76     43         65     32
+5 dict | includes names                                          298    154        186     86
+5 dict | includes other calls                                      1      1          0      0
+5 dict | includes preload                                         31     28         25     22
+6 constructor | AABB                                               9      9          0      0
+6 constructor | Color                                            299    121        170     64
+6 constructor | Plane                                              3      2          3      2
+6 constructor | Rect2                                              1      1          1      1
+6 constructor | Transform3D                                        1      1          1      1
+6 constructor | Vector2                                          367    144        331    118
+6 constructor | Vector2i                                          33     24         18     13
+6 constructor | Vector3                                           23     17          8      8
+6 constructor | in expression                                      6      4          4      2
+7 builtin constant | Color.X                                      70     32         52     20
+7 builtin constant | Vector2.X                                     3      3          1      1
+8 name/expr | bare name                                           43     22         14      8
+8 name/expr | bare name (PI/TAU/INF)                               1      1          1      1
+8 name/expr | dotted name                                        229    120         64     54
+8 name/expr | expression of literals only                        131     91         96     72
+8 name/expr | expression with names                              226     97        130     48
+9 utility call | Color8                                            7      2          6      1
+9 utility call | ceil                                              1      1          1      1
+9 utility call | deg_to_rad                                       15     10         12      8
+9 utility call | in expression: pow                                1      1          1      1
+9 utility call | in expression: sqrt                               9      1          0      0
+9 utility call | int                                               6      4          3      3
+9 utility call | len                                               2      1          0      0
+9 utility call | tan                                               1      1          0      0
+
+## Names referenced by name/expr, array, dict, constructor initializers
+                                                            all decl  files  game decl  files
+4 array -> builtin                                                28     25         14     12
+4 array -> const                                                  45     25         30     12
+4 array -> engine                                                 27     17          8      6
+4 array -> enum                                                   44     33         20     18
+4 array -> other                                                  19     17          6      5
+5 dict -> builtin                                                 24     24         15     15
+5 dict -> const                                                  152     59        113     28
+5 dict -> engine                                                  68     32         19     11
+5 dict -> enum                                                   136     89        109     69
+5 dict -> other                                                   97     62         59     34
+6 constructor -> builtin                                          18     17          8      7
+6 constructor -> const                                            25      8         24      7
+8 name/expr -> builtin                                            13     12          8      8
+8 name/expr -> const                                             372    146        146     53
+8 name/expr -> engine                                             25     22          5      4
+8 name/expr -> enum                                               30     22         23     17
+8 name/expr -> other                                              60     39         28     28
+
+## Annotation by category
+                                                            all decl  files  game decl  files
+1 literal | :=                                                  1819    699        985    374
+1 literal | none                                                2674    886       1228    373
+1 literal | typed                                               2422    771       1737    539
+11 other | :=                                                      1      1          0      0
+11 other | none                                                   23     15         16     10
+11 other | typed                                                  10      5         10      5
+2 StringName/NodePath | :=                                        44     22         29     11
+2 StringName/NodePath | none                                      30     12         14      7
+2 StringName/NodePath | typed                                    368     32        270     25
+3 preload | :=                                                   477    242        125     63
+3 preload | none                                                1755    776        699    369
+3 preload | typed                                                224    100        116     46
+4 array | :=                                                     181    116        120     74
+4 array | none                                                   275    142        178     87
+4 array | typed                                                  370    198        193    101
+5 dict | :=                                                      274    113        228     81
+5 dict | none                                                    269    160        104     66
+5 dict | typed                                                   137     97         79     57
+6 constructor | :=                                               391    114        279     58
+6 constructor | none                                             154     77        100     48
+6 constructor | typed                                            197    114        157     90
+7 builtin constant | :=                                           34     15         30     11
+7 builtin constant | none                                         22     11         12      4
+7 builtin constant | typed                                        17      9         11      6
+8 name/expr | :=                                                 153     62         66     30
+8 name/expr | none                                               292    150        103     64
+8 name/expr | typed                                              185     93        136     75
+9 utility call | :=                                               24      8         12      5
+9 utility call | none                                             11      9          6      6
+9 utility call | typed                                             7      4          5      3
+
+## Computation the initializer takes
+                                                            all decl  files  game decl  files
+Color from a hex string                                          135     52         83     28
+math functions returning float                                    31     16         14     10
+no computation                                                 12104   3521       6568   1885
+operators on engine types                                        178     36        160     18
+scalar computation                                               387    219        223    132
+string formatting                                                  5      3          0      0
+
+## Math functions and conversions called
+                                                            all decl  files  game decl  files
+ceil                                                               1      1          1      1
+deg_to_rad                                                        15     10         12      8
+deg_to_rad/tan                                                     1      1          0      0
+float/int                                                          2      2          2      2
+int                                                                1      1          1      1
+pow                                                                5      3          1      1
+sqrt                                                               9      1          0      0
+
+## Initializers that compute more than scalars
+  Color from a hex string          Arrow/scripts/settings.gd:242  const WARNING_COLOR = Color("ff0bb1") # ~ red
+  Color from a hex string          Arrow/scripts/settings.gd:243  const PEACE_COLOR = Color("0fcbf4") # ~ cyan
+  Color from a hex string          GodotOS/Scenes/Desktop/desktop_folder.gd:10  const FOLDER_COLOR: Color = Color("4efa82")
+  Color from a hex string          GodotOS/Scenes/Desktop/desktop_folder.gd:11  const TEXT_FILE_COLOR: Color = Color("4deff5")
+  Color from a hex string          GodotOS/Scenes/Desktop/desktop_folder.gd:12  const IMAGE_COLOR: Color = Color("f9ee13")
+  Color from a hex string          Legacy_SM63Redux/classes/entity/enemy/koopa/koopa.gd:9  const COLOR_PRESETS = [
+  Color from a hex string          Legacy_SM63Redux/classes/entity/enemy/koopa/koopa_shell.gd:6  const color_presets = [
+  Color from a hex string          Legacy_SM63Redux/classes/entity/enemy/koopa/parakoopa.gd:9  const color_presets = [
+  Color from a hex string          Legacy_SM63Redux/classes/interactable/npc/toad/toad.gd:27  const skin_presets = [
+  Color from a hex string          Legacy_SM63Redux/classes/interactable/npc/toad/toad.gd:4  const spot_presets = [
+  Color from a hex string          Lorien/lorien/Config.gd:15  const DEFAULT_CANVAS_COLOR 			:= Color("202124")
+  Color from a hex string          Lorien/lorien/Config.gd:22  const DEFAULT_SELECTION_COLOR 		:= Color("#2a967c")
+  Color from a hex string          Lorien/lorien/UI/Toolbar.gd:15  const BUTTON_HOVER_COLOR = Color("50ffd6")
+  Color from a hex string          Lorien/lorien/UI/Toolbar.gd:16  const BUTTON_CLICK_COLOR = Color("50ffd6")
+  Color from a hex string          MizGodotTools/effects/pseudo_3d/pseudo_3d_layer_manager.gd:14  const UPWARDS_TOP_COLOR : Color = Color("424242")
+  Color from a hex string          MizGodotTools/effects/pseudo_3d/pseudo_3d_layer_manager.gd:15  const DOWNWARDS_BOT_COLOR : Color = Color("070707")
+  Color from a hex string          Project-Heartbeat/rythm_game/results_screen/ResultsScreenScoreInfoDisplay.gd:16  const DELTA_NEGATIVE_COLOR = Color("#57a9ff")
+  Color from a hex string          Project-Heartbeat/rythm_game/results_screen/ResultsScreenScoreInfoDisplay.gd:17  const DELTA_POSITIVE_COLOR = Color("#57ff59")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:725  const KEYWORD_COLOR := Color("#FF7085")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:726  const CONTROL_FLOW_COLOR := Color("#F989C9")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:727  const CLASS_COLOR := Color("#7FE0C3")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:728  const TYPE_COLOR := Color("#41F8BD")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:729  const ENUM_COLOR := Color("#F88868")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:730  const STRING_COLOR := Color("#E7D795")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:731  const COMMENT_COLOR := Color("#666A74")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:732  const SYMBOL_COLOR := Color("#ABC9FF")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:733  const MEMBER_VARIABLE_COLOR := Color("#BCE0FF")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:734  const FUNCTION_COLOR := Color("#57B3FF")
+  Color from a hex string          Project-Heartbeat/tools/editor/controls/HBEditorCodeEdit.gd:735  const NUMBER_COLOR := Color("#A1FFE0")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:10  const TRANSPARENT = Color("#1A1A1A", 0.2)
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:11  const DEBUG = Color("#07263D", 0.5)
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:13  const CLEAR = Color("#5F9097")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:14  const CHIP = Color("#558EDD")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:16  const CANCEL = Color("#F9622F")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:18  const BAR = Color("#385AA6", 0.65)
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:19  const CONTENT = Color("#FFFFFF", 0.1) # 10% alpha
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:21  const COMMON = Color("#55DD63")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:22  const UNCOMMON = Color("#557EDD")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:23  const RARE = Color("#F7EDBA")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:24  const SACRED = Color("#BA54F8")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:25  const ARCANE_1 = Color("#F85720")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:26  const ARCANE_2 = Color("#FA8057")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:27  const RADIANT_1 = Color("#F0D342")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:28  const RADIANT_2 = Color("#FFFFFF")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:29  const TEXT_BG = Color("#34333F")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:30  const TEXT_FG = Color("#FAFDFF")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:31  const HEADER_BG = Color("#34333F", 0.5)
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:32  const HEADER_FG = Color("#FAFDFF")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:6  const PURE = Color("#FFFFFF")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:7  const CREAMY = Color("#F9F3E5")
+  Color from a hex string          Reia/_old_code/presentation/ui/themes/theme_gen.gd:8  const SOFT = Color("#F5F5F5")
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:10  const SUCCESS_GREEN: Color = Color("#55dd63", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:12  const CHIP_BLUE: Color = Color("#558edd", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:13  const CLEAR_BLUE: Color = Color("#5F9097", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:16  const DENY_RED: Color = Color("#dd5555", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:4  const PURE_WHITE: Color = Color("#ffffff", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:5  const PURE_BLACK: Color = Color("#000000", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:7  const SOFT_WHITE: Color = Color("#f5f5f5", 1)
+  Color from a hex string          Reia/godot/client/ui/core/ui_colors.gd:9  const ERROR_RED: Color = Color("#db2626", 1)
+  Color from a hex string          RhythiaRewrite/scripts/Globals.gd:112  const StatusMessages = {
+  Color from a hex string          Scene-Manager/addons/scene_manager/SceneManagerSettings.gd:19  const DEFINITIONS := [
+  Color from a hex string          Super-Mario-Bros.-Remastered-Public/Scripts/Parts/DropShadowRendererSmooth.gd:10  const night_colour := Color("5e5e5e")
+  Color from a hex string          Super-Mario-Bros.-Remastered-Public/Scripts/Parts/DropShadowRendererSmooth.gd:9  const day_colour := Color("000000")
+  Color from a hex string          Super-Mario-World-Remastered-Public/Scripts/Classes/Levels/cast_roll.gd:55  const autumn_colours := [
+  Color from a hex string          Super-Mario-World-Remastered-Public/Scripts/Classes/Levels/staff_credits.gd:30  const BG_COLOURS = [Color("f8e0b0"),
+  Color from a hex string          Super-Mario-World-Remastered-Public/Scripts/LevelElements/online_field_player_display.gd:18  const YOSHI_COLOURS := [[Color("00F800"), Color("00B800"), Color("D8C8A8"), Color("D08048")], [Color("F80000")
+  Color from a hex string          Super-Mario-World-Remastered-Public/Scripts/UI/MapPlayer.gd:54  const YOSHI_COLOURS := [[Color("00F800"), Color("00B800"), Color("D8C8A8"), Color("D08048")], [Color("F80000")
+  Color from a hex string          Super-Mario-World-Remastered-Public/Scripts/yoshi.gd:27  const yoshi_arm_orange := Color("f88800")
+  Color from a hex string          Super-Mario-World-Remastered-Public/Scripts/yoshi.gd:28  const yoshi_arm_2_orange := Color("b82800")
+  Color from a hex string          beehave/addons/beehave/debug/new_frames.gd:10  const FAILURE_COLOR := Color("#82010b")
+  Color from a hex string          beehave/addons/beehave/debug/new_frames.gd:11  const RUNNING_COLOR := Color("#c29c06")
+  Color from a hex string          beehave/addons/beehave/debug/new_frames.gd:8  const SUCCESS_COLOR := Color("#07783a")
+  Color from a hex string          beehave/addons/beehave/debug/new_frames.gd:9  const NORMAL_COLOR := Color("#15181e")
+  Color from a hex string          beehave/addons/beehave/debug/new_graph_edit.gd:10  const INACTIVE_COLOR: Color = Color("#000000")
+  Color from a hex string          beehave/addons/beehave/debug/new_graph_edit.gd:11  const ACTIVE_COLOR: Color = Color("#c29c06")
+  Color from a hex string          beehave/addons/beehave/debug/new_graph_edit.gd:12  const SUCCESS_COLOR: Color = Color("#07783a")
+  Color from a hex string          beehave/addons/beehave/debug/new_graph_edit.gd:13  const FAILURE_COLOR: Color = Color("#82010b")
+  Color from a hex string          beehave/addons/beehave/debug/old_frames.gd:6  const SUCCESS_COLOR := Color("#009944c8")
+  Color from a hex string          beehave/addons/beehave/debug/old_frames.gd:7  const NORMAL_COLOR := Color("#15181e")
+  Color from a hex string          beehave/addons/beehave/debug/old_frames.gd:8  const FAILURE_COLOR := Color("#cf000f80")
+  Color from a hex string          beehave/addons/beehave/debug/old_frames.gd:9  const RUNNING_COLOR := Color("#ffcc00c8")
+  Color from a hex string          beehave/addons/beehave/debug/old_graph_edit.gd:10  const INACTIVE_COLOR: Color = Color("#898989aa")
+  Color from a hex string          beehave/addons/beehave/debug/old_graph_edit.gd:11  const ACTIVE_COLOR: Color = Color("#ffcc00c8")
+  Color from a hex string          beehave/addons/beehave/debug/old_graph_edit.gd:12  const SUCCESS_COLOR: Color = Color("#009944c8")
+  Color from a hex string          beehave/addons/beehave/debug/old_graph_node.gd:6  const DEFAULT_COLOR := Color("#dad4cb")
+  Color from a hex string          gaea/addons/gaea/editor/editor_settings.gd:20  const OUTPUT_TITLE_COLOR_DEFAULT := Color("632639")
+  Color from a hex string          gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:36  const PARAM_TEXT_COLOR := Color("cdbff0")
+  Color from a hex string          gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:37  const PARAM_BG_COLOR := Color("bfbfbf1a")
+  Color from a hex string          gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:38  const CODE_TEXT_COLOR := Color("da8a95")
+  Color from a hex string          gaea/addons/gaea/runtime/graph_nodes/node_resource.gd:39  const CODE_BG_COLOR := Color("8080801a")
+  Color from a hex string          godot-4-procedural-generation/godot4/basic_dungeon/01_rectangular/rectangular.gd:3  const CLEAR_COLOR := Color("#181425")
+  Color from a hex string          godot-4-procedural-generation/godot4/basic_dungeon/02_and_organic/and_organic.gd:3  const CLEAR_COLOR := Color("#181425")
+  Color from a hex string          godot-4-procedural-generation/godot4/basic_dungeon/03_bonus/bonus.gd:3  const CLEAR_COLOR := Color("#181425")
+  Color from a hex string          godot-4-procedural-generation/godot4/mst_dungeon/mst_dungeon.gd:17  const CLEAR_COLOR := Color("#181425")
+  Color from a hex string          godot-open-rts/source/Constants.gd:22  const COLORS = [
+  Color from a hex string          godot-steering-ai-framework/godot/Demos/SeekFlee/Boundaries.gd:3  const COLOR := Color("8fde5d")
+  Color from a hex string          godot_autobattler_course/data/traits/trait.gd:4  const HIGHLIGHT_COLOR_CODE := Color("fafa82")
+  Color from a hex string          godot_autobattler_course/data/units/unit_stats.gd:10  const RARITY_COLORS := {
+  Color from a hex string          godot_autobattler_course/scenes/unit_card/unit_card.gd:6  const HOVER_BORDER_COLOR := Color("fafa82")
+  Color from a hex string          learn-gdscript/course/lesson-14-multiplying/visuals/Graph.gd:4  const COLOR_GREY := Color("928fb8")
+  Color from a hex string          learn-gdscript/ui/components/SliceEditorOverlay.gd:175  const COLOR_ERROR := Color("#E83482")
+  Color from a hex string          learn-gdscript/ui/components/SliceEditorOverlay.gd:176  const COLOR_WARNING := Color("#D2C84F")
+  Color from a hex string          learn-gdscript/ui/components/SliceEditorOverlay.gd:177  const COLOR_INFO := Color("#79F2D6")
+  Color from a hex string          phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_constants.gd:16  const COLOR_2D: Color = Color("8DA5F3")
+  Color from a hex string          phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_constants.gd:17  const COLOR_3D: Color = Color("FC7F7F")
+  Color from a hex string          phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_constants.gd:18  const COLOR_PCAM: Color = Color("3AB99A")
+  Color from a hex string          phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_constants.gd:19  const COLOR_PCAM_33: Color = Color("3ab99a33")
+  Color from a hex string          phantom-camera/addons/phantom_camera/scripts/phantom_camera/phantom_camera_constants.gd:20  const PCAM_HOST_COLOR: Color = Color("E0E0E0")
+  Color from a hex string          protongraph/common/static/data_type.gd:34  const color_base_type = Color("3ac5e6")
+  Color from a hex string          protongraph/common/static/data_type.gd:35  const color_vector = Color("3ac5e6")
+  Color from a hex string          protongraph/common/static/data_type.gd:37  const COLORS = {
+  Color from a hex string          sourceofmana/sources/actor/entity/components/InteractiveSkillPreview.gd:4  const mainColor : Color		= Color("99680599")
+  Color from a hex string          sourceofmana/sources/actor/entity/components/InteractiveSkillPreview.gd:5  const outerColor : Color	= Color("D7B77BFF")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:10  const ModifierNegativeColor : Color					= Color("DD6666")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:11  const CellTileColorDefault : Color					= Color("534E4A")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:12  const CellTileColorEquipped : Color					= Color("C19747")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:13  const CellTileColorHovered : Color					= Color("996805")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:5  const LightTextColor : Color 						= Color("FFFFDD")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:6  const TextColor : Color 							= Color("EED8A1")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:7  const DarkTextColor : Color							= Color("C19747")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:8  const WarnTextColor : Color							= Color("F0846A")
+  Color from a hex string          sourceofmana/sources/gui/UICommons.gd:9  const ModifierPositiveColor : Color					= Color("66DD66")
+  Color from a hex string          starship-olympics/godot/actors/environments/Bubble.gd:22  const symbol_colors = {
+  Color from a hex string          starship-olympics/godot/globals/global.gd:13  const SUIT_COLORS = {
+  Color from a hex string          template-beat-em-up/addons/quiver.beat_em_up/combat/collision_areas/quiver_collision_types.gd:15  const PRESETS = {
+  Color from a hex string          template-beat-em-up/addons/quiver.beat_em_up/quiver_beat_em_up_plugin.gd:13  const COLOR_GODOT_ORANGE = Color("ff786b")
+  Color from a hex string          template-beat-em-up/addons/quiver.beat_em_up/utilities/quiver_custom_overlay.gd:17  const COLOR_GODOT_ORANGE = Color("ff786b")
+  Color from a hex string          tower-defense-godot4/interfaces/HUD/entity/entity_hud.gd:5  const RED := Color("#e86a17")
+  Color from a hex string          tower-defense-godot4/interfaces/HUD/entity/entity_hud.gd:6  const YELLOW := Color("#d2b82d")
+  Color from a hex string          tower-defense-godot4/interfaces/HUD/entity/entity_hud.gd:7  const GREEN := Color("#88e060")
+  Color from a hex string          tower-defense-tutorial/ui/entity_hud.gd:5  const RED := Color("#e86a17")
+  Color from a hex string          tower-defense-tutorial/ui/entity_hud.gd:6  const YELLOW := Color("#d2b82d")
+  Color from a hex string          tower-defense-tutorial/ui/entity_hud.gd:7  const GREEN := Color("#88e060")
+  Color from a hex string          vpuppr/screens/home/home.gd:8  const CLEAR_COLOR := Color("00000000")
+  Color from a hex string          vpuppr/screens/popup_window.gd:6  const BG_COLOR := Color("1d2229")
+  math functions returning float   Arrow/scripts/shared/flake_id_helpers.gd:31  const CHAPTER_ID_EXCLUSIVE_LIMIT = int( pow( 2, BIT_SIZE[0] ) )
+  math functions returning float   Arrow/scripts/shared/flake_id_helpers.gd:36  const AUTHOR_ID_EXCLUSIVE_LIMIT = int( pow( 2, BIT_SIZE[1] ) )
+  math functions returning float   Arrow/scripts/shared/flake_id_helpers.gd:39  const RESOURCE_SEED_EXCLUSIVE_LIMIT = int( pow( 2, BIT_SIZE[2] ) )
+  math functions returning float   BatteryAcid__godot-3d-multiplayer-template/scripts/camera_input.gd:11  const CAMERA_X_ROT_MIN := deg_to_rad(-89.9)
+  math functions returning float   BatteryAcid__godot-3d-multiplayer-template/scripts/camera_input.gd:12  const CAMERA_X_ROT_MAX := deg_to_rad(70)
+  math functions returning float   Castlevania-Remnants-of-Darkness/SampleProject/enemies/Slaughterer/slaughterer_fireball.gd:15  const MAX_SPEED_ANGLE: float = deg_to_rad(45)
+  math functions returning float   Castlevania-Remnants-of-Darkness/SampleProject/enemies/Slaughterer/slaughterer_fireball.gd:16  const MIN_SPEED_ANGLE: float = deg_to_rad(-45)
+  math functions returning float   DOGWALK/source/entities/player_entities/pinda.gd:61  const BREAKDOWN_ANGLE := deg_to_rad(40)
+  math functions returning float   Freedom-Hunter/src/items/consumables/cannon_ball.gd:13  const fire_angle = deg_to_rad(5)
+  math functions returning float   Legacy_SM63Redux/scenes/menus/title/title.gd:3  const FADE_SPEED = 1 / pow(2, 4)
+  math functions returning float   Lorien/lorien/InfiniteCanvas/Tools/LineTool.gd:5  const SNAP_STEP := deg_to_rad(90.0 / 6.0) # = 15 deg
+  math functions returning float   Sky3D/addons/sky_3d/src/SkyDome.gd:23  const DAY_NIGHT_TRANSITION_ANGLE: float = deg_to_rad(90)  # Horizon
+  math functions returning float   Sky3D/addons/sky_3d/src/SkyDome.gd:902  const WIND_DIRECTION_OFFSET: float = deg_to_rad(-90)
+  math functions returning float   SonicWorldsNext/Scripts/Gimmicks/Hanger.gd:35  const _CONTACT_TIME_LIMIT = ceil(12.0 * (1000.0 / 60.0))
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:181  const e := 1.0 / (2.0 * sqrt(3.0))
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:182  const w := sqrt(3.0) / 8.0
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:241  const e := 1.0 / (2.0 * sqrt(3.0))
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:242  const w := sqrt(3.0) / 8.0
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:307  const e := 1.0 / (2.0 * sqrt(3.0))
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:308  const w := sqrt(3.0) / 8.0
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:367  const e := 1.0 / (2.0 * sqrt(3.0))
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:368  const w := sqrt(3.0) / 8.0
+  math functions returning float   better-terrain/addons/better-terrain/BetterTerrainData.gd:486  const e := t - 1.0 / (2.0 * sqrt(3.0))
+  math functions returning float   godot-2d-space-game/project/ships/enemies/pirate/pirate_ship.gd:10  const ALIGNMENT_TOLERANCE := deg_to_rad(5)
+  math functions returning float   godot-2d-space-game/project/ships/enemies/pirate/pirate_ship.gd:9  const DECELERATION_RADIUS := deg_to_rad(45)
+  math functions returning float   godot-demo-projects/2d/hexagonal_map/troll.gd:5  const TAN30DEG = tan(deg_to_rad(30))
+  math functions returning float   simgine/character_editor/camera.gd:20  const _PITCH_LIMIT := deg_to_rad(80.0)
+  math functions returning float   the-mirror/mirror-godot-app/gameplay/space_object/space_object.gd:60  const PLAYER_DISTANCE_TO_PRIORITY_MAP = {
+  math functions returning float   tps-demo/enemies/red_robot/red_robot.gd:13  const PLAYER_AIM_TOLERANCE_DEGREES = deg_to_rad(15.0)
+  math functions returning float   tps-demo/player/player_input.gd:7  const CAMERA_X_ROT_MIN: float = deg_to_rad(-89.9)
+  math functions returning float   tps-demo/player/player_input.gd:8  const CAMERA_X_ROT_MAX: float = deg_to_rad(70.0)
+  operators on engine types        Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Stage_elements/orb.gd:29  const Colors = {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:102  const APOC_SPREAD_CW := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:107  const APOC_SPREAD_CCW := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:114  const POST_ERUPTION := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:121  const STACK_2 := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:33  const SETUP_EU_T1 = SETUP_EU_CLOSE_LEFT * NW
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:34  const SETUP_EU_T2 = SETUP_EU_CLOSE_RIGHT * NW
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:35  const SETUP_EU_H1 = SETUP_EU_FAR_LEFT * NW
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:36  const SETUP_EU_H2 = SETUP_EU_FAR_RIGHT * NW
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:37  const SETUP_EU_M1 = SETUP_EU_CLOSE_LEFT * SE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:38  const SETUP_EU_M2 = SETUP_EU_CLOSE_RIGHT * SE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:39  const SETUP_EU_R1 = SETUP_EU_FAR_LEFT * SE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:40  const SETUP_EU_R2 = SETUP_EU_FAR_RIGHT * SE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:58  const ROLE_SETUP_NA := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:69  const SWAP_SETUP_NA := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:80  const STACK_1_NA := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:84  const STACK_1_EU := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/apoc_pc_pos.gd:91  const SPREAD_NA := {
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:32  const N_OUT := N * OUT_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:33  const S_OUT := S * OUT_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:34  const E_OUT := E * OUT_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:35  const W_OUT := W * OUT_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:36  const NW_OUT := NW * OUT_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:37  const NE_OUT := NE * OUT_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:38  const SW_OUT := SW * OUT_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:39  const SE_OUT := SE * OUT_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:42  const N_MID := N * MID_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:43  const S_MID := S * MID_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:44  const E_MID := E * MID_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:45  const W_MID := W * MID_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:46  const NW_MID := NW * MID_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:47  const NE_MID := NE * MID_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:48  const SW_MID := SW * MID_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:49  const SE_MID := SE * MID_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:52  const N_IN := N * IN_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:53  const S_IN := S * IN_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:54  const E_IN := E * IN_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:55  const W_IN := W * IN_DISTANCE
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:56  const NW_IN := NW * IN_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:57  const NE_IN := NE * IN_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:58  const SW_IN := SW * IN_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:59  const SE_IN := SE * IN_INTER
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:62  const N_CW := Vector2(BAIT_X_CARD, -BAIT_Y_CARD)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:64  const S_CW := Vector2(-BAIT_X_CARD, BAIT_Y_CARD)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:65  const S_CCW := Vector2(-BAIT_X_CARD, -BAIT_Y_CARD)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:67  const E_CCW := Vector2(-BAIT_Y_CARD, BAIT_X_CARD)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:68  const W_CW := Vector2(-BAIT_Y_CARD, -BAIT_X_CARD)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:69  const W_CCW := Vector2(BAIT_Y_CARD, -BAIT_X_CARD)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:71  const NW_CW := Vector2(BAIT_X_INTER, -BAIT_Y_INTER)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:72  const NW_CCW := Vector2(BAIT_Y_INTER, -BAIT_X_INTER)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:75  const SW_CW := Vector2(-BAIT_Y_INTER, -BAIT_X_INTER)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:76  const SW_CCW := Vector2(-BAIT_X_INTER, -BAIT_Y_INTER)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:77  const SE_CW := Vector2(-BAIT_X_INTER, BAIT_Y_INTER)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:78  const SE_CCW := Vector2(-BAIT_Y_INTER, BAIT_X_INTER)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:81  const W_BAIT_2 := W * (MID_DISTANCE / 2.0)
+  operators on engine types        FRU-Sim/scenes/p3/position_coords/ult_relativity_pc_pos.gd:82  const E_BAIT_2 := E * (MID_DISTANCE / 2.0)
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:104  const PRE_HG_1_NW_AEROS_PLANT := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:111  const PRE_HG_1_NE_AEROS_PLANT := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:119  const POST_HG_1_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:125  const POST_HG_1_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:138  const POST_KB_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:144  const POST_KB_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:153  const POST_HG_2_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:158  const POST_HG_2_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:167  const POST_UD_E := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:172  const POST_UD_W := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:179  const POST_EARLY_SOAK_E := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:182  const POST_EARLY_SOAK_W := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:200  const POST_EXA_2_E := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:205  const POST_EXA_2_W := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:217  const POST_EXA_3_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:222  const POST_EXA_3_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:227  const POST_EXA_3_SE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:232  const POST_EXA_3_SW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:240  const POST_EXA_4_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:246  const POST_EXA_4_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:253  const POST_EXA_4_SE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:260  const POST_EXA_4_SW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:282  const POST_SOAK_TARGET_SE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:287  const POST_SOAK_TARGET_SW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:294  const REWIND_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:299  const REWIND_SE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:305  const REWIND_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:311  const REWIND_SW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:331  const AKH_MORN := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:339  const AKH_MORN_7_1_T1 := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:344  const AKH_MORN_7_1_T2 := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:89  const PRE_HG_1_NW := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/ct_positions.gd:96  const PRE_HG_1_NE := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:103  const POST_AA_PARTY_MANA := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:109  const LR_PARTY_NA := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:116  const LR_PARTY_EU := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:123  const LR_PARTY_JP := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:130  const LR_PARTY_MANA := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:138  const BOWTIE_DD := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:146  const SPIRIT_DD_SP_NA := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:153  const SPIRIT_DD_EU := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:160  const SPIRIT_DD_JP := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:168  const WATER_E_DD := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:174  const WATER_W_DD := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:182  const DANCE_E_DD := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:188  const DANCE_W_DD := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:195  const DANCE_MID_DD := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:203  const DANCE_NE_INTER_TANK := DANCE_INTER_TANK * NE
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:204  const DANCE_NW_INTER_TANK := DANCE_INTER_TANK * NW
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:205  const DANCE_SE_INTER_TANK := DANCE_INTER_TANK * SE
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:206  const DANCE_SW_INTER_TANK := DANCE_INTER_TANK * SW
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:208  const DANCE_E_TANK := DANCE_TANK * E
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:209  const DANCE_W_TANK := DANCE_TANK * W
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:212  const AM_7_1_PARTY_T1 := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:217  const AM_7_1_PARTY_T2 := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:222  const AM_4_4_PARTY := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:70  const MID_STACK_PARTY := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:76  const MANA_STACK_PARTY := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:82  const POST_AA_PARTY_NA := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:89  const POST_AA_PARTY_EU := {
+  operators on engine types        FRU-Sim/scenes/p4/sequences/dd_positions.gd:96  const POST_AA_PARTY_JP := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/fb_positions.gd:24  const EXA_DODGES = {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/fb_positions.gd:44  const AKH_MORN_SOUTH := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/pr_positions.gd:17  const NW_TOWER = NE_TOWER * NW
+  operators on engine types        FRU-Sim/scenes/p5/sequences/pr_positions.gd:30  const PRE_POS := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/pr_positions.gd:37  const DARK_POS_1 := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/pr_positions.gd:44  const LIGHT_POS_1 := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/pr_positions.gd:51  const DARK_POS_2 := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/pr_positions.gd:58  const LIGHT_POS_2 := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:21  const SE_NEAR_IN = NEAR_IN * SE
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:22  const SE_FAR_IN = FAR_IN * SE
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:23  const SW_NEAR_IN = NEAR_IN * SW
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:24  const SW_FAR_IN = FAR_IN * SW
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:26  const SE_NEAR_OUT = NEAR_OUT * SE
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:27  const SE_FAR_OUT = FAR_OUT * SE
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:28  const SW_NEAR_OUT = NEAR_OUT * SW
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:29  const SW_FAR_OUT = FAR_OUT * SW
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:38  const PRE_POS := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:46  const HIT_1_IN := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:53  const HIT_1_OUT := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:60  const HIT_2_IN := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:67  const HIT_2_OUT := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:74  const HIT_3_IN := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:81  const HIT_3_OUT := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:88  const HIT_4_IN := {
+  operators on engine types        FRU-Sim/scenes/p5/sequences/ps_positions.gd:95  const HIT_4_OUT := {
+  operators on engine types        Legacy_SM63Redux/classes/player/fludd_sprite.gd:107  const SPRAY_ORIGIN_DIVE = SPRAY_ORIGIN + Vector2(1, 2)
+  operators on engine types        Legacy_SM63Redux/classes/player/fludd_sprite.gd:109  const PLUME_ORIGIN_DIVE = PLUME_ORIGIN + Vector2(1, 2)
+  operators on engine types        Legacy_SM63Redux/scenes/menus/level_designer/serializers/sm63_to_redux.gd:7  const TILE_SIZE_X = TILE_SIZE * Vector2(1, 0)
+  operators on engine types        Legacy_SM63Redux/scenes/menus/level_designer/serializers/sm63_to_redux.gd:8  const TILE_SIZE_Y = TILE_SIZE * Vector2(0, 1)
+  operators on engine types        Lorien/lorien/BrushStroke/BrushStroke.gd:13  const MIN_VECTOR2 := -MAX_VECTOR2
+  operators on engine types        Pixelorama/src/Classes/Drawers.gd:39  const CORNERS: Array[Vector2i] = [Vector2i.ONE, -Vector2i.ONE, Vector2i(-1, 1), Vector2i(1, -1)]
+  operators on engine types        Reia/godot/addons/map_editor/ui/atoms/map_editor_active_toggle.gd:11  const ICON_ACTIVE_COLOR: Color = Color(60.0 / 255.0, 155.0 / 255.0, 1.0, 1.0) # rgb(60, 155, 255) vibrant rich
+  operators on engine types        Reia/godot/addons/map_editor/ui/atoms/map_editor_active_toggle.gd:12  const ICON_ACTIVE_HOVER_COLOR: Color = Color(85.0 / 255.0, 175.0 / 255.0, 1.0, 1.0)
+  operators on engine types        Reia/godot/addons/map_editor/ui/atoms/map_editor_active_toggle.gd:13  const ICON_ACTIVE_PRESSED_COLOR: Color = Color(60.0 / 255.0, 155.0 / 255.0, 1.0, 1.0)
+  operators on engine types        Reia/godot/addons/map_editor/ui/atoms/map_editor_active_toggle.gd:14  const ICON_ACTIVE_HOVER_PRESSED_COLOR: Color = Color(85.0 / 255.0, 175.0 / 255.0, 1.0, 1.0)
+  operators on engine types        SonicWorldsNext/Scripts/Player/Player.gd:3  const HITBOXESSONIC = {NORMAL = Vector2(9,19)*2, ROLL = Vector2(7,14)*2, CROUCH = Vector2(9,11)*2, GLIDE = Vec
+  operators on engine types        SonicWorldsNext/Scripts/Player/Player.gd:4  const HITBOXESTAILS = {NORMAL = Vector2(9,15)*2, ROLL = Vector2(7,14)*2, CROUCH = Vector2(9,9.5)*2, GLIDE = Ve
+  operators on engine types        SonicWorldsNext/Scripts/Player/Player.gd:5  const HITBOXESKNUCKLES = {NORMAL = Vector2(9,19)*2, ROLL = Vector2(7,14)*2, CROUCH = Vector2(9,11)*2, GLIDE =
+  operators on engine types        SonicWorldsNext/Scripts/Player/Player.gd:6  const HITBOXESAMY = {NORMAL = Vector2(9,15)*2, ROLL = Vector2(7,11)*2, CROUCH = Vector2(9,9.5)*2, GLIDE = Vect
+  operators on engine types        TileMapDual/addons/TileMapDual/display.gd:21  const GRIDS: Dictionary[GridShape, Array] = {
+  operators on engine types        gaea/addons/gaea/editor/panel/right_panel/preview_container.gd:5  const DEFAULT_ROTATION: Vector3 = Vector3(-deg_to_rad(30), deg_to_rad(45), 0.0001)
+  operators on engine types        gaea/testing/graph_nodes/to_height/to_height_2d_and_3d.gd:4  const AREA: AABB = AABB(Vector3.ZERO, Vector3(1, 4, 1) * 16)
+  operators on engine types        godot-4-procedural-generation/godot4/cellular_automata/01_foliage_generator/foliage_generator.gd:5  const NEIGHBORS: Array[Vector2i] = [
+  operators on engine types        godot-4-procedural-generation/godot4/cellular_automata/02_cavern_generator/cellular_cavern_generator.gd:6  const NEIGHBORS: Array[Vector2i] = [
+  operators on engine types        godot-4-procedural-generation/godot4/cellular_automata/03_dungeon_generator/cellular_dungeon_generator.gd:9  const NEIGHBORS: Array[Vector2i] = [
+  operators on engine types        godot-4-procedural-generation/godot4/infinite_space/layered_world_generator.gd:12  const NEIGHBORS: Array[Vector2i] = [
+  operators on engine types        godot-4-procedural-generation/godot4/world_map/river_generator.gd:4  const OFFSETS := [
+  operators on engine types        godot-demo-projects/2d/navigation_astar/pathfind_astar.gd:9  const DRAW_COLOR = Color.WHITE * Color(1, 1, 1, 0.5)
+  operators on engine types        godot-demo-projects/3d/voxel/world/chunk.gd:11  const CHUNK_EXTENTS := Vector3.ONE / 2.0
+  operators on engine types        godot-demo-projects/3d/voxel/world/voxel_world.gd:5  const CHUNK_MIDPOINT = Vector3(0.5, 0.5, 0.5) * Chunk.CHUNK_SIZE
+  operators on engine types        godot-port/Assets/World/Terrain.gd:67  const TILE_OFFSETS = [
+  operators on engine types        godot-steering-ai-framework/godot/Demos/Arrive/TargetDrawer.gd:3  const COLORS := {
+  operators on engine types        godot_heightmap_plugin/addons/zylann.hterrain/hterrain_data.gd:32  const _map_types = {
+  operators on engine types        jdungeon/todo/ui/options_menu/input_remapping.gd:18  const BUTTON_ACTIVE_MODULATE: Color = Color.WHITE * 1.5
+  operators on engine types        learn-gdscript/ui/components/GlossaryPopup.gd:9  const MARGIN_FOR_HIDING_TOOLTIP := 25.0 * Vector2.ONE
+  operators on engine types        material-maker/material_maker/globals.gd:9  const DEFAULT_CONFIG : Dictionary = {
+  operators on engine types        sourceofmana/sources/scripts/ship/Peter.gd:6  const HOLD_SPAWN_POS : Vector2 = Vector2(48 * 32, 28 * 32)
+  operators on engine types        sourceofmana/sources/scripts/ship/PeterGlobal.gd:8  const RETURN_POS : Vector2					= Vector2(68 * 32, 36 * 32)
+  operators on engine types        template-beat-em-up/addons/quiver.beat_em_up/utilities/custom_nodes/enemy_spawner/quiver_spawn_data.gd:103  const DICT_TARGET_POSITION = {
+  operators on engine types        template-beat-em-up/characters/enemies/tax_man/resources/custom_states/seated.gd:13  const INVALID_POSITION = Vector2.ONE * INF
+  operators on engine types        unidot_importer/humanoid/human_trait.gd:406  const Signs: Array[Vector3] = [
+  string formatting                Arrow/scripts/shared/embedded_data.gd:8  const Text = {
+  string formatting                MizGodotTools/globals/save_manager/save_manager.gd:21  const AUTOSAVE_PATH = SAVE_FILE_PATH_FORMAT % "autosave"
+  string formatting                MizGodotTools/globals/save_manager/save_manager.gd:22  const QUICKSAVE_PATH = SAVE_FILE_PATH_FORMAT % "quicksave"
+  string formatting                MizGodotTools/items/item_db.gd:22  const ERROR_SOUND = preload(ITEMS_PATH + ITEM_SFX_EXT % "placeholder_drop_inv")
+  string formatting                MizGodotTools/items/item_db.gd:98  const ITEMS = {
+
+## Per repository
+                                                            all decl  files  game decl  files
+Arrow                                                            496     89          0      0
+BatteryAcid__godot-3d-multiplayer-template                        19      6         19      6
+BehaviourToolkit                                                  13      7          0      0
+Castlevania-Remnants-of-Darkness                                 600    183        600    183
+Cupcakes-Framework                                                 4      2          4      2
+DOGWALK                                                           85     25         85     25
+Dororo                                                            16      6         16      6
+FRU-Sim                                                          641     40        641     40
+Freedom-Hunter                                                    13     10         13     10
+Friendslop-Template                                               23     11         23     11
+GBM2K-Framework                                                    1      1          1      1
+GDWaterKart                                                        9      6          9      6
+Galaxy-Defiance                                                    3      2          3      2
+Genesis                                                            8      6          8      6
+GodSVG                                                           227     73          0      0
+Godot-2D-Action-Game                                              14     10         14     10
+Godot-4-Tower-Defense-Template                                     6      2          6      2
+Godot-Game-Template                                              173     42          0      0
+Godot-GameTemplate                                                 2      2          2      2
+Godot-Inventory                                                    4      4          4      4
+Godot-Plush-Character                                              2      1          2      1
+Godot-Roguelike-Tutorial                                          21      8         21      8
+Godot4-FPS-Template                                                2      2          2      2
+Godot4SourceEngineMovement                                         1      1          1      1
+GodotDynamicInventorySystem                                        9      3          9      3
+GodotFirebase                                                     74     16          0      0
+GodotOS                                                           20     12          0      0
+GodotPixelRenderer                                                16      6          0      0
+GodotProjectZero                                                 118     38        118     38
+Godot_Universal-Controller-tutorial                               13      8         13      8
+Gut                                                               64     35          0      0
+Improved-KCC                                                      17      5         17      5
+Legacy_SM63Redux                                                 200     58        200     58
+LibreAim                                                          13      7         13      7
+Lorien                                                           130     26          0      0
+Lost-Pilot                                                         1      1          1      1
+Metroidvania-System                                               40     19          0      0
+Microverse                                                         8      6          8      6
+MizGodotTools                                                     74     19          0      0
+MultiplayerFPSTutorial                                             4      2          4      2
+OpMon                                                             42     18         42     18
+Open-Industry-Project-Godot                                      230     44          0      0
+OpenLiberty                                                        9      6          9      6
+OpenVic                                                          373     36        373     36
+PSGodotTemplateRepo                                                8      5          8      5
+PankuConsole                                                      86     37          0      0
+PixelPlanets                                                       2      1          0      0
+Pixelorama                                                        73     31          0      0
+Pocket-Godot                                                       9      3          9      3
+Project-Heartbeat                                                188     67        188     67
+Qodot                                                             17      7          0      0
+Reia                                                             131     31        131     31
+Resources-GDScript                                                 3      2          3      2
+RhythiaRewrite                                                    24     12         24     12
+Scene-Manager                                                     34     14          0      0
+SignalVisualizer                                                  10      4          0      0
+SimpleFPSController                                               15      4         15      4
+Sky3D                                                             29      5          0      0
+Slay-The-Robot                                                   267     37        267     37
+SmartShape2D                                                      29      9          0      0
+SonicWorldsNext                                                   22      7         22      7
+SoundThread                                                        5      4          0      0
+Stardew                                                           12      8         12      8
+Super-Mario-Bros.-Remastered-Public                              217    106        217    106
+Super-Mario-World-Remastered-Public                              286    118        286    118
+SurvivorsClone_Complete                                            3      1          3      1
+TakinGodotTemplate                                               114     32        114     32
+TileMapDual                                                       13      9          0      0
+TopdownStarter                                                     8      3          8      3
+TowDownGame                                                       34     24         34     24
+UltimateGodotIntro2D                                               2      2          2      2
+Yugens-Terrain-Authoring-Toolkit                                  25     13          0      0
+_original_client                                                  43     14         43     14
+aarpg-tutorial                                                    28     19         28     19
+abyssal-walker                                                   240     38        240     38
+age-of-war                                                         2      1          2      1
+beehave                                                          153     43          0      0
+better-terrain                                                    50      6          0      0
+boscaceoil-blue                                                  167     44          0      0
+cyclopsLevelBuilder                                               55     29          0      0
+deck_builder_tutorial                                             77     37         77     37
+desksaw                                                           54      9         54      9
+devmoreir4__godot-3d-multiplayer-template                         68     12         68     12
+dialogic                                                          63     14          0      0
+escoria-demo-game                                                  8      3          8      3
+func_godot_plugin                                                 39      9          0      0
+gaea                                                              97     37          0      0
+game-base-2D                                                       2      1          2      1
+gd-YAFSM                                                          71     17          0      0
+gdmaim                                                            95     19          0      0
+gloot                                                            133     45          0      0
+godot-2d-adventure-tutorial                                       19      7         19      7
+godot-2d-builder                                                  71     37         71     37
+godot-2d-space-game                                               16     11         16     11
+godot-2d-topdown-template                                         16      5         16      5
+godot-3-beginner-2d-platformer                                     1      1          1      1
+godot-4-2d-visual-novel                                           19      9         19      9
+godot-4-3d-third-person-controller                                25      9         25      9
+godot-4-procedural-generation                                     35     19          0      0
+godot-aseprite-wizard                                            120     30          0      0
+godot-chess                                                        1      1          1      1
+godot-debug-menu                                                   6      1          0      0
+godot-demo-projects                                              253     84          0      0
+godot-gameplay-systems                                            73     22          0      0
+godot-mod-loader                                                  61     31          0      0
+godot-open-rpg                                                    35     25         35     25
+godot-open-rts                                                   191     60        191     60
+godot-port                                                       108     24        108     24
+godot-resources-as-sheets-plugin                                  22     13          0      0
+godot-road-generator                                              98     31          0      0
+godot-rocket-league                                                8      2          8      2
+godot-start                                                       25     11          0      0
+godot-statecharts                                                 47     20          0      0
+godot-steering-ai-framework                                        2      2          0      0
+godot-tactical-rpg                                                39     15         39     15
+godot-tiny-mmo                                                   190     55        190     55
+godot-visual-effects                                              42     19          0      0
+godot-xr-template                                                  3      1          3      1
+godot-xr-tools                                                    57     24          0      0
+godot_autobattler_course                                          25     11         25     11
+godot_dialogue_manager                                           148     20          0      0
+godot_heightmap_plugin                                           304     47          0      0
+godot_input_helper                                                31      5          0      0
+godot_little_camera_preview                                        6      3          0      0
+godot_open_star_fighter                                            3      1          3      1
+godot_sound_manager                                                3      1          0      0
+godot_spatial_gardener                                           296     54          0      0
+godots                                                            48     25          0      0
+holoDelta                                                         19      7         19      7
+jdungeon                                                         121     67        121     67
+knakk                                                             43     15         43     15
+learn-gdscript                                                   261     85          0      0
+limbo-godot                                                        7      4          7      4
+malware-slayer                                                    88     38         88     38
+material-maker                                                   146     45          0      0
+moddable-platformer                                               15      5         15      5
+museum-of-all-things                                              55     15         55     15
+nakama-godot                                                      52     12          0      0
+netfox                                                            55     21          0      0
+opengs                                                            29      7         29      7
+paddles_balls_blocks_walls                                        10      6         10      6
+pandora                                                          177     68          0      0
+phantom-camera                                                    65     18          0      0
+poder-solar                                                        1      1          1      1
+protongraph                                                      107     26          0      0
+ridiculous_coding                                                  7      2          0      0
+scatter                                                           59     30          0      0
+script-ide                                                        62      5          0      0
+simgine                                                            9      7          9      7
+soccer-course                                                     71     29         71     29
+sourceofmana                                                     381     73        381     73
+starship-olympics                                                171     57        171     57
+tanks-of-freedom-ii                                              477     46        477     46
+template-beat-em-up                                               95     40         95     40
+the-mirror                                                       116     56          0      0
+tower-defense-godot4                                              18      8         18      8
+tower-defense-tutorial                                             4      2          4      2
+tps-demo                                                          25      8         25      8
+unidot_importer                                                  136     21          0      0
+unitypackage_godot                                                15      6          0      0
+unto-deepest-depths-prototype                                     11      4         11      4
+voxelgame                                                        132     35        132     35
+vpuppr                                                            54     20          0      0
+wutw-public                                                       75     33         75     33
+youtd2                                                           275     45        275     45
+
+## Samples per category
+  1 literal
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/EditorPropertyExposer.gd:13  const base64_charset := "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+      godot-open-rpg/src/combat/actions/battler_action_attack.gd:4  const ATTACK_DISTANCE: = 350.0
+  11 other
+      TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/other/theme_list_cfg/theme_list_cfg.gd:9  const CUSTOM_THEME = preload(PathConsts.RES + "resources/global/theme/tres/theme.tres")
+      OpMon/Data/GodotResources/Items/ItemEffects/StatPlus.gd:5  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  2 StringName/NodePath
+      godot-port/Assets/UI/Pages/NewGameUI/MapList.gd:8  const MAP_NAME_META_KEY: StringName = &"MapName"
+      starship-olympics/godot/godot4/arena/managers/ItemManager.gd:11  const TIME_CIRCUITS := &"time-circuits"
+  3 preload
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/FrozenBlock.gd:4  const SMOKE_PARTICLE = preload("uid://d08nv4qtfouv1")
+      godot-open-rpg/src/combat/ui/battler_entry/ui_energy_bar.gd:4  const ENERGY_POINT_SCENE: = preload("res://src/combat/ui/battler_entry/ui_energy_point.tscn")
+  4 array
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:23  const NO_SFX_ITEMS := ["res://Scenes/Prefabs/Entities/Items/SpinningRedCoin.tscn","res://Scenes/Prefabs/Entiti
+      godot-open-rpg/overworld/maps/house/wand_pedestal_interaction.gd:8  const VALID_ITEMS: = [
+  5 dict
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:652  const MATERIALS := {
+      godot-open-rpg/src/combat/elements.gd:10  const ADVANTAGES: = {
+  6 constructor
+      Super-Mario-Bros.-Remastered-Public/Scripts/Parts/DropShadowRendererSmooth.gd:9  const day_colour := Color("000000")
+      godot-open-rpg/src/combat/ui/battler_entry/ui_energy_point.gd:5  const SELECTED_OFFSET := Vector2(0.0, -6.0)
+  7 builtin constant
+      Super-Mario-Bros.-Remastered-Public/Scripts/Parts/GravityInverter.gd:4  const new_vector = Vector2.UP
+      godot-open-rpg/src/common/screen_transitions/screen_transition.gd:22  const COVERED: = Color.WHITE
+  8 name/expr
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:8  const EMPTY_BLOCK = ("res://Scenes/Prefabs/Blocks/EmptyBlock.tscn")
+      godot-open-rpg/src/field/gameboard/pathfinder.gd:12  const FLAG_ALLOW_SOURCE_OCCUPANT = 1 << 0
+  9 utility call
+      tps-demo/enemies/red_robot/red_robot.gd:13  const PLAYER_AIM_TOLERANCE_DEGREES = deg_to_rad(15.0)
+      godot-2d-space-game/project/ships/enemies/pirate/pirate_ship.gd:9  const DECELERATION_RADIUS := deg_to_rad(45)
+  class
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:8  const EMPTY_BLOCK = ("res://Scenes/Prefabs/Blocks/EmptyBlock.tscn")
+      godot-open-rpg/overworld/maps/house/wand_pedestal_interaction.gd:8  const VALID_ITEMS: = [
+      Microverse/script/CharacterManager.gd:5  const DIALOG_DISTANCE = 100.0  # 触发对话的距离阈值
+  inner class
+      godot-open-rts/source/Constants.gd:14  const CONTROLLER_SCENES = {
+      Reia/_old_code/presentation/ui/themes/theme_gen.gd:6  const PURE = Color("#FFFFFF")
+      starship-olympics/godot/godot4/elements/blocks/Block.gd:90  const TILEMAP_START_X := 20
+  local
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/PlantRotation.gd:7  const OFFSETS = [Vector2.ZERO, Vector2(0, -16), Vector2(-16, 0), Vector2(16, 0)]
+      godot-4-3d-third-person-controller/player/grenade_launcher.gd:94  const TIME_STEP := 0.05
+      OpenVic/game/src/Autoload/Settings/GameSettings.gd:400  const RATIO_FOR_LINEAR: float = 100
+
+## Sample per subcategory
+  1 literal | bool                                   godot-open-rts/source/match/units/traits/Movement.gd:9  const STUCK_PREVENTION_ENABLED = true
+  1 literal | float                                  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Enemies/MontyMole.gd:5  const MOVE_SPEED := 100.0
+  1 literal | int                                    Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/SignalExposer.gd:16  const RECURSIVE_LIMIT := 500
+  1 literal | null                                   TileMapDual/addons/TileMapDual/set.gd:7  const DUMMY = null
+  1 literal | string                                 Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/EditorPropertyExposer.gd:13  const base64_charset := "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+  11 other | preload                                 TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/other/theme_list_cfg/theme_list_cfg.gd:9  const CUSTOM_THEME = preload(PathConsts.RES + "resources/global/theme/tres/theme.tres")
+  2 StringName/NodePath | &                          godot-port/Assets/UI/Pages/NewGameUI/MapList.gd:8  const MAP_NAME_META_KEY: StringName = &"MapName"
+  2 StringName/NodePath | ^                          template-beat-em-up/addons/quiver.beat_em_up/characters/ai/states/quiver_ai_go_to_position.gd:14  const INVALID_NODEPATH = ^"invalid"
+  3 preload | .gd                                    godot-open-rts/source/Globals.gd:3  const Options = preload("res://source/data-model/Options.gd")
+  3 preload | other: .fnt                            Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/Global.gd:663  const FONT = preload("res://Assets/Sprites/UI/Font.fnt")
+  3 preload | other: .gdshader                       _original_client/scenes/projectiles/projectile.gd:4  const GPUTrailShader = preload("res://addons/gpu_trail/shaders/trail.gdshader")
+  3 preload | other: .glsl                           Project-Heartbeat/scripts/diva_texture_processor.gd:38  const SHADER: RDShaderFile = preload("res://scripts/diva_yuv_to_rgb_conversion.glsl")
+  3 preload | other: .gltf                           the-mirror/mirror-godot-app/gameplay/space_object/placeholder/placeholder.gd:7  const ERROR_SCENE: PackedScene = preload("error/error_recreation.gltf")
+  3 preload | other: .jpg                            Sky3D/addons/sky_3d/src/SkyDome.gd:16  const STARMAP_TEXTURE: Texture2D = preload("res://addons/sky_3d/assets/thirdparty/textures/milkyway/Milkyway.j
+  3 preload | other: .json                           sourceofmana/sources/gui/Settings.gd:3  const creditsJson : JSON						= preload("res://data/db/credits.json")
+  3 preload | other: .material                       youtd2/src/singletons/preloads.gd:26  const outline_shader: Material = preload("res://resources/shaders/glowing_outline.material")
+  3 preload | other: .mp3                            Super-Mario-Bros.-Remastered-Public/Scripts/Classes/UI/GameHUD.gd:229  const HURRY_UP = preload("res://Assets/Audio/BGM/HurryUp.mp3")
+  3 preload | other: .ogg                            Legacy_SM63Redux/scenes/menus/level_designer/music.gd:4  const song_1 = preload("./music/editor1.ogg")
+  3 preload | other: .otf                            youtd2/src/singletons/preloads.gd:39  const friz_font: Font = preload("res://assets/fonts/Friz Quadrata Std Medium.otf")
+  3 preload | other: .png                            Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/SignalExposer.gd:25  const ARROW = preload("res://Assets/Sprites/Editor/Gizmos/ConnectionArrow.png")
+  3 preload | other: .stylebox                       Legacy_SM63Redux/scenes/menus/visual_pipescript/node.gd:8  const STYLEBOX = preload("res://scenes/menus/visual_pipescript/line_edit_style.stylebox")
+  3 preload | other: .svg                            Slay-The-Robot/scripts/combatants/BaseCombatant.gd:26  const BLOCK_TEXTURE: Texture = preload("res://icon.svg")
+  3 preload | other: .tres                           Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/AudioManager.gd:129  const MUSIC_BASE = preload("uid://da4vqkrpqnma0")
+  3 preload | other: .ttf                            godot-port/Assets/UI/Dialog/Notice230ConfirmModal.gd:12  const _FONT_TITLE: Font = preload("res://External/Fonts/LinLibertineB.ttf")
+  3 preload | other: .wav                            Super-Mario-World-Remastered-Public/Scripts/Classes/Levels/FishingLevel.gd:12  const PULL_ITEM_FROM_WATER = preload("res://Assets/Audio/SFX/pullItemFromWater.wav")
+  3 preload | other: res://                          template-beat-em-up/addons/quiver.beat_em_up/custom_inspectors/ai_states_dropdown/inspector_plugin.gd:12  const QuiverPropertyAiStateDropDown = preload(
+  3 preload | other: uid://                          Super-Mario-Bros.-Remastered-Public/Scripts/UI/ThemeSelect.gd:5  const THEME_ICONS_DAY = preload("uid://cw5c58yiaeh4j")
+  3 preload | scene                                  Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/FrozenBlock.gd:4  const SMOKE_PARTICLE = preload("uid://d08nv4qtfouv1")
+  4 array | all literals                             Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:23  const NO_SFX_ITEMS := ["res://Scenes/Prefabs/Entities/Items/SpinningRedCoin.tscn","res://Scenes/Prefabs/Entiti
+  4 array | empty                                    Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/Global.gd:82  const FORCE_DAY_THEMES := []
+  4 array | includes constructor                     Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/PlantRotation.gd:7  const OFFSETS = [Vector2.ZERO, Vector2(0, -16), Vector2(-16, 0), Vector2(16, 0)]
+  4 array | includes names                           Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/SnakeBlock.gd:17  const DIRECTIONS := [
+  4 array | includes preload                         Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/MusicNoteBlock.gd:3  const INTRUMENT_SFX := [
+  5 dict | all literals                              Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:652  const MATERIALS := {
+  5 dict | empty                                     Reia/godot/core/features/spawning_and_zones/zone_registry.gd:16  const CHUNK_DIRS: Dictionary[int, String] = {
+  5 dict | includes constructor                      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Entities/Objects/Explosion.gd:4  const destructable_tiles := {Vector2i(4, 0): Rect2(32, 160, 16, 16), Vector2i(4, 2): Rect2(48, 160, 16, 16)}
+  5 dict | includes names                            Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/ChallengeModeHandler.gd:26  const CHALLENGE_TARGETS := {
+  5 dict | includes other calls                      the-mirror/mirror-godot-app/gameplay/space_object/space_object.gd:60  const PLAYER_DISTANCE_TO_PRIORITY_MAP = {
+  5 dict | includes preload                          godot-open-rpg/src/common/inventory.gd:12  const ICONS: = {
+  6 constructor | AABB                               gaea/testing/graph_nodes/filters/distance_filter.gd:4  const AREA: AABB = AABB(Vector3.ZERO, Vector3(16, 16, 16))
+  6 constructor | Color                              Super-Mario-Bros.-Remastered-Public/Scripts/Parts/DropShadowRendererSmooth.gd:9  const day_colour := Color("000000")
+  6 constructor | Plane                              godot-open-rts/source/match/MatchConstants.gd:32  const PLANE = Plane(Vector3.UP, Y)
+  6 constructor | Rect2                              wutw-public/wutw/map/map.gd:17  const RIGHT_SETTLEMENT_LIST_RECT := Rect2(1525, 340, 375, 400)  # HACK
+  6 constructor | Transform3D                        OpenLiberty/scripts/core/resources/utils.gd:4  const GTA_TO_GODOT := Transform3D(
+  6 constructor | Vector2                            godot-open-rpg/src/combat/ui/battler_entry/ui_energy_point.gd:5  const SELECTED_OFFSET := Vector2(0.0, -6.0)
+  6 constructor | Vector2i                           godot-open-rpg/src/field/gameboard/gameboard.gd:23  const INVALID_CELL: = Vector2i(-1, -1)
+  6 constructor | Vector3                            voxelgame/project/blocky_game/items/rocket_launcher/debris.gd:3  const GRAVITY = Vector3(0, -14, 0)
+  6 constructor | in expression                      Legacy_SM63Redux/classes/player/fludd_sprite.gd:107  const SPRAY_ORIGIN_DIVE = SPRAY_ORIGIN + Vector2(1, 2)
+  7 builtin constant | Color.X                       godot-open-rpg/src/common/screen_transitions/screen_transition.gd:22  const COVERED: = Color.WHITE
+  7 builtin constant | Vector2.X                     Super-Mario-Bros.-Remastered-Public/Scripts/Parts/GravityInverter.gd:4  const new_vector = Vector2.UP
+  8 name/expr | bare name                            godot-open-rts/source/match/IsometricCamera3D.gd:4  const EXPECTED_PROJECTION = PROJECTION_ORTHOGONAL
+  8 name/expr | bare name (PI/TAU/INF)               Castlevania-Remnants-of-Darkness/SampleProject/enemies/Decarabia/decarabia.gd:10  const ROTATION_PER_HUNDRED_SPEED: float = PI
+  8 name/expr | dotted name                          godot-open-rts/source/match/TerrainNavigation.gd:3  const DOMAIN = Constants.Match.Navigation.Domain.TERRAIN
+  8 name/expr | expression of literals only          Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Blocks/BlockClass.gd:8  const EMPTY_BLOCK = ("res://Scenes/Prefabs/Blocks/EmptyBlock.tscn")
+  8 name/expr | expression with names                Super-Mario-Bros.-Remastered-Public/Scripts/UI/ChallengeModeResults.gd:92  const mask = (1 << ChallengeModeHandler.CoinValues.R_COIN_1) | (1 << ChallengeModeHandler.CoinValues.R_COIN_2)
+  9 utility call | Color8                            knakk/Global/ColorPalette.gd:4  const PURPLE := Color8(64, 45, 186)
+  9 utility call | ceil                              SonicWorldsNext/Scripts/Gimmicks/Hanger.gd:35  const _CONTACT_TIME_LIMIT = ceil(12.0 * (1000.0 / 60.0))
+  9 utility call | deg_to_rad                        tps-demo/enemies/red_robot/red_robot.gd:13  const PLAYER_AIM_TOLERANCE_DEGREES = deg_to_rad(15.0)
+  9 utility call | in expression: pow                Legacy_SM63Redux/scenes/menus/title/title.gd:3  const FADE_SPEED = 1 / pow(2, 4)
+  9 utility call | in expression: sqrt               better-terrain/addons/better-terrain/BetterTerrainData.gd:181  const e := 1.0 / (2.0 * sqrt(3.0))
+  9 utility call | int                               godot-tiny-mmo/source/common/gameplay/basing/territory_flag.gd:20  const GRACE_MS: int = int(1.10 * 60 * 1000)
+  9 utility call | len                               unidot_importer/humanoid/human_trait.gd:234  const BoneCount := len(BoneName)
+  9 utility call | tan                               godot-demo-projects/2d/hexagonal_map/troll.gd:5  const TAN30DEG = tan(deg_to_rad(30))
+
+## Other / non-utility samples
+  TakinGodotTemplate/godot/root/autoload/configuration/configuration_controller/other/theme_list_cfg/theme_list_cfg.gd:9  const CUSTOM_THEME = preload(PathConsts.RES + "resources/global/theme/tres/theme.tres")
+  TakinGodotTemplate/godot/root/autoload/reference/asset_reference/asset_reference.gd:7  const MENU_DOODLE_2_LOOP: AudioStream = preload(
+  TakinGodotTemplate/godot/root/autoload/reference/asset_reference/asset_reference.gd:12  const CLICK_4: AudioStream = preload(PathConsts.SFX + "kenny_ui/ogg/click4.ogg")
+  TakinGodotTemplate/godot/root/autoload/reference/asset_reference/asset_reference.gd:13  const CLICK_5: AudioStream = preload(PathConsts.SFX + "kenny_ui/ogg/click5.ogg")
+  TakinGodotTemplate/godot/root/autoload/reference/asset_reference/asset_reference.gd:14  const MOUSECLICK_1: AudioStream = preload(PathConsts.SFX + "kenny_ui/ogg/mouseclick1.ogg")
+  TakinGodotTemplate/godot/root/autoload/reference/asset_reference/asset_reference.gd:15  const MOUSERELEASE_1: AudioStream = preload(PathConsts.SFX + "kenny_ui/ogg/mouserelease1.ogg")
+  OpMon/Data/GodotResources/Items/ItemEffects/StatPlus.gd:5  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Data/GodotResources/Moves/Effects/ChangeStatEffect.gd:5  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Objects/Item.gd:5  const BagCategory = preload("res://Objects/Enumerations.gd").BagCategory
+  OpMon/Objects/Move.gd:8  const Type = preload("res://Objects/Enumerations.gd").Type
+  OpMon/Objects/Nature.gd:5  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Objects/OpMon.gd:5  const Type = preload("res://Objects/Enumerations.gd").Type
+  OpMon/Objects/OpMon.gd:6  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Objects/OpMon.gd:7  const Status = preload("res://Objects/Enumerations.gd").Status
+  OpMon/Objects/OpMon.gd:8  const TYPE_EFFECTIVENESS = preload("res://Objects/Enumerations.gd").TYPE_EFFECTIVENESS
+  OpMon/Objects/OpMon.gd:9  const MOVE_ANIMATIONS = preload("res://Objects/Enumerations.gd").MOVE_ANIMATIONS
+  OpMon/Objects/OpMon.gd:160  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Objects/Species.gd:5  const Type = preload("res://Objects/Enumerations.gd").Type
+  OpMon/Objects/Species.gd:6  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Scenes/Battle/BattleScene.gd:5  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  OpMon/Scenes/Interface/Bag/Bag.gd:8  const Stats = preload("res://Objects/Enumerations.gd").Stats
+  sourceofmana/sources/actor/ActorCommons.gd:274  const NPAgentScene : PackedScene			= preload(Path.EntityComponent + "navigations/NPAgent.tscn")
+  sourceofmana/sources/actor/ActorCommons.gd:275  const PlayerAgentScene : PackedScene		= preload(Path.EntityComponent + "navigations/PlayerAgent.tscn")
+  sourceofmana/sources/actor/entity/components/Visual.gd:4  const LightSourceScene : PackedScene = preload(Path.EffectsPst + "LightSource.tscn")
+  sourceofmana/sources/camera/Camera.gd:4  const CameraScene : PackedScene = preload(Path.EntityComponent + "Camera.tscn")
+  sourceofmana/sources/gui/Chat.gd:4  const ChatLabelScene : PackedScene = preload(Path.GuiPst + "labels/ChatLabel.tscn")
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Viewer/CollectibleElement.gd:4  const FoundElement = preload("uid://cdl44ebe6tc0h").FoundElement
+  Metroidvania-System/addons/MetroidvaniaSystem/Database/Viewer/CollectibleFinder.gd:4  const FoundElement = preload("uid://cdl44ebe6tc0h").FoundElement
+  gd-YAFSM/addons/imjp94.yafsm/scenes/condition_editors/ValueConditionEditor.gd:4  const Comparation = preload("../../src/conditions/ValueCondition.gd").Comparation
+  Scene-Manager/tests/test_custom_animation_player.gd:5  const PlayerScene = preload(PLAYER_PATH)
+  learn-gdscript/course/lesson-11-time-delta/visuals/DemoRotatingSpriteFrame.gd:3  const _times := preload("./DemoRotatingTime.gd")._times;
+  MizGodotTools/items/item_db.gd:19  const ITEM_UI = preload(ITEMS_PATH + "item_ui.tscn")
+  MizGodotTools/items/item_db.gd:20  const ITEM_WORLD = preload(ITEMS_PATH + "item_world.tscn")
+  MizGodotTools/items/item_db.gd:22  const ERROR_SOUND = preload(ITEMS_PATH + ITEM_SFX_EXT % "placeholder_drop_inv")
+
+## Q4 preloaded .gd constants: uses in the declaring file
+  decls                all uses  1186 decls    0   games uses   221 decls    0
+  type                 all uses  1070 decls  459   games uses   130 decls   85
+  new                  all uses   494 decls  358   games uses    88 decls   83
+  member call X.f()    all uses   662 decls  253   games uses    35 decls   26
+  member X.NAME        all uses   872 decls  135   games uses   162 decls   17
+  other value use      all uses   129 decls  100   games uses    15 decls   15
+  unused in file: all 134 games 23
+
+## Q5 qualified const access
+  ClassName (other file)           all  4390 files  880 distinct 1128   games  1941 files  489 distinct  569
+  ClassName (same file)            all    92 files   17 distinct   43   games    80 files   12 distinct   35
+  Name.Inner(.Inner).CONST         all   150 files   50 distinct    0   games   135 files   46 distinct    0
+  autoload (other file)            all   971 files  275 distinct  298   games   842 files  233 distinct  243
+  autoload (same file)             all    36 files    5 distinct   18   games    36 files    5 distinct   18
+  instance.CONST (rough)           all   226 files   82 distinct  111   games   151 files   55 distinct   69
+  preload alias (other file)       all   346 files   68 distinct  133   games    67 files   11 distinct   22
+  self.CONST                       all   664 files   44 distinct    0   games   664 files   44 distinct    0
+  instance samples: [('actor', 'SPEED'), ('actor', 'SPRINT_MULTIPLIER'), ('array_type', 'SETTING_ARRAY_TYPE'), ('assembler', '_SIGNATURE'), ('asset_adapter', 'ASSET_TYPE_ANIM'), ('asset_adapter', 'ASSET_TYPE_MODEL'), ('asset_adapter', 'ASSET_TYPE_PREFAB'), ('asset_adapter', 'ASSET_TYPE_SCENE'), ('asset_adapter', 'ASSET_TYPE_TEXTURE'), ('asset_adapter', 'ASSET_TYPE_YAML'), ('asset_adapter', 'ASSET_TYPE_YAML_POST_MODEL'), ('audio_banks', 'MUSIC_BANK'), ('audio_banks', 'SOUND_BANK'), ('ball', 'BOUNCINESS'), ('body', 'TYPE'), ('builder', 'CLASS_BUILDING'), ('builder', 'CLASS_DAMAGE'), ('builder', 'CLASS_DECORATION'), ('builder', 'CLASS_FRAME'), ('builder', 'CLASS_GROUND'), ('builder', 'CLASS_HERO'), ('builder', 'CLASS_TERRAIN'), ('builder', 'CLASS_UNIT'), ('builder', 'SUB_CLASS_CONSTRUCTION'), ('builtins', 'GLOBALS'), ('builtins', 'VARIANTS'), ('c', 'MISSING'), ('caller', 'LOG_NAME'), ('card_ui', 'BASE_STYLEBOX'), ('card_ui', 'DRAG_STYLEBOX')]
+  all: class-level consts in class_name scripts: 5627, distinct accessed as ClassName.CONST from another file: 1128
+  games: class-level consts in class_name scripts: 3303, distinct accessed as ClassName.CONST from another file: 569
+  per repo ClassName.CONST (other file): [('sourceofmana', 611), ('godot_dialogue_manager', 553), ('boscaceoil-blue', 474), ('protongraph', 370), ('Arrow', 347), ('GodotProjectZero', 224), ('godot_heightmap_plugin', 182), ('FRU-Sim', 142), ('jdungeon', 123), ('template-beat-em-up', 91), ('abyssal-walker', 83), ('malware-slayer', 76), ('godot-port', 67), ('Metroidvania-System', 61), ('Lorien', 57), ('Open-Industry-Project-Godot', 50), ('godot-2d-builder', 47), ('knakk', 45), ('godot-4-2d-visual-novel', 44), ('youtd2', 41), ('Reia', 39), ('learn-gdscript', 39), ('Slay-The-Robot', 33), ('Castlevania-Remnants-of-Darkness', 32), ('Godot-Game-Template', 32), ('Super-Mario-Bros.-Remastered-Public', 30), ('cyclopsLevelBuilder', 28), ('GodSVG', 27), ('gd-YAFSM', 26), ('godot-tiny-mmo', 25), ('godot-demo-projects', 23), ('Friendslop-Template', 21), ('godot-2d-topdown-template', 20), ('RhythiaRewrite', 20), ('SmartShape2D', 20), ('gloot', 20), ('TakinGodotTemplate', 19), ('godot_autobattler_course', 19), ('material-maker', 19), ('MizGodotTools', 19), ('godot-road-generator', 17), ('godot-visual-effects', 17), ('netfox', 14), ('godot-tactical-rpg', 12), ('godot-xr-template', 12), ('_original_client', 12), ('deck_builder_tutorial', 9), ('godot-open-rpg', 8), ('wutw-public', 8), ('PankuConsole', 8), ('pandora', 8), ('Qodot', 7), ('godot-mod-loader', 7), ('Pixelorama', 7), ('Microverse', 6), ('godot-gameplay-systems', 6), ('godot-2d-adventure-tutorial', 4), ('Super-Mario-World-Remastered-Public', 3), ('devmoreir4__godot-3d-multiplayer-template', 3), ('gaea', 3), ('GodotDynamicInventorySystem', 2), ('starship-olympics', 2), ('OpenVic', 2), ('Legacy_SM63Redux', 2), ('DOGWALK', 2), ('the-mirror', 2), ('OpMon', 1), ('soccer-course', 1), ('dialogic', 1), ('TileMapDual', 1), ('godot_input_helper', 1), ('func_godot_plugin', 1), ('vpuppr', 1), ('godot-start', 1)]
+
+## Q6 constant positions
+  annotation args: any name                     all   303 files   64   games   132 files   11
+  annotation args: engine constant              all   180 files   54   games    16 files    5
+  annotation args: user const                   all     8 files    6   games     2 files    2
+  annotation args: user enum                    all   111 files    1   games   111 files    1
+  annotations with args                         all  3489 files    0   games  1723 files    0
+  default parameter values                      all  7257 files    0   games  3075 files    0
+  default value refers to builtin               all   188 files  118   games    99 files   70
+  default value refers to const                 all   290 files   90   games   193 files   48
+  default value refers to engine                all    63 files   33   games    10 files    5
+  default value refers to enum                  all   142 files  106   games    62 files   41
+  enum members with explicit value              all  1173 files    0   games   488 files    0
+  enum value refers to engine                   all    14 files    3   games     1 files    1
+  enum value refers to enum                     all    13 files    3   games     3 files    1
+  enum value refers to other                    all     1 files    1   games     1 files    1
+  enum value: literal                           all  1112 files  148   games   468 files   62
+  enum value: literal expression                all    33 files    4   games    15 files    2
+  match pattern alternatives                    all 12400 files    0   games  4579 files    0
+  match pattern: bare name -> const             all   380 files   44   games    72 files    9
+  match pattern: bare name -> engine            all   803 files  159   games   202 files   58
+  match pattern: bare name -> enum              all   100 files   23   games    36 files    5
+  match pattern: bare name -> other             all    40 files   11   games    16 files    4
+  match pattern: dotted name -> builtin         all    53 files   16   games    29 files    7
+  match pattern: dotted name -> const           all   201 files   24   games    37 files    6
+  match pattern: dotted name -> engine          all   324 files   43   games    32 files   11
+  match pattern: dotted name -> enum            all  3503 files  513   games  1767 files  286
+  match pattern: dotted name -> other           all   262 files   57   games   137 files   32
+  annotations with user const args: [('@export_placeholder', 6), ('@export_range', 2)] | games: [('@export_range', 2)]
+  annotation args: any name
+      wutw-public/wutw/_dev_tools/dev_card_creator.gd:19  @export_custom(PROPERTY_HINT_NONE, '', PropertyUsageFlags.PROPERTY_USAGE_EDITOR)
+      Godot4ThirdPersonCombatPrototype/scripts/beehave/execute_expression.gd:6  @export_placeholder(EXPRESSION_PLACEHOLDER) var expression_string: String = ""
+      godot-2d-topdown-template/scripts/Direction.gd:45  @export_enum(
+  annotation args: engine constant
+      wutw-public/wutw/_dev_tools/dev_card_creator.gd:19  @export_custom(PROPERTY_HINT_NONE, '', PropertyUsageFlags.PROPERTY_USAGE_EDITOR)
+      SonicWorldsNext/Tools/Timing/ProcessTimer.gd:20  @export_custom(PROPERTY_HINT_ENUM, "Physics,Idle")
+      GDWaterKart/player/karts/kart.gd:27  @export_custom(PROPERTY_HINT_NONE, "suffix:m/s") var boost_speed := 30.0
+  annotation args: user const
+      godot_autobattler_course/data/player/player_stats.gd:44  @export_range(1, MAX_LEVEL) var level: int : set = _set_level
+      beehave/addons/beehave/nodes/leaves/blackboard_compare.gd:20  @export_placeholder(EXPRESSION_PLACEHOLDER) var left_operand: String = ""
+  annotation args: user enum
+      sourceofmana/sources/network/Network.gd:36  @rpc("any_peer", "call_remote", "reliable", EChannel.CONNECT)
+  default value refers to builtin
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/SignalExposer.gd:241  func get_node_from_tile(layer_num := 0, tile_position := Vector2i.ZERO) -> Node:
+      Reia/_old_code/features/core/c_velocity.gd:6  func _init(vel: Vector3 = Vector3.ZERO) -> void:
+      voxelgame/project/addons/zylann.debug_draw/debug_draw.gd:64  func draw_cube(position: Vector3, size: float, color: Color = Color.WHITE, linger := 0):
+  default value refers to const
+      Reia/godot/client/ui/components/atoms/base_line_edit.gd:3  func _init(font_color := UIColors.Base.PURE_WHITE) -> void:
+      godot-port/Assets/UI/Dialog/Notice230ConfirmModal.gd:22  static func present(
+      starship-olympics/godot/godot4/global/TheUnlocker.gd:50  func get_unlocked_list(group_id: String, status: String = UNLOCKED) -> Array:
+  default value refers to engine
+      godot-tactical-rpg/data/models/config/tactics_config.gd:54  static func create_material(color_hex: Variant, texture: Texture2D = null, shaded_mode: BaseMaterial
+      starship-olympics/godot/globals/global.gd:394  func write_into_file(filepath: String, data: String, mode := FileAccess.READ_WRITE):
+      OpenVic/game/src/Autoload/CursorManager.gd:69  func set_compat_cursor(
+  default value refers to enum
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/ChallengeModeHandler.gd:77  static func set_value(coin_id := CoinValues.R_COIN_1, value := false) -> void:
+      Microverse/script/ai/memory/MemoryManager.gd:32  func add_memory(character: Node, memory_content: String, memory_type: MemoryType = MemoryType.PERSON
+      godot-2d-space-game/project/libraries/godot-steering-ai-framework/agents/gsai_character_body_2d_agent.gd:22  func _init(_body: CharacterBody2D, _movement_type: int = MovementType.SLIDE) -> void:
+  enum value refers to engine
+      Project-Heartbeat/scripts/Error.gd:7  CUSTOM_ERROR = ERR_PRINTER_ON_FIRE + 1
+      gaea/addons/gaea/runtime/resources/value.gd:11  NULL = TYPE_NIL
+      godot_spatial_gardener/addons/dreadpon.spatial_gardener/utility/globals.gd:276  MOUSE_BUTTON_MASK_LEFT = ( 1 < < ( MOUSE_BUTTON_LEFT - 1 ) )
+  enum value refers to enum
+      Legacy_SM63Redux/classes/pickup/fludd_box/fludd_pickup.gd:5  HOVER = Singleton . Nozzles . HOVER
+      gaea/addons/gaea/runtime/graph_nodes/root/sampling/noise/noise.gd:10  SIMPLEX = FastNoiseLite . NoiseType . TYPE_SIMPLEX
+  enum value refers to other
+      Legacy_SM63Redux/classes/entity/enemy/thwomp/thwomp.gd:46  IDLE = 0 BLINK = 1 ANGRY = 2 LOOKLEFT = 3 LOOKRIGHT = 4
+  enum value: literal
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Singletons/AudioManager.gd:109  NONE = - 1
+      Microverse/script/ai/memory/MemoryManager.gd:14  LOW = 1
+      tps-demo/enemies/red_robot/red_robot.gd:7  IDLE = 0
+  enum value: literal expression
+      TowDownGame/autoload/Utils.gd:10  ASSAULT_RIFLES = 1 < < 0
+      Legacy_SM63Redux/classes/player/player.gd:262  NEUTRAL = 1 < < 0
+      gdmaim/addons/gdmaim/obfuscator/script/tokenizer/token.gd:6  SYMBOL = 2 * * 0
+  match pattern: bare name -> const
+      starship-olympics/godot/combat/managers/MinefieldManager.gd:98  DIAMOND
+      Castlevania-Remnants-of-Darkness/SampleProject/Scripts/Event/first_trio_dialogue_event.gd:18  DIALOGUE_ID_JULIA_SHOWS_STONE
+      youtd2/src/game_scene/horadric_cube.gd:202  LEVEL_MOD_UNLUCKY
+  match pattern: bare name -> engine
+      Reia/godot/addons/map_editor/infrastructure/input/tools/select_tool_controller.gd:312  KEY_X
+      godot-port/Assets/UI/BasicControls/CaptionBlock.gd:31  NOTIFICATION_PRE_SORT_CHILDREN
+      voxelgame/project/blocky_game/blocks/blocks.gd:231  NOTIFICATION_PREDELETE
+  match pattern: bare name -> enum
+      top-down-action-rpg-template/scenes/characters/Enemy.gd:33  STATE_IDLE
+      GBM2K-Framework/Scripts/Grid/Types/actor_grid.gd:24  EMPTY
+      godot-chess/src/Main.gd:39  IDLE
+  match pattern: bare name -> other
+      godot-2d-space-game/project/ships/player/animated_bar.gd:34  stat_max
+      simgine/character_editor/profile.gd:40  _male_button
+      abyssal-walker/scripts/main/game/run_progression_service.gd:129  boss_objective_type
+  match pattern: dotted name -> builtin
+      Super-Mario-Bros.-Remastered-Public/Scripts/Parts/PipeGenerator.gd:61  Vector2 UP
+      SonicWorldsNext/Scripts/Objects/PhysicsObject.gd:339  Vector2 DOWN
+      aarpg-tutorial/Enemies/Scripts/vision_area.gd:31  Vector2 DOWN
+  match pattern: dotted name -> const
+      godot-tactical-rpg/data/models/world/combat/participant/service/turn.gd:40  res STAGE_SELECT_PAWN
+      voxelgame/project/blocky_game/player/interaction_common.gd:14  Blocks ROTATION_TYPE_NONE
+      Slay-The-Robot/autoload/HandManager.gd:205  HandManager EXHAUST_PILE
+  match pattern: dotted name -> engine
+      godot-FirstPersonStarter/Levels/Main/L_Main.gd:30  Input MOUSE_MODE_CAPTURED
+      voxelgame/project/blocky_game/debug_info.gd:39  MultiplayerPeer CONNECTION_DISCONNECTED
+      OpenVic/game/src/Autoload/Settings/GameSettings.gd:297  Window MODE_EXCLUSIVE_FULLSCREEN
+  match pattern: dotted name -> enum
+      Super-Mario-Bros.-Remastered-Public/Scripts/Classes/Components/ResourceSetterNew.gd:183  ResourceMode SPRITE_FRAMES
+      godot-open-rpg/overworld/maps/house/wand_pedestal_interaction.gd:125  Inventory ItemTypes RED_WAND
+      godot-open-rts/source/match/players/human/StructurePlacementHandler.gd:132  BlueprintPositionValidity COLLIDES_WITH_OBJECT
+  match pattern: dotted name -> other
+      godot-port/Assets/World/Components/Collectors/Collector.gd:182  self CollectorTypes LUMBERJACK_COLLECTOR
+      godot-tiny-mmo/source/client/gateway/gateway_error.gd:35  GatewayAPI ERR_BAD_CREDENTIALS
+      Slay-The-Robot/data/prototype/PlayerData.gd:312  EventData FailedEventPoolStrategies APPEND
+
+## Q7 const container mutation
+  CONST.duplicate(): {'duplicate()': 58} {'duplicate()': 39}
+
+## Q7b preloaded values held in consts: writes and calls (same file)
+  resource: X.duplicate()                  all    21   games    12
+  resource: X.instantiate()                all     5   games     4
+  resource: X.new()                        all     4   games     4
+  resource: X.other_method()               all    81   games    26
+  scene: X.instantiate()                   all   665   games   341
+  script: X.new()                          all   492   games    88
+  script: X.other_method()                 all   655   games    36
+  script: X.prop = ...                     all     3   games     0
+  resource: X.duplicate()
+  resource: X.instantiate()
+  resource: X.new()
+  resource: X.other_method()
+  scene: X.instantiate()
+  script: X.new()
+  script: X.other_method()
+  script: X.prop = ...
+      godot_spatial_gardener/addons/dreadpon.spatial_gardener/gardener/gardener.gd:94  Globals.use_precise_LOD_distances = 	FunLib.get_setting_safe("dreadpons_spatial_gardener/p
+      godot_spatial_gardener/addons/dreadpon.spatial_gardener/gardener/gardener.gd:95  Globals.use_precise_camera_frustum = 	FunLib.get_setting_safe("dreadpons_spatial_gardener/
+      godot_spatial_gardener/testing/tests/test_base.gd:38  Global.force_readable_node_names = true

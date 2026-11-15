@@ -1,0 +1,336 @@
+{
+ "summary": {
+  "games": {
+   "child_scripts": 4047,
+   "multi_host_type": 348,
+   "cross_branch_hosts": 171,
+   "cross_branch_hosts_plain_Node": 52
+  },
+  "demos": {
+   "child_scripts": 291,
+   "multi_host_type": 5,
+   "cross_branch_hosts": 3,
+   "cross_branch_hosts_plain_Node": 0
+  },
+  "plugins/tools": {
+   "child_scripts": 1380,
+   "multi_host_type": 141,
+   "cross_branch_hosts": 105,
+   "cross_branch_hosts_plain_Node": 24
+  }
+ },
+ "plain_node_cross_branch": [
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/ResourceSetterNew.gd",
+   "host_types": "AnimatedSprite2D=16720;Node=8884;Sprite2D=3759;TextureRect=1294;CPUParticles2D=963;Control=650;NinePatchRect=586;CharacterBody2D=311;TileMapLayer=103;GPUParticles2D=56;AudioStreamPlayer=9;Node2D=7;HBoxContainer=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Parts/LabelFontChanger.gd",
+   "host_types": "HBoxContainer=1202;Control=103;Label=81;Node2D=38;Node=26;Button=5;CanvasLayer=2;PanelContainer=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Parts/ColourPaletteSampler.gd",
+   "host_types": "ColorRect=636;Node2D=317;TextureRect=18;Node=18;CanvasLayer=2"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Parts/TextShadowColourChanger.gd",
+   "host_types": "Label=221;Node2D=39;Node=24;CanvasLayer=2"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Parts/SpriteFramesToJsonConverter.gd",
+   "host_types": "Node2D=760;CharacterBody2D=510;AnimatableBody2D=5;Node=3;StaticBody2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/ResourceSetter.gd",
+   "host_types": "Sprite2D=746;AudioStreamPlayer=330;Node2D=318;AudioStreamPlayer2D=27;AnimatedSprite2D=27;GPUParticles2D=26;TextureRect=4;NinePatchRect=2;Node=1;TileMapLayer=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/EditorPropertyExposer.gd",
+   "host_types": "Node2D=1150;CharacterBody2D=1114;AnimatableBody2D=783;StaticBody2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/TrackJoint.gd",
+   "host_types": "CharacterBody2D=1759;AnimatableBody2D=790;Node2D=184;StaticBody2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/LevelPersistance.gd",
+   "host_types": "CharacterBody2D=1362;AnimatableBody2D=740;Node2D=585"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/EnemyPlayerDetection.gd",
+   "host_types": "CharacterBody2D=2093;AnimatedSprite2D=659;Node2D=115;Area2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/GibSpawner.gd",
+   "host_types": "CharacterBody2D=2498;Node2D=104;AnimatedSprite2D=10"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/ShellDetection.gd",
+   "host_types": "CharacterBody2D=1648;AnimatedSprite2D=659;Node2D=6"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/FireballDetection.gd",
+   "host_types": "CharacterBody2D=1851;AnimatedSprite2D=659;Node2D=6"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Parts/EditorToggleDetection.gd",
+   "host_types": "Node2D=658;CharacterBody2D=68;AnimatableBody2D=8;Node=1;StaticBody2D=1;Area2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/PlantRotation.gd",
+   "host_types": "AnimatedSprite2D=659;CharacterBody2D=655"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/ExplosionDetection.gd",
+   "host_types": "CharacterBody2D=1882;AnimatedSprite2D=659;StaticBody2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Parts/EditorVisibleNode.gd",
+   "host_types": "Node2D=1454;AnimatableBody2D=413;CharacterBody2D=8;Area2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/SecondQuestReplaceComponent.gd",
+   "host_types": "CharacterBody2D=1101;Node2D=230;StaticBody2D=104;AnimatableBody2D=45"
+  },
+  {
+   "group": "games",
+   "repo": "Super-Mario-Bros.-Remastered-Public",
+   "script": "Scripts/Classes/Components/FireDetection.gd",
+   "host_types": "CharacterBody2D=2;StaticBody2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/DebugComponent.gd",
+   "host_types": "CharacterBody2D=5;Sprite2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/Combat/DamageComponent.gd",
+   "host_types": "CharacterBody2D=5;Area2D=4;Node2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/Combat/FactionComponent.gd",
+   "host_types": "CharacterBody2D=13;RigidBody2D=5;Area2D=4;Node2D=2;Sprite2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/Combat/GunComponent.gd",
+   "host_types": "CharacterBody2D=8;RigidBody2D=5;Sprite2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/Movement/TileBasedPositionComponent.gd",
+   "host_types": "Sprite2D=4;CharacterBody2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/Physics/AreaContactComponent.gd",
+   "host_types": "CharacterBody2D=1;Sprite2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Components/Visual/CameraComponent.gd",
+   "host_types": "CharacterBody2D=19;Sprite2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "comedot",
+   "script": "Scripts/Gameplay/Spawner.gd",
+   "host_types": "Marker2D=9;Area2D=6"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/addons/ECM/Entity.gd",
+   "host_types": "Area2D=1435;StaticBody2D=1113;RigidBody2D=924;RayCast2D=88;Node2D=2;Line2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/combat/traits/Intro.gd",
+   "host_types": "Node=7;RigidBody2D=2;AnimationPlayer=1"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/godot4/traits/Target.gd",
+   "host_types": "RigidBody2D=33;Area2D=33"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/combat/traits/Owned.gd",
+   "host_types": "Area2D=1303;RigidBody2D=308;Node2D=107;StaticBody2D=3"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/combat/traits/Conquerable.gd",
+   "host_types": "Area2D=4233;RigidBody2D=90"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/combat/traits/NavigationZone.gd",
+   "host_types": "StaticBody2D=127;Node2D=106;Polygon2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/addons/vshapes/VRoundedRect.gd",
+   "host_types": "Node2D=21;Area2D=8;StaticBody2D=5"
+  },
+  {
+   "group": "games",
+   "repo": "starship-olympics",
+   "script": "godot/addons/vshapes/VMultiBeveledRect.gd",
+   "host_types": "Node2D=2;StaticBody2D=1;Area2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "TakinGodotTemplate",
+   "script": "godot/root/scenes/component/audio/button_audio/button_audio.gd",
+   "host_types": "Button=169;OptionButton=36;ConfirmationDialog=26;TextureButton=3"
+  },
+  {
+   "group": "games",
+   "repo": "TakinGodotTemplate",
+   "script": "godot/root/scenes/component/control/control_grab_focus/control_grab_focus.gd",
+   "host_types": "VBoxContainer=6;HBoxContainer=5;MarginContainer=2"
+  },
+  {
+   "group": "games",
+   "repo": "deck_builder_tutorial",
+   "script": "scenes/modifier_handler/modifier_handler.gd",
+   "host_types": "Area2D=20;Node2D=2;Control=1"
+  },
+  {
+   "group": "games",
+   "repo": "Cats-Godot4-Modular-Souls-like-Template",
+   "script": "utility scripts/signal_caller.gd",
+   "host_types": "AnimatedSprite3D=27;AnimationPlayer=4"
+  },
+  {
+   "group": "games",
+   "repo": "Cats-Godot4-Modular-Souls-like-Template",
+   "script": "utility scripts/signal_switch.gd",
+   "host_types": "GPUParticles3D=5;OmniLight3D=3;AudioStreamPlayer3D=3;MeshInstance3D=2;CanvasLayer=2"
+  },
+  {
+   "group": "games",
+   "repo": "Castlevania-Remnants-of-Darkness",
+   "script": "SampleProject/Scripts/System/FocusSlider.gd",
+   "host_types": "GridContainer=8;VBoxContainer=5"
+  },
+  {
+   "group": "games",
+   "repo": "Castlevania-Remnants-of-Darkness",
+   "script": "SampleProject/Scripts/Projectile.gd",
+   "host_types": "RigidBody2D=22;Node2D=3;StaticBody2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "desksaw",
+   "script": "Scripts/nimpo/properties.gd",
+   "host_types": "RigidBody2D=10;StaticBody2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "GodotProjectZero",
+   "script": "scenes/component/tween/simple_tween/simple_tween.gd",
+   "host_types": "MarginContainer=35;Node=33;TextureRect=8;Control=6;CharacterBody2D=3"
+  },
+  {
+   "group": "games",
+   "repo": "GodotProjectZero",
+   "script": "scenes/component/shake_shader_component/shake_shader_component.gd",
+   "host_types": "TextureRect=32;Label=12"
+  },
+  {
+   "group": "games",
+   "repo": "threadbare",
+   "script": "scenes/game_logic/talk_behavior.gd",
+   "host_types": "CharacterBody2D=65;Area2D=47;Node2D=3"
+  },
+  {
+   "group": "games",
+   "repo": "threadbare",
+   "script": "scenes/game_elements/fx/world_rewoven/components/tile_map_mask_bounds.gd",
+   "host_types": "TileMapLayer=7;CanvasGroup=5"
+  },
+  {
+   "group": "games",
+   "repo": "threadbare",
+   "script": "scenes/quests/story_quests/el_hilo_que_no_teji/shared/scripts/regla_hilos_hud.gd",
+   "host_types": "CanvasLayer=5;Node2D=2"
+  },
+  {
+   "group": "games",
+   "repo": "godot-2d-topdown-template",
+   "script": "scripts/state_machine/state_machine.gd",
+   "host_types": "Sprite2D=23;Node2D=9;CharacterBody2D=5;Node=1"
+  },
+  {
+   "group": "games",
+   "repo": "godot_autobattler_course",
+   "script": "components/scene_spawner.gd",
+   "host_types": "Node=5;Node2D=2;VBoxContainer=2;Control=2;Area2D=1"
+  },
+  {
+   "group": "games",
+   "repo": "godot-2d-adventure-tutorial",
+   "script": "classes/Stats.gd",
+   "host_types": "CharacterBody2D=4;CanvasLayer=1"
+  },
+  {
+   "group": "games",
+   "repo": "godot-rocket-league",
+   "script": "scripts/input.gd",
+   "host_types": "CharacterBody3D=1;RigidBody3D=1"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+a script preloads a scene that has it: 2
+cycles of scripts only: 11
+cycles of scripts only, files: 25
+cycles through a scene or a resource: 6
+cycles through a scene or a resource, files: 23
+first-party scenes and resources: 25115
+first-party scripts: 15022
+preloads of a scene, a resource or a script: 4363
+preloads of one not found: 658
+scripts with a preload: 2088
+self: youtd2/src/items/item_drop.gd -> src/items/item_drop.tscn (game)
+self: youtd2/src/ui/title_screen/online/match_card.gd -> src/ui/title_screen/online/match_card.tscn (game)
+scene cycle: youtd2 (game): src/items/item_drop.gd, src/items/item_drop.tscn
+scene cycle: youtd2 (game): src/ui/title_screen/online/match_card.gd, src/ui/title_screen/online/match_card.tscn
+script cycle: RhythiaRewrite (game): scripts/game/controllers/PlayerController.gd, scripts/game/controllers/ReplayPlayerController.gd, scripts/game/controllers/SoloPlayerController.gd
+scene cycle: paddles_balls_blocks_walls (game): scenes/blocks/block_green.tscn, scenes/blocks/seed.tscn, scripts/blocks/block_green.gd, scripts/blocks/seed.gd
+script cycle: Metroidvania-System (plugin): addons/MetroidvaniaSystem/Template/Scripts/MetSysGame.gd, addons/MetroidvaniaSystem/Template/Scripts/MetSysModule.gd
+script cycle: gdmaim (plugin): addons/gdmaim/obfuscator/string_ref.gd
+script cycle: gdmaim (plugin): addons/gdmaim/settings.gd
+script cycle: gdmaim (plugin): addons/gdmaim/obfuscator/script/parser/ast.gd, addons/gdmaim/obfuscator/script/tokenizer/token.gd, addons/gdmaim/obfuscator/symbol_table.gd
+script cycle: gdmaim (plugin): addons/gdmaim/export_plugin.gd, addons/gdmaim/godot_files.gd
+script cycle: godot_spatial_gardener (plugin): addons/dreadpon.spatial_gardener/toolshed/toolshed_brush.gd, addons/dreadpon.spatial_gardener/transplanter/transplanter.gd
+script cycle: pandora (plugin): addons/pandora/model/entity.gd, addons/pandora/util/script_util.gd
+scene cycle: script-ide (plugin): addons/script-ide/outline/outline_container.gd, addons/script-ide/outline/outline_container.tscn, addons/script-ide/override/override_popup.gd, addons/script-ide/override/override_popup.tscn, addons/script-ide/plugin.gd, addons/script-ide/quickopen/quick_open_popup.gd, addons/script-ide/quickopen/quick_open_popup.tscn, addons/script-ide/tabbar/multiline_tab_bar.gd, addons/script-ide/tabbar/multiline_tab_bar.tscn
+script cycle: gloot (plugin): addons/gloot/editor/undoables.gd
+script cycle: gloot (plugin): addons/gloot/core/item_count.gd
+script cycle: godot-admob-plugin (plugin): platforms/godot_editor/addons/admob/internal/mock/mock_ad_view_plugin.gd, platforms/godot_editor/addons/admob/internal/mock/mock_admob_factory.gd, platforms/godot_editor/addons/admob/internal/mock/mock_app_open_ad_plugin.gd, platforms/godot_editor/addons/admob/internal/mock/mock_interstitial_ad_plugin.gd, platforms/godot_editor/addons/admob/internal/mock/mock_native_overlay_ad_plugin.gd, platforms/godot_editor/addons/admob/internal/mock/mock_rewarded_ad_plugin.gd, platforms/godot_editor/addons/admob/internal/mock/mock_rewarded_interstitial_ad_plugin.gd
+scene cycle: GodSVG (tool): src/ui_parts/settings_menu.gd, src/ui_widgets/settings_content_generic.gd, src/ui_widgets/settings_content_generic.tscn
+scene cycle: GodSVG (tool): src/ui_widgets/color_picker_layout_popup.gd, src/ui_widgets/color_picker_layout_popup.tscn, src/ui_widgets/good_color_picker.gd
