@@ -97,15 +97,22 @@ def parse_counts(suffix):
         a = list(map(int, m.groups()[1:])); ancestor[m[1]] = dict(same=sum(a[:2]), sub=sum(a[2:4]), no_init=sum(a[4:6]))
     rows[25] = {label: statistic(ancestor, key) for label, key in [('本场景成员', 'same'), ('子场景内部成员', 'sub'), ('无初值', 'no_init')]}
     classes = {}
-    for m in re.finditer(r'^(\S+): (\d+) of (\d+) classes would break;([^\n]*)', (base / 'class_level_access.txt').read_text(encoding='utf-8'), re.M):
+    for m in re.finditer(r'^(\S+): (\d+) of (\d+) classes would break(?: \(([^)]*)\))?;([^\n]*)', (base / 'class_level_access.txt').read_text(encoding='utf-8'), re.M):
         classes[m[1]] = {'breaking': int(m[2]), 'classes': int(m[3])}
+        for short in ('static', 'type', 'const', 'unnamed'):
+            hit = re.search(rf'\b{short} (\d+)', m[4] or '')
+            classes[m[1]][f'by_{short}'] = int(hit[1]) if hit else 0
         for key in ('static method', 'enum, constant or inner class as a type', 'in a constant expression'):
-            hit = re.search(re.escape(key) + r' (\d+)', m[4]); classes[m[1]][key] = int(hit[1]) if hit else 0
-    rows[26] = {label: statistic(classes, key) for label, key in [('受影响类', 'breaking'), ('静态调用', 'static method'), ('作类型', 'enum, constant or inner class as a type'), ('常量表达式', 'in a constant expression')]}
+            hit = re.search(re.escape(key) + r' (\d+)', m[5]); classes[m[1]][key] = int(hit[1]) if hit else 0
+    rows[26] = {label: statistic(classes, key) for label, key in [
+        ('受影响类', 'breaking'), ('静态类', 'by_static'), ('类型类', 'by_type'),
+        ('未命名', 'by_unnamed'), ('静态调用', 'static method'),
+        ('作类型', 'enum, constant or inner class as a type'), ('常量式', 'in a constant expression')]}
     metadata = load(ROOT / 'corpus' / ('v1.json' if suffix == 'results' else 'v2.json'))
     games = {r['name'] for r in metadata['repos'] if r['group'] == 'game'}
     game_classes = {name: value for name, value in classes.items() if name in games}
-    rows[26]['游戏受影响类'] = statistic(game_classes, 'breaking')
+    rows[26]['游戏类'] = statistic(game_classes, 'breaking')
+    rows[26]['游戏静态类'] = statistic(game_classes, 'by_static')
     rows[26]['游戏具名类'] = statistic(game_classes, 'classes')
     init = load(base / 'init_params.json')
     rows[27] = {'Node': statistic(init, ['Node, some required', 'Node, all with defaults']), 'Resource': statistic(init, ['Resource, some required', 'Resource, all with defaults'])}
@@ -140,7 +147,7 @@ def parse_counts(suffix):
 def main():
     sets = [parse_counts(s) for s in ('results', 'results-v2', 'results-v2-human')]
     source = (ROOT / 'surveys/corpus-counts.md').read_text(encoding='utf-8')
-    labels = [ln.split('|')[1:4] for ln in source.splitlines() if ln.startswith('| ')][1:]
+    labels = [ln.split('|')[1:4] for ln in source.splitlines() if ln.startswith('| ')][1:1 + len(TITLES)]
     result = {}
     basis = {7: '旧零值前提失效；见样本', 13: '线程用途更广；推迟依据减弱',
              14: '默认参数覆盖率下降；见复核', 16: '安全特例前提失效；规则未改',
@@ -167,7 +174,7 @@ def main():
     result['code_lines'] = [s[1] for s in sets]
     out = ROOT / 'surveys/v2-rerun/results-v2/comparison.json'
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(result, ensure_ascii=False, indent=1, sort_keys=False) + '\n', encoding='utf-8')
+    out.write_text(json.dumps(result, ensure_ascii=False, indent=1, sort_keys=False) + '\n', encoding='utf-8', newline='\n')
 
 
 if __name__ == '__main__':

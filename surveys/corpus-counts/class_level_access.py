@@ -1,20 +1,22 @@
-"""Class-level access from one first-party GDScript file to another script's class, which GDScript cannot make to a
-class of this language (spec §11.3): static method calls, and enums, constants or inner classes in types or constant
-expressions. Also the reads of constants and enum values that it can make, and calls through autoload instances.
+"""Class-level access from one first-party GDScript file to another first-party script's class, which GDScript cannot
+make to a class of this language (spec §11.3): static method calls, and enums, constants or inner classes in types or
+constant expressions. Also the reads of constants and enum values that it can make, and calls through autoload
+instances.
 
 Usage: python class_level_access.py CORPUS_DIR EXTENSION_API_JSON
     CORPUS_DIR: fetched with fetch.py at the repository root (first-party rules and groups from there)
     EXTENSION_API_JSON: thirdparty/godot-cpp/gdextension/extension_api-4-7.json (engine class hierarchy)
 
-Token-based (gdcorpus tokenizer). `X.m` counts when X, outside a member access, names another file: a class_name of
-the same project, an autoload (project.godot) or a constant or variable initialized with preload or load in the same
-file; and m is a top-level `static func`, `enum`, `const` or `class` of that file, by spelling. A type is a reference
-after `:`, `->`, `as` or `is`, or inside `Array[...]` or `Dictionary[...]` (inner_classes.ref_context). A constant
-expression is the initializer of a `const` on the same logical line. A class "would break" GDScript if migrated when
-another file makes one of the accesses GDScript cannot make to it.
+Token-based (gdcorpus tokenizer). `X.m` counts when X, outside a member access, names another first-party file: a
+class_name of the same project, an autoload (project.godot) or a constant or variable initialized with preload or load
+in the same file; and m is a top-level `static func`, `enum`, `const` or `class` of that file, by spelling. Third-party
+addons stay in GDScript, and this language can call their static methods (spec §11.1). Through an autoload name, a
+`static func` is called on the singleton Node instance rather than the Script resource, so it succeeds like any other
+autoload instance call. A type is a reference after `:`, `->`, `as` or `is`, or inside `Array[...]` or
+`Dictionary[...]` (inner_classes.ref_context). A constant expression is the initializer of a `const` on the same
+logical line. Broken targets are split by access kind and between named classes/autoloads and preloaded unnamed scripts.
 """
 import collections
-import json
 import os
 import sys
 
@@ -24,7 +26,11 @@ sys.path.insert(0, HERE)
 import gdcorpus as G  # noqa: E402
 import inner_classes as IC  # noqa: E402
 
-KINDS = ("static method", "enum, constant or inner class as a type", "in a constant expression")
+KINDS = (
+    ("static", "static method"),
+    ("type", "enum, constant or inner class as a type"),
+    ("const", "in a constant expression"),
+)
 
 
 def declarations(ts):
@@ -66,7 +72,7 @@ def main():
             if s["class_name"]:
                 cname[repo.project_of(f).root][s["class_name"]] = f
         autoload = IC.autoloads(repo)
-        breaking = collections.defaultdict(set)  # target file -> files making a forbidden access
+        breaking = collections.defaultdict(set)  # target file -> access kinds that would break GDScript callers
         for f, s in infos.items():
             if not s["first_party"]:
                 continue
@@ -87,7 +93,7 @@ def main():
                     target, via = cname[root][t.v], "class_name"
                 if target is None and (root, t.v) in autoload:
                     target, via = autoload[(root, t.v)], "autoload"
-                if target not in decls or target == f:
+                if target not in decls or target == f or not infos[target]["first_party"]:
                     continue
                 kind = decls[target].get(ts[i + 2].v)
                 if kind is None:
@@ -98,6 +104,9 @@ def main():
                 while end + 2 < len(ts) and ts[end + 1].v == "." and ts[end + 2].k == "ID" and not (end + 3 < len(ts) and ts[end + 3].v == "("):
                     end += 2
                 if kind == "static func":
+                    if via == "autoload":
+                        c["allowed: static func via autoload"] += 1
+                        continue
                     use = "static method"
                 elif IC.ref_context(ts, i, end) in ("type annotation", "is", "as"):
                     use = "enum, constant or inner class as a type"
@@ -108,18 +117,29 @@ def main():
                     continue
                 c[f"{use} via {via}"] += 1
                 by_repo[name][use] += 1
-                breaking[target].add(f)
-        classes = [f for f, s in infos.items() if s["first_party"] and (s["class_name"] or f in autoload.values())]
+                breaking[target].add(use)
+        classes = {f for f, s in infos.items() if s["first_party"] and (s["class_name"] or f in autoload.values())}
         broken = sum(1 for f in classes if breaking.get(f))
+        unnamed = sum(1 for f in breaking if f not in classes)
         c[f"{group}: named classes and autoloads"] += len(classes)
         c[f"{group}: would break GDScript if migrated"] += broken
+        for short, key in KINDS:
+            k_broken = sum(1 for f in classes if key in breaking.get(f, ()))
+            c[f"{group}: would break by {key}"] += k_broken
+            by_repo[name][f"by_{short}"] += k_broken
+        c[f"{group}: preloaded unnamed scripts that would break"] += unnamed
         by_repo[name]["classes"] += len(classes)
         by_repo[name]["breaking"] += broken
+        by_repo[name]["unnamed"] += unnamed
     for key in sorted(c):
         print(f"{key}: {c[key]}")
-    for repo, n in sorted(by_repo.items(), key=lambda x: -x[1]["breaking"]):
-        uses = ", ".join(f"{k} {n[k]}" for k in KINDS if n[k])
-        print(f"{repo}: {n['breaking']} of {n['classes']} classes would break; {uses}")
+    for repo, n in sorted(by_repo.items(), key=lambda x: (-x[1]["breaking"], -x[1]["unnamed"])):
+        parts = [f"{short} {n[f'by_{short}']}" for short, _ in KINDS if n[f"by_{short}"]]
+        if n["unnamed"]:
+            parts.append(f"unnamed {n['unnamed']}")
+        detail = f" ({', '.join(parts)})" if parts else ""
+        uses = ", ".join(f"{k} {n[k]}" for _, k in KINDS if n[k])
+        print(f"{repo}: {n['breaking']} of {n['classes']} classes would break{detail};" + (f" {uses}" if uses else ""))
 
 
 if __name__ == "__main__":

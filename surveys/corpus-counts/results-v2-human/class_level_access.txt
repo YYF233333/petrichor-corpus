@@ -1,147 +1,166 @@
-allowed: class read via autoload: 190
-allowed: class read via class_name: 1151
-allowed: class read via preload: 104
-allowed: const read via autoload: 979
-allowed: const read via class_name: 4515
-allowed: const read via preload: 315
-allowed: enum read via autoload: 1138
-allowed: enum read via class_name: 7013
-allowed: enum read via preload: 242
-autoload instance member: 22384
+allowed: class read via autoload: 189
+allowed: class read via class_name: 923
+allowed: class read via preload: 64
+allowed: const read via autoload: 927
+allowed: const read via class_name: 4087
+allowed: const read via preload: 309
+allowed: enum read via autoload: 925
+allowed: enum read via class_name: 5131
+allowed: enum read via preload: 238
+allowed: static func via autoload: 7
+autoload instance member: 16495
 demo: named classes and autoloads: 125
+demo: preloaded unnamed scripts that would break: 4
 demo: would break GDScript if migrated: 17
-enum, constant or inner class as a type via autoload: 244
-enum, constant or inner class as a type via class_name: 2976
-enum, constant or inner class as a type via preload: 32
+demo: would break by enum, constant or inner class as a type: 4
+demo: would break by in a constant expression: 2
+demo: would break by static method: 13
+enum, constant or inner class as a type via autoload: 192
+enum, constant or inner class as a type via class_name: 2179
+enum, constant or inner class as a type via preload: 29
 game: named classes and autoloads: 4316
-game: would break GDScript if migrated: 420
+game: preloaded unnamed scripts that would break: 6
+game: would break GDScript if migrated: 417
+game: would break by enum, constant or inner class as a type: 175
+game: would break by in a constant expression: 16
+game: would break by static method: 282
 in a constant expression via autoload: 2
-in a constant expression via class_name: 258
+in a constant expression via class_name: 243
 in a constant expression via preload: 23
 plugin: named classes and autoloads: 1428
+plugin: preloaded unnamed scripts that would break: 70
 plugin: would break GDScript if migrated: 206
-static method via autoload: 180
-static method via class_name: 8203
-static method via preload: 625
+plugin: would break by enum, constant or inner class as a type: 70
+plugin: would break by in a constant expression: 11
+plugin: would break by static method: 153
+static method via class_name: 6293
+static method via preload: 610
 tool: named classes and autoloads: 774
+tool: preloaded unnamed scripts that would break: 4
 tool: would break GDScript if migrated: 168
-sourceofmana: 39 of 104 classes would break; static method 999, enum, constant or inner class as a type 235, in a constant expression 28
-boscaceoil-blue: 29 of 62 classes would break; static method 141, enum, constant or inner class as a type 115
-GodotProjectZero: 28 of 114 classes would break; static method 213, enum, constant or inner class as a type 4, in a constant expression 1
-godots: 28 of 116 classes would break; static method 188, enum, constant or inner class as a type 258
-netfox: 27 of 110 classes would break; static method 392, enum, constant or inner class as a type 23
-GodSVG: 26 of 63 classes would break; static method 775, enum, constant or inner class as a type 92
-TakinGodotTemplate: 25 of 108 classes would break; static method 78, enum, constant or inner class as a type 68, in a constant expression 8
-youtd2: 25 of 77 classes would break; static method 245, enum, constant or inner class as a type 222, in a constant expression 3
-godot-tiny-mmo: 23 of 109 classes would break; static method 309, enum, constant or inner class as a type 35, in a constant expression 3
-Reia: 21 of 158 classes would break; static method 76, enum, constant or inner class as a type 52
-godot-mod-loader: 19 of 34 classes would break; static method 348, enum, constant or inner class as a type 1
-learn-gdscript: 19 of 74 classes would break; static method 244, enum, constant or inner class as a type 131, in a constant expression 7
-wutw-public: 16 of 272 classes would break; static method 427, enum, constant or inner class as a type 117
-cyclopsLevelBuilder: 16 of 163 classes would break; static method 95, enum, constant or inner class as a type 126
-soccer-course: 14 of 65 classes would break; static method 34, enum, constant or inner class as a type 29
-gaea: 14 of 131 classes would break; static method 78, enum, constant or inner class as a type 244
-godot-xr-tools: 14 of 108 classes would break; static method 219, enum, constant or inner class as a type 3
-Arrow: 14 of 22 classes would break; static method 14, enum, constant or inner class as a type 21, in a constant expression 97
-Super-Mario-Bros.-Remastered-Public: 13 of 151 classes would break; static method 129, enum, constant or inner class as a type 5, in a constant expression 5
-Castlevania-Remnants-of-Darkness: 13 of 356 classes would break; static method 68, enum, constant or inner class as a type 56, in a constant expression 14
-malware-slayer: 12 of 72 classes would break; static method 46, enum, constant or inner class as a type 11
-SmartShape2D: 12 of 48 classes would break; static method 201, enum, constant or inner class as a type 11
-Open-Industry-Project-Godot: 12 of 62 classes would break; static method 240, enum, constant or inner class as a type 30
-Godot-Game-Template: 11 of 37 classes would break; static method 183, enum, constant or inner class as a type 6, in a constant expression 7
-protongraph: 11 of 94 classes would break; static method 88, enum, constant or inner class as a type 2
-deck_builder_tutorial: 10 of 85 classes would break; static method 7, enum, constant or inner class as a type 28
-_original_client: 10 of 42 classes would break; static method 89, enum, constant or inner class as a type 22
-Project-Heartbeat: 10 of 93 classes would break; static method 125, enum, constant or inner class as a type 161, in a constant expression 1
-godot_dialogue_manager: 10 of 46 classes would break; static method 289, enum, constant or inner class as a type 14
-godot-port: 9 of 98 classes would break; static method 35, enum, constant or inner class as a type 20
-template-beat-em-up: 9 of 84 classes would break; static method 238, enum, constant or inner class as a type 24
-Slay-The-Robot: 8 of 75 classes would break; static method 1, enum, constant or inner class as a type 125
-jdungeon: 8 of 106 classes would break; static method 38, enum, constant or inner class as a type 53, in a constant expression 1
-abyssal-walker: 8 of 83 classes would break; static method 20, enum, constant or inner class as a type 168, in a constant expression 4
-material-maker: 8 of 62 classes would break; static method 67, enum, constant or inner class as a type 27
-OpenLiberty: 7 of 15 classes would break; static method 25, enum, constant or inner class as a type 10
-OpenVic: 7 of 36 classes would break; static method 109, enum, constant or inner class as a type 32, in a constant expression 13
-RhythiaRewrite: 7 of 47 classes would break; static method 11, enum, constant or inner class as a type 25
-dialogic: 7 of 50 classes would break; static method 270, enum, constant or inner class as a type 8
-Pixelorama: 7 of 32 classes would break; static method 52, enum, constant or inner class as a type 35
-vpuppr: 7 of 35 classes would break; static method 7, enum, constant or inner class as a type 8, in a constant expression 3
-func_godot_plugin: 6 of 33 classes would break; static method 40, enum, constant or inner class as a type 15, in a constant expression 16
-godot-demo-projects: 6 of 44 classes would break; static method 6, enum, constant or inner class as a type 15, in a constant expression 2
-godot_autobattler_course: 5 of 80 classes would break; static method 3, enum, constant or inner class as a type 16
-opengs: 5 of 23 classes would break; static method 6, enum, constant or inner class as a type 11
-DOGWALK: 5 of 47 classes would break; enum, constant or inner class as a type 35
-godot_heightmap_plugin: 5 of 12 classes would break; static method 157, enum, constant or inner class as a type 10, in a constant expression 1
-TileMapDual: 5 of 14 classes would break; static method 14, enum, constant or inner class as a type 6
-Qodot: 5 of 39 classes would break; static method 6, enum, constant or inner class as a type 20
-Yugens-Terrain-Authoring-Toolkit: 5 of 29 classes would break; static method 22, enum, constant or inner class as a type 1
-godot-4-procedural-generation: 5 of 22 classes would break; static method 11
-godot-tactical-rpg: 4 of 55 classes would break; static method 19
-Legacy_SM63Redux: 4 of 62 classes would break; static method 4, enum, constant or inner class as a type 3, in a constant expression 1
-knakk: 4 of 9 classes would break; static method 14, enum, constant or inner class as a type 43, in a constant expression 4
-simgine: 4 of 23 classes would break; static method 48, enum, constant or inner class as a type 5
-Lost-Pilot: 4 of 20 classes would break; static method 15, enum, constant or inner class as a type 3
-pandora: 4 of 61 classes would break; static method 105, enum, constant or inner class as a type 9, in a constant expression 4
-gloot: 4 of 16 classes would break; static method 163, in a constant expression 3
-nakama-godot: 4 of 26 classes would break; static method 24, enum, constant or inner class as a type 23, in a constant expression 4
-GodotFirebase: 4 of 37 classes would break; static method 36, enum, constant or inner class as a type 3
-gd-YAFSM: 4 of 11 classes would break; static method 7, enum, constant or inner class as a type 1, in a constant expression 2
-MizGodotTools: 4 of 36 classes would break; static method 21
-godot-open-rpg: 3 of 59 classes would break; static method 19, enum, constant or inner class as a type 11
-Microverse: 3 of 17 classes would break; static method 62
-godot-2d-space-game: 3 of 61 classes would break; static method 43, enum, constant or inner class as a type 1
-godot-2d-builder: 3 of 51 classes would break; static method 8
-starship-olympics: 3 of 144 classes would break; static method 23, enum, constant or inner class as a type 1
-godot-4-2d-visual-novel: 3 of 11 classes would break; enum, constant or inner class as a type 26
-godot-2d-topdown-template: 3 of 58 classes would break; static method 7
-Friendslop-Template: 3 of 32 classes would break; static method 24, enum, constant or inner class as a type 5, in a constant expression 7
-phantom-camera: 3 of 11 classes would break; enum, constant or inner class as a type 7
-godot-statecharts: 3 of 24 classes would break; static method 56, enum, constant or inner class as a type 6, in a constant expression 1
-Metroidvania-System: 3 of 6 classes would break; static method 14, enum, constant or inner class as a type 45, in a constant expression 4
-PankuConsole: 3 of 29 classes would break; static method 29
-godot-resources-as-sheets-plugin: 3 of 9 classes would break; static method 3
-BehaviourToolkit: 3 of 34 classes would break; enum, constant or inner class as a type 6
-Lorien: 3 of 47 classes would break; static method 2, enum, constant or inner class as a type 24, in a constant expression 3
-the-mirror: 3 of 56 classes would break; static method 174, enum, constant or inner class as a type 110
-GodotDynamicInventorySystem: 2 of 12 classes would break; static method 3, enum, constant or inner class as a type 6
-Super-Mario-World-Remastered-Public: 2 of 101 classes would break; enum, constant or inner class as a type 1, in a constant expression 10
-godot-multiplayer: 2 of 15 classes would break; static method 7
-Godot4ThirdPersonCombatPrototype: 2 of 142 classes would break; static method 16
-godot-xr-template: 2 of 13 classes would break; static method 10, enum, constant or inner class as a type 2
-aarpg-tutorial: 2 of 107 classes would break; enum, constant or inner class as a type 2
-LibreAim: 2 of 15 classes would break; static method 4, enum, constant or inner class as a type 1
-devmoreir4__godot-3d-multiplayer-template: 2 of 15 classes would break; enum, constant or inner class as a type 16
-tower-defense-godot4: 2 of 19 classes would break; static method 3
-Improved-KCC: 2 of 18 classes would break; static method 4, enum, constant or inner class as a type 4
-holoDelta: 2 of 10 classes would break; static method 4
-beehave: 2 of 70 classes would break; static method 31, enum, constant or inner class as a type 1
-godot_input_helper: 2 of 3 classes would break; static method 2, enum, constant or inner class as a type 1
-Sky3D: 2 of 6 classes would break; static method 13
-SignalVisualizer: 2 of 10 classes would break; static method 6, enum, constant or inner class as a type 2
-godot-open-rts: 1 of 6 classes would break; static method 1, enum, constant or inner class as a type 1, in a constant expression 1
-museum-of-all-things: 1 of 18 classes would break; static method 5
-SonicWorldsNext: 1 of 13 classes would break; enum, constant or inner class as a type 10
-SimpleFPSController: 1 of 7 classes would break; static method 2
-top-down-action-rpg-template: 1 of 9 classes would break; enum, constant or inner class as a type 2
-godot-2d-adventure-tutorial: 1 of 13 classes would break; enum, constant or inner class as a type 1
-Godot_Universal-Controller-tutorial: 1 of 21 classes would break; static method 2
-Godot-Inventory: 1 of 30 classes would break; enum, constant or inner class as a type 9
-game-base-2D: 1 of 50 classes would break; static method 6
-Freedom-Hunter: 1 of 22 classes would break; static method 1
-poder-solar: 1 of 1 classes would break; enum, constant or inner class as a type 1
-PSGodotTemplateRepo: 1 of 15 classes would break; static method 4
-Stardew: 1 of 37 classes would break; enum, constant or inner class as a type 6
-Godot-2D-Action-Game: 1 of 20 classes would break; enum, constant or inner class as a type 4
-moddable-platformer: 1 of 11 classes would break; enum, constant or inner class as a type 5
-FRU-Sim: 1 of 75 classes would break; enum, constant or inner class as a type 16
-godot_open_star_fighter: 1 of 30 classes would break; enum, constant or inner class as a type 5
-godot-steering-ai-framework: 1 of 30 classes would break; static method 35
-godot_spatial_gardener: 1 of 1 classes would break; static method 201, enum, constant or inner class as a type 21, in a constant expression 16
-godot-road-generator: 1 of 10 classes would break; static method 8, enum, constant or inner class as a type 13
-godot-gameplay-systems: 1 of 65 classes would break; static method 1
-GodotOS: 1 of 33 classes would break; enum, constant or inner class as a type 3
-godot-visual-effects: 1 of 18 classes would break; in a constant expression 8
-godot-start: 1 of 2 classes would break; static method 18
+tool: would break by enum, constant or inner class as a type: 69
+tool: would break by in a constant expression: 18
+tool: would break by static method: 107
+sourceofmana: 39 of 104 classes would break (static 36, type 13, const 1); static method 882, enum, constant or inner class as a type 214, in a constant expression 23
+boscaceoil-blue: 29 of 62 classes would break (static 16, type 16); static method 141, enum, constant or inner class as a type 115
+godots: 28 of 116 classes would break (static 11, type 19, unnamed 4); static method 187, enum, constant or inner class as a type 258
+GodotProjectZero: 28 of 114 classes would break (static 26, type 1, const 1); static method 213, enum, constant or inner class as a type 4, in a constant expression 1
+netfox: 27 of 110 classes would break (static 21, type 7); static method 341, enum, constant or inner class as a type 19
+GodSVG: 26 of 63 classes would break (static 22, type 8); static method 569, enum, constant or inner class as a type 73
+TakinGodotTemplate: 25 of 108 classes would break (static 16, type 11, const 1); static method 78, enum, constant or inner class as a type 65, in a constant expression 8
+youtd2: 25 of 77 classes would break (static 24, type 6); static method 75, enum, constant or inner class as a type 42
+godot-tiny-mmo: 23 of 109 classes would break (static 21, type 6); static method 124, enum, constant or inner class as a type 15
+Reia: 21 of 158 classes would break (static 13, type 10); static method 76, enum, constant or inner class as a type 52
+godot-mod-loader: 19 of 34 classes would break (static 19, type 1); static method 348, enum, constant or inner class as a type 1
+learn-gdscript: 19 of 74 classes would break (static 10, type 7, const 5); static method 173, enum, constant or inner class as a type 130, in a constant expression 7
+wutw-public: 16 of 272 classes would break (static 14, type 7); static method 117, enum, constant or inner class as a type 30
+cyclopsLevelBuilder: 16 of 163 classes would break (static 4, type 14); static method 80, enum, constant or inner class as a type 37
+soccer-course: 14 of 65 classes would break (static 8, type 7); static method 34, enum, constant or inner class as a type 29
+gaea: 14 of 131 classes would break (static 12, type 5); static method 78, enum, constant or inner class as a type 244
+godot-xr-tools: 14 of 108 classes would break (static 14, type 1); static method 211, enum, constant or inner class as a type 3
+Arrow: 14 of 22 classes would break (static 4, type 7, const 11); static method 14, enum, constant or inner class as a type 21, in a constant expression 94
+Super-Mario-Bros.-Remastered-Public: 13 of 151 classes would break (static 12, type 1, const 1); static method 88, enum, constant or inner class as a type 5, in a constant expression 5
+Castlevania-Remnants-of-Darkness: 13 of 356 classes would break (static 4, type 9, const 3); static method 10, enum, constant or inner class as a type 28, in a constant expression 14
+malware-slayer: 12 of 72 classes would break (static 10, type 4); static method 46, enum, constant or inner class as a type 11
+SmartShape2D: 12 of 48 classes would break (static 10, type 5); static method 201, enum, constant or inner class as a type 11
+Open-Industry-Project-Godot: 12 of 62 classes would break (static 11, type 3); static method 57, enum, constant or inner class as a type 28
+Godot-Game-Template: 11 of 37 classes would break (static 11, type 1, const 2); static method 175, enum, constant or inner class as a type 6, in a constant expression 7
+protongraph: 11 of 94 classes would break (static 11, type 1); static method 88, enum, constant or inner class as a type 2
+Project-Heartbeat: 10 of 93 classes would break (static 4, type 6, unnamed 1); static method 7, enum, constant or inner class as a type 28
+deck_builder_tutorial: 10 of 85 classes would break (static 2, type 8); static method 7, enum, constant or inner class as a type 28
+_original_client: 10 of 42 classes would break (static 9, type 3); static method 89, enum, constant or inner class as a type 22
+godot_dialogue_manager: 10 of 46 classes would break (static 10, type 1); static method 289, enum, constant or inner class as a type 14
+godot-port: 9 of 98 classes would break (static 6, type 3); static method 35, enum, constant or inner class as a type 20
+template-beat-em-up: 9 of 84 classes would break (static 5, type 4); static method 238, enum, constant or inner class as a type 24
+Slay-The-Robot: 8 of 75 classes would break (static 1, type 7); static method 1, enum, constant or inner class as a type 53
+jdungeon: 8 of 106 classes would break (static 2, type 6, const 1); static method 36, enum, constant or inner class as a type 51, in a constant expression 1
+abyssal-walker: 8 of 83 classes would break (static 5, type 4, const 1); static method 20, enum, constant or inner class as a type 168, in a constant expression 4
+material-maker: 8 of 62 classes would break (static 7, type 1); static method 56, enum, constant or inner class as a type 1
+OpenLiberty: 7 of 15 classes would break (static 6, type 3); static method 25, enum, constant or inner class as a type 10
+OpenVic: 7 of 36 classes would break (static 4, type 4, const 2); static method 109, enum, constant or inner class as a type 30, in a constant expression 13
+RhythiaRewrite: 7 of 47 classes would break (static 4, type 5); static method 11, enum, constant or inner class as a type 25
+dialogic: 7 of 50 classes would break (static 5, type 3); static method 74, enum, constant or inner class as a type 5
+Pixelorama: 7 of 32 classes would break (static 5, type 3); static method 32, enum, constant or inner class as a type 9
+vpuppr: 7 of 35 classes would break (static 6, type 1, const 1); static method 7, enum, constant or inner class as a type 8, in a constant expression 3
+func_godot_plugin: 6 of 33 classes would break (static 2, type 3, const 3); static method 40, enum, constant or inner class as a type 15, in a constant expression 16
+godot-demo-projects: 6 of 44 classes would break (static 3, type 4, const 1); static method 6, enum, constant or inner class as a type 14, in a constant expression 2
+godot_heightmap_plugin: 5 of 12 classes would break (static 5, type 3, const 1, unnamed 8); static method 157, enum, constant or inner class as a type 10, in a constant expression 1
+godot_autobattler_course: 5 of 80 classes would break (static 2, type 3); static method 3, enum, constant or inner class as a type 16
+opengs: 5 of 23 classes would break (static 2, type 3); static method 6, enum, constant or inner class as a type 11
+DOGWALK: 5 of 47 classes would break (type 5); enum, constant or inner class as a type 35
+TileMapDual: 5 of 14 classes would break (static 5, type 2); static method 14, enum, constant or inner class as a type 6
+Qodot: 5 of 39 classes would break (static 2, type 3); static method 6, enum, constant or inner class as a type 20
+Yugens-Terrain-Authoring-Toolkit: 5 of 29 classes would break (static 4, type 1); static method 22, enum, constant or inner class as a type 1
+godot-4-procedural-generation: 5 of 22 classes would break (static 5); static method 11
+gloot: 4 of 16 classes would break (static 4, unnamed 9); static method 163, in a constant expression 3
+pandora: 4 of 61 classes would break (static 2, type 3, const 1, unnamed 7); static method 105, enum, constant or inner class as a type 9, in a constant expression 4
+gd-YAFSM: 4 of 11 classes would break (static 3, type 1, unnamed 2); static method 7, enum, constant or inner class as a type 1, in a constant expression 2
+godot-tactical-rpg: 4 of 55 classes would break (static 4); static method 19
+Legacy_SM63Redux: 4 of 62 classes would break (static 1, type 2, const 1); static method 4, enum, constant or inner class as a type 3, in a constant expression 1
+knakk: 4 of 9 classes would break (static 1, type 3, const 1); static method 14, enum, constant or inner class as a type 43, in a constant expression 4
+simgine: 4 of 23 classes would break (static 3, type 1); static method 3, enum, constant or inner class as a type 5
+Lost-Pilot: 4 of 20 classes would break (static 3, type 2); static method 15, enum, constant or inner class as a type 3
+nakama-godot: 4 of 26 classes would break (static 1, const 3); static method 24, in a constant expression 4
+GodotFirebase: 4 of 37 classes would break (static 1, type 3); static method 36, enum, constant or inner class as a type 3
+MizGodotTools: 4 of 36 classes would break (static 4); static method 21
+godot-statecharts: 3 of 24 classes would break (static 1, type 2, unnamed 6); static method 56, enum, constant or inner class as a type 6, in a constant expression 1
+Metroidvania-System: 3 of 6 classes would break (static 2, type 1, const 1, unnamed 1); static method 14, enum, constant or inner class as a type 45, in a constant expression 4
+godot-open-rpg: 3 of 59 classes would break (static 3, type 2); static method 19, enum, constant or inner class as a type 11
+Microverse: 3 of 17 classes would break (static 3); static method 62
+godot-2d-space-game: 3 of 61 classes would break (static 2, type 1); static method 43, enum, constant or inner class as a type 1
+godot-2d-builder: 3 of 51 classes would break (static 3); static method 8
+starship-olympics: 3 of 144 classes would break (static 3, type 1); static method 21, enum, constant or inner class as a type 1
+godot-4-2d-visual-novel: 3 of 11 classes would break (type 3); enum, constant or inner class as a type 26
+godot-2d-topdown-template: 3 of 58 classes would break (static 3); static method 7
+Friendslop-Template: 3 of 32 classes would break (static 2, type 1, const 1); static method 24, enum, constant or inner class as a type 5, in a constant expression 7
+phantom-camera: 3 of 11 classes would break (type 3); enum, constant or inner class as a type 7
+PankuConsole: 3 of 29 classes would break (static 3); static method 29
+godot-resources-as-sheets-plugin: 3 of 9 classes would break (static 3); static method 3
+BehaviourToolkit: 3 of 34 classes would break (type 3); enum, constant or inner class as a type 6
+Lorien: 3 of 47 classes would break (static 1, type 2, const 1); static method 2, enum, constant or inner class as a type 24, in a constant expression 3
+the-mirror: 3 of 56 classes would break (static 3); static method 7
+beehave: 2 of 70 classes would break (static 1, type 1, unnamed 1); static method 31, enum, constant or inner class as a type 1
+GodotDynamicInventorySystem: 2 of 12 classes would break (static 1, type 1); static method 3, enum, constant or inner class as a type 6
+Super-Mario-World-Remastered-Public: 2 of 101 classes would break (type 1, const 1); enum, constant or inner class as a type 1, in a constant expression 10
+godot-multiplayer: 2 of 15 classes would break (static 2); static method 7
+Godot4ThirdPersonCombatPrototype: 2 of 142 classes would break (static 2); static method 15
+godot-xr-template: 2 of 13 classes would break (static 1, type 1); static method 1, enum, constant or inner class as a type 2
+aarpg-tutorial: 2 of 107 classes would break (type 2); enum, constant or inner class as a type 2
+LibreAim: 2 of 15 classes would break (static 1, type 1); static method 4, enum, constant or inner class as a type 1
+devmoreir4__godot-3d-multiplayer-template: 2 of 15 classes would break (type 2); enum, constant or inner class as a type 16
+Improved-KCC: 2 of 18 classes would break (static 1, type 1); static method 4, enum, constant or inner class as a type 4
+holoDelta: 2 of 10 classes would break (static 2); static method 4
+godot_input_helper: 2 of 3 classes would break (static 1, type 1); static method 2, enum, constant or inner class as a type 1
+Sky3D: 2 of 6 classes would break (static 2); static method 13
+SignalVisualizer: 2 of 10 classes would break (static 1, type 1); static method 6, enum, constant or inner class as a type 2
+godot_spatial_gardener: 1 of 1 classes would break (static 1, unnamed 27); static method 201, enum, constant or inner class as a type 21, in a constant expression 16
+godot-start: 1 of 2 classes would break (static 1, unnamed 4); static method 18
+godot-road-generator: 1 of 10 classes would break (static 1, type 1, unnamed 2); static method 8, enum, constant or inner class as a type 13
+godot-open-rts: 1 of 6 classes would break (type 1, const 1, unnamed 1); static method 1, enum, constant or inner class as a type 1, in a constant expression 1
+museum-of-all-things: 1 of 18 classes would break (static 1); static method 1
+SonicWorldsNext: 1 of 13 classes would break (type 1); enum, constant or inner class as a type 10
+SimpleFPSController: 1 of 7 classes would break (static 1); static method 2
+top-down-action-rpg-template: 1 of 9 classes would break (type 1); enum, constant or inner class as a type 2
+godot-2d-adventure-tutorial: 1 of 13 classes would break (type 1); enum, constant or inner class as a type 1
+Godot_Universal-Controller-tutorial: 1 of 21 classes would break (static 1); static method 2
+Godot-Inventory: 1 of 30 classes would break (type 1); enum, constant or inner class as a type 9
+game-base-2D: 1 of 50 classes would break (static 1); static method 6
+Freedom-Hunter: 1 of 22 classes would break (static 1); static method 1
+poder-solar: 1 of 1 classes would break (type 1); enum, constant or inner class as a type 1
+Stardew: 1 of 37 classes would break (type 1); enum, constant or inner class as a type 6
+Godot-2D-Action-Game: 1 of 20 classes would break (type 1); enum, constant or inner class as a type 4
+moddable-platformer: 1 of 11 classes would break (type 1); enum, constant or inner class as a type 5
+FRU-Sim: 1 of 75 classes would break (type 1); enum, constant or inner class as a type 16
+godot_open_star_fighter: 1 of 30 classes would break (type 1); enum, constant or inner class as a type 5
+godot-steering-ai-framework: 1 of 30 classes would break (static 1); static method 35
+godot-gameplay-systems: 1 of 65 classes would break (static 1); static method 1
+GodotOS: 1 of 33 classes would break (type 1); enum, constant or inner class as a type 3
+godot-visual-effects: 1 of 18 classes would break (const 1); in a constant expression 8
+voxelgame: 0 of 1 classes would break (unnamed 4); static method 16, enum, constant or inner class as a type 1, in a constant expression 1
+godot-aseprite-wizard: 0 of 0 classes would break (unnamed 3); static method 97
+Scene-Manager: 0 of 0 classes would break (unnamed 2); static method 4
+scatter: 0 of 11 classes would break (unnamed 1); static method 5
+Gut: 0 of 9 classes would break (unnamed 1); static method 2
 Godot-GameTemplate: 0 of 2 classes would break;
 Starter-Kit-City-Builder: 0 of 4 classes would break;
 tps-demo: 0 of 3 classes would break;
@@ -150,7 +169,6 @@ godot-4-3d-third-person-controller: 0 of 6 classes would break;
 godot-FirstPersonStarter: 0 of 1 classes would break;
 Starter-Kit-FPS: 0 of 2 classes would break;
 escoria-demo-game: 0 of 1 classes would break;
-voxelgame: 0 of 1 classes would break; static method 16, enum, constant or inner class as a type 1, in a constant expression 1
 TowDownGame: 0 of 18 classes would break;
 Starter-Kit-Racing: 0 of 1 classes would break;
 UltimateGodotIntro2D: 0 of 4 classes would break;
@@ -177,10 +195,12 @@ SurvivorsClone_Complete: 0 of 2 classes would break;
 Genesis: 0 of 4 classes would break;
 super-godot-galaxy: 0 of 1 classes would break;
 GBM2K-Framework: 0 of 5 classes would break;
+tower-defense-godot4: 0 of 19 classes would break;
 limbo-godot: 0 of 4 classes would break;
 godot-chess: 0 of 4 classes would break;
 BatteryAcid__godot-3d-multiplayer-template: 0 of 7 classes would break;
 Godot4SourceEngineMovement: 0 of 6 classes would break;
+PSGodotTemplateRepo: 0 of 15 classes would break;
 Cupcakes-Framework: 0 of 2 classes would break;
 CandyWrapper: 0 of 1 classes would break;
 Galaxy-Defiance: 0 of 23 classes would break;
@@ -190,9 +210,6 @@ paddles_balls_blocks_walls: 0 of 29 classes would break;
 age-of-war: 0 of 5 classes would break;
 tower-defense-tutorial: 0 of 17 classes would break;
 Godot-4-Tower-Defense-Template: 0 of 4 classes would break;
-scatter: 0 of 11 classes would break; static method 5
-Gut: 0 of 9 classes would break; static method 99
-godot-aseprite-wizard: 0 of 0 classes would break; static method 97
 gdmaim: 0 of 0 classes would break;
 ShaderV: 0 of 93 classes would break;
 ridiculous_coding: 0 of 0 classes would break;
@@ -203,10 +220,9 @@ godot_sound_manager: 0 of 0 classes would break;
 godot_little_camera_preview: 0 of 1 classes would break;
 better-terrain: 0 of 0 classes would break;
 godot-debug-menu: 0 of 0 classes would break;
-Scene-Manager: 0 of 0 classes would break; static method 4
 SoundThread: 0 of 3 classes would break;
 PixelPlanets: 0 of 0 classes would break;
-GodotPixelRenderer: 0 of 0 classes would break; static method 2
+GodotPixelRenderer: 0 of 0 classes would break;
 unitypackage_godot: 0 of 13 classes would break;
 godot_experiments: 0 of 2 classes would break;
 godot_ui_components: 0 of 1 classes would break;
