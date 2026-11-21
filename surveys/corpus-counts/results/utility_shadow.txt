@@ -1,0 +1,26 @@
+== first-party: 2800 .gd files in 20 repositories
+  call_native_base: 1 files, 1 projects, 2 sites
+  call_native_base_both: 1 files, 1 projects, 2 sites
+  call_native_base_gdscript: 1 files, 1 projects, 2 sites
+  call_native_base_gdscript_both: 1 files, 1 projects, 2 sites
+  call_native_base_other: 1 files, 1 projects, 2 sites
+  call_own: 4 files, 1 projects, 8 sites
+  call_own_both: 1 files, 1 projects, 2 sites
+  call_own_engine: 4 files, 1 projects, 8 sites
+  call_own_engine_both: 1 files, 1 projects, 2 sites
+  call_own_engine_utility_only: 3 files, 1 projects, 6 sites
+  call_own_other: 4 files, 1 projects, 5 sites
+  call_own_utility_only: 3 files, 1 projects, 6 sites
+  call_own_wrapper: 3 files, 1 projects, 3 sites
+  decl: 11 files, 1 projects
+  decl_engine: 11 files, 1 projects
+  declared names: is_same 6, is_equal_approx 4, hash 1
+== calls, by file
+  Pixelorama/src/Classes/SelectionMap.gd (tool) load: native_base Image (via Image), gdscript, both, other; lines 14, 18
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitArrayAssertImpl.gd (plugin) is_same: own <top>:284, engine, utility_only, other; lines 298
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitArrayAssertImpl.gd (plugin) is_same: own <top>:284, engine, utility_only, wrapper; lines 288
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitDictionaryAssertImpl.gd (plugin) is_same: own <top>:81, engine, utility_only, other; lines 95
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitDictionaryAssertImpl.gd (plugin) is_same: own <top>:81, engine, utility_only, wrapper; lines 85
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitFloatAssertImpl.gd (plugin) is_equal_approx: own <top>:75, engine, both, other; lines 124, 132
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitObjectAssertImpl.gd (plugin) is_same: own <top>:79, engine, utility_only, other; lines 88
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitObjectAssertImpl.gd (plugin) is_same: own <top>:79, engine, utility_only, wrapper; lines 81

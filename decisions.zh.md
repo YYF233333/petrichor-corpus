@@ -23,6 +23,7 @@
 | [§2.2](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#22-词法) 以 `###` 开头的注释不是文档 | [语料计数](surveys/corpus-counts.md)：紧贴声明上方的 `##` 注释；[v2计数](surveys/v2-rerun.md#零散计数) | [c99af6f](https://github.com/YYF233333/Petrichor/commit/c99af6f5f137fdbc6ca2b9b652014652fea53e4d) |
 | [§2.3](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#23-注解) `@tool` 属于第一版，规则【待定】 | [语料计数](surveys/corpus-counts.md)：含 `@tool` 的文件；[v2计数](surveys/v2-rerun.md#零散计数) | [2dc083f](https://github.com/YYF233333/Petrichor/commit/2dc083f834468786be400fe61a4bdc0cfac1259f) |
 | [§2.4](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#24-声明的写法) `pub` 是关键字，不用 `@public` 注解 | [成员可见性调查](surveys/member-visibility.md)：`pub` 每千行至少 22 个；[v2专项复跑](surveys/v2-rerun.md#专项调查) | [6d181d3](https://github.com/YYF233333/Petrichor/commit/6d181d366ce2ddd655ae90966d514da9e73a5e6b) |
+| [§2.6](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#26-gdscript-自有的常量和函数) 直接调用工具函数名调用的是工具函数 | [语料计数](surveys/corpus-counts.md)：直接调用工具函数名，而类或其基类有同名方法 | [31b51b1](https://github.com/YYF233333/Petrichor/commit/31b51b1a2f38a9cf0d4538e8e74293f5e5f32e3a) |
 
 ## 3. 类型
 

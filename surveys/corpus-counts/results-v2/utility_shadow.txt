@@ -1,0 +1,58 @@
+== first-party: 20078 .gd files in 199 repositories
+  call_native_base: 1 files, 1 projects, 2 sites
+  call_native_base_both: 1 files, 1 projects, 2 sites
+  call_native_base_gdscript: 1 files, 1 projects, 2 sites
+  call_native_base_gdscript_both: 1 files, 1 projects, 2 sites
+  call_native_base_other: 1 files, 1 projects, 2 sites
+  call_own: 12 files, 9 projects, 94 sites
+  call_own_both: 7 files, 7 projects, 85 sites
+  call_own_engine: 10 files, 7 projects, 61 sites
+  call_own_engine_both: 6 files, 6 projects, 53 sites
+  call_own_engine_utility_only: 4 files, 2 projects, 8 sites
+  call_own_gdscript: 2 files, 2 projects, 33 sites
+  call_own_gdscript_both: 1 files, 1 projects, 32 sites
+  call_own_gdscript_utility_only: 1 files, 1 projects, 1 sites
+  call_own_other: 8 files, 5 projects, 40 sites
+  call_own_utility_only: 5 files, 3 projects, 9 sites
+  call_own_wrapper: 8 files, 6 projects, 54 sites
+  decl: 60 files, 25 projects
+  decl_engine: 29 files, 14 projects
+  decl_gdscript: 31 files, 15 projects
+  declared names: load 28, log 7, is_same 6, range 4, is_equal_approx 4, convert 3, clamp 2, max 2, min 2, print 1, randomize 1, linear_to_db 1, remap 1, asinh 1, lerp 1, hash 1, randf 1, randf_range 1, randfn 1, randi 1, randi_range 1, is_inf 1, str_to_var 1, pow 1, cos 1, sin 1
+== first-party, sampled to 20000 lines per repository: 15022 .gd files in 199 repositories
+  call_own: 10 files, 9 projects, 90 sites
+  call_own_both: 6 files, 6 projects, 83 sites
+  call_own_engine: 8 files, 7 projects, 57 sites
+  call_own_engine_both: 5 files, 5 projects, 51 sites
+  call_own_engine_utility_only: 3 files, 2 projects, 6 sites
+  call_own_gdscript: 2 files, 2 projects, 33 sites
+  call_own_gdscript_both: 1 files, 1 projects, 32 sites
+  call_own_gdscript_utility_only: 1 files, 1 projects, 1 sites
+  call_own_other: 6 files, 5 projects, 37 sites
+  call_own_utility_only: 4 files, 3 projects, 7 sites
+  call_own_wrapper: 7 files, 6 projects, 53 sites
+  decl: 45 files, 22 projects
+  decl_engine: 18 files, 12 projects
+  decl_gdscript: 27 files, 11 projects
+  declared names: load 25, log 5, range 4, is_same 3, clamp 2, max 2, convert 2, min 2, print 1, linear_to_db 1, lerp 1, is_equal_approx 1, randf 1, randf_range 1, randfn 1, randi 1, randi_range 1, is_inf 1, str_to_var 1, pow 1, cos 1, sin 1
+== calls, by file; * marks a file outside the sample
+  OpenGamepadUI/core/global/platform.gd (tool) load: own <top>:149, gdscript, both, other; lines 51, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99, 101, 103, 105, 107, 109, 111, 113, 115, 117, 119, 127, 129, 131, 133, 135
+  Pixelorama/src/Classes/SelectionMap.gd (tool) * load: native_base Image (via Image), gdscript, both, other; lines 14, 18
+  Reia/_old_code/tools/utils/file_logger.gd (game) print: own <top>:24, engine, both, wrapper; lines 26
+  Starter-Kit-Match-3/scripts/audio.gd (game) linear_to_db: own <top>:65, engine, both, other; lines 59
+  _original_client/scripts/generic/stat_collection.gd (game) clamp: own <top>:405, engine, both, other; lines 368
+  _original_client/scripts/generic/stat_collection.gd (game) clamp: own <top>:405, engine, both, wrapper; lines 409, 410, 412, 413, 415, 416, 418, 419, 423, 424, 428, 429, 430, 431, 434, 438, 439, 441, 442, 443, 444, 446
+  _original_client/scripts/generic/stat_collection.gd (game) max: own <top>:495, engine, both, wrapper; lines 497, 498, 500, 501, 503, 504, 506, 507, 509, 510, 512, 513, 514, 515, 516, 518, 519, 521, 522, 523, 524, 526
+  cyclopsLevelBuilder/godot/addons/cyclops_level_builder/math/pen_stroke.gd (plugin) lerp: own StrokePoint:40, engine, utility_only, wrapper; lines 42, 43
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitArrayAssertImpl.gd (plugin) is_same: own <top>:284, engine, utility_only, other; lines 298
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitArrayAssertImpl.gd (plugin) is_same: own <top>:284, engine, utility_only, wrapper; lines 288
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitDictionaryAssertImpl.gd (plugin) is_same: own <top>:81, engine, utility_only, other; lines 95
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitDictionaryAssertImpl.gd (plugin) is_same: own <top>:81, engine, utility_only, wrapper; lines 85
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitFloatAssertImpl.gd (plugin) * is_equal_approx: own <top>:75, engine, both, other; lines 124, 132
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitObjectAssertImpl.gd (plugin) * is_same: own <top>:79, engine, utility_only, other; lines 88
+  gdUnit4/addons/gdUnit4/src/asserts/GdUnitObjectAssertImpl.gd (plugin) * is_same: own <top>:79, engine, utility_only, wrapper; lines 81
+  gloot/addons/gloot/core/utils.gd (plugin) str_to_var: own <top>:11, engine, both, wrapper; lines 12
+  godot-admob-plugin/platforms/godot_editor/addons/admob/internal/mock/mock_interstitial_ad_plugin.gd (plugin) load: own <top>:71, gdscript, utility_only, other; lines 240
+  godot-engine.easy-charts/addons/easy_charts/utilities/classes/structures/array_operations.gd (plugin) cos: own <top>:34, engine, both, wrapper; lines 37
+  godot-engine.easy-charts/addons/easy_charts/utilities/classes/structures/array_operations.gd (plugin) pow: own <top>:28, engine, both, wrapper; lines 31
+  godot-engine.easy-charts/addons/easy_charts/utilities/classes/structures/array_operations.gd (plugin) sin: own <top>:40, engine, both, wrapper; lines 43

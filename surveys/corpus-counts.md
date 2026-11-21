@@ -42,12 +42,15 @@
 | 写在类型中的 autoload 名：裸名，或其脚本中的 enum、内部类 | 35 处：Pixelorama 33 处，godot-demo-projects 2 处，游戏仓库 0 处。形如 `Export.FileFormat` 的 enum 15 处，形如 `Keychain.MouseMovementInputAction` 的内部类 12 处，裸名 8 处。裸名都是 Pixelorama `ExtensionsApi.gd` 的返回类型，如 `-> Global`。按位置分：参数 11 处，返回类型 8 处，`as` 8 处，变量声明 4 处，容器元素 4 处。89 个 autoload 中，脚本写 `class_name` 的 8 个 | §11.1：autoload 名可写在类型中（脚本见 `corpus-counts/autoload_types.py`） |
 | 对象经过的引擎 API：返回对象的方法、对象属性、带对象参数的信号和虚函数 | 返回对象的方法调用 7,164 处。最多的是 `get_tree` 917 处，`load` 571 处，`get_node` 400 处，`get_parent` 397 处。其后是 `get_child` 340 处，`instantiate` 335 处，`get_viewport` 328 处。对象属性的读取 824 处，最多的是 `environment` 124 处。带对象参数的信号连接 176 处，最多的是 `gui_input` 48 处和 `body_entered` 46 处。`body_shape_entered` 与 `body_shape_exited` 各 2 处。带对象参数的虚函数覆盖 277 处，其中 `_input` 137 处 | §10.2：按高频 API 审核可空性，结果在 [`src/compiler/binding_metadata.txt`](https://github.com/YYF233333/Petrichor/blob/main/src/compiler/binding_metadata.txt)（脚本见 `corpus-counts/engine_objects.py`） |
 | `.get(...)`、`.pop_back()` 或 `.pop_front()` 的结果直接与 `null` 比较 | 单参数的 `get(k)` 1 处，是 godot-tiny-mmo `status_bar.gd:99` 的 `info.get("label") != null`，`info` 是无类型 `Dictionary`。`get(k, 默认值)` 7 处，它得到值本身，不受影响。`pop_back` 和 `pop_front` 0 处。v2 中单参数的 `get(k)` 194 处，分布在 94 个文件，其中 jdungeon 135 处。抽样的 14 处中，2 处的接收者是 `Dictionary`，12 处在节点或对象上按名读属性，即 `Object.get`，不受影响 | §3.4：两层 Option 与 `null` 比较是编译错误（脚本见 `corpus-counts/null_compare.py`） |
+| 直接调用工具函数名（如 `lerp(...)`），而类或其基类有同名方法 | 5 个文件：gdUnit4 4 个，Pixelorama 1 个。经阅读都指工具函数。按方法优先的旧规则，它们都是编译错误。v2 的全部第一方文件中 13 个，分布在 10 个仓库；每库抽样 20,000 行时是 10 个。经阅读，12 个在部分或全部调用处指工具函数。指自己方法的只有 2 处。一处是 Starter-Kit-Match-3 `audio.gd:59` 的 `linear_to_db`，GDScript 调用的是引擎的同名函数。另一处是 _original_client `stat_collection.gd:368` 的 `clamp(self, _min, _max)`，GDScript 在这里运行时出错。按旧规则，3 个文件编译通过而行为改变。其中 2 个变为无限递归：Reia `file_logger.gd:26` 在方法 `print` 中调用 `print`，gloot `utils.gd:12` 在方法 `str_to_var` 中调用 `str_to_var`。另一个是 Starter-Kit-Match-3，音量为 0 时得到 −80 而不是 −inf。其余 10 个文件是编译错误 | §2.6：直接调用工具函数名调用的是工具函数（脚本见 `corpus-counts/utility_shadow.py`） |
 
 计数基于词法分析，不做类型解析；`!` 只计不紧跟 `=` 的。`...` 在 GDScript 中只出现在函数签名里（Godot `469659e` 的 `modules/gdscript/gdscript_parser.cpp:1714, 4336`），所以紧跟名字的 `...` 都是剩余参数。协程指函数体中有 await 的方法，只在同一文件中查找对它的引用，不计场景中的信号连接。lambda 的捕获指所在方法在它之前声明的参数和局部变量，lambda 自己的参数和局部变量除外。`get_parent()` 和 `owner` 只计在自身上的使用，即前面没有 `.` 的；判断为空包括与 null 比较、用作条件和传给 `is_instance_valid`，以及在其后 25 行内对赋得其值的变量做这些判断。`free()` 和 `set_script(...)` 在自身上，指前面没有 `.`，或写作 `self.`、`super.`。字符串由扫描注释以外的文本找出，反斜杠转义和 `r` 前缀按 GDScript 的读法处理。preload 的常量的用法只在声明它的文件中查找：作为类型指出现在 `:`、`->`、`as` 之后或 `Array[...]` 中，不计节点路径 `$名字`、`%名字`。enum 的用法只计单独写出它的名字或写在同一仓库的 class_name 之后的，经 preload 的常量的用法不计；每个值都是 int 字面量或从字面量顺延时，才算知道它的值。内部类指行首（注解之后）的 `class`，类体是其后缩进更深的行；在内部类中以裸名使用外层类声明的名字才计入，内部类自己、其局部变量或其引擎基类声明了同名的除外；其他文件中的 `名字.Inner` 经 class_name、preload 的常量和 autoload（`project.godot`）解析。没有初始化式的 `static var` 按类型的写法归类：内置类型即 Variant 的类型名。排版的计数中制表符按 4 列计，即编辑器默认的缩进宽度（Godot `ed1daf0` 的 `editor/settings/editor_settings.cpp:831`）；续行的缩进相对于最内层未闭合的开括号所在的行；函数或类之前的空行不计紧贴其上的注解和注释行。文档注释指连续若干只含以 `##` 开头的注释的行，其下一行（跳过只有注解的行）以 `var`、`const`、`func`、`signal`、`enum`、`class`、`static`、`class_name` 或 `extends` 开头。
 
 `create_timer` 只计写作 `.create_timer(` 的方法调用。参数个数按括号内顶层的逗号计。
 
 对象经过的引擎 API 按名字计数，每个名字计入声明它的所有引擎类。脚本自己的同名成员也计入，所以 `get_item` 这类名字偏多。按名字的调用（如 `call("名字")`）、方法值和不写 `self.` 的属性读取不计入。某个引擎类的同名信号没有对象参数时，该名字不计，如 BaseButton 的 `pressed`。
+
+工具函数指 `extension_api-4-7.json` 的 utility_functions，以及 GDScript 自有的 14 个（Godot `ed1daf0` 的 `modules/gdscript/gdscript_utility_functions.cpp:570-592`）。同名方法可以由类自己、基类脚本或引擎基类声明，也可以是外层类的静态方法。直接调用指前面没有 `.` 的 `名字(...)`。参数个数按括号内顶层的逗号计，不做类型推断。
 
 ## v1 复跑修正
 
@@ -75,4 +78,6 @@ python surveys/corpus-counts/autoload_types.py corpus/v1 > surveys/corpus-counts
 python surveys/corpus-counts/engine_objects.py corpus/v1 inputs/extension_api-4-7.json > surveys/corpus-counts/results/engine_objects.txt
 python surveys/corpus-counts/null_compare.py corpus/v1 > surveys/corpus-counts/results/null_compare.txt
 CORPUS_MANIFEST=corpus/v2.json python surveys/corpus-counts/null_compare.py corpus/v2 > surveys/corpus-counts/results-v2/null_compare.txt
+python surveys/corpus-counts/utility_shadow.py corpus/v1 inputs/extension_api-4-7.json > surveys/corpus-counts/results/utility_shadow.txt
+CORPUS_MANIFEST=corpus/v2.json python surveys/corpus-counts/utility_shadow.py corpus/v2 inputs/extension_api-4-7.json > surveys/corpus-counts/results-v2/utility_shadow.txt
 ```
