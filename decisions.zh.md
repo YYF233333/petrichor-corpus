@@ -53,6 +53,7 @@
 | [§4.5](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#45-常量) 编译器求出标量常量，引擎类型等在类加载时求值 | [常量表达式调查](surveys/constant-expressions.md)：3,094 个常量中需引擎求值的 33 个；[v2专项复跑](surveys/v2-rerun.md#专项调查) | [63a88c4](https://github.com/YYF233333/Petrichor/commit/63a88c436da7fd6d489f150ac8b772e2f59b58b0) |
 | [§4.6](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#46-函数) 覆盖时可省略参数和返回类型 | [第二次纸面迁移](surveys/paper-migration-2.md)：引擎虚函数覆盖处的 6 处标注（S5） | [ed5f607](https://github.com/YYF233333/Petrichor/commit/ed5f60765b3e71e5bfc29408e2403d951b978628) |
 | [§4.6](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#46-函数) 剩余参数，可写元素类型 | [语料计数](surveys/corpus-counts.md)：剩余参数 `...args`；[v2计数](surveys/v2-rerun.md#零散计数) | [2357608](https://github.com/YYF233333/Petrichor/commit/2357608268e4cc7520cc5e3a88cad4fe27c2b0f1) |
+| [§4.6](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#46-函数) 参数可以 `:=` 取默认值的类型 | [语料计数](surveys/corpus-counts.md)：带默认值的参数 | [e04223a](https://github.com/YYF233333/Petrichor/commit/e04223acd335b32ded4e475e4f1f7622c31ebcbb) |
 | [§4.8](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#48-静态成员) 静态成员沿用 GDScript 的写法和时机；无默认值的类型须有初始化式 | [语料计数](surveys/corpus-counts.md)：`static var` 与 `_static_init`；[v2计数](surveys/v2-rerun.md#零散计数) | [13a47dd](https://github.com/YYF233333/Petrichor/commit/13a47dd1b74d59a9429aa9288b053f19c6b947b8) |
 
 ## 5. 表达式与语句
