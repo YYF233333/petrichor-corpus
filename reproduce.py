@@ -41,6 +41,7 @@ STEPS = {
         ("corpus-counts/autoload_types.py", [CORPUS], "autoload_types.txt", [("autoload_types.txt", "corpus-counts/results/autoload_types.txt")]),
         ("corpus-counts/engine_objects.py", [CORPUS, API], "engine_objects.txt", [("engine_objects.txt", "corpus-counts/results/engine_objects.txt"), ("engine_objects.json", "corpus-counts/results/engine_objects.json")]),
         ("corpus-counts/utility_shadow.py", [CORPUS, API], "utility_shadow.txt", [("utility_shadow.txt", "corpus-counts/results/utility_shadow.txt")]),
+        ("corpus-counts/tool_clusters.py", [CORPUS], "tool_clusters.txt", [("tool_clusters.txt", "corpus-counts/results/tool_clusters.txt")]),
     ],
     "member-visibility": [
         ("cross-branch-duplication/build_api.py", [GODOT, "{out}/api.json"], None, []),

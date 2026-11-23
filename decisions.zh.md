@@ -145,3 +145,4 @@
 |---|---|---|
 | [§13.2](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#132-第一版的工具) 格式化的排版规则 | [语料计数](surveys/corpus-counts.md)：排版习惯；[v2计数](surveys/v2-rerun.md#零散计数) | [d3f34e1](https://github.com/YYF233333/Petrichor/commit/d3f34e121fe7a17b3851231e4996f17148108510) |
 | [§13.4](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#134-迁移) 迁移类前列出对它做类级访问的 GDScript 文件，并提供一并迁移 | [语料计数](surveys/corpus-counts.md)：跨文件的类级访问；[v2计数](surveys/v2-rerun.md#零散计数) | [87726d5](https://github.com/YYF233333/Petrichor/commit/87726d5e83f57d6da8f7c5c149459e0bc0f7c773) |
+| [§13.4](https://github.com/YYF233333/Petrichor/blob/main/docs/language-spec.zh.md#134-迁移) `@tool` 的规则定下之前，含它的文件及其继承树不迁移 | [语料计数](surveys/corpus-counts.md)：含 `@tool` 的文件及其继承树 | [4559f9c](https://github.com/YYF233333/Petrichor/commit/4559f9ce3dba4e6759d5ee04b7c7457d0581ad79) |
