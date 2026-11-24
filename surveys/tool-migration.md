@@ -200,7 +200,7 @@ GDScript 给没有初始值的变量 `null`。
   - 节点的成员和导出在 `instantiate()` 之后才赋值，12 个，如 [hand.gd:11-15](https://github.com/guladam/deck_builder_tutorial/blob/91b408bc660e9b7389892dd4242a4d76e5bc9e77/scenes/ui/hand.gd#L11-L15)；
   - 局部变量 `var left_neighbour: Room`，2 个（[map_generator.gd:103](https://github.com/guladam/deck_builder_tutorial/blob/91b408bc660e9b7389892dd4242a4d76e5bc9e77/scenes/map/map_generator.gd#L103)）。
 
-成员在就绪之后才非空，是 0.9 之前要定的另一项设计（架构 §5）。
+就绪后才非空的成员，是架构 §5 列出的冻结之前要定的设计之一。
 
 **含 `await` 的 setter。**
 deck 有 12 处在 setter 中 `await ready`，如 [mana_ui.gd:15-16](https://github.com/guladam/deck_builder_tutorial/blob/91b408bc660e9b7389892dd4242a4d76e5bc9e77/scenes/ui/mana_ui.gd#L15-L16)。
