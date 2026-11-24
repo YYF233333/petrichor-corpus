@@ -43,6 +43,7 @@ STEPS = {
         ("corpus-counts/utility_shadow.py", [CORPUS, API], "utility_shadow.txt", [("utility_shadow.txt", "corpus-counts/results/utility_shadow.txt")]),
         ("corpus-counts/tool_clusters.py", [CORPUS], "tool_clusters.txt", [("tool_clusters.txt", "corpus-counts/results/tool_clusters.txt")]),
         ("corpus-counts/param_defaults.py", [CORPUS], "param_defaults.txt", [("param_defaults.txt", "corpus-counts/results/param_defaults.txt")]),
+        ("corpus-counts/fn_defaults.py", [CORPUS, API], "fn_defaults.txt", [("fn_defaults.txt", "corpus-counts/results/fn_defaults.txt")]),
     ],
     "member-visibility": [
         ("cross-branch-duplication/build_api.py", [GODOT, "{out}/api.json"], None, []),

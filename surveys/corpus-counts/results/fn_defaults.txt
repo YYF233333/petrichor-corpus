@@ -1,0 +1,36 @@
+method value: connections                           1374
+method value: function not resolved                  133
+method value: no default left to the caller         1215
+method value: defaults the caller may leave           26
+method value:   caller fills the defaults             11
+method value:   caller leaves defaults                12
+method value:   count outside the range                0
+method value:   signal's count unknown                 3
+bind: connections                                    314
+bind: function not resolved                           18
+bind: no default left to the caller                  292
+bind: defaults the caller may leave                    4
+bind:   caller fills the defaults                      2
+bind:   caller leaves defaults                         0
+bind:   count outside the range                        0
+bind:   signal's count unknown                         2
+
+== method value, leaves
+demos godot-demo-projects/networking/multiplayer_pong/logic/lobby.gd:32 _end_game(t=1, r=0) <- game_finished(0)
+plugin Godot-Game-Template/addons/maaacks_game_template/plugin.gd:216 open_setup_wizard(t=1, r=0) <- confirmed(0)
+tool Pixelorama/src/Classes/ImageExtended.gd:29 select_palette(t=2, r=1) <- palette_selected(1)
+tool Pixelorama/src/Tools/DesignTools/Shading.gd:362 _refresh_colors_array(t=2, r=0) <- data_changed(0)
+tool Pixelorama/src/UI/Nodes/Sliders/ValueSlider.gd:219 _confirm_text(t=1, r=0) <- focus_exited(0)
+tool Pixelorama/src/UI/Timeline/AnimationTimeline.gd:85 _update_layer_settings_ui(t=1, r=0) <- layer_property_changed(0)
+tool Pixelorama/src/UI/Timeline/CelButton.gd:23 cel_switched(t=1, r=0) <- cel_switched(0)
+game tps-demo/level/level.gd:41 add_player(t=2, r=1) <- peer_connected(1)
+game godot-open-rts/source/match/Match.gd:37 _setup_and_spawn_unit(t=4, r=3) <- setup_and_spawn_unit(3)
+game godot-open-rts/source/match/handlers/UnitVisibilityHandler.gd:13 _recalculate_unit_visibility(t=2, r=1) <- unit_spawned(1)
+game tanks-of-freedom-ii/scenes/board/board.gd:165 toggle_radial_menu(t=1, r=0) <- close_requested(0)
+game tanks-of-freedom-ii/scenes/map_editor/editor.gd:39 toggle_radial_menu(t=1, r=0) <- close_requested(0)
+
+== bind, leaves
+
+== bind, fills
+tool Pixelorama/src/UI/Timeline/KeyframeTimeline/KeyframeButton.gd:106 on_keyframe_property_changed(t=3, r=2).bind(n=2) <- id_pressed(1)
+tool Pixelorama/src/UI/Timeline/KeyframeTimeline/KeyframeButton.gd:117 on_keyframe_property_changed(t=3, r=2).bind(n=2) <- id_pressed(1)

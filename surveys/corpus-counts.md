@@ -12,7 +12,8 @@
 | `@abstract` 类和方法 | 28 个类：gdUnit4 25 个，Pixelorama 2 个，godot-open-rpg 1 个；250 个抽象方法；以文件为单位的抽象类中，17 个的方法全部是抽象的 | §4.1：`@abstract` |
 | 剩余参数 `...args` | 78 个：gdUnit4 76 个，Pixelorama 2 个 | §4.6：剩余参数 |
 | 含 await 的 lambda | 979 个 lambda 中 35 个，其中 33 个在 gdUnit4 的测试中 | §9.1：lambda 也写 `async func` |
-| 命名的、带默认值的、给捕获赋值的 lambda | 979 个 lambda 中命名的 18 个，带默认值的 0 个；方法中的 961 个里，给方法的参数或局部变量赋值的 0 个，经其成员或下标赋值的 15 个，经阅读都是对象或容器，例如 godot-statecharts 用信号连接设置的 `var holder: Array[bool] = [false]` | §3.11：给捕获的变量赋值是编译错误；命名的 lambda；lambda 的参数不带默认值 |
+| 命名的、带默认值的、给捕获赋值的 lambda | 979 个 lambda 中命名的 18 个，带默认值的 0 个；方法中的 961 个里，给方法的参数或局部变量赋值的 0 个，经其成员或下标赋值的 15 个，经阅读都是对象或容器，例如 godot-statecharts 用信号连接设置的 `var holder: Array[bool] = [false]` | §3.11：给捕获的变量赋值是编译错误；命名的 lambda；lambda 的参数不带默认值（现行规则允许带默认值，见"带默认参数的函数作值"一行） |
+| 带默认参数的函数作值：方法值直接连接信号，以及 `f.bind(...)` 连接信号 | 方法值连接 1,374 处，其中函数有调用方可不填的默认参数的 26 处：信号填满默认参数 11 处，少传 12 处，信号参数个数不明 3 处。少传的如 tanks-of-freedom-ii 把无参的 `close_requested` 连到 `toggle_radial_menu(context_object=null)`（`scenes/board/board.gd:165`）。bind 连接 314 处，有可不填默认参数的 4 处：填满 2 处，不明 2 处。v2 中，方法值的 261 处里填满 69 处，少传 74 处；bind 的 58 处里填满 17 处，少传 22 处 | §3.11：函数类型中末尾的参数可省略，`bind` 按引擎的顺序接在调用方的实参之后（脚本见 `corpus-counts/fn_defaults.py`） |
 | 作为值使用的协程方法（同一文件中按名字作为实参传递） | 91 处，其中 60 处是 `connect(名字)`，分布在 12 个仓库 | §3.11：由引擎调用的位置接受 async 函数 |
 | `assert(...)` 语句 | 595 个，其中 406 个在 godot_dialogue_manager；实参中含 await 的 0 个；带消息的 539 个：字符串字面量 496 个，含调用的 19 个，都是查询或格式化（`translate` 15 次、`format` 6 次、`size` 3 次、`get_error_message` 2 次、`get_error_text` 2 次、`get` 1 次、`str` 1 次），其他表达式 24 个，例如用 `%` 格式化 | §8.3：`assert` 在 release 构建中去掉；消息只在失败时求值 |
 | `is_instance_valid(...)` | 678 处，每千行 3.3 处；phantom-camera 中每千行 12.8 处 | §3.3：经 `T?` 读到已释放的对象时为 None |
@@ -54,6 +55,8 @@
 
 工具函数指 `extension_api-4-7.json` 的 utility_functions，以及 GDScript 自有的 14 个（Godot `ed1daf0` 的 `modules/gdscript/gdscript_utility_functions.cpp:570-592`）。同名方法可以由类自己、基类脚本或引擎基类声明，也可以是外层类的静态方法。直接调用指前面没有 `.` 的 `名字(...)`。参数个数按括号内顶层的逗号计，不做类型推断。
 
+带默认参数的函数作值时，连接指 `信号.connect(m)` 和 `connect("信号", m)`。其中 `m` 是名字、`x.m` 或 `Callable(x, "m")`，或者在这些之后接 `.bind(...)`。函数按名字解析：先在同一文件中找，再在同一仓库中找，同名函数的参数个数须一致。信号的参数个数同样按名字取，来自仓库的 `signal` 声明或引擎的信号，不写括号的 `signal x` 计为 0 个。引擎中同名信号的参数个数不同时算作不明，如 BaseButton 的 `pressed` 无参，ButtonGroup 的有 1 个。引擎把绑定的值接在调用方的实参之后（Godot `ed1daf0` 的 `core/variant/callable_bind.cpp:141-150`）。因此，信号的参数个数加上绑定的个数等于函数的参数总数时，才算填满默认参数。v2 中另有方法值 17 处、bind 1 处的个数不在函数接受的范围内。
+
 ## v1 复跑修正
 
 2026-11-15 重新生成 `results/counts.txt`。
@@ -84,4 +87,6 @@ python surveys/corpus-counts/utility_shadow.py corpus/v1 inputs/extension_api-4-
 CORPUS_MANIFEST=corpus/v2.json python surveys/corpus-counts/utility_shadow.py corpus/v2 inputs/extension_api-4-7.json > surveys/corpus-counts/results-v2/utility_shadow.txt
 python surveys/corpus-counts/tool_clusters.py corpus/v1 > surveys/corpus-counts/results/tool_clusters.txt
 python surveys/corpus-counts/param_defaults.py corpus/v1 > surveys/corpus-counts/results/param_defaults.txt
+python surveys/corpus-counts/fn_defaults.py corpus/v1 inputs/extension_api-4-7.json > surveys/corpus-counts/results/fn_defaults.txt
+CORPUS_MANIFEST=corpus/v2.json python surveys/corpus-counts/fn_defaults.py corpus/v2 inputs/extension_api-4-7.json > surveys/corpus-counts/results-v2/fn_defaults.txt
 ```
