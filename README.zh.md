@@ -8,6 +8,7 @@
 
 报告用中文写成，每篇末尾附复现命令。
 
+- [迁移工具在三个游戏中留下了什么？](surveys/tool-migration.md)
 - [在语料 v2 上重跑设计证据](surveys/v2-rerun.md)
 - [脚本会见到不止一种场景结构吗？](surveys/scene-structures.md)
 - [原生基类不同造成了多少代码重复？](surveys/cross-branch-duplication.md)
@@ -48,7 +49,8 @@ curl -sSfL --create-dirs -o inputs/extension_api-4-7.json https://raw.githubuser
 `python reproduce.py` 重跑由这些输入即可复现已提交结果的调查。有任何不同就失败，CI 在每次推送时运行它。每篇报告的“复现”一节列出各自的命令。有些调查需要语料以外的输入，那一节写明了：
 
 - 某个提交的 Godot 源码检出；
-- GitHub 检索，其结果随时间变化。
+- GitHub 检索，其结果随时间变化；
+- Godot 编辑器和 Petrichor 的构建。
 
 CI 还读取 Godot 固定提交 `469659e0617345149cd1eaec2e643d61d130aa6a` 的类参考。
 检出位置是 `inputs/godot-docs/`，只取 `doc/classes/`。

@@ -1,0 +1,104 @@
+game	cause	errors	files	first	template
+Starter-Kit-FPS	object-none	2	2	objects/enemy.pet:68	The value may be None (T); check it before calling <name>.
+Starter-Kit-FPS	slot-unchecked	2	1	scripts/audio.pet:8	An empty array needs a declared type, for example var a: T = [].
+Starter-Kit-FPS	slot-unchecked	2	2	objects/enemy.pet:30	Parameter <name> needs a type.
+Starter-Kit-FPS	cascade	1	1	objects/player.pet:259	<decl> has errors (<path>).
+Starter-Kit-FPS	exported-scene	1	1	scripts/weapon.pet:5	An exported scene is written T, with the type of its root.
+Starter-Kit-FPS	signature	1	1	scripts/hud.pet:4	<path>: the signal <name> of T is connected to <f>(), which passes # argument(s); <f>() takes #.
+Starter-Kit-FPS	signature	1	1	objects/player.pet:277	Function <name> takes # argument(s), # given.
+deck_builder_tutorial	downcast	44	18	global/sound_player.pet:11	The elements are T, which the loop variable of type T cannot hold.
+deck_builder_tutorial	downcast	15	14	scenes/enemy/enemy.pet:30	Cannot assign a value of type T as T.
+deck_builder_tutorial	implicit-null	12	4	custom_resources/character_stats.pet:17	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+deck_builder_tutorial	setter-await	12	11	scenes/card_ui/card_ui.pet:83	await requires an async function and cannot appear in an initializer.
+deck_builder_tutorial	missing-resource	11	3	scenes/enemy/enemy_action.pet:7	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+deck_builder_tutorial	implicit-null	8	4	scenes/battle_reward/battle_reward.pet:31	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+deck_builder_tutorial	missing-resource	8	2	scenes/battle_reward/battle_reward.pet:6	There is no resource at <path>.
+deck_builder_tutorial	missing-member	7	5	effects/block_effect.pet:12	T has no property <name>.
+deck_builder_tutorial	unwrap	6	1	scenes/run/run.pet:156	The value may be None (T); check it before calling <name>.
+deck_builder_tutorial	rule	5	4	scenes/battle/battle.pet:54	This match over T does not handle T; handle them or add a `T` branch.
+deck_builder_tutorial	variant	5	2	scenes/map/map.pet:56	The elements are Variant, which the loop variable of type T cannot hold.
+deck_builder_tutorial	cascade	4	4	scenes/enemy/enemy.pet:43	<decl> has errors (<path>).
+deck_builder_tutorial	implicit-null	4	3	scenes/map/map.pet:92	instantiate() needs <member> = ..., a member of T that must be assigned and the scene cannot.
+deck_builder_tutorial	setter-parameter	4	4	scenes/ui/battle_ui.pet:29	As the setter of <name>, <f>() takes one argument of type T and returns nothing.
+deck_builder_tutorial	unwrap	4	1	relics/blinding_potion.pet:13	The value may be None (T); check it before reading <name>.
+deck_builder_tutorial	variant	4	2	scenes/map/map_generator.pet:95	Cannot assign a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+deck_builder_tutorial	exported-scene	3	3	custom_resources/battle_stats.pet:8	An exported scene is written T, with the type of its root.
+deck_builder_tutorial	signature	3	3	scenes/card_ui/card_ui.pet:66	Cannot pass a value of type T as T.
+deck_builder_tutorial	signature	3	3	scenes/run/run.pet:148	T() passes # argument(s), but func(T) takes #.
+deck_builder_tutorial	implicit-null	2	1	scenes/map/map_generator.pet:103	<name> of type T needs an initial value.
+deck_builder_tutorial	rule	2	2	relics/wooden_sword.pet:13	A signal is connected to a function value, such as a method name, whose parameters it can check; found T.
+deck_builder_tutorial	rule	2	2	custom_resources/relic.pet:42	An index must be T, found T.
+deck_builder_tutorial	variant	2	2	statuses/exposed.pet:12	A condition must be T, found Variant.
+deck_builder_tutorial	conversion	1	1	custom_resources/card_pile.pet:56	An empty array needs a declared type, for example var a: T = [].
+deck_builder_tutorial	conversion	1	1	scenes/map/map_generator.pet:148	Cannot assign a value of type T as T. Convert explicitly with T(x).
+deck_builder_tutorial	downcast	1	1	scenes/relic_handler/relic_handler.pet:14	T(T) passes T as argument #, which func(T) does not take.
+deck_builder_tutorial	missing-member	1	1	effects/damage_effect.pet:13	T has no method <name>.
+deck_builder_tutorial	null-literal	1	1	scenes/enemy/enemy_handler.pet:32	Cannot assign a value of type None as T.
+deck_builder_tutorial	null-literal	1	1	scenes/ui/card_rewards.pet:29	Cannot pass a value of type None as T.
+deck_builder_tutorial	rule	1	1	scenes/map/map_generator.pet:135	An empty array needs a declared type, for example var a: T = [].
+deck_builder_tutorial	rule	1	1	scenes/modifier_handler/modifier_value.pet:13	Function <name> not found in the class or its base T.
+deck_builder_tutorial	rule	1	1	scenes/map/map_room.pet:8	None does not say which T the elements are; declare the type.
+deck_builder_tutorial	signature	1	1	scenes/card_ui/card_ui.pet:66	Function <name> takes # argument(s), # given.
+deck_builder_tutorial	signature	1	1	relics/wooden_sword.pet:19	T(T) passes # argument(s), but func() takes #.
+deck_builder_tutorial	signature	1	1	scenes/ui/tooltip.pet:14	T(T) passes # argument(s), but func(T) takes #.
+deck_builder_tutorial	variant	1	1	scenes/map/map.pet:62	Cannot pass a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+deck_builder_tutorial	variant	1	1	scenes/battle_reward/battle_reward.pet:103	Cannot return a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+tanks-of-freedom-ii	cascade	724	163	scenes/abilities/hero/active/active.pet:9	<decl> has errors (<path>).
+tanks-of-freedom-ii	variant	454	65	scenes/board/board.pet:198	Cannot index a Variant. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	slot-unchecked	244	70	scenes/abilities/abilities.pet:7	Parameter <name> needs a type.
+tanks-of-freedom-ii	no-class-name	203	5	scenes/board/board.pet:76	The type of <member> is not known here; declare it, as in `T`.
+tanks-of-freedom-ii	variant	195	51	scenes/abilities/abilities.pet:15	Cannot call <name> on a Variant. Convert it first with T(v), or narrow it with `T`. To call a method by name, convert it to Object and use call().
+tanks-of-freedom-ii	cascade	157	157	scenes/abilities/hero/active/active.pet:1	Base script <decl> has errors (line #).
+tanks-of-freedom-ii	slot-no-inflow	120	55	scenes/abilities/abilities.pet:59	Parameter <name> needs a type.
+tanks-of-freedom-ii	cascade	119	34	scenes/board/board.pet:146	This call returns void and has no value.
+tanks-of-freedom-ii	no-class-name	78	43	scenes/abilities/abilities.pet:4	Parameter <name> needs a type.
+tanks-of-freedom-ii	slot-unchecked	78	56	scenes/abilities/hero/active/deep_strike_executor.pet:4	<name> needs a type or an initial value.
+tanks-of-freedom-ii	missing-member	65	17	scenes/board/board.pet:76	T has no property <name>.
+tanks-of-freedom-ii	slot-unchecked	49	22	scenes/abilities/abilities.pet:39	<name> returns void. Declare its return type, for example -> T.
+tanks-of-freedom-ii	variant	47	27	scenes/board/board.pet:1027	Cannot assign a value of type Variant as T. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	missing-member	33	16	scenes/board/logic/markers/ability_markers.pet:97	T has no method <name>.
+tanks-of-freedom-ii	no-class-name	32	27	scenes/abilities/abilities.pet:2	<name> needs a type or an initial value.
+tanks-of-freedom-ii	variant	29	12	scenes/abilities/hero/active/hardened_armour.pet:16	Cannot read <name> of a Variant. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	slot-unchecked	27	20	scenes/abilities/ability.pet:14	<name> needs a type: None does not say which T it is.
+tanks-of-freedom-ii	rule	26	9	scenes/board/board.pet:167	None does not say which T the elements are; declare the type.
+tanks-of-freedom-ii	variant	23	13	scenes/board/board.pet:224	Cannot pass a value of type Variant as T. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	slot-no-inflow	18	12	scenes/abilities/hero/active/targeting_automaton.pet:6	<name> needs a type or an initial value.
+tanks-of-freedom-ii	missing-resource	15	1	scripts/services/audio.pet:16	There is no resource at <path>.
+tanks-of-freedom-ii	no-class-name	14	13	scenes/board/logic/collateral.pet:4	<name> needs a type: None does not say which T it is.
+tanks-of-freedom-ii	variant	12	7	scenes/board/logic/ai/actions/attack_action.pet:18	Cannot use <name> on a Variant. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	slot-no-inflow	9	7	scenes/board/logic/ai/brains/abstract_building_brain.pet:128	<name> returns void. Declare its return type, for example -> T.
+tanks-of-freedom-ii	variant	9	7	scenes/board/logic/state.pet:180	A condition must be T, found Variant.
+tanks-of-freedom-ii	rule	8	3	scenes/map_editor/story/stories/types/move.pet:53	<path>: the root has no node at <name>.
+tanks-of-freedom-ii	rule	8	4	scenes/map/importer.pet:75	None does not say which T the values are; declare the type.
+tanks-of-freedom-ii	conversion	7	5	scenes/tiles/units/heroes/hero.pet:39	Cannot assign a value of type T as T. Convert explicitly with T(x), which checks that it is one of the values.
+tanks-of-freedom-ii	rule	7	5	scenes/map/builder.pet:246	An empty dictionary needs a declared type, for example var d: T = {}.
+tanks-of-freedom-ii	slot-unchecked	7	5	scenes/map_editor/editor.pet:24	An empty array needs a declared type, for example var a: T = [].
+tanks-of-freedom-ii	variant	7	5	scenes/board_online/board_online.pet:331	Cannot iterate over a Variant. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	variant	7	3	scripts/services/map_manager.pet:182	Cannot return a value of type Variant as T. Convert it first with T(v), or narrow it with `T`.
+tanks-of-freedom-ii	conversion	6	3	scenes/board/logic/scripting/outcomes/lock_hud.pet:5	Cannot assign a value of type T as T. Convert explicitly with T(x).
+tanks-of-freedom-ii	rule	6	3	scenes/map_editor/story/map_settings.pet:139	A value of type T is never None.
+tanks-of-freedom-ii	no-class-name	5	3	scenes/board/logic/markers/ability_markers.pet:17	An empty dictionary needs a declared type, for example var d: T = {}.
+tanks-of-freedom-ii	no-class-name	4	3	scenes/map/tile.pet:19	An empty array needs a declared type, for example var a: T = [].
+tanks-of-freedom-ii	variant	4	4	scenes/ui/board/summary_view.pet:103	The elements are Variant, which the loop variable of type T cannot hold.
+tanks-of-freedom-ii	no-class-name	3	2	scenes/board/board.pet:654	<name> returns void. Declare its return type, for example -> T.
+tanks-of-freedom-ii	rule	3	1	scenes/ui/menu/settings/setting_option_rotating.pet:19	<path>: the value stored for <name> of <node> does not fit its type: T[#]: expected T, found T.
+tanks-of-freedom-ii	rule	3	3	scenes/board_online/board_online.pet:327	An empty array needs a declared type, for example var a: T = [].
+tanks-of-freedom-ii	rule	3	3	scenes/tiles/tile.pet:28	The values have types T, which have no common type; declare the type.
+tanks-of-freedom-ii	unwrap	3	2	scripts/services/autodiscovery.pet:23	The value may be None (T); check it before calling <name>.
+tanks-of-freedom-ii	rule	2	2	scenes/map_editor/story/stories/types/base_edit_action.pet:65	Cannot assign a value of type T as T.
+tanks-of-freedom-ii	rule	2	2	scenes/board_multiplayer/board_multiplayer.pet:235	Not all paths of <name> return a value.
+tanks-of-freedom-ii	slot-no-inflow	2	2	scenes/ui/map_picker/picker.pet:155	An empty array needs a declared type, for example var a: T = [].
+tanks-of-freedom-ii	slot-unchecked	2	2	scenes/map_editor/story/stories/story.pet:22	An empty dictionary needs a declared type, for example var d: T = {}.
+tanks-of-freedom-ii	variant	2	1	scenes/map_editor/story/story_editor.pet:18	T(Variant) passes Variant as argument #, which func(T) does not take.
+tanks-of-freedom-ii	downcast	1	1	scripts/services/online/connector.pet:39	Cannot pass a value of type T as T.
+tanks-of-freedom-ii	rule	1	1	scenes/ui/radial/radial.pet:55	<name> requires T operands; use fmod() for T.
+tanks-of-freedom-ii	rule	1	1	scripts/services/filesystem.pet:30	Cannot return a value of type T as T.
+tanks-of-freedom-ii	rule	1	1	scenes/map/templates.pet:825	The elements have types T, which have no common type; declare the type.
+tanks-of-freedom-ii	rule	1	1	scenes/ui/menu/settings/setting_option_rotating.pet:31	is tests classes, not T.
+tanks-of-freedom-ii	signature	1	1	scenes/map_editor/story/stories/story.pet:166	Function <name> takes # argument(s), # given.
+tanks-of-freedom-ii	signature	1	1	scenes/map_editor/story/stories/stories.pet:21	T(Variant, Variant) passes # argument(s), but func(<error>, Variant, Variant) takes #.
+tanks-of-freedom-ii	variant	1	1	scenes/map_editor/story/story_editor.pet:143	<name> looks for a value of type T in T, not Variant.
+tanks-of-freedom-ii	variant	1	1	scenes/map_editor/story/triggers/types/base_edit_type.pet:64	<name> requires T, found Variant.
+tanks-of-freedom-ii	variant	1	1	scenes/ui/map_picker/picker.pet:335	Cannot assign a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+tanks-of-freedom-ii	variant	1	1	scenes/map_editor/story/map_settings.pet:44	Cannot assign a value of type Variant as T. Narrow it first with `T`.
+tanks-of-freedom-ii	variant	1	1	scenes/tiles/units/unit.pet:246	The keys of T are T, not Variant.

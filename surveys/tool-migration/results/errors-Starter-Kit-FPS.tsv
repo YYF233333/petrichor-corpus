@@ -1,0 +1,11 @@
+file	line	cause	template
+objects/enemy.pet	30	slot-unchecked	Parameter <name> needs a type.
+objects/enemy.pet	68	object-none	The value may be None (T); check it before calling <name>.
+objects/player.pet	205	object-none	The value may be None (T); check it before calling <name>.
+objects/player.pet	259	cascade	<decl> has errors (<path>).
+objects/player.pet	275	slot-unchecked	Parameter <name> needs a type.
+objects/player.pet	277	signature	Function <name> takes # argument(s), # given.
+scripts/audio.pet	8	slot-unchecked	An empty array needs a declared type, for example var a: T = [].
+scripts/audio.pet	9	slot-unchecked	An empty array needs a declared type, for example var a: T = [].
+scripts/weapon.pet	5	exported-scene	An exported scene is written T, with the type of its root.
+scripts/hud.pet	4	signature	<path>: the signal <name> of T is connected to <f>(), which passes # argument(s); <f>() takes #.

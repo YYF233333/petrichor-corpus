@@ -1,0 +1,185 @@
+file	line	cause	template
+custom_resources/battle_stats.pet	8	exported-scene	An exported scene is written T, with the type of its root.
+custom_resources/card_pile.pet	56	conversion	An empty array needs a declared type, for example var a: T = [].
+custom_resources/enemy_stats.pet	4	exported-scene	An exported scene is written T, with the type of its root.
+custom_resources/relic.pet	42	rule	An index must be T, found T.
+custom_resources/room.pet	15	exported-scene	An exported scene is written T, with the type of its root.
+custom_resources/room.pet	19	rule	An index must be T, found T.
+effects/block_effect.pet	12	missing-member	T has no property <name>.
+effects/damage_effect.pet	13	missing-member	T has no method <name>.
+effects/status_effect.pet	12	missing-member	T has no property <name>.
+global/sound_player.pet	11	downcast	The elements are T, which the loop variable of type T cannot hold.
+global/sound_player.pet	19	downcast	The elements are T, which the loop variable of type T cannot hold.
+relics/blinding_potion.pet	13	unwrap	The value may be None (T); check it before reading <name>.
+relics/blinding_potion.pet	14	unwrap	The value may be None (T); check it before reading <name>.
+relics/blinding_potion.pet	14	unwrap	The value may be None (T); check it before reading <name>.
+relics/blinding_potion.pet	24	unwrap	The value may be None (T); check it before reading <name>.
+relics/confusing_staff.pet	19	downcast	The elements are T, which the loop variable of type T cannot hold.
+relics/wooden_sword.pet	13	rule	A signal is connected to a function value, such as a method name, whose parameters it can check; found T.
+relics/wooden_sword.pet	19	signature	T(T) passes # argument(s), but func() takes #.
+scenes/battle/battle.pet	54	rule	This match over T does not handle T; handle them or add a `T` branch.
+scenes/battle_reward/battle_reward.pet	6	missing-resource	There is no resource at <path>.
+scenes/battle_reward/battle_reward.pet	8	missing-resource	There is no resource at <path>.
+scenes/battle_reward/battle_reward.pet	31	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/battle_reward/battle_reward.pet	39	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/battle_reward/battle_reward.pet	50	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/battle_reward/battle_reward.pet	103	variant	Cannot return a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+scenes/card_ui/card_state_machine.pet	11	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/card_ui/card_ui.pet	55	missing-member	T has no property <name>.
+scenes/card_ui/card_ui.pet	66	signature	Function <name> takes # argument(s), # given.
+scenes/card_ui/card_ui.pet	66	signature	Cannot pass a value of type T as T.
+scenes/card_ui/card_ui.pet	83	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/enemy/enemy.pet	30	downcast	Cannot assign a value of type T as T.
+scenes/enemy/enemy.pet	43	cascade	<decl> has errors (<path>).
+scenes/enemy/enemy.pet	72	downcast	Cannot assign a value of type T as T.
+scenes/enemy/enemy_action_picker.pet	11	downcast	Cannot assign a value of type T as T.
+scenes/enemy/enemy_action_picker.pet	24	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_action_picker.pet	37	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_action_picker.pet	48	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_action_picker.pet	59	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_action_picker.pet	66	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_handler.pet	17	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_handler.pet	20	cascade	<decl> has errors (<path>).
+scenes/enemy/enemy_handler.pet	31	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_handler.pet	32	null-literal	Cannot assign a value of type None as T.
+scenes/enemy/enemy_handler.pet	41	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/enemy/enemy_handler.pet	56	rule	This match over T does not handle T; handle them or add a `T` branch.
+scenes/enemy/enemy_handler.pet	77	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/map/map.pet	56	variant	The elements are Variant, which the loop variable of type T cannot hold.
+scenes/map/map.pet	62	variant	Cannot pass a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+scenes/map/map.pet	70	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/map/map.pet	76	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/map/map.pet	92	implicit-null	instantiate() needs <member> = ..., a member of T that must be assigned and the scene cannot.
+scenes/map/map.pet	115	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/map/map_generator.pet	95	variant	Cannot assign a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+scenes/map/map_generator.pet	103	implicit-null	<name> of type T needs an initial value.
+scenes/map/map_generator.pet	104	implicit-null	<name> of type T needs an initial value.
+scenes/map/map_generator.pet	108	variant	Cannot assign a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+scenes/map/map_generator.pet	111	variant	Cannot assign a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+scenes/map/map_generator.pet	135	rule	An empty array needs a declared type, for example var a: T = [].
+scenes/map/map_generator.pet	148	conversion	Cannot assign a value of type T as T. Convert explicitly with T(x).
+scenes/map/map_generator.pet	153	variant	The elements are Variant, which the loop variable of type T cannot hold.
+scenes/map/map_generator.pet	159	variant	The elements are Variant, which the loop variable of type T cannot hold.
+scenes/map/map_generator.pet	164	variant	The elements are Variant, which the loop variable of type T cannot hold.
+scenes/map/map_generator.pet	170	variant	The elements are Variant, which the loop variable of type T cannot hold.
+scenes/map/map_generator.pet	208	cascade	<decl> has errors (<path>).
+scenes/map/map_room.pet	8	rule	None does not say which T the elements are; declare the type.
+scenes/map/map_room.pet	9	missing-resource	There is no resource at <path>.
+scenes/map/map_room.pet	10	missing-resource	There is no resource at <path>.
+scenes/map/map_room.pet	11	missing-resource	There is no resource at <path>.
+scenes/map/map_room.pet	12	missing-resource	There is no resource at <path>.
+scenes/map/map_room.pet	13	missing-resource	There is no resource at <path>.
+scenes/map/map_room.pet	14	missing-resource	There is no resource at <path>.
+scenes/modifier_handler/modifier.pet	10	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier.pet	27	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier.pet	33	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier.pet	41	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier.pet	46	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier_handler.pet	6	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier_handler.pet	14	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/modifier_handler/modifier_value.pet	13	rule	Function <name> not found in the class or its base T.
+scenes/player/player.pet	33	downcast	Cannot assign a value of type T as T.
+scenes/player/player_handler.pet	73	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/player/player_handler.pet	102	rule	This match over T does not handle T; handle them or add a `T` branch.
+scenes/player/player_handler.pet	110	rule	This match over T does not handle T; handle them or add a `T` branch.
+scenes/relic_handler/relic_handler.pet	14	downcast	T(T) passes T as argument #, which func(T) does not take.
+scenes/relic_handler/relic_handler.pet	53	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/relic_handler/relic_handler.pet	72	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/relic_handler/relic_tooltip.pet	20	downcast	Cannot assign a value of type T as T.
+scenes/relic_handler/relic_ui.pet	12	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/relic_handler/relic_ui.pet	15	downcast	Cannot assign a value of type T as T.
+scenes/relic_handler/relics_control.pet	26	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/run/run.pet	47	downcast	Cannot assign a value of type T as T.
+scenes/run/run.pet	148	signature	T() passes # argument(s), but func(T) takes #.
+scenes/run/run.pet	148	signature	Cannot pass a value of type T as T.
+scenes/run/run.pet	156	unwrap	The value may be None (T); check it before calling <name>.
+scenes/run/run.pet	157	unwrap	The value may be None (T); check it before calling <name>.
+scenes/run/run.pet	172	unwrap	The value may be None (T); check it before calling <name>.
+scenes/run/run.pet	181	unwrap	The value may be None (T); check it before calling <name>.
+scenes/run/run.pet	195	unwrap	The value may be None (T); check it before calling <name>.
+scenes/run/run.pet	199	cascade	<decl> has errors (<path>).
+scenes/run/run.pet	202	unwrap	The value may be None (T); check it before calling <name>.
+scenes/run/run.pet	217	rule	This match over T does not handle T; handle them or add a `T` branch.
+scenes/shop/shop.pet	21	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop.pet	24	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop.pet	56	implicit-null	instantiate() needs <member> = ..., a member of T that must be assigned and the scene cannot.
+scenes/shop/shop.pet	85	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop.pet	88	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop.pet	93	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop.pet	97	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop_card.pet	33	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/shop/shop_card.pet	37	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/shop/shop_relic.pet	31	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/shop/shop_relic.pet	35	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/status_handler/status_handler.pet	37	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/status_handler/status_handler.pet	59	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/status_handler/status_handler.pet	67	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/status_handler/status_handler.pet	76	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/status_handler/status_ui.pet	13	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/status_handler/status_ui.pet	16	downcast	Cannot assign a value of type T as T.
+scenes/treasure/treasure.pet	19	variant	Cannot assign a value of type Variant as T. Convert it first with v as T, or narrow it with `T`.
+scenes/ui/battle_ui.pet	19	signature	T() passes # argument(s), but func(T) takes #.
+scenes/ui/battle_ui.pet	19	signature	Cannot pass a value of type T as T.
+scenes/ui/battle_ui.pet	29	setter-parameter	As the setter of <name>, <f>() takes one argument of type T and returns nothing.
+scenes/ui/card_menu_ui.pet	29	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/card_pile_opener.pet	8	setter-parameter	As the setter of <name>, <f>() takes one argument of type T and returns nothing.
+scenes/ui/card_rewards.pet	29	null-literal	Cannot pass a value of type None as T.
+scenes/ui/card_rewards.pet	57	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/card_tooltip_popup.pet	14	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/ui/card_tooltip_popup.pet	24	rule	A signal is connected to a function value, such as a method name, whose parameters it can check; found T.
+scenes/ui/card_tooltip_popup.pet	33	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/ui/card_visuals.pet	14	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/card_visuals.pet	18	downcast	Cannot assign a value of type T as T.
+scenes/ui/character_selector.pet	25	downcast	Cannot assign a value of type T as T.
+scenes/ui/gold_ui.pet	13	setter-parameter	As the setter of <name>, <f>() takes one argument of type T and returns nothing.
+scenes/ui/hand.pet	11	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/ui/hand.pet	11	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/ui/hand.pet	11	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/ui/hand.pet	11	implicit-null	instantiate() needs <member> = ..., a member of T that must be assigned and the scene cannot.
+scenes/ui/hand.pet	11	implicit-null	instantiate() needs <member> = ..., a member of T that must be assigned and the scene cannot.
+scenes/ui/hand.pet	25	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/ui/hand.pet	32	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/ui/intent_ui.pet	13	downcast	Cannot assign a value of type T as T.
+scenes/ui/mana_ui.pet	9	setter-parameter	As the setter of <name>, <f>() takes one argument of type T and returns nothing.
+scenes/ui/mana_ui.pet	16	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/reward_button.pet	15	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/reward_button.pet	17	downcast	Cannot assign a value of type T as T.
+scenes/ui/reward_button.pet	24	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/status_tooltip.pet	12	setter-await	await requires an async function and cannot appear in an initializer.
+scenes/ui/status_tooltip.pet	15	downcast	Cannot assign a value of type T as T.
+scenes/ui/status_view.pet	10	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/ui/status_view.pet	23	implicit-null	instantiate() needs <member> = ..., an export of T that must be assigned and <path> does not assign.
+scenes/ui/status_view.pet	30	downcast	The elements are T, which the loop variable of type T cannot hold.
+scenes/ui/tooltip.pet	14	signature	T(T) passes # argument(s), but func(T) takes #.
+scenes/ui/tooltip.pet	25	downcast	Cannot assign a value of type T as T.
+scenes/win_screen/win_screen.pet	16	downcast	Cannot assign a value of type T as T.
+statuses/exposed.pet	12	variant	A condition must be T, found Variant.
+statuses/exposed.pet	12	missing-member	T has no property <name>.
+statuses/exposed.pet	14	missing-member	T has no property <name>.
+statuses/exposed.pet	24	signature	T() passes # argument(s), but func(T) takes #.
+statuses/muscle.pet	15	variant	A condition must be T, found Variant.
+statuses/muscle.pet	15	missing-member	T has no property <name>.
+statuses/muscle.pet	17	missing-member	T has no property <name>.
+custom_resources/character_stats.pet	17	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	18	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	19	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	17	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	18	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	19	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	17	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	18	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+custom_resources/character_stats.pet	19	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/enemy/enemy_action.pet	7	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+relics/confusing_staff.pet	3	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+relics/coupons.pet	6	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+relics/wooden_sword.pet	6	implicit-null	<path>: the resource has no value for <name>, which must be assigned and is not exported.
+scenes/battle/battle.pet	6	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/ui/reward_button.pet	4	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.
+scenes/ui/reward_button.pet	4	missing-resource	<path>: the value stored for <name> of <node> does not fit its type: expected T, found T.

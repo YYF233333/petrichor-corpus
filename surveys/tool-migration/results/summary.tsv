@@ -1,0 +1,4 @@
+game	petrichor	scripts	left_out	types	withdrawn	fixes	errors	missing_resource	lines	errors_per_100_lines	without_missing_resource	report
+Starter-Kit-FPS	bbdd797	7	0	6	4	11	10	0	451	2.2	2.2	petrichor migrate: 7 script(s), 0 added, 0 left out, 6 type(s), 4 withdrawn, 11 fix(es), 9 path(s) renamed, 10 error(s), dry run
+deck_builder_tutorial	bbdd797	116	6	7	0	567	184	19	4701	3.9	3.5	petrichor migrate: 116 script(s), 0 added, 6 left out, 7 type(s), 0 withdrawn, 567 fix(es), 126 path(s) renamed, 184 error(s), dry run
+tanks-of-freedom-ii	bbdd797	292	0	1555	711	1335	2893	15	24361	11.9	11.8	petrichor migrate: 292 script(s), 0 added, 0 left out, 1555 type(s), 711 withdrawn, 1335 fix(es), 432 path(s) renamed, 2893 error(s), dry run

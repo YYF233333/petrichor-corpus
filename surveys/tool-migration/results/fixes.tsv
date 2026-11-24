@@ -1,0 +1,28 @@
+game	count	fix
+Starter-Kit-FPS	6	Write the type
+Starter-Kit-FPS	2	Write the truth test
+Starter-Kit-FPS	5	Make it pub
+Starter-Kit-FPS	2	Write .unwrap()
+Starter-Kit-FPS	2	Make the type T?
+deck_builder_tutorial	7	Write the type
+deck_builder_tutorial	101	Write the truth test
+deck_builder_tutorial	1	Write the int arguments as float
+deck_builder_tutorial	1	Write is_instance_valid()
+deck_builder_tutorial	4	Write .detach()
+deck_builder_tutorial	324	Make it pub
+deck_builder_tutorial	1	Convert to the packed array
+deck_builder_tutorial	98	Write .unwrap()
+deck_builder_tutorial	30	Make the type T?
+deck_builder_tutorial	7	Write async func
+tanks-of-freedom-ii	1555	Write the type
+tanks-of-freedom-ii	7	Write the truth test
+tanks-of-freedom-ii	4	Write the int arguments as float
+tanks-of-freedom-ii	5	Write is_instance_valid()
+tanks-of-freedom-ii	62	Write .detach()
+tanks-of-freedom-ii	854	Make it pub
+tanks-of-freedom-ii	20	Use the method or signal itself
+tanks-of-freedom-ii	125	Reach the autoload by its name
+tanks-of-freedom-ii	2	Convert to the packed array
+tanks-of-freedom-ii	111	Write .unwrap()
+tanks-of-freedom-ii	2	Make the type T?
+tanks-of-freedom-ii	143	Write async func

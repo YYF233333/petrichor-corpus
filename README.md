@@ -8,6 +8,7 @@ This repository holds the evidence behind the design of [Petrichor](https://gith
 
 The write-ups are in Chinese. Each ends with the commands that reproduce it.
 
+- [What does the migration tool leave in three games?](surveys/tool-migration.md)
 - [Rerunning the design evidence on corpus v2](surveys/v2-rerun.md)
 - [Do scripts see more than one scene structure?](surveys/scene-structures.md)
 - [How much code is duplicated because native base classes differ?](surveys/cross-branch-duplication.md)
@@ -48,7 +49,8 @@ curl -sSfL --create-dirs -o inputs/extension_api-4-7.json https://raw.githubuser
 `python reproduce.py` reruns the surveys whose committed results reproduce from these inputs. It fails on any difference, and CI runs it on every push. Each write-up's 复现 section lists its own commands. Some need inputs outside the corpus, which that section names:
 
 - a Godot source checkout at a given commit;
-- GitHub searches, whose results change over time.
+- GitHub searches, whose results change over time;
+- a Godot editor and a Petrichor build.
 
 CI also reads Godot's class reference at `469659e0617345149cd1eaec2e643d61d130aa6a` from `inputs/godot-docs/`.
 It fetches only `doc/classes/` and supplements it with pinned, derived module metadata.
