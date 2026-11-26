@@ -156,7 +156,8 @@ def main():
         lines = sum(repo.read(f).count("\n") + 1 for f in migrated if repo.first_party(f))
         rows, by_template = [], collections.defaultdict(list)
         for e in errors:
-            source = repo.read(e["path"][:-len(".pet")] + ".gd").split("\n")[int(e["line"]) - 1]
+            # The lines that the tool adds, as constants that name classes, may put the line past the end.
+            source = (repo.read(e["path"][:-len(".pet")] + ".gd").split("\n")[int(e["line"]) - 1:] + [""])[0]
             t, c = template(e["msg"]), cause(e, hints, source)
             rows.append((e["path"], e["line"], c, t))
             by_template[c, t].append(e)
