@@ -67,18 +67,18 @@ RULES = [
     ("truth-test", r"^ => (\) )?(! =|= =) (null|0|0\.0|''|\w+ \( \))$|^not => $|^ => not$|^ => (not )?is_instance_valid \($"
                    r"|^ => \. (is_empty|is_null) \( \)$|^(= =|! =) null => \)$"),
     ("cast", rf"^ => (\) )?as {TYPE}( \))?$"),
-    ("cast-dropped", rf"^as {TYPE} => $"),
     ("typed-array-as", r"^\(? ?\S+ as Array \[ [\w.]+ \] \)? => \S+$|^as Array \[ [\w.]+ \] \)? => $"),
+    ("cast-dropped", rf"^as {TYPE}( \))? => $"),
     ("conversion", r"^ => (\( )?(int|float|Packed\w+Array)( \()?$|^(\d+) => \4\.0$"),
-    ("method-or-signal-itself", r"^'\w+' ,? => $|^ => \w+ \.$|^emit_signal => \w+ \. emit$|^call_deferred \( '\w+' => \w+ \. call_deferred \($"),
+    ("method-or-signal-itself", r"^'\w+'( ,)? => $|^ => \w+ \.$|^emit_signal => \w+ \. emit$|^call_deferred \( '\w+' => \w+ \. call_deferred \($"),
     ("by-name", r"=> \S+ \. (call|set) \( '\w+'"),
     ("preload-constant", r"^ => (const \w+ = preload \( '[^']*' \) ?)+$"),
 ]
 PARENTHESES = re.compile(r"^ => [()]$|^[()] => $")
-# The rules among the known rewrites of architecture §6.6 at the commit measured, beside those
-# known() applies: typed-array-as from 49b6da7, cast and preload-constant from 7921875, the others
-# added by this survey.
-KNOWN = {"type-written", "type-changed", "truth-test", "conversion", "method-or-signal-itself", "typed-array-as", "cast", "preload-constant"}
+# The rules among the known rewrites of architecture §6.6, beside those known() applies:
+# typed-array-as from 49b6da7, cast and preload-constant from 7921875, cast-dropped from 2226c49,
+# the others added by this survey.
+KNOWN = {"type-written", "type-changed", "truth-test", "conversion", "method-or-signal-itself", "typed-array-as", "cast", "preload-constant", "cast-dropped"}
 
 
 def changes(a, b):

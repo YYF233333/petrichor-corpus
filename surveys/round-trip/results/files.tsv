@@ -40,7 +40,7 @@ Ring/breakout/scenes/bricks/sturdy_brick/sturdy_brick.gd	identical
 Ring/breakout/scenes/consumables/base/consumable_info.gd	identical
 Ring/breakout/scenes/drops/base/drop_info.gd	identical
 Ring/breakout/scenes/levels/goal.gd	known
-Ring/breakout/scenes/levels/goal_test_level/goal_test_level_manager.gd	other
+Ring/breakout/scenes/levels/goal_test_level/goal_test_level_manager.gd	known
 Ring/breakout/scenes/managers/resource_manager.gd	known
 Ring/breakout/scenes/managers/value_manager.gd	identical
 Ring/breakout/scenes/paddles/paddle.gd	known
@@ -89,7 +89,7 @@ deck_builder_tutorial/custom_resources/room.gd	identical
 deck_builder_tutorial/custom_resources/run_init_data.gd	identical
 deck_builder_tutorial/custom_resources/run_startup.gd	identical
 deck_builder_tutorial/custom_resources/run_stats.gd	identical
-deck_builder_tutorial/custom_resources/save_game.gd	other
+deck_builder_tutorial/custom_resources/save_game.gd	known
 deck_builder_tutorial/custom_resources/stats.gd	identical
 deck_builder_tutorial/enemies/bat/bat_attack_action.gd	known
 deck_builder_tutorial/enemies/bat/bat_block_action.gd	known
@@ -130,7 +130,7 @@ deck_builder_tutorial/scenes/relic_handler/relic_tooltip.gd	known
 deck_builder_tutorial/scenes/relic_handler/relic_ui.gd	known
 deck_builder_tutorial/scenes/relic_handler/relics_control.gd	known
 deck_builder_tutorial/scenes/run/pause_menu.gd	identical
-deck_builder_tutorial/scenes/run/run.gd	other
+deck_builder_tutorial/scenes/run/run.gd	known
 deck_builder_tutorial/scenes/shop/shop.gd	identical
 deck_builder_tutorial/scenes/shop/shop_card.gd	known
 deck_builder_tutorial/scenes/shop/shop_relic.gd	known
@@ -303,7 +303,7 @@ godot-demo-projects/loading/serialization/player.gd	known
 godot-demo-projects/misc/2.5d/assets/cube/cube_math.gd	known
 godot-demo-projects/misc/2.5d/assets/ui/control_hints.gd	identical
 godot-demo-projects/misc/custom_logging/main.gd	identical
-godot-demo-projects/misc/hdr_output/color_sweep/color_sweep.gd	other
+godot-demo-projects/misc/hdr_output/color_sweep/color_sweep.gd	known
 godot-demo-projects/misc/hdr_output/main/debug_info.gd	known
 godot-demo-projects/misc/hdr_output/main/demo_scenes.gd	identical
 godot-demo-projects/misc/hdr_output/main/developer_settings.gd	identical
@@ -409,7 +409,7 @@ godot-tiny-mmo/source/client/ui/hud/welcome_screen.gd	identical
 godot-tiny-mmo/source/client/ui/menus/character/character_menu.gd	identical
 godot-tiny-mmo/source/client/ui/menus/inventory/item_slot_button.gd	identical
 godot-tiny-mmo/source/client/ui/menus/settings/components/setting_container.gd	identical
-godot-tiny-mmo/source/client/ui/pixel_icon.gd	other
+godot-tiny-mmo/source/client/ui/pixel_icon.gd	known
 godot-tiny-mmo/source/client/ui/reward_format.gd	identical
 godot-tiny-mmo/source/client/ui/shared/drag_scroll.gd	known
 godot-tiny-mmo/source/client/ui/shared/touch_stick.gd	known
@@ -438,7 +438,7 @@ godot-tiny-mmo/source/common/gameplay/dungeon/dungeon_master.gd	known
 godot-tiny-mmo/source/common/gameplay/dungeon/dungeon_reward.gd	identical
 godot-tiny-mmo/source/common/gameplay/dungeon/spawn_marker.gd	identical
 godot-tiny-mmo/source/common/gameplay/guilds/guild.gd	identical
-godot-tiny-mmo/source/common/gameplay/guilds/guild_logos.gd	other
+godot-tiny-mmo/source/common/gameplay/guilds/guild_logos.gd	known
 godot-tiny-mmo/source/common/gameplay/items/item_slot/item_slot.gd	known
 godot-tiny-mmo/source/common/gameplay/items/item_slot/item_slot_unlock_rule.gd	identical
 godot-tiny-mmo/source/common/gameplay/lighting/firefly.gd	identical
@@ -489,7 +489,7 @@ godot_open_star_fighter/src/menu_ui/main_menu/home/home.gd	identical
 godot_open_star_fighter/src/menu_ui/mulit_page_ui/page.gd	identical
 godot_open_star_fighter/src/menu_ui/pause_menu/home/home.gd	identical
 godot_open_star_fighter/src/shield/shield.gd	known
-godot_open_star_fighter/src/ship_controllers/computer/collision_avoidance/collision_avoidance_system.gd	other
+godot_open_star_fighter/src/ship_controllers/computer/collision_avoidance/collision_avoidance_system.gd	known
 godot_open_star_fighter/src/ship_controllers/player/hud/target_marker.gd	identical
 godot_open_star_fighter/src/weapons/missile_launcher.gd	identical
 tanks-of-freedom-ii/scenes/board/logic/events/ability_used.gd	known

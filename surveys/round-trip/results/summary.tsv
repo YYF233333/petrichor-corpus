@@ -1,13 +1,13 @@
 project	petrichor	migrated	converted_back	identical	known_only	other	refused
 Godot-Game-Template	1c88ead	16	11	9	2	0	5
 Pixelorama	1c88ead	203	14	14	0	0	189
-Ring	1c88ead	66	29	18	10	1	37
+Ring	1c88ead	66	29	18	11	0	37
 Starter-Kit-3D-Platformer	1c88ead	9	4	2	2	0	5
 Starter-Kit-City-Builder	1c88ead	6	3	2	1	0	3
 Starter-Kit-FPS	1c88ead	7	3	2	1	0	4
 Starter-Kit-Racing	1c88ead	3	1	1	0	0	2
 beehave	1c88ead	37	5	4	1	0	32
-deck_builder_tutorial	1c88ead	116	85	39	44	2	31
+deck_builder_tutorial	1c88ead	116	85	39	46	0	31
 godot-demo-projects/2d/bullet_shower	1c88ead	2	1	1	0	0	1
 godot-demo-projects/2d/custom_drawing	1c88ead	2	1	1	0	0	1
 godot-demo-projects/2d/dodge_the_creeps	1c88ead	4	3	0	3	0	1
@@ -103,7 +103,7 @@ godot-demo-projects/loading/threads	1c88ead	1	0	0	0	0	1
 godot-demo-projects/misc/2.5d	1c88ead	3	2	1	1	0	1
 godot-demo-projects/misc/custom_logging	1c88ead	2	1	1	0	0	1
 godot-demo-projects/misc/graphics_tablet_input	1c88ead	1	0	0	0	0	1
-godot-demo-projects/misc/hdr_output	1c88ead	14	9	7	1	1	5
+godot-demo-projects/misc/hdr_output	1c88ead	14	9	7	2	0	5
 godot-demo-projects/misc/joypads	1c88ead	3	0	0	0	0	3
 godot-demo-projects/misc/large_world_coordinates	1c88ead	1	1	0	1	0	0
 godot-demo-projects/misc/matrix_transform	1c88ead	0	0	0	0	0	0
@@ -150,9 +150,9 @@ godot-demo-projects/xr/webxr	1c88ead	1	1	0	1	0	0
 godot-open-rpg	1c88ead	42	18	12	6	0	24
 godot-open-rts	1c88ead	110	10	8	2	0	100
 godot-statecharts	1c88ead	19	15	12	3	0	4
-godot-tiny-mmo	1c88ead	405	77	62	13	2	328
+godot-tiny-mmo	1c88ead	405	77	62	15	0	328
 godot_dialogue_manager	1c88ead	3	1	1	0	0	2
-godot_open_star_fighter	1c88ead	39	17	14	2	1	22
+godot_open_star_fighter	1c88ead	39	17	14	3	0	22
 tanks-of-freedom-ii	1c88ead	292	28	5	23	0	264
 tps-demo	1c88ead	15	4	3	1	0	11
-total	1c88ead	1784	525	357	161	7	1259
+total	1c88ead	1784	525	357	168	0	1259
