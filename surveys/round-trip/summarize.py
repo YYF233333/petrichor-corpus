@@ -60,13 +60,14 @@ def words(tokens):
 # Each rule: a name, and a pattern on a change of a hunk's token diff, written "removed => added",
 # each side the tokens' texts joined by spaces (`!=` is two tokens). A hunk is named by the rules
 # its changes meet, parentheses aside; a change that meets none makes it "other".
-TYPE = r"[A-Za-z_][\w.]*( \[ [\w. ,\[\]]* \])?"
+TYPE = r"[A-Za-z_]\w*( \. \w+)*( \[ [\w. ,\[\]]* \])?"
 RULES = [
     ("type-written", rf"^ => ((: |- > )?{TYPE}|\[ {TYPE} \])$"),
     ("type-changed", rf"^{TYPE} => {TYPE}$"),
     ("truth-test", r"^ => (\) )?(! =|= =) (null|0|0\.0|''|\w+ \( \))$|^not => $|^ => not$|^ => (not )?is_instance_valid \($"
                    r"|^ => \. (is_empty|is_null) \( \)$|^(= =|! =) null => \)$"),
     ("cast", rf"^ => (\) )?as {TYPE}( \))?$"),
+    ("cast-dropped", rf"^as {TYPE} => $"),
     ("typed-array-as", r"^\(? ?\S+ as Array \[ [\w.]+ \] \)? => \S+$|^as Array \[ [\w.]+ \] \)? => $"),
     ("conversion", r"^ => (\( )?(int|float|Packed\w+Array)( \()?$|^(\d+) => \4\.0$"),
     ("method-or-signal-itself", r"^'\w+' ,? => $|^ => \w+ \.$|^emit_signal => \w+ \. emit$|^call_deferred \( '\w+' => \w+ \. call_deferred \($"),
@@ -75,8 +76,9 @@ RULES = [
 ]
 PARENTHESES = re.compile(r"^ => [()]$|^[()] => $")
 # The rules among the known rewrites of architecture §6.6 at the commit measured, beside those
-# known() applies: typed-array-as from 49b6da7, the others added by this survey.
-KNOWN = {"type-written", "type-changed", "truth-test", "conversion", "method-or-signal-itself", "typed-array-as"}
+# known() applies: typed-array-as from 49b6da7, cast and preload-constant from 7921875, the others
+# added by this survey.
+KNOWN = {"type-written", "type-changed", "truth-test", "conversion", "method-or-signal-itself", "typed-array-as", "cast", "preload-constant"}
 
 
 def changes(a, b):

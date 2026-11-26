@@ -1,6 +1,6 @@
 # 调查：迁移再转回的文件与原文差在哪里
 
-**2026-11-27** · 关联：[迁移工具的设计](https://github.com/YYF233333/Petrichor/blob/08a6a2f/docs/architecture.md#66-迁移工具)（Petrichor 提交 `08a6a2f` 的架构 §6.6）、[迁移工具在三个游戏中留下了什么](tool-migration.md)
+**2026-11-27** · 关联：[迁移工具的设计](https://github.com/YYF233333/Petrichor/blob/08a6a2f/docs/architecture.md#66-迁移工具)（Petrichor 提交 `08a6a2f` 的架构 §6.6，第二次运行见 [`1c88ead`](https://github.com/YYF233333/Petrichor/blob/1c88ead/docs/architecture.md#66-迁移工具)）、[迁移工具在三个游戏中留下了什么](tool-migration.md)
 
 Petrichor 0.3 的迁移工具是双向的。
 `pet migrate` 把 GDScript 转为本语言，`pet migrate --reverse` 再转回 GDScript。
@@ -71,7 +71,7 @@ corpus v1 的 20 个仓库中，`config_version=5` 的 Godot 4 项目共 157 个
 | godot-open-rts | 110 | 10 | 8 | 1 | 1 |
 | Ring | 66 | 29 | 18 | 8 | 3 |
 
-每个项目的数字在 [`round-trip/results/summary.tsv`](round-trip/results/summary.tsv)。
+每个项目的数字在 [`round-trip/results/summary.tsv`](round-trip/results/summary.tsv)，现为第二次运行的结果（见下文）。
 
 ### 未转回的原因
 
@@ -156,6 +156,40 @@ Petrichor 在 `549b18b` 中把它们写进 §6.6 的已知改写。
 - 转回的 523 个中，346 个与原文相同，113 个只差已知改写，64 个另有差异。
 - 另有的差异是两种迁移修复：隐式向下转换写下的 `as` 和补上的 `preload` 常量。前者在出错时改变行为，两者都待定反向规则。
 - 本次比较没有发现反向转换写错含义的地方。
+
+## 第二次运行
+
+Petrichor 在 `7921875` 中给两种差异定了反向规则（架构 §6.6）：
+- 隐式向下转换写下的 `(x as T).unwrap()`，值进入 GDScript 中也写着类型 `T` 的位置时写回 `x`，GDScript 在该处检查；其余位置留下 `(x as T)`，算作已知改写；
+- 补上的 `preload` 常量算作已知改写。GDScript 加载它所指的脚本，也加载留下的 `.pet`，作类型、`is` 和 `new()` 都同原来的类。
+
+第二次运行用 `1c88ead` 的构建，其中还有此后正向迁移的修复。
+所有项目一批，从第一次导入过的副本开始，用时 22 分钟，三个项目并行。
+gdUnit4 没有迁移的脚本，又有超出工作目录路径长度的文件，这次没有运行。
+`summarize.py` 另把带点的类名算作类型，以认出 `x as RenderingServer.ShadowQuality`。
+
+| Petrichor 提交 | 迁移的 | 转回的 | 相同 | 只差已知改写 | 另有差异 |
+|---|---:|---:|---:|---:|---:|
+| `08a6a2f` | 1,755 | 523 | 346 | 113 | 64 |
+| `1c88ead` | 1,784 | 525 | 357 | 161 | 7 |
+
+未转回的 1,259 个中，719 个有迁移留下的编译错误，528 个所在继承树中有文件留下，12 个对留下文件做类级访问。
+
+涉及 `as` 的差异块从 85 个降到 43 个：
+- 写回原值后与原文相同的不再成块；
+- 留下 `(x as T)` 的 36 块（`cast` 27 块、`cast+truth-test` 9 块）是已知改写。它们的值进入未写类型的位置，或可能为空。
+
+另有差异的 7 个文件按规则：
+
+| 规则 | 差异块 | 文件 | 例子 |
+|---|---:|---:|---|
+| 显式 `as` 写成原值 | 7 | 5 | `var sm: ShaderMaterial = %ColorSweepMesh.material as ShaderMaterial` 转回 `= %ColorSweepMesh.material` |
+| 其他 | 2 | 2 | `call_deferred("init_level")` 转回 `init_level.call_deferred()` |
+
+- **显式 `as` 写成原值（`cast-dropped`）。** 原文在写了类型的位置用 `x as T`，类不符时得 null。迁移在此补上 `.unwrap()`，让它在这里出错（规范 §1.2）。反向只读 `.pet`，分不出这与隐式向下转换写下的 `(x as T).unwrap()`，同样写回 `x`。转回的文件保留迁移后的含义：调试构建中类不符时出错，原文得 null。
+- **其他。** 两处都是已知改写，只是规则的模式没有认出：改用方法本身的 `call_deferred()` 词法单元对齐不同；`(fit as Callable)` 是不转换的 `as` 写回的原值。
+
+本次比较同样没有报出反向转换的缺陷。
 
 ## 局限
 

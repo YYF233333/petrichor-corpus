@@ -1,16 +1,16 @@
 rule	known	hunks	files	first	example
-truth-test	yes	131	81	Godot-Game-Template/scenes/game/levels/character_body_2d.gd	-     if direction: | +     if direction != 0:
-type-written	yes	81	50	Ring/breakout/scenes/balls/ball.gd	- @onready var fire_ball_timer = $FireBallTimer as Timer | - @onready var lightning_ball_timer = $LightningBallTimer as Timer | + @onready var fire_ball_timer: Timer = $FireBallTimer as Timer | + @onready var lightning_ball_timer: Timer = $LightningBallTimer as Timer
-cast	no	67	43	Pixelorama/src/UI/Dialogs/HelperScripts/RowColumnLines.gd	-     var texture_rect: TextureRect = get_parent() | +     var texture_rect: TextureRect = (get_parent() as TextureRect)
-conversion	yes	25	19	Ring/breakout/scenes/bricks/base/brick.gd	-     physic_hurt(ValueManager.laser_beam_damage) | +     physic_hurt(int(ValueManager.laser_beam_damage))
-cast+truth-test	no	10	8	Ring/breakout/scenes/balls/ball.gd	-     var collider:Node2D = collision.get_collider() if collision else null | +     var collider:Node2D = (collision.get_collider() if collision != null else null) as Node2D
+truth-test	yes	134	84	Godot-Game-Template/scenes/game/levels/character_body_2d.gd	-     if direction: | +     if direction != 0:
+type-written	yes	83	51	Ring/breakout/scenes/balls/ball.gd	- @onready var fire_ball_timer = $FireBallTimer as Timer | - @onready var lightning_ball_timer = $LightningBallTimer as Timer | + @onready var fire_ball_timer: Timer = $FireBallTimer as Timer | + @onready var lightning_ball_timer: Timer = $LightningBallTimer as Timer
+cast	yes	27	21	Ring/breakout/scenes/bricks/base/brick.gd	-     $Sprite2D.texture = sprites[type] | +     $Sprite2D.texture = (sprites[type] as Texture2D)
+conversion	yes	27	20	Ring/breakout/scenes/bricks/base/brick.gd	-     physic_hurt(ValueManager.laser_beam_damage) | +     physic_hurt(int(ValueManager.laser_beam_damage))
+cast+truth-test	yes	9	7	Ring/breakout/scenes/balls/ball.gd	-     var collider:Node2D = collision.get_collider() if collision else null | +     var collider:Node2D = (collision.get_collider() if collision != null else null) as Node2D
 type-written+typed-array-as	yes	8	1	Ring/breakout/scenes/managers/resource_manager.gd	-     for drop_tres in (drop_tres_pool as Array[Drop_Info]): | +     for drop_tres: Drop_Info in drop_tres_pool:
-parentheses	no	7	5	deck_builder_tutorial/custom_resources/save_game.gd	-         return ResourceLoader.load(SAVE_PATH) as SaveGame | +         return (ResourceLoader.load(SAVE_PATH) as SaveGame)
-preload-constant	no	7	7	godot-demo-projects/2d/dodge_the_creeps/main.gd	"+ const Mob = preload(""res://mob.pet"") | +"
+cast-dropped	no	7	5	deck_builder_tutorial/custom_resources/save_game.gd	-         return ResourceLoader.load(SAVE_PATH) as SaveGame | +         return ResourceLoader.load(SAVE_PATH)
+preload-constant	yes	7	7	godot-demo-projects/2d/dodge_the_creeps/main.gd	"+ const Mob = preload(""res://mob.pet"") | +"
 truth-test+type-written	yes	5	5	Ring/breakout/scenes/projectiles/laser_beam.gd	- func attack(target): | -     if target: | + func attack(target: Object): | +     if target != null:
-method-or-signal-itself	yes	4	3	deck_builder_tutorial/scenes/modifier_handler/modifier_value.gd	-     var new_modifier := new() | +     var new_modifier := ModifierValue.new()
-preload-constant+type-written	no	2	2	godot-statecharts/godot_state_charts_examples/platformer/breaking_box/breaking_box.gd	"- signal clicked(node) | + const BreakingBox = preload(""res://godot_state_charts_examples/platformer/breaking_box/breaking_box.gd"") | + | + signal clicked(node: BreakingBox)"
+method-or-signal-itself	yes	2	2	deck_builder_tutorial/scenes/modifier_handler/modifier_value.gd	-     var new_modifier := new() | +     var new_modifier := ModifierValue.new()
+method-or-signal-itself+type-changed	yes	2	1	godot-demo-projects/mobile/android_iap/item.gd	"-     emit_signal(""buy_pressed"", product_id) | +     buy_pressed.emit(product_id)"
+other	no	2	2	Ring/breakout/scenes/levels/goal_test_level/goal_test_level_manager.gd	"-     call_deferred(""init_level"") | +     init_level.call_deferred()"
+preload-constant+type-written	yes	2	2	godot-statecharts/godot_state_charts_examples/platformer/breaking_box/breaking_box.gd	"- signal clicked(node) | + const BreakingBox = preload(""res://godot_state_charts_examples/platformer/breaking_box/breaking_box.gd"") | + | + signal clicked(node: BreakingBox)"
 typed-array-as	yes	2	1	Ring/breakout/scenes/managers/resource_manager.gd	-     for level_name in (level_name_pool as Array[String]): | +     for level_name in level_name_pool:
-cast+type-written	no	1	1	godot-demo-projects/2d/platformer/player/player.gd	"- @onready var gun: Gun = sprite.get_node(^""Gun"") | - @onready var camera := $Camera as Camera2D | + @onready var gun: Gun = (sprite.get_node(^""Gun"") as Gun) | + @onready var camera: Camera2D = $Camera as Camera2D"
-other	no	1	1	Ring/breakout/scenes/levels/goal_test_level/goal_test_level_manager.gd	"-     call_deferred(""init_level"") | +     init_level.call_deferred()"
 type-changed	yes	1	1	deck_builder_tutorial/custom_resources/character_stats.gd	- func create_instance() -> Resource: | + func create_instance() -> CharacterStats:
