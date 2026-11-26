@@ -8,6 +8,7 @@
 
 报告用中文写成，每篇末尾附复现命令。
 
+- [迁移再转回的文件与原文差在哪里？](surveys/round-trip.md)
 - [迁移工具在三个游戏中留下了什么？](surveys/tool-migration.md)
 - [在语料 v2 上重跑设计证据](surveys/v2-rerun.md)
 - [脚本会见到不止一种场景结构吗？](surveys/scene-structures.md)

@@ -8,6 +8,7 @@ This repository holds the evidence behind the design of [Petrichor](https://gith
 
 The write-ups are in Chinese. Each ends with the commands that reproduce it.
 
+- [Where do files migrated and converted back differ from their originals?](surveys/round-trip.md)
 - [What does the migration tool leave in three games?](surveys/tool-migration.md)
 - [Rerunning the design evidence on corpus v2](surveys/v2-rerun.md)
 - [Do scripts see more than one scene structure?](surveys/scene-structures.md)
